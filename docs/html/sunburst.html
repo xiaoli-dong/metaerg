@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MetaErg</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="sequences.css"/>
+   
+  </head> 
+  <body><script type="text/javascript" src="sequences.js"></script>
+    <div class="jumbotron text-center mb-0" style="background-color:#3a3a4f;;">
+      <h1 id="banner"></h1>
+    </div>
+    <nav class="site-header py-0 mb-5">
+      <div class="container d-flex justify-content-end">
+	<a class="pl-4 d-none d-md-inline-block" href="#">Home</a>
+	<a class="pl-4 d-none d-md-inline-block" href="#">About</a>
+	<a class="pl-4 d-none d-md-inline-block" href="#">Help</a>
+      </div>
+    </nav>
+    <div class="container"> 
+      <div>
+	<div class="title">Taxonomy summary based on protein coding genes</div>
+	<!-- div class="subtitle">(Based on 16S rRNAs)</div -->
+	<div id="chart"></div>
+      </div>
+      <div style="height:50px;"></div>
+    </div>
+   <script type="text/javascript" src="sequences.js"></script>
+   <script>
+     d3.json("tmp.json", function(error, data) {
+    if (error) throw error;
+    json = data;
+    //alert(json.name);
+    createVisualization(json);
+});
+
+   </script>
+    <footer>
+      <div class="footer-bottom">
+	<div class="col-xs-12">
+          <!--Footer Bottom-->
+          <p class="text-center">&copy; Copyright 2018 - Energy Bioengineering Group.  All rights reserved.</p>
+	</div>
+      </div>
+    </footer>
+    
+    
+    
+  </body>
+</html>

@@ -1,0 +1,162 @@
+data = {
+ "text":"Metabolic",
+ "children": [
+ {
+  "text": "Oxygen",
+  "children":[
+   {
+    "text": "Cytochrome (quinone) oxidase, bo type",
+    "children":[
+     {
+      "text": "CyoE",
+      "size": 1
+     }
+    ]
+   },
+   {
+    "text": "Cytochrome (quinone) oxidase, bd type",
+    "children":[
+     {
+      "text": "CydA",
+      "size": 1
+     },
+     {
+      "text": "CydB",
+      "size": 1
+     }
+    ]
+   },
+   {
+    "text": "Cytochrome c oxidase, caa3-type",
+    "children":[
+     {
+      "text": "CoxA",
+      "size": 1
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Arsenic",
+  "children":[
+   {
+    "text": "Arsenate reduction",
+    "children":[
+     {
+      "text": "glutathione/glutaredoxin type",
+      "size": 1
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Sulfur",
+  "children":[
+   {
+    "text": "Sulfate reduction",
+    "children":[
+     {
+      "text": "cysC",
+      "size": 1
+     },
+     {
+      "text": "sat",
+      "size": 1
+     }
+    ]
+   },
+   {
+    "text": "Sulfur oxidation",
+    "children":[
+     {
+      "text": "sulfur dioxygenase",
+      "size": 1
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Nitrogen",
+  "children":[
+   {
+    "text": "Nitric oxide reduction",
+    "children":[
+     {
+      "text": "norB",
+      "size": 1
+     }
+    ]
+   },
+   {
+    "text": "N2 fixation",
+    "children":[
+     {
+      "text": "nifH",
+      "size": 1
+     },
+     {
+      "text": "Mo-Fe type beta",
+      "size": 1
+     },
+     {
+      "text": "Mo-Fe type Alpha",
+      "size": 1
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "C1 compounds",
+  "children":[
+   {
+    "text": "Formaldehyde oxidation",
+    "children":[
+     {
+      "text": "S-formylglutathione hydrolase",
+      "size": 1
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Carbon fixation",
+  "children":[
+   {
+    "text": "CBB cycle - Rubisco",
+    "children":[
+     {
+      "text": "Form I",
+      "size": 1
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Urea",
+  "children":[
+   {
+    "text": "Urease",
+    "children":[
+     {
+      "text": "ureC",
+      "size": 1
+     },
+     {
+      "text": "ureA",
+      "size": 1
+     },
+     {
+      "text": "ureB",
+      "size": 1
+     }
+    ]
+   }
+  ]
+  }
+]}

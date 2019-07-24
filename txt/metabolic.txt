@@ -1,0 +1,132 @@
+#Compounds	Process/Gene type	Gene	ID	Hmm database	Cutoff Score
+Sulfur	Sulfide oxidation	fcc	PF09242	Pfam	266
+Sulfur	Sulfide oxidation	Sqr	sqr_alignment	Custom	300
+Sulfur	Sulfite reduction	dsrD	PF08679	Pfam	50
+Sulfur	Sulfur oxidation	dsrA	TIGR02064	TIGRfam	223
+Sulfur	Sulfur oxidation	dsrB	TIGR02066	TIGRfam	205
+Sulfur	Sulfur oxidation	sor	PF07682	Pfam	300
+Sulfur	Sulfur oxidation	sulfur dioxygenase	sulfur_dioxygenase_sdo_alignment	Custom	120
+Sulfur	thiosulfate oxidation	soxB	TIGR04486	TIGRfam	375
+Sulfur	thiosulfate oxidation	soxY	TIGR04488	TIGRfam	125
+Sulfur	thiosulfate oxidation	soxC	TIGR04555	TIGRfam	330
+Sulfur	Sulfate reduction	asrA	TIGR02910	TIGRfam	223
+Sulfur	Sulfate reduction	asrB	TIGR02911	TIGRfam	226
+Sulfur	Sulfate reduction	asrC	TIGR02912	TIGRfam	194
+Sulfur	Sulfate reduction	aprA	TIGR02061	TIGRfam	326
+Sulfur	Sulfate reduction	sat	TIGR00339	TIGRfam	181
+Sulfur	Sulfate reduction	cysC	TIGR00455	TIGRfam	133
+Sulfur	Sulfate reduction	cysN	TIGR02034	TIGRfam	327
+Sulfur	Thiosulfate disproportionation	phsA	thiosulfate_reductase_phsA_alignment	Custom	323
+Hydrogen	FeFe hydrogenase	Group B1/B3	TIGR04105	TIGRfam	380
+Hydrogen	FeFe hydrogenase	Group A	TIGR02512	TIGRfam	300
+Hydrogen	Ni-Fe Hydrogenase	Group 1	Hydrogenase_Vignais_Group_1_alignment	Custom	411
+Hydrogen	Ni-Fe Hydrogenase	Group 2a	Hydrogenase_Vignais_Group_2a_alignment	Custom	472
+Hydrogen	Ni-Fe Hydrogenase	Group 2b	Hydrogenase_Vignais_Group_2b_alignment	Custom	555
+Hydrogen	Ni-Fe Hydrogenase	Group 3a	Hydrogenase_Vignais_Group_3a_alignment	Custom	368
+Hydrogen	Ni-Fe Hydrogenase	Group 3b	Hydrogenase_Vignais_Group_3b_alignment	Custom	303
+Hydrogen	Ni-Fe Hydrogenase	Group 3c	Hydrogenase_Vignais_Group_3c_alignment	Custom	575
+Hydrogen	Ni-Fe Hydrogenase	Group 3d	Hydrogenase_Vignais_Group_3d_alignment	Custom	541
+Hydrogen	Ni-Fe Hydrogenase	Group 4	Hydrogenase_Vignais_Group_4_alignment	Custom	430
+Methane	Methane oxidation - Partculate methane monooxygenase	pmoA	TIGR03080	TIGRfam	92
+Methane	Methane oxidation - Partculate methane monooxygenase	pmoB	TIGR03079	TIGRfam	202
+Methane	Methane oxidation - Partculate methane monooxygenase	pmoC	TIGR03078	TIGRfam	124
+Methane	Methane oxidation - Soluble methane monoxygenase	mmoB	PF02406	Pfam	-
+Methane	Methane oxidation - Soluble methane monoxygenase	mmoD	TIGR04550	TIGRfam	-
+Methane	Methane production	mcr alpha	TIGR03256	TIGRfam	314
+Methane	Methane production	mcr beta	TIGR03257	TIGRfam	173
+Methane	Methane production	mcr gamma	TIGR03259	TIGRfam	171
+Nitrogen	Ammonia oxidation	pmoA	TIGR03080	TIGRfam	92
+Nitrogen	Ammonia oxidation	pmoB	TIGR03079	TIGRfam	202
+Nitrogen	Ammonia oxidation	pmoC	TIGR03078	TIGRfam	124
+Nitrogen	N2 fixation	Fe only alpha	TIGR01861	TIGRfam	873
+Nitrogen	N2 fixation	Fe only beta	TIGR02931	TIGRfam	853
+Nitrogen	N2 fixation	Fe only delta	TIGR02929	TIGRfam	124
+Nitrogen	N2 fixation	Mo-Fe type Alpha	TIGR01282	TIGRfam	503
+Nitrogen	N2 fixation	Mo-Fe type beta	TIGR01286	TIGRfam	414
+Nitrogen	N2 fixation	Vanadium-type alpha	TIGR01860	TIGRfam	822
+Nitrogen	N2 fixation	Vanadium-type beta	TIGR02932	TIGRfam	821
+Nitrogen	N2 fixation	Vanadium-type delta	TIGR02930	TIGRfam	122
+Nitrogen	N2 fixation	nifH	TIGR01287	TIGRfam	261
+Nitrogen	Nitrite oxidation	nxrA	nxrA_alignment	Custom	370
+Nitrogen	Nitrite oxidation	nxrB	nxrB_alignment	Custom	252
+Nitrogen	Nitrate reduction	napA	TIGR01706	TIGRfam	472
+Nitrogen	Nitrate reduction	napB	PF03892	Pfam	23.9
+Nitrogen	Nitrate reduction	narG	TIGR01580	TIGRfam	600
+Nitrogen	Nitrate reduction	narH	TIGR01660 	TIGRfam	348
+Nitrogen	Nitrite reduction	cyt c552 small NrfH	TIGR03153	TIGRfam	75
+Nitrogen	Nitrite reduction	cyt c552 large NrFA	PF02335	Pfam	57
+Nitrogen	Nitrite reduction	cyt c552 large NrFA	PF02335/TIGR03152 	Pfam/TIGRfam	576
+Nitrogen	Nitrite reduction	nrfD	TIGR03148	TIGRfam	300
+Nitrogen	Nitrite reduction	NirB	TIGR02374	TIGRfam	442
+Nitrogen	Nitrite reduction	NirD	TIGR02378	TIGRfam	69
+Nitrogen	Nitrite reduction	nirK	TIGR02376	TIGRfam	169
+Nitrogen	Nitrite reduction	nirS	nirS_alignment	Custom	200
+Nitrogen	Nitric oxide reduction	norB	norB_alignment	Custom	79
+Nitrogen	Nitric oxide reduction	norC	norC_alignment	Custom	50
+Nitrogen	Nitrous oxide reduction	nosD	PF05048/TIGR04247	Pfam/TIGRfam	290
+Nitrogen	Nitrous oxide reduction	nosZ	TIGR04246	TIGRfam	550
+Nitrogen	Anammox	hzoA	hzoA_alignment	Custom 	325
+Nitrogen	Anammox	hzsA	hzsA_alignment	Custom	466
+Nitrogen	Octaheme c-type cytochrome Shewanella-type	octR	TIGR04315	TIGRfam	325
+Oxygen	Cytochrome c oxidase, caa3-type	CoxA	TIGR02891	TIGRfam	617
+Oxygen	Cytochrome c oxidase, caa3-type	CoxB	TIGR02866	TIGRfam	144
+Oxygen	Cytochrome c oxidase, cbb3-type	ccoN	TIGR00780	TIGRfam	168
+Oxygen	Cytochrome c oxidase, cbb3-type	ccoO	TIGR00781	TIGRfam	62
+Oxygen	Cytochrome c oxidase, cbb3-type	ccoP	TIGR00782	TIGRfam	54
+Oxygen	Cytochrome (quinone) oxidase, bo type	CyoA	TIGR01433	TIGRfam	218
+Oxygen	Cytochrome (quinone) oxidase, bo type	CyoD	TIGR02847	TIGRfam	64
+Oxygen	Cytochrome (quinone) oxidase, bo type	CyoE	TIGR01473	TIGRfam	138
+Oxygen	Cytochrome (quinone) oxidase, bd type	CydA	PF01654	Pfam	118
+Oxygen	Cytochrome (quinone) oxidase, bd type	CydB	TIGR00203	TIGRfam	88
+Oxygen	Cytochrome (quinone) oxidase, aa3 type, QoxABCD	QoxA	TIGR01432	TIGRfam	204
+Oxygen	Cytochrome (quinone) oxidase, aa3 type, QoxABCD	QoxB	TIGR02882	TIGRfam	954
+C1 compounds	Methanol oxidation	pqq EC 1.1.2.7	pqq_xoxF_mxaF_alignment	Custom	166
+C1 compounds	Methanol oxidation	NDMA-dependent methanol dehydrogenase EC 1.1.1.244	TIGR04266	TIGRfam	400
+C1 compounds	Methyl amine -> formaldehyde	madA	TIGR02659	TIGRfam	85
+C1 compounds	Methyl amine -> formaldehyde	madB	TIGR02658	TIGRfam	90
+C1 compounds	Formaldehyde oxidation	fdh thiol-independent type	TIGR02819	TIGRfam	425
+C1 compounds	Formaldehyde oxidation	S-formylglutathione hydrolase	TIGR02821	TIGRfam	131
+C1 compounds	Formaldehyde oxidation	S-(hydroxymethyl)glutathione dehydrogenase	TIGR02818	TIGRfam	509
+C1 compounds	Formaldehyde oxidation	S-(hydroxymethyl)mycothiol dehydrogenase	TIGR03451	TIGRfam	512
+C1 compounds	Formaldehyde oxidation	fae	TIGR03126	TIGRfam	31
+C1 compounds	Formaldehyde oxidation	Formylmethanofuran:tetrahyromethanopterin formyltransferase	TIGR03119	TIGRfam	94
+C1 compounds	Formaldehyde oxidation	methenyltetrahydromethanopterin cyclohydrolase	TIGR03120	TIGRfam	147
+C1 compounds	Formate oxidation	formate dehydrogenase, alpha subunit	TIGR01591	TIGRfam	610
+C1 compounds	Formate oxidation	formate dehydrogenase, beta subunit	TIGR01582	TIGRfam	152
+C1 compounds	Formate oxidation	formate dehydrogenase, gamma subunit	TIGR01583	TIGRfam	56
+Carbon monoxide	CO oxidation	coxS	coxS_alignment	Custom	198
+Carbon monoxide	CO oxidation	coxM	coxM_alignment	Custom	184
+Carbon monoxide	CO oxidation	coxL	TIGR02416	TIGRfam	300
+Carbon fixation	CBB cycle - Rubisco	Form I	rubisco_form_I_alignment	Custom	500
+Carbon fixation	CBB cycle - Rubisco	Form II	rubisco_form_II_alignment	Custom	500
+Carbon fixation	CBB cycle - Rubisco	Form II/III	rubisco_form_II_III_alignment	Custom	500
+Carbon fixation	CBB cycle - Rubisco	Form III	rubisco_form_III_alignment	Custom	450
+Carbon fixation	3 Hydroxypropionate cycle	propionyl-CoA synthase	Custom	Custom	-
+Carbon fixation	4 Hydroxypropionate cycle	malonyl-CoA reductase	Custom	Custom	-
+Carbon fixation	3HP/4HB	4-hydroxybutyryl-CoA synthetase	Custom	Custom	-
+Carbon fixation	3HP/4HB	4-hydroxybutyryl-CoA dehydratase	Custom	Custom	-
+Carbon fixation	Wood Ljungdahl pathway	codhD (delta)	TIGR00381	TIGRfam	197
+Carbon fixation	Wood Ljungdahl pathway	codhC (beta)	TIGR00316	TIGRfam	355
+Carbon fixation	Wood Ljungdahl pathway	codh (catalytic)	TIGR01702	TIGRfam	210
+Carbon fixation	Reverse TCA cycle	aclA	aclA_alignment	Custom	215
+Carbon fixation	Reverse TCA cycle	aclB	aclB_alignment	Custom	177
+Urea	Urease	ureC	TIGR01792	TIGRfam	212
+Urea	Urease	ureB	TIGR00192	TIGRfam	40
+Urea	Urease	ureA	TIGR00193	TIGRfam	31
+Halogenated compounds	Halogenated compounds breakdown	Haloacid dehydrogenase	TIGR01428	TIGRfam	72
+Halogenated compounds	Halogenated compounds breakdown	Reductive dehalogenase	TIGR02486	TIGRfam	132
+Halogenated compounds	Perchlorate reduction	pcrA	TIGR03479	TIGRfam	559
+Halogenated compounds	Perchlorate reduction	pcrB	TIGR03478	TIGRfam	319
+Halogenated compounds	Chlorite reduction	Chlorite dismutase	PF06778	Pfam	65
+Arsenic	Arsenite oxidation	arsenite oxidase small	TIGR02694	TIGRfam	61
+Arsenic	Arsenite oxidation	arsenite oxidase large	TIGR02693	TIGRfam	357
+Arsenic	Arsenate reduction	arsC	TIGR00014	TIGRfam	61
+Arsenic	Arsenate reduction	thioredoxin	TIGR02691	TIGRfam	112
+Arsenic	Arsenate reduction	glutathione/glutaredoxin type	TIGR02689	TIGRfam	113
+Selenium	Selenate reduction	ygfM	TIGR03312	TIGRfam	87
+Selenium	Selenate reduction	molybdenum-binding subunit	TIGR03313	TIGRfam	526
+Selenium	Selenate reduction	YgfK	TIGR03315	TIGRfam	354
+Nitriles	Nitrile hydratase	nthA	TIGR01323	TIGRfam	239
+Nitriles	Nitrile hydratase	nthB	TIGR03888	TIGRfam	136
+Metals	Metal (Iron/Manganese) oxidation/reduction	mtrA	TIGR03507	TIGRfam	60
+Metals	Metal (Iron/Manganese) oxidation/reduction	mtrC	TIGR03509	TIGRfam	165

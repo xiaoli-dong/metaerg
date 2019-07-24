@@ -1,0 +1,5 @@
+#Gene	Start	End	Length	Strand	Contig	Source	Feature	Taxonomy
+demo|05072	115	182	68	1	bin00.contig0123	rRNAFinder.pl	bac_5SrRNA	unknown
+demo|05180	113	2994	2882	1	bin00.contig0145	rRNAFinder.pl	bac_23SrRNA	Bacteria;Cyanobacteria;Oxyphotobacteria
+demo|05181	3057	3172	116	1	bin00.contig0145	rRNAFinder.pl	bac_5SrRNA	unknow
+demo|05216	264	1752	1489	1	bin00.contig0157	rRNAFinder.pl	bac_16SrRNA	Bacteria;Cyanobacteria;Oxyphotobacteria;Nostocales;Geitlerinemaceae;Geitlerinema PCC-7105

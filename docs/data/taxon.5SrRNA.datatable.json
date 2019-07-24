@@ -1,0 +1,32 @@
+data = [
+  {
+   "Name": "unknown",
+   "Count": 1,
+   "Count_pct": 50.00,
+  "Abundance": 1525.10,
+  "Abundance_pct": 8.44,
+  "depth_M1": 279.04,
+  "depth_pct_M1": 6.44,
+  "depth_M2": 675.09,
+  "depth_pct_M2": 14.30,
+  "depth_M3": 98.44,
+  "depth_pct_M3": 2.39,
+  "depth_M4": 472.53,
+  "depth_pct_M4": 9.66
+  },
+  {
+   "Name": "unclassified",
+   "Count": 1,
+   "Count_pct": 50.00,
+  "Abundance": 16538.10,
+  "Abundance_pct": 91.56,
+  "depth_M1": 4056.92,
+  "depth_pct_M1": 93.56,
+  "depth_M2": 4045.12,
+  "depth_pct_M2": 85.70,
+  "depth_M3": 4016.51,
+  "depth_pct_M3": 97.61,
+  "depth_M4": 4419.55,
+  "depth_pct_M4": 90.34
+  }
+ ]

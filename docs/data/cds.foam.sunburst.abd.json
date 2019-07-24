@@ -1,0 +1,1075 @@
+data = {
+ "text":"FOAM",
+ "children": [
+ {
+  "text": "17_Gluconeogenesis",
+  "children":[
+   {
+    "text": "Gluconeogenesis",
+    "size": 116361.98
+   },
+   {
+    "text": "Gluconeogenesis in archea",
+    "size": 148842.93
+   }
+  ]
+  },
+ {
+  "text": "20_Hydrolysis of polymers",
+  "children":[
+   {
+    "text": "Chitin",
+    "size": 18956.78
+   },
+   {
+    "text": "Galactose",
+    "size": 78026.47
+   },
+   {
+    "text": "Mannose",
+    "size": 438363.6
+   },
+   {
+    "text": "Xylose",
+    "size": 91944.29
+   },
+   {
+    "text": "Starch",
+    "size": 390587.52
+   }
+  ]
+  },
+ {
+  "text": "04_Utililization of sugar, conversion of pentose to EMP pathway intermediates",
+  "children":[
+   {
+    "text": "Pentose",
+    "size": 19653.22
+   }
+  ]
+  },
+ {
+  "text": "08_Hydrocarbon degradation",
+  "children":[
+   {
+    "text": "Aromatic carboxylic acid degradation",
+    "size": 40474.49
+   },
+   {
+    "text": "Hydrocarbon degradation",
+    "size": 6344.48
+   },
+   {
+    "text": "Polycyclic aromatic hydrocarbon degradation",
+    "size": 200771.31
+   },
+   {
+    "text": "Nitoaromatics degradation",
+    "size": 19794.86
+   },
+   {
+    "text": "BTEX and related aromatics degradation",
+    "size": 12694.16
+   },
+   {
+    "text": "Polycyclic aromatics degradation",
+    "size": 11.69
+   },
+   {
+    "text": "Other aromatics degradation",
+    "size": 13104
+   }
+  ]
+  },
+ {
+  "text": "06_Amino acid utilization biosynthesis metabolism",
+  "children":[
+   {
+    "text": "Lysine degradation II",
+    "size": 19440.88
+   },
+   {
+    "text": "Lysine degradation v",
+    "size": 20888.45
+   },
+   {
+    "text": "D-arginine and D-ornithine metabolism",
+    "size": 6421.77
+   },
+   {
+    "text": "Methionine biosynthesis",
+    "size": 65023.28
+   },
+   {
+    "text": "Histidine degradation",
+    "size": 6341.34
+   },
+   {
+    "text": "Lysine degradation Iv",
+    "size": 20888.45
+   },
+   {
+    "text": "Methionine degradation",
+    "size": 39794.81
+   },
+   {
+    "text": "Alanine, aspartate and glutamate metabolism (contain asparagin as well)",
+    "size": 200507.09
+   },
+   {
+    "text": "Lysine biosynthesis",
+    "size": 211141.16
+   },
+   {
+    "text": "Phenylalanine, tyrosine and tryptophan biosynthesis",
+    "size": 284182.47
+   },
+   {
+    "text": "Valine, leucine and isoleucine degradation",
+    "size": 111820.09
+   },
+   {
+    "text": "Aminoacid dehydratase",
+    "size": 6209.59
+   },
+   {
+    "text": "Amino acid biosynthesis precursor pyruvate and oxaloacetate",
+    "children":[
+     {
+      "text": "Pyruvate to leucine",
+      "size": 25949.47
+     },
+     {
+      "text": "PEP",
+      "size": 247339.83
+     },
+     {
+      "text": "Cysteine and methionine",
+      "size": 387754.28
+     },
+     {
+      "text": "Glutamate",
+      "size": 25660.48
+     },
+     {
+      "text": "Histidine",
+      "size": 414275.58
+     },
+     {
+      "text": "Oxaloacetate to aspartate and asparagine",
+      "size": 51792.44
+     },
+     {
+      "text": "Oxaloacetate to lysine",
+      "size": 384906.93
+     }
+    ]
+   },
+   {
+    "text": "Glycine, serine and threonine metabolism",
+    "size": 243164.64
+   },
+   {
+    "text": "Valine, leucine and isoleucine biosynthesis",
+    "size": 144436.78
+   },
+   {
+    "text": "D-glutamine and D-glutamate metabolism",
+    "size": 46443.71
+   },
+   {
+    "text": "Transamination",
+    "size": 32587.57
+   },
+   {
+    "text": "Tryptophan metabolism",
+    "size": 123910.26
+   },
+   {
+    "text": "Phenylalanine metabolism",
+    "size": 149350.03
+   },
+   {
+    "text": "Lysine degradation VII",
+    "size": 20888.45
+   },
+   {
+    "text": "Cysteine and methionine metabolism",
+    "size": 239791.29
+   },
+   {
+    "text": "Lysine degradation vI",
+    "size": 20888.45
+   },
+   {
+    "text": "Lysine degradation VIII",
+    "size": 6546.36
+   },
+   {
+    "text": "Lysine degradation I",
+    "size": 6688.88
+   },
+   {
+    "text": "Oxydation deamination",
+    "size": 32401.32
+   },
+   {
+    "text": "Histidine biosynthesis, pRpp => histidine",
+    "size": 188026.56
+   },
+   {
+    "text": "Arginine and proline metabolism",
+    "size": 347903.26
+   },
+   {
+    "text": "Lysine degradation X",
+    "size": 6209.59
+   }
+  ]
+  },
+ {
+  "text": "19_Saccharide and derivated synthesis",
+  "children":[
+   {
+    "text": "Polysaccharide biosynthesis and assembly of cell surface structure",
+    "children":[
+     {
+      "text": "N-glycan biosynthesis",
+      "size": 360212.49
+     },
+     {
+      "text": "Lipopolysaccharide biosynthesis",
+      "size": 572842.76
+     },
+     {
+      "text": "Mucin type O-glycan biosynthesis",
+      "size": 296116.74
+     },
+     {
+      "text": "Peptidoglycan biosynthesis",
+      "size": 425659.45
+     },
+     {
+      "text": "Murein",
+      "size": 63886.62
+     }
+    ]
+   },
+   {
+    "text": "Disaccaride phosphorylase",
+    "children":[
+     {
+      "text": "Sucrose",
+      "size": 12826.36
+     },
+     {
+      "text": "Maltose",
+      "size": 52113.81
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "03_Superpathway of thiosulfate metabolism (Desulfovibrio sulfodismutans)",
+  "size": 51174.05
+  },
+ {
+  "text": "10_TCA cycle",
+  "children":[
+   {
+    "text": "TCA cycle",
+    "size": 169723.96
+   },
+   {
+    "text": "Replenishment of TCA cycle intermediates (necessary because some intermediates serve as precursors for biosysnthesis)",
+    "size": 53147.51
+   },
+   {
+    "text": "Reductive TCA cycle",
+    "size": 98392.89
+   },
+   {
+    "text": "Incomplete TCA fork",
+    "size": 150815.31
+   }
+  ]
+  },
+ {
+  "text": "07_Nucleic acid metabolism",
+  "children":[
+   {
+    "text": "Degradation of pyrimidine bases",
+    "size": 6473.07
+   },
+   {
+    "text": "Purine metabolism",
+    "size": 1638041.62
+   },
+   {
+    "text": "Pyrimidine metabolism",
+    "size": 623201.88
+   }
+  ]
+  },
+ {
+  "text": "16_Embden Meyerhof-Parnos (EMP)",
+  "children":[
+   {
+    "text": "EMP modified pathway",
+    "size": 19212.03
+   },
+   {
+    "text": "Glycolysis III (EMP)",
+    "size": 137380.16
+   },
+   {
+    "text": "EMP  in archea",
+    "size": 90846.44
+   },
+   {
+    "text": "EMP",
+    "size": 130095.19
+   }
+  ]
+  },
+ {
+  "text": "05_Fatty acid oxidation",
+  "children":[
+   {
+    "text": "Fatty acid activation",
+    "size": 57449.96
+   },
+   {
+    "text": "Fatty acid alpha-oxidation",
+    "size": 6344.48
+   },
+   {
+    "text": "Fatty acid beta-oxidation II (core pathway)",
+    "size": 65983.66
+   },
+   {
+    "text": "Fatty acid beta-oxidation III (unsaturated)",
+    "size": 6028.36
+   },
+   {
+    "text": "Fatty acid beta-oxidation IV (unsaturated)",
+    "size": 12802.91
+   },
+   {
+    "text": "Fatty acid omega-oxidation",
+    "size": 6344.48
+   },
+   {
+    "text": "Fatty acid beta-oxidation I",
+    "size": 97791.84
+   }
+  ]
+  },
+ {
+  "text": "09_Carbohydrate Active enzyme - CAZy",
+  "children":[
+   {
+    "text": "Polysaccharide lyase",
+    "size": 63775.17
+   },
+   {
+    "text": "Glycoside hydrolase",
+    "size": 199288.16
+   },
+   {
+    "text": "Glycosyltransferase",
+    "size": 415780.28
+   },
+   {
+    "text": "Carbohydrate esterase",
+    "size": 45469.71
+   }
+  ]
+  },
+ {
+  "text": "11_Nitrogen cycle",
+  "children":[
+   {
+    "text": "Ammonia assimilation",
+    "size": 57995.52
+   },
+   {
+    "text": "Nitrogen Fixation",
+    "size": 45564.14
+   },
+   {
+    "text": "Nitrogenated compounds Reduction",
+    "children":[
+     {
+      "text": "Denitrification",
+      "children":[
+       {
+        "text": "Nitrite to nitrite oxide",
+        "size": 13790.79
+       },
+       {
+        "text": "Nitrite oxide to nitrous oxide",
+        "size": 5943.52
+       },
+       {
+        "text": "Nitrous oxide to nitrogen",
+        "size": 6466.38
+       }
+      ]
+     },
+     {
+      "text": "Assimilatory nitrate reduction",
+      "children":[
+       {
+        "text": "Nitrate to ammonia",
+        "size": 12967.86
+       }
+      ]
+     },
+     {
+      "text": "Hydroxylamine reduction",
+      "size": 6709.57
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "13_Hydrogen metabolism",
+  "children":[
+   {
+    "text": "Hydrogen oxidation aerobic",
+    "size": 12931.58
+   },
+   {
+    "text": "Hydrogen production VII (chlorophyta, cyanobacteria)",
+    "size": 19419.3
+   },
+   {
+    "text": "Hydrogen production",
+    "size": 19494.26
+   }
+  ]
+  },
+ {
+  "text": "14_Methanogenesis",
+  "children":[
+   {
+    "text": "From acetate",
+    "size": 83901.17
+   },
+   {
+    "text": "From dimethylamine",
+    "size": 51325.15
+   },
+   {
+    "text": "From formate",
+    "size": 134194.81
+   },
+   {
+    "text": "From methylamine",
+    "size": 58055.94
+   },
+   {
+    "text": "From methanol",
+    "size": 51325.15
+   },
+   {
+    "text": "From trimethylamine",
+    "size": 51325.15
+   },
+   {
+    "text": "From CO2",
+    "size": 95402.13
+   }
+  ]
+  },
+ {
+  "text": "18_Sulfur compounds metabolism",
+  "children":[
+   {
+    "text": "Chemoautotrophic oxidation of sulfur compounds",
+    "children":[
+     {
+      "text": "Sulfite oxidation I (sulfite oxidoreductase)",
+      "size": 6452.11
+     },
+     {
+      "text": "Superpathway of sulfur metabolism (Desulfocapsa sulfoexigens)",
+      "size": 89154.49
+     }
+    ]
+   },
+   {
+    "text": "Sulfur compounds cycle",
+    "children":[
+     {
+      "text": "Sulfur disproportionation",
+      "size": 76673.09
+     },
+     {
+      "text": "Sulfate reduction (dissimilatory)",
+      "size": 76673.09
+     },
+     {
+      "text": "Sulfate reduction (assimilatory)",
+      "size": 146979.19
+     },
+     {
+      "text": "Sulfite oxidation",
+      "size": 89542.3
+     },
+     {
+      "text": "Sulfolactate degradation",
+      "size": 26241.54
+     },
+     {
+      "text": "Sulfoacetaldehyde degradation",
+      "size": 13271.92
+     },
+     {
+      "text": "Thiosulfate disproportionation",
+      "size": 120704.52
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "01_Fermentation",
+  "children":[
+   {
+    "text": "Lysine fermentation to acetate and butyrate",
+    "size": 101885.57
+   },
+   {
+    "text": "Succinate fermentation to butyrate",
+    "size": 13140.99
+   },
+   {
+    "text": "Glutamate degradation V (via hydroxyglutarate)",
+    "size": 91995.06
+   },
+   {
+    "text": "Acetylene degradation",
+    "size": 109897.42
+   },
+   {
+    "text": "Pyruvate fermentation to butanol",
+    "size": 105992.85
+   },
+   {
+    "text": "Acetoin biosynthesis",
+    "children":[
+     {
+      "text": "Superpathway of (R,R)-butanediol biosynthesis",
+      "size": 31478.62
+     },
+     {
+      "text": "(R)-acetoin biosynthesis I",
+      "size": 25061.52
+     },
+     {
+      "text": "Meso-butanediol biosynthesis I",
+      "size": 6417.1
+     },
+     {
+      "text": "Meso-butanediol biosynthesis II",
+      "size": 25061.52
+     },
+     {
+      "text": "(s,s)-butanediol biosynthesis",
+      "size": 6417.1
+     },
+     {
+      "text": "(s)-acetoin biosynthesis",
+      "size": 31089.88
+     },
+     {
+      "text": "Acetoin biosynthesis III",
+      "size": 6417.1
+     },
+     {
+      "text": "Superpathway of 2,3-butanediol biosynthesis",
+      "size": 19107.9
+     }
+    ]
+   },
+   {
+    "text": "Pyruvate Fermentation",
+    "children":[
+     {
+      "text": "Pyruvate fermentation to acetate V",
+      "size": 31328.66
+     },
+     {
+      "text": "Pyruvate fermentation to acetate VII",
+      "size": 6506.78
+     },
+     {
+      "text": "Pyruvate fermentation to acetate I",
+      "size": 13016.03
+     },
+     {
+      "text": "Pyruvate fermentation to acetate IV",
+      "size": 13016.03
+     },
+     {
+      "text": "Pyruvate fermentation to ethanol II",
+      "size": 109419
+     },
+     {
+      "text": "Superpathway of clostridium acetobutylicum solventogenic fermentation",
+      "size": 208382.8
+     },
+     {
+      "text": "Pyruvate fermentation to acetate VI",
+      "size": 31328.66
+     },
+     {
+      "text": "Pyruvate fermentation to acetate and lactate II",
+      "size": 19197.58
+     },
+     {
+      "text": "Pyruvate fermentation to acetate II",
+      "size": 19197.58
+     },
+     {
+      "text": "Pyruvate fermentation to acetone",
+      "size": 85595.88
+     },
+     {
+      "text": "Superpathway of clostridium acetobutylicum acidogenic and solventogenic fermentation",
+      "size": 267457.94
+     },
+     {
+      "text": "Pyruvate fermentation to lactate",
+      "size": 72241.31
+     },
+     {
+      "text": "Pyruvate fermentation to acetate III",
+      "size": 6521.23
+     },
+     {
+      "text": "Pyruvate fermentation to butanoate",
+      "size": 155217.78
+     },
+     {
+      "text": "Pyruvate fermentation to ethanol III",
+      "size": 25579.38
+     },
+     {
+      "text": "Pyruvate fermentation to acetate VIII",
+      "size": 18719.16
+     },
+     {
+      "text": "Pyruvate fermentation to acetate and alanine",
+      "size": 19212.03
+     },
+     {
+      "text": "Pyruvate fermentation to ethanol I",
+      "size": 103390.64
+     },
+     {
+      "text": "Pyruvate fermentation to propionate II (acrylate pathway)",
+      "size": 95369.65
+     },
+     {
+      "text": "Superpathway of clostridium acetobutylicum acidogenic fermentation",
+      "size": 254483.02
+     },
+     {
+      "text": "Pyruvate fermentation to acetate and lactate I",
+      "size": 19563.27
+     }
+    ]
+   },
+   {
+    "text": "Acetyl-coA fermentation to butyrate II (clostridium)",
+    "size": 26068.81
+   },
+   {
+    "text": "Homolactic fermentation",
+    "size": 45997.13
+   },
+   {
+    "text": "Mixed acid fermentation",
+    "size": 168097.93
+   },
+   {
+    "text": "Heterolactic fermentation",
+    "size": 108652.95
+   },
+   {
+    "text": "Bifidobacterium shunt",
+    "size": 52206.57
+   }
+  ]
+  },
+ {
+  "text": "21_Cellular response to stress",
+  "children":[
+   {
+    "text": "Response to oxidative stress",
+    "size": 234510.79
+   },
+   {
+    "text": "Regulation of translation in response to oxidative stress",
+    "size": 25978.94
+   },
+   {
+    "text": "Cellular response to oxidative stress",
+    "size": 121782.8
+   },
+   {
+    "text": "Regulation of stress-activated protein kinase signaling cascade",
+    "size": 13485.08
+   },
+   {
+    "text": "Cellular response to cation stress",
+    "size": 124072.84
+   },
+   {
+    "text": "Trehalose metabolism in response to cold stress",
+    "size": 6770.44
+   },
+   {
+    "text": "Cellular response to osmotic stress",
+    "size": 3544834.57
+   },
+   {
+    "text": "Response to osmotic stress",
+    "size": 5155531.86
+   },
+   {
+    "text": "Response to nitrosative stress",
+    "size": 233154.11
+   },
+   {
+    "text": "Regulation of translational initiation in response to osmotic stress",
+    "size": 771438.13
+   },
+   {
+    "text": "Regulation of response to osmotic stress",
+    "size": 3433138.18
+   },
+   {
+    "text": "Cellular response to stress",
+    "size": 1228250.1
+   }
+  ]
+  },
+ {
+  "text": "15_Methylotrophy",
+  "children":[
+   {
+    "text": "Formaldehyde oxidation (tetrahydrofolate pathway)",
+    "size": 70511.93
+   },
+   {
+    "text": "RuMP pathway for formaldehyde fixation (first two steps are common to both RuMP pathway variants)",
+    "size": 38689.28
+   },
+   {
+    "text": "Formaldehyde oxidation (glutathione-dependent)",
+    "size": 68712.85
+   },
+   {
+    "text": "Serine pathway for formaldehyde fixation",
+    "size": 27061.1
+   },
+   {
+    "text": "Methane oxidation to cO2",
+    "size": 116912.77
+   },
+   {
+    "text": "Methanol oxidation to formaldehyde",
+    "size": 6591.63
+   }
+  ]
+  },
+ {
+  "text": "12_Transporters",
+  "children":[
+   {
+    "text": "ABC transporters, prokaryotic type",
+    "children":[
+     {
+      "text": "Phosphate and amino acid transporters",
+      "children":[
+       {
+        "text": "Polar amino acid transporter [mD:m00236]",
+        "size": 19612.76
+       },
+       {
+        "text": "D-methionine transporter [mD:m00238]",
+        "size": 6277.36
+       },
+       {
+        "text": "Branched-chain amino acid transporter [mD:m00237]",
+        "size": 84431.79
+       }
+      ]
+     },
+     {
+      "text": "Mineral and organic ion transporters",
+      "children":[
+       {
+        "text": "Bicarbonate transporter [mD:m00321]",
+        "size": 5886.6
+       },
+       {
+        "text": "Iron(III) transporter [mD:m00190]",
+        "size": 88951.9
+       },
+       {
+        "text": "Osmoprotectant transporter [mD:m00209]",
+        "size": 25944.19
+       },
+       {
+        "text": "Sulfonate/nitrate/taurine transporter [mD:m00188]",
+        "size": 31659.99
+       },
+       {
+        "text": "Spermidine/putrescine transporter [mD:m00299]",
+        "size": 25776.66
+       },
+       {
+        "text": "Putrescine transporter [mD:m00300]",
+        "size": 19318.95
+       },
+       {
+        "text": "Putative spermidine/putrescine transporter [mD:m00193]",
+        "size": 6439.65
+       },
+       {
+        "text": "Molybdate transporter [mD:m00189]",
+        "size": 13065.2
+       }
+      ]
+     },
+     {
+      "text": "ABC-2 type and other transporters",
+      "children":[
+       {
+        "text": "Uncharacterized ABC transporter [mD:m00258]",
+        "size": 19464.04
+       },
+       {
+        "text": "Lipopolysaccharide transporter [mD:m00250]",
+        "size": 13484.5
+       },
+       {
+        "text": "ABC-2 type transporter [mD:m00254]",
+        "size": 51272.96
+       },
+       {
+        "text": "Antibiotic ABC transporter [mD:m00248]",
+        "size": 12507.23
+       },
+       {
+        "text": "Lipopolysaccharide transporter [mD:m00320]",
+        "size": 51790.53
+       },
+       {
+        "text": "Orphan ABC Atpase",
+        "size": 6720.3
+       }
+      ]
+     },
+     {
+      "text": "Oligosaccharide and polyol transporters",
+      "children":[
+       {
+        "text": "Putative ABC transporter [mD:m00211]",
+        "size": 6564.04
+       },
+       {
+        "text": "Putative sugar transporter [mD:m00197]",
+        "size": 6261.67
+       },
+       {
+        "text": "Multiple sugar transporter [mD:m00196]",
+        "size": 6261.67
+       },
+       {
+        "text": "Multiple sugar transporter [mD:m00207]",
+        "size": 52266.41
+       },
+       {
+        "text": "Putative ABC transporter [mD:m00210]",
+        "size": 24957.86
+       },
+       {
+        "text": "Maltose/maltodextrin transporter [mD:m00194]",
+        "size": 6261.67
+       },
+       {
+        "text": "Sn-glycerol 3-phosphate transporter [mD:m00198]",
+        "size": 31975.27
+       }
+      ]
+     },
+     {
+      "text": " metallic cation, iron-siderophore and vitamin b12 transporters",
+      "children":[
+       {
+        "text": "Vitamin b12 transporter [mD:m00241]",
+        "size": 6467.38
+       },
+       {
+        "text": "Manganese/zinc/iron transporter [mD:m00319]",
+        "size": 6209.59
+       },
+       {
+        "text": "Zinc/manganese transporter [mD:m00244]",
+        "size": 6209.59
+       },
+       {
+        "text": "Zinc transporter [mD:m00242]",
+        "size": 37569.18
+       },
+       {
+        "text": "Iron complex transporter [mD:m00240]",
+        "size": 12988.61
+       },
+       {
+        "text": "Cobalt transporter [mD:m00245]",
+        "size": 44832.01
+       }
+      ]
+     },
+     {
+      "text": "PEPtide and nickel transporters",
+      "children":[
+       {
+        "text": "PEPtides/nickel transporter [mD:m00239]",
+        "size": 127191.05
+       },
+       {
+        "text": "Microcin c transporter [mD:m00349]",
+        "size": 12753.53
+       }
+      ]
+     },
+     {
+      "text": "Monosaccharide transporters",
+      "children":[
+       {
+        "text": "Phosphonate transporter [mD:m00223]",
+        "size": 12645.62
+       },
+       {
+        "text": "Phosphate transporter [mD:m00222]",
+        "size": 85058.72
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "text": "Major Facilitator superfamily (MFS)",
+    "children":[
+     {
+      "text": "Metal transporters",
+      "children":[
+       {
+        "text": "Putative bacteriochlorophyll delivery (bcD) family [tc:2.A.1.41]",
+        "size": 13013.56
+       }
+      ]
+     },
+     {
+      "text": "Organic acid transporters",
+      "children":[
+       {
+        "text": "Oxalate:formate antiporter (oFA) family [tc:2.A.1.11]",
+        "size": 6284.5
+       }
+      ]
+     },
+     {
+      "text": "Nitrate/nitrite transporters",
+      "children":[
+       {
+        "text": "Nitrate/nitrite porter (nnp) family [tc:2.A.1.8]",
+        "size": 6284.5
+       }
+      ]
+     },
+     {
+      "text": "Unknown transporters",
+      "children":[
+       {
+        "text": "Unknown major facilitator-2 (UmF2) [tc:2.A.1.26]",
+        "size": 31431.75
+       }
+      ]
+     },
+     {
+      "text": "Sugar transporters",
+      "children":[
+       {
+        "text": "Purine transporter (AzgA) family [tc:2.A.1.40]",
+        "size": 6615.35
+       }
+      ]
+     },
+     {
+      "text": "Drug transporters",
+      "children":[
+       {
+        "text": "Drug:h+ antiporter-3 (12 spanner) (DhA3) [tc:2.A.1.21]",
+        "size": 12771.8
+       },
+       {
+        "text": "Drug:h+ antiporter-1 (12 spanner) (DhA1) family [tc:2.A.1.2]",
+        "size": 6303.66
+       },
+       {
+        "text": "Putative aromatic compound/drug exporter (AcDE) family [tc:2.A.1.32]",
+        "size": 6602.52
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "text": "Phosphotransferase system (pts)",
+    "children":[
+     {
+      "text": "Enzyme I and hpr",
+      "children":[
+       {
+        "text": "Enzyme I",
+        "size": 12887.92
+       }
+      ]
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "02_Homoacetogenesis",
+  "children":[
+   {
+    "text": "Acetate formation from acetyl-coA I",
+    "size": 6506.78
+   },
+   {
+    "text": "Acetate formation from acetyl-coA II",
+    "size": 6521.23
+   },
+   {
+    "text": "Reductive acetyl coenzyme A pathway",
+    "size": 186903.1
+   },
+   {
+    "text": "Glycolysis",
+    "size": 72859.31
+   }
+  ]
+  }
+]}

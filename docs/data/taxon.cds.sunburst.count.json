@@ -1,0 +1,1207 @@
+data = {
+ "text":"Taxonomy",
+ "children": [
+ {
+  "text": "d__Bacteria",
+  "children":[
+   {
+    "text": "p__Elusimicrobiota",
+    "children":[
+     {
+      "text": "c__UBA5214",
+      "children":[
+       {
+        "text": "o__UBA5214",
+        "children":[
+         {
+          "text": "f__UBA5214",
+          "children":[
+           {
+            "text": "g__UBA5214",
+            "size": 1
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "text": "p__Bacteroidota",
+    "children":[
+     {
+      "text": "c__Kapabacteria",
+      "children":[
+       {
+        "text": "o__Kapabacteriales",
+        "children":[
+         {
+          "text": "f__UBA7675",
+          "children":[
+           {
+            "text": "g__UBA7675",
+            "size": 1
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "text": "c__Bacteroidia",
+      "children":[
+       {
+        "text": "o__Bacteroidales",
+        "children":[
+         {
+          "text": "f__Lentimicrobiaceae",
+          "children":[
+           {
+            "text": "g__Lentimicrobium",
+            "children":[
+             {
+              "text": "s__Lentimicrobium-saccharophilum",
+              "size": 1
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "o__Cytophagales",
+        "children":[
+         {
+          "text": "f__Spirosomaceae",
+          "children":[
+           {
+            "text": "g__Dyadobacter",
+            "size": 1
+           }
+          ]
+         },
+         {
+          "text": "f__Cyclobacteriaceae",
+          "children":[
+           {
+            "text": "g__Belliella",
+            "children":[
+             {
+              "text": "s__Belliella-pelovolcani",
+              "size": 1
+             }
+            ]
+           },
+           {
+            "text": "g__Aquiflexum",
+            "children":[
+             {
+              "text": "s__Aquiflexum-balticum",
+              "size": 1
+             }
+            ]
+           },
+           {
+            "text": "g__Echinicola",
+            "children":[
+             {
+              "text": "s__Echinicola-vietnamensis",
+              "size": 1
+             }
+            ]
+           },
+           {
+            "text": "g__ELB16-189",
+            "size": 1
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "text": "c__Rhodothermia",
+      "children":[
+       {
+        "text": "o__Balneolales",
+        "children":[
+         {
+          "text": "f__HLUCCA01",
+          "children":[
+           {
+            "text": "g__HLUCCA01",
+            "size": 1
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "text": "p__Cyanobacteriota",
+    "children":[
+     {
+      "text": "c__Cyanobacteriia",
+      "children":[
+       {
+        "text": "o__Limnotrichales",
+        "children":[
+         {
+          "text": "f__Limnotrichaceae",
+          "children":[
+           {
+            "text": "g__Limnothrix",
+            "size": 3
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "o__Thermosynechococcales",
+        "children":[
+         {
+          "text": "f__Thermosynechococcaceae",
+          "children":[
+           {
+            "text": "g__PCC-6312",
+            "size": 2
+           },
+           {
+            "text": "g__Cyanothece",
+            "size": 2
+           },
+           {
+            "text": "g__Acaryochloris",
+            "size": 1
+           },
+           {
+            "text": "g__Synechococcus_A",
+            "children":[
+             {
+              "text": "s__Synechococcus_A-lividus",
+              "size": 1
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "o__Phormidesmiales",
+        "children":[
+         {
+          "text": "f__Phormidesmiaceae",
+          "children":[
+           {
+            "text": "g__Phormidesmis",
+            "size": 1,
+            "children":[
+             {
+              "text": "s__Phormidesmis-priestleyi",
+              "size": 4
+             }
+            ]
+           },
+           {
+            "text": "g__Acrophormium",
+            "size": 3
+           },
+           {
+            "text": "g__Halomicronema",
+            "children":[
+             {
+              "text": "s__Halomicronema-hongdechloris",
+              "size": 2
+             }
+            ]
+           },
+           {
+            "text": "g__Nodosilinea",
+            "size": 4,
+            "children":[
+             {
+              "text": "s__Nodosilinea-nodulosa",
+              "size": 1
+             }
+            ]
+           },
+           {
+            "text": "g__PCC-6406",
+            "size": 17
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "o__Eurycoccales",
+        "children":[
+         {
+          "text": "f__PCC-7336",
+          "children":[
+           {
+            "text": "g__PCC-7336",
+            "size": 2
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "o__Neosynechococcales",
+        "children":[
+         {
+          "text": "f__Neosynechococcaceae",
+          "children":[
+           {
+            "text": "g__GCF-001939115",
+            "size": 6
+           },
+           {
+            "text": "g__Neosynechococcus",
+            "children":[
+             {
+              "text": "s__Neosynechococcus-sphagnicola",
+              "size": 3
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "o__Pseudanabaenales",
+        "children":[
+         {
+          "text": "f__Pseudanabaenaceae",
+          "children":[
+           {
+            "text": "g__Pseudanabaena",
+            "size": 1,
+            "children":[
+             {
+              "text": "s__Pseudanabaena-biceps",
+              "size": 4
+             }
+            ]
+           },
+           {
+            "text": "g__PCC-7367",
+            "size": 1
+           },
+           {
+            "text": "g__UBA999",
+            "size": 1
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "o__Gloeomargaritales",
+        "children":[
+         {
+          "text": "f__Gloeomargaritaceae",
+          "children":[
+           {
+            "text": "g__Gloeomargarita",
+            "children":[
+             {
+              "text": "s__Gloeomargarita-lithophora",
+              "size": 3
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "o__PCC-7407",
+        "children":[
+         {
+          "text": "f__PCC-7407",
+          "children":[
+           {
+            "text": "g__PCC-7407",
+            "size": 2
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "o__Cyanobacteriales",
+        "children":[
+         {
+          "text": "f__Crinaliaceae",
+          "children":[
+           {
+            "text": "g__Crinalium",
+            "children":[
+             {
+              "text": "s__Crinalium-epipsammum",
+              "size": 1
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "text": "f__Xenococcaceae",
+          "children":[
+           {
+            "text": "g__Stanieria",
+            "children":[
+             {
+              "text": "s__Stanieria-cyanosphaera",
+              "size": 1
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "text": "f__Geitlerinemaceae",
+          "children":[
+           {
+            "text": "g__Geitlerinema",
+            "size": 81
+           },
+           {
+            "text": "g__PCC-9228",
+            "size": 2
+           },
+           {
+            "text": "g__Phormidium_A",
+            "size": 2334,
+            "children":[
+             {
+              "text": "s__Phormidium_A-willei",
+              "size": 1305
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "text": "f__Microcystaceae",
+          "children":[
+           {
+            "text": "g__Microcystis",
+            "size": 2,
+            "children":[
+             {
+              "text": "s__Microcystis-aeruginosa_B",
+              "size": 1
+             },
+             {
+              "text": "s__Microcystis-wesenbergii",
+              "size": 1
+             }
+            ]
+           },
+           {
+            "text": "g__Cyanothece_B",
+            "size": 2
+           },
+           {
+            "text": "g__Crocosphaera",
+            "size": 2,
+            "children":[
+             {
+              "text": "s__Crocosphaera-watsonii",
+              "size": 1
+             },
+             {
+              "text": "s__Crocosphaera-sp1",
+              "size": 1
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "text": "f__Chamaesiphonaceae",
+          "children":[
+           {
+            "text": "g__Chamaesiphon",
+            "children":[
+             {
+              "text": "s__Chamaesiphon-minutus",
+              "size": 1
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "text": "f__Desertifilaceae",
+          "children":[
+           {
+            "text": "g__Desertifilum",
+            "size": 4
+           },
+           {
+            "text": "g__Roseofilum",
+            "size": 3,
+            "children":[
+             {
+              "text": "s__Roseofilum-reptotaenium",
+              "size": 4
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "text": "f__Chroococcidiopsidaceae",
+          "children":[
+           {
+            "text": "g__Chroococcidiopsis",
+            "children":[
+             {
+              "text": "s__Chroococcidiopsis-thermalis",
+              "size": 2
+             }
+            ]
+           },
+           {
+            "text": "g__Chroogloeocystis",
+            "size": 3
+           },
+           {
+            "text": "g__Aliterella",
+            "children":[
+             {
+              "text": "s__Aliterella-atlantica",
+              "size": 2
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "text": "f__Oscillatoriaceae",
+          "children":[
+           {
+            "text": "g__PCC-10802",
+            "size": 1
+           },
+           {
+            "text": "g__Oscillatoria",
+            "children":[
+             {
+              "text": "s__Oscillatoria-acuminata",
+              "size": 24
+             }
+            ]
+           },
+           {
+            "text": "g__Planktothricoides",
+            "size": 17
+           }
+          ]
+         },
+         {
+          "text": "f__Phormidiaceae",
+          "children":[
+           {
+            "text": "g__Lyngbya",
+            "size": 2,
+            "children":[
+             {
+              "text": "s__Lyngbya-aestuarii",
+              "size": 2
+             }
+            ]
+           },
+           {
+            "text": "g__Arthrospira",
+            "children":[
+             {
+              "text": "s__Arthrospira-platensis",
+              "size": 46
+             }
+            ]
+           },
+           {
+            "text": "g__Microcoleus",
+            "size": 5,
+            "children":[
+             {
+              "text": "s__Microcoleus-vaginatus",
+              "size": 1
+             }
+            ]
+           },
+           {
+            "text": "g__Tychonema",
+            "children":[
+             {
+              "text": "s__Tychonema-bourrellyi",
+              "size": 2
+             }
+            ]
+           },
+           {
+            "text": "g__Trichodesmium",
+            "children":[
+             {
+              "text": "s__Trichodesmium-erythraeum",
+              "size": 2
+             }
+            ]
+           },
+           {
+            "text": "g__Planktothrix",
+            "size": 5,
+            "children":[
+             {
+              "text": "s__Planktothrix-rubescens",
+              "size": 2
+             }
+            ]
+           },
+           {
+            "text": "g__Kamptonema",
+            "size": 2,
+            "children":[
+             {
+              "text": "s__Kamptonema-formosum",
+              "size": 1
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "text": "f__Spirulinaceae",
+          "children":[
+           {
+            "text": "g__Spirulina",
+            "children":[
+             {
+              "text": "s__Spirulina-subsalsa",
+              "size": 23
+             },
+             {
+              "text": "s__Spirulina-major",
+              "size": 5
+             }
+            ]
+           },
+           {
+            "text": "g__ESFC-1",
+            "size": 4
+           }
+          ]
+         },
+         {
+          "text": "f__Phormidiaceae_A",
+          "children":[
+           {
+            "text": "g__Phormidium",
+            "children":[
+             {
+              "text": "s__Phormidium-ambiguum",
+              "size": 1
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "text": "f__Cyanobacteriaceae",
+          "children":[
+           {
+            "text": "g__Cyanobacterium",
+            "children":[
+             {
+              "text": "s__Cyanobacterium-stanieri",
+              "size": 1
+             }
+            ]
+           },
+           {
+            "text": "g__Geminocystis",
+            "size": 1
+           },
+           {
+            "text": "g__Symphothece",
+            "size": 2,
+            "children":[
+             {
+              "text": "s__Symphothece-rosea",
+              "size": 1
+             }
+            ]
+           },
+           {
+            "text": "g__Cyanobacterium_A",
+            "children":[
+             {
+              "text": "s__Cyanobacterium_A-aponinum",
+              "size": 3
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "text": "f__Coleofasciculaceae",
+          "children":[
+           {
+            "text": "g__PCC7113",
+            "size": 9
+           },
+           {
+            "text": "g__Coleofasciculus",
+            "children":[
+             {
+              "text": "s__Coleofasciculus-chthonoplastes",
+              "size": 5
+             }
+            ]
+           },
+           {
+            "text": "g__Moorea",
+            "children":[
+             {
+              "text": "s__Moorea-producens_A",
+              "size": 5
+             },
+             {
+              "text": "s__Moorea-producens",
+              "size": 1
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "text": "f__Nostocaceae",
+          "children":[
+           {
+            "text": "g__Tolypothrix_A",
+            "children":[
+             {
+              "text": "s__Tolypothrix_A-bouteillei",
+              "size": 1
+             }
+            ]
+           },
+           {
+            "text": "g__Chlorogloeopsis",
+            "size": 1,
+            "children":[
+             {
+              "text": "s__Chlorogloeopsis-fritschii",
+              "size": 2
+             }
+            ]
+           },
+           {
+            "text": "g__LE011-02",
+            "children":[
+             {
+              "text": "s__LE011-02-sp1",
+              "size": 1
+             }
+            ]
+           },
+           {
+            "text": "g__Tolypothrix_C",
+            "size": 2,
+            "children":[
+             {
+              "text": "s__Tolypothrix_C-hofmanni",
+              "size": 2
+             }
+            ]
+           },
+           {
+            "text": "g__Anabaenopsis",
+            "size": 1
+           },
+           {
+            "text": "g__Scytonema_A",
+            "children":[
+             {
+              "text": "s__Scytonema_A-tolypothrichoides",
+              "size": 2
+             }
+            ]
+           },
+           {
+            "text": "g__Calothrix_B",
+            "size": 3
+           },
+           {
+            "text": "g__Calothrix_A",
+            "children":[
+             {
+              "text": "s__Calothrix_A-rhizosoleniae",
+              "size": 1
+             }
+            ]
+           },
+           {
+            "text": "g__Nodularia",
+            "size": 1
+           },
+           {
+            "text": "g__Dolichospermum_A",
+            "children":[
+             {
+              "text": "s__Dolichospermum_A-compactum",
+              "size": 1
+             }
+            ]
+           },
+           {
+            "text": "g__Rivularia",
+            "size": 1,
+            "children":[
+             {
+              "text": "s__Rivularia-sp1",
+              "size": 1
+             }
+            ]
+           },
+           {
+            "text": "g__Calothrix",
+            "size": 4
+           },
+           {
+            "text": "g__NIES-4103",
+            "size": 1
+           },
+           {
+            "text": "g__Nostoc_B",
+            "children":[
+             {
+              "text": "s__Nostoc_B-piscinale",
+              "size": 1
+             }
+            ]
+           },
+           {
+            "text": "g__Tolypothrix_B",
+            "size": 2
+           },
+           {
+            "text": "g__Fischerella",
+            "size": 1,
+            "children":[
+             {
+              "text": "s__Fischerella-sp1",
+              "size": 1
+             },
+             {
+              "text": "s__Fischerella-muscicola",
+              "size": 1
+             }
+            ]
+           },
+           {
+            "text": "g__HT-58-2",
+            "size": 1
+           },
+           {
+            "text": "g__Anabaena_A",
+            "children":[
+             {
+              "text": "s__Anabaena_A-cylindrica",
+              "size": 2
+             }
+            ]
+           },
+           {
+            "text": "g__Aulosira",
+            "children":[
+             {
+              "text": "s__Aulosira-laxa",
+              "size": 2
+             },
+             {
+              "text": "s__Aulosira-carneum",
+              "size": 2
+             }
+            ]
+           },
+           {
+            "text": "g__Anabaena",
+            "size": 1
+           },
+           {
+            "text": "g__Raphidiopsis",
+            "children":[
+             {
+              "text": "s__Raphidiopsis-brookii",
+              "size": 1
+             }
+            ]
+           },
+           {
+            "text": "g__Nostoc",
+            "children":[
+             {
+              "text": "s__Nostoc-flagelliforme",
+              "size": 1
+             },
+             {
+              "text": "s__Nostoc-linckia_A",
+              "size": 1
+             },
+             {
+              "text": "s__Nostoc-linckia",
+              "size": 1
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "text": "f__Rubidibacteraceae",
+          "children":[
+           {
+            "text": "g__Halothece",
+            "size": 3
+           },
+           {
+            "text": "g__Dactylococcopsis",
+            "children":[
+             {
+              "text": "s__Dactylococcopsis-salina",
+              "size": 1
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "o__Pseudophormidiales",
+        "children":[
+         {
+          "text": "f__Pseudophormidiaceae",
+          "children":[
+           {
+            "text": "g__O-77",
+            "size": 3
+           },
+           {
+            "text": "g__Pseudophormidium",
+            "size": 3
+           },
+           {
+            "text": "g__Leptolyngbya_A",
+            "children":[
+             {
+              "text": "s__Leptolyngbya_A-ohadii",
+              "size": 4
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "o__Leptolyngbyales",
+        "children":[
+         {
+          "text": "f__Leptolyngbyaceae",
+          "children":[
+           {
+            "text": "g__Phormidesmis_A",
+            "children":[
+             {
+              "text": "s__Phormidesmis_A-priestleyi_A",
+              "size": 1
+             }
+            ]
+           },
+           {
+            "text": "g__Alkalinema",
+            "size": 8
+           },
+           {
+            "text": "g__JSC-12",
+            "size": 1
+           },
+           {
+            "text": "g__Leptolyngbya",
+            "size": 4
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "text": "p__Verrucomicrobiota",
+    "children":[
+     {
+      "text": "c__Kiritimatiellae",
+      "children":[
+       {
+        "text": "o__SS1-B-03-39",
+        "children":[
+         {
+          "text": "f__UBA6053",
+          "children":[
+           {
+            "text": "g__UBA6056",
+            "size": 1
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "text": "p__Firmicutes",
+    "children":[
+     {
+      "text": "c__Bacilli",
+      "children":[
+       {
+        "text": "o__Lactobacillales",
+        "children":[
+         {
+          "text": "f__Enterococcaceae",
+          "children":[
+           {
+            "text": "g__Enterococcus",
+            "size": 1
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "text": "p__Nitrospirota",
+    "children":[
+     {
+      "text": "c__Nitrospiria",
+      "children":[
+       {
+        "text": "o__Nitrospirales",
+        "children":[
+         {
+          "text": "f__Nitrospiraceae",
+          "children":[
+           {
+            "text": "g__Nitrospira_C",
+            "children":[
+             {
+              "text": "s__Nitrospira_C-japonica",
+              "size": 1
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "text": "p__Proteobacteria",
+    "children":[
+     {
+      "text": "c__Gammaproteobacteria",
+      "children":[
+       {
+        "text": "o__Woeseiales",
+        "children":[
+         {
+          "text": "f__Woeseiaceae",
+          "children":[
+           {
+            "text": "g__Woeseia",
+            "children":[
+             {
+              "text": "s__Woeseia-oceani",
+              "size": 1
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "o__Chromatiales",
+        "children":[
+         {
+          "text": "f__Chromatiaceae",
+          "children":[
+           {
+            "text": "g__Thiorhodovibrio",
+            "size": 1
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "o__Methylococcales",
+        "children":[
+         {
+          "text": "f__Methylomonadaceae",
+          "children":[
+           {
+            "text": "g__Methyloprofundus",
+            "size": 1
+           }
+          ]
+         },
+         {
+          "text": "f__Methylococcaceae",
+          "children":[
+           {
+            "text": "g__Methylocaldum",
+            "size": 1
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "o__Pseudomonadales",
+        "children":[
+         {
+          "text": "f__Pseudomonadaceae",
+          "children":[
+           {
+            "text": "g__Pseudomonas_E",
+            "children":[
+             {
+              "text": "s__Pseudomonas_E-alkylphenolica",
+              "size": 1
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "text": "f__Halomonadaceae",
+          "children":[
+           {
+            "text": "g__Halomonas",
+            "size": 1
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "o__UBA10353",
+        "children":[
+         {
+          "text": "f__LS-SOB",
+          "children":[
+           {
+            "text": "g__LS-SOB",
+            "size": 1
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "o__Betaproteobacteriales",
+        "children":[
+         {
+          "text": "f__Burkholderiaceae",
+          "children":[
+           {
+            "text": "g__Duganella",
+            "size": 1
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "text": "c__Alphaproteobacteria",
+      "children":[
+       {
+        "text": "o__Rhodobacterales",
+        "children":[
+         {
+          "text": "f__Rhodobacteraceae",
+          "children":[
+           {
+            "text": "g__UBA1943",
+            "size": 1
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "text": "p__Chloroflexota",
+    "children":[
+     {
+      "text": "c__Chloroflexia",
+      "children":[
+       {
+        "text": "o__Chloroflexales",
+        "children":[
+         {
+          "text": "f__Chloroflexaceae",
+          "children":[
+           {
+            "text": "g__Oscillochloris",
+            "children":[
+             {
+              "text": "s__Oscillochloris-trichoides",
+              "size": 1
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+  }
+]}

@@ -1,0 +1,41 @@
+var mydata = {
+ "text":"Taxonomy",
+"state": {"opened": true},
+ "children": [
+ {
+  "text": "Bacteria",
+  "data": {"count":1.00,"count_pct":100.00,"abundance":16100.70,"abundance_pct":100.00,"depth_M1":3962.98,"depth_pct_M1":100.00,"depth_M2":4002.80,"depth_pct_M2":100.00,"depth_M3":3877.32,"depth_pct_M3":100.00,"depth_M4":4257.55,"depth_pct_M4":100.00},
+"state": {"opened": true},
+  "children": [
+   {
+    "text": "Cyanobacteria",
+    "data": {"count":1.00,"count_pct":100.00,"abundance":16100.70,"abundance_pct":100.00,"depth_M1":3962.98,"depth_pct_M1":100.00,"depth_M2":4002.80,"depth_pct_M2":100.00,"depth_M3":3877.32,"depth_pct_M3":100.00,"depth_M4":4257.55,"depth_pct_M4":100.00},
+    "children": [
+     {
+      "text": "Oxyphotobacteria",
+      "data": {"count":1.00,"count_pct":100.00,"abundance":16100.70,"abundance_pct":100.00,"depth_M1":3962.98,"depth_pct_M1":100.00,"depth_M2":4002.80,"depth_pct_M2":100.00,"depth_M3":3877.32,"depth_pct_M3":100.00,"depth_M4":4257.55,"depth_pct_M4":100.00},
+      "children": [
+       {
+        "text": "Nostocales",
+        "data": {"count":1.00,"count_pct":100.00,"abundance":16100.70,"abundance_pct":100.00,"depth_M1":3962.98,"depth_pct_M1":100.00,"depth_M2":4002.80,"depth_pct_M2":100.00,"depth_M3":3877.32,"depth_pct_M3":100.00,"depth_M4":4257.55,"depth_pct_M4":100.00},
+        "children": [
+         {
+          "text": "Geitlerinemaceae",
+          "data": {"count":1.00,"count_pct":100.00,"abundance":16100.70,"abundance_pct":100.00,"depth_M1":3962.98,"depth_pct_M1":100.00,"depth_M2":4002.80,"depth_pct_M2":100.00,"depth_M3":3877.32,"depth_pct_M3":100.00,"depth_M4":4257.55,"depth_pct_M4":100.00},
+          "children": [
+           {
+            "text": "Geitlerinema-PCC-7105",
+            "data": {"count":1.00,"count_pct":100.00,"abundance":16100.70,"abundance_pct":100.00,"depth_M1":3962.98,"depth_pct_M1":100.00,"depth_M2":4002.80,"depth_pct_M2":100.00,"depth_M3":3877.32,"depth_pct_M3":100.00,"depth_M4":4257.55,"depth_pct_M4":100.00}
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+  }
+ ]
+}

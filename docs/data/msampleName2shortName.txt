@@ -1,0 +1,2 @@
+MA_sorted_bam	MB_sorted_bam	MC_sorted_bam	MD_sorted_bam
+M1	M2	M3	M4

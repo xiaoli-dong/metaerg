@@ -1,0 +1,19 @@
+#Compound;process;gene	count	count_pct	abundance	abundance_pct	depth_M1	depth_pct_M1	depth_M2	depth_pct_M2	depth_M3	depth_pct_M3	depth_M4	depth_pct_M4	plevel_pct_P1	plevel_pct_P2	plevel_pct_P3	plevel_pct_P4
+"C1 compounds";"Formaldehyde oxidation";"S-formylglutathione hydrolase";	1	0.02	11682.80	0.04	2741.92	0.04	3513.72	0.04	2031.34	0.04	3395.78	0.04	0	0	0	0
+"Urea";"Urease";"ureA";	1	0.02	6452.11	0.02	1524.05	0.02	1964.40	0.02	1064.76	0.02	1898.91	0.02	0	0	0	0
+"Urea";"Urease";"ureB";	1	0.02	6452.11	0.02	1524.05	0.02	1964.40	0.02	1064.76	0.02	1898.91	0.02	0	0	0	0
+"Urea";"Urease";"ureC";	1	0.02	6452.11	0.02	1524.05	0.02	1964.40	0.02	1064.76	0.02	1898.91	0.02	0.0012	0.0032	0.0020	0.0019
+"Carbon fixation";"CBB cycle - Rubisco";"Form I";	1	0.02	6521.33	0.02	1532.85	0.02	1979.57	0.02	1085.55	0.02	1923.36	0.02	0	0	0	0
+"Sulfur";"Sulfate reduction";"sat";	1	0.02	6255.38	0.02	1465.78	0.02	1978.07	0.02	940.20	0.02	1871.33	0.02	0	0	0	0
+"Sulfur";"Sulfate reduction";"cysC";	1	0.02	6226.02	0.02	1464.95	0.02	1925.15	0.02	983.52	0.02	1852.41	0.02	0	0	0	0
+"Sulfur";"Sulfur oxidation";"sulfur dioxygenase";	1	0.02	6616.09	0.02	1552.70	0.02	2033.61	0.02	1084.75	0.02	1945.02	0.02	0.0023	0.0025	0.0016	0.0026
+"Nitrogen";"N2 fixation";"Mo-Fe type beta";	1	0.02	6532.60	0.02	1544.47	0.02	2064.91	0.02	1006.16	0.02	1917.06	0.02	0	0	0	0
+"Nitrogen";"N2 fixation";"Mo-Fe type Alpha";	1	0.02	6532.60	0.02	1544.47	0.02	2064.91	0.02	1006.16	0.02	1917.06	0.02	0	0	0	0
+"Nitrogen";"N2 fixation";"nifH";	1	0.02	6532.60	0.02	1544.47	0.02	2064.91	0.02	1006.16	0.02	1917.06	0.02	0	0	0	0
+"Nitrogen";"Nitric oxide reduction";"norB";	1	0.02	5943.52	0.02	1375.26	0.02	1893.85	0.02	890.08	0.02	1784.33	0.02	0	0	0	0
+"Arsenic";"Arsenate reduction";"glutathione/glutaredoxin type";	1	0.02	6951.79	0.02	1634.65	0.02	2267.20	0.03	959.87	0.02	2090.06	0.03	0	0	0	0
+"Oxygen";"Cytochrome (quinone) oxidase, bd type";"CydB";	1	0.02	6521.23	0.02	1547.97	0.02	1985.76	0.02	1070.30	0.02	1917.20	0.02	0	0	0	0
+"Oxygen";"Cytochrome (quinone) oxidase, bd type";"CydA";	1	0.02	6521.23	0.02	1547.97	0.02	1985.76	0.02	1070.30	0.02	1917.20	0.02	0.0067	0	0.0115	0
+"Oxygen";"Cytochrome (quinone) oxidase, bo type";"CyoE";	1	0.02	6466.38	0.02	1514.72	0.02	2006.08	0.02	1006.32	0.02	1939.26	0.02	0.0031	0.0023	0.0027	0.0013
+"Oxygen";"Cytochrome c oxidase, caa3-type";"CoxA";	1	0.02	6466.38	0.02	1514.72	0.02	2006.08	0.02	1006.32	0.02	1939.26	0.02	0	0	0	0
+"UNKNOWN";	4333	99.61	27890911.07	99.59	6585143.37	99.59	8503764.52	99.58	4595434.45	99.60	8206567.34	99.59	58.5566	60.3415	58.5712	57.7906

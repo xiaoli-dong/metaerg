@@ -1,0 +1,51 @@
+data = [
+  {
+  "seqname": "bin00.contig0123",
+  "feature": "bac_5SrRNA",
+  "source": "rRNAFinder.pl",
+  "start": "115",
+  "end": "182",
+  "len": "68",
+  "strand": "1",
+  "ID": "demo|05072",
+  "rRNA_taxon": "unknown",
+  "name": "bac_5SrRNA"
+  },
+  {
+  "seqname": "bin00.contig0145",
+  "feature": "bac_23SrRNA",
+  "source": "rRNAFinder.pl",
+  "start": "113",
+  "end": "2994",
+  "len": "2882",
+  "strand": "1",
+  "ID": "demo|05180",
+  "rRNA_taxon": "Bacteria;Cyanobacteria;Oxyphotobacteria",
+  "name": "bac_23SrRNA"
+  },
+  {
+  "seqname": "bin00.contig0145",
+  "feature": "bac_5SrRNA",
+  "source": "rRNAFinder.pl",
+  "start": "3057",
+  "end": "3172",
+  "len": "116",
+  "strand": "1",
+  "ID": "demo|05181",
+  "rRNA_taxon": "unknow",
+  "name": "bac_5SrRNA"
+  },
+  {
+  "seqname": "bin00.contig0157",
+  "feature": "bac_16SrRNA",
+  "source": "rRNAFinder.pl",
+  "start": "264",
+  "end": "1752",
+  "len": "1489",
+  "strand": "1",
+  "ID": "demo|05216",
+  "rRNA_taxon": "Bacteria;Cyanobacteria;Oxyphotobacteria;Nostocales;Geitlerinemaceae;Geitlerinema PCC-7105",
+  "name": "bac_16SrRNA"
+  }
+ ]
+

@@ -1,0 +1,162 @@
+data = {
+ "text":"Metabolic",
+ "children": [
+ {
+  "text": "Carbon fixation",
+  "children":[
+   {
+    "text": "CBB cycle - Rubisco",
+    "children":[
+     {
+      "text": "Form I",
+      "size": 6521.33
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "C1 compounds",
+  "children":[
+   {
+    "text": "Formaldehyde oxidation",
+    "children":[
+     {
+      "text": "S-formylglutathione hydrolase",
+      "size": 11682.8
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Arsenic",
+  "children":[
+   {
+    "text": "Arsenate reduction",
+    "children":[
+     {
+      "text": "glutathione/glutaredoxin type",
+      "size": 6951.79
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Oxygen",
+  "children":[
+   {
+    "text": "Cytochrome (quinone) oxidase, bd type",
+    "children":[
+     {
+      "text": "CydB",
+      "size": 6521.23
+     },
+     {
+      "text": "CydA",
+      "size": 6521.23
+     }
+    ]
+   },
+   {
+    "text": "Cytochrome c oxidase, caa3-type",
+    "children":[
+     {
+      "text": "CoxA",
+      "size": 6466.38
+     }
+    ]
+   },
+   {
+    "text": "Cytochrome (quinone) oxidase, bo type",
+    "children":[
+     {
+      "text": "CyoE",
+      "size": 6466.38
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Sulfur",
+  "children":[
+   {
+    "text": "Sulfur oxidation",
+    "children":[
+     {
+      "text": "sulfur dioxygenase",
+      "size": 6616.09
+     }
+    ]
+   },
+   {
+    "text": "Sulfate reduction",
+    "children":[
+     {
+      "text": "cysC",
+      "size": 6226.02
+     },
+     {
+      "text": "sat",
+      "size": 6255.38
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Nitrogen",
+  "children":[
+   {
+    "text": "N2 fixation",
+    "children":[
+     {
+      "text": "nifH",
+      "size": 6532.6
+     },
+     {
+      "text": "Mo-Fe type beta",
+      "size": 6532.6
+     },
+     {
+      "text": "Mo-Fe type Alpha",
+      "size": 6532.6
+     }
+    ]
+   },
+   {
+    "text": "Nitric oxide reduction",
+    "children":[
+     {
+      "text": "norB",
+      "size": 5943.52
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Urea",
+  "children":[
+   {
+    "text": "Urease",
+    "children":[
+     {
+      "text": "ureB",
+      "size": 6452.11
+     },
+     {
+      "text": "ureC",
+      "size": 6452.11
+     },
+     {
+      "text": "ureA",
+      "size": 6452.11
+     }
+    ]
+   }
+  ]
+  }
+]}

@@ -1,0 +1,186 @@
+var mydata = {
+ "text":"Metabolic",
+"state": {"opened": true},
+ "children": [
+ {
+  "text": "Urea",
+  "data": {"count":3.00,"count_pct":0.06,"abundance":19356.33,"abundance_pct":0.06,"depth_M1":4572.15,"depth_pct_M1":0.06,"depth_M2":5893.20,"depth_pct_M2":0.06,"depth_M3":3194.28,"depth_pct_M3":0.06,"depth_M4":5696.73,"depth_pct_M4":0.06,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00},
+  "children": [
+   {
+    "text": "Urease",
+    "data": {"count":3.00,"count_pct":0.06,"abundance":19356.33,"abundance_pct":0.06,"depth_M1":4572.15,"depth_pct_M1":0.06,"depth_M2":5893.20,"depth_pct_M2":0.06,"depth_M3":3194.28,"depth_pct_M3":0.06,"depth_M4":5696.73,"depth_pct_M4":0.06,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00},
+    "children": [
+     {
+      "text": "ureC",
+      "data": {"count":1.00,"count_pct":0.02,"abundance":6452.11,"abundance_pct":0.02,"depth_M1":1524.05,"depth_pct_M1":0.02,"depth_M2":1964.40,"depth_pct_M2":0.02,"depth_M3":1064.76,"depth_pct_M3":0.02,"depth_M4":1898.91,"depth_pct_M4":0.02,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00}
+     },
+     {
+      "text": "ureB",
+      "data": {"count":1.00,"count_pct":0.02,"abundance":6452.11,"abundance_pct":0.02,"depth_M1":1524.05,"depth_pct_M1":0.02,"depth_M2":1964.40,"depth_pct_M2":0.02,"depth_M3":1064.76,"depth_pct_M3":0.02,"depth_M4":1898.91,"depth_pct_M4":0.02,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00}
+     },
+     {
+      "text": "ureA",
+      "data": {"count":1.00,"count_pct":0.02,"abundance":6452.11,"abundance_pct":0.02,"depth_M1":1524.05,"depth_pct_M1":0.02,"depth_M2":1964.40,"depth_pct_M2":0.02,"depth_M3":1064.76,"depth_pct_M3":0.02,"depth_M4":1898.91,"depth_pct_M4":0.02,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00}
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Carbon-fixation",
+  "data": {"count":1.00,"count_pct":0.02,"abundance":6521.33,"abundance_pct":0.02,"depth_M1":1532.85,"depth_pct_M1":0.02,"depth_M2":1979.57,"depth_pct_M2":0.02,"depth_M3":1085.55,"depth_pct_M3":0.02,"depth_M4":1923.36,"depth_pct_M4":0.02,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00},
+  "children": [
+   {
+    "text": "CBB-cycle---Rubisco",
+    "data": {"count":1.00,"count_pct":0.02,"abundance":6521.33,"abundance_pct":0.02,"depth_M1":1532.85,"depth_pct_M1":0.02,"depth_M2":1979.57,"depth_pct_M2":0.02,"depth_M3":1085.55,"depth_pct_M3":0.02,"depth_M4":1923.36,"depth_pct_M4":0.02,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00},
+    "children": [
+     {
+      "text": "Form-I",
+      "data": {"count":1.00,"count_pct":0.02,"abundance":6521.33,"abundance_pct":0.02,"depth_M1":1532.85,"depth_pct_M1":0.02,"depth_M2":1979.57,"depth_pct_M2":0.02,"depth_M3":1085.55,"depth_pct_M3":0.02,"depth_M4":1923.36,"depth_pct_M4":0.02,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00}
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "UNKNOWN",
+  "data": {"count":4333.00,"count_pct":99.61,"abundance":27890911.07,"abundance_pct":99.59,"depth_M1":6585143.37,"depth_pct_M1":99.59,"depth_M2":8503764.52,"depth_pct_M2":99.58,"depth_M3":4595434.45,"depth_pct_M3":99.60,"depth_M4":8206567.34,"depth_pct_M4":99.59,"plevel_pct_P1":58.56,"plevel_pct_P2":60.34,"plevel_pct_P3":58.57,"plevel_pct_P4":57.79}
+  },
+ {
+  "text": "C1-compounds",
+  "data": {"count":1.00,"count_pct":0.02,"abundance":11682.80,"abundance_pct":0.04,"depth_M1":2741.92,"depth_pct_M1":0.04,"depth_M2":3513.72,"depth_pct_M2":0.04,"depth_M3":2031.34,"depth_pct_M3":0.04,"depth_M4":3395.78,"depth_pct_M4":0.04,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00},
+  "children": [
+   {
+    "text": "Formaldehyde-oxidation",
+    "data": {"count":1.00,"count_pct":0.02,"abundance":11682.80,"abundance_pct":0.04,"depth_M1":2741.92,"depth_pct_M1":0.04,"depth_M2":3513.72,"depth_pct_M2":0.04,"depth_M3":2031.34,"depth_pct_M3":0.04,"depth_M4":3395.78,"depth_pct_M4":0.04,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00},
+    "children": [
+     {
+      "text": "S-formylglutathione-hydrolase",
+      "data": {"count":1.00,"count_pct":0.02,"abundance":11682.80,"abundance_pct":0.04,"depth_M1":2741.92,"depth_pct_M1":0.04,"depth_M2":3513.72,"depth_pct_M2":0.04,"depth_M3":2031.34,"depth_pct_M3":0.04,"depth_M4":3395.78,"depth_pct_M4":0.04,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00}
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Sulfur",
+  "data": {"count":3.00,"count_pct":0.06,"abundance":19097.49,"abundance_pct":0.06,"depth_M1":4483.43,"depth_pct_M1":0.06,"depth_M2":5936.83,"depth_pct_M2":0.06,"depth_M3":3008.47,"depth_pct_M3":0.06,"depth_M4":5668.76,"depth_pct_M4":0.06,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00},
+  "children": [
+   {
+    "text": "Sulfate-reduction",
+    "data": {"count":2.00,"count_pct":0.04,"abundance":12481.40,"abundance_pct":0.04,"depth_M1":2930.73,"depth_pct_M1":0.04,"depth_M2":3903.22,"depth_pct_M2":0.04,"depth_M3":1923.72,"depth_pct_M3":0.04,"depth_M4":3723.74,"depth_pct_M4":0.04,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00},
+    "children": [
+     {
+      "text": "sat",
+      "data": {"count":1.00,"count_pct":0.02,"abundance":6255.38,"abundance_pct":0.02,"depth_M1":1465.78,"depth_pct_M1":0.02,"depth_M2":1978.07,"depth_pct_M2":0.02,"depth_M3":940.20,"depth_pct_M3":0.02,"depth_M4":1871.33,"depth_pct_M4":0.02,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00}
+     },
+     {
+      "text": "cysC",
+      "data": {"count":1.00,"count_pct":0.02,"abundance":6226.02,"abundance_pct":0.02,"depth_M1":1464.95,"depth_pct_M1":0.02,"depth_M2":1925.15,"depth_pct_M2":0.02,"depth_M3":983.52,"depth_pct_M3":0.02,"depth_M4":1852.41,"depth_pct_M4":0.02,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00}
+     }
+    ]
+   },
+   {
+    "text": "Sulfur-oxidation",
+    "data": {"count":1.00,"count_pct":0.02,"abundance":6616.09,"abundance_pct":0.02,"depth_M1":1552.70,"depth_pct_M1":0.02,"depth_M2":2033.61,"depth_pct_M2":0.02,"depth_M3":1084.75,"depth_pct_M3":0.02,"depth_M4":1945.02,"depth_pct_M4":0.02,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00},
+    "children": [
+     {
+      "text": "sulfur-dioxygenase",
+      "data": {"count":1.00,"count_pct":0.02,"abundance":6616.09,"abundance_pct":0.02,"depth_M1":1552.70,"depth_pct_M1":0.02,"depth_M2":2033.61,"depth_pct_M2":0.02,"depth_M3":1084.75,"depth_pct_M3":0.02,"depth_M4":1945.02,"depth_pct_M4":0.02,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00}
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Arsenic",
+  "data": {"count":1.00,"count_pct":0.02,"abundance":6951.79,"abundance_pct":0.02,"depth_M1":1634.65,"depth_pct_M1":0.02,"depth_M2":2267.20,"depth_pct_M2":0.03,"depth_M3":959.87,"depth_pct_M3":0.02,"depth_M4":2090.06,"depth_pct_M4":0.03,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00},
+  "children": [
+   {
+    "text": "Arsenate-reduction",
+    "data": {"count":1.00,"count_pct":0.02,"abundance":6951.79,"abundance_pct":0.02,"depth_M1":1634.65,"depth_pct_M1":0.02,"depth_M2":2267.20,"depth_pct_M2":0.03,"depth_M3":959.87,"depth_pct_M3":0.02,"depth_M4":2090.06,"depth_pct_M4":0.03,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00},
+    "children": [
+     {
+      "text": "glutathione/glutaredoxin-type",
+      "data": {"count":1.00,"count_pct":0.02,"abundance":6951.79,"abundance_pct":0.02,"depth_M1":1634.65,"depth_pct_M1":0.02,"depth_M2":2267.20,"depth_pct_M2":0.03,"depth_M3":959.87,"depth_pct_M3":0.02,"depth_M4":2090.06,"depth_pct_M4":0.03,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00}
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Nitrogen",
+  "data": {"count":4.00,"count_pct":0.08,"abundance":25541.32,"abundance_pct":0.08,"depth_M1":6008.67,"depth_pct_M1":0.08,"depth_M2":8088.58,"depth_pct_M2":0.08,"depth_M3":3908.56,"depth_pct_M3":0.08,"depth_M4":7535.51,"depth_pct_M4":0.08,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00},
+  "children": [
+   {
+    "text": "Nitric-oxide-reduction",
+    "data": {"count":1.00,"count_pct":0.02,"abundance":5943.52,"abundance_pct":0.02,"depth_M1":1375.26,"depth_pct_M1":0.02,"depth_M2":1893.85,"depth_pct_M2":0.02,"depth_M3":890.08,"depth_pct_M3":0.02,"depth_M4":1784.33,"depth_pct_M4":0.02,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00},
+    "children": [
+     {
+      "text": "norB",
+      "data": {"count":1.00,"count_pct":0.02,"abundance":5943.52,"abundance_pct":0.02,"depth_M1":1375.26,"depth_pct_M1":0.02,"depth_M2":1893.85,"depth_pct_M2":0.02,"depth_M3":890.08,"depth_pct_M3":0.02,"depth_M4":1784.33,"depth_pct_M4":0.02,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00}
+     }
+    ]
+   },
+   {
+    "text": "N2-fixation",
+    "data": {"count":3.00,"count_pct":0.06,"abundance":19597.80,"abundance_pct":0.06,"depth_M1":4633.41,"depth_pct_M1":0.06,"depth_M2":6194.73,"depth_pct_M2":0.06,"depth_M3":3018.48,"depth_pct_M3":0.06,"depth_M4":5751.18,"depth_pct_M4":0.06,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00},
+    "children": [
+     {
+      "text": "nifH",
+      "data": {"count":1.00,"count_pct":0.02,"abundance":6532.60,"abundance_pct":0.02,"depth_M1":1544.47,"depth_pct_M1":0.02,"depth_M2":2064.91,"depth_pct_M2":0.02,"depth_M3":1006.16,"depth_pct_M3":0.02,"depth_M4":1917.06,"depth_pct_M4":0.02,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00}
+     },
+     {
+      "text": "Mo-Fe-type-beta",
+      "data": {"count":1.00,"count_pct":0.02,"abundance":6532.60,"abundance_pct":0.02,"depth_M1":1544.47,"depth_pct_M1":0.02,"depth_M2":2064.91,"depth_pct_M2":0.02,"depth_M3":1006.16,"depth_pct_M3":0.02,"depth_M4":1917.06,"depth_pct_M4":0.02,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00}
+     },
+     {
+      "text": "Mo-Fe-type-Alpha",
+      "data": {"count":1.00,"count_pct":0.02,"abundance":6532.60,"abundance_pct":0.02,"depth_M1":1544.47,"depth_pct_M1":0.02,"depth_M2":2064.91,"depth_pct_M2":0.02,"depth_M3":1006.16,"depth_pct_M3":0.02,"depth_M4":1917.06,"depth_pct_M4":0.02,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00}
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Oxygen",
+  "data": {"count":4.00,"count_pct":0.08,"abundance":25975.22,"abundance_pct":0.08,"depth_M1":6125.38,"depth_pct_M1":0.08,"depth_M2":7983.68,"depth_pct_M2":0.08,"depth_M3":4153.24,"depth_pct_M3":0.08,"depth_M4":7712.92,"depth_pct_M4":0.08,"plevel_pct_P1":0.01,"plevel_pct_P2":0.00,"plevel_pct_P3":0.01,"plevel_pct_P4":0.00},
+  "children": [
+   {
+    "text": "Cytochrome-c-oxidase,-caa3-type",
+    "data": {"count":1.00,"count_pct":0.02,"abundance":6466.38,"abundance_pct":0.02,"depth_M1":1514.72,"depth_pct_M1":0.02,"depth_M2":2006.08,"depth_pct_M2":0.02,"depth_M3":1006.32,"depth_pct_M3":0.02,"depth_M4":1939.26,"depth_pct_M4":0.02,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00},
+    "children": [
+     {
+      "text": "CoxA",
+      "data": {"count":1.00,"count_pct":0.02,"abundance":6466.38,"abundance_pct":0.02,"depth_M1":1514.72,"depth_pct_M1":0.02,"depth_M2":2006.08,"depth_pct_M2":0.02,"depth_M3":1006.32,"depth_pct_M3":0.02,"depth_M4":1939.26,"depth_pct_M4":0.02,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00}
+     }
+    ]
+   },
+   {
+    "text": "Cytochrome-(quinone)-oxidase,-bo-type",
+    "data": {"count":1.00,"count_pct":0.02,"abundance":6466.38,"abundance_pct":0.02,"depth_M1":1514.72,"depth_pct_M1":0.02,"depth_M2":2006.08,"depth_pct_M2":0.02,"depth_M3":1006.32,"depth_pct_M3":0.02,"depth_M4":1939.26,"depth_pct_M4":0.02,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00},
+    "children": [
+     {
+      "text": "CyoE",
+      "data": {"count":1.00,"count_pct":0.02,"abundance":6466.38,"abundance_pct":0.02,"depth_M1":1514.72,"depth_pct_M1":0.02,"depth_M2":2006.08,"depth_pct_M2":0.02,"depth_M3":1006.32,"depth_pct_M3":0.02,"depth_M4":1939.26,"depth_pct_M4":0.02,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00}
+     }
+    ]
+   },
+   {
+    "text": "Cytochrome-(quinone)-oxidase,-bd-type",
+    "data": {"count":2.00,"count_pct":0.04,"abundance":13042.46,"abundance_pct":0.04,"depth_M1":3095.94,"depth_pct_M1":0.04,"depth_M2":3971.52,"depth_pct_M2":0.04,"depth_M3":2140.60,"depth_pct_M3":0.04,"depth_M4":3834.40,"depth_pct_M4":0.04,"plevel_pct_P1":0.01,"plevel_pct_P2":0.00,"plevel_pct_P3":0.01,"plevel_pct_P4":0.00},
+    "children": [
+     {
+      "text": "CydB",
+      "data": {"count":1.00,"count_pct":0.02,"abundance":6521.23,"abundance_pct":0.02,"depth_M1":1547.97,"depth_pct_M1":0.02,"depth_M2":1985.76,"depth_pct_M2":0.02,"depth_M3":1070.30,"depth_pct_M3":0.02,"depth_M4":1917.20,"depth_pct_M4":0.02,"plevel_pct_P1":0.00,"plevel_pct_P2":0.00,"plevel_pct_P3":0.00,"plevel_pct_P4":0.00}
+     },
+     {
+      "text": "CydA",
+      "data": {"count":1.00,"count_pct":0.02,"abundance":6521.23,"abundance_pct":0.02,"depth_M1":1547.97,"depth_pct_M1":0.02,"depth_M2":1985.76,"depth_pct_M2":0.02,"depth_M3":1070.30,"depth_pct_M3":0.02,"depth_M4":1917.20,"depth_pct_M4":0.02,"plevel_pct_P1":0.01,"plevel_pct_P2":0.00,"plevel_pct_P3":0.01,"plevel_pct_P4":0.00}
+     }
+    ]
+   }
+  ]
+  }
+ ]
+}

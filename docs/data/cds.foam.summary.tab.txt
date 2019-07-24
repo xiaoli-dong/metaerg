@@ -1,0 +1,211 @@
+#Ontology	count	count_pct	abundance	abundance_pct	depth_M1	depth_pct_M1	depth_M2	depth_pct_M2	depth_M3	depth_pct_M3	depth_M4	depth_pct_M4	plevel_pct_P1	plevel_pct_P2	plevel_pct_P3	plevel_pct_P4
+"19_Saccharide and derivated synthesis";"Polysaccharide biosynthesis and assembly of cell surface structure";"Peptidoglycan biosynthesis";	67	1.54	425659.45	1.52	100575.51	1.52	129043.11	1.51	70847.85	1.54	125192.90	1.52	0.51	0.53	0.42	0.56
+"19_Saccharide and derivated synthesis";"Polysaccharide biosynthesis and assembly of cell surface structure";"Mucin type O-glycan biosynthesis";	47	1.08	296116.74	1.06	70011.78	1.06	89697.94	1.05	49307.36	1.07	87099.60	1.06	0.40	0.40	0.35	0.44
+"19_Saccharide and derivated synthesis";"Polysaccharide biosynthesis and assembly of cell surface structure";"Lipopolysaccharide biosynthesis";	90	2.07	572842.76	2.05	135288.59	2.05	173947.92	2.04	95145.05	2.06	168461.15	2.04	0.79	0.75	0.77	0.78
+"19_Saccharide and derivated synthesis";"Polysaccharide biosynthesis and assembly of cell surface structure";"N-glycan biosynthesis";	57	1.31	360212.49	1.29	85123.81	1.29	109162.10	1.28	59978.13	1.30	105948.39	1.29	0.42	0.42	0.36	0.46
+"19_Saccharide and derivated synthesis";"Polysaccharide biosynthesis and assembly of cell surface structure";"Murein";	10	0.23	63886.62	0.23	15105.43	0.23	19379.45	0.23	10668.18	0.23	18733.58	0.23	0.01	0.01	0.01	0.01
+"19_Saccharide and derivated synthesis";"Disaccaride phosphorylase";"Sucrose";	2	0.05	12826.36	0.05	3027.76	0.05	3921.42	0.05	2082.82	0.05	3794.36	0.05	0	0	0	0
+"19_Saccharide and derivated synthesis";"Disaccaride phosphorylase";"Maltose";	8	0.18	52113.81	0.19	12292.76	0.19	15906.80	0.19	8576.18	0.19	15338.05	0.19	0.09	0.07	0.12	0.08
+"16_Embden Meyerhof-Parnos (EMP)";"Glycolysis III (EMP)";	21	0.48	137380.16	0.49	32460.35	0.49	41854.82	0.49	22766.36	0.49	40298.56	0.49	0.09	0.10	0.10	0.08
+"16_Embden Meyerhof-Parnos (EMP)";"EMP modified pathway";	3	0.07	19212.03	0.07	4569.22	0.07	5860.87	0.07	3121.56	0.07	5660.38	0.07	0.01	0.01	0.02	0.01
+"16_Embden Meyerhof-Parnos (EMP)";"EMP  in archea";	14	0.32	90846.44	0.32	21443.22	0.32	27807.72	0.33	14812.16	0.32	26783.32	0.33	0.06	0.07	0.06	0.05
+"16_Embden Meyerhof-Parnos (EMP)";"EMP";	20	0.46	130095.19	0.46	30722.39	0.46	39716.66	0.47	21395.79	0.46	38260.29	0.46	0.09	0.10	0.09	0.07
+"06_Amino acid utilization biosynthesis metabolism";"Phenylalanine, tyrosine and tryptophan biosynthesis";	44	1.01	284182.47	1.01	67203.30	1.02	86164.13	1.01	47375.74	1.03	83439.40	1.01	0.21	0.19	0.16	0.18
+"06_Amino acid utilization biosynthesis metabolism";"Phenylalanine metabolism";	23	0.53	149350.03	0.53	35247.99	0.53	45260.50	0.53	24679.26	0.53	44162.25	0.54	0.12	0.13	0.11	0.11
+"06_Amino acid utilization biosynthesis metabolism";"Lysine biosynthesis";	32	0.74	211141.16	0.75	49956.02	0.76	64227.04	0.75	34975.52	0.76	61982.59	0.75	0.13	0.20	0.10	0.16
+"06_Amino acid utilization biosynthesis metabolism";"Histidine biosynthesis, pRpp => histidine";	29	0.67	188026.56	0.67	44312.93	0.67	57316.68	0.67	31089.10	0.67	55307.82	0.67	0.60	0.57	0.66	0.49
+"06_Amino acid utilization biosynthesis metabolism";"Cysteine and methionine metabolism";	37	0.85	239791.29	0.86	56563.68	0.86	72576.42	0.85	40133.69	0.87	70517.48	0.86	0.41	0.50	0.36	0.36
+"06_Amino acid utilization biosynthesis metabolism";"Lysine degradation VII";	3	0.07	20888.45	0.07	4987.23	0.08	6576.94	0.08	3128.47	0.07	6195.83	0.08	0	0	0	0
+"06_Amino acid utilization biosynthesis metabolism";"Valine, leucine and isoleucine degradation";	18	0.41	111820.09	0.40	26456.88	0.40	34539.09	0.40	17702.38	0.38	33121.71	0.40	1.90	1.99	1.85	2.41
+"06_Amino acid utilization biosynthesis metabolism";"Lysine degradation VIII";	1	0.02	6546.36	0.02	1555.54	0.02	2086.19	0.02	952.10	0.02	1952.53	0.02	0	0	0	0
+"06_Amino acid utilization biosynthesis metabolism";"Oxydation deamination";	5	0.11	32401.32	0.12	7646.79	0.12	9865.22	0.12	5312.63	0.12	9576.69	0.12	0.01	0.01	0.01	0.01
+"06_Amino acid utilization biosynthesis metabolism";"Glycine, serine and threonine metabolism";	37	0.85	243164.64	0.87	57334.74	0.87	73939.51	0.87	40214.59	0.87	71675.84	0.87	2.05	2.29	1.94	2.66
+"06_Amino acid utilization biosynthesis metabolism";"Methionine biosynthesis";	10	0.23	65023.28	0.23	15310.39	0.23	19872.77	0.23	10698.06	0.23	19142.01	0.23	0.00	0.00	0	0.00
+"06_Amino acid utilization biosynthesis metabolism";"Lysine degradation II";	3	0.07	19440.88	0.07	4604.06	0.07	5869.72	0.07	3284.58	0.07	5682.52	0.07	0.01	0.02	0.01	0.01
+"06_Amino acid utilization biosynthesis metabolism";"Lysine degradation v";	3	0.07	20888.45	0.07	4987.23	0.08	6576.94	0.08	3128.47	0.07	6195.83	0.08	0	0	0	0
+"06_Amino acid utilization biosynthesis metabolism";"Aminoacid dehydratase";	1	0.02	6209.59	0.02	1460.09	0.02	1926.12	0.02	949.72	0.02	1873.66	0.02	0.00	0.00	0.00	0.00
+"06_Amino acid utilization biosynthesis metabolism";"Transamination";	5	0.11	32587.57	0.12	7693.04	0.12	10003.96	0.12	5287.37	0.11	9603.22	0.12	0.07	0.07	0.08	0.06
+"06_Amino acid utilization biosynthesis metabolism";"D-arginine and D-ornithine metabolism";	1	0.02	6421.77	0.02	1524.41	0.02	1932.13	0.02	1074.97	0.02	1890.27	0.02	0	0	0	0
+"06_Amino acid utilization biosynthesis metabolism";"Lysine degradation Iv";	3	0.07	20888.45	0.07	4987.23	0.08	6576.94	0.08	3128.47	0.07	6195.83	0.08	0	0	0	0
+"06_Amino acid utilization biosynthesis metabolism";"Arginine and proline metabolism";	54	1.24	347903.26	1.24	82017.72	1.24	106235.57	1.24	57108.43	1.24	102541.68	1.24	2.59	3.01	2.08	2.53
+"06_Amino acid utilization biosynthesis metabolism";"Alanine, aspartate and glutamate metabolism (contain asparagin as well)";	31	0.71	200507.09	0.72	47292.87	0.72	61399.50	0.72	32519.58	0.70	59295.12	0.72	1.61	1.46	1.76	1.37
+"06_Amino acid utilization biosynthesis metabolism";"Valine, leucine and isoleucine biosynthesis";	22	0.51	144436.78	0.52	34145.00	0.52	44247.54	0.52	23399.09	0.51	42645.13	0.52	0.03	0.03	0.04	0.03
+"06_Amino acid utilization biosynthesis metabolism";"Methionine degradation";	6	0.14	39794.81	0.14	9435.94	0.14	11902.51	0.14	6811.57	0.15	11644.79	0.14	0.02	0.02	0.03	0.01
+"06_Amino acid utilization biosynthesis metabolism";"Histidine degradation";	1	0.02	6341.34	0.02	1494.56	0.02	1984.69	0.02	975.49	0.02	1886.60	0.02	0.05	0.05	0.02	0.02
+"06_Amino acid utilization biosynthesis metabolism";"Lysine degradation vI";	3	0.07	20888.45	0.07	4987.23	0.08	6576.94	0.08	3128.47	0.07	6195.83	0.08	0	0	0	0
+"06_Amino acid utilization biosynthesis metabolism";"D-glutamine and D-glutamate metabolism";	7	0.16	46443.71	0.17	10987.01	0.17	14363.02	0.17	7365.67	0.16	13727.98	0.17	0.00	0.00	0.00	0.00
+"06_Amino acid utilization biosynthesis metabolism";"Lysine degradation I";	1	0.02	6688.88	0.02	1580.85	0.02	2053.26	0.02	1101.21	0.02	1953.55	0.02	0.01	0.02	0.01	0.01
+"06_Amino acid utilization biosynthesis metabolism";"Amino acid biosynthesis precursor pyruvate and oxaloacetate";"Cysteine and methionine";	60	1.38	387754.28	1.38	91694.37	1.39	117403.69	1.37	64892.46	1.41	113763.85	1.38	1.01	0.75	1.31	0.74
+"06_Amino acid utilization biosynthesis metabolism";"Amino acid biosynthesis precursor pyruvate and oxaloacetate";"Histidine";	65	1.49	414275.58	1.48	97784.11	1.48	125821.68	1.47	68809.28	1.49	121860.49	1.48	0.37	0.44	0.41	0.39
+"06_Amino acid utilization biosynthesis metabolism";"Amino acid biosynthesis precursor pyruvate and oxaloacetate";"PEP";	38	0.87	247339.83	0.88	58503.75	0.88	75179.01	0.88	40924.98	0.89	72732.16	0.88	0.32	0.37	0.25	0.34
+"06_Amino acid utilization biosynthesis metabolism";"Amino acid biosynthesis precursor pyruvate and oxaloacetate";"Oxaloacetate to lysine";	59	1.36	384906.93	1.37	90851.46	1.37	118208.06	1.38	62343.65	1.35	113503.78	1.38	0.85	0.86	0.97	0.71
+"06_Amino acid utilization biosynthesis metabolism";"Amino acid biosynthesis precursor pyruvate and oxaloacetate";"Glutamate";	4	0.09	25660.48	0.09	6067.26	0.09	7830.08	0.09	4235.37	0.09	7527.78	0.09	0.00	0.01	0.00	0.00
+"06_Amino acid utilization biosynthesis metabolism";"Amino acid biosynthesis precursor pyruvate and oxaloacetate";"Oxaloacetate to aspartate and asparagine";	8	0.18	51792.44	0.18	12214.10	0.18	15920.26	0.19	8345.72	0.18	15312.37	0.19	0.02	0.02	0.01	0.02
+"06_Amino acid utilization biosynthesis metabolism";"Amino acid biosynthesis precursor pyruvate and oxaloacetate";"Pyruvate to leucine";	4	0.09	25949.47	0.09	6107.55	0.09	7901.91	0.09	4301.80	0.09	7638.19	0.09	0.02	0.02	0.01	0.01
+"06_Amino acid utilization biosynthesis metabolism";"Lysine degradation X";	1	0.02	6209.59	0.02	1460.09	0.02	1926.12	0.02	949.72	0.02	1873.66	0.02	0.00	0.00	0.00	0.00
+"06_Amino acid utilization biosynthesis metabolism";"Tryptophan metabolism";	20	0.46	123910.26	0.44	29284.78	0.44	37792.93	0.44	20329.11	0.44	36503.45	0.44	0.09	0.11	0.10	0.09
+"21_Cellular response to stress";"Response to nitrosative stress";	39	0.90	233154.11	0.83	55222.42	0.84	69184.28	0.81	40836.09	0.89	67911.39	0.82	0.51	0.39	0.86	0.45
+"21_Cellular response to stress";"Response to oxidative stress";	39	0.90	234510.79	0.84	55525.88	0.84	69531.99	0.81	41173.00	0.89	68280.02	0.83	0.13	0.15	0.11	0.14
+"21_Cellular response to stress";"Regulation of translation in response to oxidative stress";	4	0.09	25978.94	0.09	6107.70	0.09	7922.16	0.09	4278.74	0.09	7670.32	0.09	0.00	0.00	0	0
+"21_Cellular response to stress";"Cellular response to stress";	195	4.48	1228250.10	4.39	290351.26	4.39	374708.13	4.39	202433.55	4.39	360757.29	4.38	14.01	12.22	15.36	13.13
+"21_Cellular response to stress";"Cellular response to cation stress";	19	0.44	124072.84	0.44	29437.69	0.45	37165.03	0.44	21224.90	0.46	36245.24	0.44	0.07	0.09	0.08	0.12
+"21_Cellular response to stress";"Regulation of translational initiation in response to osmotic stress";	122	2.80	771438.13	2.75	182416.94	2.76	236108.51	2.76	126503.98	2.74	226408.75	2.75	11.44	9.74	12.58	10.11
+"21_Cellular response to stress";"Regulation of response to osmotic stress";	538	12.37	3433138.18	12.26	810415.10	12.26	1051545.89	12.31	560286.65	12.14	1010890.34	12.27	14.22	13.21	15.85	12.09
+"21_Cellular response to stress";"Regulation of stress-activated protein kinase signaling cascade";	2	0.05	13485.08	0.05	3193.40	0.05	4094.83	0.05	2234.84	0.05	3961.99	0.05	0.03	0.03	0.03	0.02
+"21_Cellular response to stress";"Response to osmotic stress";	804	18.48	5155531.86	18.41	1217547.50	18.41	1575561.81	18.45	845915.52	18.33	1516506.58	18.40	26.42	23.91	29.12	23.12
+"21_Cellular response to stress";"Trehalose metabolism in response to cold stress";	1	0.02	6770.44	0.02	1616.50	0.02	2047.11	0.02	1118.28	0.02	1988.54	0.02	0.03	0.03	0.02	0.02
+"21_Cellular response to stress";"Cellular response to osmotic stress";	562	12.92	3544834.57	12.66	836529.35	12.65	1086231.98	12.72	577841.74	12.52	1044231.26	12.67	14.88	13.73	16.55	12.41
+"21_Cellular response to stress";"Cellular response to oxidative stress";	19	0.44	121782.80	0.43	28710.77	0.43	37447.26	0.44	19605.39	0.42	36019.45	0.44	0.19	0.16	0.20	0.15
+"20_Hydrolysis of polymers";"Chitin";	3	0.07	18956.78	0.07	4466.18	0.07	5809.95	0.07	3075.98	0.07	5604.67	0.07	0	0.00	0	0.00
+"20_Hydrolysis of polymers";"Starch";	60	1.38	390587.52	1.39	92196.18	1.39	118507.86	1.39	65034.82	1.41	114848.57	1.39	0.63	0.59	0.59	0.64
+"20_Hydrolysis of polymers";"Mannose";	69	1.59	438363.60	1.57	103569.40	1.57	133004.34	1.56	72920.43	1.58	128869.39	1.56	0.58	0.60	0.47	0.62
+"20_Hydrolysis of polymers";"Galactose";	12	0.28	78026.47	0.28	18416.82	0.28	23672.53	0.28	13111.12	0.28	22825.99	0.28	0.05	0.05	0.07	0.04
+"20_Hydrolysis of polymers";"Xylose";	15	0.34	91944.29	0.33	21734.67	0.33	27748.20	0.32	15449.95	0.33	27011.47	0.33	0.01	0.05	0.01	0.05
+"18_Sulfur compounds metabolism";"Chemoautotrophic oxidation of sulfur compounds";"Superpathway of sulfur metabolism (Desulfocapsa sulfoexigens)";	14	0.32	89154.49	0.32	21037.05	0.32	27552.09	0.32	14141.07	0.31	26424.32	0.32	0.05	0.06	0.03	0.04
+"18_Sulfur compounds metabolism";"Chemoautotrophic oxidation of sulfur compounds";"Sulfite oxidation I (sulfite oxidoreductase)";	1	0.02	6452.11	0.02	1524.05	0.02	1964.40	0.02	1064.76	0.02	1898.91	0.02	0	0	0	0
+"18_Sulfur compounds metabolism";"Sulfur compounds cycle";"Thiosulfate disproportionation";	19	0.44	120704.52	0.43	28434.14	0.43	36981.19	0.43	19560.36	0.42	35728.87	0.43	0.05	0.06	0.03	0.04
+"18_Sulfur compounds metabolism";"Sulfur compounds cycle";"Sulfate reduction (assimilatory)";	23	0.53	146979.19	0.52	34662.03	0.52	45243.56	0.53	23512.60	0.51	43561.03	0.53	0.07	0.08	0.06	0.06
+"18_Sulfur compounds metabolism";"Sulfur compounds cycle";"Sulfur disproportionation";	12	0.28	76673.09	0.27	18106.32	0.27	23648.87	0.28	12217.34	0.26	22700.58	0.28	0.05	0.06	0.03	0.04
+"18_Sulfur compounds metabolism";"Sulfur compounds cycle";"Sulfite oxidation";	14	0.32	89542.30	0.32	21145.66	0.32	27547.37	0.32	14368.28	0.31	26481.02	0.32	0.05	0.06	0.03	0.04
+"18_Sulfur compounds metabolism";"Sulfur compounds cycle";"Sulfolactate degradation";	4	0.09	26241.54	0.09	6198.72	0.09	8007.72	0.09	4251.24	0.09	7783.82	0.09	0.00	0.00	0	0
+"18_Sulfur compounds metabolism";"Sulfur compounds cycle";"Sulfoacetaldehyde degradation";	2	0.05	13271.92	0.05	3147.11	0.05	4036.66	0.05	2157.85	0.05	3930.28	0.05	0.00	0.00	0	0
+"18_Sulfur compounds metabolism";"Sulfur compounds cycle";"Sulfate reduction (dissimilatory)";	12	0.28	76673.09	0.27	18106.32	0.27	23648.87	0.28	12217.34	0.26	22700.58	0.28	0.05	0.06	0.03	0.04
+"04_Utililization of sugar, conversion of pentose to EMP pathway intermediates";"Pentose";	3	0.07	19653.22	0.07	4642.90	0.07	5970.50	0.07	3276.09	0.07	5763.71	0.07	0.01	0.01	0	0.01
+"UNKNOWN";	3198	73.52	20657560.32	73.76	4877875.15	73.77	6301113.87	73.79	3401226.95	73.72	6077343.36	73.75	34.34	36.79	32.77	34.86
+"03_Superpathway of thiosulfate metabolism (Desulfovibrio sulfodismutans)";	8	0.18	51174.05	0.18	12055.04	0.18	15680.50	0.18	8367.82	0.18	15070.68	0.18	0.01	0.02	0.02	0.02
+"13_Hydrogen metabolism";"Hydrogen production VII (chlorophyta, cyanobacteria)";	3	0.07	19419.30	0.07	4586.47	0.07	5921.67	0.07	3163.46	0.07	5747.70	0.07	0	0	0.01	0.00
+"13_Hydrogen metabolism";"Hydrogen production";	3	0.07	19494.26	0.07	4616.42	0.07	5970.87	0.07	3128.22	0.07	5778.76	0.07	0	0	0	0
+"13_Hydrogen metabolism";"Hydrogen oxidation aerobic";	2	0.05	12931.58	0.05	3067.66	0.05	3880.94	0.05	2159.02	0.05	3823.96	0.05	0	0	0	0
+"10_TCA cycle";"Replenishment of TCA cycle intermediates (necessary because some intermediates serve as precursors for biosysnthesis)";	8	0.18	53147.51	0.19	12533.20	0.19	16132.97	0.19	8909.88	0.19	15571.50	0.19	0.01	0.01	0.01	0.02
+"10_TCA cycle";"Reductive TCA cycle";	15	0.34	98392.89	0.35	23265.20	0.35	29774.33	0.35	16259.12	0.35	29094.18	0.35	0.03	0.03	0.02	0.03
+"10_TCA cycle";"TCA cycle";	26	0.60	169723.96	0.61	40143.33	0.61	51305.18	0.60	28177.61	0.61	50097.75	0.61	0.05	0.05	0.04	0.05
+"10_TCA cycle";"Incomplete TCA fork";	23	0.53	150815.31	0.54	35624.59	0.54	45552.85	0.53	25134.07	0.54	44503.74	0.54	0.05	0.04	0.03	0.05
+"14_Methanogenesis";"From dimethylamine";	8	0.18	51325.15	0.18	12142.93	0.18	15542.16	0.18	8546.56	0.19	15093.50	0.18	0.04	0.04	0.04	0.04
+"14_Methanogenesis";"From formate";	21	0.48	134194.81	0.48	31785.60	0.48	40328.76	0.47	22659.61	0.49	39420.86	0.48	0.07	0.09	0.09	0.08
+"14_Methanogenesis";"From CO2";	15	0.34	95402.13	0.34	22577.21	0.34	28779.80	0.34	15944.63	0.35	28100.49	0.34	0.07	0.09	0.09	0.07
+"14_Methanogenesis";"From methanol";	8	0.18	51325.15	0.18	12142.93	0.18	15542.16	0.18	8546.56	0.19	15093.50	0.18	0.04	0.04	0.04	0.04
+"14_Methanogenesis";"From methylamine";	9	0.21	58055.94	0.21	13728.23	0.21	17640.69	0.21	9601.19	0.21	17085.81	0.21	0.04	0.05	0.04	0.04
+"14_Methanogenesis";"From acetate";	13	0.30	83901.17	0.30	19833.19	0.30	25529.58	0.30	13772.88	0.30	24765.48	0.30	0.07	0.08	0.07	0.05
+"14_Methanogenesis";"From trimethylamine";	8	0.18	51325.15	0.18	12142.93	0.18	15542.16	0.18	8546.56	0.19	15093.50	0.18	0.04	0.04	0.04	0.04
+"15_Methylotrophy";"Methanol oxidation to formaldehyde";	1	0.02	6591.63	0.02	1564.01	0.02	1968.53	0.02	1155.33	0.03	1903.76	0.02	0.03	0.01	0.02	0.02
+"15_Methylotrophy";"Serine pathway for formaldehyde fixation";	4	0.09	27061.10	0.10	6387.26	0.10	8020.61	0.09	4804.71	0.10	7848.56	0.10	0.01	0.01	0.01	0.02
+"15_Methylotrophy";"Formaldehyde oxidation (tetrahydrofolate pathway)";	11	0.25	70511.93	0.25	16700.39	0.25	21143.76	0.25	11901.83	0.26	20765.97	0.25	0	0	0	0.00
+"15_Methylotrophy";"Methane oxidation to cO2";	18	0.41	116912.77	0.42	27627.24	0.42	35238.20	0.41	19535.10	0.42	34512.25	0.42	0.03	0.03	0.02	0.03
+"15_Methylotrophy";"Formaldehyde oxidation (glutathione-dependent)";	9	0.21	68712.85	0.25	16263.03	0.25	20502.72	0.24	11979.01	0.26	19968.03	0.24	0	0	0	0.00
+"15_Methylotrophy";"RuMP pathway for formaldehyde fixation (first two steps are common to both RuMP pathway variants)";	6	0.14	38689.28	0.14	9138.39	0.14	11757.52	0.14	6446.25	0.14	11347.12	0.14	0.01	0.02	0.01	0.01
+"01_Fermentation";"Glutamate degradation V (via hydroxyglutarate)";	11	0.25	91995.06	0.33	21720.34	0.33	27746.29	0.32	15746.59	0.34	26781.68	0.32	0	0.01	0.00	0.01
+"01_Fermentation";"Mixed acid fermentation";	22	0.51	168097.93	0.60	39785.54	0.60	50368.63	0.59	29174.10	0.63	48769.55	0.59	0.03	0.07	0.05	0.05
+"01_Fermentation";"Pyruvate fermentation to butanol";	16	0.37	105992.85	0.38	25213.10	0.38	32061.72	0.38	17744.93	0.38	30973.05	0.38	0.04	0.06	0.07	0.03
+"01_Fermentation";"Acetoin biosynthesis";"Meso-butanediol biosynthesis I";	1	0.02	6417.10	0.02	1515.29	0.02	1934.10	0.02	1086.18	0.02	1881.53	0.02	0.01	0.01	0.01	0.01
+"01_Fermentation";"Acetoin biosynthesis";"Superpathway of 2,3-butanediol biosynthesis";	3	0.07	19107.90	0.07	4536.54	0.07	5809.21	0.07	3137.44	0.07	5624.71	0.07	0.02	0.02	0.03	0.02
+"01_Fermentation";"Acetoin biosynthesis";"Meso-butanediol biosynthesis II";	4	0.09	25061.52	0.09	5901.57	0.09	7581.02	0.09	4214.55	0.09	7364.37	0.09	0.02	0.02	0.05	0.02
+"01_Fermentation";"Acetoin biosynthesis";"Acetoin biosynthesis III";	1	0.02	6417.10	0.02	1515.29	0.02	1934.10	0.02	1086.18	0.02	1881.53	0.02	0.01	0.01	0.01	0.01
+"01_Fermentation";"Acetoin biosynthesis";"(s)-acetoin biosynthesis";	5	0.11	31089.88	0.11	7302.99	0.11	9456.23	0.11	5152.18	0.11	9178.47	0.11	0.09	0.07	0.11	0.05
+"01_Fermentation";"Acetoin biosynthesis";"(R)-acetoin biosynthesis I";	4	0.09	25061.52	0.09	5901.57	0.09	7581.02	0.09	4214.55	0.09	7364.37	0.09	0.02	0.02	0.05	0.02
+"01_Fermentation";"Acetoin biosynthesis";"(s,s)-butanediol biosynthesis";	1	0.02	6417.10	0.02	1515.29	0.02	1934.10	0.02	1086.18	0.02	1881.53	0.02	0.01	0.01	0.01	0.01
+"01_Fermentation";"Acetoin biosynthesis";"Superpathway of (R,R)-butanediol biosynthesis";	5	0.11	31478.62	0.11	7416.86	0.11	9515.12	0.11	5300.73	0.11	9245.90	0.11	0.03	0.03	0.06	0.03
+"01_Fermentation";"Pyruvate Fermentation";"Pyruvate fermentation to propionate II (acrylate pathway)";	15	0.34	95369.65	0.34	22435.53	0.34	29021.47	0.34	15653.22	0.34	28259.43	0.34	0.03	0.02	0.03	0.02
+"01_Fermentation";"Pyruvate Fermentation";"Superpathway of clostridium acetobutylicum acidogenic and solventogenic fermentation";	37	0.85	267457.94	0.96	63276.17	0.96	80913.90	0.95	45031.28	0.98	78236.32	0.95	0.09	0.13	0.11	0.10
+"01_Fermentation";"Pyruvate Fermentation";"Pyruvate fermentation to acetate VII";	1	0.02	6506.78	0.02	1539.12	0.02	1976.83	0.02	1067.43	0.02	1923.40	0.02	0	0.00	0	0.01
+"01_Fermentation";"Pyruvate Fermentation";"Pyruvate fermentation to acetate and alanine";	3	0.07	19212.03	0.07	4569.22	0.07	5860.87	0.07	3121.56	0.07	5660.38	0.07	0.01	0.01	0.02	0.01
+"01_Fermentation";"Pyruvate Fermentation";"Pyruvate fermentation to acetate I";	2	0.05	13016.03	0.05	3068.77	0.05	3912.59	0.05	2228.22	0.05	3806.45	0.05	0	0.00	0	0.01
+"01_Fermentation";"Pyruvate Fermentation";"Pyruvate fermentation to acetate III";	1	0.02	6521.23	0.02	1547.97	0.02	1985.76	0.02	1070.30	0.02	1917.20	0.02	0	0	0	0
+"01_Fermentation";"Pyruvate Fermentation";"Pyruvate fermentation to ethanol III";	4	0.09	25579.38	0.09	6062.57	0.09	7842.94	0.09	4115.45	0.09	7558.41	0.09	0.01	0.03	0.02	0.02
+"01_Fermentation";"Pyruvate Fermentation";"Pyruvate fermentation to acetate II";	3	0.07	19197.58	0.07	4560.37	0.07	5851.94	0.07	3118.69	0.07	5666.58	0.07	0.01	0.02	0.02	0.02
+"01_Fermentation";"Pyruvate Fermentation";"Pyruvate fermentation to acetate and lactate I";	3	0.07	19563.27	0.07	4615.53	0.07	5895.73	0.07	3316.92	0.07	5735.08	0.07	0	0.00	0	0.01
+"01_Fermentation";"Pyruvate Fermentation";"Pyruvate fermentation to acetate V";	5	0.11	31328.66	0.11	7402.30	0.11	9594.31	0.11	4993.46	0.11	9338.60	0.11	0.01	0.02	0.02	0.01
+"01_Fermentation";"Pyruvate Fermentation";"Pyruvate fermentation to acetate VI";	5	0.11	31328.66	0.11	7402.30	0.11	9594.31	0.11	4993.46	0.11	9338.60	0.11	0.01	0.02	0.02	0.01
+"01_Fermentation";"Pyruvate Fermentation";"Superpathway of clostridium acetobutylicum solventogenic fermentation";	28	0.64	208382.80	0.74	49213.68	0.74	63346.52	0.74	34678.98	0.75	61143.37	0.74	0.05	0.07	0.05	0.06
+"01_Fermentation";"Pyruvate Fermentation";"Pyruvate fermentation to butanoate";	20	0.46	155217.78	0.55	36683.01	0.55	46928.66	0.55	26261.18	0.57	45344.69	0.55	0.06	0.08	0.06	0.07
+"01_Fermentation";"Pyruvate Fermentation";"Pyruvate fermentation to acetate VIII";	3	0.07	18719.16	0.07	4422.67	0.07	5750.32	0.07	2988.89	0.06	5557.28	0.07	0.08	0.06	0.08	0.04
+"01_Fermentation";"Pyruvate Fermentation";"Pyruvate fermentation to ethanol I";	12	0.28	103390.64	0.37	24392.44	0.37	31115.40	0.36	17841.39	0.39	30041.20	0.36	0.04	0.06	0.04	0.06
+"01_Fermentation";"Pyruvate Fermentation";"Pyruvate fermentation to acetate IV";	2	0.05	13016.03	0.05	3068.77	0.05	3912.59	0.05	2228.22	0.05	3806.45	0.05	0	0.00	0	0.01
+"01_Fermentation";"Pyruvate Fermentation";"Pyruvate fermentation to acetone";	13	0.30	85595.88	0.31	20220.03	0.31	26311.14	0.31	13680.73	0.30	25383.94	0.31	0.01	0.01	0.01	0.01
+"01_Fermentation";"Pyruvate Fermentation";"Pyruvate fermentation to acetate and lactate II";	3	0.07	19197.58	0.07	4560.37	0.07	5851.94	0.07	3118.69	0.07	5666.58	0.07	0.01	0.02	0.02	0.02
+"01_Fermentation";"Pyruvate Fermentation";"Pyruvate fermentation to ethanol II";	13	0.30	109419.00	0.39	25793.86	0.39	32990.61	0.39	18779.02	0.41	31855.30	0.39	0.11	0.11	0.11	0.09
+"01_Fermentation";"Pyruvate Fermentation";"Superpathway of clostridium acetobutylicum acidogenic fermentation";	35	0.80	254483.02	0.91	60216.05	0.91	76955.56	0.90	42910.03	0.93	74401.12	0.90	0.09	0.13	0.11	0.09
+"01_Fermentation";"Pyruvate Fermentation";"Pyruvate fermentation to lactate";	11	0.25	72241.31	0.26	17038.19	0.26	21799.23	0.26	12182.62	0.26	21221.31	0.26	0.02	0.02	0.01	0.02
+"01_Fermentation";"Succinate fermentation to butyrate";	2	0.05	13140.99	0.05	3104.90	0.05	4017.66	0.05	2165.97	0.05	3852.46	0.05	0	0	0	0
+"01_Fermentation";"Lysine fermentation to acetate and butyrate";	15	0.34	101885.57	0.36	24058.00	0.36	30862.68	0.36	17033.67	0.37	29931.17	0.36	0.09	0.10	0.09	0.08
+"01_Fermentation";"Homolactic fermentation";	7	0.16	45997.13	0.16	10866.29	0.16	14056.09	0.16	7521.94	0.16	13552.79	0.16	0.03	0.03	0.03	0.03
+"01_Fermentation";"Acetylene degradation";	13	0.30	109897.42	0.39	25931.56	0.39	33092.23	0.39	18908.82	0.41	31964.60	0.39	0.04	0.07	0.04	0.06
+"01_Fermentation";"Heterolactic fermentation";	16	0.37	108652.95	0.39	25643.49	0.39	33150.68	0.39	17901.29	0.39	31957.43	0.39	0.08	0.10	0.07	0.09
+"01_Fermentation";"Bifidobacterium shunt";	8	0.18	52206.57	0.19	12323.39	0.19	15953.75	0.19	8506.77	0.18	15422.64	0.19	0.03	0.03	0.04	0.03
+"01_Fermentation";"Acetyl-coA fermentation to butyrate II (clostridium)";	4	0.09	26068.81	0.09	6161.48	0.09	7929.54	0.09	4284.24	0.09	7693.53	0.09	0.01	0.01	0.01	0.01
+"08_Hydrocarbon degradation";"Polycyclic aromatics degradation";	1	0.02	11.69	0.00	0	0.00	11.44	0.00	0	0.00	0.25	0.00	0	0	0	0
+"08_Hydrocarbon degradation";"Hydrocarbon degradation";	2	0.05	6344.48	0.02	1499.66	0.02	1889.89	0.02	1112.56	0.02	1842.37	0.02	0	0	0	0
+"08_Hydrocarbon degradation";"BTEX and related aromatics degradation";	2	0.05	12694.16	0.05	2985.95	0.05	3906.66	0.05	2037.34	0.04	3764.21	0.05	0.01	0.02	0.01	0.01
+"08_Hydrocarbon degradation";"Other aromatics degradation";	2	0.05	13104.00	0.05	3081.95	0.05	4032.42	0.05	2093.50	0.05	3896.12	0.05	0	0	0	0
+"08_Hydrocarbon degradation";"Nitoaromatics degradation";	3	0.07	19794.86	0.07	4676.99	0.07	6040.62	0.07	3288.60	0.07	5788.63	0.07	0	0	0	0
+"08_Hydrocarbon degradation";"Aromatic carboxylic acid degradation";	6	0.14	40474.49	0.14	9585.70	0.14	12493.25	0.15	6463.98	0.14	11931.54	0.14	0	0	0	0
+"08_Hydrocarbon degradation";"Polycyclic aromatic hydrocarbon degradation";	31	0.71	200771.31	0.72	47380.80	0.72	60775.71	0.71	33763.51	0.73	58851.25	0.71	0.09	0.13	0.12	0.11
+"02_Homoacetogenesis";"Glycolysis";	11	0.25	72859.31	0.26	17300.65	0.26	21806.88	0.26	12613.03	0.27	21138.73	0.26	0.06	0.07	0.08	0.05
+"02_Homoacetogenesis";"Acetate formation from acetyl-coA I";	1	0.02	6506.78	0.02	1539.12	0.02	1976.83	0.02	1067.43	0.02	1923.40	0.02	0	0.00	0	0.01
+"02_Homoacetogenesis";"Acetate formation from acetyl-coA II";	1	0.02	6521.23	0.02	1547.97	0.02	1985.76	0.02	1070.30	0.02	1917.20	0.02	0	0	0	0
+"02_Homoacetogenesis";"Reductive acetyl coenzyme A pathway";	29	0.67	186903.10	0.67	44098.16	0.67	56817.70	0.67	30855.14	0.67	55132.07	0.67	0.13	0.19	0.15	0.15
+"07_Nucleic acid metabolism";"Purine metabolism";	264	6.07	1638041.62	5.85	386376.35	5.84	501744.79	5.88	266528.62	5.78	483392.11	5.87	3.41	3.04	4.30	3.15
+"07_Nucleic acid metabolism";"Pyrimidine metabolism";	96	2.21	623201.88	2.23	147040.27	2.22	188808.31	2.21	103916.72	2.25	183436.41	2.23	1.72	1.54	1.92	1.46
+"07_Nucleic acid metabolism";"Degradation of pyrimidine bases";	1	0.02	6473.07	0.02	1528.08	0.02	1942.78	0.02	1103.81	0.02	1898.40	0.02	0.02	0.03	0.02	0.02
+"11_Nitrogen cycle";"Ammonia assimilation";	9	0.21	57995.52	0.21	13720.27	0.21	18024.20	0.21	9001.71	0.20	17249.36	0.21	0.01	0.01	0.03	0.04
+"11_Nitrogen cycle";"Nitrogenated compounds Reduction";"Assimilatory nitrate reduction";"Nitrate to ammonia";	2	0.05	12967.86	0.05	3045.33	0.05	3995.63	0.05	2045.89	0.04	3881.00	0.05	0.02	0.02	0.02	0.02
+"11_Nitrogen cycle";"Nitrogenated compounds Reduction";"Hydroxylamine reduction";	1	0.02	6709.57	0.02	1582.63	0.02	2022.99	0.02	1139.10	0.02	1964.86	0.02	0.00	0.00	0.00	0
+"11_Nitrogen cycle";"Nitrogenated compounds Reduction";"Denitrification";"Nitrous oxide to nitrogen";	1	0.02	6466.38	0.02	1514.72	0.02	2006.08	0.02	1006.32	0.02	1939.26	0.02	0	0	0	0
+"11_Nitrogen cycle";"Nitrogenated compounds Reduction";"Denitrification";"Nitrite oxide to nitrous oxide";	1	0.02	5943.52	0.02	1375.26	0.02	1893.85	0.02	890.08	0.02	1784.33	0.02	0	0	0	0
+"11_Nitrogen cycle";"Nitrogenated compounds Reduction";"Denitrification";"Nitrite to nitrite oxide";	2	0.05	13790.79	0.05	3232.61	0.05	4230.29	0.05	2282.78	0.05	4045.10	0.05	0	0	0	0
+"11_Nitrogen cycle";"Nitrogen Fixation";	7	0.16	45564.14	0.16	10755.45	0.16	14257.64	0.17	7162.02	0.16	13389.02	0.16	0	0	0	0
+"12_Transporters";"Phosphotransferase system (pts)";"Enzyme I and hpr";"Enzyme I";	2	0.05	12887.92	0.05	3044.23	0.05	3911.18	0.05	2118.61	0.05	3813.91	0.05	0	0	0	0
+"12_Transporters";"Major Facilitator superfamily (MFS)";"Organic acid transporters";"Oxalate:formate antiporter (oFA) family [tc:2.A.1.11]";	1	0.02	6284.50	0.02	1490.15	0.02	1888.18	0.02	1063.09	0.02	1843.09	0.02	0	0	0	0
+"12_Transporters";"Major Facilitator superfamily (MFS)";"Sugar transporters";"Purine transporter (AzgA) family [tc:2.A.1.40]";	1	0.02	6615.35	0.02	1552.83	0.02	2030.94	0.02	1095.93	0.02	1935.65	0.02	0.00	0.01	0	0.00
+"12_Transporters";"Major Facilitator superfamily (MFS)";"Nitrate/nitrite transporters";"Nitrate/nitrite porter (nnp) family [tc:2.A.1.8]";	1	0.02	6284.50	0.02	1490.15	0.02	1888.18	0.02	1063.09	0.02	1843.09	0.02	0.21	0.18	0.27	0.20
+"12_Transporters";"Major Facilitator superfamily (MFS)";"Drug transporters";"Drug:h+ antiporter-1 (12 spanner) (DhA1) family [tc:2.A.1.2]";	1	0.02	6303.66	0.02	1457.89	0.02	2050.04	0.02	894.39	0.02	1901.34	0.02	0	0	0	0
+"12_Transporters";"Major Facilitator superfamily (MFS)";"Drug transporters";"Drug:h+ antiporter-3 (12 spanner) (DhA3) [tc:2.A.1.21]";	2	0.05	12771.80	0.05	2978.89	0.05	4031.55	0.05	1948.21	0.04	3813.14	0.05	0	0	0	0
+"12_Transporters";"Major Facilitator superfamily (MFS)";"Drug transporters";"Putative aromatic compound/drug exporter (AcDE) family [tc:2.A.1.32]";	1	0.02	6602.52	0.02	1551.34	0.02	2042.87	0.02	1053.93	0.02	1954.38	0.02	0.00	0.00	0.00	0.00
+"12_Transporters";"Major Facilitator superfamily (MFS)";"Metal transporters";"Putative bacteriochlorophyll delivery (bcD) family [tc:2.A.1.41]";	2	0.05	13013.56	0.05	3078.24	0.05	3953.66	0.05	2134.86	0.05	3846.80	0.05	0	0	0	0
+"12_Transporters";"Major Facilitator superfamily (MFS)";"Unknown transporters";"Unknown major facilitator-2 (UmF2) [tc:2.A.1.26]";	5	0.11	31431.75	0.11	7402.03	0.11	9719.06	0.11	4969.34	0.11	9341.33	0.11	0.22	0.18	0.27	0.21
+"12_Transporters";"ABC transporters, prokaryotic type";"PEPtide and nickel transporters";"Microcin c transporter [mD:m00349]";	2	0.05	12753.53	0.05	3019.42	0.05	3852.59	0.05	2164.77	0.05	3716.75	0.05	0.00	0.00	0.00	0.00
+"12_Transporters";"ABC transporters, prokaryotic type";"PEPtide and nickel transporters";"PEPtides/nickel transporter [mD:m00239]";	20	0.46	127191.05	0.45	29991.87	0.45	38500.09	0.45	21405.12	0.46	37293.93	0.45	0.01	0.03	0.02	0.02
+"12_Transporters";"ABC transporters, prokaryotic type";"Mineral and organic ion transporters";"Iron(III) transporter [mD:m00190]";	15	0.34	88951.90	0.32	20910.38	0.32	26920.75	0.32	14946.66	0.32	26174.08	0.32	0.36	0.42	0.32	0.28
+"12_Transporters";"ABC transporters, prokaryotic type";"Mineral and organic ion transporters";"Putative spermidine/putrescine transporter [mD:m00193]";	1	0.02	6439.65	0.02	1511.91	0.02	1994.19	0.02	1020.06	0.02	1913.49	0.02	0	0	0	0
+"12_Transporters";"ABC transporters, prokaryotic type";"Mineral and organic ion transporters";"Putrescine transporter [mD:m00300]";	3	0.07	19318.95	0.07	4535.73	0.07	5982.57	0.07	3060.18	0.07	5740.47	0.07	0.02	0.01	0.01	0.01
+"12_Transporters";"ABC transporters, prokaryotic type";"Mineral and organic ion transporters";"Sulfonate/nitrate/taurine transporter [mD:m00188]";	5	0.11	31659.99	0.11	7467.45	0.11	9798.13	0.11	5039.66	0.11	9354.77	0.11	0.01	0.01	0.00	0.01
+"12_Transporters";"ABC transporters, prokaryotic type";"Mineral and organic ion transporters";"Molybdate transporter [mD:m00189]";	2	0.05	13065.20	0.05	3088.94	0.05	4129.82	0.05	2012.32	0.04	3834.12	0.05	0.05	0.07	0.05	0.05
+"12_Transporters";"ABC transporters, prokaryotic type";"Mineral and organic ion transporters";"Osmoprotectant transporter [mD:m00209]";	4	0.09	25944.19	0.09	6132.21	0.09	7830.19	0.09	4402.05	0.10	7579.75	0.09	0.47	0.36	0.36	0.39
+"12_Transporters";"ABC transporters, prokaryotic type";"Mineral and organic ion transporters";"Bicarbonate transporter [mD:m00321]";	1	0.02	5886.60	0.02	1378.98	0.02	1811.63	0.02	943.71	0.02	1752.28	0.02	0	0	0	0
+"12_Transporters";"ABC transporters, prokaryotic type";"Mineral and organic ion transporters";"Spermidine/putrescine transporter [mD:m00299]";	4	0.09	25776.66	0.09	6067.70	0.09	7916.95	0.09	4141.96	0.09	7650.05	0.09	0.02	0.02	0.01	0.02
+"12_Transporters";"ABC transporters, prokaryotic type";"Oligosaccharide and polyol transporters";"Putative ABC transporter [mD:m00210]";	4	0.09	24957.86	0.09	5835.94	0.09	7683.51	0.09	4006.47	0.09	7431.92	0.09	0.02	0.02	0.01	0.01
+"12_Transporters";"ABC transporters, prokaryotic type";"Oligosaccharide and polyol transporters";"Putative ABC transporter [mD:m00211]";	1	0.02	6564.04	0.02	1565.29	0.02	1986.41	0.02	1090.71	0.02	1921.63	0.02	0.00	0.00	0	0
+"12_Transporters";"ABC transporters, prokaryotic type";"Oligosaccharide and polyol transporters";"Sn-glycerol 3-phosphate transporter [mD:m00198]";	5	0.11	31975.27	0.11	7560.65	0.11	9828.59	0.12	5126.43	0.11	9459.61	0.11	0.00	0.00	0	0.00
+"12_Transporters";"ABC transporters, prokaryotic type";"Oligosaccharide and polyol transporters";"Maltose/maltodextrin transporter [mD:m00194]";	1	0.02	6261.67	0.02	1486.72	0.02	1893.27	0.02	1056.16	0.02	1825.52	0.02	0	0	0	0
+"12_Transporters";"ABC transporters, prokaryotic type";"Oligosaccharide and polyol transporters";"Putative sugar transporter [mD:m00197]";	1	0.02	6261.67	0.02	1486.72	0.02	1893.27	0.02	1056.16	0.02	1825.52	0.02	0	0	0	0
+"12_Transporters";"ABC transporters, prokaryotic type";"Oligosaccharide and polyol transporters";"Multiple sugar transporter [mD:m00196]";	1	0.02	6261.67	0.02	1486.72	0.02	1893.27	0.02	1056.16	0.02	1825.52	0.02	0	0	0	0
+"12_Transporters";"ABC transporters, prokaryotic type";"Oligosaccharide and polyol transporters";"Multiple sugar transporter [mD:m00207]";	8	0.18	52266.41	0.19	12327.11	0.19	16113.78	0.19	8400.34	0.18	15425.15	0.19	0.04	0.04	0.07	0.04
+"12_Transporters";"ABC transporters, prokaryotic type";"Monosaccharide transporters";"Phosphate transporter [mD:m00222]";	14	0.32	85058.72	0.30	19948.92	0.30	25837.41	0.30	14092.66	0.31	25179.76	0.31	0.04	0.05	0.03	0.04
+"12_Transporters";"ABC transporters, prokaryotic type";"Monosaccharide transporters";"Phosphonate transporter [mD:m00223]";	2	0.05	12645.62	0.05	2972.45	0.04	3857.98	0.05	2058.13	0.04	3757.06	0.05	0.00	0.00	0	0
+"12_Transporters";"ABC transporters, prokaryotic type";"ABC-2 type and other transporters";"Lipopolysaccharide transporter [mD:m00320]";	9	0.21	51790.53	0.18	12219.11	0.18	15787.43	0.18	8485.90	0.18	15298.09	0.19	0.01	0.00	0.01	0.01
+"12_Transporters";"ABC transporters, prokaryotic type";"ABC-2 type and other transporters";"Orphan ABC Atpase";	1	0.02	6720.30	0.02	1583.07	0.02	2109.94	0.02	1013.17	0.02	2014.12	0.02	0.00	0.00	0	0.00
+"12_Transporters";"ABC transporters, prokaryotic type";"ABC-2 type and other transporters";"Uncharacterized ABC transporter [mD:m00258]";	3	0.07	19464.04	0.07	4586.34	0.07	5959.44	0.07	3181.94	0.07	5736.32	0.07	0.00	0.01	0.00	0.00
+"12_Transporters";"ABC transporters, prokaryotic type";"ABC-2 type and other transporters";"ABC-2 type transporter [mD:m00254]";	8	0.18	51272.96	0.18	12059.61	0.18	15792.31	0.18	8180.68	0.18	15240.36	0.18	0.67	0.75	0.52	0.72
+"12_Transporters";"ABC transporters, prokaryotic type";"ABC-2 type and other transporters";"Antibiotic ABC transporter [mD:m00248]";	2	0.05	12507.23	0.04	2950.17	0.04	3840.26	0.04	1995.50	0.04	3721.30	0.05	0	0	0	0
+"12_Transporters";"ABC transporters, prokaryotic type";"ABC-2 type and other transporters";"Lipopolysaccharide transporter [mD:m00250]";	2	0.05	13484.50	0.05	3208.14	0.05	3842.22	0.04	2566.30	0.06	3867.86	0.05	0	0	0	0
+"12_Transporters";"ABC transporters, prokaryotic type";"Phosphate and amino acid transporters";"D-methionine transporter [mD:m00238]";	1	0.02	6277.36	0.02	1469.63	0.02	1899.67	0.02	1042.78	0.02	1865.28	0.02	0	0	0	0
+"12_Transporters";"ABC transporters, prokaryotic type";"Phosphate and amino acid transporters";"Polar amino acid transporter [mD:m00236]";	3	0.07	19612.76	0.07	4635.26	0.07	5964.19	0.07	3254.82	0.07	5758.48	0.07	0.05	0.09	0.04	0.09
+"12_Transporters";"ABC transporters, prokaryotic type";"Phosphate and amino acid transporters";"Branched-chain amino acid transporter [mD:m00237]";	13	0.30	84431.79	0.30	19860.26	0.30	25914.91	0.30	13747.59	0.30	24908.96	0.30	0.01	0.01	0	0.01
+"12_Transporters";"ABC transporters, prokaryotic type";" metallic cation, iron-siderophore and vitamin b12 transporters";"Manganese/zinc/iron transporter [mD:m00319]";	1	0.02	6209.59	0.02	1460.09	0.02	1926.12	0.02	949.72	0.02	1873.66	0.02	0	0	0	0
+"12_Transporters";"ABC transporters, prokaryotic type";" metallic cation, iron-siderophore and vitamin b12 transporters";"Vitamin b12 transporter [mD:m00241]";	1	0.02	6467.38	0.02	1525.95	0.02	2000.80	0.02	1031.52	0.02	1909.11	0.02	0	0	0	0
+"12_Transporters";"ABC transporters, prokaryotic type";" metallic cation, iron-siderophore and vitamin b12 transporters";"Iron complex transporter [mD:m00240]";	2	0.05	12988.61	0.05	3073.92	0.05	3986.56	0.05	2101.82	0.05	3826.31	0.05	0.01	0.01	0.01	0.02
+"12_Transporters";"ABC transporters, prokaryotic type";" metallic cation, iron-siderophore and vitamin b12 transporters";"Zinc transporter [mD:m00242]";	6	0.14	37569.18	0.13	8848.42	0.13	11616.36	0.14	5818.88	0.13	11285.50	0.14	0.01	0.01	0.01	0.02
+"12_Transporters";"ABC transporters, prokaryotic type";" metallic cation, iron-siderophore and vitamin b12 transporters";"Cobalt transporter [mD:m00245]";	7	0.16	44832.01	0.16	10560.93	0.16	13579.81	0.16	7396.85	0.16	13294.43	0.16	0.10	0.11	0.12	0.09
+"12_Transporters";"ABC transporters, prokaryotic type";" metallic cation, iron-siderophore and vitamin b12 transporters";"Zinc/manganese transporter [mD:m00244]";	1	0.02	6209.59	0.02	1460.09	0.02	1926.12	0.02	949.72	0.02	1873.66	0.02	0	0	0	0
+"05_Fatty acid oxidation";"Fatty acid omega-oxidation";	2	0.05	6344.48	0.02	1499.66	0.02	1889.89	0.02	1112.56	0.02	1842.37	0.02	0	0	0	0
+"05_Fatty acid oxidation";"Fatty acid beta-oxidation IV (unsaturated)";	2	0.05	12802.91	0.05	3029.52	0.05	3866.48	0.05	2126.15	0.05	3780.78	0.05	0	0	0	0
+"05_Fatty acid oxidation";"Fatty acid beta-oxidation I";	15	0.34	97791.84	0.35	23109.32	0.35	30109.81	0.35	15630.20	0.34	28942.53	0.35	0.09	0.05	0.05	0.13
+"05_Fatty acid oxidation";"Fatty acid alpha-oxidation";	2	0.05	6344.48	0.02	1499.66	0.02	1889.89	0.02	1112.56	0.02	1842.37	0.02	0	0	0	0
+"05_Fatty acid oxidation";"Fatty acid beta-oxidation III (unsaturated)";	1	0.02	6028.36	0.02	1401.42	0.02	1875.21	0.02	937.63	0.02	1814.10	0.02	0	0	0	0
+"05_Fatty acid oxidation";"Fatty acid beta-oxidation II (core pathway)";	10	0.23	65983.66	0.24	15617.08	0.24	20407.32	0.24	10434.99	0.23	19524.29	0.24	0.09	0.05	0.05	0.13
+"05_Fatty acid oxidation";"Fatty acid activation";	9	0.21	57449.96	0.21	13561.46	0.21	17435.20	0.20	9482.51	0.21	16970.82	0.21	0	0	0	0
+"09_Carbohydrate Active enzyme - CAZy";"Glycoside hydrolase";	31	0.71	199288.16	0.71	47002.28	0.71	60462.32	0.71	33315.46	0.72	58508.03	0.71	0.08	0.06	0.09	0.07
+"09_Carbohydrate Active enzyme - CAZy";"Polysaccharide lyase";	10	0.23	63775.17	0.23	15027.89	0.23	19355.98	0.23	10664.83	0.23	18726.48	0.23	0.03	0.02	0.02	0.03
+"09_Carbohydrate Active enzyme - CAZy";"Carbohydrate esterase";	7	0.16	45469.71	0.16	10740.12	0.16	13852.10	0.16	7435.20	0.16	13442.27	0.16	0.07	0.05	0.07	0.05
+"09_Carbohydrate Active enzyme - CAZy";"Glycosyltransferase";	64	1.47	415780.28	1.48	98150.49	1.48	126818.53	1.49	68253.56	1.48	122557.61	1.49	0.90	0.73	1.09	0.86
+"17_Gluconeogenesis";"Gluconeogenesis in archea";	23	0.53	148842.93	0.53	35075.33	0.53	45725.16	0.54	24021.11	0.52	44021.30	0.53	0.09	0.09	0.09	0.07
+"17_Gluconeogenesis";"Gluconeogenesis";	18	0.41	116361.98	0.42	27428.75	0.41	35652.22	0.42	18936.91	0.41	34344.12	0.42	0.01	0.01	0.01	0.01

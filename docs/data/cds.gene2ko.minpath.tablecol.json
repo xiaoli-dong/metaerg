@@ -1,0 +1,178 @@
+tablecol = [
+{
+  "title": "Pathway Entry",
+  "data": "pid",
+  "render": function(data,type,full,meta){
+    pid = 'ko' + full.pid;
+    return '<a href="https://www.genome.jp/dbget-bin/www_bget?pathway+' + pid + '">' + pid + '</a>';
+  }
+},
+{
+  "title": "Name",
+  "data": "name"
+},
+{
+  "title": "fam0",
+  "data": "fam0"
+},
+{
+  "title": "MTFF",
+  "data": "fam_found",
+  "render": function(data,type,full,meta){
+    pid = 'ko' + full.pid;
+    fams = full.fams;
+    if(data > 0){
+      return '<a href="https://www.genome.jp/kegg-bin/show_pathway?' + pid + '+' + fams + '">' + data + '</a>';
+    }
+    else{
+      return data;
+    }
+  }
+},
+{
+  "title": "Count",
+  "data": "Count"
+},
+{
+  "title": "Count%",
+  "data": "Count_pct"
+},
+{
+  "title": "A",
+  "data": "Abundance"
+},
+{
+  "title": "A%",
+  "data": "Abundance_pct"
+},
+{
+  "title": "M1%",
+  "data": "depth_pct_M1",
+  "render": function(data,type,full,meta){
+    fam_found = full.fam_found_M1;
+    pid = 'ko' + full.pid;
+    fams = full.fams_M1;
+    if(data > 0){
+      return '<a href="https://www.genome.jp/kegg-bin/show_pathway?' + pid + '+' + fams + '">' + data + '</a>';
+    }
+    else{
+      return data;
+    }
+}
+},
+{
+  "title": "M2%",
+  "data": "depth_pct_M2",
+  "render": function(data,type,full,meta){
+    fam_found = full.fam_found_M2;
+    pid = 'ko' + full.pid;
+    fams = full.fams_M2;
+    if(data > 0){
+      return '<a href="https://www.genome.jp/kegg-bin/show_pathway?' + pid + '+' + fams + '">' + data + '</a>';
+    }
+    else{
+      return data;
+    }
+}
+},
+{
+  "title": "M3%",
+  "data": "depth_pct_M3",
+  "render": function(data,type,full,meta){
+    fam_found = full.fam_found_M3;
+    pid = 'ko' + full.pid;
+    fams = full.fams_M3;
+    if(data > 0){
+      return '<a href="https://www.genome.jp/kegg-bin/show_pathway?' + pid + '+' + fams + '">' + data + '</a>';
+    }
+    else{
+      return data;
+    }
+}
+},
+{
+  "title": "M4%",
+  "data": "depth_pct_M4",
+  "render": function(data,type,full,meta){
+    fam_found = full.fam_found_M4;
+    pid = 'ko' + full.pid;
+    fams = full.fams_M4;
+    if(data > 0){
+      return '<a href="https://www.genome.jp/kegg-bin/show_pathway?' + pid + '+' + fams + '">' + data + '</a>';
+    }
+    else{
+      return data;
+    }
+}
+},
+{
+  "title": "PTFF",
+  "data": "p_fam_found",
+  "render": function(data,type,full,meta){
+    pid = 'ko' + full.pid;
+    p_fams = full.p_fams;
+    if(data > 0){
+      return '<a href="https://www.genome.jp/kegg-bin/show_pathway?' + pid + '+' + p_fams + '">' + data + '</a>';
+    }
+    else{
+      return data;
+    }
+  }
+},
+{
+  "title": "P1%",
+  "data": "p_P1",
+  "render": function(data,type,full,meta){
+    pid = 'ko' + full.pid;
+    p_fams = full.p_fams_P1;
+    if(data > 0){
+      return '<a href="https://www.genome.jp/kegg-bin/show_pathway?' + pid + '+' + p_fams + '">' + data + '</a>';
+    }
+    else{
+      return data;
+    }
+  }
+},
+{
+  "title": "P2%",
+  "data": "p_P2",
+  "render": function(data,type,full,meta){
+    pid = 'ko' + full.pid;
+    p_fams = full.p_fams_P2;
+    if(data > 0){
+      return '<a href="https://www.genome.jp/kegg-bin/show_pathway?' + pid + '+' + p_fams + '">' + data + '</a>';
+    }
+    else{
+      return data;
+    }
+  }
+},
+{
+  "title": "P3%",
+  "data": "p_P3",
+  "render": function(data,type,full,meta){
+    pid = 'ko' + full.pid;
+    p_fams = full.p_fams_P3;
+    if(data > 0){
+      return '<a href="https://www.genome.jp/kegg-bin/show_pathway?' + pid + '+' + p_fams + '">' + data + '</a>';
+    }
+    else{
+      return data;
+    }
+  }
+},
+{
+  "title": "P4%",
+  "data": "p_P4",
+  "render": function(data,type,full,meta){
+    pid = 'ko' + full.pid;
+    p_fams = full.p_fams_P4;
+    if(data > 0){
+      return '<a href="https://www.genome.jp/kegg-bin/show_pathway?' + pid + '+' + p_fams + '">' + data + '</a>';
+    }
+    else{
+      return data;
+    }
+  }
+}
+];

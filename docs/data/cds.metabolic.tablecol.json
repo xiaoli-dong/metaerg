@@ -1,0 +1,62 @@
+tablecol = [
+{
+  "title": "Compound",
+  "data": "Compound"
+},
+{
+  "title": "Process",
+  "data": "Process"
+},
+{
+  "title": "Gene",
+  "data": "Gene"
+},
+{
+  "title": "Count",
+  "data": "Count"
+},
+{
+  "title": "Count%",
+  "data": "Count_pct"
+},
+{
+  "title": "A",
+  "data": "Abundance"
+},
+{
+  "title": "A%",
+  "data": "Abundance_pct"
+},
+{
+  "title": "M1%",
+  "data": "depth_pct_M1"
+},
+{
+  "title": "M2%",
+  "data": "depth_pct_M2"
+},
+{
+  "title": "M3%",
+  "data": "depth_pct_M3"
+},
+{
+  "title": "M4%",
+  "data": "depth_pct_M4"
+},
+{
+  "title": "P1%",
+  "data": "plevel_P1"
+},
+{
+  "title": "P2%",
+  "data": "plevel_P2"
+},
+{
+  "title": "P3%",
+  "data": "plevel_P3"
+},
+{
+  "title": "P4%",
+  "data": "plevel_P4"
+}
+];

@@ -1,0 +1,51 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  background-color: #fff;
+  //margin-top: 50px;
+}
+
+#chart {
+  position: relative;
+  text-align: center;
+  background: #EBF3FD;
+ 
+  border: #fa9f42 1px solid;
+}
+
+#chart path {
+  stroke: #fff;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: left;
+  width: auto;
+  height: auto;
+  padding: 8px;
+  font: 12px sans-serif;
+  background: #0a2538;
+  border: #0a2538 1px solid;
+  border-radius: 0px;
+  pointer-events: none;
+  color: white;
+}
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    border: none;
+    background: transparent;
+    word-wrap:normal;
+    text-align: center;
+    
+}
+.subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    border: none;
+    background: transparent;
+    word-wrap:normal;
+    text-align: center;
+
+}
