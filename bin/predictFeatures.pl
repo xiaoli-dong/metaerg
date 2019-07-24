@@ -24,7 +24,7 @@ my $bin = "$FindBin::RealBin";
 my $programs = "$FindBin::RealBin/../programs";
 # . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 # command line options
-my(@Options, $prefix, $outdir, $force, $locustag, $gcode, $gtype, $minorflen, $sp, $tm, $cpus, $evalue, $mincontiglen);
+my(@Options, $prefix, $outdir, $force, $locustag, $gcode, $gtype, $minorflen, $sp, $tm, $cpus, $evalue, $mincontiglen, $DBDIR);
 setOptions();
 
 
@@ -221,7 +221,7 @@ sub predict_rRNA{
     
     #9764223 nhmmer_rRNA.pl  ssu_rRNA        1098    1150    1.5e-10 +       .       Name=euk_18SrRNA
     msg("Predicting Ribosomal RNAs");
-    my $cmd = "$bin/rRNAFinder.pl --threads $cpus --evalue $evalue --domain meta --outdir $outdir $fasta";
+    my $cmd = "$bin/rRNAFinder.pl --dbdir $DBDIR --threads $cpus --evalue $evalue --domain meta --outdir $outdir $fasta";
     
     #my $cmd = "rRNAFinder.pl --threads $cpus --evalue $evalue --domain $gtype --outdir $outdir $fasta";
     
@@ -680,6 +680,7 @@ sub setOptions {
 	'General:',
 	{OPT=>"help",    VAR=>\&usage,             DESC=>"This help"},
 	{OPT=>"version", VAR=>\&version, DESC=>"Print version and exit"},
+	{OPT=>"dbdir=s",  VAR=>\$DBDIR, DEFAULT=>"./db", DESC=>"metaerg searching database directory"},
 	
 	'input:',
 	{OPT=>"mincontiglen=i",  VAR=>\$mincontiglen, DEFAULT=>200, DESC=>"Minimum contig size [NCBI needs 200]"},

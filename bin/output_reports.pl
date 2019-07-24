@@ -23,7 +23,6 @@ use File::Path qw(make_path remove_tree);
 my ($gff,$fasta, $depth, $proteomics_in);
 my $outdir = ".";
 my $bin = "$FindBin::RealBin";
-my $DBDIR = "$bin/../db";
 my $templatedir = "$bin/../template";
 
 &GetOptions(

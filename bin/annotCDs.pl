@@ -20,11 +20,10 @@ my $AUTHOR = 'Xiaoli Dong <xdong@ucalgary.ca>';
 my $VERSION = "0.1";
 my $EXE = $FindBin::RealScript;
 my $bin = "$FindBin::RealBin";
-my $DBDIR = "$FindBin::RealBin/../db";
-#my $programs = "$FindBin::RealBin/../programs";
+
 # . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 # command line options
-my(@Options, $outdir, $evalue, $cpus, $identity, $coverage, $hmm_cutoff, $hmm_evalue_cutoff);
+my(@Options, $outdir, $evalue, $cpus, $identity, $coverage, $hmm_cutoff, $hmm_evalue_cutoff, $DBDIR);
 setOptions();
 my $faa = shift @ARGV or err("Please supply a fasta format coding  sequence file on the command line.");
 
@@ -154,7 +153,8 @@ sub setOptions {
 	'General:',
 	{OPT=>"help",    VAR=>\&usage,             DESC=>"This help"},
 	{OPT=>"version", VAR=>\&version, DESC=>"Print version and exit"},
-
+	{OPT=>"dbdir=s",  VAR=>\$DBDIR, DEFAULT=>"./db", DESC=>"metaerg searching database directory"},
+	
 	'Outputs:',
 	{OPT=>"outdir=s",  VAR=>\$outdir, DEFAULT=>'', DESC=>"Output folder [auto]"},
 

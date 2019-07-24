@@ -16,15 +16,15 @@ my $VERSION = "0.1";
 my $DESC = "genome/metagenome ribosomal RNA prediction and taxon assignments";
 my $AUTHOR = 'Xiaoli Dong <xdong@ucalgary.ca>';
 my $URL = 'https://sourceforge.net/projects/rrnafinder/';
-my $DBDIR = "$FindBin::RealBin/../db/hmm/rna";
+
 
 
 my $bin = "$FindBin::RealBin";
 # . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 # command line options
-my(@Options, $quiet,$threads, $outdir, $evalue, $domain, $len, $identities, $coverage);
+my(@Options, $quiet,$threads, $outdir, $evalue, $domain, $len, $identities, $coverage, $DBDIR);
 setOptions();
-
+my $rna_hmmdir = "$DBDIR/hmm/rna";
 if (! -e $outdir) {
     msg("Creating new output folder: $outdir");
     my $cmd = "mkdir -p \Q$outdir\E";
@@ -58,7 +58,7 @@ else{
 
 foreach my $kdom (@domains){
 
-    my $hmmdb = "$DBDIR/$kdom.hmm";
+    my $hmmdb = "$rna_hmmdir/$kdom.hmm";
     
     $hmmdb && -r $hmmdb or err("Can't find database: $hmmdb");
     # run the external command
@@ -184,7 +184,7 @@ foreach my $seqid (keys %read2hmmhit){
 
 open (GFF, ">$outdir/rRNA.gff") or die "Could not open $outdir/rRNA.gff to write, $!\n";
 my $gff_head = "##gff-version 3\n";
-$gff_head .= "##$DBDIR, $fasta\n";
+$gff_head .= "##$rna_hmmdir, $fasta\n";
 print GFF $gff_head;
 
 foreach my $sid (sort keys %rna2gff){
@@ -227,7 +227,7 @@ sub rna2taxon{
 	    err("unknow rRNA type: $cat");
 	    #next;
 	}
-	my $cmd = "$^X $bin/rna2taxon.pl --cpus $threads --dbtype $dbtype --evalue $evalue --identities $identities --coverage $coverage $outdir/$input > $outdir/$output";
+	my $cmd = "$^X $bin/rna2taxon.pl --dbdir $DBDIR --cpus $threads --dbtype $dbtype --evalue $evalue --identities $identities --coverage $coverage $outdir/$input > $outdir/$output";
 	msg("Command: $cmd");
 	system($cmd) >> 8 and  die "Could not execute cmd=$cmd, $!\n";
 	
@@ -329,6 +329,7 @@ sub setOptions {
       {OPT=>"help",    VAR=>\&usage,             DESC=>"This help"},
       {OPT=>"version", VAR=>\&version,           DESC=>"Print version and exit"},
       {OPT=>"quiet!",  VAR=>\$quiet, DEFAULT=>0, DESC=>"No screen output"},
+      {OPT=>"dbdir=s",  VAR=>\$DBDIR, DEFAULT=>"./db", DESC=>"metaerg searching database directory"},
       
       {OPT=>"outdir=s",  VAR=>\$outdir, DEFAULT=>'.', DESC=>"Output folder [.]"},
       {OPT=>"threads=i",  VAR=>\$threads, DEFAULT=>8,  DESC=>"Number of threads/cores/CPUs to use"},

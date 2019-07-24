@@ -32,14 +32,14 @@ my $AUTHOR = 'Xiaoli Dong <xdong@ucalgary.ca>';
 my $VERSION = "0.1";
 my $EXE = $FindBin::RealScript;
 my $bin = "$FindBin::RealBin";
-my $DBDIR = "$FindBin::RealBin/../db";
-my $sqlite_dir = "$DBDIR/sqlite3";
+
 
 # . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 # command line options
-my(@Options, $quiet, $debug,$force, $prefix, $outdir,$locustag, $increment, $gcode, $gtype, $mincontiglen, $minorflen, $evalue, $cpus, $identity, $coverage,$hmm_cutoff,$hmm_evalue_cutoff, $sp, $tm, $depth_f, $plevel_f);
+my(@Options, $quiet, $debug,$force, $prefix, $outdir,$locustag, $increment, $gcode, $gtype, $mincontiglen, $minorflen, $evalue, $cpus, $identity, $coverage,$hmm_cutoff,$hmm_evalue_cutoff, $sp, $tm, $depth_f, $plevel_f, $DBDIR);
 
 setOptions();
+my $sqlite_dir = "$DBDIR/sqlite3";
 my $t0 = Benchmark->new;
 # . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 # prepare input, output filename, directory
@@ -68,7 +68,7 @@ else {
 msg("Using filename prefix: $prefix.XXX");
 
 #print out the input parameter values
-my $param = "$EXE --mincontiglen $mincontiglen --minorflen $minorflen --prefix $prefix --outdir $outdir --locustag $locustag --increment $increment --cpus $cpus --evalue $evalue --identity $identity --coverage $coverage -hmmcutoff $hmm_cutoff -hmmevalue $hmm_evalue_cutoff";
+my $param = "$EXE --dbdir $DBDIR --mincontiglen $mincontiglen --minorflen $minorflen --prefix $prefix --outdir $outdir --locustag $locustag --increment $increment --cpus $cpus --evalue $evalue --identity $identity --coverage $coverage -hmmcutoff $hmm_cutoff -hmmevalue $hmm_evalue_cutoff";
 
 $param .= ($sp) ? " --sp" : "";
 $param .= ($tm) ? " --tm" : "";
@@ -88,7 +88,7 @@ if(! -e "$fasta"){
     filter_fasta($contig, $fasta, $mincontiglen);
 }
 
-my $cmd = "$^X $bin/predictFeatures.pl --evalue $evalue --gtype $gtype --gc $gcode --minorflen $minorflen --prefix $prefix --cpus $cpus --outdir $tmpdir ";
+my $cmd = "$^X $bin/predictFeatures.pl --dbdir $DBDIR --evalue $evalue --gtype $gtype --gc $gcode --minorflen $minorflen --prefix $prefix --cpus $cpus --outdir $tmpdir ";
 $cmd .= "--sp " if ($sp);
 $cmd .= "--tm " if ($tm);
 $cmd .= "--force $fasta";
@@ -97,7 +97,7 @@ msg("******Finish predicating genes\n\n");
 
 msg("******Start annotate cds\n");
 my $faa = "$tmpdir/cds.faa";
-$cmd = "$^X $bin/annotCDs.pl --cpus $cpus --evalue $evalue --identity $identity --coverage $coverage --hmmcutoff $hmm_cutoff --hmmevalue $hmm_evalue_cutoff --outdir $tmpdir $faa";
+$cmd = "$^X $bin/annotCDs.pl --dbdir $DBDIR --cpus $cpus --evalue $evalue --identity $identity --coverage $coverage --hmmcutoff $hmm_cutoff --hmmevalue $hmm_evalue_cutoff --outdir $tmpdir $faa";
 runcmd("$cmd");
 msg("******Finish annotate cds\n\n");
 
@@ -908,6 +908,7 @@ sub setOptions {
 	{OPT=>"version", VAR=>\&version, DESC=>"Print version and exit"},
 
 	'input:',
+	{OPT=>"dbdir=s",  VAR=>\$DBDIR, DEFAULT=>"db", DESC=>"metaerg searching database directory"},
 	{OPT=>"mincontiglen=i",  VAR=>\$mincontiglen, DEFAULT=>200, DESC=>"Minimum contig size [NCBI needs 200]"},
 
 	'gene prediction:',
