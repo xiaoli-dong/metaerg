@@ -4,4 +4,5 @@
 db
 example/*/
 tmp
+example/*debug*
 README.txt
