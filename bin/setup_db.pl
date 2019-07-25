@@ -22,7 +22,7 @@ $s_version = "132";
     "v=s" =>\$s_version
     );
 
-($outdir && $sqlfile ) ||
+($outdir) ||
     die "usage: $0 OPTIONS
 where options are:\n -o  <data output direcoty><-v silva database release version, for example 132\n";
 
