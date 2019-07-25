@@ -15,20 +15,20 @@ use Getopt::Long;
 use Time::Piece;
 use File::Basename;
 use Cwd 'abs_path';
-my ($outdir, $sqlfile, $s_version);
+my ($outdir, $s_version);
 $s_version = "132";
 &GetOptions(
     "o=s" =>\$outdir,
-    "q=s" =>\$sqlfile,
     "v=s" =>\$s_version
     );
 
 ($outdir && $sqlfile ) ||
     die "usage: $0 OPTIONS
-where options are:\n -o  <data output direcoty> <-q metaerg sql file><-v silva database release version, for example 132\n";
+where options are:\n -o  <data output direcoty><-v silva database release version, for example 132\n";
 
 my $EXE = $FindBin::RealScript;
 my $bin = "$FindBin::RealBin";
+my $sqlfile = "$bin/../metaerg.sql";
 my $DBDIR = "$outdir/db";
 my $tmp_dir = "$outdir/tmp";
 my $diamond_dir = "$DBDIR/diamond";
