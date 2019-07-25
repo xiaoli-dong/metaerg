@@ -554,7 +554,7 @@ sub build_sqlite_db{
 
    my $cdir = getcwd();
    msg("current dir=$cdir");
-	my $cmd = "cat $sqlfilename | sqlite3 $workdir/$sqlite_dir/metaerg.db";
+	my $cmd = "cat $sqlfilename | sqlite3 ../db/sqlite3/metaerg.db";
 	runcmd($cmd);
 	chdir $workdir;
 
