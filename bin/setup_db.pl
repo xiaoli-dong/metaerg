@@ -489,7 +489,7 @@ sub build_genomedb{
         msg("Fetching http://ebg.ucalgary.ca/metaerg/genomedb.faa.gz");
         #fetch the uri to local directory
         my $where = $ff->fetch(to => $tmp_dir) or die $ff->error;
-	my $cmd .= "zcat $tmp_dir/genomedb.faa.gz | diamond makedb -d $diamond_dir/genomedb";
+	my $cmd .= "diamond makedb --in $tmp_dir/genomedb.faa.gz -d $diamond_dir/genomedb";
 	msg("Start running:$cmd");
 	runcmd($cmd);
     }
