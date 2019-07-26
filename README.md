@@ -37,15 +37,15 @@ MetaErg depends on a list of third-party programs to do the gene predication and
 > git clone https://github.com/xiaoli-dong/metaerg.git $HOME/metaerg
 ```
 
-MetaErg require external data to assign the taxonomic, functinal, and pathway annotations to the predicted genes. 
+MetaErg require external database to assign the taxonomic, functinal, and pathway annotations to the predicted genes. There are two ways to obtain the metaerg databases: 
 
-The exteral data can be download and unarchived:
+--- The exteral data can be download and unarchived:
 ```
 wget http://ebg.ucalgary.ca/metaerg/db.tar.gz -P $HOME
 tar -xvzf $HOME/db.tar.gz
 ```
 
-The external data can also be build by metaerg supplied script:
+--- The external data can also be build by metaerg supplied script:
 ```
 $HOME/metaerg/bin/setup_db.pl -o $HOME -v 132
 ```
