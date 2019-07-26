@@ -66,7 +66,7 @@ sub cds_diamondSearch{
 sub cds_hmmerSearch_FOAM{
     my ($faa, $dbname, $outdir, $cpus, $hmm_cutoff) = @_;
     my $t0 = Benchmark->new;
-    my $db = "$DBDIR/hmm/protein/$dbname";
+    my $db = "$DBDIR/hmm/$dbname";
     my $hmmout = "$outdir/$dbname.hmmer3";
     my @thrs = ();
     push(@thrs, threads->new(\&cds_hmmerSearch, $faa, "FOAM1.hmm", $outdir, $cpus, $hmm_cutoff));
@@ -98,7 +98,7 @@ sub cds_hmmerSearch_FOAM{
 sub cds_hmmerSearch{
     my ($faa, $dbname, $outdir, $cpus, $hmm_cutoff) = @_;
     my $t0 = Benchmark->new;
-    my $db = "$DBDIR/hmm/protein/$dbname";
+    my $db = "$DBDIR/hmm/$dbname";
     my $hmmprefix = "$outdir/$dbname";
     my $hmmout = "$hmmprefix.hmmer3";
     my $cmd = "hmmsearch --notextw --acc $hmm_cutoff  --cpu $cpus $db $faa  > \Q$hmmout\E 2> /dev/null";
@@ -114,7 +114,7 @@ sub cds_hmmerSearch{
 sub cds_hmmerSearch_casgene{
     my ($faa, $dbname, $outdir, $cpus, $hmm_evalue_cutoff) = @_;
     my $t0 = Benchmark->new;
-    my $db = "$DBDIR/hmm/protein/$dbname";
+    my $db = "$DBDIR/hmm/$dbname";
     my $hmmprefix = "$outdir/$dbname";
     my $hmmout = "$hmmprefix.hmmer3";
     my $cmd = "hmmsearch --notextw --acc -E $hmm_evalue_cutoff  --domT 25 --cpu $cpus $db $faa > \Q$hmmout\E 2> /dev/null";
@@ -129,7 +129,7 @@ sub cds_hmmerSearch_casgene{
 sub cds_hmmerSearch_homemodel{
     my ($faa, $dbname, $outdir, $cpus, $hmm_evalue_cutoff) = @_;
     my $t0 = Benchmark->new;
-    my $db = "$DBDIR/hmm/protein/$dbname";
+    my $db = "$DBDIR/hmm/$dbname";
     my $hmmprefix = "$outdir/$dbname";
     my $hmmout = "$hmmprefix.hmmer3";
     my $cmd = "hmmsearch --notextw --acc -E $hmm_evalue_cutoff  --domT 25 --cpu $cpus $db $faa > \Q$hmmout\E 2> /dev/null";
