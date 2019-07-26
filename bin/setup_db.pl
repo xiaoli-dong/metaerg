@@ -693,6 +693,8 @@ sub fasta2domain{
 	if(my ($seqid,$other, $align) =  /^>?(\S+?)(\/.*?)\n(.*)/s){
 	    
 	    sleep(1);
+	    #can get too many request problems. By default, the request from NCBI cannot be >3 times/second.
+	    #with the api_key, it can be increased to 10 times/second perl email. 
 	    
 	    my $factory = Bio::DB::EUtilities->new(-eutil   => 'efetch',
 						   -db      => 'nucleotide',
