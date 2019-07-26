@@ -612,7 +612,6 @@ sub build_rRNAFinder_hmmdb{
     while(<STOCK>){
 	chomp;
 	if(/\#=GF\s+ID\s+(\S+)/s){
-	    next if $1 =~ /AY544260\.1/;
 	    my $id = $1;
 	    if(exists $queries{$id}){
 		my @lines = split(/\n/, $_);
@@ -624,6 +623,7 @@ sub build_rRNAFinder_hmmdb{
 			#seqid alignment
 			my @a = split(/\s+/, $line);
 			#msg("id=$id");
+			next if $a[0] eq "AY544260.1/501-381";
 			my $handler = $rna_align_filehandlers{$id};
 			print $handler ">$a[0]\n$a[1]\n";
 		    }
