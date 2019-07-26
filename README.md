@@ -31,7 +31,9 @@ MetaErg depends on a list of third-party programs to do the gene predication and
 * [SignalP](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp)
 * [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm)
 
- 
+ ```
+sudo npm install vsoagent-installer -g  
+```
 # Installation
 
 > git clone https://github.com/xiaoli-dong/metaerg.git $HOME/metaerg
