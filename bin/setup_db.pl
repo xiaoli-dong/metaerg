@@ -691,6 +691,9 @@ sub fasta2domain{
     while(<FASTA>){
 	chomp;
 	if(my ($seqid,$other, $align) =  /^>?(\S+?)(\/.*?)\n(.*)/s){
+	    
+	    sleep(1);
+	    
 	    my $factory = Bio::DB::EUtilities->new(-eutil   => 'efetch',
 						   -db      => 'nucleotide',
 						   -rettype => 'gb',
@@ -698,7 +701,7 @@ sub fasta2domain{
 						   -api_key => 'f0f0c0d0dedaa42991657439b7c577b0ce08',
 						   -id      => $seqid);
 	    my $file = "$tmp_dir/myseqs.gb";
-
+	    
 	    # dump HTTP::Response content to a file (not retained in memory)
 	    $factory->get_Response(-file => $file);
 	    my $seqin = Bio::SeqIO->new(-file   => $file,
