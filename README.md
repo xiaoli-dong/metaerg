@@ -39,13 +39,13 @@ MetaErg depends on a list of third-party programs to do the gene predication and
 
 MetaErg require external database to assign the taxonomic, functinal, and pathway annotations to the predicted genes. There are two ways to obtain the metaerg databases: 
 
---- The exteral data can be download and unarchived:
+The exteral data can be download and unarchived:
 ```
 wget http://ebg.ucalgary.ca/metaerg/db.tar.gz -P $HOME
 tar -xvzf $HOME/db.tar.gz
 ```
 
---- The external data can also be build by metaerg supplied script:
+The external data can also be build by metaerg supplied script:
 ```
 $HOME/metaerg/bin/setup_db.pl -o $HOME -v 132
 ```
@@ -61,23 +61,7 @@ MetaErg databases were built based on the following public available databases:
 * [GTDBTK](https://github.com/Ecogenomics/GTDBTk)
 * [RefSeq](https://www.ncbi.nlm.nih.gov/refseq/)
 
-
-
-\#The "db/tmp" directory is serving as a directory to hold all the temporary files while MetaErg initializing or updating the searching databases.
-> mkdir db/tmp
-
-\# Check required software dependencies
-> perl bin/check_tools.pl
-
-\# Intialize the searching databases
-> perl bin/build_db.pl
-
-\# Initialize sqlite3 database
-> cd into db/sqlite3
-> cat metaerg.sql | sqlite3 metaerg.db
-
----
-## Running MetaErg
+# Running MetaErg
 
 Let's assume you are in the "example" direcoty of the MetaErg installation 
 
