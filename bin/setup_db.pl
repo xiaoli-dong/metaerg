@@ -53,12 +53,11 @@ build_tigrfam_db();
 build_go_db();
 build_foam_db();
 build_genomedb();
-build_sqlite_db($sqlfile);
 build_rRNAFinder_hmmdb();
 build_rRNAFinder_txondb();
 build_metabolic_hmmdb();
 build_casgene_hmmdb();
-
+build_sqlite_db($sqlfile);
 sub build_uniprot_sprot_db{
 
     my @files = ("uniprot_sprot.fasta.gz", "uniprot_sprot.dat.gz", "reldate.txt");
@@ -311,8 +310,12 @@ sub build_tigrfam_db{
 	my $ae = Archive::Extract->new(archive =>"$tmp_dir/TIGRFAMs_15.0_INFO.tar.gz");
 	$ae->extract(to => "$tmp_dir/TIGRFAMs_15.0_INFO");
     }
-    tigrfam_id2info_table("$protein_hmm_dir/TIGRFAMs.hmm", "$tmp_dir/TIGRFAMS_ROLE_LINK" , "$tmp_dir/TIGR_ROLE_NAMES", "$tmp_dir/TIGRFAMs.hmm.sqldb.tsv");
-    tigrfam_id2go_table("$tmp_dir/TIGRFAMS_GO_LINK", "$tmp_dir/TIGRFAMS2GO.sqldb.tsv");
+    if(! -e  "$tmp_dir/TIGRFAMs.hmm.sqldb.tsv"){
+	tigrfam_id2info_table("$protein_hmm_dir/TIGRFAMs.hmm", "$tmp_dir/TIGRFAMS_ROLE_LINK" , "$tmp_dir/TIGR_ROLE_NAMES", "$tmp_dir/TIGRFAMs.hmm.sqldb.tsv");
+    }
+    if(! -e "$tmp_dir/TIGRFAMS2GO.sqldb.tsv"){
+	tigrfam_id2go_table("$tmp_dir/TIGRFAMS_GO_LINK", "$tmp_dir/TIGRFAMS2GO.sqldb.tsv");
+    }
 }
 
 sub tigrfam_id2info_table{
