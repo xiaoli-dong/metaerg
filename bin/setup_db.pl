@@ -240,7 +240,7 @@ sub build_pfam_db{
 	my $ae = Archive::Extract->new(archive =>"$tmp_dir/Pfam-A.hmm.gz");
 	$ae->extract(to => $protein_hmm_dir);
     }
-    if(! -e "$protein_hmm_dir/pfam2go"){
+    if(! -e "$tmp_dir/pfam2go"){
 	my $ff = File::Fetch->new(uri => "http://geneontology.org/external2go/pfam2go");
 	msg("Fetching pfam2go");
 	my $where = $ff->fetch(to => $tmp_dir) or die $ff->error;
