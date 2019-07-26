@@ -46,15 +46,14 @@ runcmd("mkdir -p \Q$protein_hmm_dir\E") if (! -d $protein_hmm_dir);
 runcmd("mkdir -p \Q$sqlite_dir\E") if (! -d $sqlite_dir);
 runcmd("mkdir -p \Q$blast_dir\E") if (! -d $blast_dir);
 
-
+build_rRNAFinder_hmmdb();
+build_rRNAFinder_txondb();
 build_uniprot_sprot_db();
 build_pfam_db();
 build_tigrfam_db();
 build_go_db();
 build_foam_db();
 build_genomedb();
-build_rRNAFinder_hmmdb();
-build_rRNAFinder_txondb();
 build_metabolic_hmmdb();
 build_casgene_hmmdb();
 build_sqlite_db($sqlfile);
