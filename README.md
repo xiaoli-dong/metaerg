@@ -31,9 +31,7 @@ MetaErg depends on a list of third-party programs to do the gene predication and
 * [SignalP](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp)
 * [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm)
 
- ```
- sudo npm install vsoagent-installer -g
- ```
+
 # Installation
 ```
 > git clone https://github.com/xiaoli-dong/metaerg.git $HOME/metaerg
@@ -42,14 +40,15 @@ MetaErg depends on a list of third-party programs to do the gene predication and
 MetaErg require external data to assign the taxonomic, functinal, and pathway annotations to the predicted genes. 
 
 The exteral data can be download and unarchived:
-
-> wget http://ebg.ucalgary.ca/metaerg/db.tar.gz -P $HOME
-> tar -xvzf $HOME/db.tar.gz
+```
+wget http://ebg.ucalgary.ca/metaerg/db.tar.gz -P $HOME
+tar -xvzf $HOME/db.tar.gz
+```
 
 The external data can also be build by metaerg supplied script:
-
-> $HOME/metaerg/bin/setup_db.pl -o $HOME -v 132
-
+```
+$HOME/metaerg/bin/setup_db.pl -o $HOME -v 132
+```
 MetaErg databases were built based on the following public available databases:
 
 * [casgene.hmm](https://www.nature.com/articles/nature21059)
