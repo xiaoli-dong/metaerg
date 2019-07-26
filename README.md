@@ -32,12 +32,12 @@ MetaErg depends on a list of third-party programs to do the gene predication and
 * [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm)
 
  ```
-sudo npm install vsoagent-installer -g  
-```
+ sudo npm install vsoagent-installer -g
+ ```
 # Installation
-
+```
 > git clone https://github.com/xiaoli-dong/metaerg.git $HOME/metaerg
-
+```
 
 MetaErg require external data to assign the taxonomic, functinal, and pathway annotations to the predicted genes. 
 
