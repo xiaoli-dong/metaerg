@@ -31,15 +31,7 @@ MetaErg depends on a list of third-party programs to do the gene predication and
 * [SignalP](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp)
 * [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm)
 
- Register your BioProject (e.g. PRJNA123456) and your locus_tag prefix (e.g. EHEC) first!
-% prokka --compliant --centre UoN --outdir PRJNA123456 --locustag EHEC --prefix EHEC-Chr1 contigs.fa
-
-# Check to see if anything went really wrong
-% less PRJNA123456/EHEC-Chr1.err
-
-# Add final details using Sequin
-% sequin PRJNA123456/EHEC-Chr1.sqn
-
+ 
 # Installation
 
 > git clone https://github.com/xiaoli-dong/metaerg.git $HOME/metaerg
