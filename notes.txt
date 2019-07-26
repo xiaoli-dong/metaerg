@@ -1,0 +1,7 @@
+###"--shm-size 2g" default shm size is only 64M, without increase the size, diamond search will fail
+docker build -t  metaerg -f Dockerfile ./context
+
+
+##docker image cannot access symbolic directory
+docker  run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v /gpfs/home/xdong/deve/docker/metaerg-docker:/data/ metaerg setup_db.pl -o /data  -v 132
+docker  run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v /gpfs/home/xdong/deve/docker/metaerg-docker:/data/ metaerg metaerg.pl --dbdir /data/db --outdir /data/test --force /data/test.fasta
