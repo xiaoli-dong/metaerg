@@ -19,8 +19,7 @@ MetaErg is developed using perl, html, and javascript and have been tested on Li
 * SWISS::Entry;
 * SWISS::KW;
 
----
-## Third-party software
+### Third-party software
 MetaErg depends on a list of third-party programs to do the gene predication and function annotations. Make sure that all MetaErg's dependencies to be instaled and are in your system's path. MetaErg depends on:
 
 * [ARAGORN](http://mbio-serv2.mbioekol.lu.se/ARAGORN)
@@ -33,8 +32,7 @@ MetaErg depends on a list of third-party programs to do the gene predication and
 * [SignalP](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp)
 * [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm)
 
----
-## Reference database
+### Reference database
 MetaErg depends on the following database to assign the predicated genes taxonomic, functinal, and pathway annotation 
 
 * [casgene.hmm](https://www.nature.com/articles/nature21059)
