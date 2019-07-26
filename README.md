@@ -42,7 +42,6 @@ MetaErg require external data to assign the taxonomic, functinal, and pathway an
 The exteral data can be download and unarchived:
 
 > wget http://ebg.ucalgary.ca/metaerg/db.tar.gz -P $HOME
-
 > tar -xvzf $HOME/db.tar.gz
 
 The external data can also be build by metaerg supplied script:
