@@ -695,6 +695,7 @@ sub fasta2domain{
 						   -db      => 'nucleotide',
 						   -rettype => 'gb',
 						   -email   => 'xiaolid@gmail.com',
+						   -api_key => 'f0f0c0d0dedaa42991657439b7c577b0ce08',
 						   -id      => $seqid);
 	    my $file = "$tmp_dir/myseqs.gb";
 
