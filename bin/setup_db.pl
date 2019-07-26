@@ -612,6 +612,7 @@ sub build_rRNAFinder_hmmdb{
     while(<STOCK>){
 	chomp;
 	if(/\#=GF\s+ID\s+(\S+)/s){
+	    next if $1 =~ /AY544260\.1/;
 	    my $id = $1;
 	    if(exists $queries{$id}){
 		my @lines = split(/\n/, $_);
