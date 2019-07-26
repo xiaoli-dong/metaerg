@@ -245,22 +245,26 @@ sub build_pfam_db{
 	msg("Fetching pfam2go");
 	my $where = $ff->fetch(to => $tmp_dir) or die $ff->error;
     }
-    open(PFAM, "$tmp_dir/Pfam-A.hmm.dat") or die "Could not open $tmp_dir/Pfam-A.hmm.dat to read, $!\n";
-    open(SQL, ">$tmp_dir/Pfam-A.hmm.sql.db.tsv")  or die "Could not open $tmp_dir/Pfam-A.hmm.sql.db.tsv to write, $!\n";
-
-
-    $/ = "\n# STOCKHOLM";
-
-    while(<PFAM>){
-	if(/ID\s+(\S+).*?AC\s+(\w+).*?\n.*DE\s+(\S.*?)\n.*?TP\s+(\S.*?)\n.*?ML\s+(\d+)/s){
-	    print SQL "$2\t$1\t$3\t$4\t$5\n";
+    if(! -e "$tmp_dir/Pfam-A.hmm.sql.db.tsv"){
+	open(PFAM, "$tmp_dir/Pfam-A.hmm.dat") or die "Could not open $tmp_dir/Pfam-A.hmm.dat to read, $!\n";
+	open(SQL, ">$tmp_dir/Pfam-A.hmm.sql.db.tsv")  or die "Could not open $tmp_dir/Pfam-A.hmm.sql.db.tsv to write, $!\n";
+	
+	
+	$/ = "\n# STOCKHOLM";
+	
+	while(<PFAM>){
+	    if(/ID\s+(\S+).*?AC\s+(\w+).*?\n.*DE\s+(\S.*?)\n.*?TP\s+(\S.*?)\n.*?ML\s+(\d+)/s){
+		print SQL "$2\t$1\t$3\t$4\t$5\n";
+	    }
+	    
 	}
-
+	close(SQL);
+	close(PFAM);
+	
+	$/ = "\n";
     }
-    close(SQL);
-    close(PFAM);
-
-    $/ = "\n";
+    
+    if(! -e "$tmp_dir/pfam2go.sqldb.tsv"){
     open(SQL, ">$tmp_dir/pfam2go.sqldb.tsv")  or die "Could not open $tmp_dir/pfam2go.sqldb.tsv to write, $!\n";
     open(INPUT, "$tmp_dir/pfam2go") or die "Could not open $tmp_dir/pfam2go to read, $!\n";
 
@@ -273,6 +277,7 @@ sub build_pfam_db{
     }
     close(INPUT);
     close(SQL);
+    }
 }
 
 sub build_tigrfam_db{
@@ -689,7 +694,7 @@ sub fasta2domain{
 	    my $factory = Bio::DB::EUtilities->new(-eutil   => 'efetch',
 						   -db      => 'nucleotide',
 						   -rettype => 'gb',
-						   -email   => 'xdong@ucalgary.ca',
+						   -email   => 'xiaolid@gmail.com',
 						   -id      => $seqid);
 	    my $file = "$tmp_dir/myseqs.gb";
 
