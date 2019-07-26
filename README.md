@@ -2,12 +2,11 @@
 # MetaErg
 MetaErg is a stand-alone and fully automated metagenome and metaproteome annotation pipeline. MetaErg bundles essential annotation tasks such as feature prediction, functional annotation with Hidden Markov Model (HMM) searches as well as blast and diamond searches. It estimates and visualizes quantitative taxonomic and pathway compositions of multiple metagenomic and proteomics samples using sequencing coverage and proteomics spectral counts, respectively. For visualization, MetaErg provides a HTML interface, bringing all annotation results together, and producing sortable and searchable tables, collapsible trees, and other graphic representations enabling intuitive navigation of complex data.
 
----
-# Installation
-MetaErg is developed using perl, html, and javascript. It have been tested on Linux platform. 
+MetaErg is developed using perl, html, and javascript and it requires Perl 5.6.0 or higher. It has been tested on Linux platform. 
 
-### Required perl modules
-MetaErg requires Perl 5.6.0 or higher. In addition, it also require following modules, which are not included in the perl core modules, to be installed:
+
+# Required perl modules
+MetaErg requires the following perl modules, which are not included in the perl core modules, to be installed:
 
 * Archive::Extract;
 * Bio::Perl;
@@ -19,7 +18,7 @@ MetaErg requires Perl 5.6.0 or higher. In addition, it also require following mo
 * SWISS::Entry;
 * SWISS::KW;
 
-### Third-party software
+# Third-party software
 MetaErg depends on a list of third-party programs to do the gene predication and function annotations. Make sure that all MetaErg's dependencies to be instaled and are in your system's path. MetaErg depends on:
 
 * [ARAGORN](http://mbio-serv2.mbioekol.lu.se/ARAGORN)
@@ -32,8 +31,13 @@ MetaErg depends on a list of third-party programs to do the gene predication and
 * [SignalP](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp)
 * [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm)
 
-### Reference database
-MetaErg depends on the following database to assign the predicated genes taxonomic, functinal, and pathway annotation 
+
+# Installation
+
+> git clone https://github.com/xiaoli-dong/metaerg.git $HOME/metaerg
+
+### MetaErg reference database
+MetaErg require external data to assign the taxonomic, functinal, and pathway annotations to the predicted genes. The exteral data are built based on the following public available databases:
 
 * [casgene.hmm](https://www.nature.com/articles/nature21059)
 * [FOAM](https://cbb.pnnl.gov/portal/software/FOAM.html)
@@ -45,13 +49,11 @@ MetaErg depends on the following database to assign the predicated genes taxonom
 * [GTDBTK](https://github.com/Ecogenomics/GTDBTk)
 * [RefSeq](https://www.ncbi.nlm.nih.gov/refseq/)
 
----
+MetaErg requires ~53Gb of external data that need to be downloaded and unarchived:
 
-Extract the downloaded  archive
+> $HOME/metaerg/bin/setup_db.pl -o $home -v 132
 
-> tar -xvzf metaerg.*.tar.gz
 
-> cd metaerg
 
 
 \#The "db/tmp" directory is serving as a directory to hold all the temporary files while MetaErg initializing or updating the searching databases.
