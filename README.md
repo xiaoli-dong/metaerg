@@ -36,8 +36,16 @@ MetaErg depends on a list of third-party programs to do the gene predication and
 
 > git clone https://github.com/xiaoli-dong/metaerg.git $HOME/metaerg
 
-### MetaErg reference database
-MetaErg require external data to assign the taxonomic, functinal, and pathway annotations to the predicted genes. The exteral data are built based on the following public available databases:
+MetaErg require external data to assign the taxonomic, functinal, and pathway annotations to the predicted genes. The exteral data can be download and unarchived:
+
+> wget http://ebg.ucalgary.ca/metaerg/db.tar.gz -P $HOME
+> tar -xvzf $HOME/db.tar.gz
+
+The external data can also be build by metaerg supplied script:
+
+> $HOME/metaerg/bin/setup_db.pl -o $HOME -v 132
+
+MetaErg databases were built based on the following public available databases:
 
 * [casgene.hmm](https://www.nature.com/articles/nature21059)
 * [FOAM](https://cbb.pnnl.gov/portal/software/FOAM.html)
@@ -48,11 +56,6 @@ MetaErg require external data to assign the taxonomic, functinal, and pathway an
 * [TIGRFAMS](http://tigrfams.jcvi.org/cgi-bin/index.cgi)
 * [GTDBTK](https://github.com/Ecogenomics/GTDBTk)
 * [RefSeq](https://www.ncbi.nlm.nih.gov/refseq/)
-
-MetaErg requires ~53Gb of external data that need to be downloaded and unarchived:
-
-> $HOME/metaerg/bin/setup_db.pl -o $home -v 132
-
 
 
 
