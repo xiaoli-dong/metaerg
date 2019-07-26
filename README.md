@@ -6,7 +6,7 @@ MetaErg is a stand-alone and fully automated metagenome and metaproteome annotat
 # Installation
 MetaErg is developed using perl, html, and javascript and have been tested on Linux platform. It requires Perl 5.6.0 or higher. In addition, it also require following modules, which are not included in the perl core modules, to be installed:
 
-## Required perl modules
+### Required perl modules
 MetaErg is developed using perl, html, and javascript and have been tested on Linux platform. It requires Perl 5.6.0 or higher. In addition, it also require following modules, which are not included in the perl core modules, to be installed:
 
 * Archive::Extract;
