@@ -31,7 +31,8 @@ MetaErg depends on a list of third-party programs to do the gene predication and
 * [SignalP](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp): The program predicts the presence of signal peptides and the location of their cleavage sites in proteins from Archaea, Gram-positive Bacteria, Gram-negative Bacteria and Eukarya.
 * [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm): a method for prediction transmembrane helices based on a hidden Markov model
 
-# Running with docker
+# Running MetaErg with docker image
+MetaErg docker image is host on the docker hub: https://hub.docker.com/r/xiaolidong/docker-metaerg
 ```
 # Get Docker image
 docker pull xiaolidong/docker-metaerg
