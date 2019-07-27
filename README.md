@@ -100,7 +100,7 @@ The coverage profile must be in a well defined format in order for MetaErg  prog
 ```
 With user provided protein expression level profile, MetaErg will generate functional, pathway profiles based on the proteins expressed in the metagenomic samples. For the required protein expression profile format, you can refer to "demo.proteomics.txt" file included in the "example" direcotory of the MetaErg installation.
 
-## MetaErg utility scripts
+# MetaErg utility scripts
 
 MetaErg also includes some utility scripts to filtering contigs, add bin ids to the coding sequecnes, generate input for VizBin program. Some of the examples are listed as below:
 
@@ -116,15 +116,15 @@ The above command filters out the contigs <500bp from contig.fasta file
 ```
 The "binning_dir" contains all the bin files. Each bin file is named in the format of "Bin.binid.fa" and binid is a number. Each bin file contains all the contigs binned together. The above command writes two files into the "binning_dir":  "binned_concat.fasta" and "binned_annotation.list".  In the VizBin application, the "binned_concat.fasta" will be uploaded to "File to Visualize" field and "binned_annotation.list" will be loaded to "Annotation file(optional)" field.
 
-## Extract MetaErg annotations for a subset of input contig sequences
+# Extract MetaErg annotations for a subset of input contig sequences
 
 Let's assume you are in the "example" directory of the MetaErg installation and "subset.fasta" file contains a subset of contig sequences from "cyano.fasta" file. The following two commands will generate the html reports for the contigs included in "subset.fasta" file
 
-### Step1, extracting the annotations belonging to all the contigs contained in "subset.fasta" in gff format :
+Step1, extracting the annotations belonging to all the contigs contained in "subset.fasta" in gff format :
 ```
 >perl $HOME/metaerg/bin/fastaContig2Gff.pl -c subset.fasta -g cyano/data/master.gff  > subset.gff
 ```
-### Step 2, generating the annotation results and html reports to "metaerg_subset_output"
+Step 2, generating the annotation results and html reports to "metaerg_subset_output"
 ```
 >perl $HOME/metaerg/bin/output_reports.pl  -g subset.gff -f subset.fasta -o metaerg_subset_output
 ```
