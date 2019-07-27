@@ -31,7 +31,26 @@ MetaErg depends on a list of third-party programs to do the gene predication and
 * [SignalP](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp): The program predicts the presence of signal peptides and the location of their cleavage sites in proteins from Archaea, Gram-positive Bacteria, Gram-negative Bacteria and Eukarya.
 * [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm): a method for prediction transmembrane helices based on a hidden Markov model
 
+# Running with docker
+```
+# Get Docker image
+docker pull xiaolidong/docker-metaerg
+```
+MetaErg needs some reference databases to classify rRNA genes and annotate protein sequences. Before running docker-metaerg image, you need to obtain a database. There are two ways to do it and either way will work:
 
+Option 1: download MetaErg prebuilt database from:
+```
+wget http://ebg.ucalgary.ca/metaerg/db.tar.gz -P $HOME
+tar -xvzf $HOME/db.ar.tz
+```
+Option 2: Build the metaerg database using downlaoded docker image:
+```
+docker run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v my_local_dir:/data/ docker-metaerg setup_db.pl -o /data -v 132
+```
+Run metaerg docker image:
+```
+docker run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v my_local_dir:/data/ docker-metaerg metaerg.pl --dbdir /data/db /data/contig.fasta
+```
 # Installation
 ```
 #This command will install metaerg to your home directory
