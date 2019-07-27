@@ -77,15 +77,15 @@ Running MetaErg with the default parameters.
 perl $HOME/metaerg/bin/metaerg.pl contig.fasta
 ```
 
-Enable signal peptide and transmembrane helics predication
+Running MetaErg with the signal peptide and transmembrane helics predication features enabled
 ```
 # By default, --sp and --tm options were disabled. Enable them will slow down metaerg annotation process
 perl $HOME/metaerg/bin/metaerg.pl --sp --tm contig.fasta
 ```
 
-Choose the names of the output files
+Running MetaErg with user defined output file names and output directory
 ```
-perl $HOME/metaerg/bin/metaerg.pl --sp --tm --outdir mydir --prefix mydata contig.fasta
+perl $HOME/metaerg/bin/metaerg.pl --outdir mydir --prefix mydata contig.fasta
 ```
 
 Running MetaErg with user provided coverage profile. With this supplied coverage profile, MetaErg will generate quantitative taxonomic, functional, and pathway compositions of multiple metagenomic samples.  The coverage profile must be in a well defined format in order for MetaErg  program to parse it correctly. For the required coverage profile format, you can refer to "cyano.depth.txt" file included in the "example" directory of the MetaErg installation. The example file can be generated using "**jgi_summarize_bam_contig_depths**" command from [MetaBat](https://bitbucket.org/berkeleylab/metabat) program after you finish the short reads to contig mapping process.
