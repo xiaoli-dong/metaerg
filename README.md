@@ -70,10 +70,10 @@ MetaErg databases were built based on the following public available databases:
 # Checking MetaErg's command line options
 > perl $HOME/metaerg/bin/metaerg.pl --help
 ```
-\# Running MetaErg with default parameters
-
-> perl ../bin/metaerg.pl test.fasta
-
+```
+# Running MetaErg with default parameters
+perl ../bin/metaerg.pl test.fasta
+```
 \# Running MetaErg with signal peptide and cleavage site and transmembrane helics predication enabled. MetaErg will be slow down with those two feature enabled
 
 > perl ../bin/metaerg.pl --sp --tm test.fasta
