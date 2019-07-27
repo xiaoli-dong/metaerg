@@ -68,33 +68,33 @@ MetaErg databases were built based on the following public available databases:
 
 Checke MetaErg's command line options
 ```
-perl $HOME/metaerg/bin/metaerg.pl --help
+>perl $HOME/metaerg/bin/metaerg.pl --help
 ```
 
 Running MetaErg with the default parameters. 
 ```
 #MetaErg outputs the results and intermediate results into metaerg.pl_yyyymmdd directory
-perl $HOME/metaerg/bin/metaerg.pl contig.fasta
+>perl $HOME/metaerg/bin/metaerg.pl contig.fasta
 ```
 
 Running MetaErg with the signal peptide and transmembrane helics predication features enabled
 ```
-# By default, --sp and --tm options were disabled. Enable them will slow down metaerg annotation process
-perl $HOME/metaerg/bin/metaerg.pl --sp --tm contig.fasta
+#By default, --sp and --tm options were disabled. Enable them will slow down metaerg annotation process
+>perl $HOME/metaerg/bin/metaerg.pl --sp --tm contig.fasta
 ```
 
 Running MetaErg with user defined output file names and output directory
 ```
-perl $HOME/metaerg/bin/metaerg.pl --outdir mydir --prefix mydata contig.fasta
+>perl $HOME/metaerg/bin/metaerg.pl --outdir mydir --prefix mydata contig.fasta
 ```
 
 Running MetaErg with user provided coverage profile. With this supplied coverage profile, MetaErg will generate quantitative taxonomic, functional, and pathway compositions of multiple metagenomic samples.  The coverage profile must be in a well defined format in order for MetaErg  program to parse it correctly. For the required coverage profile format, you can refer to "cyano.depth.txt" file included in the "example" directory of the MetaErg installation. The example file can be generated using "**jgi_summarize_bam_contig_depths**" command from [MetaBat](https://bitbucket.org/berkeleylab/metabat) program after you finish the short reads to contig mapping process.
 ```
-perl $HOME/metaerg/bin/metaerg.pl --outdir metaerg_cyano --prefix cyano --locustag cyano --sp --tm --depth cyano.depth.txt cyano.fna
+>perl $HOME/metaerg/bin/metaerg.pl --outdir metaerg_cyano --prefix cyano --locustag cyano --sp --tm --depth cyano.depth.txt cyano.fna
 ```
 Running MetaErg with with user provided protein expression level profile. With protein expression level profile provided, MetaErg will generate functional, pathway profiles based on the proteins expressed in the metagenomic samples. For the required protein expression profile format, you can refer to "cyano.proteomics.txt" file included in the "example" of the MetaErg installation.
 ```
-perl $HOME/metaerg/bin/metaerg.pl --outdir cyano --prefix cyano --locustag cyano --sp --tm --depth cyano.depth.txt --plevel cyano.proteomics.txt cyano.fna
+>perl $HOME/metaerg/bin/metaerg.pl --outdir cyano --prefix cyano --locustag cyano --sp --tm --depth cyano.depth.txt --plevel cyano.proteomics.txt cyano.fna
 ```
 ---
 ##Utility scripts
@@ -103,13 +103,13 @@ MetaErg also includes some utility scripts to filtering contigs, add bin ids to 
 
 ##### Filter out fasta format sequences shorter than a defined length ####
 
-> perl ../bin/filterContigByLength.pl test.fasta 500
+> perl $HOME/metaerg/bin/filterContigByLength.pl test.fasta 500
 
 The above command filters out the sequences shorter than 500bp from the input test.fasta file
 
 ##### Generate input files for VisBin program to visualize binning results ##########
 
->perl ../bin/getVizBinInput.pl -d binning_dir
+>perl $HOME/metaerg/bin/getVizBinInput.pl -d binning_dir
 
 The "binning_dir" contains all the bin files. Each bin file is named in the format of "Bin.binid.fa" and binid is a number. Each bin file contains all the contigs binned together. The above command writes two files into the "binning_dir":  "binned_concat.fasta" and "binned_annotation.list".  In the VizBin application, the "binned_concat.fasta" will be uploaded to "File to Visualize" field and "binned_annotation.list" will be loaded to "Annotation file(optional)" field.
 
@@ -119,11 +119,11 @@ Let's assume you are in the "example" directory of the MetaErg installation and 
 
 \# Step1, extracting the annotations belonging to all the contigs contained in "subset.fasta" in gff format :
 
->perl ../bin/fastaContig2Gff.pl -c subset.fasta -g cyano/data/master.gff  > subset.gff
+>perl $HOME/metaerg/bin/fastaContig2Gff.pl -c subset.fasta -g cyano/data/master.gff  > subset.gff
 
 \# Step 2, generating the annotation results and html reports to "metaerg_subset_output"
 
->perl ../bin/output_reports.pl  -g subset.gff -f subset.fasta -o metaerg_subset_output
+>perl $HOME/metaerg/bin/output_reports.pl  -g subset.gff -f subset.fasta -o metaerg_subset_output
 
 ##### Add bin ids to the MetaErg generated fiiles #####
 
@@ -131,11 +131,11 @@ Let's assume you are in "example" directory of the MetaErg installation and your
 
 \# Add bin id to the front of the protein coding sequence id in the format of "binid_" 
 
->perl ../bin/add_binid2cds.pl -d binning -c cyano/data/cds.faa -g cyano/data/master.gff
+>perl $HOME/metaerg/bin/add_binid2cds.pl -d binning -c cyano/data/cds.faa -g cyano/data/master.gff
 
 \# Add bin ids to master.tsv file  as the first column
 
->perl ../bin/add_binid2master_dot_tsv.pl -d binning -t cyano/data/master.tsv
+>perl $HOME/metaerg/bin/add_binid2master_dot_tsv.pl -d binning -t cyano/data/master.tsv
 
 ---
 ## MeteErg outputs
