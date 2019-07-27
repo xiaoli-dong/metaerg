@@ -39,15 +39,15 @@ docker pull xiaolidong/docker-metaerg
 Get MetaEr reference DB, two ways to obtatin it:
 
 ```
-Option 1: Get prebuilt database
+#Option 1: Get prebuilt database
 wget http://ebg.ucalgary.ca/metaerg/db.tar.gz -P $HOME
 tar -xvzf $HOME/db.ar.tz
 ```
 ```
-Option 2: Build database using MetaErg script. It will take a while to run:
+#Option 2: Build database using MetaErg script. It will take a while to run:
 docker run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v my_local_dir:/data/ docker-metaerg setup_db.pl -o /data -v 132
 ```
-Run metaerg docker image:
+
 ```
 # Running MetaEerg with default options
 docker run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v my_local_dir:/data/ docker-metaerg metaerg.pl --dbdir /data/db /data/contig.fasta
