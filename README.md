@@ -74,10 +74,11 @@ MetaErg databases were built based on the following public available databases:
 # Running MetaErg with default parameters
 perl ../bin/metaerg.pl test.fasta
 ```
-\# Running MetaErg with signal peptide and cleavage site and transmembrane helics predication enabled. MetaErg will be slow down with those two feature enabled
-
-> perl ../bin/metaerg.pl --sp --tm test.fasta
-
+```
+# Running MetaErg with signal peptide, cleavage site, and transmembrane helics predication enabled.
+#MetaErg will be slow down with those two feature enabled
+perl ../bin/metaerg.pl --sp --tm test.fasta
+```
 \# Running MetaErg with all the output to a user defined directory. By default, MetaErg will generate a output directory in the format of "locusttag_timestamp"
 
 > perl ../bin/metaerg.pl --sp --tm --outdir metaerg_out --prefix test --locustag metaerg_test test.fasta
