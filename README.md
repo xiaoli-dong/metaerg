@@ -18,7 +18,7 @@ MetaErg was developed using perl, html, and javascript. It requires Perl 5.6.0 o
 * SWISS::KW;
 ```
 # Third-party software
-MetaErg depends on a list of third-party programs to do the gene predication and function annotations. Make sure that all MetaErg's dependencies to be instaled and are in your system's path. MetaErg depends on:
+MetaErg makes use of the following 3rd party dependencies and assumes these are on your system path:
 
 * [ARAGORN](http://mbio-serv2.mbioekol.lu.se/ARAGORN):  a program to detect tRNA genes and tmRNA genes in nucleotide sequences 
 * [BLAST+ executables](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download): The Basic Local Alignment Search Tool (BLAST) finds regions of	local similarity between sequences.
