@@ -65,57 +65,46 @@ MetaErg databases were built based on the following public available databases:
 * [RefSeq](https://www.ncbi.nlm.nih.gov/refseq/)
 
 # Running MetaErg
-
 Checke MetaErg's command line options
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --help
 ```
-
 Running MetaErg with the default parameters. 
 ```
 #MetaErg outputs the results and intermediate results into metaerg.pl_yyyymmdd directory
 >perl $HOME/metaerg/bin/metaerg.pl contig.fasta
 ```
-
 Running MetaErg with the signal peptide and transmembrane helics predication features enabled
 ```
 #By default, --sp and --tm options were disabled. Enable them will slow down metaerg annotation process
 >perl $HOME/metaerg/bin/metaerg.pl --sp --tm contig.fasta
 ```
-
 ```
 #Running MetaErg with user defined output file names and output directory
 >perl $HOME/metaerg/bin/metaerg.pl --outdir mydir --prefix mydata contig.fasta
 ```
-
 ```
 #Generate quantitative taxonomic, functional, and pathway compositions of multiple metagenomic samples with user provided coverage input
 >perl $HOME/metaerg/bin/metaerg.pl --depth demo.depth.txt contig.fasta
 ```
 The coverage profile must be in a well defined format in order for MetaErg  program to parse it correctly. For the required coverage profile format, you can refer to "demo.depth.txt" file included in the "example" directory of the MetaErg installation. The example file can be generated using "**jgi_summarize_bam_contig_depths**" command from [MetaBat](https://bitbucket.org/berkeleylab/metabat) program after you finish the short reads to contig mapping process.
-
 ```
 #generate functional, pathway profiles based on the active expressed protein genes in the metagenomic samples
 >perl $HOME/metaerg/bin/metaerg.pl --plevel demo.proteomics.txt demo.fna
 ```
 With user provided protein expression level profile, MetaErg will generate functional, pathway profiles based on the proteins expressed in the metagenomic samples. For the required protein expression profile format, you can refer to "demo.proteomics.txt" file included in the "example" direcotory of the MetaErg installation.
-
 # MetaErg utility scripts
-
 MetaErg also includes some utility scripts to filtering contigs, add bin ids to the coding sequecnes, generate input for VizBin program. Some of the examples are listed as below:
-
 ```
 #Filter out fasta format sequences shorter than a defined length
 >perl $HOME/metaerg/bin/filterContigByLength.pl contig.fasta 500
 ```
 The above command filters out the contigs <500bp from contig.fasta file
-
 ```
 #Generate input files for VisBin program to visualize binning results
 >perl $HOME/metaerg/bin/getVizBinInput.pl -d binning_dir
 ```
 The "binning_dir" contains all the bin files. Each bin file is named in the format of "Bin.binid.fa" and binid is a number. Each bin file contains all the contigs binned together. The above command writes two files into the "binning_dir":  "binned_concat.fasta" and "binned_annotation.list".  In the VizBin application, the "binned_concat.fasta" will be uploaded to "File to Visualize" field and "binned_annotation.list" will be loaded to "Annotation file(optional)" field.
-
 # Extract the subset of the MetaErg annotation results
 Step1, extracting the annotations belonging to all the contigs contained in "subset.fasta" in gff format from the total dataset annotation :
 ```
