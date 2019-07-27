@@ -20,7 +20,7 @@ MetaErg requires the following perl modules, which are not included in the perl 
 ```
 # Third-party software
 MetaErg depends on a list of third-party programs to do the gene predication and function annotations. Make sure that all MetaErg's dependencies to be instaled and are in your system's path. MetaErg depends on:
-```
+
 * [ARAGORN](http://mbio-serv2.mbioekol.lu.se/ARAGORN)
 * [BLAST+ executables](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
 * [DIAMOND](https://github.com/bbuchfink/diamond)
@@ -30,7 +30,7 @@ MetaErg depends on a list of third-party programs to do the gene predication and
 * [Prodigal](https://github.com/hyattpd/Prodigal)
 * [SignalP](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp)
 * [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm)
-```
+
 
 # Installation
 ```
