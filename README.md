@@ -2,7 +2,7 @@
 # MetaErg
 MetaErg is a stand-alone and fully automated metagenomic and metaproteomic data annotation pipeline. It bundles essential annotation tasks such as feature prediction, functional annotation with Hidden Markov Model (HMM) searches as well as blast and diamond searches. It estimates and visualizes quantitative taxonomic and pathway compositions of multiple metagenomic and proteomics samples using sequencing coverage and proteomics spectral counts, respectively. For visualization, MetaErg provides a HTML interface, bringing all annotation results together, and producing sortable and searchable tables, collapsible trees, and other graphic representations enabling intuitive navigation of complex data.
 
-The MetaErg analysis result demo page can be access at: https://xiaoli-dong.github.io/metaerg/
+MetaErg analysis output demo page can be access at: https://xiaoli-dong.github.io/metaerg/
 
 # Required perl modules
 MetaErg was developed using perl, html, and javascript. It requires Perl 5.6.0 or higher and runs on Linux platform. Besides the perl core modules, it also requires the following perl modules to be installed:
