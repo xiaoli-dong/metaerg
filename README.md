@@ -151,4 +151,11 @@ MetaErg writes all the output files into a user defined or MetaErg generated out
 | Output| Description|
 |:--- |:--- |
 | cyan.fna | Reformated and filtered fasta format input contig sequences |
+| data | A directory contains all the MetaErg generated annotation summary files in differenct formats. Although the files have different suffix, they are all text files, whch can be opened in any text editor |
+| html | A directory contains all the HTML pages for various type of  HTML reports |
+| images | A directory contains all the image files for the html reports such as logo, banner|
+| index.html | An interactive HTML report, which links all the MetaErg annotation results together |
+| js | A directory contains all the required Javascript libraries for the interactive html reports |
+| style.css | A HTML style sheet, which controls the look of the html reports |
+| tmp | A dirctory contains all the MetaErg intermediate outputs. It is also useful when MetaErg fails in the middle of the run. With this directory in place, when you restart the job using the exact same parameters after MetaErg failling, MetaErg will start from the place it failed.  After MetaErg job finishes successfully, this directory can be deleted before you transfer the results to your local computers|
 
