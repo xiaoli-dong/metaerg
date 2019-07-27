@@ -34,7 +34,7 @@ MetaErg depends on a list of third-party programs to do the gene predication and
 
 # Installation
 ```
-> git clone https://github.com/xiaoli-dong/metaerg.git $HOME/metaerg
+git clone https://github.com/xiaoli-dong/metaerg.git $HOME/metaerg
 ```
 
 MetaErg require external database to assign the taxonomic, functinal, and pathway annotations to the predicted genes. There are two ways to obtain the metaerg databases: 
@@ -51,7 +51,7 @@ $HOME/metaerg/bin/setup_db.pl -o $HOME -v 132
 ```
 MetaErg databases were built based on the following public available databases:
 
-* [casgene.hmm](https://www.nature.com/articles/nature21059)
+[casgene.hmm](https://www.nature.com/articles/nature21059)
 * [FOAM](https://cbb.pnnl.gov/portal/software/FOAM.html)
 * [metabolic-hmms](https://github.com/banfieldlab/metabolic-hmms)
 * [Pfam](http://pfam.xfam.org)
