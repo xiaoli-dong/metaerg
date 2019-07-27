@@ -90,7 +90,8 @@ Running MetaErg with user defined output file names and output directory
 
 Running MetaErg with user provided coverage profile. With this supplied coverage profile, MetaErg will generate quantitative taxonomic, functional, and pathway compositions of multiple metagenomic samples.  The coverage profile must be in a well defined format in order for MetaErg  program to parse it correctly. For the required coverage profile format, you can refer to "cyano.depth.txt" file included in the "example" directory of the MetaErg installation. The example file can be generated using "**jgi_summarize_bam_contig_depths**" command from [MetaBat](https://bitbucket.org/berkeleylab/metabat) program after you finish the short reads to contig mapping process.
 ```
->perl $HOME/metaerg/bin/metaerg.pl --outdir metaerg_cyano --prefix cyano --locustag cyano --sp --tm --depth cyano.depth.txt cyano.fna
+#Generate quantitative taxonomic, functional, and pathway compositions of multiple metagenomic samples with user provided coverage input
+>perl $HOME/metaerg/bin/metaerg.pl --outdir mydir--depth demo.depth.txt contig.fasta
 ```
 Running MetaErg with with user provided protein expression level profile. With protein expression level profile provided, MetaErg will generate functional, pathway profiles based on the proteins expressed in the metagenomic samples. For the required protein expression profile format, you can refer to "cyano.proteomics.txt" file included in the "example" of the MetaErg installation.
 ```
