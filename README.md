@@ -32,7 +32,7 @@ MetaErg makes use of the following 3rd party dependencies and assumes these are 
 
 # MetaErg reference DB
 
-The exteral data can be download and unarchived:
+MetaErg requires ~53G+ of external data that need to be downloaded and unarchived:
 ```
 #download and unarchive the metaerg database to your home directory. the database base will be sitting in $HOME/db 
 wget http://ebg.ucalgary.ca/metaerg/db.tar.gz -P $HOME
@@ -61,21 +61,15 @@ MetaErg docker image is host on the docker hub: https://hub.docker.com/r/xiaolid
 ```
 # Get Docker image
 docker pull xiaolidong/docker-metaerg
-```
-Get MetaErg reference DB, two ways to obtatin it:
 
-```
-#Option 1: Get prebuilt database
+* Get MetaErg reference DB:
+#Mthod 1: retrieve the prebuilt database
 wget http://ebg.ucalgary.ca/metaerg/db.tar.gz -P $HOME
 tar -xvzf $HOME/db.ar.tz
-```
-```
-#Option 2: Build database using MetaErg script. It will take a while to run:
+#Method 2: Build database using MetaErg supplied script and it will take a while to run:
 docker run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v my_local_dir:/data/ docker-metaerg setup_db.pl -o /data -v 132
-```
 
-```
-# Running MetaErg with default options
+#Running MetaErg with default options
 docker run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v my_local_dir:/data/ docker-metaerg metaerg.pl --dbdir /data/db /data/contig.fasta
 ```
 
