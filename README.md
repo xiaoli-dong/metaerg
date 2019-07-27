@@ -105,19 +105,20 @@ With user provided protein expression level profile, MetaErg will generate funct
 
 MetaErg also includes some utility scripts to filtering contigs, add bin ids to the coding sequecnes, generate input for VizBin program. Some of the examples are listed as below:
 
-Filter out fasta format sequences shorter than a defined length ####
-```
->perl $HOME/metaerg/bin/filterContigByLength.pl test.fasta 500
-```
-The above command filters out the sequences shorter than 500bp from the input test.fasta file
 
-Generate input files for VisBin program to visualize binning results ##########
 ```
+#Filter out fasta format sequences shorter than a defined length
+>perl $HOME/metaerg/bin/filterContigByLength.pl contig.fasta 500
+```
+The above command filters out the contigs <500bp from contig.fasta file
+
+```
+#Generate input files for VisBin program to visualize binning results
 >perl $HOME/metaerg/bin/getVizBinInput.pl -d binning_dir
 ```
 The "binning_dir" contains all the bin files. Each bin file is named in the format of "Bin.binid.fa" and binid is a number. Each bin file contains all the contigs binned together. The above command writes two files into the "binning_dir":  "binned_concat.fasta" and "binned_annotation.list".  In the VizBin application, the "binned_concat.fasta" will be uploaded to "File to Visualize" field and "binned_annotation.list" will be loaded to "Annotation file(optional)" field.
 
-##### Extract MetaErg annotations for a subset of input contig sequences #####
+# Extract MetaErg annotations for a subset of input contig sequences
 
 Let's assume you are in the "example" directory of the MetaErg installation and "subset.fasta" file contains a subset of contig sequences from "cyano.fasta" file. The following two commands will generate the html reports for the contigs included in "subset.fasta" file
 
@@ -129,7 +130,7 @@ Let's assume you are in the "example" directory of the MetaErg installation and 
 ```
 >perl $HOME/metaerg/bin/output_reports.pl  -g subset.gff -f subset.fasta -o metaerg_subset_output
 ```
-##### Add bin ids to the MetaErg generated fiiles #####
+# Add bin ids to the MetaErg generated files
 
 Let's assume you are in "example" directory of the MetaErg installation and your binning results are in the "binning" directory.  "Bin.1.fa", "Bin.2.fa",  and "Bin.3.fa" files sitting in the "binning" directory contain all the fasta format contig sequences belonging to bin1, bin2, and bin3, respectivly.  
 
@@ -142,7 +143,7 @@ Let's assume you are in "example" directory of the MetaErg installation and your
 >perl $HOME/metaerg/bin/add_binid2master_dot_tsv.pl -d binning -t cyano/data/master.tsv
 ```
 ---
-## MeteErg outputs
+# MeteErg outputs
 | Output        | Description|
 |:--- |:--- |
 | cyan.fna | Reformated and filtered fasta format input contig sequences |
