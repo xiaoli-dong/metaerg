@@ -31,7 +31,7 @@ MetaErg makes use of the following 3rd party dependencies and assumes these are 
 * [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm): a method for prediction transmembrane helices based on a hidden Markov model
 
 # Running with docker
-MetaErg docker image is host on the docker hub: https://hub.docker.com/r/xiaolidong/docker-metaerg
+MetaErg docker image is host on the docker hub: https://hub.docker.com/r/xiaolidong/docker-metaerg. Due to licences permissions, this image does not contain [SignalP](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp) and [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm)
 ```
 # Get Docker image
 docker pull xiaolidong/docker-metaerg
@@ -49,9 +49,10 @@ docker run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v my_local_dir:/data/ do
 ```
 
 ```
-# Running MetaEerg with default options
+# Running MetaErg with default options
 docker run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v my_local_dir:/data/ docker-metaerg metaerg.pl --dbdir /data/db /data/contig.fasta
 ```
+
 # Installation
 ```
 #This command will install metaerg to your home directory
