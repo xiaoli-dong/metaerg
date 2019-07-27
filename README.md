@@ -32,19 +32,7 @@ MetaErg makes use of the following 3rd party dependencies and assumes these are 
 
 # MetaErg reference DB
 
-MetaErg requires ~53G+ of external data that need to be downloaded and unarchived:
-```
-#download and unarchive the metaerg database to your home directory. the database base will be sitting in $HOME/db 
-wget http://ebg.ucalgary.ca/metaerg/db.tar.gz -P $HOME
-tar -xvzf $HOME/db.tar.gz
-```
-
-The external data can also be build by metaerg supplied script:
-```
-#build metaerg datbase to your home direcoty. the database will be in $HOME/db
-$HOME/metaerg/bin/setup_db.pl -o $HOME -v 132
-```
-MetaErg databases were built based on the following public available databases:
+MetaErg databases were built based on the following public available databases
 
 * [casgene.hmm](https://www.nature.com/articles/nature21059)
 * [FOAM](https://cbb.pnnl.gov/portal/software/FOAM.html)
@@ -55,6 +43,13 @@ MetaErg databases were built based on the following public available databases:
 * [TIGRFAMS](http://tigrfams.jcvi.org/cgi-bin/index.cgi)
 * [GTDBTK](https://github.com/Ecogenomics/GTDBTk)
 * [RefSeq](https://www.ncbi.nlm.nih.gov/refseq/)
+MetaErg reference DB can be downloaded:
+```
+# Retrieve the prebuilt database
+wget http://ebg.ucalgary.ca/metaerg/db.tar.gz -P $HOME
+tar -xvzf $HOME/db.ar.tz
+```
+or built using the metaerg supplied script (see running with docker and installation sections). 
 
 # Running with docker
 MetaErg docker image is host on the docker hub: https://hub.docker.com/r/xiaolidong/docker-metaerg. Due to licences permissions, this image does not contain [SignalP](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp) and [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm)
@@ -62,11 +57,7 @@ MetaErg docker image is host on the docker hub: https://hub.docker.com/r/xiaolid
 # Get Docker image
 docker pull xiaolidong/docker-metaerg
 
-## Get MetaErg reference DB:
-# Mthod 1: retrieve the prebuilt database
-wget http://ebg.ucalgary.ca/metaerg/db.tar.gz -P $HOME
-tar -xvzf $HOME/db.ar.tz
-# Method 2: Build database using MetaErg supplied script and it will take a while to run:
+# Using the downloaded prebuilt database or build database using MetaErg supplied script. Building the database process will take a while to run:
 docker run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v my_local_dir:/data/ docker-metaerg setup_db.pl -o /data -v 132
 
 #Running MetaErg with default options
@@ -77,10 +68,13 @@ docker run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v my_local_dir:/data/ do
 ```
 #This command will install metaerg to your home directory
 git clone https://github.com/xiaoli-dong/metaerg.git $HOME/metaerg
+
+# Using the downloaded prebuilt database or build database using MetaErg supplied script. Building the database process will take a while to run:
+$HOME/metaerg/bin/setup_db.pl -o $HOME -v 132
 ```
 
 
-# Running MetaErg
+# MetaErg Usages:
 Checke MetaErg's command line options
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --help
