@@ -30,36 +30,7 @@ MetaErg makes use of the following 3rd party dependencies and assumes these are 
 * [SignalP](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp): The program predicts the presence of signal peptides and the location of their cleavage sites in proteins from Archaea, Gram-positive Bacteria, Gram-negative Bacteria and Eukarya.
 * [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm): a method for prediction transmembrane helices based on a hidden Markov model
 
-# Running with docker
-MetaErg docker image is host on the docker hub: https://hub.docker.com/r/xiaolidong/docker-metaerg. Due to licences permissions, this image does not contain [SignalP](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp) and [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm)
-```
-# Get Docker image
-docker pull xiaolidong/docker-metaerg
-```
-Get MetaEr reference DB, two ways to obtatin it:
-
-```
-#Option 1: Get prebuilt database
-wget http://ebg.ucalgary.ca/metaerg/db.tar.gz -P $HOME
-tar -xvzf $HOME/db.ar.tz
-```
-```
-#Option 2: Build database using MetaErg script. It will take a while to run:
-docker run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v my_local_dir:/data/ docker-metaerg setup_db.pl -o /data -v 132
-```
-
-```
-# Running MetaErg with default options
-docker run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v my_local_dir:/data/ docker-metaerg metaerg.pl --dbdir /data/db /data/contig.fasta
-```
-
-# Installation
-```
-#This command will install metaerg to your home directory
-git clone https://github.com/xiaoli-dong/metaerg.git $HOME/metaerg
-```
-
-MetaErg require external database to assign the taxonomic, functinal, and pathway annotations to the predicted genes. There are two ways to obtain the metaerg databases: 
+# MetaErg reference DB
 
 The exteral data can be download and unarchived:
 ```
@@ -84,6 +55,36 @@ MetaErg databases were built based on the following public available databases:
 * [TIGRFAMS](http://tigrfams.jcvi.org/cgi-bin/index.cgi)
 * [GTDBTK](https://github.com/Ecogenomics/GTDBTk)
 * [RefSeq](https://www.ncbi.nlm.nih.gov/refseq/)
+
+# Running with docker
+MetaErg docker image is host on the docker hub: https://hub.docker.com/r/xiaolidong/docker-metaerg. Due to licences permissions, this image does not contain [SignalP](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp) and [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm)
+```
+# Get Docker image
+docker pull xiaolidong/docker-metaerg
+```
+Get MetaErg reference DB, two ways to obtatin it:
+
+```
+#Option 1: Get prebuilt database
+wget http://ebg.ucalgary.ca/metaerg/db.tar.gz -P $HOME
+tar -xvzf $HOME/db.ar.tz
+```
+```
+#Option 2: Build database using MetaErg script. It will take a while to run:
+docker run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v my_local_dir:/data/ docker-metaerg setup_db.pl -o /data -v 132
+```
+
+```
+# Running MetaErg with default options
+docker run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v my_local_dir:/data/ docker-metaerg metaerg.pl --dbdir /data/db /data/contig.fasta
+```
+
+# Installation
+```
+#This command will install metaerg to your home directory
+git clone https://github.com/xiaoli-dong/metaerg.git $HOME/metaerg
+```
+
 
 # Running MetaErg
 Checke MetaErg's command line options
