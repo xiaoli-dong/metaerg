@@ -133,12 +133,12 @@ Let's assume you are in "example" directory of the MetaErg installation and your
 
 ```
 #Add bin id to the front of the protein coding sequence id in the format of "binid_" 
->perl $HOME/metaerg/bin/add_binid2cds.pl -d binning -c cyano/data/cds.faa -g cyano/data/master.gff
+>perl $HOME/metaerg/bin/add_binid2cds.pl -d binning -c mydir/data/cds.faa -g mydir/data/master.gff
 ```
 
 ```
 # Add bin ids to master.tsv file  as the first column
->perl $HOME/metaerg/bin/add_binid2master_dot_tsv.pl -d binning -t cyano/data/master.tsv
+>perl $HOME/metaerg/bin/add_binid2master_dot_tsv.pl -d binning -t mydir/data/master.tsv
 ```
 ---
 # MeteErg outputs
