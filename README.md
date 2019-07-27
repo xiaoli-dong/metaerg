@@ -34,6 +34,7 @@ MetaErg depends on a list of third-party programs to do the gene predication and
 
 # Installation
 ```
+#This command will install metaerg to your home directory
 git clone https://github.com/xiaoli-dong/metaerg.git $HOME/metaerg
 ```
 
@@ -41,12 +42,14 @@ MetaErg require external database to assign the taxonomic, functinal, and pathwa
 
 The exteral data can be download and unarchived:
 ```
+#download and unarchive the metaerg database to your home directory. the database base will be sitting in $HOME/db 
 wget http://ebg.ucalgary.ca/metaerg/db.tar.gz -P $HOME
 tar -xvzf $HOME/db.tar.gz
 ```
 
 The external data can also be build by metaerg supplied script:
 ```
+#build metaerg datbase to your home direcoty. the database will be in $HOME/db
 $HOME/metaerg/bin/setup_db.pl -o $HOME -v 132
 ```
 MetaErg databases were built based on the following public available databases:
