@@ -54,7 +54,7 @@ $HOME/metaerg/bin/setup_db.pl -o $HOME -v 132
 ```
 MetaErg databases were built based on the following public available databases:
 
-[casgene.hmm](https://www.nature.com/articles/nature21059)
+* [casgene.hmm](https://www.nature.com/articles/nature21059)
 * [FOAM](https://cbb.pnnl.gov/portal/software/FOAM.html)
 * [metabolic-hmms](https://github.com/banfieldlab/metabolic-hmms)
 * [Pfam](http://pfam.xfam.org)
