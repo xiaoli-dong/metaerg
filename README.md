@@ -21,9 +21,9 @@ MetaErg requires the following perl modules, which are not included in the perl 
 # Third-party software
 MetaErg depends on a list of third-party programs to do the gene predication and function annotations. Make sure that all MetaErg's dependencies to be instaled and are in your system's path. MetaErg depends on:
 
-* [ARAGORN](http://mbio-serv2.mbioekol.lu.se/ARAGORN)
-* [BLAST+ executables](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
-* [DIAMOND](https://github.com/bbuchfink/diamond)
+* [ARAGORN](http://mbio-serv2.mbioekol.lu.se/ARAGORN):  a program to detect tRNA genes and tmRNA genes in nucleotide sequences 
+* [BLAST+ executables](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download): The Basic Local Alignment Search Tool (BLAST) finds regions of	local similarity between sequences.
+* [DIAMOND](https://github.com/bbuchfink/diamond): a new high-throughput program for aligning DNA reads or protein sequences against a protein reference database 
 * [Hmmsearch](http://hmmer.org)
 * [MinCED](https://github.com/ctSkennerton/minced)
 * [MinPath](http://omics.informatics.indiana.edu/MinPath)
