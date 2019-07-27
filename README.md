@@ -43,6 +43,7 @@ MetaErg databases were built based on the following public available databases
 * [TIGRFAMS](http://tigrfams.jcvi.org/cgi-bin/index.cgi)
 * [GTDBTK](https://github.com/Ecogenomics/GTDBTk)
 * [RefSeq](https://www.ncbi.nlm.nih.gov/refseq/)
+
 MetaErg reference DB can be downloaded:
 ```
 # Retrieve the prebuilt database
