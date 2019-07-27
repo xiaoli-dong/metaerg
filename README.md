@@ -62,11 +62,11 @@ MetaErg docker image is host on the docker hub: https://hub.docker.com/r/xiaolid
 # Get Docker image
 docker pull xiaolidong/docker-metaerg
 
-* Get MetaErg reference DB:
-#Mthod 1: retrieve the prebuilt database
+## Get MetaErg reference DB:
+# Mthod 1: retrieve the prebuilt database
 wget http://ebg.ucalgary.ca/metaerg/db.tar.gz -P $HOME
 tar -xvzf $HOME/db.ar.tz
-#Method 2: Build database using MetaErg supplied script and it will take a while to run:
+# Method 2: Build database using MetaErg supplied script and it will take a while to run:
 docker run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v my_local_dir:/data/ docker-metaerg setup_db.pl -o /data -v 132
 
 #Running MetaErg with default options
