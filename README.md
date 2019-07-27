@@ -66,12 +66,10 @@ MetaErg databases were built based on the following public available databases:
 
 # Running MetaErg
 
-Let's assume you are in the "example" direcoty of the MetaErg installation 
-
-\# Checking MetaErg's command line options
-
-> perl ../bin/metaerg.pl --help
-
+```
+# Checking MetaErg's command line options
+> perl $HOME/metaerg/bin/metaerg.pl --help
+```
 \# Running MetaErg with default parameters
 
 > perl ../bin/metaerg.pl test.fasta
