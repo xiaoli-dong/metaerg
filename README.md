@@ -49,7 +49,7 @@ MetaErg reference DB can be downloaded:
 wget http://ebg.ucalgary.ca/metaerg/db.tar.gz -P $HOME
 tar -xvzf $HOME/db.ar.tz
 ```
-or built using the metaerg supplied script (see running with docker and installation sections). 
+or build the reference DB using the metaerg supplied script (see running with docker and installation sections). 
 
 # Running with docker
 MetaErg docker image is host on the docker hub: https://hub.docker.com/r/xiaolidong/docker-metaerg. Due to licences permissions, this image does not contain [SignalP](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp) and [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm)
