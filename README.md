@@ -88,27 +88,30 @@ Running MetaErg with user defined output file names and output directory
 >perl $HOME/metaerg/bin/metaerg.pl --outdir mydir --prefix mydata contig.fasta
 ```
 
-Running MetaErg with user provided coverage profile. With this supplied coverage profile, MetaErg will generate quantitative taxonomic, functional, and pathway compositions of multiple metagenomic samples.  The coverage profile must be in a well defined format in order for MetaErg  program to parse it correctly. For the required coverage profile format, you can refer to "cyano.depth.txt" file included in the "example" directory of the MetaErg installation. The example file can be generated using "**jgi_summarize_bam_contig_depths**" command from [MetaBat](https://bitbucket.org/berkeleylab/metabat) program after you finish the short reads to contig mapping process.
 ```
 #Generate quantitative taxonomic, functional, and pathway compositions of multiple metagenomic samples with user provided coverage input
->perl $HOME/metaerg/bin/metaerg.pl --outdir mydir--depth demo.depth.txt contig.fasta
+>perl $HOME/metaerg/bin/metaerg.pl --depth demo.depth.txt contig.fasta
 ```
-Running MetaErg with with user provided protein expression level profile. With protein expression level profile provided, MetaErg will generate functional, pathway profiles based on the proteins expressed in the metagenomic samples. For the required protein expression profile format, you can refer to "cyano.proteomics.txt" file included in the "example" of the MetaErg installation.
+The coverage profile must be in a well defined format in order for MetaErg  program to parse it correctly. For the required coverage profile format, you can refer to "demo.depth.txt" file included in the "example" directory of the MetaErg installation. The example file can be generated using "**jgi_summarize_bam_contig_depths**" command from [MetaBat](https://bitbucket.org/berkeleylab/metabat) program after you finish the short reads to contig mapping process.
+
+
 ```
->perl $HOME/metaerg/bin/metaerg.pl --outdir cyano --prefix cyano --locustag cyano --sp --tm --depth cyano.depth.txt --plevel cyano.proteomics.txt cyano.fna
+#generate functional, pathway profiles based on the active expressed protein genes in the metagenomic samples
+>perl $HOME/metaerg/bin/metaerg.pl --plevel cyano.proteomics.txt cyano.fna
 ```
----
-##Utility scripts
+With user provided protein expression level profile, MetaErg will generate functional, pathway profiles based on the proteins expressed in the metagenomic samples. For the required protein expression profile format, you can refer to "demo.proteomics.txt" file included in the "example" direcotory of the MetaErg installation.
+
+# MetaErg utility scripts
 
 MetaErg also includes some utility scripts to filtering contigs, add bin ids to the coding sequecnes, generate input for VizBin program. Some of the examples are listed as below:
 
-##### Filter out fasta format sequences shorter than a defined length ####
+Filter out fasta format sequences shorter than a defined length ####
 ```
 >perl $HOME/metaerg/bin/filterContigByLength.pl test.fasta 500
 ```
 The above command filters out the sequences shorter than 500bp from the input test.fasta file
 
-##### Generate input files for VisBin program to visualize binning results ##########
+Generate input files for VisBin program to visualize binning results ##########
 ```
 >perl $HOME/metaerg/bin/getVizBinInput.pl -d binning_dir
 ```
