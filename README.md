@@ -81,8 +81,8 @@ The functionality provided by MetaErg can be accessed through the help menu:
 ```
 Running MetaErg with the default parameters. 
 ```
-#MetaErg outputs the results and intermediate results into metaerg.pl_yyyymmdd directory
->perl $HOME/metaerg/bin/metaerg.pl contig.fasta
+#MetaErg outputs the results and intermediate results into metaerg.pl_ddmmyyyy directory
+>perl $HOME/metaerg/bin/metaerg.pl --dbdir $home/db contig.fasta
 ```
 Running MetaErg with the signal peptide and transmembrane helics predication features enabled
 ```
