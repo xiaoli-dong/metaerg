@@ -32,7 +32,15 @@ MetaErg makes use of the following 3rd party dependencies and assumes these are 
 
 # MetaErg reference DB
 
-MetaErg databases were built based on the following public available databases
+MetaErg requires external databases that need to be downloaded and unarchived
+```
+# Retrieve the prebuilt database
+wget http://ebg.ucalgary.ca/metaerg/db.tar.gz -P $HOME
+tar -xvzf $HOME/db.ar.tz
+```
+or built using the supplied script (see running with docker and installation sections). 
+
+MetaErg databases were built based on the following publicly available databases:
 
 * [casgene.hmm](https://www.nature.com/articles/nature21059)
 * [FOAM](https://cbb.pnnl.gov/portal/software/FOAM.html)
@@ -43,14 +51,6 @@ MetaErg databases were built based on the following public available databases
 * [TIGRFAMS](http://tigrfams.jcvi.org/cgi-bin/index.cgi)
 * [GTDBTK](https://github.com/Ecogenomics/GTDBTk)
 * [RefSeq](https://www.ncbi.nlm.nih.gov/refseq/)
-
-MetaErg reference DB can be downloaded from:
-```
-# Retrieve the prebuilt database
-wget http://ebg.ucalgary.ca/metaerg/db.tar.gz -P $HOME
-tar -xvzf $HOME/db.ar.tz
-```
-or built using the supplied script (see running with docker and installation sections). 
 
 # Running with docker
 MetaErg docker image is host on the docker hub: https://hub.docker.com/r/xiaolidong/docker-metaerg. Due to licences permissions, this image does not contain [SignalP](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp) and [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm). When running with docker image, "--sp --tm" options cannot be enabled.
