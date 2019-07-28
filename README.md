@@ -75,7 +75,7 @@ $HOME/metaerg/bin/setup_db.pl -o $HOME -v 132
 ```
 
 # Quick start:
-Checke MetaErg's command line options
+The functionality provided by MetaErg can be accessed through the help menu:
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --help
 ```
