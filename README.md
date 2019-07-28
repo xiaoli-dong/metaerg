@@ -79,7 +79,7 @@ The functionality provided by MetaErg can be accessed through the help menu:
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --help
 ```
-Running MetaErg with the default parameters and it will output the final and intermediate results into a directory named metaerg.pl_ddmmyyyy directory
+Running MetaErg with the default parameters will output the final and intermediate results into a directory named metaerg.pl_ddmmyyyy directory
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --dbdir $home/db contig.fasta
 ```
