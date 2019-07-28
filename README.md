@@ -74,7 +74,7 @@ git clone https://github.com/xiaoli-dong/metaerg.git $HOME/metaerg
 $HOME/metaerg/bin/setup_db.pl -o $HOME -v 132
 ```
 
-# MetaErg Usages:
+# Quick start:
 Checke MetaErg's command line options
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --help
