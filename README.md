@@ -79,22 +79,16 @@ The functionality provided by MetaErg can be accessed through the help menu:
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --help
 ```
-Running MetaErg with the default parameters. 
+Running MetaErg with the default parameters and it will output the final and intermediate results into a directory named metaerg.pl_ddmmyyyy directory
 ```
-#MetaErg outputs the results and intermediate results into metaerg.pl_ddmmyyyy directory
 >perl $HOME/metaerg/bin/metaerg.pl --dbdir $home/db contig.fasta
 ```
-Running MetaErg with the signal peptide and transmembrane helics predication features enabled
+Running MetaErg with user defined output directory and file names
 ```
-#By default, --sp and --tm options were disabled. Enable them will slow down metaerg annotation process
->perl $HOME/metaerg/bin/metaerg.pl --sp --tm contig.fasta
+>perl $HOME/metaerg/bin/metaerg.pl --dbdir $home/db --outdir mydir --prefix mydata contig.fasta
 ```
+Generate quantitative taxonomic, functional, and pathway compositions of multiple metagenomic samples with user provided coverage input
 ```
-#Running MetaErg with user defined output file names and output directory
->perl $HOME/metaerg/bin/metaerg.pl --outdir mydir --prefix mydata contig.fasta
-```
-```
-#Generate quantitative taxonomic, functional, and pathway compositions of multiple metagenomic samples with user provided coverage input
 >perl $HOME/metaerg/bin/metaerg.pl --depth demo.depth.txt contig.fasta
 ```
 The coverage profile must be in a well defined format in order for MetaErg  program to parse it correctly. For the required coverage profile format, you can refer to "demo.depth.txt" file included in the "example" directory of the MetaErg installation. The example file can be generated using "**jgi_summarize_bam_contig_depths**" command from [MetaBat](https://bitbucket.org/berkeleylab/metabat) program after you finish the short reads to contig mapping process.
