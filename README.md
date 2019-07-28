@@ -85,18 +85,16 @@ Running MetaErg with the default parameters and it will output the final and int
 ```
 Running MetaErg with user defined output directory and file names
 ```
->perl $HOME/metaerg/bin/metaerg.pl --dbdir $home/db --outdir mydir --prefix mydata contig.fasta
+>perl $HOME/metaerg/bin/metaerg.pl --dbdir $home/db --outdir mydir --prefix mycontigs contig.fasta
 ```
-Generate quantitative taxonomic, functional, and pathway compositions of multiple metagenomic samples with user provided coverage input
+With a user provided depth file, MetaErg can quantify the taxonomic, functional, and pathway compositions of multiple metagenomic samples. An example depth file was included in the "example" direcotry and it was genereated using "jgi_summarize_bam_contig_depths" from [MetaBat](https://bitbucket.org/berkeleylab/metabat) using BAM files, which are created by aligning the reads of each metagenomic sample separately to the contigs
 ```
->perl $HOME/metaerg/bin/metaerg.pl --depth demo.depth.txt contig.fasta
+>perl $HOME/metaerg/bin/metaerg.pl --dbdir $home/db --depth demo.depth.txt demo.fasta
 ```
-The coverage profile must be in a well defined format in order for MetaErg  program to parse it correctly. For the required coverage profile format, you can refer to "demo.depth.txt" file included in the "example" directory of the MetaErg installation. The example file can be generated using "**jgi_summarize_bam_contig_depths**" command from [MetaBat](https://bitbucket.org/berkeleylab/metabat) program after you finish the short reads to contig mapping process.
+With user provided protein expression level profile, MetaErg can also quantify functional, pathway profiles based on the active expressed protein genes from the metagenomic samples. An example protein expression profile was also included in the "example".
 ```
-#generate functional, pathway profiles based on the active expressed protein genes in the metagenomic samples
->perl $HOME/metaerg/bin/metaerg.pl --plevel demo.proteomics.txt demo.fna
+>perl $HOME/metaerg/bin/metaerg.pl --dbdir $home/db --plevel demo.proteomics.txt demo.fna
 ```
-With user provided protein expression level profile, MetaErg will generate functional, pathway profiles based on the proteins expressed in the metagenomic samples. For the required protein expression profile format, you can refer to "demo.proteomics.txt" file included in the "example" direcotory of the MetaErg installation.
 # MetaErg utility scripts
 MetaErg also includes some utility scripts to filtering contigs, add bin ids to the coding sequecnes, generate input for VizBin program. Some of the examples are listed as below:
 ```
