@@ -95,35 +95,32 @@ With a user provided protein expression level profile, MetaErg can also quantify
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --dbdir $home/db --plevel demo.proteomics.txt demo.fna
 ```
-# MetaErg utility scripts
-MetaErg also includes some utility scripts to filtering contigs, add bin ids to the coding sequecnes, generate input for VizBin program. Some of the examples are listed as below:
+# Utility scripts
+MetaErg includes some utility perl scripts and they can be used to filter contigs by lenght, add bin ids to the predicated coding sequecnes, and generate input for VizBin program: 
 ```
-#Filter out fasta format sequences shorter than a defined length
+#Filter out contig sequences shorter than 500bp
 >perl $HOME/metaerg/bin/filterContigByLength.pl contig.fasta 500
 ```
-The above command filters out the contigs <500bp from contig.fasta file
+Assume "mybindir" conatins all bin files and each fasta format bin file contains all the contigs binned togeher. The bins files are named in the format of Bin.binid.fa. In the file name, the binid is the bin id number.  The following command can generate input files for VisBin program for visualizing the binning results.
 ```
-#Generate input files for VisBin program to visualize binning results
->perl $HOME/metaerg/bin/getVizBinInput.pl -d binning_dir
+>perl $HOME/metaerg/bin/getVizBinInput.pl -d mybindir
 ```
-The "binning_dir" contains all the bin files. Each bin file is named in the format of "Bin.binid.fa" and binid is a number. Each bin file contains all the contigs binned together. The above command writes two files into the "binning_dir":  "binned_concat.fasta" and "binned_annotation.list".  In the VizBin application, the "binned_concat.fasta" will be uploaded to "File to Visualize" field and "binned_annotation.list" will be loaded to "Annotation file(optional)" field.
-# Extract the subset of the MetaErg annotation results
-Step1, extracting the annotations belonging to all the contigs contained in "subset.fasta" in gff format from the total dataset annotation :
+The above command writes two files into the "mybindir":  "binned_concat.fasta" and "binned_annotation.list". In the VizBin application, the "binned_concat.fasta" can be uploaded to "File to Visualize" field and "binned_annotation.list" can be loaded to "Annotation file(optional)" field.
+
+MetaErg can also extract the subset of annotation results and produce html summary pages from the previous total annotation without redoing the annnotion:
 ```
-#the total annotations are in mydir direcotry and the subset.fasta is a subset of the total input sequences to MetaErg annnotation
+#Step1, extracting the gff format annotations for the contigs included in "subset.fasta" from the total metaerg dataset annotation:
 >perl $HOME/metaerg/bin/fastaContig2Gff.pl -c subset.fasta -g mydir/data/master.gff  > subset.gff
-```
-Step 2, generating the annotation results and html reports for the subset sequences
-```
+
+#Step 2, generating the html reports for the extracted contig subset
 >perl $HOME/metaerg/bin/output_reports.pl  -g subset.gff -f subset.fasta -o mysubsetdir
 ```
-# Add bin ids to the MetaErg generated files
-Let's assume you are in "example" directory of the MetaErg installation and your binning results are in the "binning" directory.  "Bin.1.fa", "Bin.2.fa",  and "Bin.3.fa" files sitting in the "binning" directory contain all the fasta format contig sequences belonging to bin1, bin2, and bin3, respectivly.  
+Let's assume mybindir contains all the binning files: Bin.1.fa", "Bin.2.fa", "Bin.3.fa"... files. The following commands will: 
+
 ```
-#Add bin id to the front of the protein coding sequence id in the format of "binid_" 
+#Add bin id to the fasta format of the protein coding sequence and protein coding sequence id will be in the format of "binid_geneid"  
 >perl $HOME/metaerg/bin/add_binid2cds.pl -d binning -c mydir/data/cds.faa -g mydir/data/master.gff
-```
-```
+
 # Add bin ids to master.tsv file  as the first column
 >perl $HOME/metaerg/bin/add_binid2master_dot_tsv.pl -d binning -t mydir/data/master.tsv
 ```
