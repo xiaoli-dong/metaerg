@@ -31,7 +31,6 @@ MetaErg makes use of the following 3rd party dependencies and assumes these are 
 * [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm): a method for prediction transmembrane helices based on a hidden Markov model
 
 # MetaErg reference DB
-
 MetaErg requires external databases that need to be downloaded and unarchived
 ```
 # Retrieve the prebuilt database
@@ -67,13 +66,13 @@ docker run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v my_local_dir:/data/ do
 
 # Installation
 ```
-#This command will install metaerg to your home directory
+# Install metaerg to your home directory
 git clone https://github.com/xiaoli-dong/metaerg.git $HOME/metaerg
 
-# Using the downloaded prebuilt database or build database using MetaErg supplied script. Building the database process will take a while to run:
+# Using the downloaded prebuilt database
+# or build database using MetaErg supplied script and the building process will take a while to run
 $HOME/metaerg/bin/setup_db.pl -o $HOME -v 132
 ```
-
 
 # MetaErg Usages:
 Checke MetaErg's command line options
