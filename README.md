@@ -28,7 +28,7 @@ MetaErg makes use of the following 3rd party dependencies and assumes these are 
 * [MinPath](http://omics.informatics.indiana.edu/MinPath): a parsimony approach for biological pathway reconstructions using protein family predictions, achieving a more conservative, yet more faithful, estimation of the biological pathways for a query dataset.
 * [Prodigal](https://github.com/hyattpd/Prodigal): Fast, reliable protein-coding gene prediction for prokaryotic genomes.
 * [SignalP](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp): The program predicts the presence of signal peptides and the location of their cleavage sites in proteins from Archaea, Gram-positive Bacteria, Gram-negative Bacteria and Eukarya.
-* [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm): a method for prediction transmembrane helices based on a hidden Markov model
+* [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm): a method for predicting transmembrane helices based on a hidden Markov model
 
 # MetaErg reference DB
 MetaErg requires external databases that need to be downloaded and unarchived
@@ -52,7 +52,7 @@ MetaErg databases were built based on the following publicly available databases
 * [RefSeq](https://www.ncbi.nlm.nih.gov/refseq/)
 
 # Running with docker
-MetaErg docker image is host on the docker hub: https://hub.docker.com/r/xiaolidong/docker-metaerg. Due to licences permissions, this image does not contain [SignalP](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp) and [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm). When running with docker image, "--sp --tm" options cannot be enabled.
+MetaErg docker image is hosted on the docker hub: https://hub.docker.com/r/xiaolidong/docker-metaerg. Due to licencing permissions, this image does not contain [SignalP](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp) and [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm). When running with docker image, "--sp --tm" options cannot be enabled.
 ```
 # Get Docker image
 docker pull xiaolidong/docker-metaerg
@@ -87,7 +87,7 @@ Running MetaErg with user defined output directory and file names
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --dbdir $home/db --outdir mydir --prefix mycontigs contig.fasta
 ```
-With a user provided depth file, MetaErg can quantify the taxonomic, functional, and pathway compositions of multiple metagenomic samples. An example depth file was included in the "example" direcotry and it was genereated using "jgi_summarize_bam_contig_depths" from [MetaBat](https://bitbucket.org/berkeleylab/metabat) using BAM files, which are created by aligning the reads of each metagenomic sample separately to the contigs
+With a user provided depth file, MetaErg can quantify the taxonomic, functional, and pathway compositions of multiple metagenomic samples. An example depth file, generated using "jgi_summarize_bam_contig_depths" from [MetaBat](https://bitbucket.org/berkeleylab/metabat) using BAM files, which are created by aligning the reads of each metagenomic sample separately to the contigs was included in the "example" directory.
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --dbdir $home/db --depth demo.depth.txt demo.fasta
 ```
@@ -96,18 +96,18 @@ With a user provided protein expression level profile, MetaErg can also quantify
 >perl $HOME/metaerg/bin/metaerg.pl --dbdir $home/db --plevel demo.proteomics.txt demo.fna
 ```
 # Utility scripts
-MetaErg includes some utility perl scripts and they can be used to filter contigs by lenght, add bin ids to the predicated coding sequecnes, and generate input for VizBin program: 
+MetaErg includes some utility perl scripts and they can be used to filter contigs by length, add bin ids to the predicated coding sequences, and generate input for VizBin program: 
 ```
 #Filter out contig sequences shorter than 500bp
 >perl $HOME/metaerg/bin/filterContigByLength.pl contig.fasta 500
 ```
-Assume "mybindir" conatins all bin files and each fasta format bin file contains all the contigs binned togeher. The bins files are named in the format of Bin.binid.fa. In the file name, the binid is the bin id number.  The following command can generate input files for VisBin program for visualizing the binning results.
+Assume "mybindir" contains all bin files and each fasta format bin file contains all the contigs binned together. The bin files are named in the format of Bin.binid.fa. In the file name, the binid is the bin id number.  The following command can generate input files for VisBin program to visualize the binning results.
 ```
 >perl $HOME/metaerg/bin/getVizBinInput.pl -d mybindir
 ```
 The above command writes two files into the "mybindir":  "binned_concat.fasta" and "binned_annotation.list". In the VizBin application, the "binned_concat.fasta" can be uploaded to "File to Visualize" field and "binned_annotation.list" can be loaded to "Annotation file(optional)" field.
 
-MetaErg can also extract the subset of annotation results and produce html summary pages from the previous total annotation without redoing the annnotion:
+MetaErg can also extract the subset of annotation results and produce html summary pages from the previous total annotation without redoing the annotation:
 ```
 #Step1, extracting the gff format annotations for the contigs included in "subset.fasta" from the total metaerg dataset annotation:
 >perl $HOME/metaerg/bin/fastaContig2Gff.pl -c subset.fasta -g mydir/data/master.gff  > subset.gff
@@ -130,13 +130,13 @@ MetaErg writes the output files into a user defined or MetaErg autogenerated out
 | Output        | Description|
 |:--- |:--- |
 | \*.fna | Reformated and filtered fasta format input contig sequences |
-| data | A directory contains all the MetaErg generated annotation summary files in differenct formats. Although the files have different suffix, they are all text files and can be opened in any text editor |
-| html | A directory contains all the HTML pages for various type of  HTML reports and visualizations |
-| images | A directory contains all the image files for the html reports such as logo, banner|
+| data | A directory containing all the MetaErg generated annotation summary files in different formats. Although the files have different suffixes, they are all text files and can be opened in any text editor |
+| html | A directory containing all the HTML pages for various type of  HTML reports and visualizations |
+| images | A directory containing all the image files for the html reports such as logo, banner|
 | index.html | An interactive HTML summary report page, which links all the MetaErg annotations and visualizations together |
-| js | A directory contains all the required Javascript libraries for the interactive html reports |
+| js | A directory containing all the required Javascript libraries for the interactive html reports |
 | style.css | A HTML style sheet, which controls the look of the html reports |
-| tmp | A dirctory contains all the MetaErg intermediate outputs. It is useful when MetaErg fails in the middle of the run. With this directory in place, when you restart metaerg using the exact same parameters, MetaErg will start from the place it failed.  After MetaErg job finishes successfully, this directory can be deleted before you transfer the results to your local computers|
+| tmp | A dirctory containing all the MetaErg intermediate outputs. It is useful when MetaErg fails in the middle of the run. With this directory in place, when you restart metaerg using the exact same parameters, MetaErg will start from the place it failed.  After a MetaErg job finishes successfully, this directory can be deleted before you transfer the results to your local computers|
 
 # MetaErg data directory file descriptions
 
@@ -170,7 +170,7 @@ MetaErg writes the output files into a user defined or MetaErg autogenerated out
 |cds.gene2sport.\*| Protein coding gene searching against SwissPort database result summaries in different format |
 |cds.gene2pfam.\*|Protein coding sequence searching against pfam database result summaries in different format|
 |cds.gene2tigrfam.\*|Protein coding sequence searching against tigrfam database result summaries in different format|
-|rRNA.\*| Predicated rRNA genes (including both SSU-rRNA and LSU-rRNA) and their associcated taxonomy summary reports|
+|rRNA.\*| Predicated rRNA genes (including both SSU-rRNA and LSU-rRNA) and their associated taxonomy summary reports|
 |CRISPR.\*| Predicated CRISPR and its associated taxonomy summary reports|
 |\*.ffn |FASTA format nucleotide sequence files for the MetaErg predicated features (tRNA, crispr, cds, rRNA)|
 |cds.faa | Predicated protein coding amino acid sequence in FASTA format |
