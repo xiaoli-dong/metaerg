@@ -1,0 +1,57 @@
+Sender: LSF System <lsfadmin@node034>
+Subject: Job 100354: <metaerg> in cluster <synergy> Done
+
+Job <metaerg> was submitted from host <synergy-ib> by user <xdong> in cluster <synergy> at Thu Aug  1 13:01:45 2019.
+Job was executed on host(s) <8*node034>, in queue <normal>, as user <xdong> in cluster <synergy> at Thu Aug  1 13:01:45 2019.
+</home/xdong> was used as the home directory.
+</home/xdong/deve/metagenome/metaerg/example> was used as the working directory.
+Started at Thu Aug  1 13:01:45 2019.
+Terminated at Thu Aug  1 13:01:54 2019.
+Results reported at Thu Aug  1 13:01:54 2019.
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+
+#BSUB -J metaerg
+#BSUB -q normal
+#BSUB -n 8
+#BSUB -R "span[hosts=1]"
+#BSUB -o metaerg_%J.OUT
+#BSUB -e metaerg_%J.ERR
+
+echo -e "Start: `date`\n"
+perl ~/deve/metagenome/metaerg/bin/metaerg.pl test.fasta
+
+echo "End: `date`; RC=$?"
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.84 sec.
+    Max Memory :                                 49 MB
+    Average Memory :                             29.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              9
+    Max Threads :                                10
+    Run time :                                   11 sec.
+    Turnaround time :                            9 sec.
+
+The output (if any) follows:
+
+Start: Thu Aug  1 13:01:46 MDT 2019
+
+End: Thu Aug  1 13:01:54 MDT 2019; RC=0
+
+
+PS:
+
+Read file <metaerg_100354.ERR> for stderr output of this job.
+

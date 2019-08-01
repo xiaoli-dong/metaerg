@@ -39,6 +39,7 @@ my $bin = "$FindBin::RealBin";
 my(@Options, $quiet, $debug,$force, $prefix, $outdir,$locustag, $increment, $gcode, $gtype, $mincontiglen, $minorflen, $evalue, $cpus, $identity, $coverage,$hmm_cutoff,$hmm_evalue_cutoff, $sp, $tm, $depth_f, $plevel_f, $DBDIR);
 
 setOptions();
+$DBDIR ||= "$bin/../db";
 my $sqlite_dir = "$DBDIR/sqlite3";
 my $t0 = Benchmark->new;
 # . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
@@ -908,7 +909,7 @@ sub setOptions {
 	{OPT=>"version", VAR=>\&version, DESC=>"Print version and exit"},
 
 	'input:',
-	{OPT=>"dbdir=s",  VAR=>\$DBDIR, DEFAULT=>"db", DESC=>"metaerg searching database directory"},
+	{OPT=>"dbdir=s",  VAR=>\$DBDIR, DEFAULT=>'', DESC=>"metaerg searching database directory"},
 	{OPT=>"mincontiglen=i",  VAR=>\$mincontiglen, DEFAULT=>200, DESC=>"Minimum contig size [NCBI needs 200]"},
 
 	'gene prediction:',
