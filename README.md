@@ -3,6 +3,7 @@
 MetaErg is a stand-alone and fully automated metagenomic and metaproteomic data annotation pipeline. It bundles essential annotation tasks such as feature prediction, functional annotation with Hidden Markov Model (HMM) searches as well as blast and diamond searches. It estimates and visualizes quantitative taxonomic and pathway compositions of multiple metagenomic and proteomics samples using sequencing coverage and proteomics spectral counts, respectively. For visualization, MetaErg provides a HTML interface, bringing all annotation results together in sortable and searchable tables, collapsible trees, and other graphic representations, enabling intuitive navigation of complex data.
 
 A MetaErg analysis output demo page can be found at: https://xiaoli-dong.github.io/metaerg/
+
 A MetaErg Docker application can be found here: https://hub.docker.com/r/xiaolidong/docker-metaerg 
 
 # Required perl modules
@@ -103,16 +104,16 @@ MetaErg includes some utility perl scripts and they can be used to filter contig
 #Filter out contig sequences shorter than 500bp
 >perl $HOME/metaerg/bin/filterContigByLength.pl contig.fasta 500
 ```
-#Create input files for vizbin
-Let's assume you have a folder named "mybindir" which contains the contigs of each bin as a separate nt fasta file. Let's assume these fasta files have filenames such as "Bin.binid.fa". In the file name, "binid" is the bin id number. The following command can generate input files for the VisBin program, to visualize the binning results.
+Let's assume you have a folder named "mybindir" which contains the contigs of each bin as a separate nt fasta file. Let's assume these fasta files have filenames such as "Bin.binid.fa". In the file name, "binid" is the bin id number. The following command can generate input files for the VizBin program, to visualize the binning results.
 ```
+#Create input files for vizbin
 >perl $HOME/metaerg/bin/getVizBinInput.pl -d mybindir
 ```
-This command writes two files into "mybindir": "binned_concat.fasta" and "binned_annotation.list". In the VizBin application, the "binned_concat.fasta" can be provided in the "File to Visualize" field and "binned_annotation.list" can be provided in the "Annotation file(optional)" field.
+The previous command writes two files into "mybindir": "binned_concat.fasta" and "binned_annotation.list". In the VizBin application, the "binned_concat.fasta" can be provided in the "File to Visualize" field and "binned_annotation.list" can be provided in the "Annotation file(optional)" field.
 
-#Extract annotation results for individual bins
 Let's assume you have annotated all the contigs of your metagenome. MetaErg can extract the subset of annotation results and produce html summary pages for an individual bin as follows:
 ```
+#Extract annotation results for individual bins
 #Step1, extracting the gff-format annotations for the contigs included in "mybin.nt.fasta" from the total metaerg dataset annotation:
 >perl $HOME/metaerg/bin/fastaContig2Gff.pl -c mybin.nt.fasta -g mydir/data/master.gff  > mybin.gff
 
@@ -125,7 +126,7 @@ Let's assume mybindir contains many nucleotide fasta files, one for each bin: Bi
 #Add bin id to the fasta format of the protein coding sequence and protein coding sequence id will be in the format of "binid_geneid"
 >perl $HOME/metaerg/bin/add_binid2cds.pl -d binning -c mydir/data/cds.faa -g mydir/data/master.gff
 
-# Add bin ids to master.tsv file, as the first column
+#Add bin ids to master.tsv file, as the first column
 >perl $HOME/metaerg/bin/add_binid2master_dot_tsv.pl -d binning -t mydir/data/master.tsv
 ```
 # MetaErg output directory layout
