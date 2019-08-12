@@ -1,11 +1,12 @@
 
 # MetaErg
-MetaErg is a stand-alone and fully automated metagenomic and metaproteomic data annotation pipeline. It bundles essential annotation tasks such as feature prediction, functional annotation with Hidden Markov Model (HMM) searches as well as blast and diamond searches. It estimates and visualizes quantitative taxonomic and pathway compositions of multiple metagenomic and proteomics samples using sequencing coverage and proteomics spectral counts, respectively. For visualization, MetaErg provides a HTML interface, bringing all annotation results together, and producing sortable and searchable tables, collapsible trees, and other graphic representations enabling intuitive navigation of complex data.
+MetaErg is a stand-alone and fully automated metagenomic and metaproteomic data annotation pipeline. It bundles essential annotation tasks such as feature prediction, functional annotation with Hidden Markov Model (HMM) searches as well as blast and diamond searches. It estimates and visualizes quantitative taxonomic and pathway compositions of multiple metagenomic and proteomics samples using sequencing coverage and proteomics spectral counts, respectively. For visualization, MetaErg provides a HTML interface, bringing all annotation results together in sortable and searchable tables, collapsible trees, and other graphic representations, enabling intuitive navigation of complex data.
 
-MetaErg analysis output demo page can be access at: https://xiaoli-dong.github.io/metaerg/
+A MetaErg analysis output demo page can be found at: https://xiaoli-dong.github.io/metaerg/
+A MetaErg Docker application can be found here: https://hub.docker.com/r/xiaolidong/docker-metaerg 
 
 # Required perl modules
-MetaErg was developed using perl, html, and javascript. It requires Perl 5.6.0 or higher and runs on Linux platform. Besides the perl core modules, it also requires the following perl modules to be installed:
+If you do not use Docker, you will need to install perl modules. MetaErg requires Perl 5.6.0 or higher and runs on Linux platforms. Besides the perl core modules, it also requires the following perl modules to be installed:
 ```
 * Archive::Extract;
 * Bio::Perl;
@@ -18,7 +19,7 @@ MetaErg was developed using perl, html, and javascript. It requires Perl 5.6.0 o
 * SWISS::KW;
 ```
 # Third-party software
-MetaErg makes use of the following 3rd party dependencies and assumes these are on your system path:
+If you do not use Docker, you will need to install the following 3rd party dependencies and make sure they are on your system path:
 
 * [ARAGORN](http://mbio-serv2.mbioekol.lu.se/ARAGORN):  a program to detect tRNA genes and tmRNA genes in nucleotide sequences 
 * [BLAST+ executables](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download): The Basic Local Alignment Search Tool (BLAST) finds regions of	local similarity between sequences.
@@ -52,12 +53,13 @@ MetaErg databases were built based on the following publicly available databases
 * [RefSeq](https://www.ncbi.nlm.nih.gov/refseq/)
 
 # Running with docker
-MetaErg docker image is hosted on the docker hub: https://hub.docker.com/r/xiaolidong/docker-metaerg. Due to licencing permissions, this image does not contain [SignalP](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp) and [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm). When running with docker image, "--sp --tm" options cannot be enabled.
+The MetaErg docker image is hosted on the docker hub: https://hub.docker.com/r/xiaolidong/docker-metaerg. Due to licencing permissions, this image does not contain [SignalP](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp) and [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm). When running with docker image, "--sp --tm" options cannot be enabled.
 ```
-# Get Docker image
+# Get the Docker image
 docker pull xiaolidong/docker-metaerg
 
-# Using the downloaded prebuilt database or build database using MetaErg supplied script. Building the database process will take a while to run:
+# Databases and Docker
+With Docker, you can either use the downloaded prebuilt database or build a database with the command below. Building the database process will take a while to run:
 docker run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v my_local_dir:/data/ docker-metaerg setup_db.pl -o /data -v 132
 
 #Running MetaErg with default options
@@ -79,52 +81,54 @@ The functionality provided by MetaErg can be accessed through the help menu:
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --help
 ```
-Running MetaErg with the default parameters will output the final and intermediate results into a directory named metaerg.pl_ddmmyyyy directory
+Running MetaErg with the default parameters will output the final and intermediate results into a directory named metaerg.pl_ddmmyyyy:
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --dbdir $home/db contig.fasta
 ```
-Running MetaErg with user defined output directory and file names
+Running MetaErg with user defined output directory and file names:
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --dbdir $home/db --outdir mydir --prefix mycontigs contig.fasta
 ```
-With a user provided depth file, MetaErg can quantify the taxonomic, functional, and pathway compositions of multiple metagenomic samples. An example depth file, generated using "jgi_summarize_bam_contig_depths" from [MetaBat](https://bitbucket.org/berkeleylab/metabat) using BAM files, which are created by aligning the reads of each metagenomic sample separately to the contigs was included in the "example" directory.
+With a user provided "depth file", MetaErg can quantify the taxonomic, functional, and pathway compositions of multiple metagenomic samples. An example "depth file" is included in the "example" directory. The depth file was generated with the script "jgi_summarize_bam_contig_depths" from [MetaBat](https://bitbucket.org/berkeleylab/metabat) using BAM files. BAM files are created by aligning the reads of each metagenomic sample to the assembled contigs, using a program such as BBMap or bwa.
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --dbdir $home/db --depth demo.depth.txt demo.fasta
 ```
-With a user provided protein expression level profile, MetaErg can also quantify functional, pathway profiles based on the active expressed protein genes from the metagenomic samples. An example protein expression profile was also included in the "example".
+With a user provided protein expression level profile, MetaErg can also quantify functional, pathway profiles based on actively expressed proteins. An example protein expression profile is also included in the "example" folder.
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --dbdir $home/db --plevel demo.proteomics.txt demo.fna
 ```
 # Utility scripts
-MetaErg includes some utility perl scripts and they can be used to filter contigs by length, add bin ids to the predicated coding sequences, and generate input for VizBin program: 
+MetaErg includes some utility perl scripts and they can be used to filter contigs by length, add bin identifiers to predicted coding sequences, and generate input for the VizBin program: 
 ```
 #Filter out contig sequences shorter than 500bp
 >perl $HOME/metaerg/bin/filterContigByLength.pl contig.fasta 500
 ```
-Assume "mybindir" contains all bin files and each fasta format bin file contains all the contigs binned together. The bin files are named in the format of Bin.binid.fa. In the file name, the binid is the bin id number.  The following command can generate input files for VisBin program to visualize the binning results.
+#Create input files for vizbin
+Let's assume you have a folder named "mybindir" which contains the contigs of each bin as a separate nt fasta file. Let's assume these fasta files have filenames such as "Bin.binid.fa". In the file name, "binid" is the bin id number. The following command can generate input files for the VisBin program, to visualize the binning results.
 ```
 >perl $HOME/metaerg/bin/getVizBinInput.pl -d mybindir
 ```
-The above command writes two files into the "mybindir":  "binned_concat.fasta" and "binned_annotation.list". In the VizBin application, the "binned_concat.fasta" can be uploaded to "File to Visualize" field and "binned_annotation.list" can be loaded to "Annotation file(optional)" field.
+This command writes two files into "mybindir": "binned_concat.fasta" and "binned_annotation.list". In the VizBin application, the "binned_concat.fasta" can be provided in the "File to Visualize" field and "binned_annotation.list" can be provided in the "Annotation file(optional)" field.
 
-MetaErg can also extract the subset of annotation results and produce html summary pages from the previous total annotation without redoing the annotation:
+#Extract annotation results for individual bins
+Let's assume you have annotated all the contigs of your metagenome. MetaErg can extract the subset of annotation results and produce html summary pages for an individual bin as follows:
 ```
-#Step1, extracting the gff format annotations for the contigs included in "subset.fasta" from the total metaerg dataset annotation:
->perl $HOME/metaerg/bin/fastaContig2Gff.pl -c subset.fasta -g mydir/data/master.gff  > subset.gff
+#Step1, extracting the gff-format annotations for the contigs included in "mybin.nt.fasta" from the total metaerg dataset annotation:
+>perl $HOME/metaerg/bin/fastaContig2Gff.pl -c mybin.nt.fasta -g mydir/data/master.gff  > mybin.gff
 
 #Step 2, generating the html reports for the extracted contig subset
->perl $HOME/metaerg/bin/output_reports.pl  -g subset.gff -f subset.fasta -o mysubsetdir
+>perl $HOME/metaerg/bin/output_reports.pl  -g mybin.gff -f subset.fasta -o mybindir
 ```
-Let's assume mybindir contains all the binning files: Bin.1.fa", "Bin.2.fa", "Bin.3.fa"... files. The following commands will: 
+Let's assume mybindir contains many nucleotide fasta files, one for each bin: Bin.1.fa", "Bin.2.fa", "Bin.3.fa"... files. The following commands will: 
 
 ```
-#Add bin id to the fasta format of the protein coding sequence and protein coding sequence id will be in the format of "binid_geneid"  
+#Add bin id to the fasta format of the protein coding sequence and protein coding sequence id will be in the format of "binid_geneid"
 >perl $HOME/metaerg/bin/add_binid2cds.pl -d binning -c mydir/data/cds.faa -g mydir/data/master.gff
 
-# Add bin ids to master.tsv file  as the first column
+# Add bin ids to master.tsv file, as the first column
 >perl $HOME/metaerg/bin/add_binid2master_dot_tsv.pl -d binning -t mydir/data/master.tsv
 ```
-# MeteErg output directory layout
+# MetaErg output directory layout
 MetaErg writes the output files into a user defined or MetaErg autogenerated output directory. An example of the MetaErg output directory layout is as following:
 
 | Output        | Description|
