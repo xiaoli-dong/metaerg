@@ -15,13 +15,13 @@ my $i = 0;
 $/ = "\n>";
 while(<FASTA>){
     chomp;
-    
-    if(my ($seq_name,$seq) =  /^>?(\S+.*?)\n(.*)/s){
-	
+
+    if(my ($seq_name,$seq) =  /^>?(\S+).*?\n(.*)/s){
+
 	$seq =~ tr/ \r\n\t//d;
-	
+
 	if(length($seq) >=$minlen ){
-	    
+
 	    print  ">$seq_name\n$seq\n";
 	}
     }

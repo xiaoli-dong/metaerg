@@ -232,6 +232,7 @@ my $fin = Bio::SeqIO->new(-file=>"$fasta", -format=>'fasta');
 while (my $seq = $fin->next_seq) {
     $seqHash{$seq->id}{DNA} = $seq;
 }
+
 msg("end to read $fasta file");
 
 my $cds_count_total = $totals{"CDS"}->{count};
@@ -600,6 +601,7 @@ sub output_metabolic_tablecol{
 sub output_foam_reports{
     my ($seqHash, $datadir) = @_;
     my %ontology2genes = ();
+        
     for my $sid (sort {$seqHash{$b}{DNA}->length <=> $seqHash{$a}{DNA}->length} keys %$seqHash){
 	next if not exists $seqHash->{$sid}{FEATURE};
 	for my $f ( sort { $a->start <=> $b->start } @{ $seqHash->{$sid}{FEATURE} }) {

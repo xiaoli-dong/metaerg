@@ -446,16 +446,21 @@ sub predict_signal_peptide{
 	my $cmd1 = "$signalp -t gram- -f summary $fasta > $fasta.signalp.gramn.txt.temp;";
 	my $cmd2 = "$signalp -t gram+ -f summary $fasta > $fasta.signalp.gramp.txt.temp;";
 	my $cmd3 = "$signalp -t euk -f summary $fasta > $fasta.signalp.euk.txt.temp;";
-
+	#version 5
+	#my $cmd1 = "$signalp -org gram- -format short -gff3 $fasta.gramn.gff3.txt -fasta $fasta > $fasta.signalp.gramn.txt.temp;";
+        #my $cmd2 = "$signalp -org gram+ -format short -gff3 $fasta.gramp.gff3.txt -fasta $fasta > $fasta.signalp.gramp.txt.temp;";
+        #my $cmd3 = "$signalp -org euk -format short -gff3 $fasta.euk.gff3.txt -fasta $fasta > $fasta.signalp.euk.txt.temp;";
+	#my $cmd4 = "$signalp -org arch -format short -gff3 $fasta.arch.gff3.txt -fasta $fasta > $fasta.signalp.arch.txt.temp;";
 	my $thr1 = threads->new(\&runcmd, $cmd1);
 	my $thr2 = threads->new(\&runcmd, $cmd2);
 	my $thr3 = threads->new(\&runcmd, $cmd3);
+	#my $thr4 = threads->new(\&runcmd, $cmd4);
 	$thr1->join();
 	$thr2->join();
 	$thr3->join();
-	
-	msg("Running: cat $fasta.signalp.euk.txt.temp $fasta.signalp.gramp.txt.temp $fasta.signalp.gramn.txt.temp > $fasta.signalp.txt.temp");
-	system("cat $fasta.signalp.euk.txt.temp $fasta.signalp.gramp.txt.temp $fasta.signalp.gramn.txt.temp > $fasta.signalp.txt.temp");
+	#$thr4->join();
+	msg("Running: cat $fasta.signalp.euk.txt.temp $fasta.signalp.gramp.txt.temp $fasta.signalp.gramn.txt.temp $fasta.signalp.arch.txt.temp > $fasta.signalp.txt.temp");
+	system("cat $fasta.signalp.euk.txt.temp $fasta.signalp.gramp.txt.temp $fasta.signalp.gramn.txt.temp > $fasta.signalp.txt.temp $fasta.signalp.arch.txt.temp");
     }
     my %peptides = ();
     my $tool = "SignalP";

@@ -1,0 +1,12 @@
+###"--shm-size 2g" default shm size is only 64M, without increase the size, diamond search will fail
+docker build -t  xiaolidong/docker-metaerg -f Dockerfile ./context
+##docker image cannot access symbolic directory
+# Get Docker image
+docker pull xiaolidong/docker-metaerg
+
+# Using the downloaded prebuilt database or build database using MetaErg supplied script. Building the database process will take a while to run:
+docker run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v my_local_dir:/data/ docker-metaerg setup_db.pl -o /data -v 132
+
+#Running MetaErg with default options
+docker run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v my_local_dir:/data/ docker-metaerg metaerg.pl --dbdir /data/db /data/contig.fasta
+
