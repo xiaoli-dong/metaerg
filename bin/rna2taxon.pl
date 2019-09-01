@@ -8,7 +8,7 @@ use Time::Piece;
 use Benchmark;
 use Scalar::Util qw(openhandle);
 
-my (@Options,$dbtype, $evalue, $cpus, $identities, $coverage,$length, $DBDIR);
+my (@Options,$dbtype, $evalue, $cpus, $identities, $coverage,$length);
 setOptions();
 my $EXE = $FindBin::RealScript;
 my $VERSION = "0.1";
@@ -16,7 +16,7 @@ my $DESC = "ribosomal RNA classification: associate ribosomal RNA to SILVA taxon
 my $AUTHOR = 'Xiaoli Dong <xdong@ucalgary.ca>';
 my $OPSYS = $^O;
 
-
+my $DBDIR = "$FindBin::RealBin/../db/blast";
 my $ssu_db = "silva_SSURef_Nr99.fasta";
 my $lsu_db = "silva_LSURef.fasta";
 my $db = $dbtype eq "ssu" ? $ssu_db : $lsu_db;
@@ -40,7 +40,7 @@ $fasta && -r $fasta or err("Usage: $EXE <RNA fasta sequences file>");
 my $t0 = Benchmark->new;
 
 my $blastn_output = "$fasta.blastn.outfmt7.txt";
-my $cmd = "blastn  -query $fasta -db $DBDIR/blast/$db -dust no -num_threads $cpus -evalue $evalue -out $blastn_output  -outfmt \"7 qseqid qlen slen qstart qend sstart send length qcovhsp pident evalue bitscore stitle\" -max_target_seqs 5";
+my $cmd = "blastn  -query $fasta -db $DBDIR/$db -dust no -num_threads $cpus -evalue $evalue -out $blastn_output  -outfmt \"7 qseqid qlen slen qstart qend sstart send length qcovhsp pident evalue bitscore stitle\" -max_target_seqs 5";
 
 msg("$cmd\n");
 if(! -e "$blastn_output"){
@@ -49,7 +49,8 @@ if(! -e "$blastn_output"){
 
 open(BLAST_OUT,$blastn_output ) or die "Could not open $blastn_output to read, $!\n";
 
-$/="\n# BLASTN 2.8.1+\n";
+#$/="\n# BLASTN 2.8.1+\n";
+$/="\n# BLASTN";
 my $count = 0;
 my %taxon_ass = ();
 
@@ -61,7 +62,7 @@ while(<BLAST_OUT>){
     my @hits = ();
     my $seq2taxon = "";
     foreach my $line (@lines){
-	next if $line =~ /^#/;
+	next if $line =~ /^#|^\s+\d\.\d\.\d\+$/;
 	push(@hits, $line);
     }
     if (@hits == 0){
@@ -262,7 +263,6 @@ sub setOptions {
       'Options:',
       {OPT=>"help",    VAR=>\&usage,             DESC=>"This help"},
       {OPT=>"version", VAR=>\&version,           DESC=>"Print version and exit"},
-      {OPT=>"dbdir=s",  VAR=>\$DBDIR, DEFAULT=>"./db", DESC=>"metaerg searching database directory"},
       {OPT=>"cpus=i",  VAR=>\$cpus, DEFAULT=>8,  DESC=>"Number of threads/cores/CPUs to use"},
       {OPT=>"dbtype=s",VAR=>\$dbtype, DEFAULT=>'ssu', DESC=>"input sequence type:ssu|lsu, ssu incldues 16s/18s, lsu includes 23s/28s rRNA"},
       'Cutoffs:',
@@ -291,7 +291,7 @@ sub setOptions {
 sub usage {
   print STDERR "Synopsis:\n  $EXE $VERSION - $DESC\n";
   print STDERR "Author:\n  $AUTHOR\n";
-  print STDERR "Usage:\n  $EXE [options] <contigs.fasta>\n";
+  print STDERR "Usage:\n  $EXE [options] <rRNA fasta sequence file>\n";
   foreach (@Options) {
     if (ref) {
       my $def = defined($_->{DEFAULT}) ? " (default '$_->{DEFAULT}')" : "";
