@@ -8,7 +8,7 @@ use Time::Piece;
 use Benchmark;
 use Scalar::Util qw(openhandle);
 
-my (@Options,$dbtype, $evalue, $cpus, $identities, $coverage,$length);
+my (@Options,$dbtype, $evalue, $cpus, $identities, $coverage,$length, $dbdir);
 setOptions();
 my $EXE = $FindBin::RealScript;
 my $VERSION = "0.1";
@@ -16,7 +16,7 @@ my $DESC = "ribosomal RNA classification: associate ribosomal RNA to SILVA taxon
 my $AUTHOR = 'Xiaoli Dong <xdong@ucalgary.ca>';
 my $OPSYS = $^O;
 
-my $DBDIR = "$FindBin::RealBin/../db/blast";
+$dbdir ||= "$FindBin::RealBin/../db/blast";
 my $ssu_db = "silva_SSURef_Nr99.fasta";
 my $lsu_db = "silva_LSURef.fasta";
 my $db = $dbtype eq "ssu" ? $ssu_db : $lsu_db;
@@ -40,7 +40,7 @@ $fasta && -r $fasta or err("Usage: $EXE <RNA fasta sequences file>");
 my $t0 = Benchmark->new;
 
 my $blastn_output = "$fasta.blastn.outfmt7.txt";
-my $cmd = "blastn  -query $fasta -db $DBDIR/$db -dust no -num_threads $cpus -evalue $evalue -out $blastn_output  -outfmt \"7 qseqid qlen slen qstart qend sstart send length qcovhsp pident evalue bitscore stitle\" -max_target_seqs 5";
+my $cmd = "blastn  -query $fasta -db $dbdir/$db -dust no -num_threads $cpus -evalue $evalue -out $blastn_output  -outfmt \"7 qseqid qlen slen qstart qend sstart send length qcovhsp pident evalue bitscore stitle\" -max_target_seqs 5";
 
 msg("$cmd\n");
 if(! -e "$blastn_output"){
@@ -263,6 +263,7 @@ sub setOptions {
       'Options:',
       {OPT=>"help",    VAR=>\&usage,             DESC=>"This help"},
       {OPT=>"version", VAR=>\&version,           DESC=>"Print version and exit"},
+      {OPT=>"dbdir=s",  VAR=>\$dbdir, DEFAULT=>'',  DESC=>"metaerg database directory"},
       {OPT=>"cpus=i",  VAR=>\$cpus, DEFAULT=>8,  DESC=>"Number of threads/cores/CPUs to use"},
       {OPT=>"dbtype=s",VAR=>\$dbtype, DEFAULT=>'ssu', DESC=>"input sequence type:ssu|lsu, ssu incldues 16s/18s, lsu includes 23s/28s rRNA"},
       'Cutoffs:',

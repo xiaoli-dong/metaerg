@@ -196,7 +196,10 @@ close(GFF);
 
 
 gff2fasta("$outdir/rRNA.gff", $fasta, \%rnatcats);
-rna2taxon(\%rnatcats);
+
+if(! -e "$outdir/rRNA.tax.txt"){
+    rna2taxon(\%rnatcats);
+}
 
 my $t1 = Benchmark->new;
 my $td = timediff($t1, $t0);
