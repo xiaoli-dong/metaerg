@@ -2848,7 +2848,7 @@ sub output_master_annot_summary{
 # . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 # Write it all out!
     msg("Writing tabular format summary output to $datadir/");
-    open my $tbl_fh, '>', "$datadir/master.tsv";
+    open my $tbl_fh, '>', "$datadir/master.tsv.txt";
     my @tags = ("casgene_acc", "sp", "tm_num", "sprot_desc", "tigrfam_desc", "pfam_desc","genomedb_OC");
 
     print $tbl_fh "#contigid\t";
@@ -3035,20 +3035,21 @@ sub output_fasta{
 		$desc .= " OS=$os";
 
 
-		$p->desc("$desc len=$len") if defined $p;
+		$p->desc("$desc len=$len cid=$sid") if defined $p;
                 $ffn_fh->write_seq($p);
 
 		my $aa_seq = $cds_aa_seqs->{TAG($f, 'ID')};
-		$aa_seq->desc("$desc len=" . $aa_seq->length);
+		$aa_seq->desc("$desc len=" . $aa_seq->length . " cid=$sid");
 
 		$faa_fh->write_seq($aa_seq);
             }
             if ($f->primary_tag =~ /repeat_region/) {
+		$p->desc("/cid=$sid") if defined $p;
                 $crispr_fh->write_seq($p);
             }
             if ($f->primary_tag =~ /tRNA/) {
                 $desc .= "/name=" . TAG($f, "Name");
-		$p->desc($desc);
+		$p->desc("$desc /cid=$sid");
                 $tRNA_fh->write_seq($p);
             }
 
@@ -3057,7 +3058,8 @@ sub output_fasta{
                 $desc .=  $f->has_tag('Name') ? TAG($f, 'Name') : "";
                 $desc .= " \/rRNA_taxon=";
                 $desc .=  $f->has_tag('rRNA_taxon') ? TAG($f, 'rRNA_taxon') : "";
-                $p->desc($desc);
+		
+                $p->desc("$desc /cid=$sid");
                 $s18_fh->write_seq($p);
             }
             if ($f->primary_tag =~ /16SrRNA/) {
@@ -3065,7 +3067,7 @@ sub output_fasta{
                 $desc .=  $f->has_tag('Name') ? TAG($f, 'Name') : "";
                 $desc .= " \/rRNA_taxon=";
                 $desc .=  $f->has_tag('rRNA_taxon') ? TAG($f, 'rRNA_taxon') : "";
-                $p->desc($desc);
+		$p->desc("$desc /cid=$sid");
                 $s16_fh->write_seq($p);
             }
 
@@ -3074,6 +3076,7 @@ sub output_fasta{
                 $desc .=  $f->has_tag('Name') ? TAG($f, 'Name') : "";
                 $desc .= " \/rRNA_taxon=";
                 $desc .=  $f->has_tag('rRNA_taxon') ? TAG($f, 'rRNA_taxon') : "";
+		$p->desc("$desc /cid=$sid");
                 $p->desc($desc);
                 $s23_fh->write_seq($p);
             }
@@ -3082,6 +3085,7 @@ sub output_fasta{
                 $desc .=  $f->has_tag('Name') ? TAG($f, 'Name') : "";
                 $desc .= " \/rRNA_taxon=";
                 $desc .=  $f->has_tag('rRNA_taxon') ? TAG($f, 'rRNA_taxon') : "";
+		$p->desc("$desc /cid=$sid");
                 $p->desc($desc);
                 $s28_fh->write_seq($p);
             }
@@ -3090,6 +3094,7 @@ sub output_fasta{
                 $desc .=  $f->has_tag('Name') ? TAG($f, 'Name') : "";
                 $desc .= " \/rRNA_taxon=";
                 $desc .=  $f->has_tag('rRNA_taxon') ? TAG($f, 'rRNA_taxon') : "";
+		$p->desc("$desc /cid=$sid");
                 $p->desc($desc);
                 $s5_fh->write_seq($p);
             }
@@ -3108,7 +3113,7 @@ sub output_tbl{
     # Write it all out!
 
     msg("Writing tbl output to $datadir/");
-    open my $tbl_fh, '>', "$datadir/master.tbl";
+    open my $tbl_fh, '>', "$datadir/master.tbl.txt";
     for my $sid (sort {$seqHash{$b}{DNA}->length <=> $seqHash{$a}{DNA}->length} keys %$seqHash){
 
 	print $tbl_fh ">Feature $sid\n";

@@ -12,7 +12,7 @@ my $t0 = Benchmark->new;
 # . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 # global variables
 my $EXE = $FindBin::RealScript;
-my $VERSION = "0.1";
+my $VERSION = "1.1.0";
 my $DESC = "genome/metagenome ribosomal RNA prediction and taxon assignments";
 my $AUTHOR = 'Xiaoli Dong <xdong@ucalgary.ca>';
 my $URL = 'https://sourceforge.net/projects/rrnafinder/';
@@ -230,7 +230,7 @@ sub rna2taxon{
 	    err("unknow rRNA type: $cat");
 	    #next;
 	}
-	my $cmd = "$^X $bin/rna2taxon.pl --dbdir $DBDIR --cpus $threads --dbtype $dbtype --evalue $evalue --identities $identities --coverage $coverage $outdir/$input > $outdir/$output";
+	my $cmd = "$^X $bin/rna2taxon.pl --dbdir $DBDIR/blast --cpus $threads --dbtype $dbtype --evalue $evalue --identities $identities --coverage $coverage $outdir/$input > $outdir/$output";
 	msg("Command: $cmd");
 	system($cmd) >> 8 and  die "Could not execute cmd=$cmd, $!\n";
 	

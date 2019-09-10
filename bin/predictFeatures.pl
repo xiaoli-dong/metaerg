@@ -18,7 +18,6 @@ use FileHandle;
 # Global variabies
 my $starttime = localtime;
 my $AUTHOR = 'Xiaoli Dong <xdong@ucalgary.ca>';
-my $VERSION = "0.1";
 my $EXE = $FindBin::RealScript;
 my $bin = "$FindBin::RealBin";
 my $programs = "$FindBin::RealBin/../programs";
@@ -110,7 +109,7 @@ my $cdsoutfn = "$outdir/signalp.faa";
 
 if($sp){
     $t0 = Benchmark->new;
-    predict_signal_peptide("$outdir/cds.faa", \%seqHash, \@seqArray);
+    predict_signal_peptide_parallel("$outdir/cds.faa", \%seqHash, \@seqArray);
     $t1 = Benchmark->new;
     $td = timediff($t1, $t0);
     msg("predict_signal_peptide took:" . timestr($td) . " to run\n");
@@ -363,7 +362,7 @@ sub predict_CDs{
 	
 	if(abs($end - $start) < $minorflen){
 	    $excludes{TAG($f, "ID")} = 1;
-	    msg("Excluding CDS too short $sid ". TAG($f, "ID"));
+	    #msg("Excluding CDS too short $sid ". TAG($f, "ID"));
 	}
 	else{
 	    my ($newid) = TAG($f, "ID") =~ /^\d+?_(\d+)/;
@@ -423,6 +422,77 @@ sub predict_CDs{
     return $num_cds;
 }
 
+#----------------------------------------------------------------------
+sub predict_signal_peptide_parallel{
+    my ($fasta, $seqHash, $seqArray) = @_;
+    msg("Looking for signal peptides at start of predicted proteins in meta mode");
+    
+    #open my $cdsoutfh, '>', $fasta;
+    #my $cdsout = Bio::SeqIO->new(-fh=>$cdsoutfh, -format=>'fasta');
+    my %cds;
+    my $signalp = "signalp";
+    for my $sid (@$seqArray) {
+	for my $f (@{ $seqHash->{$sid}{FEATURE} }) {
+	    next unless $f->primary_tag eq "CDS"; 
+	    my ($id) = TAG($f, "ID");
+	    #print STDERR "------id=$id\n";
+	    $cds{$id} = $f;
+	}
+    }
+    
+    my @cmds = ();
+    
+    if(! glob("$outdir/cds.faa.signalp.*.gff3")){
+	#version 5
+	my $cmd1 = "$signalp -verbose=false -org gram- -batch 50000 -format short -gff3 -tmp $outdir -prefix $fasta.signalp.gramn -fasta $fasta";
+	my $cmd2 = "$signalp -verbose=false -org gram+ -batch 50000 -format short -gff3 -tmp $outdir -prefix $fasta.signalp.gramp -fasta $fasta";
+	my $cmd3 = "$signalp -verbose=false -org euk -batch 50000 -format short -gff3 -tmp $outdir -prefix $fasta.signalp.euk -fasta $fasta";
+	my $cmd4 = "$signalp -verbose=false -org arch -batch 50000 -format short -gff3 -tmp $outdir -prefix $fasta.signalp.arch -fasta $fasta";
+        
+	my $thr1 = threads->new(\&runcmd, $cmd1);
+	my $thr2 = threads->new(\&runcmd, $cmd2);
+	my $thr3 = threads->new(\&runcmd, $cmd3);
+	my $thr4 = threads->new(\&runcmd, $cmd4);
+	$thr1->join();
+	$thr2->join();
+	$thr3->join();
+	$thr4->join();
+	
+
+    }
+    
+    my $num_sigpep = 0;
+    my $sp_count = 0;
+    my %sps = ();
+    
+    #merge the results from all four org prediction
+    while (glob "$outdir/cds.faa.signalp.*.gff3"){
+	open my $gff, "$_";
+	my $gffio = Bio::Tools::GFF->new(-fh => $gff, -gff_version => 3);
+	while (my $f = $gffio->next_feature) {
+	    my $cid = $f->seq_id;
+	    $sps{$cid} = $f if not exists $sps{$cid};
+	}
+	close($gff);
+    }
+    foreach my $cid (keys %sps){
+	$sp_count++;
+	my $signal_f = $sps{$cid};
+	my $cd_f = $cds{$cid};
+	$signal_f->add_tag_value("ID", "$cid\_sp$sp_count");
+	$signal_f->add_tag_value("Parent", $signal_f->seq_id);
+	
+	my $signal_len = $signal_f->end - $signal_f->start + 1;
+	$signal_f->seq_id($cd_f->seq_id);
+	$signal_f->start($cd_f->start + ($signal_f->start-1)*3);
+	$signal_f->end ($signal_f->start + ($signal_len)*3 - 1);
+	push @{$seqHash->{$cd_f->seq_id}{FEATURE}}, $signal_f;
+	$num_sigpep++;
+	$cd_f->add_tag_value("sp","YES");
+    }
+    msg("Found $num_sigpep signal peptides");
+}
+
 
 #----------------------------------------------------------------------
 sub predict_signal_peptide{
@@ -442,86 +512,51 @@ sub predict_signal_peptide{
 	}
     }
     
-    if(! -e "$fasta.signalp.txt.temp"){
-	my $cmd1 = "$signalp -t gram- -f summary $fasta > $fasta.signalp.gramn.txt.temp;";
-	my $cmd2 = "$signalp -t gram+ -f summary $fasta > $fasta.signalp.gramp.txt.temp;";
-	my $cmd3 = "$signalp -t euk -f summary $fasta > $fasta.signalp.euk.txt.temp;";
-	#version 5
-	#my $cmd1 = "$signalp -org gram- -format short -gff3 $fasta.gramn.gff3.txt -fasta $fasta > $fasta.signalp.gramn.txt.temp;";
-        #my $cmd2 = "$signalp -org gram+ -format short -gff3 $fasta.gramp.gff3.txt -fasta $fasta > $fasta.signalp.gramp.txt.temp;";
-        #my $cmd3 = "$signalp -org euk -format short -gff3 $fasta.euk.gff3.txt -fasta $fasta > $fasta.signalp.euk.txt.temp;";
-	#my $cmd4 = "$signalp -org arch -format short -gff3 $fasta.arch.gff3.txt -fasta $fasta > $fasta.signalp.arch.txt.temp;";
-	my $thr1 = threads->new(\&runcmd, $cmd1);
-	my $thr2 = threads->new(\&runcmd, $cmd2);
-	my $thr3 = threads->new(\&runcmd, $cmd3);
-	#my $thr4 = threads->new(\&runcmd, $cmd4);
-	$thr1->join();
-	$thr2->join();
-	$thr3->join();
-	#$thr4->join();
-	msg("Running: cat $fasta.signalp.euk.txt.temp $fasta.signalp.gramp.txt.temp $fasta.signalp.gramn.txt.temp $fasta.signalp.arch.txt.temp > $fasta.signalp.txt.temp");
-	system("cat $fasta.signalp.euk.txt.temp $fasta.signalp.gramp.txt.temp $fasta.signalp.gramn.txt.temp > $fasta.signalp.txt.temp $fasta.signalp.arch.txt.temp");
-    }
-    my %peptides = ();
-    my $tool = "SignalP";
-    open(SIGNALP, "$fasta.signalp.txt.temp") or die "Could not open $fasta.signalp.txt to read, $!\n";
-    #Name=METAANNOT_00002    SP='YES' Cleavage site between pos. 22 and 23: AHA-QT D=0.799 D-cutoff=0.570 Networks=SignalP-noTM
-   
-    my $num_sigpep = 0;
-    $/ ="\n# Measure";
-    my $sp_count = 0;
-    while (<SIGNALP>) {
-	next if !/SP=\'YES\'/;
-	next if !/Name/;
-	if( my ($spstart, $spend,$id, $dscore, $dcutoff, $networks) = $_ =~ /\n\s+D\s+(\d+)-(\d+)\s+.*?\nName=(\S+)\s+.*?D=(\S+)\s+D-cutoff=(\S+)\s+Networks=(\S+)/s){
-	    my $parent = $cds{$id};
-	    if(not defined $parent){
-		print STDERR "************************************* parent not exits id=$id, $_";
-		next;
-	    }
-	    
-	    my $start = $parent->start;
-	    my $csite_start = $start + $spstart*3-2-1  ;
-	    my $csite_end = $start + $spend*3-1;  
-# need to convert to DNA coordinates
-	    my $hasSP = 0;
-	    
-	    for my $f (@{$seqHash->{$parent->seq_id}{FEATURE}}){
-		if($f->primary_tag eq "signal_peptide"){
-		    $hasSP = 1;
-		    last;
-		}
-	    }
-	    next if $hasSP;
-	    $sp_count++;
-	    my $sigpep = Bio::SeqFeature::Generic->new(
-		-seq_id     => $parent->seq_id,
-		-source_tag => "SignalP-4.1",
-		-primary    => 'signal_peptide',
-		-start      => $csite_start,
-		-end        => $csite_end,
-		#-score      => $dscore,
-		-score      => ".",
-		-strand     => $parent->strand, 
-		-frame      => '.' # PHASE: compulsory for peptides, can't be '.'
-	
-		);
-	    $sigpep->add_tag_value("Networks",$networks);
-	    $sigpep->add_tag_value("D-cutoff", $dcutoff);
-	    $sigpep->add_tag_value("ID", "$id\_sp$sp_count");
-	    $sigpep->add_tag_value("Parent", $id);
-	    $num_sigpep++;
-	    push @{$seqHash->{$parent->seq_id}{FEATURE}}, $sigpep; 
-	    $parent->add_tag_value("sp","YES");
-	}
-	
-    }
-    $/ ="\n";
+    my @cmds = ();
     
+    if(! glob("$outdir/cds.faa.signalp.*.gff3")){
+	#version 5
+	push(@cmds, "$signalp -verbose=false -org gram- -batch 50000 -format short -gff3 -tmp $outdir -prefix $fasta.signalp.gramn -fasta $fasta");
+	push(@cmds, "$signalp -verbose=false -org gram+ -batch 50000 -format short -gff3 -tmp $outdir -prefix $fasta.signalp.gramp -fasta $fasta");
+	push(@cmds, "$signalp -verbose=false -org euk -batch 50000 -format short -gff3 -tmp $outdir -prefix $fasta.signalp.euk -fasta $fasta");
+	push(@cmds, "$signalp -verbose=false -org arch -batch 50000 -format short -gff3 -tmp $outdir -prefix $fasta.signalp.arch -fasta $fasta");
+        
+	foreach my $cmd (@cmds){
+	    runcmd($cmd);
+	}
+    }
+    
+    my $num_sigpep = 0;
+    my $sp_count = 0;
+    my %sps = ();
+    
+    #merge the results from all four org prediction
+    while (glob "$outdir/cds.faa.signalp.*.gff3"){
+	open my $gff, "$_";
+	my $gffio = Bio::Tools::GFF->new(-fh => $gff, -gff_version => 3);
+	while (my $f = $gffio->next_feature) {
+	    my $cid = $f->seq_id;
+	    $sps{$cid} = $f if not exists $sps{$cid};
+	}
+	close($gff);
+    }
+    foreach my $cid (keys %sps){
+	$sp_count++;
+	my $signal_f = $sps{$cid};
+	my $cd_f = $cds{$cid};
+	$signal_f->add_tag_value("ID", "$cid\_sp$sp_count");
+	$signal_f->add_tag_value("Parent", $signal_f->seq_id);
+	
+	my $signal_len = $signal_f->end - $signal_f->start + 1;
+	$signal_f->seq_id($cd_f->seq_id);
+	$signal_f->start($cd_f->start + ($signal_f->start-1)*3);
+	$signal_f->end ($signal_f->start + ($signal_len)*3 - 1);
+	push @{$seqHash->{$cd_f->seq_id}{FEATURE}}, $signal_f;
+	$num_sigpep++;
+	$cd_f->add_tag_value("sp","YES");
+    }
     msg("Found $num_sigpep signal peptides");
-    close(SIGNALP);
 }
-
 
 #----------------------------------------------------------------------
 ## predict transmerbrane helices
@@ -605,9 +640,9 @@ sub predict_TM{
 	    );
 	$tmhelix->add_tag_value("ID","$cdsid\_tm\_$tm_count");
 	$tmhelix->add_tag_value("Parent",$cdsid);
-	$tmhelix->add_tag_value("ExpAA",$expaa);
-	$tmhelix->add_tag_value("First60",$first60);
-	$tmhelix->add_tag_value("PredHel",$predHel);
+	#$tmhelix->add_tag_value("ExpAA",$expaa);
+	#$tmhelix->add_tag_value("First60",$first60);
+	#$tmhelix->add_tag_value("PredHel",$predHel);
 	$tmhelix->add_tag_value("Topology", $dna_topology);
 	push @{$seqHash->{$sid}{FEATURE}}, $tmhelix; 
 	$f->add_tag_value("tm_num",$predHel);
@@ -684,7 +719,6 @@ sub setOptions {
     @Options = (
 	'General:',
 	{OPT=>"help",    VAR=>\&usage,             DESC=>"This help"},
-	{OPT=>"version", VAR=>\&version, DESC=>"Print version and exit"},
 	{OPT=>"dbdir=s",  VAR=>\$DBDIR, DEFAULT=>"./db", DESC=>"metaerg searching database directory"},
 	
 	'input:',
@@ -722,7 +756,7 @@ sub setOptions {
 #----------------------------------------------------------------------
 sub usage {
     print STDERR
-	"Name:\n  ", ucfirst($EXE), " $VERSION by $AUTHOR\n",
+	"Name:\n  ", ucfirst($EXE), " by $AUTHOR\n",
 	"Synopsis:\n  Metagenome contig gene prediction\n",
 	"Usage:\n  $EXE [options] <contigs.fasta>\n";
     foreach (@Options) {
@@ -745,10 +779,6 @@ sub usage {
 
 #----------------------------------------------------------------------
 
-sub version {
-    print STDERR "$EXE $VERSION\n";
-    exit;
-}
 sub output_gff{
     
     my ($seqHash, $seqArray, $prefix, $outdir) = @_;
@@ -764,15 +794,12 @@ sub output_gff{
     for my $id (@seqArray) {
 	print $gff_fh "##sequence-region $id 1 ", $seqHash{$id}{DNA}->length, "\n";
     }
-    my $idc = 0;
+    
     for my $sid (@seqArray) {
 	#my $ctg = $seqHash{$sid}{DNA};
-	$idc++;
 	for my $f ( sort { $a->start <=> $b->start } @{ $seqHash{$sid}{FEATURE} }) {
-	    
 	    if($f->has_tag("Parent")){
 		my $p = TAG($f, "Parent");
-		$p =~ s/$sid/$idc/;
 		$f->remove_tag("Parent");
 		$f->add_tag_value("Parent", $p);
 		
