@@ -72,7 +72,6 @@ while (<INPUT>){
 	$kid_parent{trim($l_iterms[$i+1])}->{trim($l_iterms[$i])} = 1 if $i < $len -1;
 	
     }
-
     
     $terms{trim($l_iterms[$len -1])}->{count} += $count;
 }

@@ -16,7 +16,7 @@ my ($fasta_contig, $gff);
 
 ($fasta_contig && $gff) ||
     die "Name:\n".
-    "  $0 0.1 by Xiaoli Dong <xdong\@ucalgary.ca>\n".
+    "by Xiaoli Dong <xdong\@ucalgary.ca>\n".
     "Synopsis:\n".
     "  extract subset of the gff file for the input contigs\n".
     "Usage:\n".

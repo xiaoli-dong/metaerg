@@ -146,15 +146,23 @@ div.tooltip {
 
 }
  /* Ensure that the demo table scrolls */
-table.dataTable th { 
-white-space: nowrap; 
-//text-align: left;
+
+table.dataTable th, td{ 
+    //white-space: nowrap; 
+    text-align: left;
 }
-table.dataTable td { 
-//white-space: nowrap; 
-text-align: left;
+table.dataTable tr{ 
+    height: 40px;
 }
 div.dataTables_wrapper {
     width: 100%;
     margin: 0 auto;
+}
+#sep {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: url("images/blueline.gif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 7px;
 }

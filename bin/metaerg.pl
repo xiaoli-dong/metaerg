@@ -28,13 +28,13 @@ use List::MoreUtils qw(uniq);
 # Global variabies
 my $starttime = localtime;
 my $AUTHOR = 'Xiaoli Dong <xdong@ucalgary.ca>';
-my $VERSION = "1.1.0";
+my $VERSION = "1.2.0";
 my $EXE = $FindBin::RealScript;
 my $bin = "$FindBin::RealBin";
 
 # . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 # command line options
-my(@Options, $quiet, $debug,$force, $prefix, $outdir,$locustag, $increment, $gcode, $gtype, $mincontiglen, $minorflen, $evalue, $cpus, $identity, $coverage,$hmm_cutoff,$hmm_evalue_cutoff, $sp, $tm, $depth_f, $plevel_f, $DBDIR);
+my(@Options, $quiet, $debug,$force, $prefix, $outdir,$locustag, $increment, $gcode, $gtype, $mincontiglen, $minorflen, $evalue, $cpus, $identity, $coverage,$hmm_cutoff,$hmm_evalue_cutoff, $sp, $tm, $depth_f, $DBDIR);
 
 setOptions();
 $DBDIR ||= "$bin/../db";
@@ -47,7 +47,7 @@ $prefix ||= $locustag.'_'.(localtime->mdy(''));
 $outdir ||= $prefix;
 my $tmpdir = "$outdir/tmp";
 my $datadir = "$outdir/data";
-
+my $txtdir = "$bin/../txt";
 if (-d $outdir) {
    if ($force) {
 	msg("Re-using existing --outdir $outdir")
@@ -80,13 +80,19 @@ msg($param);
 # prepare fasta, remove short contig, replace ambiguous with Ns
 my $contig = shift @ARGV or err("Please supply a contig fasta file on the command line.");
 my $fasta = "$outdir/$prefix.fna";
-msg("******Start to predicate genes\n");
+
+my %contig2depth = ();
+if($depth_f ne ""){
+    my $ref = parse_depth_file($depth_f);
+    %contig2depth = %$ref;
+}
+
 
 #contig were filtered in predictFeatures and reformated before gene calling
 if(! -e "$fasta"){
     filter_fasta($contig, $fasta, $mincontiglen);
 }
-
+msg("******Start to predicate genes\n");
 my $cmd = "$^X $bin/predictFeatures.pl --dbdir $DBDIR --evalue $evalue --gtype $gtype --gc $gcode --minorflen $minorflen --prefix $prefix --cpus $cpus --outdir $tmpdir ";
 $cmd .= "--sp " if ($sp);
 $cmd .= "--tm " if ($tm);
@@ -109,6 +115,15 @@ my $gffio = Bio::Tools::GFF->new(-fh =>$gff, -gff_version => 3);
 
 while (my $f = $gffio->next_feature) {
     my $sid = $f->seq_id;
+    
+    if(exists $contig2depth{$sid}){
+	my $depth_names = ();
+	my $depth_values = ();
+	for my $key (keys %{$contig2depth{$sid}}){
+	    $f->add_tag_value("mdepth_cols", $key);
+	    $f->add_tag_value("mdepth_values", $contig2depth{$sid}->{$key});
+	}
+    }
     push (@{$seqHash{$sid}{FEATURE}}, $f);
 }
 close($gff);
@@ -118,23 +133,30 @@ while (my $seq = $fin->next_seq) {
     $seqHash{$seq->id}{DNA} = $seq;
 }
 
-#parse_search_results($tmpdir, \%seqHash);
+###################################################################
 
-open(MMARKER, "$bin/../txt/metabolic.txt") or die "could not open $bin/../txt/metabolic.txt to read, $!\n";
-my %hmm2process = ();
-
-while(<MMARKER>){
-    next if /^#/;
-    chomp;
-    #tr/\r\n//;
-    my @l = split(/\t/, $_);
-    $hmm2process{$l[3]}->{gene} = $l[2];
-    $hmm2process{$l[3]}->{process} = $l[1];
-    $hmm2process{$l[3]}->{chemical} = $l[0];
-    $hmm2process{$l[3]}->{cutoff_score} = $l[5];
+# Add locus_tags and protein_id[CDS only] (and Parent genes if asked)
+msg("Adding /locus_tag identifiers");
+my $num_lt=0;
+my %ids2newids = ();
+#open (MAP, ">idmap.txt");
+for my $sid (sort {$seqHash{$b}{DNA}->length <=> $seqHash{$a}{DNA}->length} keys %seqHash){
+	next if not exists $seqHash{$sid}{FEATURE};
+	for my $f ( sort { $a->start <=> $b->start } @{ $seqHash{$sid}{FEATURE} }) {
+	    next unless $f->primary_tag =~ m/CDS|RNA|signal_peptide|repeat_region|transmembrane_helix/;
+	    $num_lt++;
+	    my $orgid = ($f->get_tag_values("ID"))[0] if $f->has_tag('ID');
+	    my $ID = sprintf("${locustag}|%05d", $num_lt * $increment);
+	    #$f->add_tag_value('locus_tag', $ID);
+	    $f->remove_tag('ID') if $f->has_tag('ID');
+	    $f->add_tag_value('ID', $ID);
+	    $ids2newids{$orgid} = $ID;
+	    #print MAP "$orgid\t$ID\n";
+	}
 
 }
-close(MMARKER);
+#close(MAP);
+msg("Assigned $num_lt locus_tags to CDS and RNA features.");
 
 use DBI;
 my $dbh = DBI->connect(
@@ -172,35 +194,12 @@ msg("Finish mapping foam db features to cds sequences");
 
 get_all_kos(\%seqHash);
 get_all_ecs(\%seqHash);
+
+get_all_gos(\%seqHash);
 get_casgene_acc(\%seqHash);
+
 $dbh->disconnect();
-#open my $html, ">$outdir/$prefix.html" or die "could not open $outdir/$prefix.html to write, $!\n";
-# . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-###################################################################
-
-# Add locus_tags and protein_id[CDS only] (and Parent genes if asked)
-msg("Adding /locus_tag identifiers");
-my $num_lt=0;
-my %ids2newids = ();
-#open (MAP, ">idmap.txt");
-for my $sid (sort {$seqHash{$b}{DNA}->length <=> $seqHash{$a}{DNA}->length} keys %seqHash){
-	next if not exists $seqHash{$sid}{FEATURE};
-	for my $f ( sort { $a->start <=> $b->start } @{ $seqHash{$sid}{FEATURE} }) {
-	    next unless $f->primary_tag =~ m/CDS|RNA|signal_peptide|repeat_region|transmembrane_helix/;
-	    $num_lt++;
-	    my $orgid = ($f->get_tag_values("ID"))[0] if $f->has_tag('ID');
-	    my $ID = sprintf("${locustag}|%05d", $num_lt * $increment);
-	    #$f->add_tag_value('locus_tag', $ID);
-	    $f->remove_tag('ID') if $f->has_tag('ID');
-	    $f->add_tag_value('ID', $ID);
-	    $ids2newids{$orgid} = $ID;
-	    #print MAP "$orgid\t$ID\n";
-	}
-
-}
-#close(MAP);
-msg("Assigned $num_lt locus_tags to CDS and RNA features.");
 
 ##########################################################################
 
@@ -213,13 +212,8 @@ msg("Start outputing report files");
 
 
 
-$cmd = "$^X $bin/output_reports.pl -g $datadir/master.gff -o $outdir -f $outdir/$prefix.fna";
-if($depth_f ne ""){
-    $cmd .= " -d $depth_f";
-}
-if($plevel_f ne ""){
-    $cmd .= " -p $plevel_f";
-}
+$cmd = "$^X $bin/output_reports.pl -g $datadir/all.gff -o $outdir -f $outdir/$prefix.fna";
+
 
 runcmd("$cmd");
 msg("******Finish outputing report files\n\n");
@@ -228,47 +222,43 @@ my $td = timediff($t1, $t0);
 
 msg("metaerg took:" . timestr($td) . " to run\n");
 
-
 sub get_all_kos{
 
     my ($seqHash) = @_;
+    
     for my $sid (keys %$seqHash) {
 
 	for my $f (@{$seqHash->{$sid}{FEATURE}}){
+	    my $featureid = ($f->get_tag_values("ID"))[0];
 	    next unless $f->primary_tag eq "CDS";
 	    my $foam_kos = ($f->get_tag_values('foam_kos'))[0] if ($f->has_tag('foam_kos'));
 	    my $sprot_kos = ($f->get_tag_values('sprot_kos'))[0] if ($f->has_tag('sprot_kos'));
-	    
+
 	    $foam_kos //= "";
 	    $sprot_kos //= "";
 	    my @all_kos = ();
-	    
+
 	    push(@all_kos, split(",", $foam_kos)) if $foam_kos ne "";
 	    #TODO: update sql database to change the seperate to ,
 	    push(@all_kos, split(";", $sprot_kos)) if $sprot_kos ne "";
 	    my @all_kos_uniq = uniq(@all_kos) if scalar @all_kos > 0;
-	    
 	    foreach my $ko (@all_kos_uniq){
 		$f->add_tag_value("allko_ids",$ko);
-		my $stmt = "SELECT * FROM FOAM_ontology where KO=\"$ko\"";
-		my $sth = $dbh->prepare( $stmt);
-		$sth->execute();
-		my $all = $sth->fetchall_arrayref();
-		foreach my $row (@$all) {
-		    my ($l1, $l2, $l3, $l4, $ko) = @$row;
-		    $f->add_tag_value('allko_ontology', "L1:$l1;L2:$l2;L3:$l3;L4:$l4");
-		}
-		$sth->finish();
 	    }
 	}
 	
     }
+    
+    
 }
+
 
 sub get_all_ecs{
     my ($seqHash) = @_;
+   
     for my $sid (keys %$seqHash) {
 	for my $f (@{$seqHash->{$sid}{FEATURE}}){
+	    my $featureid = ($f->get_tag_values("ID"))[0];
 	    next unless $f->primary_tag eq "CDS";
             my $foam_ec = ($f->get_tag_values('foam_ec'))[0] if ($f->has_tag('foam_ec'));
             my $sprot_ec = ($f->get_tag_values('sprot_ec'))[0] if ($f->has_tag('sprot_ec'));
@@ -283,9 +273,32 @@ sub get_all_ecs{
 	    push(@all_ecs, split(";", $sprot_ec)) if $sprot_ec ne "";
 	    push(@all_ecs, split(";", $tigrfam_ec)) if $tigrfam_ec ne "";
             my @all_ecs_uniq = uniq(@all_ecs) if scalar @all_ecs > 0;
-
+	    
             foreach my $ec (@all_ecs_uniq){
                 $f->add_tag_value("allec_ids",$ec);
+	
+	    }
+        }
+    }
+   
+}
+
+
+sub get_all_gos{
+    my ($seqHash) = @_;
+    for my $sid (keys %$seqHash) {
+	for my $f (@{$seqHash->{$sid}{FEATURE}}){
+	    next unless $f->primary_tag eq "CDS";
+            my $pfam_go = $f->has_tag('pfam_go') ? ($f->get_tag_values('pfam_go'))[0] : "";
+            my $sprot_go = $f->has_tag('sprot_go') ? ($f->get_tag_values('sprot_go'))[0] : "";
+            my @all_gos = ();
+
+            push(@all_gos, split(";", $pfam_go)) if $pfam_go ne "";
+	    push(@all_gos, split(";", $sprot_go)) if $sprot_go ne "";
+	    my @all_gos_uniq = uniq(@all_gos) if scalar @all_gos > 0;
+
+            foreach my $go (@all_gos_uniq){
+                $f->add_tag_value("allgo_ids",$go);
 	    }
         }
     }
@@ -295,7 +308,7 @@ sub mapping_sprot{
     my ($seqHash) = @_;
     for my $sid (keys %$seqHash) {
 	for my $f (@{$seqHash->{$sid}{FEATURE}}){
-	    
+
 	    next unless $f->primary_tag eq "CDS";
             if ($f->has_tag('sprot_target')) {
 		my $target = ($f->get_tag_values('sprot_target'))[0];
@@ -308,6 +321,7 @@ sub mapping_sprot{
 
 		    foreach my $row (@$all) {
 			my ($spid, $ko, $kegg, $ec, $desc,$go, $os, $oc) = @$row;
+			$f->add_tag_value('sprot_id', $spid) if $spid ne "";
 			$f->add_tag_value('sprot_desc', $desc) if $desc ne "";
 			$f->add_tag_value('sprot_go', $go) if $go ne "";
 			$f->add_tag_value('sprot_kos', $ko) if $ko ne "";
@@ -329,15 +343,16 @@ sub mapping_genomedb{
     my ($seqHash) = @_;
     for my $sid (keys %$seqHash) {
 	for my $f (@{$seqHash->{$sid}{FEATURE}}){
-	    
+
 	    next unless $f->primary_tag eq "CDS";
             if ($f->has_tag('genomedb_target')) {
 		#for my $target ($f->get_tag_values('eggNOG_target')){
 		my $target = ($f->get_tag_values('genomedb_target'))[0];
-
+		
 		if(my ($gid) = $target =~ /db:genomedb\|(\S+?)\|/){
+		    $f->add_tag_value('genomedb_acc', $gid);
 		    my $stmt = "select lineage from genome2taxon where gid=\"$gid\"";
-		    
+
 #very slow
 #my $stmt = "select lineage from genome2taxon where gid LIKE \"\%$gid\%\"";
 		    my $sth = $dbh->prepare( $stmt);
@@ -348,6 +363,7 @@ sub mapping_genomedb{
 			my ($lineage) = @$row;
 			$lineage =~ s/s__$//;
 			$f->add_tag_value('genomedb_OC', $lineage);
+		
 		    }
 		    $sth->finish();
 
@@ -366,52 +382,41 @@ sub mapping_pfam{
 	for my $f (@{$seqHash->{$sid}{FEATURE}}){
 
 	    next unless $f->primary_tag eq "CDS";
-
-
 	    if ($f->has_tag('pfam_target')) {
 
-		my %pids = ();
 		for my $target ($f->get_tag_values('pfam_target')){
-		    if(my ($pfamid, $score) = $target =~ /^db:\S+?\|(\w+).*?\s+.*?seqT:(\S+)/){
-
-			if(not exists $pids{$pfamid}){
-			    if(exists $hmm2process{$pfamid}){
-				if($hmm2process{$pfamid}->{cutoff_score} eq "-" || $hmm2process{$pfamid}->{cutoff_score} <= $score){
-				    
-				    $f->add_tag_value('metabolic_process',"compound:" . $hmm2process{$pfamid}->{chemical} . ";process:" . $hmm2process{$pfamid}->{process} . ";gene:". $hmm2process{$pfamid}->{gene} . ";");
-				}
-			    }
-
-			    my $stmt = "SELECT acc, id, DE, TP FROM pfams where acc=\"$pfamid\"";
-			    my $sth = $dbh->prepare( $stmt);
-			    $sth->execute();
-			    my $all = $sth->fetchall_arrayref();
-			    foreach my $row (@$all) {
-				my ($acc, $id, $de, $tp) = @$row;
-				$id ||= "UNKNOWN";
-				$de ||= "UNKNOWN";
-				$tp ||= "UNKNOWN";
-
-				$f->add_tag_value('pfam_desc', $de) if $de ne "";
-				$f->add_tag_value('pfam_id', $id) if $id ne "";
-				$f->add_tag_value('pfam_type', $tp) if $tp ne "";
-			    }
-			    $sth->finish();
-
-			    $stmt = "SELECT go_acc from pfam2go where pfam_acc=\"$pfamid\"";
-			    $sth = $dbh->prepare( $stmt);
-			    $sth->execute();
-			    $all = $sth->fetchall_arrayref();
-			    my $gos = "";
-			    foreach my $row (@$all) {
-				my ($go) = @$row;
-				$gos .= "$go;";
-			    }
-			    $gos =~ s/;$//;
-			    $f->add_tag_value('pfam_GO', $gos) if $gos ne "";
-			    $sth->finish();
+		    if(my ($pfamid) = $target =~ /^db:\S+?\|(\w+).*/){
+			my $stmt = "SELECT acc, id, DE, TP FROM pfams where acc=\"$pfamid\"";
+			my $sth = $dbh->prepare( $stmt);
+			$sth->execute();
+			my $all = $sth->fetchall_arrayref();
+			foreach my $row (@$all) {
+			    my ($acc, $id, $de, $tp) = @$row;
+			    $id ||= "UNKNOWN";
+			    $de ||= "UNKNOWN";
+			    $tp ||= "UNKNOWN";
+			    $f->add_tag_value('pfam_acc', $acc) if $acc ne "";
+			    $f->add_tag_value('pfam_desc', $de) if $de ne "";
+			    $f->add_tag_value('pfam_id', $id) if $id ne "";
+			    #$f->add_tag_value('pfam_type', $tp) if $tp ne "";
+			    #print STDERR "pfam=$target\n";
 			}
-			$pids{$pfamid} += 1;;
+			$sth->finish();
+
+			$stmt = "SELECT go_acc from pfam2go where pfam_acc=\"$pfamid\"";
+			$sth = $dbh->prepare( $stmt);
+			$sth->execute();
+			$all = $sth->fetchall_arrayref();
+			my $gos = "";
+			foreach my $row (@$all) {
+			    my ($go) = @$row;
+			    $gos .= "$go;";
+			}
+			$gos =~ s/;$//;
+			$f->add_tag_value('pfam_go', $gos) if $gos ne "";
+			$sth->finish();
+
+
 		    }
 		}
 	    }
@@ -431,32 +436,27 @@ sub mapping_tigrfam{
 
 	    if ($f->has_tag('tigrfam_target')) {
 		for my $target ($f->get_tag_values('tigrfam_target')){
-		    if(my ($tigrfamid, $score) = $target =~ /^db:\S+?\|(\S+?)\s+.*?seqT:(\S+)/){
-			if(exists $hmm2process{$tigrfamid}){
-			    if($hmm2process{$tigrfamid}->{cutoff_score} eq "-" || $hmm2process{$tigrfamid}->{cutoff_score} <= $score){
-				$f->add_tag_value('metabolic_process',"compound:" . $hmm2process{$tigrfamid}->{chemical} . ";process:" . $hmm2process{$tigrfamid}->{process} . ";gene:". $hmm2process{$tigrfamid}->{gene} . ";");
-			    }
-			}
-			my $stmt = "SELECT id,de,it,gs,ec,mainrole, sub1role FROM tigrfams where acc=\"$tigrfamid\"";
+		    if(my ($tigrfamid) = $target =~ /^db:\S+?\|(\S+)/){
+			my $stmt = "SELECT acc,id,de,it,gs,ec,mainrole, sub1role FROM tigrfams where acc=\"$tigrfamid\"";
 			my $sth = $dbh->prepare( $stmt);
 			$sth->execute();
 			my $all = $sth->fetchall_arrayref();
 			foreach my $row (@$all) {
-			    my ($id,$de,$it,$gs,$ec,$mainrole, $sub1role) = @$row;
+			    my ($acc, $id,$de,$it,$gs,$ec,$mainrole, $sub1role) = @$row;
 			    $de ||= "";
 			    $it ||= "";
 			    $gs ||= "";
 			    $ec ||= "";
 			    $mainrole ||= "";
 			    $sub1role ||= "";
-
+			    $f->add_tag_value('tigrfam_acc', $acc) if $acc ne "";
 			    $f->add_tag_value('tigrfam_desc', $de) if $de ne "";
-			    $f->add_tag_value('tigrfam_it', $it) if $it ne "";
-			    $f->add_tag_value('tigrfam_gs', $gs) if $gs ne "";
+			    #$f->add_tag_value('tigrfam_it', $it) if $it ne "";
+			    #$f->add_tag_value('tigrfam_gs', $gs) if $gs ne "";
 			    $f->add_tag_value('tigrfam_ec', $ec) if $ec ne "";
 			    $f->add_tag_value('tigrfam_mainrole', $mainrole) if $mainrole ne "";
 			    $f->add_tag_value('tigrfam_sub1role', $sub1role) if $sub1role ne "";
-			    $f->add_tag_value('tigrfam_id', $id) if $id ne "";
+			    $f->add_tag_value('tigrfam_name', $id) if $id ne "";
 
 			}
 			$sth->finish();
@@ -472,7 +472,7 @@ sub mapping_tigrfam{
 
 			}
 			$gos =~ s/;$//;
-			$gos ||= "UNKNOWN";
+			#$gos ||= "UNKNOWN";
 			$f->add_tag_value('tigrfam_GO', $gos) if $gos ne "";
 			$sth->finish();
 
@@ -489,31 +489,60 @@ sub mapping_tigrfam{
 sub mapping_metabolic{
     my ($seqHash) = @_;
 
+
+    open(MMARKER, "$bin/../txt/metabolic.txt") or die "could not open $bin/../txt/metabolic.txt to read, $!\n";
+    my %hmm2process = ();
+
+    while(<MMARKER>){
+	next if /^#/;
+	chomp;
+	#tr/\r\n//;
+	my @l = split(/\t/, $_);
+	$hmm2process{$l[3]}->{gene} = $l[2];
+	$hmm2process{$l[3]}->{process} = $l[1];
+	$hmm2process{$l[3]}->{chemical} = $l[0];
+	$hmm2process{$l[3]}->{cutoff_score} = $l[5];
+
+
+    }
+    close(MMARKER);
+
     my $c = 0;
     for my $sid (keys %$seqHash) {
 	for my $f (@{$seqHash->{$sid}{FEATURE}}){
 
 	    next unless $f->primary_tag eq "CDS";
-	    if ($f->has_tag('homefam_target')) {
-		my %homefams = ();
-		for my $target ($f->get_tag_values('homefam_target')){
+	    if ($f->has_tag('metabolic_target')) {
+		my %metabolicfams = ();
+		for my $target ($f->get_tag_values('metabolic_target')){
 		    #print STDERR $target, "\n";
-		    if(my ($homefamName, $score) = $target =~ /^db:\S+?\|(\S+?)\s+.*?seqT:(\S+)/){
-			if(exists $hmm2process{$homefamName}){
-			    if(not exists $homefams{$homefamName} && exists $hmm2process{$homefamName}){
-				my $cutoff_score = $hmm2process{$homefamName}->{cutoff_score};
-				#print STDERR "$homefamName\t$score\tcutoff=$cutoff_score\n";
+		    if(my ($metabolicfamName, $score) = $target =~ /^db:\S+?\|(\S+?)\s+.*?score:(\S+)/){
+			if(exists $hmm2process{$metabolicfamName}){
+			    if(not exists $metabolicfams{$metabolicfamName} && exists $hmm2process{$metabolicfamName}){
+				my $cutoff_score = $hmm2process{$metabolicfamName}->{cutoff_score};
+				print STDERR "$metabolicfamName\t$score\tcutoff=$cutoff_score\n";
 				if(($cutoff_score eq "-" || $cutoff_score <= $score)){
-				    $f->add_tag_value('metabolic_process',"compound:" . $hmm2process{$homefamName}->{chemical} . ";process:" . $hmm2process{$homefamName}->{process} . ";gene:". $hmm2process{$homefamName}->{gene} . ";");
-
-				    $homefams{$homefamName}++;
+				    $f->add_tag_value('metabolic_process',"compound:" . $hmm2process{$metabolicfamName}->{chemical} . ";process:" . $hmm2process{$metabolicfamName}->{process} . ";gene:". $hmm2process{$metabolicfamName}->{gene} . ";");
+				    #$f->add_tag_value('metabolic_process',"compound:" . $hmm2process{$metabolicfamName}->{chemical} . ";process:" . $hmm2process{$metabolicfamName}->{process} .  ";");
+				    $f->add_tag_value("metabolic_acc",$metabolicfamName);
+				    $metabolicfams{$metabolicfamName}++;
+				}
+				else{
+				    print STDERR "************************remove $metabolicfamName\n";
+				    $f->remove_tag('metabolic_target') if $f->has_tag('metabolic_target');
 				}
 
+
+			    }
+			    else{
+				print STDERR "************************remove $metabolicfamName\n";
+				$f->remove_tag('metabolic_target') if $f->has_tag('metabolic_target');
 			    }
 
 			}
 			else{
-			    $f->remove_tag('homefam_target') if $f->has_tag('homefam_target');
+			    print STDERR "************************remove $metabolicfamName\n";
+			    $f->remove_tag('metabolic_target') if $f->has_tag('metabolic_target');
 			}
 
 		    }
@@ -534,20 +563,22 @@ sub mapping_foam{
 	    next unless $f->primary_tag eq "CDS";
 	    if ($f->has_tag('foam_target')) {
 
-		my %foamids = ();
+		#my %foamids = ();
 		my %koids = ();
 		my %ecs = ();
 		for my $target ($f->get_tag_values('foam_target')){
-		    if(my ($foamid,$name) = $target =~ /^\S+?\|(\S+?)\s.*?name:(\S+)/){
+		    if(my ($acc,$name) = $target =~ /^\S+?\|(\S+?)\s.*?name:(\S+)/){
+
+			#$f->add_tag_value('foam_acc', $acc) if $acc ne "";
 			my ($kos, $ecs_str) = split(/\_/, $name);
 			$ecs_str //= "";
 			$kos //= "";
-			if(not exists $foamids{$foamid}){
-			    $kos =~ s/KO\://g;
-			    map{ $koids{$_}++} split(",", $kos);
-			    map{ $ecs{$_}++} split(",", $ecs_str) if $ecs_str ne "";
-			}
-			$foamids{$foamid} += 1;
+			#if(not exists $foamids{$acc}){
+			$kos =~ s/KO\://g;
+			map{ $koids{$_}++} split(",", $kos);
+			map{ $ecs{$_}++} split(",", $ecs_str) if $ecs_str ne "";
+			#}
+			#$foamids{$acc} += 1;
 		    }
 		}
 
@@ -567,29 +598,18 @@ sub get_casgene_acc{
 	for my $f (@{$seqHash->{$sid}{FEATURE}}){
 	    next unless $f->primary_tag eq "CDS";
 	    if($f->has_tag('casgene_target')){
-
+		
 		foreach my $target ($f->get_tag_values('casgene_target')){
-		    if(my ($acc) = $target =~ /db:casgenes.hmm\|(\S+)/){
-
+		    if(my ($acc, $full_score, $best_domain_score, $name) = $target =~ /db:casgenes.hmm\|(\S+?)\s.*?score:(\S+).*?best_domain_score:(\S+?)\s+name:(\S+)/){
+			
+			
 			#for the same gene, multiple domain hit, we only report casgene_acc once for one gene annotation
-			if($f->has_tag("casgene_acc")){
-			    my $accexist = 0;
-			    foreach my $value ($f->get_tag_values("casgene_acc")){
-
-				if($acc eq $value){
-				    $accexist = 1;
-				    last;
-				}
-			    }
-			    if($accexist == 0){
-				$f->add_tag_value("casgene_acc", $acc);
-			    }
-			}
-			else{
-			    $f->add_tag_value("casgene_acc", $acc);
-			}
+			$f->add_tag_value("casgene_acc", $acc);
+			$f->add_tag_value("casgene_name", $name);
+			
 		    }
 		}
+		
 	    }
 	}
     }
@@ -600,32 +620,79 @@ sub output_gff{
 
     my ($seqHash,$outdir, $ids2newids) = @_;
     my $gffver = 3;
-    msg("Writing master.gff file to $outdir/data");
-    open my $gff_fh, '>', "$outdir/data/master.gff";
-    my $gff_factory = Bio::Tools::GFF->new(-gff_version=>$gffver);
+    msg("Writing all.gff file to $outdir/data");
+    open my $all_gff_fh, '>', "$outdir/data/all.gff";
 
-    print $gff_fh "##gff-version $gffver\n";
-
+   # msg("Writing master.gff.txt file to $outdir/data");
+    #open my $master_gff_fh, '>', "$outdir/data/master.gff.txt";
+    
+    my $all_gff_factory = Bio::Tools::GFF->new(-gff_version=>$gffver);
+    #my $master_gff_factory = Bio::Tools::GFF->new(-gff_version=>$gffver);
+    print $all_gff_fh "##gff-version $gffver\n";
+    #print $master_gff_fh "##gff-version $gffver\n";
+    
     for my $sid (sort {$seqHash{$b}{DNA}->length <=> $seqHash{$a}{DNA}->length} keys %$seqHash) {
 	for my $f ( sort { $a->start <=> $b->start } @{ $seqHash->{$sid}{FEATURE} }) {
 	    
 	    if($f->primary_tag =~ m/signal_peptide|transmembrane_helix/){
-		my $parentid = ($f->get_tag_values("Parent"))[0];
 		$f->remove_tag("Parent");
-		$f->add_tag_value("Parent", $ids2newids->{$parentid});
+
 	    }
+	    print $all_gff_fh $f->gff_string($all_gff_factory),"\n";
 	    
-	    print $gff_fh $f->gff_string($gff_factory),"\n";
+	    foreach my  $ftag ($f->all_tags()){
+		if($ftag =~ /foam_ecs|foam_kos|foam_target|sprot_kegg|sprot_kos|sprot_ec|sprot_go|pfam_go|tigrfam_ec|tigrfam_mainrole|tigrfam_sub1role|_target/){
+		    $f->remove_tag($ftag);
+		}
+	    }
+	    #print $master_gff_fh $f->gff_string($master_gff_factory),"\n";
         }
     }
-    print $gff_fh "##FASTA\n";
+    print $all_gff_fh "##FASTA\n";
     my $fin = Bio::SeqIO->new(-file=>"$outdir/tmp/cds.faa", -format=>'fasta');
     while (my $seq = $fin->next_seq) {
-
-	print $gff_fh ">", $ids2newids->{$seq->id}, "\n", $seq->seq(), "\n";
-
+	print $all_gff_fh ">", $ids2newids->{$seq->id}, "\n", $seq->seq(), "\n";
+	
     }
-    close($gff_fh);
+    close($all_gff_fh);
+    #close($master_gff_fh);
+}
+sub parse_depth_file{
+    
+    my ($fdepth) = @_;
+    my %contig2depth = ();
+    my %headerIndex2SampleName = ();
+    
+    open FDEPTH, $fdepth or die "could not open $fdepth to read, $!\n";
+    #header: contigName	contigLen	totalAvgDepth	S1.bam	S1.bam-var	S2.bam	S2.bam-var	S3.bam	S3.bam-var
+    while (<FDEPTH>) {
+	chomp;
+	next if /^#/;
+	#header containing sample name info
+	if(/^contigName/){
+	    my @header = split(/\t/, $_);
+	    for (my $i = 3; $i < @header; $i++){
+		next if $header[$i] =~ /-var$/;
+		my $sampleName = $header[$i];
+		$sampleName =~ s/\.bam|_sorted//g;
+		$headerIndex2SampleName{$i} = $sampleName;
+	    }
+	}
+	else{
+	    my @l = split(/\t/, $_);
+	    my ($contigName) = $l[0] =~ /^(\S+)/;
+	    my $totalAvgDepth = $l[2];
+	    
+            #read in Depth
+	    $contig2depth{$contigName}->{totalAvgDepth} = $totalAvgDepth;
+	    for my $i (keys %headerIndex2SampleName){
+		$contig2depth{$contigName}->{$headerIndex2SampleName{$i}} = $l[$i];
+	    }
+	}
+    }
+    close(FDEPTH);
+    
+    return \%contig2depth;
 }
 
 
@@ -666,12 +733,11 @@ sub setOptions {
 	{OPT=>"coverage=f",  VAR=>\$coverage, DEFAULT=>70, DESC=>"coverage"},
 
 	'hmmsearch cutoff:',
-	{OPT=>"hmmcutoff=s",  VAR=>\$hmm_cutoff, DEFAULT=>"--cut_tc", DESC=>"hmm search trusted score threshold: [--cut_ga|--cut_nc|--cut_tc]"},
+	{OPT=>"hmmcutoff=s",  VAR=>\$hmm_cutoff, DEFAULT=>"--cut_ga", DESC=>"hmm search trusted score threshold: [--cut_ga|--cut_nc|--cut_tc]"},
 	{OPT=>"hmmevalue=f",  VAR=>\$hmm_evalue_cutoff, DEFAULT=>"1e-5", DESC=>"custom hmm db search threshold"},
 
 	'abundance input:',
-	{OPT=>"depth=s",  VAR=>\$depth_f, DEFAULT=>"", DESC=>"contig coverage depth file in format of:contigid contigLe depth"},
-	{OPT=>"plevel=s",  VAR=>\$plevel_f, DEFAULT=>"", DESC=>"protein expession level input file in format of: cds_id cds_desc expression_level"}
+	{OPT=>"depth=s",  VAR=>\$depth_f, DEFAULT=>"", DESC=>"contig coverage depth file in format of:contigid contigLe depth"}
 	);
 
     (!@ARGV) && (usage());

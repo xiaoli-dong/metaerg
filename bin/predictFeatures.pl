@@ -196,7 +196,7 @@ sub predict_tRNA_aragorn{
 		    #-score      => $cove_score,
 		    -frame      => ".",
 		    -tag        => {
-			'Name' => $product,
+			'name' => $product,
 			'ID' => "$sid\_tRNA\_$tcount"
 		    }
 		    );
@@ -309,7 +309,7 @@ sub predict_CRISPRs{
 	my $end = $f->end;
 	my $spacer_count = $f->score;
 	$f->add_tag_value("note", "CRISPR with $spacer_count repeat units");
-	$f->score(".");
+	#$f->score(".");
 	my $id = TAG($f, "ID");
 	
 	$mask{$sid}->{"$start:$end"} = 1;

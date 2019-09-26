@@ -30,6 +30,7 @@ my $EXE = $FindBin::RealScript;
 my $bin = "$FindBin::RealBin";
 my $sqlfile = "$bin/../metaerg.sql";
 my $DBDIR = "$outdir/db";
+my $txt = "$bin/../txt";
 my $tmp_dir = "$outdir/tmp";
 my $diamond_dir = "$DBDIR/diamond";
 my $protein_hmm_dir = "$DBDIR/hmm";
@@ -56,6 +57,8 @@ build_foam_db();
 build_genomedb();
 build_metabolic_hmmdb();
 build_casgene_hmmdb();
+build_enzyme_table();
+build_kegg_table();
 build_sqlite_db($sqlfile);
 sub build_uniprot_sprot_db{
 
@@ -199,6 +202,7 @@ sub parse_uniprot_sport_dat{
 	my $os = ${$entry->OSs->list}[0]->text;
 	#print STDERR Dumper($entry);
 	$desc =~ s/;$//;
+	$desc =~ s/\"/\"\"/g;
 	$KO =~ s/;$//;
 	$kegg =~ s/;$//;
 	$go =~ s/;$//;
@@ -253,7 +257,16 @@ sub build_pfam_db{
 	
 	while(<PFAM>){
 	    if(/ID\s+(\S+).*?AC\s+(\w+).*?\n.*DE\s+(\S.*?)\n.*?TP\s+(\S.*?)\n.*?ML\s+(\d+)/s){
-		print SQL "$2\t$1\t$3\t$4\t$5\n";
+		my $acc = $2;
+		my $id = $1;
+		my $de = $3;
+		my $tp = $4;
+		my $ml = $5;
+		$de =~ s/\"/\"\"/g;
+		$id =~ s/\"/\"\"/g;
+		
+		print SQL join("\t", ($acc, $id, $de, $tp, $ml)), "\n";
+	
 	    }
 	    
 	}
@@ -376,7 +389,7 @@ sub tigrfam_id2info_table{
 
 	my($ac) = $data =~ /\nAC\s+(TIGR\S+)/;
 
-	if($data =~ /\nDE\s+(\S.*?)\n/){$fams{$ac}->{DE} = $1} else{$fams{$ac}->{DE} = "";}
+	if($data =~ /\nDE\s+(\S.*?)\n/){my $de = $1; $de =~ s/\"/\"\"/g; $fams{$ac}->{DE} = $de} else{$fams{$ac}->{DE} = "";}
 	if($data =~ /\nIT\s+(\S.*?)\n/){$fams{$ac}->{IT} = $1} else{$fams{$ac}->{IT} = "";}
 	if($data =~ /\nGS\s+(\S.*?)\n/){$fams{$ac}->{GS} = $1} else{$fams{$ac}->{GS} = "";}
 	if($data =~ /\nEC\s+(\S.*?)\n/) {$fams{$ac}->{EC} = $1} else{$fams{$ac}->{EC} = "";}
@@ -394,6 +407,8 @@ sub tigrfam_id2info_table{
 	    my $roleid = $fams{$_}->{role_id};
 	    $mainrole = (exists $roleid2role{$roleid}->{"mainrole"}) ? $roleid2role{$roleid}->{"mainrole"} : "";
 	    $sub1role = (exists $roleid2role{$roleid}->{"sub1role"}) ? $roleid2role{$roleid}->{"sub1role"} : "";
+	    $mainrole =~ s/\"/\"\"/g;
+	    $subrole =~ s/\"/\"\"/g;
 	}
 	print OUT "$_\t";
 	print OUT $fams{$_}->{ID}, "\t";
@@ -460,6 +475,7 @@ sub go_table{
 	my $go_acc = $term->{"go:accession"};
 	my $go_name =  $term->{"go:name"};
 	next if $go_name eq "all";
+	$go_name =~ s/\"/\"\"/g;
 	print OUT "$go_acc\t$go_name\n";
     }
     close(OUT);
@@ -479,13 +495,7 @@ sub build_foam_db{
 	msg("Split FOAM database to multiple smaller database");
 	runcmd($cmd);
     }
-    if(! -e "$tmp_dir/FOAM-onto_rel1.uniq.tsv"){
-	# build a File::Fetch object
-	my $ff = File::Fetch->new(uri => "http://ebg.ucalgary.ca/metaerg/FOAM-onto_rel1.uniq.tsv");
-	msg("Fetching FOAM-onto_rel1.uniq.tsv");
-	#fetch the uri to local directory
-	my $where = $ff->fetch(to => $tmp_dir) or die $ff->error;
-    }
+    
 }
 
 sub build_genomedb{
@@ -535,7 +545,6 @@ sub build_casgene_hmmdb{
     }
 }
 
-
 sub build_sqlite_db{
 
     my ($sqlfile) = @_;
@@ -547,7 +556,7 @@ sub build_sqlite_db{
 
     if(! -e "$sqlite_dir/metaerg.db"){
 
-	my @table_input_file_names = ("pfam2go.sqldb.tsv", "Pfam-A.hmm.sql.db.tsv", "TIGRFAMS2GO.sqldb.tsv", "TIGRFAMs.hmm.sqldb.tsv", "go.sqldb.tsv", "sprot.sqldb.tsv", "FOAM-onto_rel1.uniq.tsv", "genomedb.tax.tsv");
+	my @table_input_file_names = ("pfam2go.sqldb.tsv", "Pfam-A.hmm.sql.db.tsv", "TIGRFAMS2GO.sqldb.tsv", "TIGRFAMs.hmm.sqldb.tsv", "go.sqldb.tsv", "sprot.sqldb.tsv","genomedb.tax.tsv");
 	foreach (@table_input_file_names){
 	    err("$tmp_dir/$_ does not exist") if ! -e  "$tmp_dir/$_";
 	}
@@ -807,6 +816,106 @@ sub build_rRNAFinder_txondb{
 
 
 
+}
+
+sub build_enzyme_table{
+    
+    if(! -e "$tmp_dir/enzyme.dat"){
+        # build a File::Fetch object
+        my $ff = File::Fetch->new(uri => "ftp://ftp.expasy.org/databases/enzyme/enzyme.dat");
+        msg("Fetching ftp://ftp.expasy.org/databases/enzyme/enzyme.dat");
+        #fetch the uri to local directory
+        my $where = $ff->fetch(to => $tmp_dir) or die $ff->error;
+    }
+    if(! -e "$tmp_dir/enzclass.txt"){
+        # build a File::Fetch object
+        my $ff = File::Fetch->new(uri => "ftp://ftp.expasy.org/databases/enzyme/enzclass.txt");
+        msg("Fetching ftp://ftp.expasy.org/databases/enzyme/enzclass.txt");
+        #fetch the uri to local directory
+        my $where = $ff->fetch(to => $tmp_dir) or die $ff->error;
+    }
+    open(OUT, ">$tmp_dir/enzyme.sqldb.tsv") || die "Could not open $tmp_dir/enzyme.sqldb.tsv to write, $!\n";
+    open(CLASS, "$tmp_dir/enzclass.txt") || die "Could not open $tmp_dir/enzclass.txt to read, $!\n";
+    while(<CLASS>){
+	chomp;
+	if(/(^\d+?\.\s*[0-9\-]+\.\s*[0-9\-]+\.\s*[0-9\-]+?)\s+(\S.*)$/){
+	    my $id = $1;
+	    my $name = $2;
+	    $id =~ s/\s+//g;
+	    $name =~ s/^\s+//g;
+	    $name =~ s/\s+$//g;
+	    $name =~ s/\"/\"\"/g;
+	    print OUT "$id\t$name\n";
+	}
+	
+    }
+    close(CLASS);
+    
+    $/= "\n\/\/";
+    open(ENZYME, "$tmp_dir/enzyme.dat") || die "Could not open $tmp_dir/enzyme.dat to read, $!\n";
+    
+    while(<ENZYME>){
+	
+	if(/\nID\s+?(\S+?)\nDE\s+(\S.*?)\n/s){
+	    my $id = $1;
+	    my $name = $2;
+	    $name =~ s/^\s+//g;
+	    $name =~ s/\s+$//g;
+	    $name =~ s/\"/\"\"/g;
+	    print OUT "$id\t$name\n";
+	}
+	
+    }
+    close(ENZYME);
+    close(OUT);
+    $/= "\n";
+}
+
+sub build_kegg_table{
+    
+    open(KEGG, "$txt_dir/ko00001.keg") || die "Could not open $txt_dir/ko00001.keg to read, $!\n";
+    open(OUT, ">$tmp_dir/ko.sqldb.tsv") || die "Could not open $tmp_dir/ko.sqldb.tsv to write, $!\n";
+    
+    my %kos = ();
+    
+    while(<KEGG>){
+	chomp;
+	if(/^D\s+(\S+?)\s+?(\S.*)$/){
+	    my $koid = $1;
+	    my $name = "unknown";
+	    my $de = "";
+	    
+	    my @items = split(";", $2);
+	    if(@items == 2){
+		$name = $items[0];
+		$de = $items[1];
+	    }
+	    else{
+		$de = $2;
+	    }
+	    $name =~ s/^\s+//g;
+	    $name =~ s/\s+$//g;
+	    $name =~ s/\"/\"\"/g;
+	    $de =~ s/\s+$//g; 
+	    $de =~ s/^\s+//g;
+	    $de =~ s/\"/\"\"/g;
+	    
+	    if(not exists $kos{$koid}){
+		$kos{$koid}->{name} = $name;
+		$kos{$koid}->{de} = $de;
+	    }
+	    
+	}
+	
+    }
+    close(KEGG);
+
+    foreach my $id (sort keys %kos){
+	print OUT "$id\t$kos{$id}->{name}\t$kos{$id}->{de}\n";
+    }
+    
+    close(OUT);
+    
 }
 
 

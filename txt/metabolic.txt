@@ -101,10 +101,7 @@ Carbon fixation	CBB cycle - Rubisco	Form I	rubisco_form_I_alignment	Custom	500
 Carbon fixation	CBB cycle - Rubisco	Form II	rubisco_form_II_alignment	Custom	500
 Carbon fixation	CBB cycle - Rubisco	Form II/III	rubisco_form_II_III_alignment	Custom	500
 Carbon fixation	CBB cycle - Rubisco	Form III	rubisco_form_III_alignment	Custom	450
-Carbon fixation	3 Hydroxypropionate cycle	propionyl-CoA synthase	Custom	Custom	-
-Carbon fixation	4 Hydroxypropionate cycle	malonyl-CoA reductase	Custom	Custom	-
-Carbon fixation	3HP/4HB	4-hydroxybutyryl-CoA synthetase	Custom	Custom	-
-Carbon fixation	3HP/4HB	4-hydroxybutyryl-CoA dehydratase	Custom	Custom	-
+Carbon fixation	CBB cycle - Rubisco	Form IV	rubisco_form_IV_alignment	Custom	437
 Carbon fixation	Wood Ljungdahl pathway	codhD (delta)	TIGR00381	TIGRfam	197
 Carbon fixation	Wood Ljungdahl pathway	codhC (beta)	TIGR00316	TIGRfam	355
 Carbon fixation	Wood Ljungdahl pathway	codh (catalytic)	TIGR01702	TIGRfam	210

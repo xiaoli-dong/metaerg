@@ -1,5 +1,4 @@
-#!/usr/bin/perl -w
-
+#!/usr/bin/env perl
 @ARGV == 4 or die "Usage: $0 <HMM file> <number of files to split> <output directory><output file prefix>\n",
                   "split HMM model input file into multiple smaller files\n";
 

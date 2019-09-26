@@ -74,17 +74,6 @@ CREATE INDEX uniprot_spid2annot_idx_spid ON uniprot_spid2annot (spid);
 .separator "\t"
 .import sprot.sqldb.tsv  uniprot_spid2annot
 
-CREATE TABLE FOAM_ontology(
-   L1 TEXT,
-   L2 TEXT,
-   L3 TEXT,
-   L4 TEXT,
-   KO TEXT,
-   PRIMARY KEY (L1, L2, L3, L4, KO)
-);
-
-.separator "\t"
-.import FOAM-onto_rel1.uniq.tsv FOAM_ontology
 
 CREATE TABLE genome2taxon
 (
@@ -94,3 +83,24 @@ CREATE TABLE genome2taxon
 CREATE INDEX genome2taxon_idx_gid ON genome2taxon (gid);
 .separator "\t"
 .import genomedb.tax.tsv genome2taxon
+
+CREATE TABLE enzyme
+(
+    ec TEXT PRIMARY KEY,
+    de text 
+);
+CREATE INDEX enzyme_idx_gid ON enzyme (ec);
+.separator "\t"
+.import enzyme.sqldb.tsv enzyme
+
+CREATE TABLE kos
+(
+    koid varchar(10) PRIMARY KEY,
+    name TEXT,
+    de text 
+);
+CREATE INDEX kos_idx_gid ON kos (koid);
+.separator "\t"
+.import ko.sqldb.tsv kos
+
+

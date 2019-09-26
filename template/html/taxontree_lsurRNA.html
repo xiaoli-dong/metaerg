@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Taxonomic profile: LSU rRNA</title>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.tree.css">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.5/jstree.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+   
+     <script src="https://rawgit.com/adamjimenez/jstree-table/master/jstreetable.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.5/themes/default/style.min.css" />
+    
+    
+    <script type="text/javascript" src="../data/taxon.lsu.tree.json"></script>
+    <script type="text/javascript" src="../data/taxon.lsu.treecol.json "></script>
+    <script>
+      
+      $(document).ready(function(){
+      console.log(mydata);
+       $("#tree").jstree({
+      
+      plugins: ["themes","json","table","sort"],
+      
+      core: {
+             'data': mydata
+      },
+       // configure tree table
+      table: {
+      columns:treecol,
+      resizable: true,
+      height: "700px"
+      
+      }
+      });
+      
+      });
+      
+    </script>
+    <style>
+     
+</style>
+  </head>
+
+
+  <body>
+    <div id="outform">
+     <div class="jumbotron text-center mb-0 mt-5">
+      <h1>Metagenome Annotation Pipeline</h1>
+    </div>
+    <nav class="site-header py-0 mb-5">
+      <div class="container d-flex justify-content-end">
+	<a class="pl-4 d-none d-md-inline-block" href="../index.html">Home</a>
+	
+	<a class="pl-4 d-none d-md-inline-block" href="../help.html">Help</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div style="height: 100px;text-align: center;">
+	<h3>Taxonomic profile based on LSU rRNA genes</h3>
+	<p>(Columns of the tree are sotable)</p> 
+      </div>
+      
+      <div id="tree"></div>
+      <div style="height:100px;"></div>
+    </div>
+    
+    </div>
+  </body>
+</html>
