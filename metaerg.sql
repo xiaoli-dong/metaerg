@@ -78,7 +78,7 @@ CREATE INDEX uniprot_spid2annot_idx_spid ON uniprot_spid2annot (spid);
 CREATE TABLE genome2taxon
 (
     gid TEXT PRIMARY KEY,
-    lineage text 
+    lineage text
 );
 CREATE INDEX genome2taxon_idx_gid ON genome2taxon (gid);
 .separator "\t"
@@ -87,7 +87,7 @@ CREATE INDEX genome2taxon_idx_gid ON genome2taxon (gid);
 CREATE TABLE enzyme
 (
     ec TEXT PRIMARY KEY,
-    de text 
+    de text
 );
 CREATE INDEX enzyme_idx_gid ON enzyme (ec);
 .separator "\t"
@@ -97,10 +97,11 @@ CREATE TABLE kos
 (
     koid varchar(10) PRIMARY KEY,
     name TEXT,
-    de text 
+    de text
 );
 CREATE INDEX kos_idx_gid ON kos (koid);
 .separator "\t"
 .import ko.sqldb.tsv kos
+
 
 
