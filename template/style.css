@@ -40,14 +40,14 @@ text-align: left;
 }
 .jumbotron{
     margin: auto;
+    padding: auto;
     height: 200px;
     background-repeat: no-repeat;
     background-image: url("images/banner.png");
     background-color: #FFFFFF;
     text-align: right;
-    margin-left: 100px;
     color: #000000;
-    padding-left: 50px;
+    
     
 }
 

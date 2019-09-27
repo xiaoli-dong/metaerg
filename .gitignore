@@ -1,7 +1,8 @@
 *~
 */*~
 */*/*~
-<<<<<<< HEAD
+bin/#*
+bin/*~
 db
 example/*/
 tmp
@@ -9,6 +10,11 @@ example/*debug*
 example/lsf*
 example/metaerg*
 README.txt
-=======
-
->>>>>>> aa1530215d1bbc82accd9868d989469fb9c52602
+.DS_Store
+._.DS_Store
+*/.DS_Store
+*/._.DS_Store
+*/*/.DS_Store
+*/*/._.DS_Store
+*/*/*/.DS_Store
+*/*/*/._.DS_Store
