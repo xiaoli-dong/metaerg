@@ -1,0 +1,13 @@
+data = [
+  {
+  "geneid": "metaerg.pl|03353",
+  "contigid": "NODE_17_length_116352_cov_46.5074",
+  "start": "49904",
+  "end": "51960",
+  "genelen": "2057",
+  "strand": "0",
+  "feature": "repeat_region",
+  "numRepeat": "29",
+  "rpt_unit_seq": "GTTTCAATCCCTGATAGGGATTATTAGTAATTGGAAC"
+  }
+ ]

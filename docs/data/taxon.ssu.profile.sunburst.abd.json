@@ -1,0 +1,806 @@
+data = {
+ "text":"Taxonomy",
+ "children": [
+ {
+  "text": "Archaea",
+  "children":[
+   {
+    "text": "Euryarchaeota",
+    "children":[
+     {
+      "text": "Halobacteria",
+      "children":[
+       {
+        "text": "Halobacteriales",
+        "children":[
+         {
+          "text": "Haloferacaceae",
+          "children":[
+           {
+            "text": "",
+            "size": 354.07
+           }
+          ]
+         },
+         {
+          "text": "Halococcaceae",
+          "size": 10.89,
+          "children":[
+           {
+            "text": "Halalkalicoccus",
+            "size": 8.63
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Bacteria",
+  "children":[
+   {
+    "text": "Actinobacteria",
+    "children":[
+     {
+      "text": "Nitriliruptoria",
+      "children":[
+       {
+        "text": "Nitriliruptorales",
+        "size": 121.21,
+        "children":[
+         {
+          "text": "Nitriliruptoraceae",
+          "size": 1118.02,
+          "children":[
+           {
+            "text": "Egicoccus",
+            "size": 111.93
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "text": "Actinobacteria",
+      "children":[
+       {
+        "text": "Micrococcales",
+        "children":[
+         {
+          "text": "Micrococcaceae",
+          "size": 16.62
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "text": "Acidimicrobiia",
+      "children":[
+       {
+        "text": "Microtrichales",
+        "children":[
+         {
+          "text": "Microtrichaceae",
+          "size": 71.59
+         },
+         {
+          "text": "Ilumatobacteraceae",
+          "size": 124.16,
+          "children":[
+           {
+            "text": "",
+            "size": 354.07
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "text": "Firmicutes",
+    "children":[
+     {
+      "text": "Bacilli",
+      "children":[
+       {
+        "text": "Lactobacillales",
+        "children":[
+         {
+          "text": "Carnobacteriaceae",
+          "children":[
+           {
+            "text": "Alkalibacterium",
+            "size": 511.98
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "Bacillales",
+        "children":[
+         {
+          "text": "Sporolactobacillaceae",
+          "size": 16.04,
+          "children":[
+           {
+            "text": "Alkalicoccus",
+            "size": 1093.24
+           },
+           {
+            "text": "Salipaludibacillus",
+            "size": 218.91
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "text": "Clostridia",
+      "children":[
+       {
+        "text": "Clostridiales",
+        "children":[
+         {
+          "text": "Peptostreptococcaceae",
+          "size": 79.57
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "text": "Chloroflexi",
+    "children":[
+     {
+      "text": "Chloroflexia",
+      "children":[
+       {
+        "text": "Thermomicrobiales",
+        "children":[
+         {
+          "text": "Thermomicrobiaceae",
+          "size": 298.22
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "text": "Cyanobacteria",
+    "children":[
+     {
+      "text": "Oxyphotobacteria",
+      "children":[
+       {
+        "text": "Nostocales",
+        "size": 25.91,
+        "children":[
+         {
+          "text": "Oscillatoriaceae",
+          "children":[
+           {
+            "text": "Oscillatoria PCC-6304",
+            "size": 32.6
+           }
+          ]
+         },
+         {
+          "text": "Nostocaceae",
+          "children":[
+           {
+            "text": "Nodularia PCC-9350",
+            "size": 480.87
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "Chloroplast",
+        "size": 14.05
+       },
+       {
+        "text": "Phormidesmiales",
+        "children":[
+         {
+          "text": "Nodosilineaceae",
+          "children":[
+           {
+            "text": "Nodosilinea PCC-7104",
+            "size": 9150.92
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "text": "Deinococcus-Thermus",
+    "children":[
+     {
+      "text": "Deinococci",
+      "children":[
+       {
+        "text": "Deinococcales",
+        "size": 76.88,
+        "children":[
+         {
+          "text": "Trueperaceae",
+          "children":[
+           {
+            "text": "Truepera",
+            "size": 66.2
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "text": "Gemmatimonadetes",
+    "children":[
+     {
+      "text": "Longimicrobia",
+      "children":[
+       {
+        "text": "Longimicrobiales",
+        "size": 97.83,
+        "children":[
+         {
+          "text": "Longimicrobiaceae",
+          "size": 9.85
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "text": "BD2-11 terrestrial group",
+      "size": 237.75
+     }
+    ]
+   },
+   {
+    "text": "Patescibacteria",
+    "children":[
+     {
+      "text": "Gracilibacteria",
+      "children":[
+       {
+        "text": "JGI 0000069-P22",
+        "size": 49.76
+       }
+      ]
+     },
+     {
+      "text": "Saccharimonadia",
+      "children":[
+       {
+        "text": "Saccharimonadales",
+        "size": 23.58
+       }
+      ]
+     },
+     {
+      "text": "Parcubacteria",
+      "children":[
+       {
+        "text": "GWA2-38-13b",
+        "size": 11.21
+       },
+       {
+        "text": "Candidatus Kaiserbacteria",
+        "size": 92.91
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "text": "Planctomycetes",
+    "children":[
+     {
+      "text": "Planctomycetacia",
+      "children":[
+       {
+        "text": "Isosphaerales",
+        "children":[
+         {
+          "text": "Isosphaeraceae",
+          "size": 14.8
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "text": "Bacteroidetes",
+    "children":[
+     {
+      "text": "Rhodothermia",
+      "children":[
+       {
+        "text": "Rhodothermales",
+        "size": 4.45,
+        "children":[
+         {
+          "text": "Rhodothermaceae",
+          "size": 15.64
+         }
+        ]
+       },
+       {
+        "text": "Balneolales",
+        "size": 374.09,
+        "children":[
+         {
+          "text": "Balneolaceae",
+          "size": 37.29
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "text": "Bacteroidia",
+      "children":[
+       {
+        "text": "Chitinophagales",
+        "children":[
+         {
+          "text": "Saprospiraceae",
+          "size": 309.22,
+          "children":[
+           {
+            "text": "",
+            "size": 354.07
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "Cytophagales",
+        "size": 143.57
+       },
+       {
+        "text": "Flavobacteriales",
+        "children":[
+         {
+          "text": "Cryomorphaceae",
+          "size": 58.96
+         },
+         {
+          "text": "Flavobacteriaceae",
+          "children":[
+           {
+            "text": "Psychroflexus",
+            "size": 98.31
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "Bacteroidales",
+        "size": 484.2
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "text": "Proteobacteria",
+    "children":[
+     {
+      "text": "Alphaproteobacteria",
+      "children":[
+       {
+        "text": "Rhodobacterales",
+        "children":[
+         {
+          "text": "Rhodobacteraceae",
+          "size": 397.69,
+          "children":[
+           {
+            "text": "Paracoccus",
+            "size": 337.91
+           },
+           {
+            "text": "Rhodobaculum",
+            "size": 450.94
+           },
+           {
+            "text": "Roseinatronobacter",
+            "size": 1149.56
+           },
+           {
+            "text": "",
+            "size": 354.07
+           },
+           {
+            "text": "Seohaeicola",
+            "size": 160.57
+           },
+           {
+            "text": "Halodurantibacterium",
+            "size": 157.61
+           },
+           {
+            "text": "Rhodobaca",
+            "size": 510.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "Rhizobiales",
+        "children":[
+         {
+          "text": "Rhizobiaceae",
+          "children":[
+           {
+            "text": "Chelativorans",
+            "size": 47.59
+           }
+          ]
+         },
+         {
+          "text": "Beijerinckiaceae",
+          "children":[
+           {
+            "text": "Salinarimonas",
+            "size": 938.56
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "Caulobacterales",
+        "children":[
+         {
+          "text": "Hyphomonadaceae",
+          "children":[
+           {
+            "text": "Oceanicaulis",
+            "size": 42.62
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "text": "Deltaproteobacteria",
+      "size": 26.36,
+      "children":[
+       {
+        "text": "Bradymonadales",
+        "children":[
+         {
+          "text": "Bradymonadaceae",
+          "size": 9.82
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "text": "Gammaproteobacteria",
+      "children":[
+       {
+        "text": "Xanthomonadales",
+        "children":[
+         {
+          "text": "Xanthomonadaceae",
+          "children":[
+           {
+            "text": "",
+            "size": 354.07
+           },
+           {
+            "text": "Lysobacter",
+            "size": 36.48
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "Nitrosococcales",
+        "children":[
+         {
+          "text": "Methylophagaceae",
+          "size": 39.17
+         }
+        ]
+       },
+       {
+        "text": "Vibrionales",
+        "children":[
+         {
+          "text": "Vibrionaceae",
+          "children":[
+           {
+            "text": "Catenococcus",
+            "size": 117.23
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "Oceanospirillales",
+        "children":[
+         {
+          "text": "Nitrincolaceae",
+          "children":[
+           {
+            "text": "Nitrincola",
+            "size": 244.48
+           }
+          ]
+         },
+         {
+          "text": "Halomonadaceae",
+          "children":[
+           {
+            "text": "Halomonas",
+            "size": 275.8
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "Pseudomonadales",
+        "children":[
+         {
+          "text": "Pseudomonadaceae",
+          "children":[
+           {
+            "text": "Pseudomonas",
+            "size": 44.23
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "Gammaproteobacteria Incertae Sedis",
+        "children":[
+         {
+          "text": "Unknown Family",
+          "children":[
+           {
+            "text": "Wenzhouxiangella",
+            "size": 130.54
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "Alteromonadales",
+        "children":[
+         {
+          "text": "Idiomarinaceae",
+          "size": 15.83,
+          "children":[
+           {
+            "text": "Aliidiomarina",
+            "size": 32.92
+           }
+          ]
+         },
+         {
+          "text": "Marinobacteraceae",
+          "size": 19.85,
+          "children":[
+           {
+            "text": "Marinobacter",
+            "size": 19.65
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "HOC36",
+        "size": 375.63
+       },
+       {
+        "text": "Cellvibrionales",
+        "children":[
+         {
+          "text": "Cellvibrionaceae",
+          "size": 36.65,
+          "children":[
+           {
+            "text": "",
+            "size": 354.07
+           },
+           {
+            "text": "Marinimicrobium",
+            "size": 26.68
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "text": "Verrucomicrobia",
+    "children":[
+     {
+      "text": "Verrucomicrobiae",
+      "children":[
+       {
+        "text": "Verrucomicrobiales",
+        "children":[
+         {
+          "text": "Rubritaleaceae",
+          "size": 36.21
+         }
+        ]
+       },
+       {
+        "text": "Opitutales",
+        "size": 40.28,
+        "children":[
+         {
+          "text": "Puniceicoccaceae",
+          "size": 9.32
+         },
+         {
+          "text": "",
+          "size": 20.39
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Eukaryota",
+  "children":[
+   {
+    "text": "Opisthokonta",
+    "children":[
+     {
+      "text": "Aphelidea",
+      "children":[
+       {
+        "text": "Paraphelidium",
+        "size": 160.14
+       }
+      ]
+     },
+     {
+      "text": "Nucletmycea",
+      "children":[
+       {
+        "text": "Fungi",
+        "children":[
+         {
+          "text": "Dikarya",
+          "children":[
+           {
+            "text": "Ascomycota",
+            "size": 7.2
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "text": "Archaeplastida",
+    "size": 12.64,
+    "children":[
+     {
+      "text": "Chloroplastida",
+      "children":[
+       {
+        "text": "Charophyta",
+        "size": 389.47,
+        "children":[
+         {
+          "text": "Phragmoplastophyta",
+          "children":[
+           {
+            "text": "Streptophyta",
+            "children":[
+             {
+              "text": "Embryophyta",
+              "size": 11.64
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "text": "Chlorophyta",
+        "size": 566.82,
+        "children":[
+         {
+          "text": "Chlorophyceae",
+          "size": 46.84
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "text": "SAR",
+    "children":[
+     {
+      "text": "Alveolata",
+      "size": 3.37
+     }
+    ]
+   },
+   {
+    "text": "Excavata",
+    "children":[
+     {
+      "text": "Discoba",
+      "children":[
+       {
+        "text": "Discicristata",
+        "children":[
+         {
+          "text": "Heterolobosea",
+          "size": 6.46
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+  }
+]}

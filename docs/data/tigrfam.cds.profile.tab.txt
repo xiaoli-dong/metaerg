@@ -1,0 +1,1324 @@
+#Accession	Name	Function	Count	Count_pct	Abund	Abund_pct	Abund_DLM2	Abund_pct_DLM2	Abund_GEM2	Abund_pct_GEM2	Abund_LCM1	Abund_pct_LCM1	Abund_PLM2	Abund_pct_PLM2
+TIGR03043	PS_II_psbZ	"photosystem II core protein PsbZ"	1	0.01	70.45	0.00	0.00	0.00	0.03	0.00	70.38	0.01	0.04	0.00
+TIGR00063	folE	"GTP cyclohydrolase I"	1	0.01	86.60	0.01	8.13	0.01	0.05	0.00	78.17	0.01	0.24	0.00
+TIGR01071	rplO_bact	"ribosomal protein uL15"	2	0.02	1827.19	0.12	325.55	0.25	585.18	0.27	25.72	0.00	890.74	0.29
+TIGR00159	TIGR00159	"TIGR00159 family protein"	1	0.01	37.23	0.00	0.91	0.00	0.06	0.00	36.09	0.00	0.18	0.00
+TIGR00440	glnS	"glutamine--tRNA ligase"	2	0.02	24.32	0.00	0.30	0.00	0.35	0.00	23.35	0.00	0.32	0.00
+TIGR00115	tig	"trigger factor"	2	0.02	121.64	0.01	2.37	0.00	0.05	0.00	119.14	0.01	0.08	0.00
+TIGR00705	SppA_67K	"signal peptide peptidase SppA, 67K type"	1	0.01	66.73	0.00	0.00	0.00	0.15	0.00	66.54	0.01	0.04	0.00
+TIGR00553	pabB	"aminodeoxychorismate synthase, component I"	1	0.01	13.90	0.00	0.00	0.00	0.02	0.00	12.46	0.00	1.42	0.00
+TIGR00125	cyt_tran_rel	"cytidyltransferase-like domain"	10	0.10	592.32	0.04	5.98	0.00	1.39	0.00	581.05	0.06	3.90	0.00
+TIGR04168	TIGR04168	"TIGR04168 family protein"	1	0.01	80.91	0.01	0.00	0.00	0.05	0.00	80.82	0.01	0.04	0.00
+TIGR01076	sortase_fam	"sortase"	2	0.02	87.18	0.01	2.88	0.00	0.11	0.00	83.95	0.01	0.24	0.00
+TIGR00928	purB	"adenylosuccinate lyase"	4	0.04	308.97	0.02	1.07	0.00	0.72	0.00	306.48	0.03	0.70	0.00
+TIGR03302	OM_YfiO	"outer membrane assembly lipoprotein YfiO"	3	0.03	234.35	0.01	0.03	0.00	3.78	0.00	228.05	0.02	2.50	0.00
+TIGR02205	septum_zipA	"cell division protein ZipA"	1	0.01	59.41	0.00	0.00	0.00	0.12	0.00	59.27	0.01	0.02	0.00
+TIGR02753	sodN	"superoxide dismutase, Ni"	1	0.01	25.68	0.00	0.12	0.00	0.11	0.00	25.33	0.00	0.13	0.00
+TIGR01313	therm_gnt_kin	"carbohydrate kinase, thermoresistant glucokinase family"	1	0.01	72.38	0.00	0.00	0.00	0.02	0.00	72.33	0.01	0.03	0.00
+TIGR00716	rnhC	"ribonuclease HIII"	1	0.01	105.89	0.01	7.76	0.01	0.08	0.00	97.75	0.01	0.29	0.00
+TIGR01221	rmlC	"dTDP-4-dehydrorhamnose 3,5-epimerase"	3	0.03	321.56	0.02	0.05	0.00	0.87	0.00	319.92	0.03	0.72	0.00
+TIGR03075	PQQ_enz_alc_DH	"PQQ-dependent dehydrogenase, methanol/ethanol family"	1	0.01	204.63	0.01	0.01	0.00	0.65	0.00	203.32	0.02	0.64	0.00
+TIGR02076	pyrH_arch	"putative uridylate kinase"	1	0.01	27.99	0.00	8.37	0.01	0.30	0.00	18.85	0.00	0.46	0.00
+TIGR02170	thyX	"thymidylate synthase, flavin-dependent"	2	0.02	30.10	0.00	0.00	0.00	0.01	0.00	28.55	0.00	1.54	0.00
+TIGR03026	NDP-sugDHase	"nucleotide sugar dehydrogenase"	3	0.03	230.89	0.01	0.01	0.00	0.68	0.00	226.72	0.02	3.47	0.00
+TIGR01704	MTA/SAH-Nsdase	"MTA/SAH nucleosidase"	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+TIGR03792	TIGR03792	"uncharacterized cyanobacterial protein, TIGR03792 family"	1	0.01	72.73	0.00	0.00	0.00	0.02	0.00	72.68	0.01	0.03	0.00
+TIGR00732	dprA	"DNA protecting protein DprA"	4	0.04	2116.63	0.14	325.56	0.25	585.67	0.27	314.21	0.03	891.18	0.29
+TIGR01746	Thioester-redct	"thioester reductase domain"	1	0.01	92.95	0.01	0.00	0.00	0.04	0.00	92.89	0.01	0.02	0.00
+TIGR00350	lytR_cpsA_psr	"cell envelope-related function transcriptional attenuator common domain"	5	0.05	224.88	0.01	5.30	0.00	0.32	0.00	218.94	0.02	0.32	0.00
+TIGR02352	thiamin_ThiO	"glycine oxidase ThiO"	1	0.01	37.23	0.00	0.91	0.00	0.06	0.00	36.09	0.00	0.18	0.00
+TIGR04282	glyco_like_cofC	"transferase 1, rSAM/selenodomain-associated"	1	0.01	12.82	0.00	0.00	0.00	0.02	0.00	11.46	0.00	1.33	0.00
+TIGR02488	flgG_G_neg	"flagellar basal-body rod protein FlgG"	3	0.03	255.21	0.02	0.01	0.00	0.40	0.00	254.46	0.03	0.34	0.00
+TIGR00344	alaS	"alanine--tRNA ligase"	2	0.02	53.55	0.00	2.37	0.00	0.03	0.00	49.78	0.01	1.38	0.00
+TIGR00710	efflux_Bcr_CflA	"drug resistance transporter, Bcr/CflA subfamily"	2	0.02	216.37	0.01	0.23	0.00	0.45	0.00	215.27	0.02	0.43	0.00
+TIGR00420	trmU	"tRNA (5-methylaminomethyl-2-thiouridylate)-methyltransferase"	3	0.03	192.21	0.01	2.69	0.00	0.69	0.00	188.26	0.02	0.57	0.00
+TIGR00023	TIGR00023	"acyl-phosphate glycerol 3-phosphate acyltransferase"	2	0.02	159.33	0.01	8.13	0.01	0.07	0.00	150.85	0.02	0.27	0.00
+TIGR03504	FimV_Cterm	"FimV C-terminal domain"	1	0.01	55.78	0.00	0.03	0.00	0.08	0.00	55.60	0.01	0.06	0.00
+TIGR00260	thrC	"threonine synthase"	3	0.03	259.34	0.02	10.14	0.01	1.86	0.00	244.14	0.03	3.21	0.00
+TIGR00505	ribA	"GTP cyclohydrolase II"	4	0.04	366.98	0.02	10.40	0.01	0.53	0.00	355.39	0.04	0.66	0.00
+TIGR00197	yjeF_nterm	"YjeF family N-terminal domain"	2	0.02	53.85	0.00	2.37	0.00	0.02	0.00	50.02	0.01	1.45	0.00
+TIGR02881	spore_V_K	"stage V sporulation protein K"	1	0.01	78.70	0.01	7.86	0.01	0.06	0.00	70.54	0.01	0.25	0.00
+TIGR01900	dapE-gram_pos	"succinyl-diaminopimelate desuccinylase"	1	0.01	25.47	0.00	0.12	0.00	0.14	0.00	25.10	0.00	0.12	0.00
+TIGR01961	NuoC_fam	"NADH (or F420H2) dehydrogenase, subunit C"	3	0.03	293.88	0.02	0.92	0.00	0.81	0.00	290.59	0.03	1.56	0.00
+TIGR03170	flgA_cterm	"flagella basal body P-ring formation protein FlgA"	3	0.03	255.21	0.02	0.01	0.00	0.40	0.00	254.46	0.03	0.34	0.00
+TIGR01358	DAHP_synth_II	"3-deoxy-7-phosphoheptulonate synthase"	1	0.01	61.15	0.00	0.00	0.00	0.15	0.00	60.99	0.01	0.01	0.00
+TIGR01351	adk	"adenylate kinase"	3	0.03	2036.92	0.13	325.56	0.25	585.68	0.27	234.59	0.03	891.09	0.29
+TIGR03151	enACPred_II	"putative enoyl-[acyl-carrier-protein] reductase II"	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+TIGR01352	tonB_Cterm	"TonB family C-terminal domain"	4	0.04	121.38	0.01	12.02	0.01	1.71	0.00	103.15	0.01	4.49	0.00
+TIGR04036	LLM_CE1758_fam	"putative luciferase-like monooxygenase, FMN-dependent, CE1758 family"	1	0.01	25.40	0.00	0.12	0.00	0.10	0.00	25.07	0.00	0.11	0.00
+TIGR03706	exo_poly_only	"exopolyphosphatase"	1	0.01	13.15	0.00	0.26	0.00	0.00	0.00	12.83	0.00	0.06	0.00
+TIGR01987	HI0074	"nucleotidyltransferase substrate binding protein, HI0074 family"	1	0.01	1783.23	0.11	282.94	0.22	587.09	0.27	15.03	0.00	898.17	0.30
+TIGR01583	formate-DH-gamm	"formate dehydrogenase, gamma subunit"	1	0.01	217.06	0.01	0.01	0.00	0.47	0.00	216.16	0.02	0.42	0.00
+TIGR00761	argB	"acetylglutamate kinase"	6	0.06	803.18	0.05	72.00	0.06	383.73	0.18	255.78	0.03	91.66	0.03
+TIGR04191	YphP_YqiW	"putative bacilliredoxin, YphP/YqiW family"	1	0.01	86.60	0.01	8.13	0.01	0.05	0.00	78.17	0.01	0.24	0.00
+TIGR01085	murE	"UDP-N-acetylmuramyl-tripeptide synthetase"	3	0.03	245.97	0.02	1.17	0.00	0.48	0.00	243.76	0.03	0.57	0.00
+TIGR02412	pepN_strep_liv	"aminopeptidase N"	1	0.01	50.96	0.00	4.85	0.00	3.43	0.00	42.25	0.00	0.43	0.00
+TIGR02095	glgA	"glycogen/starch synthase, ADP-glucose type"	3	0.03	1881.89	0.12	325.90	0.25	604.95	0.28	58.71	0.01	892.33	0.29
+TIGR00507	aroE	"shikimate dehydrogenase"	2	0.02	66.93	0.00	0.88	0.00	3.58	0.00	61.38	0.01	1.08	0.00
+TIGR01138	cysM	"cysteine synthase B"	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+TIGR00476	selD	"selenide, water dikinase"	2	0.02	281.50	0.02	7.87	0.01	0.49	0.00	272.58	0.03	0.57	0.00
+TIGR01988	Ubi-OHases	"ubiquinone biosynthesis hydroxylase, UbiH/UbiF/VisC/COQ6 family"	1	0.01	72.73	0.00	0.00	0.00	0.02	0.00	72.68	0.01	0.03	0.00
+TIGR00254	GGDEF	"diguanylate cyclase (GGDEF) domain"	31	0.30	3607.88	0.23	337.24	0.26	596.33	0.28	1779.43	0.19	894.88	0.29
+TIGR02541	flagell_FlgJ	"flagellar rod assembly protein/muramidase FlgJ"	1	0.01	23.81	0.00	0.00	0.00	0.00	0.00	23.81	0.00	0.00	0.00
+TIGR00878	purM	"phosphoribosylformylglycinamidine cyclo-ligase"	3	0.03	303.70	0.02	0.02	0.00	0.68	0.00	302.55	0.03	0.46	0.00
+TIGR02467	CbiE	"precorrin-6y C5,15-methyltransferase (decarboxylating), CbiE subunit"	1	0.01	73.16	0.00	0.00	0.00	0.01	0.00	73.10	0.01	0.04	0.00
+TIGR03695	menH_SHCHC	"2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase"	2	0.02	84.16	0.01	0.00	0.00	0.05	0.00	82.61	0.01	1.50	0.00
+TIGR02754	sod_Ni_protease	"nickel-type superoxide dismutase maturation protease"	1	0.01	25.68	0.00	0.12	0.00	0.11	0.00	25.33	0.00	0.13	0.00
+TIGR04346	DotA_TraY	"conjugal transfer/type IV secretion protein DotA/TraY"	1	0.01	13.92	0.00	0.00	0.00	0.00	0.00	13.92	0.00	0.00	0.00
+TIGR01063	gyrA	"DNA gyrase, A subunit"	4	0.04	253.95	0.02	7.59	0.01	0.67	0.00	243.41	0.03	2.28	0.00
+TIGR00707	argD	"transaminase, acetylornithine/succinylornithine family"	6	0.06	335.83	0.02	13.89	0.01	9.43	0.00	308.67	0.03	3.83	0.00
+TIGR00965	dapD	"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase"	1	0.01	27.05	0.00	0.01	0.00	3.50	0.00	22.65	0.00	0.88	0.00
+TIGR01175	pilM	"type IV pilus assembly protein PilM"	1	0.01	66.73	0.00	0.00	0.00	0.15	0.00	66.54	0.01	0.04	0.00
+TIGR01421	gluta_reduc_1	"glutathione-disulfide reductase"	1	0.01	49.69	0.00	2.47	0.00	0.00	0.00	47.19	0.01	0.04	0.00
+TIGR00706	SppA_dom	"signal peptide peptidase SppA, 36K type"	3	0.03	245.34	0.02	7.77	0.01	0.25	0.00	236.96	0.03	0.36	0.00
+TIGR02436	TIGR02436	"four helix bundle protein"	2	0.02	1790.85	0.11	298.41	0.23	564.13	0.26	75.21	0.01	853.10	0.28
+TIGR02772	Ku_bact	"Ku protein"	1	0.01	6.74	0.00	0.00	0.00	0.00	0.00	6.74	0.00	0.00	0.00
+TIGR00336	pyrE	"orotate phosphoribosyltransferase"	2	0.02	76.04	0.00	19.65	0.02	2.61	0.00	48.20	0.01	5.57	0.00
+TIGR00975	3a0107s03	"phosphate ABC transporter, phosphate-binding protein PstS"	3	0.03	111.01	0.01	0.12	0.00	0.18	0.00	109.05	0.01	1.67	0.00
+TIGR03550	F420_cofG	"7,8-didemethyl-8-hydroxy-5-deazariboflavin synthase, CofG subunit"	2	0.02	41.21	0.00	0.48	0.00	0.17	0.00	40.35	0.00	0.21	0.00
+TIGR00713	hemL	"glutamate-1-semialdehyde-2,1-aminomutase"	2	0.02	85.51	0.01	0.00	0.00	0.03	0.00	84.03	0.01	1.44	0.00
+TIGR00011	YbaK_EbsC	"Cys-tRNA(Pro) deacylase"	2	0.02	1771.89	0.11	300.67	0.23	563.99	0.26	54.11	0.01	853.12	0.28
+TIGR00174	miaA	"tRNA dimethylallyltransferase"	1	0.01	78.70	0.01	7.86	0.01	0.06	0.00	70.54	0.01	0.25	0.00
+TIGR00649	MG423	"beta-CASP ribonuclease, RNase J family"	3	0.03	160.16	0.01	12.59	0.01	0.06	0.00	147.17	0.02	0.33	0.00
+TIGR02098	MJ0042_CXXC	"MJ0042 family finger-like domain"	1	0.01	20.07	0.00	0.81	0.00	6.98	0.00	9.56	0.00	2.72	0.00
+TIGR00546	lnt	"apolipoprotein N-acyltransferase"	2	0.02	266.62	0.02	4.87	0.00	3.95	0.00	256.96	0.03	0.84	0.00
+TIGR00018	panC	"pantoate--beta-alanine ligase"	1	0.01	37.23	0.00	0.91	0.00	0.06	0.00	36.09	0.00	0.18	0.00
+TIGR01142	purT	"phosphoribosylglycinamide formyltransferase 2"	2	0.02	72.74	0.00	0.00	0.00	0.17	0.00	72.52	0.01	0.05	0.00
+TIGR03505	FimV_core	"FimV N-terminal domain"	2	0.02	77.09	0.00	0.03	0.00	0.08	0.00	76.91	0.01	0.07	0.00
+TIGR00178	monomer_idh	"isocitrate dehydrogenase, NADP-dependent"	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+TIGR03898	lanti_MRSA_kill	"type 2 lantibiotic, mersacidin/lichenicidin family"	1	0.01	73.16	0.00	0.00	0.00	0.01	0.00	73.10	0.01	0.04	0.00
+TIGR00447	pth	"aminoacyl-tRNA hydrolase"	5	0.05	335.12	0.02	10.12	0.01	20.35	0.01	301.02	0.03	3.64	0.00
+TIGR01994	SUF_scaf_2	"SUF system FeS assembly protein, NifU family"	1	0.01	17.05	0.00	0.00	0.00	0.00	0.00	17.05	0.00	0.00	0.00
+TIGR00665	DnaB	"replicative DNA helicase"	4	0.04	158.28	0.01	8.44	0.01	0.30	0.00	148.93	0.02	0.61	0.00
+TIGR00527	gcvH	"glycine cleavage system H protein"	2	0.02	98.78	0.01	0.02	0.00	3.35	0.00	94.62	0.01	0.79	0.00
+TIGR02286	PaaD	"phenylacetic acid degradation protein PaaD"	2	0.02	119.21	0.01	0.33	0.00	4.08	0.00	113.43	0.01	1.38	0.00
+TIGR02058	lin0512_fam	"conserved hypothetical protein"	1	0.01	76.78	0.00	0.00	0.00	0.18	0.00	76.50	0.01	0.10	0.00
+TIGR01574	miaB-methiolase	"tRNA-i(6)A37 thiotransferase enzyme MiaB"	4	0.04	2061.29	0.13	307.20	0.24	564.62	0.26	335.55	0.04	853.92	0.28
+TIGR00297	TIGR00297	"TIGR00297 family protein"	1	0.01	72.80	0.00	0.00	0.00	0.01	0.00	72.76	0.01	0.02	0.00
+TIGR02395	rpoN_sigma	"RNA polymerase sigma-54 factor"	2	0.02	55.34	0.00	2.52	0.00	0.00	0.00	52.72	0.01	0.10	0.00
+TIGR02680	TIGR02680	"TIGR02680 family protein"	1	0.01	89.86	0.01	0.35	0.00	0.52	0.00	88.59	0.01	0.41	0.00
+TIGR01135	glmS	"glutamine-fructose-6-phosphate transaminase (isomerizing)"	4	0.04	351.95	0.02	2.49	0.00	0.70	0.00	346.72	0.04	2.04	0.00
+TIGR02273	16S_RimM	"16S rRNA processing protein RimM"	3	0.03	102.06	0.01	0.04	0.00	4.00	0.00	95.88	0.01	2.14	0.00
+TIGR02595	PEP_exosort	"PEP-CTERM protein-sorting domain"	4	0.04	229.39	0.01	0.22	0.00	0.07	0.00	228.99	0.02	0.10	0.00
+TIGR01877	cas_cas6	"CRISPR-associated endoribonuclease Cas6"	2	0.02	100.67	0.01	10.00	0.01	1.27	0.00	86.64	0.01	2.75	0.00
+TIGR01879	hydantase	"amidase, hydantoinase/carbamoylase family"	1	0.01	42.14	0.00	0.24	0.00	16.39	0.01	23.21	0.00	2.31	0.00
+TIGR00435	cysS	"cysteine--tRNA ligase"	3	0.03	102.75	0.01	12.43	0.01	0.32	0.00	89.58	0.01	0.42	0.00
+TIGR04406	LPS_export_lptB	"LPS export ABC transporter ATP-binding protein"	2	0.02	53.25	0.00	0.26	0.00	0.00	0.00	52.93	0.01	0.07	0.00
+TIGR01929	menB	"naphthoate synthase"	2	0.02	1886.79	0.12	325.55	0.25	585.18	0.27	86.70	0.01	889.36	0.29
+TIGR02158	PA_CoA_Oxy3	"phenylacetate-CoA oxygenase, PaaI subunit"	2	0.02	52.45	0.00	0.13	0.00	3.60	0.00	47.73	0.01	0.99	0.00
+TIGR01380	glut_syn	"glutathione synthase"	1	0.01	13.70	0.00	0.20	0.00	0.00	0.00	13.45	0.00	0.04	0.00
+TIGR00593	pola	"DNA polymerase I"	2	0.02	146.61	0.01	10.13	0.01	0.08	0.00	136.07	0.01	0.33	0.00
+TIGR00663	dnan	"DNA polymerase III, beta subunit"	2	0.02	98.06	0.01	0.12	0.00	0.12	0.00	97.66	0.01	0.16	0.00
+TIGR02429	pcaI_scoA_fam	"3-oxoacid CoA-transferase, A subunit"	2	0.02	267.27	0.02	2.38	0.00	0.48	0.00	263.94	0.03	0.46	0.00
+TIGR01079	rplX_bact	"ribosomal protein uL24"	2	0.02	1827.19	0.12	325.55	0.25	585.18	0.27	25.72	0.00	890.74	0.29
+TIGR01417	PTS_I_fam	"phosphoenolpyruvate-protein phosphotransferase"	3	0.03	265.61	0.02	2.37	0.00	0.43	0.00	262.43	0.03	0.37	0.00
+TIGR01131	ATP_synt_6_or_A	"ATP synthase F0, A subunit"	3	0.03	64.20	0.00	1.11	0.00	3.69	0.00	56.75	0.01	2.66	0.00
+TIGR00062	L27	"ribosomal protein bL27"	4	0.04	346.89	0.02	10.17	0.01	1.16	0.00	334.48	0.04	1.08	0.00
+TIGR04484	thiosulf_SoxA	"sulfur oxidation c-type cytochrome SoxA"	2	0.02	222.89	0.01	0.27	0.00	0.50	0.00	221.70	0.02	0.42	0.00
+TIGR01017	rpsD_bact	"ribosomal protein uS4"	4	0.04	355.33	0.02	10.14	0.01	0.52	0.00	342.60	0.04	2.07	0.00
+TIGR00069	hisD	"histidinol dehydrogenase"	3	0.03	158.68	0.01	0.26	0.00	0.03	0.00	158.27	0.02	0.12	0.00
+TIGR01318	gltD_gamma_fam	"glutamate synthase, small subunit"	2	0.02	69.27	0.00	0.03	0.00	3.61	0.00	64.88	0.01	0.76	0.00
+TIGR00543	isochor_syn	"isochorismate synthase"	1	0.01	73.16	0.00	0.00	0.00	0.01	0.00	73.10	0.01	0.04	0.00
+TIGR00614	recQ_fam	"ATP-dependent DNA helicase, RecQ family"	3	0.03	331.95	0.02	10.51	0.01	0.70	0.00	319.81	0.03	0.93	0.00
+TIGR01207	rmlA	"glucose-1-phosphate thymidylyltransferase"	3	0.03	321.56	0.02	0.05	0.00	0.87	0.00	319.92	0.03	0.72	0.00
+TIGR03492	TIGR03492	"conserved hypothetical protein"	1	0.01	72.73	0.00	0.00	0.00	0.02	0.00	72.68	0.01	0.03	0.00
+TIGR04350	C_S_lyase_PatB	"putative C-S lyase"	1	0.01	30.93	0.00	0.03	0.00	3.52	0.00	26.54	0.00	0.84	0.00
+TIGR01554	major_cap_HK97	"phage major capsid protein, HK97 family"	1	0.01	216.75	0.01	0.12	0.00	0.65	0.00	215.33	0.02	0.66	0.00
+TIGR03177	pilus_cpaB	"Flp pilus assembly protein CpaB"	1	0.01	217.06	0.01	0.01	0.00	0.47	0.00	216.16	0.02	0.42	0.00
+TIGR00177	molyb_syn	"molybdenum cofactor synthesis domain"	4	0.04	1921.86	0.12	308.64	0.24	564.06	0.26	195.75	0.02	853.41	0.28
+TIGR03384	betaine_BetI	"transcriptional repressor BetI"	1	0.01	191.30	0.01	0.01	0.00	0.40	0.00	190.55	0.02	0.34	0.00
+TIGR02150	IPP_isom_1	"isopentenyl-diphosphate delta-isomerase"	1	0.01	25.00	0.00	0.05	0.00	3.18	0.00	21.08	0.00	0.69	0.00
+TIGR00157	TIGR00157	"ribosome small subunit-dependent GTPase A"	3	0.03	109.60	0.01	2.40	0.00	0.15	0.00	105.51	0.01	1.53	0.00
+TIGR00275	TIGR00275	"flavoprotein, HI0933 family"	6	0.06	543.71	0.03	0.12	0.00	4.82	0.00	534.74	0.06	4.03	0.00
+TIGR00987	himA	"integration host factor, alpha subunit"	2	0.02	98.39	0.01	0.00	0.00	0.12	0.00	98.24	0.01	0.03	0.00
+TIGR00595	priA	"primosomal protein N'"	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+TIGR03897	lanti_2_LanM	"type 2 lantibiotic biosynthesis protein LanM"	1	0.01	73.16	0.00	0.00	0.00	0.01	0.00	73.10	0.01	0.04	0.00
+TIGR00456	argS	"arginine--tRNA ligase"	4	0.04	211.39	0.01	0.26	0.00	0.48	0.00	210.41	0.02	0.24	0.00
+TIGR01009	rpsC_bact	"ribosomal protein uS3"	1	0.01	1814.06	0.12	325.55	0.25	585.16	0.27	14.02	0.00	889.33	0.29
+TIGR00842	bcct	"transporter, betaine/carnitine/choline transporter (BCCT) family"	7	0.07	342.51	0.02	6.97	0.01	4.80	0.00	327.47	0.04	3.27	0.00
+TIGR02707	butyr_kinase	"butyrate kinase"	3	0.03	145.84	0.01	10.39	0.01	0.06	0.00	135.11	0.01	0.28	0.00
+TIGR01245	trpD	"anthranilate phosphoribosyltransferase"	3	0.03	132.54	0.01	0.91	0.00	0.06	0.00	131.37	0.01	0.19	0.00
+TIGR01435	glu_cys_lig_rel	"glutamate--cysteine ligase/glutathione synthase"	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+TIGR01550	DOC_P1	"death-on-curing family protein"	1	0.01	71.59	0.00	0.00	0.00	0.01	0.00	71.56	0.01	0.02	0.00
+TIGR00763	lon	"endopeptidase La"	1	0.01	27.20	0.00	9.77	0.01	1.08	0.00	13.70	0.00	2.65	0.00
+TIGR00181	pepF	"oligoendopeptidase F"	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+TIGR01037	pyrD_sub1_fam	"dihydroorotate dehydrogenase family protein"	2	0.02	82.87	0.01	2.60	0.00	16.39	0.01	61.52	0.01	2.35	0.00
+TIGR01059	gyrB	"DNA gyrase, B subunit"	2	0.02	38.83	0.00	0.12	0.00	0.12	0.00	37.08	0.00	1.51	0.00
+TIGR00096	TIGR00096	"16S rRNA (cytidine(1402)-2'-O)-methyltransferase"	1	0.01	13.15	0.00	0.26	0.00	0.00	0.00	12.83	0.00	0.06	0.00
+TIGR00472	pheT_bact	"phenylalanine--tRNA ligase, beta subunit"	4	0.04	310.47	0.02	13.77	0.01	5.92	0.00	287.68	0.03	3.10	0.00
+TIGR02188	Ac_CoA_lig_AcsA	"acetate--CoA ligase"	1	0.01	209.74	0.01	0.01	0.00	0.50	0.00	208.87	0.02	0.36	0.00
+TIGR02330	prpD	"2-methylcitrate dehydratase"	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+TIGR03828	pfkB	"1-phosphofructokinase"	1	0.01	22.08	0.00	0.00	0.00	0.00	0.00	22.07	0.00	0.01	0.00
+TIGR01670	KdsC-phosphatas	"3-deoxy-D-manno-octulosonate 8-phosphate phosphatase, YrbI family"	1	0.01	13.15	0.00	0.26	0.00	0.00	0.00	12.83	0.00	0.06	0.00
+TIGR02317	prpB	"methylisocitrate lyase"	1	0.01	60.25	0.00	0.00	0.00	0.13	0.00	60.08	0.01	0.04	0.00
+TIGR02982	heterocyst_DevA	"ABC exporter ATP-binding subunit, DevA family"	2	0.02	85.35	0.01	0.27	0.00	0.04	0.00	84.88	0.01	0.16	0.00
+TIGR00765	yihY_not_rbn	"YihY family inner membrane protein"	5	0.05	347.11	0.02	1.22	0.00	4.14	0.00	340.25	0.04	1.50	0.00
+TIGR00566	trpG_papA	"glutamine amidotransferase of anthranilate synthase or aminodeoxychorismate synthase"	2	0.02	35.14	0.00	0.00	0.00	0.02	0.00	33.70	0.00	1.42	0.00
+TIGR00950	2A78	"carboxylate/amino acid/amine transporter"	1	0.01	22.08	0.00	0.00	0.00	0.00	0.00	22.07	0.00	0.01	0.00
+TIGR02443	TIGR02443	"conserved hypothetical protein"	1	0.01	27.75	0.00	0.00	0.00	0.00	0.00	27.75	0.00	0.00	0.00
+TIGR02123	TRAP_fused	"TRAP transporter, 4TM/12TM fusion protein"	5	0.05	506.91	0.03	0.31	0.00	17.49	0.01	486.08	0.05	3.03	0.00
+TIGR01763	MalateDH_bact	"malate dehydrogenase, NAD-dependent"	3	0.03	172.81	0.01	8.64	0.01	3.67	0.00	159.13	0.02	1.37	0.00
+TIGR00029	S20	"ribosomal protein bS20"	6	0.06	317.38	0.02	6.28	0.00	1.11	0.00	309.21	0.03	0.79	0.00
+TIGR02770	nickel_nikD	"nickel import ATP-binding protein NikD"	4	0.04	297.04	0.02	0.10	0.00	10.84	0.01	283.33	0.03	2.77	0.00
+TIGR01792	urease_alph	"urease, alpha subunit"	1	0.01	195.59	0.01	0.01	0.00	0.42	0.00	194.83	0.02	0.33	0.00
+TIGR01810	betA	"choline dehydrogenase"	1	0.01	191.30	0.01	0.01	0.00	0.40	0.00	190.55	0.02	0.34	0.00
+TIGR00281	TIGR00281	"segregation and condensation protein B"	8	0.08	2234.92	0.14	314.53	0.25	568.03	0.26	497.97	0.05	854.38	0.28
+TIGR01275	ACC_deam_rel	"pyridoxal phosphate-dependent enzymes, D-cysteine desulfhydrase family"	2	0.02	52.74	0.00	0.27	0.00	0.03	0.00	52.29	0.01	0.15	0.00
+TIGR00199	PncC_domain	"amidohydrolase, PncC family"	3	0.03	336.18	0.02	10.34	0.01	0.71	0.00	324.18	0.04	0.95	0.00
+TIGR03142	cytochro_ccmI	"cytochrome c-type biogenesis protein CcmI"	2	0.02	220.46	0.01	0.03	0.00	4.01	0.00	215.33	0.02	1.09	0.00
+TIGR00726	TIGR00726	"YfiH family protein"	3	0.03	1814.72	0.12	300.97	0.23	580.60	0.27	77.72	0.01	855.43	0.28
+TIGR03427	ABC_peri_uca	"ABC transporter periplasmic binding protein, urea carboxylase region"	1	0.01	195.59	0.01	0.01	0.00	0.42	0.00	194.83	0.02	0.33	0.00
+TIGR00377	ant_ant_sig	"anti-anti-sigma factor"	2	0.02	85.18	0.01	0.00	0.00	0.04	0.00	83.70	0.01	1.43	0.00
+TIGR01241	FtsH_fam	"ATP-dependent metallopeptidase HflB"	4	0.04	184.94	0.01	4.06	0.00	0.24	0.00	180.17	0.02	0.47	0.00
+TIGR00423	TIGR00423	"radical SAM domain protein, CofH subfamily"	3	0.03	147.10	0.01	8.24	0.01	0.26	0.00	138.10	0.02	0.50	0.00
+TIGR02654	circ_KaiB	"circadian clock protein KaiB"	1	0.01	70.45	0.00	0.00	0.00	0.03	0.00	70.38	0.01	0.04	0.00
+TIGR01098	3A0109s03R	"phosphate/phosphite/phosphonate ABC transporter, periplasmic binding protein"	1	0.01	12.91	0.00	0.21	0.00	0.00	0.00	12.65	0.00	0.04	0.00
+TIGR01784	T_den_put_tspse	"conserved hypothetical protein"	2	0.02	144.80	0.01	0.01	0.00	0.06	0.00	144.69	0.02	0.05	0.00
+TIGR00449	tgt_general	"tRNA-guanine family transglycosylase"	3	0.03	115.69	0.01	2.39	0.00	0.39	0.00	111.48	0.01	1.42	0.00
+TIGR01171	rplB_bact	"ribosomal protein uL2"	1	0.01	1814.06	0.12	325.55	0.25	585.16	0.27	14.02	0.00	889.33	0.29
+TIGR00963	secA	"preprotein translocase, SecA subunit"	4	0.04	311.60	0.02	2.73	0.00	0.65	0.00	306.29	0.03	1.93	0.00
+TIGR03342	dsrC_tusE_dsvC	"sulfur relay protein, TusE/DsrC/DsvC family"	2	0.02	116.93	0.01	0.03	0.00	0.23	0.00	116.60	0.01	0.08	0.00
+TIGR02469	CbiT	"precorrin-6Y C5,15-methyltransferase (decarboxylating), CbiT subunit"	1	0.01	73.16	0.00	0.00	0.00	0.01	0.00	73.10	0.01	0.04	0.00
+TIGR01430	aden_deam	"adenosine deaminase"	3	0.03	126.54	0.01	0.91	0.00	0.19	0.00	125.22	0.01	0.22	0.00
+TIGR02947	SigH_actino	"RNA polymerase sigma-70 factor, TIGR02947 family"	1	0.01	27.64	0.00	0.26	0.00	0.16	0.00	27.12	0.00	0.10	0.00
+TIGR01496	DHPS	"dihydropteroate synthase"	2	0.02	85.88	0.01	0.02	0.00	3.47	0.00	81.60	0.01	0.79	0.00
+TIGR00515	accD	"acetyl-CoA carboxylase, carboxyl transferase, beta subunit"	5	0.05	428.34	0.03	10.17	0.01	0.81	0.00	416.30	0.05	1.05	0.00
+TIGR02614	ftsW	"cell division protein FtsW"	1	0.01	13.15	0.00	0.26	0.00	0.00	0.00	12.83	0.00	0.06	0.00
+TIGR02769	nickel_nikE	"nickel import ATP-binding protein NikE"	4	0.04	297.04	0.02	0.10	0.00	10.84	0.01	283.33	0.03	2.77	0.00
+TIGR01591	Fdh-alpha	"formate dehydrogenase, alpha subunit"	2	0.02	217.69	0.01	0.01	0.00	0.40	0.00	216.93	0.02	0.35	0.00
+TIGR02191	RNaseIII	"ribonuclease III"	2	0.02	129.85	0.01	0.03	0.00	0.09	0.00	129.65	0.01	0.08	0.00
+TIGR00237	xseA	"exodeoxyribonuclease VII, large subunit"	2	0.02	146.84	0.01	8.13	0.01	0.18	0.00	138.26	0.02	0.28	0.00
+TIGR01534	GAPDH-I	"glyceraldehyde-3-phosphate dehydrogenase, type I"	9	0.09	2428.98	0.16	311.92	0.24	572.30	0.27	689.11	0.08	855.65	0.28
+TIGR02777	LigD_PE_dom	"DNA ligase D, 3'-phosphoesterase domain"	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+TIGR02464	ribofla_fusion	"conserved hypothetical protein"	2	0.02	107.00	0.01	0.00	0.00	0.02	0.00	106.94	0.01	0.03	0.00
+TIGR03002	outer_YhbN_LptA	"lipopolysaccharide transport periplasmic protein LptA"	2	0.02	53.25	0.00	0.26	0.00	0.00	0.00	52.93	0.01	0.07	0.00
+TIGR01418	PEP_synth	"phosphoenolpyruvate synthase"	4	0.04	126.68	0.01	0.82	0.00	0.19	0.00	124.00	0.01	1.68	0.00
+TIGR01326	OAH_OAS_sulfhy	"O-acetylhomoserine aminocarboxypropyltransferase/cysteine synthase"	4	0.04	304.24	0.02	0.24	0.00	0.82	0.00	302.51	0.03	0.66	0.00
+TIGR01060	eno	"phosphopyruvate hydratase"	2	0.02	227.80	0.01	0.05	0.00	3.61	0.00	223.12	0.02	1.02	0.00
+TIGR01048	lysA	"diaminopimelate decarboxylase"	5	0.05	193.93	0.01	10.98	0.01	3.59	0.00	178.12	0.02	1.24	0.00
+TIGR00971	3a0106s03	"sulfate ABC transporter, sulfate-binding protein"	1	0.01	21.24	0.00	0.00	0.00	0.00	0.00	21.23	0.00	0.00	0.00
+TIGR02818	adh_III_F_hyde	"S-(hydroxymethyl)glutathione dehydrogenase/class III alcohol dehydrogenase"	2	0.02	89.75	0.01	0.03	0.00	4.07	0.00	84.75	0.01	0.90	0.00
+TIGR03843	TIGR03843	"conserved hypothetical protein"	1	0.01	25.03	0.00	0.13	0.00	0.10	0.00	24.72	0.00	0.09	0.00
+TIGR01039	atpD	"ATP synthase F1, beta subunit"	3	0.03	54.89	0.00	9.94	0.01	1.39	0.00	39.34	0.00	4.22	0.00
+TIGR01962	NuoD	"NADH dehydrogenase (quinone), D subunit"	3	0.03	293.88	0.02	0.92	0.00	0.81	0.00	290.59	0.03	1.56	0.00
+TIGR01462	greA	"transcription elongation factor GreA"	5	0.05	362.26	0.02	9.90	0.01	4.05	0.00	346.80	0.04	1.50	0.00
+TIGR04306	salvage_TenA	"thiaminase II"	1	0.01	195.59	0.01	0.01	0.00	0.42	0.00	194.83	0.02	0.33	0.00
+TIGR00166	S6	"ribosomal protein bS6"	1	0.01	25.68	0.00	0.12	0.00	0.11	0.00	25.33	0.00	0.13	0.00
+TIGR00964	secE_bact	"preprotein translocase, SecE subunit"	2	0.02	268.39	0.02	0.01	0.00	0.44	0.00	267.59	0.03	0.35	0.00
+TIGR00167	cbbA	"ketose-bisphosphate aldolase"	2	0.02	41.45	0.00	0.20	0.00	0.00	0.00	41.20	0.00	0.04	0.00
+TIGR00345	GET3_arsA_TRC40	"transport-energizing ATPase, TRC40/GET3/ArsA family"	2	0.02	1802.08	0.12	298.41	0.23	564.00	0.26	86.55	0.01	853.11	0.28
+TIGR01216	ATP_synt_epsi	"ATP synthase F1, epsilon subunit"	3	0.03	54.89	0.00	9.94	0.01	1.39	0.00	39.34	0.00	4.22	0.00
+TIGR01187	potA	"polyamine ABC transporter, ATP-binding protein"	3	0.03	268.01	0.02	0.25	0.00	17.04	0.01	247.76	0.03	2.96	0.00
+TIGR00136	gidA	"tRNA uridine 5-carboxymethylaminomethyl modification enzyme GidA"	3	0.03	111.38	0.01	0.03	0.00	3.68	0.00	105.13	0.01	2.54	0.00
+TIGR01083	nth	"endonuclease III"	2	0.02	289.11	0.02	0.01	0.00	0.50	0.00	288.16	0.03	0.44	0.00
+TIGR00931	antiport_nhaC	"Na+/H+ antiporter NhaC"	1	0.01	59.41	0.00	0.00	0.00	0.12	0.00	59.27	0.01	0.02	0.00
+TIGR00091	TIGR00091	"tRNA (guanine-N(7)-)-methyltransferase"	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+TIGR03156	GTP_HflX	"GTP-binding protein HflX"	3	0.03	287.12	0.02	7.87	0.01	0.50	0.00	276.83	0.03	1.91	0.00
+TIGR00747	fabH	"3-oxoacyl-[acyl-carrier-protein] synthase III"	5	0.05	188.01	0.01	12.52	0.01	1.52	0.00	171.00	0.02	2.96	0.00
+TIGR03164	UHCUDC	"OHCU decarboxylase"	1	0.01	23.90	0.00	0.00	0.00	0.00	0.00	23.89	0.00	0.00	0.00
+TIGR00171	leuD	"3-isopropylmalate dehydratase, small subunit"	1	0.01	25.47	0.00	0.12	0.00	0.14	0.00	25.10	0.00	0.12	0.00
+TIGR02435	CobG	"precorrin-3B synthase"	1	0.01	73.16	0.00	0.00	0.00	0.01	0.00	73.10	0.01	0.04	0.00
+TIGR01730	RND_mfp	"efflux transporter, RND family, MFP subunit"	13	0.13	984.22	0.06	1.53	0.00	1.72	0.00	977.55	0.11	3.42	0.00
+TIGR01843	type_I_hlyD	"type I secretion membrane fusion protein, HlyD family"	2	0.02	144.39	0.01	0.01	0.00	0.03	0.00	144.32	0.02	0.04	0.00
+TIGR00112	proC	"pyrroline-5-carboxylate reductase"	2	0.02	113.65	0.01	8.14	0.01	3.55	0.00	100.83	0.01	1.13	0.00
+TIGR01263	4HPPD	"4-hydroxyphenylpyruvate dioxygenase"	1	0.01	72.38	0.00	0.00	0.00	0.02	0.00	72.33	0.01	0.03	0.00
+TIGR01136	cysKM	"cysteine synthase"	2	0.02	114.32	0.01	1.19	0.00	0.10	0.00	112.73	0.01	0.31	0.00
+TIGR00426	TIGR00426	"competence protein ComEA helix-hairpin-helix repeat region"	2	0.02	102.38	0.01	2.37	0.00	0.14	0.00	99.78	0.01	0.08	0.00
+TIGR02008	fdx_plant	"ferredoxin [2Fe-2S]"	2	0.02	145.58	0.01	0.01	0.00	0.05	0.00	145.46	0.02	0.06	0.00
+TIGR01521	FruBisAldo_II_B	"fructose-bisphosphate aldolase, class II, Calvin cycle subtype"	2	0.02	41.45	0.00	0.20	0.00	0.00	0.00	41.20	0.00	0.04	0.00
+TIGR02357	ECF_ThiT_YuaJ	"energy-coupled thiamine transporter ThiT"	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+TIGR04123	P_estr_lig_assc	"metallophosphoesterase, DNA ligase-associated"	1	0.01	190.91	0.01	0.01	0.00	0.44	0.00	190.05	0.02	0.40	0.00
+TIGR00525	folB	"dihydroneopterin aldolase"	1	0.01	72.05	0.00	0.00	0.00	0.03	0.00	72.00	0.01	0.02	0.00
+TIGR03048	PS_I_psaC	"photosystem I iron-sulfur protein PsaC"	1	0.01	72.17	0.00	0.00	0.00	0.02	0.00	72.14	0.01	0.01	0.00
+TIGR01844	type_I_sec_TolC	"type I secretion outer membrane protein, TolC family"	1	0.01	190.91	0.01	0.01	0.00	0.44	0.00	190.05	0.02	0.40	0.00
+TIGR00189	tesB	"acyl-CoA thioesterase II"	1	0.01	61.65	0.00	0.00	0.00	0.14	0.00	61.46	0.01	0.04	0.00
+TIGR00055	uppS	"di-trans,poly-cis-decaprenylcistransferase"	4	0.04	173.07	0.01	10.39	0.01	4.08	0.00	157.33	0.02	1.26	0.00
+TIGR03864	PQQ_ABC_ATP	"ABC transporter, ATP-binding subunit, PQQ-dependent alcohol dehydrogenase system"	1	0.01	204.63	0.01	0.01	0.00	0.65	0.00	203.32	0.02	0.64	0.00
+TIGR03635	uS17_bact	"ribosomal protein uS17"	1	0.01	1814.06	0.12	325.55	0.25	585.16	0.27	14.02	0.00	889.33	0.29
+TIGR01070	mutS1	"DNA mismatch repair protein MutS"	5	0.05	264.63	0.02	11.44	0.01	3.65	0.00	248.10	0.03	1.44	0.00
+TIGR02607	antidote_HigA	"addiction module antidote protein, HigA family"	1	0.01	71.59	0.00	0.00	0.00	0.01	0.00	71.56	0.01	0.02	0.00
+TIGR01143	murF	"UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase"	2	0.02	232.82	0.01	0.91	0.00	0.48	0.00	230.92	0.03	0.51	0.00
+TIGR01616	nitro_assoc	"nitrogenase-associated protein"	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+TIGR02643	T_phosphoryl	"thymidine phosphorylase"	1	0.01	215.66	0.01	0.02	0.00	0.52	0.00	214.71	0.02	0.41	0.00
+TIGR01928	menC_lowGC/arch	"o-succinylbenzoate synthase"	2	0.02	39.20	0.00	0.12	0.00	0.15	0.00	37.16	0.00	1.77	0.00
+TIGR01780	SSADH	"succinate-semialdehyde dehydrogenase"	1	0.01	215.66	0.01	0.02	0.00	0.52	0.00	214.71	0.02	0.41	0.00
+TIGR00200	cinA_nterm	"competence/damage-inducible protein CinA N-terminal domain"	2	0.02	119.43	0.01	10.23	0.01	0.06	0.00	108.85	0.01	0.29	0.00
+TIGR01464	hemE	"uroporphyrinogen decarboxylase"	4	0.04	306.81	0.02	0.06	0.00	3.63	0.00	300.53	0.03	2.59	0.00
+TIGR01121	D_amino_aminoT	"D-amino-acid transaminase"	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+TIGR00444	mazG	"MazG family protein"	3	0.03	138.46	0.01	0.91	0.00	0.23	0.00	137.12	0.01	0.21	0.00
+TIGR02079	THD1	"threonine dehydratase"	3	0.03	310.84	0.02	7.89	0.01	4.13	0.00	297.47	0.03	1.35	0.00
+TIGR00873	gnd	"6-phosphogluconate dehydrogenase (decarboxylating)"	1	0.01	89.86	0.01	0.35	0.00	0.52	0.00	88.59	0.01	0.41	0.00
+TIGR01951	nusB	"transcription antitermination factor NusB"	3	0.03	158.37	0.01	18.34	0.01	18.03	0.01	116.76	0.01	5.25	0.00
+TIGR02517	type_II_gspD	"type II secretion system protein D"	3	0.03	121.63	0.01	0.51	0.00	16.74	0.01	101.05	0.01	3.33	0.00
+TIGR01573	cas2	"CRISPR-associated endonuclease Cas2"	1	0.01	72.80	0.00	0.00	0.00	0.01	0.00	72.76	0.01	0.02	0.00
+TIGR00559	pdxJ	"pyridoxine 5'-phosphate synthase"	2	0.02	68.60	0.00	0.03	0.00	0.10	0.00	67.07	0.01	1.40	0.00
+TIGR00777	ahpD	"alkylhydroperoxidase, AhpD family"	1	0.01	60.25	0.00	0.00	0.00	0.13	0.00	60.08	0.01	0.04	0.00
+TIGR00518	alaDH	"alanine dehydrogenase"	2	0.02	204.61	0.01	0.21	0.00	0.45	0.00	203.51	0.02	0.44	0.00
+TIGR01963	PHB_DH	"3-hydroxybutyrate dehydrogenase"	1	0.01	50.21	0.00	2.37	0.00	0.01	0.00	47.79	0.01	0.04	0.00
+TIGR00216	ispH_lytB	"4-hydroxy-3-methylbut-2-enyl diphosphate reductase"	4	0.04	2003.84	0.13	298.42	0.23	564.46	0.26	285.79	0.03	855.17	0.28
+TIGR00696	wecG_tagA_cpsF	"glycosyltransferase, WecB/TagA/CpsF family"	3	0.03	1863.85	0.12	285.44	0.22	590.60	0.27	88.76	0.01	899.05	0.30
+TIGR00239	2oxo_dh_E1	"oxoglutarate dehydrogenase (succinyl-transferring), E1 component"	2	0.02	68.87	0.00	0.04	0.00	0.15	0.00	67.20	0.01	1.49	0.00
+TIGR00475	selB	"selenocysteine-specific translation elongation factor"	1	0.01	78.70	0.01	7.86	0.01	0.06	0.00	70.54	0.01	0.25	0.00
+TIGR01280	xseB	"exodeoxyribonuclease VII, small subunit"	4	0.04	346.04	0.02	20.19	0.02	44.25	0.02	223.63	0.02	57.97	0.02
+TIGR02779	NHEJ_ligase_lig	"DNA ligase D, ligase domain"	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+TIGR04416	group_II_RT_mat	"group II intron reverse transcriptase/maturase"	2	0.02	38.36	0.00	0.10	0.00	0.10	0.00	38.06	0.00	0.10	0.00
+TIGR02218	phg_TIGR02218	"phage conserved hypothetical protein BR0599"	1	0.01	216.75	0.01	0.12	0.00	0.65	0.00	215.33	0.02	0.66	0.00
+TIGR02976	phageshock_pspB	"phage shock protein B"	2	0.02	116.93	0.01	0.03	0.00	0.23	0.00	116.60	0.01	0.08	0.00
+TIGR01026	fliI_yscN	"ATPase, FliI/YscN family"	2	0.02	231.40	0.01	0.01	0.00	0.40	0.00	230.65	0.03	0.34	0.00
+TIGR02999	Sig-70_X6	"RNA polymerase sigma factor, TIGR02999 family"	4	0.04	247.63	0.02	0.03	0.00	0.51	0.00	246.94	0.03	0.16	0.00
+TIGR00212	hemC	"hydroxymethylbilane synthase"	3	0.03	237.53	0.02	0.25	0.00	4.37	0.00	231.60	0.03	1.31	0.00
+TIGR00560	pgsA	"CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase"	2	0.02	119.43	0.01	10.23	0.01	0.06	0.00	108.85	0.01	0.29	0.00
+TIGR01001	metA	"homoserine O-succinyltransferase"	1	0.01	191.30	0.01	0.01	0.00	0.40	0.00	190.55	0.02	0.34	0.00
+TIGR03137	AhpC	"peroxiredoxin"	1	0.01	21.24	0.00	0.00	0.00	0.00	0.00	21.23	0.00	0.00	0.00
+TIGR01237	D1pyr5carbox2	"putative delta-1-pyrroline-5-carboxylate dehydrogenase"	1	0.01	69.50	0.00	0.00	0.00	0.02	0.00	69.46	0.01	0.02	0.00
+TIGR01974	NDH_I_L	"proton-translocating NADH-quinone oxidoreductase, chain L"	3	0.03	293.88	0.02	0.92	0.00	0.81	0.00	290.59	0.03	1.56	0.00
+TIGR02809	phasin_3	"phasin family protein"	1	0.01	21.24	0.00	0.00	0.00	0.00	0.00	21.23	0.00	0.00	0.00
+TIGR00396	leuS_bact	"leucine--tRNA ligase"	3	0.03	379.26	0.02	0.34	0.00	1.24	0.00	376.84	0.04	0.84	0.00
+TIGR00184	purA	"adenylosuccinate synthase"	4	0.04	2093.41	0.13	325.58	0.25	585.86	0.27	290.94	0.03	891.03	0.29
+TIGR00686	phnA	"putative alkylphosphonate utilization operon protein PhnA"	1	0.01	22.08	0.00	0.00	0.00	0.00	0.00	22.07	0.00	0.01	0.00
+TIGR02070	mono_pep_trsgly	"monofunctional biosynthetic peptidoglycan transglycosylase"	1	0.01	40.10	0.00	0.00	0.00	0.00	0.00	40.10	0.00	0.00	0.00
+TIGR00080	pimt	"protein-L-isoaspartate O-methyltransferase"	2	0.02	105.07	0.01	0.54	0.00	0.58	0.00	103.42	0.01	0.54	0.00
+TIGR00068	glyox_I	"lactoylglutathione lyase"	2	0.02	78.29	0.01	2.50	0.00	3.93	0.00	70.95	0.01	0.92	0.00
+TIGR04398	SLAP_DUP	"SLAP domain"	1	0.01	105.89	0.01	7.76	0.01	0.08	0.00	97.75	0.01	0.29	0.00
+TIGR01163	rpe	"ribulose-phosphate 3-epimerase"	3	0.03	253.26	0.02	2.38	0.00	0.40	0.00	250.10	0.03	0.38	0.00
+TIGR00612	ispG_gcpE	"4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase"	2	0.02	246.98	0.02	0.79	0.00	0.54	0.00	245.08	0.03	0.57	0.00
+TIGR00693	thiE	"thiamine-phosphate diphosphorylase"	3	0.03	285.02	0.02	0.01	0.00	0.44	0.00	284.21	0.03	0.36	0.00
+TIGR00678	holB	"DNA polymerase III, delta' subunit"	1	0.01	54.97	0.00	0.04	0.00	0.13	0.00	54.73	0.01	0.07	0.00
+TIGR00090	rsfS_iojap_ybeB	"ribosome silencing factor"	3	0.03	198.84	0.01	2.70	0.00	0.76	0.00	194.88	0.02	0.50	0.00
+TIGR00392	ileS	"isoleucine--tRNA ligase"	2	0.02	77.96	0.00	3.27	0.00	0.06	0.00	74.41	0.01	0.22	0.00
+TIGR00165	S18	"ribosomal protein bS18"	2	0.02	98.41	0.01	0.12	0.00	0.13	0.00	98.00	0.01	0.16	0.00
+TIGR04519	MoCo_extend_TAT	"MoCo/4Fe-4S cofactor protein extended Tat translocation domain"	1	0.01	28.95	0.00	9.91	0.01	1.36	0.00	14.98	0.00	2.70	0.00
+TIGR02021	BchM-ChlM	"magnesium protoporphyrin O-methyltransferase"	1	0.01	69.50	0.00	0.00	0.00	0.02	0.00	69.46	0.01	0.02	0.00
+TIGR01424	gluta_reduc_2	"glutathione-disulfide reductase"	1	0.01	61.65	0.00	0.00	0.00	0.14	0.00	61.46	0.01	0.04	0.00
+TIGR00372	cas4	"CRISPR-associated protein Cas4"	1	0.01	72.80	0.00	0.00	0.00	0.01	0.00	72.76	0.01	0.02	0.00
+TIGR01838	PHA_synth_I	"poly(R)-hydroxyalkanoic acid synthase, class I"	1	0.01	21.24	0.00	0.00	0.00	0.00	0.00	21.23	0.00	0.00	0.00
+TIGR03457	sulphoacet_xsc	"sulfoacetaldehyde acetyltransferase"	1	0.01	29.33	0.00	0.02	0.00	3.64	0.00	24.90	0.00	0.78	0.00
+TIGR00361	ComEC_Rec2	"DNA internalization-related competence protein ComEC/Rec2"	2	0.02	77.96	0.00	3.27	0.00	0.06	0.00	74.41	0.01	0.22	0.00
+TIGR03415	ABC_choXWV_ATP	"choline ABC transporter, ATP-binding protein"	1	0.01	191.30	0.01	0.01	0.00	0.40	0.00	190.55	0.02	0.34	0.00
+TIGR00021	rpiA	"ribose 5-phosphate isomerase A"	1	0.01	25.68	0.00	0.12	0.00	0.11	0.00	25.33	0.00	0.13	0.00
+TIGR00510	lipA	"lipoyl synthase"	2	0.02	205.03	0.01	0.01	0.00	0.42	0.00	202.61	0.02	2.00	0.00
+TIGR03687	pupylate_cterm	"ubiquitin-like protein Pup"	1	0.01	50.96	0.00	4.85	0.00	3.43	0.00	42.25	0.00	0.43	0.00
+TIGR01850	argC	"N-acetyl-gamma-glutamyl-phosphate reductase"	5	0.05	792.15	0.05	72.00	0.06	383.73	0.18	244.75	0.03	91.66	0.03
+TIGR03346	chaperone_ClpB	"ATP-dependent chaperone protein ClpB"	2	0.02	62.33	0.00	7.81	0.01	1.10	0.00	51.01	0.01	2.40	0.00
+TIGR00575	dnlj	"DNA ligase, NAD-dependent"	3	0.03	169.01	0.01	0.32	0.00	0.70	0.00	167.47	0.02	0.52	0.00
+TIGR00064	ftsY	"signal recognition particle-docking protein FtsY"	2	0.02	96.64	0.01	0.91	0.00	0.17	0.00	95.36	0.01	0.20	0.00
+TIGR02315	ABC_phnC	"phosphonate ABC transporter, ATP-binding protein"	1	0.01	12.91	0.00	0.21	0.00	0.00	0.00	12.65	0.00	0.04	0.00
+TIGR02289	M3_not_pepF	"oligoendopeptidase, M3 family"	1	0.01	42.19	0.00	2.26	0.00	0.00	0.00	39.89	0.00	0.03	0.00
+TIGR01362	KDO8P_synth	"3-deoxy-8-phosphooctulonate synthase"	1	0.01	195.59	0.01	0.01	0.00	0.42	0.00	194.83	0.02	0.33	0.00
+TIGR00539	hemN_rel	"putative oxygen-independent coproporphyrinogen III oxidase"	2	0.02	122.32	0.01	0.36	0.00	4.13	0.00	116.57	0.01	1.27	0.00
+TIGR02651	RNase_Z	"ribonuclease Z"	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+TIGR01146	ATPsyn_F1gamma	"ATP synthase F1, gamma subunit"	3	0.03	45.78	0.00	1.10	0.00	0.17	0.00	42.67	0.00	1.84	0.00
+TIGR00832	acr3	"arsenical-resistance protein"	3	0.03	127.23	0.01	0.15	0.00	4.08	0.00	121.97	0.01	1.04	0.00
+TIGR02281	clan_AA_DTGA	"clan AA aspartic protease, TIGR02281 family"	3	0.03	272.42	0.02	0.24	0.00	16.79	0.01	252.73	0.03	2.65	0.00
+TIGR01392	homoserO_Ac_trn	"homoserine O-acetyltransferase"	2	0.02	87.94	0.01	0.12	0.00	0.28	0.00	87.39	0.01	0.15	0.00
+TIGR00073	hypB	"hydrogenase accessory protein HypB"	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+TIGR00756	PPR	"pentatricopeptide repeat domain"	2	0.02	230.19	0.01	0.01	0.00	0.49	0.00	227.86	0.02	1.83	0.00
+TIGR00016	ackA	"acetate kinase"	4	0.04	205.85	0.01	12.39	0.01	0.09	0.00	193.00	0.02	0.37	0.00
+TIGR00017	cmk	"cytidylate kinase"	3	0.03	178.28	0.01	15.34	0.01	3.48	0.00	158.74	0.02	0.71	0.00
+TIGR03304	OMP85_target	"outer membrane insertion C-terminal signal"	1	0.01	22.08	0.00	0.00	0.00	0.00	0.00	22.07	0.00	0.01	0.00
+TIGR02679	TIGR02679	"TIGR02679 family protein"	1	0.01	89.86	0.01	0.35	0.00	0.52	0.00	88.59	0.01	0.41	0.00
+TIGR02396	diverge_rpsU	"rpsU-divergently transcribed protein"	1	0.01	191.30	0.01	0.01	0.00	0.40	0.00	190.55	0.02	0.34	0.00
+TIGR03319	RNase_Y	"ribonuclease Y"	2	0.02	119.43	0.01	10.23	0.01	0.06	0.00	108.85	0.01	0.29	0.00
+TIGR02063	RNase_R	"ribonuclease R"	5	0.05	340.66	0.02	1.12	0.00	27.61	0.01	305.65	0.03	6.28	0.00
+TIGR02283	MltB_2	"lytic murein transglycosylase"	1	0.01	29.33	0.00	0.02	0.00	3.64	0.00	24.90	0.00	0.78	0.00
+TIGR03818	MotA1	"flagellar motor stator protein MotA"	2	0.02	69.27	0.00	0.03	0.00	3.61	0.00	64.88	0.01	0.76	0.00
+TIGR00576	dut	"dUTP diphosphatase"	2	0.02	44.85	0.00	0.03	0.00	3.52	0.00	40.46	0.00	0.84	0.00
+TIGR02745	ccoG_rdxA_fixG	"cytochrome c oxidase accessory protein CcoG"	1	0.01	28.95	0.00	9.91	0.01	1.36	0.00	14.98	0.00	2.70	0.00
+TIGR02445	fadA	"acetyl-CoA C-acyltransferase FadA"	1	0.01	22.08	0.00	0.00	0.00	0.00	0.00	22.07	0.00	0.01	0.00
+TIGR00737	nifR3_yhdG	"putative TIM-barrel protein, nifR3 family"	3	0.03	2072.41	0.13	283.06	0.22	587.78	0.27	302.71	0.03	898.85	0.30
+TIGR01350	lipoamide_DH	"dihydrolipoyl dehydrogenase"	8	0.08	354.80	0.02	12.91	0.01	0.35	0.00	339.36	0.04	2.18	0.00
+TIGR00183	prok_nadp_idh	"isocitrate dehydrogenase, NADP-dependent"	2	0.02	166.13	0.01	7.76	0.01	0.21	0.00	157.83	0.02	0.33	0.00
+TIGR00676	fadh2	"methylenetetrahydrofolate reductase [NAD(P)H]"	2	0.02	41.45	0.00	0.20	0.00	0.00	0.00	41.20	0.00	0.04	0.00
+TIGR01847	bacteriocin_sig	"bacteriocin-type signal sequence"	1	0.01	71.59	0.00	0.00	0.00	0.01	0.00	71.56	0.01	0.02	0.00
+TIGR00828	EIID-AGA	"PTS system, mannose/fructose/sorbose family, IID component"	1	0.01	42.19	0.00	2.26	0.00	0.00	0.00	39.89	0.00	0.03	0.00
+TIGR03461	pabC_Proteo	"aminodeoxychorismate lyase"	1	0.01	54.97	0.00	0.04	0.00	0.13	0.00	54.73	0.01	0.07	0.00
+TIGR01510	coaD_prev_kdtB	"pantetheine-phosphate adenylyltransferase"	4	0.04	308.86	0.02	2.37	0.00	0.56	0.00	304.12	0.03	1.81	0.00
+TIGR02228	sigpep_I_arch	"signal peptidase I"	1	0.01	17.44	0.00	0.00	0.00	0.01	0.00	17.42	0.00	0.01	0.00
+TIGR02235	menA_cyano-plnt	"1,4-dihydroxy-2-naphthoate phytyltransferase"	1	0.01	73.16	0.00	0.00	0.00	0.01	0.00	73.10	0.01	0.04	0.00
+TIGR00198	cat_per_HPI	"catalase/peroxidase HPI"	1	0.01	191.30	0.01	0.01	0.00	0.40	0.00	190.55	0.02	0.34	0.00
+TIGR03753	blh_monoox	"beta-carotene 15,15'-monooxygenase, Brp/Blh family"	1	0.01	61.15	0.00	0.00	0.00	0.15	0.00	60.99	0.01	0.01	0.00
+TIGR00060	L18_bact	"ribosomal protein uL18"	2	0.02	1827.19	0.12	325.55	0.25	585.18	0.27	25.72	0.00	890.74	0.29
+TIGR01011	rpsB_bact	"ribosomal protein uS2"	3	0.03	310.73	0.02	10.23	0.01	0.46	0.00	299.41	0.03	0.63	0.00
+TIGR00042	TIGR00042	"non-canonical purine NTP pyrophosphatase, RdgB/HAM1 family"	1	0.01	30.93	0.00	0.03	0.00	3.52	0.00	26.54	0.00	0.84	0.00
+TIGR00263	trpB	"tryptophan synthase, beta subunit"	6	0.06	2077.46	0.13	299.59	0.23	580.91	0.27	340.98	0.04	855.98	0.28
+TIGR01189	ccmA	"heme ABC exporter, ATP-binding protein CcmA"	13	0.13	608.73	0.04	30.82	0.02	5.82	0.00	556.85	0.06	15.24	0.01
+TIGR02099	TIGR02099	"TIGR02099 family protein"	1	0.01	66.58	0.00	0.06	0.00	0.34	0.00	65.19	0.01	0.98	0.00
+TIGR00179	murB	"UDP-N-acetylenolpyruvoylglucosamine reductase"	1	0.01	25.63	0.00	0.02	0.00	3.34	0.00	21.51	0.00	0.75	0.00
+TIGR02433	lysidine_TilS_C	"tRNA(Ile)-lysidine synthetase, C-terminal domain"	2	0.02	109.62	0.01	2.37	0.00	0.13	0.00	107.06	0.01	0.06	0.00
+TIGR01286	nifK	"nitrogenase molybdenum-iron protein beta chain"	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+TIGR02962	hdxy_isourate	"hydroxyisourate hydrolase"	1	0.01	23.90	0.00	0.00	0.00	0.00	0.00	23.89	0.00	0.00	0.00
+TIGR01971	NuoI	"NADH-quinone oxidoreductase, chain I"	4	0.04	367.95	0.02	0.92	0.00	0.82	0.00	364.64	0.04	1.57	0.00
+TIGR03214	ura-cupin	"putative allantoin catabolism protein"	1	0.01	23.90	0.00	0.00	0.00	0.00	0.00	23.89	0.00	0.00	0.00
+TIGR00384	dhsB	"succinate dehydrogenase and fumarate reductase iron-sulfur protein"	2	0.02	247.68	0.02	0.14	0.00	4.17	0.00	241.87	0.03	1.50	0.00
+TIGR02734	crtI_fam	"phytoene desaturase"	7	0.07	417.35	0.03	29.01	0.02	0.32	0.00	385.66	0.04	2.35	0.00
+TIGR02824	quinone_pig3	"putative NAD(P)H quinone oxidoreductase, PIG3 family"	2	0.02	205.20	0.01	0.01	0.00	0.42	0.00	203.02	0.02	1.76	0.00
+TIGR01529	argR_whole	"arginine repressor"	1	0.01	86.60	0.01	8.13	0.01	0.05	0.00	78.17	0.01	0.24	0.00
+TIGR00172	maf	"septum formation protein Maf"	5	0.05	1892.08	0.12	308.45	0.24	565.54	0.26	160.83	0.02	857.26	0.28
+TIGR02276	beta_rpt_yvtn	"40-residue YVTN family beta-propeller repeat"	2	0.02	266.28	0.02	0.02	0.00	0.79	0.00	264.78	0.03	0.69	0.00
+TIGR00100	hypA	"hydrogenase nickel insertion protein HypA"	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+TIGR00195	exoDNase_III	"exodeoxyribonuclease III"	4	0.04	342.69	0.02	17.30	0.01	3.05	0.00	316.45	0.03	5.89	0.00
+TIGR02784	addA_alphas	"double-strand break repair helicase AddA"	1	0.01	209.74	0.01	0.01	0.00	0.50	0.00	208.87	0.02	0.36	0.00
+TIGR04408	LptG_lptG	"LPS export ABC transporter permease LptG"	3	0.03	164.97	0.01	0.06	0.00	0.46	0.00	163.43	0.02	1.01	0.00
+TIGR01856	hisJ_fam	"histidinol phosphate phosphatase, HisJ family"	1	0.01	105.89	0.01	7.76	0.01	0.08	0.00	97.75	0.01	0.29	0.00
+TIGR00249	sixA	"phosphohistidine phosphatase SixA"	1	0.01	74.07	0.00	0.00	0.00	0.01	0.00	74.05	0.01	0.01	0.00
+TIGR01084	mutY	"A/G-specific adenine glycosylase"	3	0.03	1887.20	0.12	325.55	0.25	585.30	0.27	85.35	0.01	891.01	0.29
+TIGR01378	thi_PPkinase	"thiamine pyrophosphokinase"	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+TIGR01804	BADH	"betaine-aldehyde dehydrogenase"	1	0.01	191.30	0.01	0.01	0.00	0.40	0.00	190.55	0.02	0.34	0.00
+TIGR02655	circ_KaiC	"circadian clock protein KaiC"	1	0.01	70.45	0.00	0.00	0.00	0.03	0.00	70.38	0.01	0.04	0.00
+TIGR01771	L-LDH-NAD	"L-lactate dehydrogenase"	2	0.02	136.81	0.01	10.50	0.01	0.07	0.00	125.96	0.01	0.28	0.00
+TIGR02124	hypE	"hydrogenase expression/formation protein HypE"	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+TIGR01743	purR_Bsub	"pur operon repressor PurR"	1	0.01	50.21	0.00	2.37	0.00	0.01	0.00	47.79	0.01	0.04	0.00
+TIGR01246	dapE_proteo	"succinyl-diaminopimelate desuccinylase"	1	0.01	191.30	0.01	0.01	0.00	0.40	0.00	190.55	0.02	0.34	0.00
+TIGR03174	cas_Csc3	"CRISPR type I-D/CYANO-associated protein Csc3/Cas10d"	1	0.01	72.80	0.00	0.00	0.00	0.01	0.00	72.76	0.01	0.02	0.00
+TIGR00232	tktlase_bact	"transketolase"	6	0.06	1915.98	0.12	308.96	0.24	564.15	0.26	189.35	0.02	853.52	0.28
+TIGR01224	hutI	"imidazolonepropionase"	1	0.01	27.05	0.00	0.01	0.00	3.50	0.00	22.65	0.00	0.88	0.00
+TIGR03654	L6_bact	"ribosomal protein uL6"	2	0.02	1827.19	0.12	325.55	0.25	585.18	0.27	25.72	0.00	890.74	0.29
+TIGR00692	tdh	"L-threonine 3-dehydrogenase"	1	0.01	78.70	0.01	7.86	0.01	0.06	0.00	70.54	0.01	0.25	0.00
+TIGR01883	PepT-like	"peptidase T-like protein"	1	0.01	86.60	0.01	8.13	0.01	0.05	0.00	78.17	0.01	0.24	0.00
+TIGR02936	fdxN_nitrog	"ferredoxin III, nif-specific"	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+TIGR00738	rrf2_super	"Rrf2 family protein"	3	0.03	239.41	0.02	0.13	0.00	0.56	0.00	238.26	0.03	0.46	0.00
+TIGR00186	rRNA_methyl_3	"RNA methyltransferase, TrmH family, group 3"	3	0.03	291.69	0.02	4.98	0.00	0.68	0.00	285.41	0.03	0.62	0.00
+TIGR00856	pyrC_dimer	"dihydroorotase, homodimeric type"	1	0.01	68.00	0.00	0.00	0.00	0.14	0.00	67.82	0.01	0.03	0.00
+TIGR00101	ureG	"urease accessory protein UreG"	2	0.02	1925.29	0.12	298.42	0.23	564.41	0.26	209.05	0.02	853.42	0.28
+TIGR03303	OM_YaeT	"outer membrane protein assembly complex, YaeT protein"	1	0.01	28.60	0.00	0.03	0.00	3.93	0.00	23.76	0.00	0.88	0.00
+TIGR00191	thrB	"homoserine kinase"	1	0.01	28.95	0.00	9.91	0.01	1.36	0.00	14.98	0.00	2.70	0.00
+TIGR02677	TIGR02677	"TIGR02677 family protein"	1	0.01	89.86	0.01	0.35	0.00	0.52	0.00	88.59	0.01	0.41	0.00
+TIGR02215	phage_chp_gp8	"phage conserved hypothetical protein, phiE125 gp8 family"	1	0.01	216.75	0.01	0.12	0.00	0.65	0.00	215.33	0.02	0.66	0.00
+TIGR01242	26Sp45	"26S proteasome subunit P45 family"	1	0.01	1814.06	0.12	325.55	0.25	585.16	0.27	14.02	0.00	889.33	0.29
+TIGR03159	cas_Csc1	"CRISPR type I-D/CYANO-associated protein Csc1"	1	0.01	72.80	0.00	0.00	0.00	0.01	0.00	72.76	0.01	0.02	0.00
+TIGR00861	MIP	"MIP family channel proteins"	2	0.02	77.41	0.00	12.14	0.01	1.09	0.00	61.49	0.01	2.70	0.00
+TIGR00020	prfB	"peptide chain release factor 2"	6	0.06	345.11	0.02	13.42	0.01	12.08	0.01	312.91	0.03	6.70	0.00
+TIGR01959	nuoF_fam	"NADH oxidoreductase (quinone), F subunit"	3	0.03	293.88	0.02	0.92	0.00	0.81	0.00	290.59	0.03	1.56	0.00
+TIGR00176	mobB	"molybdopterin-guanine dinucleotide biosynthesis protein B"	1	0.01	21.31	0.00	0.00	0.00	0.00	0.00	21.31	0.00	0.01	0.00
+TIGR01692	HIBADH	"3-hydroxyisobutyrate dehydrogenase"	1	0.01	202.80	0.01	0.00	0.00	0.43	0.00	202.04	0.02	0.33	0.00
+TIGR00081	purC	"phosphoribosylaminoimidazolesuccinocarboxamide synthase"	1	0.01	37.23	0.00	0.91	0.00	0.06	0.00	36.09	0.00	0.18	0.00
+TIGR01470	cysG_Nterm	"siroheme synthase, N-terminal domain"	2	0.02	395.93	0.03	0.02	0.00	1.05	0.00	393.88	0.04	0.98	0.00
+TIGR00353	nrfE	"cytochrome c-type biogenesis protein CcmF"	2	0.02	266.28	0.02	0.02	0.00	0.79	0.00	264.78	0.03	0.69	0.00
+TIGR00388	glyQ	"glycine--tRNA ligase, alpha subunit"	1	0.01	1783.23	0.11	282.94	0.22	587.09	0.27	15.03	0.00	898.17	0.30
+TIGR00561	pntA	"NAD(P)(+) transhydrogenase (AB-specific), alpha subunit"	1	0.01	25.00	0.00	0.05	0.00	3.18	0.00	21.08	0.00	0.69	0.00
+TIGR00855	L12	"ribosomal protein bL12"	1	0.01	72.80	0.00	0.00	0.00	0.01	0.00	72.76	0.01	0.02	0.00
+TIGR04211	SH3_and_anchor	"SH3 domain protein"	1	0.01	21.24	0.00	0.00	0.00	0.00	0.00	21.23	0.00	0.00	0.00
+TIGR00038	efp	"translation elongation factor P"	4	0.04	361.94	0.02	8.13	0.01	0.62	0.00	351.18	0.04	2.01	0.00
+TIGR01695	murJ_mviN	"murein biosynthesis integral membrane protein MurJ"	2	0.02	112.61	0.01	4.85	0.00	3.57	0.00	103.71	0.01	0.47	0.00
+TIGR00762	DegV	"EDD domain protein, DegV family"	4	0.04	222.53	0.01	7.53	0.01	0.61	0.00	213.85	0.02	0.54	0.00
+TIGR01448	recD_rel	"helicase, RecD/TraA family"	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+TIGR00214	lipB	"lipoyl(octanoyl) transferase"	2	0.02	78.14	0.00	1.09	0.00	16.46	0.01	58.05	0.01	2.55	0.00
+TIGR00331	hrcA	"heat-inducible transcription repressor HrcA"	4	0.04	109.82	0.01	2.52	0.00	3.63	0.00	101.28	0.01	2.39	0.00
+TIGR03692	ATP_dep_HslV	"ATP-dependent protease HslVU, peptidase subunit"	3	0.03	316.31	0.02	17.87	0.01	1.81	0.00	293.29	0.03	3.33	0.00
+TIGR01846	type_I_sec_HlyB	"type I secretion system ATPase"	1	0.01	72.80	0.00	0.00	0.00	0.01	0.00	72.76	0.01	0.02	0.00
+TIGR01973	NuoG	"NADH dehydrogenase (quinone), G subunit"	2	0.02	257.88	0.02	0.07	0.00	0.75	0.00	255.75	0.03	1.32	0.00
+TIGR03848	MSMEG_4193	"probable phosphomutase, MSMEG_4193 family"	1	0.01	25.03	0.00	0.13	0.00	0.10	0.00	24.72	0.00	0.09	0.00
+TIGR01439	lp_hng_hel_AbrB	"transcriptional regulator, AbrB family"	1	0.01	61.65	0.00	0.00	0.00	0.14	0.00	61.46	0.01	0.04	0.00
+TIGR02225	recomb_XerD	"tyrosine recombinase XerD"	3	0.03	153.26	0.01	10.49	0.01	0.30	0.00	142.16	0.02	0.31	0.00
+TIGR01406	dnaQ_proteo	"DNA polymerase III, epsilon subunit"	1	0.01	30.93	0.00	0.03	0.00	3.52	0.00	26.54	0.00	0.84	0.00
+TIGR02669	SpoIID_LytB	"SpoIID/LytB domain"	1	0.01	73.16	0.00	0.00	0.00	0.01	0.00	73.10	0.01	0.04	0.00
+TIGR01372	soxA	"sarcosine oxidase, alpha subunit family"	2	0.02	220.46	0.01	0.03	0.00	4.01	0.00	215.33	0.02	1.09	0.00
+TIGR00417	speE	"spermidine synthase"	1	0.01	68.00	0.00	0.00	0.00	0.14	0.00	67.82	0.01	0.03	0.00
+TIGR00643	recG	"ATP-dependent DNA helicase RecG"	2	0.02	77.96	0.00	3.27	0.00	0.06	0.00	74.41	0.01	0.22	0.00
+TIGR01733	AA-adenyl-dom	"amino acid adenylation domain"	7	0.07	673.49	0.04	0.61	0.00	22.54	0.01	646.05	0.07	4.30	0.00
+TIGR02349	DnaJ_bact	"chaperone protein DnaJ"	3	0.03	84.78	0.01	2.39	0.00	3.54	0.00	76.56	0.01	2.29	0.00
+TIGR01346	isocit_lyase	"isocitrate lyase"	1	0.01	59.33	0.00	0.00	0.00	0.11	0.00	59.17	0.01	0.04	0.00
+TIGR02457	TreS_Cterm	"putative maltokinase"	2	0.02	115.96	0.01	1.19	0.00	0.06	0.00	114.42	0.01	0.29	0.00
+TIGR01035	hemA	"glutamyl-tRNA reductase"	4	0.04	1815.30	0.12	298.41	0.23	564.13	0.26	96.84	0.01	855.92	0.28
+TIGR00636	PduO_Nterm	"ATP:cob(I)alamin adenosyltransferase"	3	0.03	148.73	0.01	18.13	0.01	1.31	0.00	126.32	0.01	2.97	0.00
+TIGR01934	MenG_MenH_UbiE	"ubiquinone/menaquinone biosynthesis methyltransferase"	2	0.02	99.42	0.01	8.13	0.01	0.08	0.00	89.64	0.01	1.58	0.00
+TIGR02383	Hfq	"RNA chaperone Hfq"	2	0.02	274.30	0.02	7.87	0.01	0.48	0.00	265.37	0.03	0.58	0.00
+TIGR00005	rluA_subfam	"pseudouridine synthase, RluA family"	4	0.04	190.29	0.01	3.57	0.00	16.69	0.01	167.48	0.02	2.55	0.00
+TIGR01376	POMP_repeat	"chlamydial polymorphic outer membrane protein repeat"	2	0.02	129.15	0.01	0.00	0.00	0.28	0.00	128.81	0.01	0.05	0.00
+TIGR03423	pbp2_mrdA	"penicillin-binding protein 2"	1	0.01	190.91	0.01	0.01	0.00	0.44	0.00	190.05	0.02	0.40	0.00
+TIGR03557	F420_G6P_family	"F420-dependent oxidoreductase, G6PDH family"	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+TIGR00367	TIGR00367	"K+-dependent Na+/Ca+ exchanger homolog"	3	0.03	237.27	0.02	0.26	0.00	0.43	0.00	236.18	0.03	0.40	0.00
+TIGR01819	F420_cofD	"2-phospho-L-lactate transferase"	2	0.02	41.21	0.00	0.48	0.00	0.17	0.00	40.35	0.00	0.21	0.00
+TIGR03410	urea_trans_UrtE	"urea ABC transporter, ATP-binding protein UrtE"	1	0.01	1729.70	0.11	298.41	0.23	563.99	0.26	14.22	0.00	853.09	0.28
+TIGR03591	polynuc_phos	"polyribonucleotide nucleotidyltransferase"	4	0.04	212.62	0.01	10.26	0.01	3.75	0.00	197.46	0.02	1.16	0.00
+TIGR00655	PurU	"formyltetrahydrofolate deformylase"	3	0.03	270.06	0.02	0.05	0.00	3.91	0.00	264.98	0.03	1.13	0.00
+TIGR04407	LptF_YjgP	"LPS export ABC transporter permease LptF"	3	0.03	164.97	0.01	0.06	0.00	0.46	0.00	163.43	0.02	1.01	0.00
+TIGR01475	ubiA_other	"putative 4-hydroxybenzoate polyprenyltransferase"	1	0.01	86.60	0.01	8.13	0.01	0.05	0.00	78.17	0.01	0.24	0.00
+TIGR01950	SoxR	"redox-sensitive transcriptional activator SoxR"	1	0.01	23.30	0.00	0.10	0.00	0.07	0.00	23.05	0.00	0.08	0.00
+TIGR03798	ocin_TIGR03798	"nif11-like leader peptide domain"	3	0.03	1872.88	0.12	298.42	0.23	564.01	0.26	157.33	0.02	853.12	0.28
+TIGR01240	mevDPdecarb	"diphosphomevalonate decarboxylase"	1	0.01	49.69	0.00	2.47	0.00	0.00	0.00	47.19	0.01	0.04	0.00
+TIGR00740	TIGR00740	"tRNA (cmo5U34)-methyltransferase"	1	0.01	13.15	0.00	0.26	0.00	0.00	0.00	12.83	0.00	0.06	0.00
+TIGR00916	2A0604s01	"protein-export membrane protein, SecD/SecF family"	2	0.02	89.64	0.01	8.38	0.01	0.44	0.00	80.31	0.01	0.50	0.00
+TIGR01509	HAD-SF-IA-v3	"HAD hydrolase, family IA, variant 3"	15	0.14	803.53	0.05	5.43	0.00	4.84	0.00	791.17	0.09	2.09	0.00
+TIGR00418	thrS	"threonine--tRNA ligase"	4	0.04	402.47	0.03	10.13	0.01	0.60	0.00	391.03	0.04	0.70	0.00
+TIGR01427	PTS_IIC_fructo	"PTS system, Fru family, IIC component"	1	0.01	22.08	0.00	0.00	0.00	0.00	0.00	22.07	0.00	0.01	0.00
+TIGR00976	/NonD	"hydrolase CocE/NonD family protein"	2	0.02	1827.40	0.12	325.76	0.25	585.19	0.27	27.03	0.00	889.42	0.29
+TIGR02749	prenyl_cyano	"solanesyl diphosphate synthase"	1	0.01	74.07	0.00	0.00	0.00	0.01	0.00	74.05	0.01	0.01	0.00
+TIGR03212	uraD_N-term-dom	"putative urate catabolism protein"	1	0.01	23.90	0.00	0.00	0.00	0.00	0.00	23.89	0.00	0.00	0.00
+TIGR01144	ATP_synt_b	"ATP synthase F0, B subunit"	2	0.02	33.27	0.00	1.08	0.00	0.17	0.00	30.20	0.00	1.82	0.00
+TIGR00536	hemK_fam	"methyltransferase, HemK family"	4	0.04	132.76	0.01	0.00	0.00	0.14	0.00	131.17	0.01	1.44	0.00
+TIGR02420	dksA	"RNA polymerase-binding protein DksA"	4	0.04	334.67	0.02	0.24	0.00	16.96	0.01	314.79	0.03	2.68	0.00
+TIGR00739	yajC	"preprotein translocase, YajC subunit"	4	0.04	144.63	0.01	12.30	0.01	1.74	0.00	126.46	0.01	4.12	0.00
+TIGR00230	sfsA	"sugar fermentation stimulation protein"	2	0.02	1855.61	0.12	282.94	0.22	587.10	0.27	87.36	0.01	898.20	0.30
+TIGR01755	flav_wrbA	"NAD(P)H:quinone oxidoreductase, type IV"	1	0.01	13.76	0.00	0.27	0.00	0.03	0.00	13.32	0.00	0.15	0.00
+TIGR00061	L21	"ribosomal protein bL21"	4	0.04	346.89	0.02	10.17	0.01	1.16	0.00	334.48	0.04	1.08	0.00
+TIGR02013	rpoB	"DNA-directed RNA polymerase, beta subunit"	1	0.01	72.80	0.00	0.00	0.00	0.01	0.00	72.76	0.01	0.02	0.00
+TIGR00250	RNAse_H_YqgF	"putative transcription antitermination factor YqgF"	3	0.03	261.19	0.02	2.40	0.00	4.01	0.00	253.65	0.03	1.14	0.00
+TIGR00150	T6A_YjeE	"tRNA threonylcarbamoyl adenosine modification protein YjeE"	3	0.03	260.09	0.02	0.01	0.00	0.51	0.00	257.79	0.03	1.77	0.00
+TIGR02030	BchI-ChlI	"magnesium chelatase ATPase subunit I"	1	0.01	13.49	0.00	0.00	0.00	0.01	0.00	11.94	0.00	1.53	0.00
+TIGR01129	secD	"protein-export membrane protein SecD"	2	0.02	89.64	0.01	8.38	0.01	0.44	0.00	80.31	0.01	0.50	0.00
+TIGR01473	cyoE_ctaB	"protoheme IX farnesyltransferase"	4	0.04	314.12	0.02	9.96	0.01	1.97	0.00	297.62	0.03	4.58	0.00
+TIGR01019	sucCoAalpha	"succinate-CoA ligase, alpha subunit"	2	0.02	88.35	0.01	9.77	0.01	1.22	0.00	74.70	0.01	2.67	0.00
+TIGR00608	radc	"DNA repair protein RadC"	3	0.03	84.78	0.01	2.39	0.00	3.54	0.00	76.56	0.01	2.29	0.00
+TIGR01750	fabZ	"beta-hydroxyacyl-(acyl-carrier-protein) dehydratase FabZ"	2	0.02	69.89	0.00	2.39	0.00	3.61	0.00	63.09	0.01	0.80	0.00
+TIGR02012	tigrfam_recA	"protein RecA"	4	0.04	150.29	0.01	10.23	0.01	0.09	0.00	138.35	0.02	1.63	0.00
+TIGR00048	rRNA_mod_RlmN	"23S rRNA (adenine(2503)-C(2))-methyltransferase"	5	0.05	2181.79	0.14	326.50	0.25	585.80	0.27	379.56	0.04	889.93	0.29
+TIGR01760	tape_meas_TP901	"phage tail tape measure protein, TP901 family, core region"	1	0.01	16.61	0.00	0.00	0.00	0.00	0.00	16.61	0.00	0.00	0.00
+TIGR01230	agmatinase	"agmatinase"	2	0.02	77.95	0.00	0.00	0.00	0.00	0.00	77.94	0.01	0.01	0.00
+TIGR01244	TIGR01244	"TIGR01244 family protein"	1	0.01	190.91	0.01	0.01	0.00	0.44	0.00	190.05	0.02	0.40	0.00
+TIGR03411	urea_trans_UrtD	"urea ABC transporter, ATP-binding protein UrtD"	1	0.01	1729.70	0.11	298.41	0.23	563.99	0.26	14.22	0.00	853.09	0.28
+TIGR03648	Na_symport_lg	"probable sodium:solute symporter, VC_2705 subfamily"	2	0.02	432.83	0.03	0.43	0.00	92.43	0.04	294.84	0.03	45.13	0.01
+TIGR00309	V_ATPase_subD	"V-type ATPase, D subunit"	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+TIGR00478	tly	"TlyA family rRNA methyltransferase/putative hemolysin"	4	0.04	184.74	0.01	12.98	0.01	3.72	0.00	167.33	0.02	0.70	0.00
+TIGR01162	purE	"phosphoribosylaminoimidazole carboxylase, catalytic subunit"	3	0.03	317.49	0.02	0.04	0.00	4.01	0.00	312.16	0.03	1.29	0.00
+TIGR01728	SsuA_fam	"ABC transporter, substrate-binding protein, aliphatic sulfonates family"	1	0.01	25.40	0.00	0.12	0.00	0.10	0.00	25.07	0.00	0.11	0.00
+TIGR03729	acc_ester	"putative phosphoesterase"	1	0.01	49.69	0.00	2.47	0.00	0.00	0.00	47.19	0.01	0.04	0.00
+TIGR00567	3mg	"DNA-3-methyladenine glycosylase"	8	0.08	319.59	0.02	10.49	0.01	24.82	0.01	271.84	0.03	12.44	0.00
+TIGR02937	sigma70-ECF	"RNA polymerase sigma factor, sigma-70 family"	27	0.26	1468.33	0.09	3.58	0.00	44.35	0.02	1406.10	0.15	14.31	0.00
+TIGR00585	mutl	"DNA mismatch repair protein MutL"	5	0.05	261.87	0.02	10.55	0.01	20.31	0.01	227.61	0.02	3.39	0.00
+TIGR02159	PA_CoA_Oxy4	"phenylacetate-CoA oxygenase, PaaJ subunit"	2	0.02	52.45	0.00	0.13	0.00	3.60	0.00	47.73	0.01	0.99	0.00
+TIGR00967	3a0501s007	"preprotein translocase, SecY subunit"	2	0.02	1827.19	0.12	325.55	0.25	585.18	0.27	25.72	0.00	890.74	0.29
+TIGR00223	panD	"aspartate 1-decarboxylase"	2	0.02	91.76	0.01	0.13	0.00	0.25	0.00	91.25	0.01	0.13	0.00
+TIGR03317	ygfZ_signature	"folate-binding protein YgfZ"	1	0.01	49.61	0.00	0.56	0.00	18.40	0.01	27.66	0.00	2.99	0.00
+TIGR01365	serC_2	"phosphoserine aminotransferase"	1	0.01	217.06	0.01	0.01	0.00	0.47	0.00	216.16	0.02	0.42	0.00
+TIGR04391	CcmD_alt_fam	"CcmD family protein"	1	0.01	12.82	0.00	0.00	0.00	0.02	0.00	11.46	0.00	1.33	0.00
+TIGR03705	poly_P_kin	"polyphosphate kinase 1"	6	0.06	2022.95	0.13	328.24	0.26	589.33	0.27	215.00	0.02	890.39	0.29
+TIGR00468	pheS	"phenylalanine--tRNA ligase, alpha subunit"	4	0.04	310.47	0.02	13.77	0.01	5.92	0.00	287.68	0.03	3.10	0.00
+TIGR00089	TIGR00089	"radical SAM methylthiotransferase, MiaB/RimO family"	9	0.09	2392.47	0.15	315.31	0.25	566.15	0.26	653.11	0.07	857.91	0.28
+TIGR00973	leuA_bact	"2-isopropylmalate synthase"	1	0.01	25.47	0.00	0.12	0.00	0.14	0.00	25.10	0.00	0.12	0.00
+TIGR01683	thiS	"thiamine biosynthesis protein ThiS"	2	0.02	85.69	0.01	0.02	0.00	0.26	0.00	84.04	0.01	1.37	0.00
+TIGR00876	tal_mycobact	"transaldolase"	2	0.02	119.80	0.01	0.58	0.00	0.74	0.00	117.89	0.01	0.60	0.00
+TIGR01512	ATPase-IB2_Cd	"cadmium-translocating P-type ATPase"	2	0.02	144.80	0.01	0.01	0.00	0.06	0.00	144.69	0.02	0.05	0.00
+TIGR00192	urease_beta	"urease, beta subunit"	1	0.01	195.59	0.01	0.01	0.00	0.42	0.00	194.83	0.02	0.33	0.00
+TIGR01472	gmd	"GDP-mannose 4,6-dehydratase"	1	0.01	204.63	0.01	0.01	0.00	0.65	0.00	203.32	0.02	0.64	0.00
+TIGR02278	PaaN-DH	"phenylacetic acid degradation protein paaN"	2	0.02	52.45	0.00	0.13	0.00	3.60	0.00	47.73	0.01	0.99	0.00
+TIGR03814	Gln_ase	"glutaminase A"	1	0.01	26.43	0.00	0.12	0.00	0.11	0.00	26.14	0.00	0.05	0.00
+TIGR01021	rpsE_bact	"ribosomal protein uS5"	2	0.02	1827.19	0.12	325.55	0.25	585.18	0.27	25.72	0.00	890.74	0.29
+TIGR00654	PhzF_family	"phenazine biosynthesis protein, PhzF family"	2	0.02	30.78	0.00	0.00	0.00	0.01	0.00	29.10	0.00	1.66	0.00
+TIGR00538	hemN	"oxygen-independent coproporphyrinogen III oxidase"	2	0.02	58.28	0.00	9.94	0.01	4.99	0.00	39.87	0.00	3.48	0.00
+TIGR01467	cobI_cbiL	"precorrin-2 C(20)-methyltransferase"	1	0.01	73.16	0.00	0.00	0.00	0.01	0.00	73.10	0.01	0.04	0.00
+TIGR00364	TIGR00364	"queuosine biosynthesis protein QueC"	1	0.01	21.31	0.00	0.00	0.00	0.00	0.00	21.31	0.00	0.01	0.00
+TIGR00082	rbfA	"ribosome-binding factor A"	4	0.04	217.08	0.01	10.26	0.01	3.73	0.00	201.93	0.02	1.17	0.00
+TIGR02729	Obg_CgtA	"Obg family GTPase CgtA"	4	0.04	217.41	0.01	2.69	0.00	0.65	0.00	212.18	0.02	1.89	0.00
+TIGR02138	phosphate_pstC	"phosphate ABC transporter, permease protein PstC"	3	0.03	111.01	0.01	0.12	0.00	0.18	0.00	109.05	0.01	1.67	0.00
+TIGR00160	MGSA	"methylglyoxal synthase"	2	0.02	114.24	0.01	0.32	0.00	0.58	0.00	112.84	0.01	0.50	0.00
+TIGR00233	trpS	"tryptophan--tRNA ligase"	2	0.02	22.96	0.00	0.02	0.00	0.24	0.00	21.36	0.00	1.34	0.00
+TIGR00374	TIGR00374	"TIGR00374 family protein"	2	0.02	104.21	0.01	0.33	0.00	0.63	0.00	101.49	0.01	1.76	0.00
+TIGR00972	3a0107s01c2	"phosphate ABC transporter, ATP-binding protein"	4	0.04	183.06	0.01	0.12	0.00	0.20	0.00	181.05	0.02	1.68	0.00
+TIGR03413	GSH_gloB	"hydroxyacylglutathione hydrolase"	1	0.01	72.73	0.00	0.00	0.00	0.02	0.00	72.68	0.01	0.03	0.00
+TIGR00007	TIGR00007	"1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide isomerase"	1	0.01	216.75	0.01	0.12	0.00	0.65	0.00	215.33	0.02	0.66	0.00
+TIGR00904	mreB	"cell shape determining protein, MreB/Mrl family"	5	0.05	353.45	0.02	17.31	0.01	0.67	0.00	334.59	0.04	0.88	0.00
+TIGR00008	infA	"translation initiation factor IF-1"	2	0.02	1873.39	0.12	325.55	0.25	585.28	0.27	73.19	0.01	889.36	0.29
+TIGR00399	metG_C_term	"methionine--tRNA ligase, beta subunit"	1	0.01	50.21	0.00	2.37	0.00	0.01	0.00	47.79	0.01	0.04	0.00
+TIGR01824	PabB-clade2	"aminodeoxychorismate synthase, component I"	1	0.01	54.97	0.00	0.04	0.00	0.13	0.00	54.73	0.01	0.07	0.00
+TIGR02224	recomb_XerC	"tyrosine recombinase XerC"	2	0.02	92.04	0.01	8.08	0.01	0.08	0.00	83.54	0.01	0.34	0.00
+TIGR00488	TIGR00488	"putative HD superfamily hydrolase"	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+TIGR01164	rplP_bact	"ribosomal protein uL16"	1	0.01	1814.06	0.12	325.55	0.25	585.16	0.27	14.02	0.00	889.33	0.29
+TIGR01183	ntrB	"nitrate ABC transporter, permease protein"	2	0.02	425.77	0.03	0.02	0.00	1.12	0.00	423.61	0.05	1.02	0.00
+TIGR04486	thiosulf_SoxB	"thiosulfohydrolase SoxB"	1	0.01	209.74	0.01	0.01	0.00	0.50	0.00	208.87	0.02	0.36	0.00
+TIGR00065	ftsZ	"cell division protein FtsZ"	5	0.05	140.61	0.01	11.02	0.01	3.51	0.00	124.84	0.01	1.24	0.00
+TIGR00563	rsmB	"16S rRNA (cytosine(967)-C(5))-methyltransferase"	2	0.02	111.17	0.01	2.37	0.00	0.03	0.00	108.69	0.01	0.08	0.00
+TIGR00114	lumazine-synth	"6,7-dimethyl-8-ribityllumazine synthase"	5	0.05	259.11	0.02	10.69	0.01	16.70	0.01	229.09	0.02	2.63	0.00
+TIGR02227	sigpep_I_bact	"signal peptidase I"	7	0.07	434.05	0.03	23.24	0.02	0.46	0.00	409.17	0.04	1.19	0.00
+TIGR01958	nuoE_fam	"NADH-quinone oxidoreductase, E subunit"	3	0.03	293.88	0.02	0.92	0.00	0.81	0.00	290.59	0.03	1.56	0.00
+TIGR00256	TIGR00256	"D-tyrosyl-tRNA(Tyr) deacylase"	3	0.03	79.23	0.01	2.48	0.00	0.13	0.00	75.11	0.01	1.50	0.00
+TIGR00936	ahcY	"adenosylhomocysteinase"	2	0.02	91.06	0.01	4.85	0.00	3.43	0.00	82.35	0.01	0.43	0.00
+TIGR01975	isoAsp_dipep	"beta-aspartyl peptidase"	1	0.01	60.25	0.00	0.00	0.00	0.13	0.00	60.08	0.01	0.04	0.00
+TIGR01737	FGAM_synth_I	"phosphoribosylformylglycinamidine synthase I"	1	0.01	37.23	0.00	0.91	0.00	0.06	0.00	36.09	0.00	0.18	0.00
+TIGR01341	aconitase_1	"aconitate hydratase 1"	5	0.05	247.20	0.02	12.71	0.01	4.15	0.00	229.48	0.02	0.85	0.00
+TIGR01455	glmM	"phosphoglucosamine mutase"	1	0.01	60.25	0.00	0.00	0.00	0.13	0.00	60.08	0.01	0.04	0.00
+TIGR01097	PhnE	"phosphonate ABC transporter, permease protein PhnE"	2	0.02	25.82	0.00	0.43	0.00	0.01	0.00	25.30	0.00	0.09	0.00
+TIGR00276	TIGR00276	"epoxyqueuosine reductase"	2	0.02	138.55	0.01	6.47	0.01	0.01	0.00	131.77	0.01	0.29	0.00
+TIGR01181	dTDP_gluc_dehyt	"dTDP-glucose 4,6-dehydratase"	3	0.03	321.56	0.02	0.05	0.00	0.87	0.00	319.92	0.03	0.72	0.00
+TIGR00217	malQ	"4-alpha-glucanotransferase"	3	0.03	109.72	0.01	1.53	0.00	19.85	0.01	85.06	0.01	3.28	0.00
+TIGR03647	Na_symport_sm	"putative solute:sodium symporter small subunit"	2	0.02	432.83	0.03	0.43	0.00	92.43	0.04	294.84	0.03	45.13	0.01
+TIGR01795	CM_mono_cladeE	"chorismate mutase"	1	0.01	29.33	0.00	0.02	0.00	3.64	0.00	24.90	0.00	0.78	0.00
+TIGR00231	small_GTP	"small GTP-binding protein domain"	30	0.29	1809.99	0.12	60.59	0.05	45.75	0.02	1685.46	0.18	18.18	0.01
+TIGR00227	ribD_Cterm	"riboflavin-specific deaminase C-terminal domain"	4	0.04	219.91	0.01	10.39	0.01	0.07	0.00	209.16	0.02	0.29	0.00
+TIGR00238	TIGR00238	"KamA family protein"	1	0.01	59.41	0.00	0.00	0.00	0.12	0.00	59.27	0.01	0.02	0.00
+TIGR03158	cas3_cyano	"CRISPR-associated helicase Cas3, subtype CYANO"	1	0.01	72.80	0.00	0.00	0.00	0.01	0.00	72.76	0.01	0.02	0.00
+TIGR03863	PQQ_ABC_bind	"ABC transporter, substrate binding protein, PQQ-dependent alcohol dehydrogenase system"	1	0.01	204.63	0.01	0.01	0.00	0.65	0.00	203.32	0.02	0.64	0.00
+TIGR01816	sdhA_forward	"succinate dehydrogenase, flavoprotein subunit"	2	0.02	247.68	0.02	0.14	0.00	4.17	0.00	241.87	0.03	1.50	0.00
+TIGR04085	rSAM_more_4Fe4S	"radical SAM additional 4Fe4S-binding SPASM domain"	1	0.01	71.59	0.00	0.00	0.00	0.01	0.00	71.56	0.01	0.02	0.00
+TIGR01740	pyrF	"orotidine 5'-phosphate decarboxylase"	3	0.03	119.98	0.01	3.28	0.00	16.80	0.01	97.18	0.01	2.72	0.00
+TIGR03885	flavin_revert	"probable non-F420 flavinoid oxidoreductase"	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+TIGR02104	pulA_typeI	"pullulanase, type I"	1	0.01	50.21	0.00	2.37	0.00	0.01	0.00	47.79	0.01	0.04	0.00
+TIGR03725	T6A_YeaZ	"tRNA threonylcarbamoyl adenosine modification protein YeaZ"	5	0.05	373.65	0.02	7.27	0.01	1.69	0.00	359.90	0.04	4.79	0.00
+TIGR01935	NOT-MenG	"RraA family"	1	0.01	21.31	0.00	0.00	0.00	0.00	0.00	21.31	0.00	0.01	0.00
+TIGR00188	rnpA	"ribonuclease P protein component"	2	0.02	51.58	0.00	7.31	0.01	1.02	0.00	41.09	0.00	2.16	0.00
+TIGR00487	IF-2	"translation initiation factor IF-2"	4	0.04	215.49	0.01	10.25	0.01	3.85	0.00	200.28	0.02	1.11	0.00
+TIGR02430	pcaF	"3-oxoadipyl-CoA thiolase"	1	0.01	27.05	0.00	0.01	0.00	3.50	0.00	22.65	0.00	0.88	0.00
+TIGR00235	udk	"uridine kinase"	2	0.02	54.43	0.00	2.37	0.00	0.02	0.00	50.55	0.01	1.50	0.00
+TIGR01700	PNPH	"purine nucleoside phosphorylase I, inosine and guanosine-specific"	2	0.02	127.32	0.01	10.49	0.01	0.06	0.00	116.49	0.01	0.28	0.00
+TIGR01287	nifH	"nitrogenase iron protein"	1	0.01	72.17	0.00	0.00	0.00	0.02	0.00	72.14	0.01	0.01	0.00
+TIGR00768	rimK_fam	"alpha-L-glutamate ligase, RimK family"	3	0.03	48.94	0.00	0.26	0.00	0.01	0.00	47.14	0.01	1.53	0.00
+TIGR01405	polC_Gram_pos	"DNA polymerase III, alpha subunit, Gram-positive type"	2	0.02	119.43	0.01	10.23	0.01	0.06	0.00	108.85	0.01	0.29	0.00
+TIGR00690	rpoZ	"DNA-directed RNA polymerase, omega subunit"	2	0.02	83.55	0.01	2.66	0.00	16.62	0.01	61.93	0.01	2.35	0.00
+TIGR02243	TIGR02243	"putative baseplate assembly protein"	1	0.01	24.70	0.00	0.10	0.00	0.07	0.00	24.44	0.00	0.09	0.00
+TIGR03619	F420_Rv2161c	"probable F420-dependent oxidoreductase, Rv2161c family"	2	0.02	27.15	0.00	0.45	0.00	0.03	0.00	26.46	0.00	0.21	0.00
+TIGR00744	ROK_glcA_fam	"ROK family protein (putative glucokinase)"	1	0.01	86.60	0.01	8.13	0.01	0.05	0.00	78.17	0.01	0.24	0.00
+TIGR01123	ilvE_II	"branched-chain amino acid aminotransferase"	2	0.02	106.57	0.01	17.86	0.01	1.31	0.00	84.42	0.01	2.98	0.00
+TIGR01966	RNasePH	"ribonuclease PH"	2	0.02	66.25	0.00	17.31	0.01	6.13	0.00	36.43	0.00	6.38	0.00
+TIGR01826	CofD_related	"conserved hypothetical protein"	2	0.02	100.65	0.01	7.32	0.01	3.43	0.00	89.44	0.01	0.46	0.00
+TIGR00382	clpX	"ATP-dependent Clp protease, ATP-binding subunit ClpX"	2	0.02	121.64	0.01	2.37	0.00	0.05	0.00	119.14	0.01	0.08	0.00
+TIGR03597	GTPase_YqeH	"ribosome biogenesis GTPase YqeH"	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+TIGR00750	lao	"LAO/AO transport system ATPase"	2	0.02	56.37	0.00	9.79	0.01	4.68	0.00	38.48	0.00	3.41	0.00
+TIGR01451	B_ant_repeat	"conserved repeat domain"	1	0.01	61.65	0.00	0.00	0.00	0.14	0.00	61.46	0.01	0.04	0.00
+TIGR00002	S16	"ribosomal protein bS16"	4	0.04	174.86	0.01	0.05	0.00	4.01	0.00	168.64	0.02	2.17	0.00
+TIGR00526	folB_dom	"FolB domain"	1	0.01	72.05	0.00	0.00	0.00	0.03	0.00	72.00	0.01	0.02	0.00
+TIGR02866	CoxB	"cytochrome c oxidase, subunit II"	5	0.05	384.71	0.02	0.02	0.00	0.65	0.00	381.91	0.04	2.13	0.00
+TIGR01032	rplT_bact	"ribosomal protein bL20"	5	0.05	351.19	0.02	16.13	0.01	5.92	0.00	325.99	0.04	3.14	0.00
+TIGR01447	recD	"exodeoxyribonuclease V, alpha subunit"	2	0.02	114.57	0.01	0.44	0.00	0.59	0.00	113.04	0.01	0.50	0.00
+TIGR01169	rplA_bact	"ribosomal protein uL1"	2	0.02	268.39	0.02	0.01	0.00	0.44	0.00	267.59	0.03	0.35	0.00
+TIGR01970	DEAH_box_HrpB	"ATP-dependent helicase HrpB"	3	0.03	146.77	0.01	0.58	0.00	22.15	0.01	120.26	0.01	3.78	0.00
+TIGR02490	flgF	"flagellar basal-body rod protein FlgF"	1	0.01	40.10	0.00	0.00	0.00	0.00	0.00	40.10	0.00	0.00	0.00
+TIGR03561	organ_hyd_perox	"peroxiredoxin, Ohr subfamily"	1	0.01	78.70	0.01	7.86	0.01	0.06	0.00	70.54	0.01	0.25	0.00
+TIGR01061	parC_Gpos	"DNA topoisomerase IV, A subunit"	1	0.01	78.70	0.01	7.86	0.01	0.06	0.00	70.54	0.01	0.25	0.00
+TIGR00009	L28	"ribosomal protein bL28"	2	0.02	53.85	0.00	2.37	0.00	0.02	0.00	50.02	0.01	1.45	0.00
+TIGR02821	fghA_ester_D	"S-formylglutathione hydrolase"	2	0.02	256.74	0.02	0.01	0.00	0.57	0.00	255.82	0.03	0.34	0.00
+TIGR00121	birA_ligase	"biotin--[acetyl-CoA-carboxylase] ligase"	6	0.06	2052.54	0.13	310.87	0.24	565.08	0.26	319.86	0.03	856.73	0.28
+TIGR01088	aroQ	"3-dehydroquinate dehydratase, type II"	1	0.01	13.13	0.00	0.00	0.00	0.02	0.00	11.70	0.00	1.41	0.00
+TIGR03407	urea_ABC_UrtA	"urea ABC transporter, urea binding protein"	1	0.01	1729.70	0.11	298.41	0.23	563.99	0.26	14.22	0.00	853.09	0.28
+TIGR02160	PA_CoA_Oxy5	"phenylacetate-CoA oxygenase/reductase, PaaK subunit"	1	0.01	27.05	0.00	0.01	0.00	3.50	0.00	22.65	0.00	0.88	0.00
+TIGR01983	UbiG	"3-demethylubiquinone-9 3-O-methyltransferase"	3	0.03	284.34	0.02	0.03	0.00	4.18	0.00	279.00	0.03	1.13	0.00
+TIGR01307	pgm_bpd_ind	"phosphoglycerate mutase (2,3-diphosphoglycerate-independent)"	2	0.02	262.21	0.02	0.00	0.00	0.55	0.00	261.31	0.03	0.35	0.00
+TIGR01031	rpmF_bact	"ribosomal protein bL32"	2	0.02	93.95	0.01	0.04	0.00	0.13	0.00	93.70	0.01	0.08	0.00
+TIGR00452	TIGR00452	"tRNA (mo5U34)-methyltransferase"	1	0.01	13.15	0.00	0.26	0.00	0.00	0.00	12.83	0.00	0.06	0.00
+TIGR00362	DnaA	"chromosomal replication initiator protein DnaA"	3	0.03	125.26	0.01	9.89	0.01	1.20	0.00	111.36	0.01	2.81	0.00
+TIGR03139	QueF-II	"7-cyano-7-deazaguanine reductase"	2	0.02	76.46	0.00	0.00	0.00	0.12	0.00	76.32	0.01	0.03	0.00
+TIGR00922	nusG	"transcription termination/antitermination factor NusG"	2	0.02	268.39	0.02	0.01	0.00	0.44	0.00	267.59	0.03	0.35	0.00
+TIGR03440	egtB_TIGR03440	"ergothioneine biosynthesis protein EgtB"	3	0.03	1888.92	0.12	325.55	0.25	585.32	0.27	87.24	0.01	890.80	0.29
+TIGR00337	PyrG	"CTP synthase"	3	0.03	272.49	0.02	4.86	0.00	4.09	0.00	262.76	0.03	0.78	0.00
+TIGR00781	ccoO	"cytochrome c oxidase, cbb3-type, subunit II"	1	0.01	28.95	0.00	9.91	0.01	1.36	0.00	14.98	0.00	2.70	0.00
+TIGR03552	F420_cofC	"2-phospho-L-lactate guanylyltransferase"	1	0.01	13.57	0.00	0.23	0.00	0.01	0.00	13.23	0.00	0.10	0.00
+TIGR03330	SAM_DCase_Bsu	"S-adenosylmethionine decarboxylase proenzyme"	1	0.01	105.89	0.01	7.76	0.01	0.08	0.00	97.75	0.01	0.29	0.00
+TIGR01575	rimI	"ribosomal-protein-alanine acetyltransferase"	2	0.02	209.58	0.01	0.00	0.00	0.42	0.00	207.39	0.02	1.76	0.00
+TIGR02140	permease_CysW	"sulfate ABC transporter, permease protein CysW"	1	0.01	21.24	0.00	0.00	0.00	0.00	0.00	21.23	0.00	0.00	0.00
+TIGR02868	CydC	"thiol reductant ABC exporter, CydC subunit"	2	0.02	80.64	0.01	0.00	0.00	0.11	0.00	80.48	0.01	0.05	0.00
+TIGR00875	fsa_talC_mipB	"fructose-6-phosphate aldolase"	1	0.01	37.23	0.00	0.91	0.00	0.06	0.00	36.09	0.00	0.18	0.00
+TIGR00545	lipoyltrans	"lipoyltransferase and lipoate-protein ligase"	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+TIGR04120	DNA_lig_bact	"DNA ligase, ATP-dependent, PP_1105 family"	1	0.01	221.14	0.01	0.01	0.00	0.48	0.00	220.28	0.02	0.38	0.00
+TIGR00221	nagA	"N-acetylglucosamine-6-phosphate deacetylase"	5	0.05	442.42	0.03	2.92	0.00	1.35	0.00	436.89	0.05	1.25	0.00
+TIGR01327	PGDH	"phosphoglycerate dehydrogenase"	2	0.02	303.66	0.02	8.14	0.01	0.53	0.00	294.33	0.03	0.66	0.00
+TIGR00244	TIGR00244	"transcriptional regulator NrdR"	5	0.05	2026.14	0.13	336.10	0.26	585.60	0.27	212.76	0.02	891.68	0.29
+TIGR03153	cytochr_NrfH	"cytochrome c nitrite reductase, small subunit"	1	0.01	37.25	0.00	0.78	0.00	0.04	0.00	36.21	0.00	0.22	0.00
+TIGR01770	NDH_I_N	"proton-translocating NADH-quinone oxidoreductase, chain N"	3	0.03	293.88	0.02	0.92	0.00	0.81	0.00	290.59	0.03	1.56	0.00
+TIGR02605	CxxC_CxxC_SSSS	"putative regulatory protein, FmdB family"	2	0.02	126.14	0.01	0.00	0.00	0.27	0.00	125.81	0.01	0.06	0.00
+TIGR01251	ribP_PPkin	"ribose-phosphate diphosphokinase"	3	0.03	312.34	0.02	2.38	0.00	0.56	0.00	309.00	0.03	0.41	0.00
+TIGR00012	L29	"ribosomal protein uL29"	1	0.01	1814.06	0.12	325.55	0.25	585.16	0.27	14.02	0.00	889.33	0.29
+TIGR00513	accA	"acetyl-CoA carboxylase, carboxyl transferase, alpha subunit"	5	0.05	429.25	0.03	10.14	0.01	0.71	0.00	416.15	0.05	2.25	0.00
+TIGR01369	CPSaseII_lrg	"carbamoyl-phosphate synthase, large subunit"	3	0.03	174.40	0.01	10.27	0.01	0.19	0.00	163.58	0.02	0.36	0.00
+TIGR04393	rpt_T5SS_PEPC	"T5SS/PEP-CTERM-associated repeat"	1	0.01	61.15	0.00	0.00	0.00	0.15	0.00	60.99	0.01	0.01	0.00
+TIGR00107	deoD	"purine nucleoside phosphorylase"	2	0.02	283.46	0.02	0.33	0.00	0.98	0.00	281.33	0.03	0.83	0.00
+TIGR02093	P_ylase	"glycogen/starch/alpha-glucan phosphorylases"	1	0.01	42.83	0.00	0.30	0.00	16.61	0.01	23.61	0.00	2.31	0.00
+TIGR01486	HAD-SF-IIB-MPGP	"mannosyl-3-phosphoglycerate phosphatase family"	1	0.01	13.57	0.00	0.23	0.00	0.01	0.00	13.23	0.00	0.10	0.00
+TIGR00697	TIGR00697	"conserved hypothetical integral membrane protein"	3	0.03	252.57	0.02	5.19	0.00	2.29	0.00	241.31	0.03	3.79	0.00
+TIGR01993	Pyr-5-nucltdase	"pyrimidine 5'-nucleotidase"	1	0.01	27.05	0.00	0.01	0.00	3.50	0.00	22.65	0.00	0.88	0.00
+TIGR02521	type_IV_pilW	"type IV pilus biogenesis/stability protein PilW"	1	0.01	54.97	0.00	0.04	0.00	0.13	0.00	54.73	0.01	0.07	0.00
+TIGR04057	SusC_RagA_signa	"TonB-dependent outer membrane receptor, SusC/RagA subfamily, signature region"	2	0.02	55.07	0.00	19.77	0.02	2.33	0.00	27.59	0.00	5.38	0.00
+TIGR01681	HAD-SF-IIIC	"HAD phosphatase, family IIIC"	1	0.01	92.95	0.01	0.00	0.00	0.04	0.00	92.89	0.01	0.02	0.00
+TIGR01514	NAPRTase	"nicotinate phosphoribosyltransferase"	2	0.02	92.58	0.01	0.03	0.00	3.66	0.00	88.00	0.01	0.88	0.00
+TIGR00508	bioA	"adenosylmethionine-8-amino-7-oxononanoate transaminase"	1	0.01	66.73	0.00	0.00	0.00	0.15	0.00	66.54	0.01	0.04	0.00
+TIGR01173	glmU	"UDP-N-acetylglucosamine diphosphorylase/glucosamine-1-phosphate N-acetyltransferase"	2	0.02	266.96	0.02	2.49	0.00	0.66	0.00	263.11	0.03	0.70	0.00
+TIGR02154	PhoB	"phosphate regulon transcriptional regulatory protein PhoB"	1	0.01	42.14	0.00	0.24	0.00	16.39	0.01	23.21	0.00	2.31	0.00
+TIGR02027	rpoA	"DNA-directed RNA polymerase, alpha subunit"	2	0.02	1827.19	0.12	325.55	0.25	585.18	0.27	25.72	0.00	890.74	0.29
+TIGR02246	TIGR02246	"conserved hypothetical protein"	1	0.01	49.61	0.00	0.56	0.00	18.40	0.01	27.66	0.00	2.99	0.00
+TIGR03039	PS_II_CP47	"photosystem II chlorophyll-binding protein CP47"	1	0.01	1814.06	0.12	325.55	0.25	585.16	0.27	14.02	0.00	889.33	0.29
+TIGR02209	ftsL_broad	"cell division protein FtsL"	2	0.02	53.88	0.00	2.62	0.00	0.00	0.00	51.15	0.01	0.10	0.00
+TIGR01128	holA	"DNA polymerase III, delta subunit"	3	0.03	179.04	0.01	2.37	0.00	0.17	0.00	176.41	0.02	0.10	0.00
+TIGR00149	TIGR00149_YjbQ	"secondary thiamine-phosphate synthase enzyme"	3	0.03	143.35	0.01	0.23	0.00	0.16	0.00	142.78	0.02	0.18	0.00
+TIGR00679	hpr-ser	"HPr(Ser) kinase/phosphatase"	1	0.01	49.69	0.00	2.47	0.00	0.00	0.00	47.19	0.01	0.04	0.00
+TIGR00143	hypF	"carbamoyltransferase HypF"	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+TIGR02813	omega_3_PfaA	"polyketide-type polyunsaturated fatty acid synthase PfaA"	1	0.01	71.59	0.00	0.00	0.00	0.01	0.00	71.56	0.01	0.02	0.00
+TIGR04488	SoxY_true_GGCGG	"thiosulfate oxidation carrier protein SoxY"	1	0.01	209.74	0.01	0.01	0.00	0.50	0.00	208.87	0.02	0.36	0.00
+TIGR01050	rpsS_bact	"ribosomal protein uS19"	1	0.01	1814.06	0.12	325.55	0.25	585.16	0.27	14.02	0.00	889.33	0.29
+TIGR01727	oligo_HPY	"oligopeptide/dipeptide ABC transporter, ATP-binding protein, C-terminal domain"	14	0.13	1316.00	0.08	3.00	0.00	10.07	0.00	1298.43	0.14	4.50	0.00
+TIGR02009	PGMB-YQAB-SF	"beta-phosphoglucomutase family hydrolase"	2	0.02	99.58	0.01	0.12	0.00	0.12	0.00	99.24	0.01	0.09	0.00
+TIGR01125	TIGR01125	"ribosomal protein S12 methylthiotransferase RimO"	3	0.03	98.36	0.01	7.20	0.01	1.05	0.00	86.63	0.01	3.48	0.00
+TIGR00078	nadC	"nicotinate-nucleotide diphosphorylase (carboxylating)"	3	0.03	311.62	0.02	0.01	0.00	0.67	0.00	309.01	0.03	1.94	0.00
+TIGR00401	msrA	"peptide-methionine (S)-S-oxide reductase"	8	0.08	2216.13	0.14	306.32	0.24	594.32	0.28	415.36	0.05	900.13	0.30
+TIGR01980	sufB	"FeS assembly protein SufB"	3	0.03	230.04	0.01	0.01	0.00	0.44	0.00	229.17	0.02	0.41	0.00
+TIGR04399	acc_Sec_SLAP	"accessory Sec system S-layer assembly protein"	1	0.01	105.89	0.01	7.76	0.01	0.08	0.00	97.75	0.01	0.29	0.00
+TIGR00758	UDG_fam4	"uracil-DNA glycosylase, family 4"	1	0.01	36.00	0.00	0.85	0.00	0.07	0.00	34.84	0.00	0.24	0.00
+TIGR00813	sss	"transporter, solute:sodium symporter (SSS) family"	5	0.05	130.53	0.01	0.47	0.00	0.41	0.00	128.06	0.01	1.59	0.00
+TIGR00551	nadB	"L-aspartate oxidase"	1	0.01	13.71	0.00	0.00	0.00	0.01	0.00	12.23	0.00	1.46	0.00
+TIGR00952	S15_bact	"ribosomal protein uS15"	4	0.04	210.85	0.01	10.25	0.01	3.84	0.00	195.69	0.02	1.07	0.00
+TIGR02533	type_II_gspE	"type II secretion system protein E"	1	0.01	66.58	0.00	0.06	0.00	0.34	0.00	65.19	0.01	0.98	0.00
+TIGR02204	MsbA_rel	"ABC transporter, permease/ATP-binding protein"	1	0.01	195.59	0.01	0.01	0.00	0.42	0.00	194.83	0.02	0.33	0.00
+TIGR00442	hisS	"histidine--tRNA ligase"	2	0.02	95.70	0.01	2.40	0.00	0.13	0.00	93.05	0.01	0.12	0.00
+TIGR02024	FtcD	"glutamate formiminotransferase"	1	0.01	13.13	0.00	0.00	0.00	0.02	0.00	11.70	0.00	1.41	0.00
+TIGR01214	rmlD	"dTDP-4-dehydrorhamnose reductase"	3	0.03	321.56	0.02	0.05	0.00	0.87	0.00	319.92	0.03	0.72	0.00
+TIGR00378	cax	"calcium/proton exchanger"	1	0.01	69.50	0.00	0.00	0.00	0.02	0.00	69.46	0.01	0.02	0.00
+TIGR03426	shape_MreD	"rod shape-determining protein MreD"	2	0.02	114.80	0.01	2.37	0.00	0.01	0.00	112.37	0.01	0.05	0.00
+TIGR00010	TIGR00010	"hydrolase, TatD family"	4	0.04	367.95	0.02	2.61	0.00	16.85	0.01	345.79	0.04	2.70	0.00
+TIGR00313	cobQ	"cobyric acid synthase CobQ"	1	0.01	221.14	0.01	0.01	0.00	0.48	0.00	220.28	0.02	0.38	0.00
+TIGR01354	cyt_deam_tetra	"cytidine deaminase"	2	0.02	62.26	0.00	1.03	0.00	0.15	0.00	60.81	0.01	0.27	0.00
+TIGR01058	parE_Gpos	"DNA topoisomerase IV, B subunit"	1	0.01	78.70	0.01	7.86	0.01	0.06	0.00	70.54	0.01	0.25	0.00
+TIGR02226	two_anch	"N-terminal double-transmembrane domain"	3	0.03	234.66	0.01	0.03	0.00	3.98	0.00	228.06	0.02	2.58	0.00
+TIGR00215	lpxB	"lipid-A-disaccharide synthase"	1	0.01	27.20	0.00	9.77	0.01	1.08	0.00	13.70	0.00	2.65	0.00
+TIGR02219	phage_NlpC_fam	"putative phage cell wall peptidase, NlpC/P60 family"	1	0.01	216.75	0.01	0.12	0.00	0.65	0.00	215.33	0.02	0.66	0.00
+TIGR01391	dnaG	"DNA primase"	3	0.03	63.79	0.00	0.15	0.00	3.46	0.00	57.93	0.01	2.26	0.00
+TIGR00169	leuB	"3-isopropylmalate dehydrogenase"	1	0.01	21.31	0.00	0.00	0.00	0.00	0.00	21.31	0.00	0.01	0.00
+TIGR00228	ruvC	"crossover junction endodeoxyribonuclease RuvC"	2	0.02	55.21	0.00	1.21	0.00	0.30	0.00	52.08	0.01	1.62	0.00
+TIGR03181	PDH_E1_alph_x	"pyruvate dehydrogenase (acetyl-transferring) E1 component, alpha subunit"	2	0.02	66.20	0.00	2.48	0.00	0.14	0.00	63.42	0.01	0.16	0.00
+TIGR04122	Xnuc_lig_assoc	"putative exonuclease, DNA ligase-associated"	1	0.01	221.14	0.01	0.01	0.00	0.48	0.00	220.28	0.02	0.38	0.00
+TIGR01915	npdG	"NADPH-dependent F420 reductase"	1	0.01	13.57	0.00	0.23	0.00	0.01	0.00	13.23	0.00	0.10	0.00
+TIGR00498	lexA	"repressor LexA"	6	0.06	263.85	0.02	11.16	0.01	3.59	0.00	247.85	0.03	1.26	0.00
+TIGR01182	eda	"2-dehydro-3-deoxyphosphogluconate aldolase/4-hydroxy-2-oxoglutarate aldolase"	1	0.01	13.70	0.00	0.20	0.00	0.00	0.00	13.45	0.00	0.04	0.00
+TIGR00492	alr	"alanine racemase"	2	0.02	111.30	0.01	0.91	0.00	0.06	0.00	110.14	0.01	0.19	0.00
+TIGR03598	GTPase_YsxC	"ribosome biogenesis GTP-binding protein YsxC"	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+TIGR01525	ATPase-IB_hvy	"heavy metal translocating P-type ATPase"	3	0.03	166.88	0.01	0.01	0.00	0.06	0.00	166.76	0.02	0.06	0.00
+TIGR01443	intein_Cterm	"intein C-terminal splicing region"	1	0.01	34.27	0.00	0.00	0.00	0.00	0.00	34.26	0.00	0.00	0.00
+TIGR00741	yfiA	"ribosomal subunit interface protein"	6	0.06	183.41	0.01	20.36	0.02	1.63	0.00	158.31	0.02	3.11	0.00
+TIGR01916	F420_cofE	"coenzyme F420-0:L-glutamate ligase"	2	0.02	41.21	0.00	0.48	0.00	0.17	0.00	40.35	0.00	0.21	0.00
+TIGR00218	manA	"mannose-6-phosphate isomerase, class I"	1	0.01	25.03	0.00	0.13	0.00	0.10	0.00	24.72	0.00	0.09	0.00
+TIGR00147	TIGR00147	"lipid kinase, YegS/Rv2252/BmrU family"	2	0.02	112.11	0.01	4.85	0.00	3.57	0.00	103.25	0.01	0.44	0.00
+TIGR00041	DTMP_kinase	"dTMP kinase"	6	0.06	403.84	0.03	21.13	0.02	35.90	0.02	325.53	0.04	21.28	0.01
+TIGR02778	ligD_pol	"DNA ligase D, polymerase domain"	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+TIGR01353	dGTP_triPase	"putative dGTPase"	3	0.03	262.32	0.02	0.01	0.00	0.42	0.00	261.55	0.03	0.34	0.00
+TIGR00780	ccoN	"cytochrome c oxidase, cbb3-type, subunit I"	1	0.01	28.95	0.00	9.91	0.01	1.36	0.00	14.98	0.00	2.70	0.00
+TIGR00658	orni_carb_tr	"ornithine carbamoyltransferase"	4	0.04	169.92	0.01	13.18	0.01	7.28	0.00	147.84	0.02	1.62	0.00
+TIGR01613	primase_Cterm	"phage/plasmid primase, P4 family, C-terminal domain"	1	0.01	37.23	0.00	0.91	0.00	0.06	0.00	36.09	0.00	0.18	0.00
+TIGR01972	NDH_I_M	"proton-translocating NADH-quinone oxidoreductase, chain M"	4	0.04	1061.82	0.07	0.93	0.00	0.81	0.00	1058.36	0.12	1.72	0.00
+TIGR02414	pepN_proteo	"aminopeptidase N"	2	0.02	108.87	0.01	0.24	0.00	16.54	0.01	89.74	0.01	2.34	0.00
+TIGR00436	era	"GTP-binding protein Era"	8	0.08	529.72	0.03	16.35	0.01	11.19	0.01	498.19	0.05	4.00	0.00
+TIGR00666	PBP4	"D-alanyl-D-alanine carboxypeptidase/D-alanyl-D-alanine-endopeptidase"	1	0.01	195.59	0.01	0.01	0.00	0.42	0.00	194.83	0.02	0.33	0.00
+TIGR00854	pts-sorbose	"PTS system, mannose/fructose/sorbose family, IIB component"	2	0.02	84.38	0.01	4.53	0.00	0.01	0.00	79.78	0.01	0.07	0.00
+TIGR00459	aspS_bact	"aspartate--tRNA ligase"	3	0.03	312.08	0.02	2.38	0.00	0.80	0.00	308.18	0.03	0.72	0.00
+TIGR02135	phoU_full	"phosphate transport system regulatory protein PhoU"	2	0.02	55.63	0.00	0.24	0.00	16.40	0.01	35.15	0.00	3.84	0.00
+TIGR00611	recf	"DNA replication and repair protein RecF"	2	0.02	38.83	0.00	0.12	0.00	0.12	0.00	37.08	0.00	1.51	0.00
+TIGR00554	panK_bact	"pantothenate kinase"	1	0.01	49.69	0.00	2.47	0.00	0.00	0.00	47.19	0.01	0.04	0.00
+TIGR02348	GroEL	"chaperonin GroL"	1	0.01	217.06	0.01	0.01	0.00	0.47	0.00	216.16	0.02	0.42	0.00
+TIGR01910	DapE-ArgE	"peptidase, ArgE/DapE family"	1	0.01	10.01	0.00	0.00	0.00	0.00	0.00	10.00	0.00	0.02	0.00
+TIGR00788	fbt	"folate/biopterin transporter"	1	0.01	72.05	0.00	0.00	0.00	0.03	0.00	72.00	0.01	0.02	0.00
+TIGR01285	nifN	"nitrogenase molybdenum-iron cofactor biosynthesis protein NifN"	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+TIGR02776	NHEJ_ligase_prk	"DNA ligase D"	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+TIGR03595	Obg_CgtA_exten	"Obg family GTPase CgtA, C-terminal extension"	2	0.02	132.12	0.01	2.69	0.00	0.61	0.00	128.34	0.01	0.47	0.00
+TIGR04508	queE_Cx14CxxC	"7-carboxy-7-deazaguanine synthase"	1	0.01	21.31	0.00	0.00	0.00	0.00	0.00	21.31	0.00	0.01	0.00
+TIGR04018	Bthiol_YpdA	"putative bacillithiol system oxidoreductase, YpdA family"	2	0.02	115.54	0.01	18.04	0.01	1.41	0.00	93.15	0.01	2.94	0.00
+TIGR00836	amt	"ammonium transporter"	2	0.02	148.21	0.01	7.86	0.01	0.07	0.00	140.00	0.02	0.27	0.00
+TIGR03438	egtD_ergothio	"dimethylhistidine N-methyltransferase"	3	0.03	1888.92	0.12	325.55	0.25	585.32	0.27	87.24	0.01	890.80	0.29
+TIGR00474	selA	"L-seryl-tRNA(Sec) selenium transferase"	1	0.01	78.70	0.01	7.86	0.01	0.06	0.00	70.54	0.01	0.25	0.00
+TIGR00302	TIGR00302	"phosphoribosylformylglycinamidine synthase, purS protein"	1	0.01	37.23	0.00	0.91	0.00	0.06	0.00	36.09	0.00	0.18	0.00
+TIGR03491	TIGR03491	"putative RecB family nuclease, TM0106 family"	1	0.01	17.44	0.00	0.00	0.00	0.01	0.00	17.42	0.00	0.01	0.00
+TIGR00247	TIGR00247	"conserved hypothetical protein, YceG family"	2	0.02	95.70	0.01	2.40	0.00	0.13	0.00	93.05	0.01	0.12	0.00
+TIGR04020	seco_metab_LLM	"natural product biosynthesis luciferase-like monooxygenase domain"	3	0.03	301.68	0.02	0.59	0.00	22.40	0.01	274.48	0.03	4.21	0.00
+TIGR00033	aroC	"chorismate synthase"	3	0.03	272.61	0.02	0.04	0.00	0.50	0.00	271.67	0.03	0.40	0.00
+TIGR02242	tail_TIGR02242	"phage tail protein domain"	1	0.01	24.70	0.00	0.10	0.00	0.07	0.00	24.44	0.00	0.09	0.00
+TIGR00959	ffh	"signal recognition particle protein"	5	0.05	342.65	0.02	12.11	0.01	44.12	0.02	227.40	0.02	59.02	0.02
+TIGR00393	kpsF	"sugar isomerase, KpsF/GutQ family"	1	0.01	40.10	0.00	0.00	0.00	0.00	0.00	40.10	0.00	0.00	0.00
+TIGR03544	DivI1A_domain	"DivIVA domain"	3	0.03	156.66	0.01	11.14	0.01	0.12	0.00	144.94	0.02	0.46	0.00
+TIGR03824	FlgM_jcvi	"flagellar biosynthesis anti-sigma factor FlgM"	1	0.01	23.81	0.00	0.00	0.00	0.00	0.00	23.81	0.00	0.00	0.00
+TIGR00550	nadA	"quinolinate synthetase complex, A subunit"	3	0.03	315.76	0.02	0.01	0.00	0.54	0.00	313.34	0.03	1.88	0.00
+TIGR02787	codY_Gpos	"GTP-sensing transcriptional pleiotropic repressor CodY"	1	0.01	78.70	0.01	7.86	0.01	0.06	0.00	70.54	0.01	0.25	0.00
+TIGR00252	TIGR00252	"TIGR00252 family protein"	2	0.02	1742.85	0.11	298.67	0.23	563.99	0.26	27.05	0.00	853.15	0.28
+TIGR01821	5aminolev_synth	"5-aminolevulinic acid synthase"	1	0.01	209.74	0.01	0.01	0.00	0.50	0.00	208.87	0.02	0.36	0.00
+TIGR02773	addB_Gpos	"helicase-exonuclease AddAB, AddB subunit"	1	0.01	78.70	0.01	7.86	0.01	0.06	0.00	70.54	0.01	0.25	0.00
+TIGR04485	thiosulf_SoxX	"sulfur oxidation c-type cytochrome SoxX"	2	0.02	222.89	0.01	0.27	0.00	0.50	0.00	221.70	0.02	0.42	0.00
+TIGR02118	TIGR02118	"conserved hypothetical protein"	1	0.01	27.64	0.00	0.26	0.00	0.16	0.00	27.12	0.00	0.10	0.00
+TIGR01357	aroB	"3-dehydroquinate synthase"	1	0.01	196.45	0.01	0.00	0.00	0.40	0.00	195.69	0.02	0.35	0.00
+TIGR00621	ssb	"single-stranded DNA-binding protein"	7	0.07	272.89	0.02	0.17	0.00	3.71	0.00	266.66	0.03	2.36	0.00
+TIGR02121	Na_Pro_sym	"sodium/proline symporter"	3	0.03	103.65	0.01	0.23	0.00	0.15	0.00	103.12	0.01	0.15	0.00
+TIGR00915	2A0602	"RND transporter, hydrophobe/amphiphile efflux-1 (HAE1) family"	1	0.01	72.73	0.00	0.00	0.00	0.02	0.00	72.68	0.01	0.03	0.00
+TIGR00066	g_glut_trans	"gamma-glutamyltransferase"	4	0.04	1908.10	0.12	325.57	0.25	585.53	0.27	106.31	0.01	890.70	0.29
+TIGR01954	nusA_Cterm_rpt	"transcription termination factor NusA, C-terminal duplication"	2	0.02	96.06	0.01	0.03	0.00	3.79	0.00	91.43	0.01	0.82	0.00
+TIGR02094	more_P_ylases	"alpha-glucan phosphorylases"	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+TIGR03646	YtoQ_fam	"YtoQ family protein"	1	0.01	190.91	0.01	0.01	0.00	0.44	0.00	190.05	0.02	0.40	0.00
+TIGR03949	bact_IIb_cerein	"class IIb bacteriocin, lactobin A/cerein 7B family"	1	0.01	71.59	0.00	0.00	0.00	0.01	0.00	71.56	0.01	0.02	0.00
+TIGR03857	F420_MSMEG_2249	"probable F420-dependent oxidoreductase, MSMEG_2249 family"	1	0.01	13.34	0.00	0.21	0.00	0.03	0.00	13.00	0.00	0.10	0.00
+TIGR03838	queuosine_YadB	"glutamyl-queuosine tRNA(Asp) synthetase"	1	0.01	59.41	0.00	0.00	0.00	0.12	0.00	59.27	0.01	0.02	0.00
+TIGR01444	fkbM_fam	"methyltransferase, FkbM family"	3	0.03	356.13	0.02	0.63	0.00	17.67	0.01	334.66	0.04	3.18	0.00
+TIGR02970	succ_dehyd_cytB	"succinate dehydrogenase, cytochrome b556 subunit"	2	0.02	247.68	0.02	0.14	0.00	4.17	0.00	241.87	0.03	1.50	0.00
+TIGR00453	ispD	"2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase"	3	0.03	269.37	0.02	5.92	0.00	0.76	0.00	261.61	0.03	1.09	0.00
+TIGR01829	AcAcCoA_reduct	"acetoacetyl-CoA reductase"	1	0.01	25.63	0.00	0.02	0.00	3.34	0.00	21.51	0.00	0.75	0.00
+TIGR03830	CxxCG_CxxCG_HTH	"putative zinc finger/helix-turn-helix protein, YgiT family"	2	0.02	106.64	0.01	0.00	0.00	0.02	0.00	106.60	0.01	0.03	0.00
+TIGR01099	galU	"UTP--glucose-1-phosphate uridylyltransferase"	3	0.03	120.72	0.01	2.49	0.00	3.52	0.00	113.83	0.01	0.88	0.00
+TIGR03707	PPK2_P_aer	"polyphosphate kinase 2"	2	0.02	37.91	0.00	0.26	0.00	3.18	0.00	33.73	0.00	0.74	0.00
+TIGR02046	sdhC_b558_fam	"succinate dehydrogenase (or fumarate reductase) cytochrome b subunit, b558 family"	1	0.01	36.00	0.00	0.85	0.00	0.07	0.00	34.84	0.00	0.24	0.00
+TIGR01141	hisC	"histidinol-phosphate transaminase"	2	0.02	79.77	0.01	0.78	0.00	18.44	0.01	57.22	0.01	3.34	0.00
+TIGR01814	kynureninase	"kynureninase"	1	0.01	61.65	0.00	0.00	0.00	0.14	0.00	61.46	0.01	0.04	0.00
+TIGR02042	sir	"sulfite reductase, ferredoxin dependent"	1	0.01	72.80	0.00	0.00	0.00	0.01	0.00	72.76	0.01	0.02	0.00
+TIGR01476	chlor_syn_BchG	"bacteriochlorophyll/chlorophyll synthetase"	2	0.02	97.73	0.01	0.05	0.00	3.20	0.00	93.75	0.01	0.73	0.00
+TIGR00574	dnl1	"DNA ligase I, ATP-dependent (dnl1)"	1	0.01	25.47	0.00	0.12	0.00	0.14	0.00	25.10	0.00	0.12	0.00
+TIGR03719	ABC_ABC_ChvD	"ATP-binding cassette protein, ChvD family"	3	0.03	109.23	0.01	9.97	0.01	1.72	0.00	92.40	0.01	5.14	0.00
+TIGR03232	benzo_1_2_benB	"benzoate 1,2-dioxygenase, small subunit"	1	0.01	215.66	0.01	0.02	0.00	0.52	0.00	214.71	0.02	0.41	0.00
+TIGR01137	cysta_beta	"cystathionine beta-synthase"	1	0.01	27.64	0.00	0.26	0.00	0.16	0.00	27.12	0.00	0.10	0.00
+TIGR02470	sucr_synth	"sucrose synthase"	2	0.02	142.66	0.01	0.00	0.00	0.03	0.00	142.57	0.02	0.06	0.00
+TIGR01515	branching_enzym	"1,4-alpha-glucan branching enzyme"	3	0.03	156.89	0.01	1.48	0.00	16.69	0.01	136.12	0.01	2.60	0.00
+TIGR01735	FGAM_synt	"phosphoribosylformylglycinamidine synthase"	2	0.02	77.07	0.00	0.06	0.00	0.34	0.00	75.65	0.01	1.01	0.00
+TIGR03804	para_beta_helix	"parallel beta-helix repeat"	2	0.02	144.75	0.01	0.00	0.00	0.03	0.00	144.67	0.02	0.05	0.00
+TIGR02100	glgX_debranch	"glycogen debranching enzyme GlgX"	4	0.04	123.48	0.01	1.80	0.00	19.87	0.01	98.38	0.01	3.43	0.00
+TIGR01901	adhes_NPXG	"filamentous hemagglutinin family N-terminal domain"	1	0.01	13.57	0.00	0.23	0.00	0.01	0.00	13.23	0.00	0.10	0.00
+TIGR00486	YbgI_SA1388	"dinuclear metal center protein, YbgI/SA1388 family"	2	0.02	90.61	0.01	20.85	0.02	18.94	0.01	31.99	0.00	18.81	0.01
+TIGR03534	RF_mod_PrmC	"protein-(glutamine-N5) methyltransferase, release factor-specific"	4	0.04	132.76	0.01	0.00	0.00	0.14	0.00	131.17	0.01	1.44	0.00
+TIGR00419	tim	"triose-phosphate isomerase"	4	0.04	363.27	0.02	5.78	0.00	4.33	0.00	351.16	0.04	2.01	0.00
+TIGR00044	TIGR00044	"pyridoxal phosphate enzyme, YggS family"	2	0.02	258.37	0.02	0.91	0.00	0.53	0.00	256.37	0.03	0.55	0.00
+TIGR02156	PA_CoA_Oxy1	"phenylacetate-CoA oxygenase, PaaG subunit"	1	0.01	27.05	0.00	0.01	0.00	3.50	0.00	22.65	0.00	0.88	0.00
+TIGR00135	gatC	"aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase, C subunit"	3	0.03	162.17	0.01	10.56	0.01	18.22	0.01	127.86	0.01	5.53	0.00
+TIGR00586	mutt	"mutator mutT protein"	1	0.01	1814.06	0.12	325.55	0.25	585.16	0.27	14.02	0.00	889.33	0.29
+TIGR02504	NrdJ_Z	"ribonucleoside-diphosphate reductase, adenosylcobalamin-dependent"	3	0.03	163.45	0.01	8.13	0.01	0.18	0.00	154.87	0.02	0.27	0.00
+TIGR00968	3a0106s01	"sulfate ABC transporter, ATP-binding protein"	1	0.01	21.24	0.00	0.00	0.00	0.00	0.00	21.23	0.00	0.00	0.00
+TIGR00634	recN	"DNA repair protein RecN"	7	0.07	465.29	0.03	13.00	0.01	7.50	0.00	442.98	0.05	1.81	0.00
+TIGR01273	speA	"arginine decarboxylase"	2	0.02	81.70	0.01	0.00	0.00	0.15	0.00	80.05	0.01	1.50	0.00
+TIGR01302	IMP_dehydrog	"inosine-5'-monophosphate dehydrogenase"	2	0.02	204.12	0.01	0.01	0.00	0.43	0.00	202.02	0.02	1.67	0.00
+TIGR01349	PDHac_trf_mito	"pyruvate dehydrogenase complex dihydrolipoamide acetyltransferase"	2	0.02	41.59	0.00	10.00	0.01	1.27	0.00	25.94	0.00	4.39	0.00
+TIGR02075	pyrH_bact	"UMP kinase"	2	0.02	119.43	0.01	10.23	0.01	0.06	0.00	108.85	0.01	0.29	0.00
+TIGR01783	TonB-siderophor	"TonB-dependent siderophore receptor"	3	0.03	100.26	0.01	0.47	0.00	0.04	0.00	99.54	0.01	0.21	0.00
+TIGR01416	Rieske_proteo	"ubiquinol-cytochrome c reductase, iron-sulfur subunit"	2	0.02	215.95	0.01	0.26	0.00	0.43	0.00	214.87	0.02	0.39	0.00
+TIGR02802	Pal_lipo	"peptidoglycan-associated lipoprotein"	1	0.01	13.13	0.00	0.00	0.00	0.02	0.00	11.70	0.00	1.41	0.00
+TIGR02398	gluc_glyc_Psyn	"glucosylglycerol-phosphate synthase"	3	0.03	263.82	0.02	0.43	0.00	17.14	0.01	243.51	0.03	2.74	0.00
+TIGR01051	topA_bact	"DNA topoisomerase I"	2	0.02	295.76	0.02	7.87	0.01	0.53	0.00	286.69	0.03	0.67	0.00
+TIGR02678	TIGR02678	"TIGR02678 family protein"	1	0.01	89.86	0.01	0.35	0.00	0.52	0.00	88.59	0.01	0.41	0.00
+TIGR00282	TIGR00282	"metallophosphoesterase, MG_246/BB_0505 family"	2	0.02	119.43	0.01	10.23	0.01	0.06	0.00	108.85	0.01	0.29	0.00
+TIGR00088	trmD	"tRNA (guanine(37)-N(1))-methyltransferase"	3	0.03	102.06	0.01	0.04	0.00	4.00	0.00	95.88	0.01	2.14	0.00
+TIGR02181	GRX_bact	"glutaredoxin 3"	3	0.03	146.26	0.01	0.05	0.00	3.86	0.00	141.49	0.02	0.86	0.00
+TIGR02875	spore_0_A	"sporulation transcription factor Spo0A"	1	0.01	86.60	0.01	8.13	0.01	0.05	0.00	78.17	0.01	0.24	0.00
+TIGR04256	GxxExxY	"GxxExxY protein"	2	0.02	142.82	0.01	0.00	0.00	0.05	0.00	142.71	0.02	0.07	0.00
+TIGR00945	tatC	"twin arginine-targeting protein translocase TatC"	3	0.03	136.82	0.01	4.85	0.00	3.46	0.00	126.63	0.01	1.87	0.00
+TIGR00299	TIGR00299	"TIGR00299 family protein"	1	0.01	89.86	0.01	0.35	0.00	0.52	0.00	88.59	0.01	0.41	0.00
+TIGR00688	rarD	"protein RarD"	3	0.03	235.78	0.02	0.23	0.00	3.75	0.00	230.66	0.03	1.14	0.00
+TIGR00180	parB_part	"ParB/RepB/Spo0J family partition protein"	3	0.03	70.33	0.00	0.14	0.00	3.64	0.00	63.92	0.01	2.63	0.00
+TIGR03081	metmalonyl_epim	"methylmalonyl-CoA epimerase"	2	0.02	291.23	0.02	8.14	0.01	0.70	0.00	281.50	0.03	0.89	0.00
+TIGR04093	cas1_CYANO	"CRISPR-associated endonuclease Cas1, subtype CYANO"	1	0.01	72.80	0.00	0.00	0.00	0.01	0.00	72.76	0.01	0.02	0.00
+TIGR04283	glyco_like_mftF	"transferase 2, rSAM/selenodomain-associated"	1	0.01	12.82	0.00	0.00	0.00	0.02	0.00	11.46	0.00	1.33	0.00
+TIGR03801	asp_4_decarbox	"aspartate 4-decarboxylase"	1	0.01	50.21	0.00	2.37	0.00	0.01	0.00	47.79	0.01	0.04	0.00
+TIGR00540	TPR_hemY_coli	"heme biosynthesis-associated TPR protein"	1	0.01	13.34	0.00	0.21	0.00	0.03	0.00	13.00	0.00	0.10	0.00
+TIGR01710	typeII_sec_gspG	"type II secretion system protein G"	2	0.02	133.31	0.01	0.07	0.00	0.49	0.00	131.73	0.01	1.02	0.00
+TIGR01258	pgm_1	"phosphoglycerate mutase 1 family"	1	0.01	50.96	0.00	4.85	0.00	3.43	0.00	42.25	0.00	0.43	0.00
+TIGR00431	TruB	"tRNA pseudouridine(55) synthase"	5	0.05	1993.11	0.13	300.70	0.23	587.60	0.27	205.16	0.02	899.65	0.30
+TIGR02422	protocat_beta	"protocatechuate 3,4-dioxygenase, beta subunit"	1	0.01	25.63	0.00	0.02	0.00	3.34	0.00	21.51	0.00	0.75	0.00
+TIGR00119	acolac_sm	"acetolactate synthase, small subunit"	3	0.03	110.68	0.01	0.32	0.00	1.48	0.00	107.61	0.01	1.27	0.00
+TIGR01717	AMP-nucleosdse	"AMP nucleosidase"	1	0.01	28.60	0.00	0.03	0.00	3.93	0.00	23.76	0.00	0.88	0.00
+TIGR00105	L31	"ribosomal protein bL31"	3	0.03	1856.52	0.12	325.57	0.25	588.82	0.27	50.62	0.01	891.52	0.29
+TIGR01311	glycerol_kin	"glycerol kinase"	4	0.04	299.97	0.02	12.15	0.01	1.61	0.00	281.82	0.03	4.39	0.00
+TIGR00095	TIGR00095	"16S rRNA (guanine(966)-N(2))-methyltransferase RsmD"	4	0.04	308.86	0.02	2.37	0.00	0.56	0.00	304.12	0.03	1.81	0.00
+TIGR01927	menC_gamma/gm+	"o-succinylbenzoate synthase"	1	0.01	73.16	0.00	0.00	0.00	0.01	0.00	73.10	0.01	0.04	0.00
+TIGR01513	NAPRTase_put	"nicotinate phosphoribosyltransferase"	2	0.02	63.40	0.00	2.47	0.00	0.01	0.00	59.42	0.01	1.50	0.00
+TIGR01981	sufD	"FeS assembly protein SufD"	2	0.02	39.13	0.00	0.00	0.00	0.00	0.00	39.12	0.00	0.01	0.00
+TIGR01673	holin_LLH	"phage holin, LL-H family"	1	0.01	34.27	0.00	0.00	0.00	0.00	0.00	34.26	0.00	0.00	0.00
+TIGR01235	pyruv_carbox	"pyruvate carboxylase"	3	0.03	337.96	0.02	2.70	0.00	1.01	0.00	333.39	0.04	0.86	0.00
+TIGR02432	lysidine_TilS_N	"tRNA(Ile)-lysidine synthetase"	3	0.03	146.85	0.01	3.28	0.00	0.19	0.00	143.15	0.02	0.24	0.00
+TIGR00079	pept_deformyl	"peptide deformylase"	9	0.09	689.80	0.04	9.92	0.01	8.29	0.00	667.61	0.07	3.97	0.00
+TIGR01196	edd	"phosphogluconate dehydratase"	2	0.02	52.68	0.00	0.20	0.00	0.00	0.00	52.43	0.01	0.05	0.00
+TIGR01395	FlgC	"flagellar basal-body rod protein FlgC"	1	0.01	23.81	0.00	0.00	0.00	0.00	0.00	23.81	0.00	0.00	0.00
+TIGR02939	RpoE_Sigma70	"RNA polymerase sigma factor RpoE"	1	0.01	55.78	0.00	0.03	0.00	0.08	0.00	55.60	0.01	0.06	0.00
+TIGR00652	DapF	"diaminopimelate epimerase"	2	0.02	208.93	0.01	0.22	0.00	0.45	0.00	207.84	0.02	0.43	0.00
+TIGR02978	phageshock_pspC	"phage shock protein C"	2	0.02	116.93	0.01	0.03	0.00	0.23	0.00	116.60	0.01	0.08	0.00
+TIGR04012	poly_gGlu_PgsB	"poly-gamma-glutamate synthase PgsB"	1	0.01	25.40	0.00	0.12	0.00	0.10	0.00	25.07	0.00	0.11	0.00
+TIGR00667	aat	"leucyl/phenylalanyl-tRNA--protein transferase"	3	0.03	165.84	0.01	5.15	0.00	20.07	0.01	137.87	0.02	2.75	0.00
+TIGR04490	SoxZ_true	"thiosulfate oxidation carrier complex protein SoxZ"	2	0.02	222.89	0.01	0.27	0.00	0.50	0.00	221.70	0.02	0.42	0.00
+TIGR01254	sfuA	"ABC transporter periplasmic binding protein, thiB subfamily"	1	0.01	195.59	0.01	0.01	0.00	0.42	0.00	194.83	0.02	0.33	0.00
+TIGR00858	bioF	"8-amino-7-oxononanoate synthase"	1	0.01	78.70	0.01	7.86	0.01	0.06	0.00	70.54	0.01	0.25	0.00
+TIGR03182	PDH_E1_alph_y	"pyruvate dehydrogenase (acetyl-transferring) E1 component, alpha subunit"	2	0.02	50.98	0.00	0.78	0.00	0.06	0.00	48.27	0.01	1.87	0.00
+TIGR03229	benzo_1_2_benA	"benzoate 1,2-dioxygenase, large subunit"	1	0.01	215.66	0.01	0.02	0.00	0.52	0.00	214.71	0.02	0.41	0.00
+TIGR02748	GerC3_HepT	"heptaprenyl diphosphate synthase component II"	1	0.01	86.60	0.01	8.13	0.01	0.05	0.00	78.17	0.01	0.24	0.00
+TIGR01396	FlgB	"flagellar basal-body rod protein FlgB"	1	0.01	23.81	0.00	0.00	0.00	0.00	0.00	23.81	0.00	0.00	0.00
+TIGR02425	decarb_PcaC	"4-carboxymuconolactone decarboxylase"	2	0.02	54.73	0.00	0.02	0.00	3.62	0.00	50.27	0.01	0.82	0.00
+TIGR02402	trehalose_TreZ	"malto-oligosyltrehalose trehalohydrolase"	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+TIGR00287	cas1	"CRISPR-associated endonuclease Cas1"	1	0.01	72.80	0.00	0.00	0.00	0.01	0.00	72.76	0.01	0.02	0.00
+TIGR02157	PA_CoA_Oxy2	"phenylacetate-CoA oxygenase, PaaH subunit"	1	0.01	27.05	0.00	0.01	0.00	3.50	0.00	22.65	0.00	0.88	0.00
+TIGR00457	asnS	"asparagine--tRNA ligase"	2	0.02	50.99	0.00	1.18	0.00	0.08	0.00	49.41	0.01	0.32	0.00
+TIGR00644	recJ	"single-stranded-DNA-specific exonuclease RecJ"	5	0.05	1964.10	0.13	285.35	0.22	587.26	0.27	191.78	0.02	899.71	0.30
+TIGR01536	asn_synth_AEB	"asparagine synthase (glutamine-hydrolyzing)"	1	0.01	28.60	0.00	0.03	0.00	3.93	0.00	23.76	0.00	0.88	0.00
+TIGR00109	hemH	"ferrochelatase"	2	0.02	42.82	0.00	0.02	0.00	3.65	0.00	36.84	0.00	2.31	0.00
+TIGR04265	bac_cardiolipin	"cardiolipin synthase"	5	0.05	404.89	0.03	12.61	0.01	0.71	0.00	390.59	0.04	0.98	0.00
+TIGR02280	PaaB1	"phenylacetate degradation probable enoyl-CoA hydratase PaaB"	1	0.01	27.05	0.00	0.01	0.00	3.50	0.00	22.65	0.00	0.88	0.00
+TIGR00708	cobA	"cob(I)yrinic acid a,c-diamide adenosyltransferase"	1	0.01	221.14	0.01	0.01	0.00	0.48	0.00	220.28	0.02	0.38	0.00
+TIGR00962	atpA	"ATP synthase F1, alpha subunit"	2	0.02	33.27	0.00	1.08	0.00	0.17	0.00	30.20	0.00	1.82	0.00
+TIGR02891	CtaD_CoxA	"cytochrome c oxidase, subunit I"	6	0.06	426.85	0.03	0.25	0.00	17.04	0.01	405.12	0.04	4.44	0.00
+TIGR01785	TonB-hemin	"TonB-dependent heme/hemoglobin receptor family protein"	1	0.01	13.57	0.00	0.23	0.00	0.01	0.00	13.23	0.00	0.10	0.00
+TIGR00810	secG	"preprotein translocase, SecG subunit"	4	0.04	349.13	0.02	5.77	0.00	4.26	0.00	337.12	0.04	1.98	0.00
+TIGR00341	TIGR00341	"TIGR00341 family protein"	1	0.01	72.80	0.00	0.00	0.00	0.01	0.00	72.76	0.01	0.02	0.00
+TIGR01134	purF	"amidophosphoribosyltransferase"	4	0.04	175.48	0.01	0.94	0.00	0.28	0.00	173.99	0.02	0.26	0.00
+TIGR00398	metG	"methionine--tRNA ligase"	3	0.03	255.00	0.02	2.38	0.00	0.42	0.00	250.28	0.03	1.91	0.00
+TIGR01460	HAD-SF-IIA	"HAD hydrolase, family IIA"	2	0.02	225.26	0.01	0.01	0.00	0.47	0.00	224.35	0.02	0.42	0.00
+TIGR01812	sdhA_frdA_Gneg	"succinate dehydrogenase or fumarate reductase, flavoprotein subunit"	2	0.02	247.68	0.02	0.14	0.00	4.17	0.00	241.87	0.03	1.50	0.00
+TIGR02786	addB_alphas	"double-strand break repair protein AddB"	1	0.01	209.74	0.01	0.01	0.00	0.50	0.00	208.87	0.02	0.36	0.00
+TIGR01203	HGPRTase	"hypoxanthine phosphoribosyltransferase"	3	0.03	304.19	0.02	3.39	0.00	0.72	0.00	299.21	0.03	0.87	0.00
+TIGR01003	PTS_HPr_family	"phosphocarrier, HPr family"	3	0.03	75.96	0.00	2.62	0.00	0.00	0.00	73.22	0.01	0.11	0.00
+TIGR01152	psbD	"photosystem II D2 protein (photosystem q(a) protein)"	1	0.01	72.05	0.00	0.00	0.00	0.03	0.00	72.00	0.01	0.02	0.00
+TIGR01979	sufS	"cysteine desulfurase, SufS family"	3	0.03	230.04	0.01	0.01	0.00	0.44	0.00	229.17	0.02	0.41	0.00
+TIGR00874	talAB	"transaldolase"	1	0.01	1783.23	0.11	282.94	0.22	587.09	0.27	15.03	0.00	898.17	0.30
+TIGR02451	anti_sig_ChrR	"anti-sigma factor, putative, ChrR family"	2	0.02	71.99	0.00	0.32	0.00	20.22	0.01	48.38	0.01	3.06	0.00
+TIGR03144	cytochr_II_ccsB	"cytochrome c-type biogenesis protein CcsB"	1	0.01	86.60	0.01	8.13	0.01	0.05	0.00	78.17	0.01	0.24	0.00
+TIGR00613	reco	"DNA repair protein RecO"	2	0.02	80.81	0.01	0.16	0.00	0.18	0.00	80.32	0.01	0.16	0.00
+TIGR00434	cysH	"phosophoadenylyl-sulfate reductase"	1	0.01	191.30	0.01	0.01	0.00	0.40	0.00	190.55	0.02	0.34	0.00
+TIGR00116	tsf	"translation elongation factor Ts"	3	0.03	310.73	0.02	10.23	0.01	0.46	0.00	299.41	0.03	0.63	0.00
+TIGR02644	Y_phosphoryl	"pyrimidine-nucleoside phosphorylase"	5	0.05	428.85	0.03	15.46	0.01	4.25	0.00	408.00	0.04	1.14	0.00
+TIGR04555	sulfite_DH_soxC	"sulfite dehydrogenase"	1	0.01	209.74	0.01	0.01	0.00	0.50	0.00	208.87	0.02	0.36	0.00
+TIGR01044	rplV_bact	"ribosomal protein uL22"	1	0.01	1814.06	0.12	325.55	0.25	585.16	0.27	14.02	0.00	889.33	0.29
+TIGR01394	TypA_BipA	"GTP-binding protein TypA/BipA"	5	0.05	365.62	0.02	10.47	0.01	16.91	0.01	333.86	0.04	4.38	0.00
+TIGR00409	proS_fam_II	"proline--tRNA ligase"	4	0.04	339.75	0.02	17.70	0.01	0.57	0.00	320.63	0.03	0.85	0.00
+TIGR00075	hypD	"hydrogenase expression/formation protein HypD"	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+TIGR01479	GMP_PMI	"mannose-1-phosphate guanylyltransferase/mannose-6-phosphate isomerase"	3	0.03	321.56	0.02	0.05	0.00	0.87	0.00	319.92	0.03	0.72	0.00
+TIGR00674	dapA	"4-hydroxy-tetrahydrodipicolinate synthase"	6	0.06	485.31	0.03	27.78	0.02	40.72	0.02	358.09	0.04	58.72	0.02
+TIGR02337	HpaR	"homoprotocatechuate degradation operon regulator, HpaR"	1	0.01	202.80	0.01	0.00	0.00	0.43	0.00	202.04	0.02	0.33	0.00
+TIGR00809	secB	"protein-export chaperone SecB"	2	0.02	88.75	0.01	0.02	0.00	3.75	0.00	84.17	0.01	0.80	0.00
+TIGR00635	ruvB	"Holliday junction DNA helicase RuvB"	2	0.02	82.62	0.01	3.55	0.00	0.06	0.00	78.69	0.01	0.32	0.00
+TIGR02733	desat_CrtD	"C-3',4' desaturase CrtD"	1	0.01	72.80	0.00	0.00	0.00	0.01	0.00	72.76	0.01	0.02	0.00
+TIGR00255	TIGR00255	"TIGR00255 family protein"	3	0.03	288.07	0.02	18.25	0.01	3.33	0.00	260.05	0.03	6.43	0.00
+TIGR00657	asp_kinases	"aspartate kinase"	4	0.04	323.76	0.02	17.80	0.01	2.09	0.00	299.26	0.03	4.61	0.00
+TIGR01236	D1pyr5carbox1	"1-pyrroline-5-carboxylate dehydrogenase"	1	0.01	13.49	0.00	0.00	0.00	0.01	0.00	11.94	0.00	1.53	0.00
+TIGR02378	nirD_assim_sml	"nitrite reductase [NAD(P)H], small subunit"	1	0.01	204.63	0.01	0.01	0.00	0.65	0.00	203.32	0.02	0.64	0.00
+TIGR00110	ilvD	"dihydroxy-acid dehydratase"	2	0.02	101.50	0.01	0.02	0.00	3.65	0.00	97.04	0.01	0.79	0.00
+TIGR01484	HAD-SF-IIB	"HAD hydrolase, family IIB"	12	0.12	713.09	0.05	26.12	0.02	17.33	0.01	666.15	0.07	3.49	0.00
+TIGR01344	malate_syn_A	"malate synthase A"	1	0.01	59.33	0.00	0.00	0.00	0.11	0.00	59.17	0.01	0.04	0.00
+TIGR03625	L3_bact	"50S ribosomal protein uL3"	1	0.01	1814.06	0.12	325.55	0.25	585.16	0.27	14.02	0.00	889.33	0.29
+TIGR04409	LptC_YrbK	"LPS export ABC transporter periplasmic protein LptC"	1	0.01	13.15	0.00	0.26	0.00	0.00	0.00	12.83	0.00	0.06	0.00
+TIGR01191	ccmC	"heme exporter protein CcmC"	1	0.01	61.65	0.00	0.00	0.00	0.14	0.00	61.46	0.01	0.04	0.00
+TIGR00067	glut_race	"glutamate racemase"	1	0.01	74.07	0.00	0.00	0.00	0.01	0.00	74.05	0.01	0.01	0.00
+TIGR00051	TIGR00051	"acyl-CoA thioester hydrolase, YbgC/YbaW family"	3	0.03	155.96	0.01	10.25	0.01	3.57	0.00	140.98	0.02	1.17	0.00
+TIGR00338	serB	"phosphoserine phosphatase SerB"	1	0.01	217.06	0.01	0.01	0.00	0.47	0.00	216.16	0.02	0.42	0.00
+TIGR00745	apbA_panE	"2-dehydropantoate 2-reductase"	2	0.02	86.14	0.01	0.27	0.00	0.04	0.00	85.65	0.01	0.17	0.00
+TIGR03723	T6A_TsaD_YgjD	"tRNA threonylcarbamoyl adenosine modification protein TsaD"	4	0.04	318.39	0.02	0.03	0.00	0.69	0.00	315.91	0.03	1.76	0.00
+TIGR00137	gid_trmFO	"tRNA:m(5)U-54 methyltransferase"	1	0.01	74.07	0.00	0.00	0.00	0.01	0.00	74.05	0.01	0.01	0.00
+TIGR00631	uvrb	"excinuclease ABC subunit B"	4	0.04	165.96	0.01	7.22	0.01	3.59	0.00	153.26	0.02	1.89	0.00
+TIGR00587	nfo	"apurinic endonuclease (APN1)"	2	0.02	53.88	0.00	2.37	0.00	0.02	0.00	50.07	0.01	1.42	0.00
+TIGR00030	S21p	"ribosomal protein bS21"	3	0.03	233.40	0.01	9.92	0.01	1.78	0.00	217.28	0.02	4.42	0.00
+TIGR03564	F420_MSMEG_4879	"F420-dependent oxidoreductase, MSMEG_4879 family"	1	0.01	13.57	0.00	0.23	0.00	0.01	0.00	13.23	0.00	0.10	0.00
+TIGR00083	ribF	"riboflavin biosynthesis protein RibF"	3	0.03	336.49	0.02	10.24	0.01	0.53	0.00	325.01	0.04	0.71	0.00
+TIGR02067	his_9_HisN	"histidinol-phosphatase"	1	0.01	196.45	0.01	0.00	0.00	0.40	0.00	195.69	0.02	0.35	0.00
+TIGR00580	mfd	"transcription-repair coupling factor"	4	0.04	323.83	0.02	2.38	0.00	0.45	0.00	319.27	0.03	1.74	0.00
+TIGR01632	L11_bact	"ribosomal protein uL11"	2	0.02	268.39	0.02	0.01	0.00	0.44	0.00	267.59	0.03	0.35	0.00
+TIGR00389	glyS_dimeric	"glycine--tRNA ligase"	1	0.01	25.03	0.00	0.13	0.00	0.10	0.00	24.72	0.00	0.09	0.00
+TIGR02423	protocat_alph	"protocatechuate 3,4-dioxygenase, alpha subunit"	1	0.01	25.63	0.00	0.02	0.00	3.34	0.00	21.51	0.00	0.75	0.00
+TIGR00464	gltX_bact	"glutamate--tRNA ligase"	4	0.04	100.52	0.01	8.36	0.01	0.29	0.00	91.32	0.01	0.54	0.00
+TIGR01161	purK	"phosphoribosylaminoimidazole carboxylase, ATPase subunit"	1	0.01	217.06	0.01	0.01	0.00	0.47	0.00	216.16	0.02	0.42	0.00
+TIGR00326	eubact_ribD	"riboflavin biosynthesis protein RibD"	6	0.06	336.48	0.02	21.35	0.02	11.68	0.01	268.64	0.03	34.81	0.01
+TIGR01968	minD_bact	"septum site-determining protein MinD"	2	0.02	112.89	0.01	2.37	0.00	0.02	0.00	110.46	0.01	0.05	0.00
+TIGR02437	FadB	"fatty oxidation complex, alpha subunit FadB"	1	0.01	22.08	0.00	0.00	0.00	0.00	0.00	22.07	0.00	0.01	0.00
+TIGR00815	sulP	"sulfate permease"	2	0.02	214.60	0.01	0.10	0.00	0.48	0.00	213.61	0.02	0.42	0.00
+TIGR01445	intein_Nterm	"intein N-terminal splicing region"	1	0.01	70.45	0.00	0.00	0.00	0.03	0.00	70.38	0.01	0.04	0.00
+TIGR03414	ABC_choline_bnd	"choline ABC transporter, periplasmic binding protein"	1	0.01	191.30	0.01	0.01	0.00	0.40	0.00	190.55	0.02	0.34	0.00
+TIGR01449	PGP_bact	"phosphoglycolate phosphatase, bacterial"	2	0.02	212.54	0.01	0.01	0.00	0.40	0.00	211.78	0.02	0.34	0.00
+TIGR01651	CobT	"cobaltochelatase, CobT subunit"	2	0.02	234.73	0.01	0.06	0.00	3.67	0.00	229.95	0.03	1.05	0.00
+TIGR00651	pta	"phosphate acetyltransferase"	2	0.02	63.34	0.00	2.37	0.00	0.03	0.00	59.49	0.01	1.45	0.00
+TIGR01185	devC	"ABC exporter transmembrane subunit, DevC protein"	4	0.04	229.32	0.01	0.28	0.00	0.07	0.00	228.77	0.02	0.21	0.00
+TIGR02944	suf_reg_Xantho	"FeS assembly SUF system regulator"	1	0.01	22.08	0.00	0.00	0.00	0.00	0.00	22.07	0.00	0.01	0.00
+TIGR01764	excise	"DNA binding domain, excisionase family"	2	0.02	37.85	0.00	0.10	0.00	0.09	0.00	36.19	0.00	1.48	0.00
+TIGR01325	O_suc_HS_sulf	"O-succinylhomoserine sulfhydrylase"	2	0.02	46.02	0.00	0.10	0.00	0.07	0.00	45.75	0.00	0.10	0.00
+TIGR01786	TonB-hemlactrns	"TonB-dependent hemoglobin/transferrin/lactoferrin receptor family protein"	1	0.01	13.57	0.00	0.23	0.00	0.01	0.00	13.23	0.00	0.10	0.00
+TIGR00801	ncs2	"uracil-xanthine permease"	1	0.01	21.31	0.00	0.00	0.00	0.00	0.00	21.31	0.00	0.01	0.00
+TIGR03071	couple_hipA	"HipA N-terminal domain"	1	0.01	24.70	0.00	0.10	0.00	0.07	0.00	24.44	0.00	0.09	0.00
+TIGR00390	hslU	"ATP-dependent protease HslVU, ATPase subunit"	4	0.04	346.57	0.02	17.67	0.01	5.15	0.00	319.65	0.03	4.10	0.00
+TIGR03169	Nterm_to_SelD	"pyridine nucleotide-disulfide oxidoreductase family protein"	2	0.02	212.68	0.01	0.00	0.00	0.43	0.00	211.92	0.02	0.33	0.00
+TIGR00204	dxs	"1-deoxy-D-xylulose-5-phosphate synthase"	4	0.04	378.79	0.02	20.51	0.02	44.70	0.02	255.13	0.03	58.43	0.02
+TIGR00767	rho	"transcription termination factor Rho"	3	0.03	57.42	0.00	0.24	0.00	3.56	0.00	51.29	0.01	2.32	0.00
+TIGR01036	pyrD_sub2	"dihydroorotate dehydrogenase (fumarate)"	1	0.01	9.65	0.00	0.00	0.00	0.00	0.00	9.65	0.00	0.00	0.00
+TIGR01853	lipid_A_lpxD	"UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase LpxD"	1	0.01	191.30	0.01	0.01	0.00	0.40	0.00	190.55	0.02	0.34	0.00
+TIGR03988	antisig_RsrA	"mycothiol system anti-sigma-R factor"	1	0.01	27.64	0.00	0.26	0.00	0.16	0.00	27.12	0.00	0.10	0.00
+TIGR01726	HEQRo_perm_3TM	"amino ABC transporter, permease protein, 3-TM region, His/Glu/Gln/Arg/opine family"	5	0.05	147.56	0.01	2.73	0.00	0.20	0.00	144.41	0.02	0.23	0.00
+TIGR01528	NMN_trans_PnuC	"nicotinamide mononucleotide transporter PnuC"	2	0.02	100.85	0.01	0.06	0.00	0.34	0.00	99.45	0.01	0.98	0.00
+TIGR02392	rpoH_proteo	"alternative sigma factor RpoH"	1	0.01	42.83	0.00	0.30	0.00	16.61	0.01	23.61	0.00	2.31	0.00
+TIGR00168	infC	"translation initiation factor IF-3"	6	0.06	487.34	0.03	15.54	0.01	4.45	0.00	464.28	0.05	3.07	0.00
+TIGR01340	aconitase_mito	"aconitate hydratase, mitochondrial"	1	0.01	27.87	0.00	10.00	0.01	1.26	0.00	13.88	0.00	2.73	0.00
+TIGR00013	taut	"4-oxalocrotonate tautomerase family enzyme"	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+TIGR00562	proto_IX_ox	"protoporphyrinogen oxidase"	3	0.03	67.71	0.00	2.37	0.00	0.02	0.00	62.21	0.01	3.11	0.00
+TIGR03367	queuosine_QueD	"queuosine biosynthesis protein QueD"	2	0.02	238.15	0.02	12.04	0.01	40.30	0.02	128.96	0.01	56.86	0.02
+TIGR02666	moaA	"molybdenum cofactor biosynthesis protein A"	2	0.02	295.46	0.02	7.98	0.01	0.71	0.00	285.86	0.03	0.91	0.00
+TIGR02334	prpF	"probable AcnD-accessory protein PrpF"	1	0.01	62.26	0.00	0.00	0.00	0.17	0.00	62.06	0.01	0.02	0.00
+TIGR00675	dcm	"DNA (cytosine-5-)-methyltransferase"	1	0.01	64.16	0.00	0.77	0.00	0.81	0.00	61.40	0.01	1.17	0.00
+TIGR02388	rpoC2_cyan	"DNA-directed RNA polymerase, beta'' subunit"	1	0.01	72.80	0.00	0.00	0.00	0.01	0.00	72.76	0.01	0.02	0.00
+TIGR01549	HAD-SF-IA-v1	"HAD hydrolase, family IA, variant 1"	16	0.15	2448.94	0.16	335.47	0.26	585.98	0.27	637.27	0.07	890.23	0.29
+TIGR00691	spoT_relA	"RelA/SpoT family protein"	3	0.03	71.29	0.00	2.37	0.00	0.02	0.00	67.44	0.01	1.46	0.00
+TIGR01104	V_PPase	"V-type H(+)-translocating pyrophosphatase"	2	0.02	117.69	0.01	4.85	0.00	3.58	0.00	108.79	0.01	0.47	0.00
+TIGR02082	metH	"methionine synthase"	2	0.02	105.48	0.01	20.89	0.02	22.86	0.01	43.70	0.00	18.04	0.01
+TIGR02757	TIGR02757	"TIGR02757 family protein"	1	0.01	27.87	0.00	10.00	0.01	1.26	0.00	13.88	0.00	2.73	0.00
+TIGR01067	rplN_bact	"ribosomal protein uL14"	1	0.01	1814.06	0.12	325.55	0.25	585.16	0.27	14.02	0.00	889.33	0.29
+TIGR01696	deoB	"phosphopentomutase"	2	0.02	127.32	0.01	10.49	0.01	0.06	0.00	116.49	0.01	0.28	0.00
+TIGR00838	argH	"argininosuccinate lyase"	9	0.09	381.12	0.02	14.30	0.01	10.19	0.00	352.38	0.04	4.25	0.00
+TIGR01488	HAD-SF-IB	"HAD phosphoserine phosphatase-like hydrolase, family IB"	1	0.01	217.06	0.01	0.01	0.00	0.47	0.00	216.16	0.02	0.42	0.00
+TIGR01339	phycocy_beta	"phycocyanin, beta subunit"	2	0.02	1852.73	0.12	282.94	0.22	587.10	0.27	84.49	0.01	898.19	0.30
+TIGR00113	queA	"S-adenosylmethionine:tRNA ribosyltransferase-isomerase"	4	0.04	157.58	0.01	3.58	0.00	0.44	0.00	151.86	0.02	1.71	0.00
+TIGR03594	GTPase_EngA	"ribosome-associated GTPase EngA"	5	0.05	428.84	0.03	15.39	0.01	4.03	0.00	408.31	0.04	1.12	0.00
+TIGR00531	BCCP	"acetyl-CoA carboxylase, biotin carboxyl carrier protein"	4	0.04	182.59	0.01	10.73	0.01	16.46	0.01	151.40	0.02	4.00	0.00
+TIGR03494	salicyl_syn	"salicylate synthase"	1	0.01	92.95	0.01	0.00	0.00	0.04	0.00	92.89	0.01	0.02	0.00
+TIGR00450	mnmE_trmE_thdF	"tRNA modification GTPase TrmE"	1	0.01	30.93	0.00	0.03	0.00	3.52	0.00	26.54	0.00	0.84	0.00
+TIGR00271	TIGR00271	"uncharacterized hydrophobic domain"	1	0.01	72.80	0.00	0.00	0.00	0.01	0.00	72.76	0.01	0.02	0.00
+TIGR00257	IMPACT_YIGZ	"uncharacterized protein, YigZ family"	1	0.01	49.69	0.00	2.47	0.00	0.00	0.00	47.19	0.01	0.04	0.00
+TIGR01064	pyruv_kin	"pyruvate kinase"	4	0.04	243.24	0.02	10.14	0.01	0.11	0.00	232.64	0.03	0.36	0.00
+TIGR01282	nifD	"nitrogenase molybdenum-iron protein alpha chain"	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+TIGR02652	TIGR02652	"TIGR02652 family protein"	1	0.01	1729.70	0.11	298.41	0.23	563.99	0.26	14.22	0.00	853.09	0.28
+TIGR01800	cit_synth_II	"2-methylcitrate synthase/citrate synthase II"	3	0.03	240.21	0.02	7.76	0.01	0.22	0.00	231.88	0.03	0.34	0.00
+TIGR04103	rSAM_nif11_3	"nif11-class peptide radical SAM maturase 3"	1	0.01	71.59	0.00	0.00	0.00	0.01	0.00	71.56	0.01	0.02	0.00
+TIGR03082	Gneg_AbrB_dup	"membrane protein AbrB duplication"	2	0.02	244.76	0.02	0.02	0.00	0.80	0.00	243.46	0.03	0.48	0.00
+TIGR02032	GG-red-SF	"geranylgeranyl reductase family"	2	0.02	38.15	0.00	0.05	0.00	3.19	0.00	32.83	0.00	2.08	0.00
+TIGR01978	sufC	"FeS assembly ATPase SufC"	3	0.03	230.04	0.01	0.01	0.00	0.44	0.00	229.17	0.02	0.41	0.00
+TIGR00242	TIGR00242	"division/cell wall cluster transcriptional repressor MraZ"	3	0.03	77.75	0.00	10.09	0.01	0.11	0.00	67.23	0.01	0.31	0.00
+TIGR03188	histidine_hisI	"phosphoribosyl-ATP diphosphatase"	2	0.02	111.35	0.01	0.00	0.00	0.02	0.00	111.30	0.01	0.03	0.00
+TIGR02374	nitri_red_nirB	"nitrite reductase [NAD(P)H], large subunit"	1	0.01	204.63	0.01	0.01	0.00	0.65	0.00	203.32	0.02	0.64	0.00
+TIGR03617	F420_MSMEG_2256	"probable F420-dependent oxidoreductase, MSMEG_2256 family"	1	0.01	13.57	0.00	0.23	0.00	0.01	0.00	13.23	0.00	0.10	0.00
+TIGR00070	hisG	"ATP phosphoribosyltransferase"	1	0.01	13.15	0.00	0.26	0.00	0.00	0.00	12.83	0.00	0.06	0.00
+TIGR03800	PLP_synth_Pdx2	"pyridoxal 5'-phosphate synthase, glutaminase subunit Pdx2"	1	0.01	17.05	0.00	0.00	0.00	0.00	0.00	17.05	0.00	0.00	0.00
+TIGR00385	dsbE	"periplasmic protein thiol:disulfide oxidoreductases, DsbE subfamily"	1	0.01	61.65	0.00	0.00	0.00	0.14	0.00	61.46	0.01	0.04	0.00
+TIGR01697	PNPH-PUNA-XAPA	"inosine/guanosine/xanthosine phosphorylase family"	2	0.02	127.32	0.01	10.49	0.01	0.06	0.00	116.49	0.01	0.28	0.00
+TIGR00482	TIGR00482	"nicotinate (nicotinamide) nucleotide adenylyltransferase"	4	0.04	211.97	0.01	2.70	0.00	0.78	0.00	206.58	0.02	1.92	0.00
+TIGR00549	mevalon_kin	"mevalonate kinase"	1	0.01	49.69	0.00	2.47	0.00	0.00	0.00	47.19	0.01	0.04	0.00
+TIGR00615	recR	"recombination protein RecR"	3	0.03	115.59	0.01	9.97	0.01	4.68	0.00	97.52	0.01	3.43	0.00
+TIGR00236	wecB	"UDP-N-acetylglucosamine 2-epimerase"	1	0.01	37.25	0.00	0.78	0.00	0.04	0.00	36.21	0.00	0.22	0.00
+TIGR01066	rplM_bact	"ribosomal protein uL13"	3	0.03	1852.84	0.12	325.83	0.25	588.51	0.27	48.37	0.01	890.14	0.29
+TIGR01409	TAT_signal_seq	"Tat (twin-arginine translocation) pathway signal sequence"	7	0.07	685.55	0.04	0.25	0.00	5.01	0.00	677.07	0.07	3.22	0.00
+TIGR01828	pyru_phos_dikin	"pyruvate, phosphate dikinase"	1	0.01	25.63	0.00	0.02	0.00	3.34	0.00	21.51	0.00	0.75	0.00
+TIGR01494	ATPase_P-type	"HAD ATPase, P-type, family IC"	4	0.04	195.83	0.01	9.92	0.01	1.42	0.00	181.74	0.02	2.75	0.00
+TIGR01957	nuoB_fam	"NADH-quinone oxidoreductase, B subunit"	3	0.03	293.88	0.02	0.92	0.00	0.81	0.00	290.59	0.03	1.56	0.00
+TIGR01459	HAD-SF-IIA-hyp4	"HAD hydrolase, TIGR01459 family"	1	0.01	217.06	0.01	0.01	0.00	0.47	0.00	216.16	0.02	0.42	0.00
+TIGR00253	RNA_bind_YhbY	"putative RNA-binding protein, YhbY family"	2	0.02	100.97	0.01	2.37	0.00	0.13	0.00	98.40	0.01	0.08	0.00
+TIGR03533	L3_gln_methyl	"protein-(glutamine-N5) methyltransferase, ribosomal protein L3-specific"	1	0.01	21.24	0.00	0.00	0.00	0.00	0.00	21.23	0.00	0.00	0.00
+TIGR01885	Orn_aminotrans	"ornithine--oxo-acid transaminase"	1	0.01	92.16	0.01	0.32	0.00	0.58	0.00	90.77	0.01	0.49	0.00
+TIGR01990	bPGM	"beta-phosphoglucomutase"	2	0.02	99.58	0.01	0.12	0.00	0.12	0.00	99.24	0.01	0.09	0.00
+TIGR00829	FRU	"PTS system, Fru family, IIB component"	1	0.01	22.08	0.00	0.00	0.00	0.00	0.00	22.07	0.00	0.01	0.00
+TIGR02571	ComEB	"ComE operon protein 2"	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+TIGR00499	lysS_bact	"lysine--tRNA ligase"	1	0.01	50.21	0.00	2.37	0.00	0.01	0.00	47.79	0.01	0.04	0.00
+TIGR04011	poly_gGlu_PgsC	"poly-gamma-glutamate biosynthesis protein PgsC"	1	0.01	25.40	0.00	0.12	0.00	0.10	0.00	25.07	0.00	0.11	0.00
+TIGR00330	glpX	"fructose-1,6-bisphosphatase, class II"	1	0.01	1729.70	0.11	298.41	0.23	563.99	0.26	14.22	0.00	853.09	0.28
+TIGR01091	upp	"uracil phosphoribosyltransferase"	2	0.02	58.56	0.00	0.78	0.00	0.04	0.00	57.52	0.01	0.22	0.00
+TIGR01945	rnfC	"electron transport complex, RnfABCDGE type, C subunit"	2	0.02	99.39	0.01	4.93	0.00	0.00	0.00	94.38	0.01	0.07	0.00
+TIGR01679	bact_FAD_ox	"FAD-linked oxidoreductase"	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+TIGR00577	fpg	"DNA-formamidopyrimidine glycosylase"	3	0.03	159.43	0.01	10.13	0.01	0.11	0.00	147.53	0.02	1.66	0.00
+TIGR00093	TIGR00093	"pseudouridine synthase"	6	0.06	466.24	0.03	16.13	0.01	4.05	0.00	444.78	0.05	1.29	0.00
+TIGR04494	c550_PedF	"cytochrome c-550 PedF"	1	0.01	204.63	0.01	0.01	0.00	0.65	0.00	203.32	0.02	0.64	0.00
+TIGR01308	rpmD_bact	"ribosomal protein uL30"	1	0.01	13.13	0.00	0.00	0.00	0.02	0.00	11.70	0.00	1.41	0.00
+TIGR02515	IV_pilus_PilQ	"type IV pilus secretin PilQ"	1	0.01	66.73	0.00	0.00	0.00	0.15	0.00	66.54	0.01	0.04	0.00
+TIGR03686	pupylate_PafA	"Pup--protein ligase"	1	0.01	50.96	0.00	4.85	0.00	3.43	0.00	42.25	0.00	0.43	0.00
+TIGR01537	portal_HK97	"phage portal protein, HK97 family"	1	0.01	216.75	0.01	0.12	0.00	0.65	0.00	215.33	0.02	0.66	0.00
+TIGR01024	rplS_bact	"ribosomal protein bL19"	4	0.04	174.86	0.01	0.05	0.00	4.01	0.00	168.64	0.02	2.17	0.00
+TIGR00974	3a0107s02c	"phosphate ABC transporter, permease protein PstA"	3	0.03	111.01	0.01	0.12	0.00	0.18	0.00	109.05	0.01	1.67	0.00
+TIGR03044	PS_II_psb27	"photosystem II protein Psb27"	1	0.01	1814.06	0.12	325.55	0.25	585.16	0.27	14.02	0.00	889.33	0.29
+TIGR01946	rnfD	"electron transport complex, RnfABCDGE type, D subunit"	2	0.02	99.39	0.01	4.93	0.00	0.00	0.00	94.38	0.01	0.07	0.00
+TIGR00071	hisT_truA	"tRNA pseudouridine(38-40) synthase"	3	0.03	1891.15	0.12	325.58	0.25	585.24	0.27	90.93	0.01	889.40	0.29
+TIGR01082	murC	"UDP-N-acetylmuramate--L-alanine ligase"	5	0.05	307.64	0.02	3.56	0.00	3.84	0.00	298.81	0.03	1.44	0.00
+TIGR02262	benz_CoA_lig	"benzoate-CoA ligase family"	1	0.01	92.95	0.01	0.00	0.00	0.04	0.00	92.89	0.01	0.02	0.00
+TIGR01016	sucCoAbeta	"succinate-CoA ligase, beta subunit"	1	0.01	61.15	0.00	0.00	0.00	0.15	0.00	60.99	0.01	0.01	0.00
+TIGR02968	succ_dehyd_anc	"succinate dehydrogenase, hydrophobic membrane anchor protein"	2	0.02	247.68	0.02	0.14	0.00	4.17	0.00	241.87	0.03	1.50	0.00
+TIGR01855	IMP_synth_hisH	"imidazole glycerol phosphate synthase, glutamine amidotransferase subunit"	3	0.03	225.41	0.01	0.02	0.00	3.99	0.00	220.18	0.02	1.22	0.00
+TIGR01034	metK	"methionine adenosyltransferase"	3	0.03	82.18	0.01	2.57	0.00	0.01	0.00	79.52	0.01	0.08	0.00
+TIGR02216	phage_TIGR02216	"phage conserved hypothetical protein"	1	0.01	216.75	0.01	0.12	0.00	0.65	0.00	215.33	0.02	0.66	0.00
+TIGR01228	hutU	"urocanate hydratase"	1	0.01	27.05	0.00	0.01	0.00	3.50	0.00	22.65	0.00	0.88	0.00
+TIGR02456	treS_nterm	"trehalose synthase"	2	0.02	115.96	0.01	1.19	0.00	0.06	0.00	114.42	0.01	0.29	0.00
+TIGR00427	TIGR00427	"membrane protein, MarC family"	1	0.01	38.98	0.00	0.00	0.00	0.00	0.00	38.97	0.00	0.01	0.00
+TIGR00118	acolac_lg	"acetolactate synthase, large subunit, biosynthetic type"	1	0.01	92.16	0.01	0.32	0.00	0.58	0.00	90.77	0.01	0.49	0.00
+TIGR01133	murG	"undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase"	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+TIGR01338	phycocy_alpha	"phycocyanin, alpha subunit"	2	0.02	1852.73	0.12	282.94	0.22	587.10	0.27	84.49	0.01	898.19	0.30
+TIGR04121	DEXH_lig_assoc	"DEXH box helicase, DNA ligase-associated"	2	0.02	1974.13	0.13	282.95	0.22	587.53	0.27	205.08	0.02	898.57	0.30
+TIGR01708	typeII_sec_gspH	"type II secretion system protein H"	2	0.02	133.31	0.01	0.07	0.00	0.49	0.00	131.73	0.01	1.02	0.00
+TIGR00219	mreC	"rod shape-determining protein MreC"	2	0.02	114.80	0.01	2.37	0.00	0.01	0.00	112.37	0.01	0.05	0.00
+TIGR00414	serS	"serine--tRNA ligase"	2	0.02	82.74	0.01	2.77	0.00	0.00	0.00	79.86	0.01	0.12	0.00
+TIGR02241	TIGR02241	"conserved hypothetical phage tail region protein"	2	0.02	49.41	0.00	0.19	0.00	0.14	0.00	48.89	0.01	0.18	0.00
+TIGR03408	urea_trans_UrtC	"urea ABC transporter, permease protein UrtC"	1	0.01	1729.70	0.11	298.41	0.23	563.99	0.26	14.22	0.00	853.09	0.28
+TIGR00357	TIGR00357	"methionine-R-sulfoxide reductase"	4	0.04	201.23	0.01	10.53	0.01	16.67	0.01	171.43	0.02	2.60	0.00
+TIGR00493	clpP	"ATP-dependent Clp endopeptidase, proteolytic subunit ClpP"	1	0.01	80.91	0.01	0.00	0.00	0.05	0.00	80.82	0.01	0.04	0.00
+TIGR01543	proheadase_HK97	"phage prohead protease, HK97 family"	1	0.01	216.75	0.01	0.12	0.00	0.65	0.00	215.33	0.02	0.66	0.00
+TIGR00552	nadE	"NAD+ synthetase"	4	0.04	231.69	0.01	10.56	0.01	16.60	0.01	201.92	0.02	2.61	0.00
+TIGR00564	trpE_most	"anthranilate synthase component I"	2	0.02	35.14	0.00	0.00	0.00	0.02	0.00	33.70	0.00	1.42	0.00
+TIGR01297	CDF	"cation diffusion facilitator family transporter"	2	0.02	77.56	0.00	12.47	0.01	1.26	0.00	61.07	0.01	2.76	0.00
+TIGR02022	hutF	"formiminoglutamate deiminase"	2	0.02	93.78	0.01	0.01	0.00	3.65	0.00	89.19	0.01	0.92	0.00
+TIGR00170	leuC	"3-isopropylmalate dehydratase, large subunit"	1	0.01	25.47	0.00	0.12	0.00	0.14	0.00	25.10	0.00	0.12	0.00
+TIGR00979	fumC_II	"fumarate hydratase, class II"	1	0.01	190.91	0.01	0.01	0.00	0.44	0.00	190.05	0.02	0.40	0.00
+TIGR01127	ilvA_1Cterm	"threonine ammonia-lyase"	1	0.01	13.71	0.00	0.00	0.00	0.01	0.00	12.23	0.00	1.46	0.00
+TIGR00243	Dxr	"1-deoxy-D-xylulose 5-phosphate reductoisomerase"	3	0.03	134.51	0.01	17.66	0.01	5.06	0.00	108.00	0.01	3.78	0.00
+TIGR01068	thioredoxin	"thioredoxin"	7	0.07	547.52	0.03	0.39	0.00	8.24	0.00	536.26	0.06	2.63	0.00
+TIGR02037	degP_htrA_DO	"peptidase Do"	2	0.02	84.38	0.01	0.06	0.00	4.01	0.00	79.37	0.01	0.95	0.00
+TIGR01777	yfcH	"TIGR01777 family protein"	1	0.01	25.40	0.00	0.12	0.00	0.10	0.00	25.07	0.00	0.11	0.00
+TIGR03047	PS_II_psb28	"photosystem II reaction center protein Psb28"	1	0.01	1729.70	0.11	298.41	0.23	563.99	0.26	14.22	0.00	853.09	0.28
+TIGR00158	L9	"ribosomal protein bL9"	3	0.03	122.28	0.01	7.59	0.01	0.24	0.00	114.09	0.01	0.37	0.00
+TIGR01796	CM_mono_aroH	"chorismate mutase"	2	0.02	123.69	0.01	4.85	0.00	3.45	0.00	114.93	0.01	0.46	0.00
+TIGR01552	phd_fam	"prevent-host-death family protein"	4	0.04	211.65	0.01	0.54	0.00	0.68	0.00	209.81	0.02	0.62	0.00
+TIGR01292	TRX_reduct	"thioredoxin-disulfide reductase"	4	0.04	305.58	0.02	2.59	0.00	0.60	0.00	300.42	0.03	1.97	0.00
+TIGR00234	tyrS	"tyrosine--tRNA ligase"	5	0.05	845.28	0.05	60.52	0.05	378.19	0.18	317.71	0.03	88.85	0.03
+TIGR00117	acnB	"aconitate hydratase 2"	1	0.01	21.31	0.00	0.00	0.00	0.00	0.00	21.31	0.00	0.01	0.00
+TIGR02126	phgtail_TP901_1	"phage major tail protein, TP901-1 family"	1	0.01	216.75	0.01	0.12	0.00	0.65	0.00	215.33	0.02	0.66	0.00
+TIGR01072	murA	"UDP-N-acetylglucosamine 1-carboxyvinyltransferase"	1	0.01	13.15	0.00	0.26	0.00	0.00	0.00	12.83	0.00	0.06	0.00
+TIGR02692	tRNA_CCA_actino	"CCA tRNA nucleotidyltransferase"	1	0.01	25.68	0.00	0.12	0.00	0.11	0.00	25.33	0.00	0.13	0.00
+TIGR01930	AcCoA-C-Actrans	"acetyl-CoA C-acyltransferase"	16	0.15	613.49	0.04	3.16	0.00	31.24	0.01	570.05	0.06	9.05	0.00
+TIGR01736	FGAM_synth_II	"phosphoribosylformylglycinamidine synthase II"	1	0.01	37.23	0.00	0.91	0.00	0.06	0.00	36.09	0.00	0.18	0.00
+TIGR01103	fliP	"flagellar biosynthetic protein FliP"	2	0.02	69.27	0.00	0.03	0.00	3.61	0.00	64.88	0.01	0.76	0.00
+TIGR01811	sdhA_Bsu	"succinate dehydrogenase or fumarate reductase, flavoprotein subunit"	1	0.01	36.00	0.00	0.85	0.00	0.07	0.00	34.84	0.00	0.24	0.00
+TIGR00329	gcp_kae1	"metallohydrolase, glycoprotease/Kae1 family"	4	0.04	318.39	0.02	0.03	0.00	0.69	0.00	315.91	0.03	1.76	0.00
+TIGR02023	BchP-ChlP	"geranylgeranyl reductase"	2	0.02	38.15	0.00	0.05	0.00	3.19	0.00	32.83	0.00	2.08	0.00
+TIGR00092	TIGR00092	"GTP-binding protein YchF"	2	0.02	78.82	0.01	14.85	0.01	4.68	0.00	56.14	0.01	3.16	0.00
+TIGR01033	TIGR01033	"DNA-binding regulatory protein, YebC/PmpR family"	3	0.03	251.65	0.02	1.21	0.00	0.70	0.00	247.77	0.03	1.97	0.00
+TIGR01668	YqeG_hyp_ppase	"HAD phosphatase, family IIIA"	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+TIGR00517	acyl_carrier	"acyl carrier protein"	3	0.03	1825.40	0.12	300.81	0.23	564.11	0.26	107.27	0.01	853.20	0.28
+TIGR02254	YjjG/YfnB	"noncanonical pyrimidine nucleotidase, YjjG family"	1	0.01	17.05	0.00	0.00	0.00	0.00	0.00	17.05	0.00	0.00	0.00
+TIGR00019	prfA	"peptide chain release factor 1"	4	0.04	1925.49	0.12	325.55	0.25	585.29	0.27	123.86	0.01	890.78	0.29
+TIGR00363	TIGR00363	"lipoprotein, YaeC family"	1	0.01	21.31	0.00	0.00	0.00	0.00	0.00	21.31	0.00	0.01	0.00
+TIGR02122	TRAP_TAXI	"TRAP transporter solute receptor, TAXI family"	5	0.05	506.91	0.03	0.31	0.00	17.49	0.01	486.08	0.05	3.03	0.00
+TIGR00473	pssA	"CDP-diacylglycerol-serine O-phosphatidyltransferase"	1	0.01	37.23	0.00	0.91	0.00	0.06	0.00	36.09	0.00	0.18	0.00
+TIGR00043	TIGR00043	"rRNA maturation RNase YbeY"	2	0.02	240.69	0.02	0.15	0.00	0.62	0.00	239.42	0.03	0.50	0.00
+TIGR01267	Phe4hydrox_mono	"phenylalanine-4-hydroxylase"	1	0.01	60.25	0.00	0.00	0.00	0.13	0.00	60.08	0.01	0.04	0.00
+TIGR01139	cysK	"cysteine synthase A"	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+TIGR01186	proV	"glycine betaine/L-proline transport ATP binding subunit"	3	0.03	324.06	0.02	10.24	0.01	0.71	0.00	312.18	0.03	0.93	0.00
+TIGR01347	sucB	"dihydrolipoyllysine-residue succinyltransferase, E2 component of oxoglutarate dehydrogenase (succinyl-transferring) complex"	1	0.01	54.97	0.00	0.04	0.00	0.13	0.00	54.73	0.01	0.07	0.00
+TIGR00403	ndhI	"NADH-plastoquinone oxidoreductase, I subunit"	1	0.01	74.07	0.00	0.00	0.00	0.01	0.00	74.05	0.01	0.01	0.00
+TIGR02428	pcaJ_scoB_fam	"3-oxoacid CoA-transferase, B subunit"	2	0.02	267.27	0.02	2.38	0.00	0.48	0.00	263.94	0.03	0.46	0.00
+TIGR03551	F420_cofH	"7,8-didemethyl-8-hydroxy-5-deazariboflavin synthase, CofH subunit"	2	0.02	41.21	0.00	0.48	0.00	0.17	0.00	40.35	0.00	0.21	0.00
+TIGR00222	panB	"3-methyl-2-oxobutanoate hydroxymethyltransferase"	1	0.01	37.23	0.00	0.91	0.00	0.06	0.00	36.09	0.00	0.18	0.00
+TIGR00194	uvrC	"excinuclease ABC subunit C"	4	0.04	376.70	0.02	7.23	0.01	3.89	0.00	364.76	0.04	0.83	0.00
+TIGR00343	TIGR00343	"pyridoxal 5'-phosphate synthase, synthase subunit Pdx1"	1	0.01	17.05	0.00	0.00	0.00	0.00	0.00	17.05	0.00	0.00	0.00
+TIGR00001	rpmI_bact	"ribosomal protein bL35"	5	0.05	351.19	0.02	16.13	0.01	5.92	0.00	325.99	0.04	3.14	0.00
+TIGR01620	hyp_HI0043	"TIGR01620 family protein"	1	0.01	195.59	0.01	0.01	0.00	0.42	0.00	194.83	0.02	0.33	0.00
+TIGR00633	xth	"exodeoxyribonuclease III (xth)"	5	0.05	563.83	0.04	17.30	0.01	3.52	0.00	536.73	0.06	6.27	0.00
+TIGR03866	PQQ_ABC_repeats	"PQQ-dependent catabolism-associated beta-propeller protein"	1	0.01	204.63	0.01	0.01	0.00	0.65	0.00	203.32	0.02	0.64	0.00
+TIGR00036	dapB	"4-hydroxy-tetrahydrodipicolinate reductase"	4	0.04	130.12	0.01	0.31	0.00	4.48	0.00	122.57	0.01	2.78	0.00
+TIGR00262	trpA	"tryptophan synthase, alpha subunit"	3	0.03	114.32	0.01	0.94	0.00	0.14	0.00	113.00	0.01	0.25	0.00
+TIGR00154	ispE	"4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase"	3	0.03	280.09	0.02	2.38	0.00	0.51	0.00	275.41	0.03	1.80	0.00
+TIGR03953	rplD_bact	"50S ribosomal protein uL4"	1	0.01	1814.06	0.12	325.55	0.25	585.16	0.27	14.02	0.00	889.33	0.29
+TIGR03406	FeS_long_SufT	"probable FeS assembly SUF system protein SufT"	1	0.01	22.08	0.00	0.00	0.00	0.00	0.00	22.07	0.00	0.01	0.00
+TIGR00506	ribB	"3,4-dihydroxy-2-butanone-4-phosphate synthase"	5	0.05	202.43	0.01	10.96	0.01	16.70	0.01	172.04	0.02	2.73	0.00
+TIGR00422	valS	"valine--tRNA ligase"	2	0.02	113.10	0.01	2.37	0.00	0.02	0.00	110.65	0.01	0.07	0.00
+TIGR02056	ChlG	"chlorophyll synthase ChlG"	1	0.01	72.73	0.00	0.00	0.00	0.02	0.00	72.68	0.01	0.03	0.00
+TIGR01300	CPA3_mnhG_phaG	"monovalent cation/proton antiporter, MnhG/PhaG subunit"	2	0.02	26.62	0.00	0.21	0.00	0.02	0.00	24.88	0.00	1.51	0.00
+TIGR00342	TIGR00342	"tRNA sulfurtransferase ThiI"	2	0.02	146.61	0.01	10.13	0.01	0.08	0.00	136.07	0.01	0.33	0.00
+TIGR00355	purH	"phosphoribosylaminoimidazolecarboxamide formyltransferase/IMP cyclohydrolase"	3	0.03	146.13	0.01	0.33	0.00	20.15	0.01	122.48	0.01	3.18	0.00
+TIGR00138	rsmG_gidB	"16S rRNA (guanine(527)-N(7))-methyltransferase RsmG"	2	0.02	56.61	0.00	0.14	0.00	3.63	0.00	51.87	0.01	0.97	0.00
+TIGR03542	DAPAT_plant	"LL-diaminopimelate aminotransferase"	1	0.01	1729.70	0.11	298.41	0.23	563.99	0.26	14.22	0.00	853.09	0.28
+TIGR00556	pantethn_trn	"phosphopantetheine--protein transferase domain"	3	0.03	211.38	0.01	0.12	0.00	0.21	0.00	210.89	0.02	0.16	0.00
+TIGR03847	TIGR03847	"conserved hypothetical protein"	1	0.01	25.03	0.00	0.13	0.00	0.10	0.00	24.72	0.00	0.09	0.00
+TIGR03168	1-PFK	"hexose kinase, 1-phosphofructokinase family"	1	0.01	22.08	0.00	0.00	0.00	0.00	0.00	22.07	0.00	0.01	0.00
+TIGR00155	pqiA_fam	"integral membrane protein, PqiA family"	1	0.01	21.31	0.00	0.00	0.00	0.00	0.00	21.31	0.00	0.01	0.00
+TIGR01953	NusA	"transcription termination factor NusA"	4	0.04	215.49	0.01	10.25	0.01	3.85	0.00	200.28	0.02	1.11	0.00
+TIGR00097	HMP-P_kinase	"hydroxymethylpyrimidine kinase/phosphomethylpyrimidine kinase"	4	0.04	318.63	0.02	2.41	0.00	0.51	0.00	315.27	0.03	0.44	0.00
+TIGR00151	ispF	"2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase"	2	0.02	233.37	0.01	5.07	0.00	0.69	0.00	226.77	0.02	0.85	0.00
+TIGR03831	YgiT_finger	"YgiT-type zinc finger domain"	1	0.01	72.38	0.00	0.00	0.00	0.02	0.00	72.33	0.01	0.03	0.00
+TIGR00670	asp_carb_tr	"aspartate carbamoyltransferase"	4	0.04	177.34	0.01	12.91	0.01	1.14	0.00	160.38	0.02	2.92	0.00
+TIGR00133	gatB	"aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase, B subunit"	3	0.03	355.44	0.02	0.33	0.00	1.04	0.00	353.16	0.04	0.92	0.00
+TIGR02155	PA_CoA_ligase	"phenylacetate-CoA ligase"	1	0.01	27.05	0.00	0.01	0.00	3.50	0.00	22.65	0.00	0.88	0.00
+TIGR00503	prfC	"peptide chain release factor 3"	2	0.02	64.03	0.00	2.46	0.00	0.08	0.00	61.37	0.01	0.12	0.00
+TIGR01891	amidohydrolases	"amidohydrolase"	12	0.12	851.15	0.05	15.57	0.01	2.98	0.00	826.63	0.09	5.97	0.00
+TIGR00544	lgt	"prolipoprotein diacylglyceryl transferase"	5	0.05	1861.40	0.12	301.29	0.23	580.75	0.27	122.35	0.01	857.01	0.28
+TIGR01499	folC	"bifunctional protein FolC"	4	0.04	306.76	0.02	0.17	0.00	0.83	0.00	304.95	0.03	0.81	0.00
+TIGR00630	uvra	"excinuclease ABC subunit A"	4	0.04	169.74	0.01	7.37	0.01	3.75	0.00	156.76	0.02	1.87	0.00
+TIGR03821	EFP_modif_epmB	"EF-P beta-lysylation protein EpmB"	1	0.01	59.41	0.00	0.00	0.00	0.12	0.00	59.27	0.01	0.02	0.00
+TIGR03420	DnaA_homol_Hda	"DnaA regulatory inactivator Hda"	1	0.01	21.31	0.00	0.00	0.00	0.00	0.00	21.31	0.00	0.01	0.00
+TIGR00966	3a0501s07	"protein-export membrane protein SecF"	1	0.01	27.99	0.00	8.37	0.01	0.30	0.00	18.85	0.00	0.46	0.00
+TIGR00099	Cof-subfamily	"Cof-like hydrolase"	7	0.07	364.22	0.02	25.46	0.02	0.14	0.00	337.96	0.04	0.66	0.00
+TIGR00152	TIGR00152	"dephospho-CoA kinase"	6	0.06	316.86	0.02	24.92	0.02	8.51	0.00	279.11	0.03	4.32	0.00
+TIGR02141	modB_ABC	"molybdate ABC transporter, permease protein"	2	0.02	37.60	0.00	0.21	0.00	0.00	0.00	37.35	0.00	0.04	0.00
+TIGR03592	yidC_oxa1_cterm	"membrane protein insertase, YidC/Oxa1 family"	1	0.01	25.68	0.00	0.12	0.00	0.11	0.00	25.33	0.00	0.13	0.00
+TIGR03862	flavo_PP4765	"flavoprotein, TIGR03862 family"	3	0.03	313.17	0.02	0.11	0.00	4.39	0.00	306.44	0.03	2.23	0.00
+TIGR02152	D_ribokin_bact	"ribokinase"	1	0.01	72.05	0.00	0.00	0.00	0.03	0.00	72.00	0.01	0.02	0.00
+TIGR00787	dctP	"TRAP transporter solute receptor, DctP family"	5	0.05	205.13	0.01	3.16	0.00	0.52	0.00	200.92	0.02	0.53	0.00
+TIGR00278	TIGR00278	"putative membrane protein insertion efficiency factor"	2	0.02	123.76	0.01	2.77	0.00	0.17	0.00	120.69	0.01	0.14	0.00
+TIGR03620	F420_MSMEG_4141	"probable F420-dependent oxidoreductase, MSMEG_4141 family"	1	0.01	13.15	0.00	0.26	0.00	0.00	0.00	12.83	0.00	0.06	0.00
+TIGR00830	PTBA	"PTS system, glucose subfamily, IIA component"	1	0.01	86.60	0.01	8.13	0.01	0.05	0.00	78.17	0.01	0.24	0.00
+TIGR00624	tag	"DNA-3-methyladenine glycosylase I"	1	0.01	61.51	0.00	2.77	0.00	0.00	0.00	58.63	0.01	0.11	0.00
+TIGR01711	gspJ	"type II secretion system protein J"	1	0.01	66.73	0.00	0.00	0.00	0.15	0.00	66.54	0.01	0.04	0.00
+TIGR02799	thio_ybgC	"tol-pal system-associated acyl-CoA thioesterase"	1	0.01	27.05	0.00	0.01	0.00	3.50	0.00	22.65	0.00	0.88	0.00
+TIGR00528	gcvT	"glycine cleavage system T protein"	3	0.03	185.38	0.01	8.15	0.01	3.41	0.00	172.79	0.02	1.04	0.00
+TIGR00369	unchar_dom_1	"uncharacterized domain 1"	7	0.07	480.13	0.03	10.39	0.01	12.99	0.01	450.48	0.05	6.26	0.00
+TIGR00462	genX	"EF-P lysine aminoacylase GenX"	2	0.02	116.93	0.01	0.03	0.00	0.23	0.00	116.60	0.01	0.08	0.00
+TIGR01368	CPSaseIIsmall	"carbamoyl-phosphate synthase, small subunit"	7	0.07	376.93	0.02	45.05	0.04	7.39	0.00	312.64	0.03	11.86	0.00
+TIGR00185	tRNA_yibK_trmL	"tRNA (cytidine(34)-2'-O)-methyltransferase"	1	0.01	98.44	0.01	6.47	0.01	0.01	0.00	91.67	0.01	0.29	0.00
+TIGR00749	glk	"glucokinase"	1	0.01	9.88	0.00	0.00	0.00	0.00	0.00	9.88	0.00	0.00	0.00
+TIGR03167	tRNA_sel_U_synt	"tRNA 2-selenouridine synthase"	3	0.03	310.11	0.02	7.90	0.01	4.42	0.00	296.34	0.03	1.46	0.00
+TIGR02690	resist_ArsH	"arsenical resistance protein ArsH"	1	0.01	73.16	0.00	0.00	0.00	0.01	0.00	73.10	0.01	0.04	0.00
+TIGR00682	lpxK	"tetraacyldisaccharide 4'-kinase"	1	0.01	29.16	0.00	0.03	0.00	3.61	0.00	24.78	0.00	0.76	0.00
+TIGR00846	caca2	"calcium/proton exchanger"	1	0.01	69.50	0.00	0.00	0.00	0.02	0.00	69.46	0.01	0.02	0.00
+TIGR00481	TIGR00481	"Raf kinase inhibitor-like protein, YbhB/YbcL family"	1	0.01	22.08	0.00	0.00	0.00	0.00	0.00	22.07	0.00	0.01	0.00
+TIGR03699	menaquin_MqnC	"dehypoxanthine futalosine cyclase"	1	0.01	105.89	0.01	7.76	0.01	0.08	0.00	97.75	0.01	0.29	0.00
+TIGR01393	lepA	"elongation factor 4"	4	0.04	200.72	0.01	2.73	0.00	0.72	0.00	195.41	0.02	1.86	0.00
+TIGR03506	FlgEFG_subfam	"flagellar hook-basal body protein"	8	0.08	563.39	0.04	0.04	0.00	4.41	0.00	557.50	0.06	1.44	0.00
+TIGR01892	AcOrn-deacetyl	"acetylornithine deacetylase (ArgE)"	1	0.01	25.03	0.00	0.13	0.00	0.10	0.00	24.72	0.00	0.09	0.00
+TIGR03632	uS11_bact	"ribosomal protein uS11"	2	0.02	1827.19	0.12	325.55	0.25	585.18	0.27	25.72	0.00	890.74	0.29
+TIGR01389	recQ	"ATP-dependent DNA helicase RecQ"	1	0.01	204.63	0.01	0.01	0.00	0.65	0.00	203.32	0.02	0.64	0.00
+TIGR02333	2met_isocit_dHY	"2-methylisocitrate dehydratase, Fe/S-dependent"	1	0.01	62.26	0.00	0.00	0.00	0.17	0.00	62.06	0.01	0.02	0.00
+TIGR00694	thiM	"hydroxyethylthiazole kinase"	2	0.02	212.64	0.01	0.01	0.00	0.42	0.00	211.88	0.02	0.33	0.00
+TIGR02971	heterocyst_DevB	"ABC exporter membrane fusion protein, DevB family"	4	0.04	229.32	0.01	0.28	0.00	0.07	0.00	228.77	0.02	0.21	0.00
+TIGR01579	MiaB-like-C	"MiaB-like tRNA modifying enzyme"	1	0.01	195.59	0.01	0.01	0.00	0.42	0.00	194.83	0.02	0.33	0.00
+TIGR04056	OMP_RagA_SusC	"TonB-linked outer membrane protein, SusC/RagA family"	6	0.06	180.30	0.01	22.10	0.02	2.47	0.00	148.17	0.02	7.56	0.00
+TIGR02291	rimK_rel_E_lig	"alpha-L-glutamate ligase homolog"	1	0.01	10.75	0.00	0.08	0.00	0.34	0.00	10.12	0.00	0.21	0.00
+TIGR00653	GlnA	"glutamine synthetase, type I"	3	0.03	160.16	0.01	12.59	0.01	0.06	0.00	147.17	0.02	0.33	0.00
+TIGR00557	pdxA	"4-hydroxythreonine-4-phosphate dehydrogenase PdxA"	2	0.02	51.80	0.00	0.00	0.00	0.02	0.00	50.43	0.01	1.34	0.00
+TIGR00581	moaC	"molybdenum cofactor biosynthesis protein C"	1	0.01	21.31	0.00	0.00	0.00	0.00	0.00	21.31	0.00	0.01	0.00
+TIGR01830	3oxo_ACP_reduc	"3-oxoacyl-[acyl-carrier-protein] reductase"	2	0.02	95.70	0.01	2.40	0.00	0.13	0.00	93.05	0.01	0.12	0.00
+TIGR00407	proA	"glutamate-5-semialdehyde dehydrogenase"	1	0.01	78.70	0.01	7.86	0.01	0.06	0.00	70.54	0.01	0.25	0.00
+TIGR04535	ferrit_encaps	"ferritin-like protein"	1	0.01	171.43	0.01	12.03	0.01	40.15	0.02	62.43	0.01	56.82	0.02
+TIGR04037	LLM_duo_CE1759	"LLM-partnered FMN reductase, CE1759 family"	1	0.01	25.40	0.00	0.12	0.00	0.10	0.00	25.07	0.00	0.11	0.00
+TIGR03284	thym_sym	"thymidylate synthase"	1	0.01	209.74	0.01	0.01	0.00	0.50	0.00	208.87	0.02	0.36	0.00
+TIGR01260	ATP_synt_c	"ATP synthase F0, C subunit"	2	0.02	33.27	0.00	1.08	0.00	0.17	0.00	30.20	0.00	1.82	0.00
+TIGR02387	rpoC1_cyan	"DNA-directed RNA polymerase, gamma subunit"	1	0.01	72.80	0.00	0.00	0.00	0.01	0.00	72.76	0.01	0.02	0.00
+TIGR03661	T1SS_VCA0849	"type I secretion C-terminal target domain (VC_A0849 subclass)"	1	0.01	21.24	0.00	0.00	0.00	0.00	0.00	21.23	0.00	0.00	0.00
+TIGR02949	anti_SigH_actin	"anti-sigma factor, TIGR02949 family"	1	0.01	27.64	0.00	0.26	0.00	0.16	0.00	27.12	0.00	0.10	0.00
+TIGR02360	pbenz_hydroxyl	"4-hydroxybenzoate 3-monooxygenase"	1	0.01	25.63	0.00	0.02	0.00	3.34	0.00	21.51	0.00	0.75	0.00
+TIGR02274	dCTP_deam	"deoxycytidine triphosphate deaminase"	2	0.02	57.31	0.00	0.85	0.00	0.07	0.00	56.15	0.01	0.25	0.00
+TIGR01331	bisphos_cysQ	"3'(2'),5'-bisphosphate nucleotidase"	3	0.03	113.86	0.01	0.33	0.00	20.13	0.01	90.25	0.01	3.15	0.00
+TIGR00969	3a0106s02	"sulfate ABC transporter, permease protein"	2	0.02	42.48	0.00	0.01	0.00	0.00	0.00	42.46	0.00	0.01	0.00
+TIGR00609	recB	"exodeoxyribonuclease V, beta subunit"	2	0.02	114.57	0.01	0.44	0.00	0.59	0.00	113.04	0.01	0.50	0.00
+TIGR00004	TIGR00004	"reactive intermediate/imine deaminase"	1	0.01	17.05	0.00	0.00	0.00	0.00	0.00	17.05	0.00	0.00	0.00
+TIGR02210	rodA_shape	"rod shape-determining protein RodA"	2	0.02	218.89	0.01	8.38	0.01	0.75	0.00	208.91	0.02	0.86	0.00
+TIGR00334	5S_RNA_mat_M5	"ribonuclease M5"	1	0.01	50.21	0.00	2.37	0.00	0.01	0.00	47.79	0.01	0.04	0.00
+TIGR00103	DNA_YbaB_EbfC	"DNA-binding protein, YbaB/EbfC family"	3	0.03	1869.88	0.12	283.00	0.22	590.40	0.27	97.56	0.01	898.91	0.30
+TIGR02074	PBP_1a_fam	"penicillin-binding protein, 1A family"	3	0.03	303.90	0.02	2.37	0.00	0.55	0.00	300.55	0.03	0.43	0.00
+TIGR02673	FtsE	"cell division ATP-binding protein FtsE"	2	0.02	75.09	0.00	2.59	0.00	0.10	0.00	72.26	0.01	0.14	0.00
+TIGR00673	cynS	"cyanase"	1	0.01	221.14	0.01	0.01	0.00	0.48	0.00	220.28	0.02	0.38	0.00
+TIGR00132	gatA	"aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase, A subunit"	2	0.02	134.30	0.01	0.56	0.00	16.97	0.01	113.98	0.01	2.80	0.00
+TIGR00324	endA	"tRNA-intron lyase"	1	0.01	9.65	0.00	0.00	0.00	0.00	0.00	9.65	0.00	0.00	0.00
+TIGR01469	cobA_cysG_Cterm	"uroporphyrinogen-III C-methyltransferase"	4	0.04	486.75	0.03	0.02	0.00	1.07	0.00	484.65	0.05	1.02	0.00
+TIGR02217	chp_TIGR02217	"TIGR02217 family protein"	1	0.01	216.75	0.01	0.12	0.00	0.65	0.00	215.33	0.02	0.66	0.00
+TIGR00521	coaBC_dfp	"phosphopantothenoylcysteine decarboxylase / phosphopantothenate--cysteine ligase"	3	0.03	107.66	0.01	3.25	0.00	3.58	0.00	99.70	0.01	1.12	0.00
+TIGR01205	D_ala_D_alaTIGR	"D-alanine--D-alanine ligase"	4	0.04	106.51	0.01	1.34	0.00	3.75	0.00	98.92	0.01	2.50	0.00
+TIGR00731	bL25_bact_ctc	"ribosomal protein bL25, Ctc-form"	4	0.04	2075.10	0.13	325.83	0.25	605.39	0.28	251.17	0.03	892.71	0.29
+TIGR02945	SUF_assoc	"FeS assembly SUF system protein"	1	0.01	209.74	0.01	0.01	0.00	0.50	0.00	208.87	0.02	0.36	0.00
+TIGR03416	ABC_choXWV_perm	"choline ABC transporter, permease protein"	1	0.01	191.30	0.01	0.01	0.00	0.40	0.00	190.55	0.02	0.34	0.00
+TIGR00514	accC	"acetyl-CoA carboxylase, biotin carboxylase subunit"	4	0.04	182.59	0.01	10.73	0.01	16.46	0.01	151.40	0.02	4.00	0.00
+TIGR02492	flgK_ends	"flagellar hook-associated protein FlgK"	2	0.02	52.97	0.00	0.03	0.00	3.61	0.00	48.58	0.01	0.76	0.00
+TIGR00153	TIGR00153	"TIGR00153 family protein"	1	0.01	61.65	0.00	0.00	0.00	0.14	0.00	61.46	0.01	0.04	0.00
+TIGR00035	asp_race	"aspartate racemase"	1	0.01	13.76	0.00	0.27	0.00	0.03	0.00	13.32	0.00	0.15	0.00
+TIGR01398	FlhA	"flagellar biosynthesis protein FlhA"	2	0.02	65.10	0.00	0.05	0.00	3.18	0.00	61.18	0.01	0.70	0.00
+TIGR01625	YidE_YbjL_dupl	"AspT/YidE/YbjL antiporter duplication domain"	1	0.01	92.16	0.01	0.32	0.00	0.58	0.00	90.77	0.01	0.49	0.00
+TIGR02151	IPP_isom_2	"isopentenyl-diphosphate delta-isomerase, type 2"	1	0.01	49.69	0.00	2.47	0.00	0.00	0.00	47.19	0.01	0.04	0.00
+TIGR03644	marine_trans_1	"probable ammonium transporter, marine subtype"	1	0.01	29.16	0.00	0.03	0.00	3.61	0.00	24.78	0.00	0.76	0.00
+TIGR00465	ilvC	"ketol-acid reductoisomerase"	2	0.02	46.80	0.00	0.08	0.00	0.60	0.00	45.97	0.01	0.14	0.00
+TIGR01366	serC_3	"putative phosphoserine aminotransferase"	1	0.01	50.96	0.00	4.85	0.00	3.43	0.00	42.25	0.00	0.43	0.00
+TIGR02532	IV_pilin_GFxxxE	"prepilin-type N-terminal cleavage/methylation domain"	19	0.18	864.85	0.06	16.54	0.01	2.13	0.00	841.56	0.09	4.61	0.00
+TIGR00877	purD	"phosphoribosylamine--glycine ligase"	1	0.01	12.82	0.00	0.00	0.00	0.02	0.00	11.46	0.00	1.33	0.00
+TIGR02977	phageshock_pspA	"phage shock protein A"	2	0.02	116.93	0.01	0.03	0.00	0.23	0.00	116.60	0.01	0.08	0.00
+TIGR02401	trehalose_TreY	"malto-oligosyltrehalose synthase"	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+TIGR01145	ATP_synt_delta	"ATP synthase F1, delta subunit"	2	0.02	33.27	0.00	1.08	0.00	0.17	0.00	30.20	0.00	1.82	0.00
+TIGR02823	oxido_YhdH	"putative quinone oxidoreductase, YhdH/YhfP family"	3	0.03	99.24	0.01	0.28	0.00	3.67	0.00	94.28	0.01	1.01	0.00
+TIGR01498	folK	"2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase"	1	0.01	42.83	0.00	0.30	0.00	16.61	0.01	23.61	0.00	2.31	0.00
+TIGR02168	SMC_prok_B	"chromosome segregation protein SMC"	2	0.02	275.07	0.02	0.02	0.00	0.64	0.00	273.98	0.03	0.43	0.00
+TIGR01156	cytb6/f_IV	"cytb6/f complex subunit IV"	1	0.01	70.45	0.00	0.00	0.00	0.03	0.00	70.38	0.01	0.04	0.00
+TIGR01062	parC_Gneg	"DNA topoisomerase IV, A subunit"	2	0.02	104.40	0.01	0.24	0.00	16.56	0.01	85.27	0.01	2.33	0.00
+TIGR03558	oxido_grp_1	"luciferase family oxidoreductase, group 1"	2	0.02	64.81	0.00	0.10	0.00	0.07	0.00	64.54	0.01	0.10	0.00
+TIGR01926	peroxid_rel	"uncharacterized peroxidase-related enzyme"	3	0.03	239.43	0.02	0.25	0.00	3.94	0.00	234.02	0.03	1.22	0.00
+TIGR01184	ntrCD	"nitrate ABC transporter, ATP-binding proteins C and D"	2	0.02	425.77	0.03	0.02	0.00	1.12	0.00	423.61	0.05	1.02	0.00
+TIGR04396	surf_polysacc	"surface carbohydrate biosynthesis protein"	1	0.01	59.41	0.00	0.00	0.00	0.12	0.00	59.27	0.01	0.02	0.00
+TIGR01825	gly_Cac_T_rel	"putative pyridoxal phosphate-dependent acyltransferase"	2	0.02	128.40	0.01	10.33	0.01	0.06	0.00	117.73	0.01	0.28	0.00
+TIGR00786	dctM	"TRAP transporter, DctM subunit"	13	0.13	1155.82	0.07	3.27	0.00	12.90	0.01	1135.23	0.12	4.43	0.00
+TIGR00656	asp_kin_monofn	"aspartate kinase, monofunctional class"	2	0.02	281.50	0.02	7.87	0.01	0.49	0.00	272.58	0.03	0.57	0.00
+TIGR00059	L17	"ribosomal protein bL17"	2	0.02	1827.19	0.12	325.55	0.25	585.18	0.27	25.72	0.00	890.74	0.29
+TIGR01122	ilvE_I	"branched-chain amino acid aminotransferase"	4	0.04	299.37	0.02	0.15	0.00	4.39	0.00	293.30	0.03	1.52	0.00
+TIGR01749	fabA	"beta-hydroxyacyl-(acyl-carrier-protein) dehydratase FabA"	1	0.01	42.83	0.00	0.30	0.00	16.61	0.01	23.61	0.00	2.31	0.00
+TIGR00325	lpxC	"UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase"	3	0.03	234.37	0.01	0.28	0.00	3.76	0.00	229.18	0.02	1.15	0.00
+TIGR04138	Plancto_Ver_chp	"Verruc_Plancto-restricted protein"	1	0.01	13.13	0.00	0.00	0.00	0.02	0.00	11.70	0.00	1.41	0.00
+TIGR02785	addA_Gpos	"helicase-exonuclease AddAB, AddA subunit"	1	0.01	78.70	0.01	7.86	0.01	0.06	0.00	70.54	0.01	0.25	0.00
+TIGR01862	N2-ase-Ialpha	"nitrogenase component I, alpha chain"	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+TIGR03140	AhpF	"alkyl hydroperoxide reductase subunit F"	1	0.01	21.24	0.00	0.00	0.00	0.00	0.00	21.23	0.00	0.00	0.00
+TIGR04274	hypoxanDNAglyco	"DNA-deoxyinosine glycosylase"	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+TIGR01090	apt	"adenine phosphoribosyltransferase"	2	0.02	62.04	0.00	2.37	0.00	0.00	0.00	59.62	0.01	0.05	0.00
+TIGR00773	NhaA	"Na+/H+ antiporter NhaA"	1	0.01	27.20	0.00	9.77	0.01	1.08	0.00	13.70	0.00	2.65	0.00
+TIGR00206	fliF	"flagellar M-ring protein FliF"	2	0.02	69.27	0.00	0.03	0.00	3.61	0.00	64.88	0.01	0.76	0.00
+TIGR03861	phenyl_ABC_PedC	"alcohol ABC transporter, permease protein"	1	0.01	204.63	0.01	0.01	0.00	0.65	0.00	203.32	0.02	0.64	0.00
+TIGR01617	arsC_related	"transcriptional regulator, Spx/MgsR family"	2	0.02	57.78	0.00	2.37	0.00	0.00	0.00	55.37	0.01	0.04	0.00
+TIGR00573	dnaq	"exonuclease, DNA polymerase III, epsilon subunit family"	7	0.07	530.63	0.03	25.99	0.02	4.21	0.00	497.03	0.05	3.40	0.00
+TIGR00148	TIGR00148	"decarboxylase, UbiD family"	1	0.01	72.38	0.00	0.00	0.00	0.02	0.00	72.33	0.01	0.03	0.00
+TIGR01356	aroA	"3-phosphoshikimate 1-carboxyvinyltransferase"	2	0.02	93.79	0.01	5.15	0.00	20.04	0.01	65.86	0.01	2.73	0.00
+TIGR00358	3_prime_RNase	"VacB and RNase II family 3'-5' exoribonucleases"	5	0.05	340.66	0.02	1.12	0.00	27.61	0.01	305.65	0.03	6.28	0.00
+TIGR00461	gcvP	"glycine dehydrogenase"	3	0.03	153.75	0.01	0.06	0.00	3.48	0.00	149.35	0.02	0.87	0.00
+TIGR00406	prmA	"ribosomal protein L11 methyltransferase"	2	0.02	107.45	0.01	2.37	0.00	0.15	0.00	104.85	0.01	0.08	0.00
+TIGR02534	mucon_cyclo	"muconate and chloromuconate cycloisomerases"	1	0.01	215.66	0.01	0.02	0.00	0.52	0.00	214.71	0.02	0.41	0.00
+TIGR01238	D1pyr5carbox3	"delta-1-pyrroline-5-carboxylate dehydrogenase"	3	0.03	291.23	0.02	0.01	0.00	0.62	0.00	290.21	0.03	0.39	0.00
+TIGR03696	Rhs_assc_core	"RHS repeat-associated core domain"	1	0.01	68.00	0.00	0.00	0.00	0.14	0.00	67.82	0.01	0.03	0.00
+TIGR01662	HAD-SF-IIIA	"HAD hydrolase, family IIIA"	2	0.02	61.96	0.00	2.37	0.00	0.00	0.00	59.55	0.01	0.04	0.00
+TIGR00086	smpB	"SsrA-binding protein"	2	0.02	54.73	0.00	0.14	0.00	3.74	0.00	49.97	0.01	0.89	0.00
+TIGR01256	modA	"molybdate ABC transporter, periplasmic molybdate-binding protein"	2	0.02	37.60	0.00	0.21	0.00	0.00	0.00	37.35	0.00	0.04	0.00
+TIGR01373	soxB	"sarcosine oxidase, beta subunit family"	2	0.02	220.46	0.01	0.03	0.00	4.01	0.00	215.33	0.02	1.09	0.00
+TIGR03107	glu_aminopep	"glutamyl aminopeptidase"	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+TIGR02727	MTHFS_bact	"5-formyltetrahydrofolate cyclo-ligase"	2	0.02	303.35	0.02	8.24	0.01	0.71	0.00	293.50	0.03	0.90	0.00
+TIGR03263	guanyl_kin	"guanylate kinase"	4	0.04	367.55	0.02	3.33	0.00	0.73	0.00	362.54	0.04	0.95	0.00
+TIGR03631	uS13_bact	"ribosomal protein uS13"	2	0.02	1827.19	0.12	325.55	0.25	585.18	0.27	25.72	0.00	890.74	0.29
+TIGR00182	plsX	"fatty acid/phospholipid synthesis protein PlsX"	3	0.03	134.67	0.01	2.40	0.00	0.13	0.00	132.02	0.01	0.12	0.00
+TIGR01759	MalateDH-SF1	"malate dehydrogenase"	1	0.01	61.15	0.00	0.00	0.00	0.15	0.00	60.99	0.01	0.01	0.00
+TIGR03943	TIGR03943	"TIGR03943 family protein"	1	0.01	1729.70	0.11	298.41	0.23	563.99	0.26	14.22	0.00	853.09	0.28
+TIGR02935	TIGR02935	"probable nitrogen fixation protein"	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+TIGR03150	fabF	"beta-ketoacyl-acyl-carrier-protein synthase II"	4	0.04	1850.87	0.12	300.93	0.23	564.25	0.26	132.37	0.01	853.32	0.28
+TIGR02139	permease_CysT	"sulfate ABC transporter, permease protein CysT"	1	0.01	21.24	0.00	0.00	0.00	0.00	0.00	21.23	0.00	0.00	0.00
+TIGR00914	2A0601	"heavy metal efflux pump, CzcA family"	1	0.01	60.25	0.00	0.00	0.00	0.13	0.00	60.08	0.01	0.04	0.00
+TIGR00193	urease_gam	"urease, gamma subunit"	1	0.01	195.59	0.01	0.01	0.00	0.42	0.00	194.83	0.02	0.33	0.00
+TIGR00229	sensory_box	"PAS domain S-box protein"	47	0.45	9670.47	0.62	1255.97	0.98	2337.63	1.09	2559.75	0.28	3517.12	1.16
+TIGR00046	TIGR00046	"RNA methyltransferase, RsmE family"	4	0.04	178.26	0.01	0.33	0.00	0.27	0.00	177.47	0.02	0.19	0.00
+TIGR03409	urea_trans_UrtB	"urea ABC transporter, permease protein UrtB"	1	0.01	1729.70	0.11	298.41	0.23	563.99	0.26	14.22	0.00	853.09	0.28
+TIGR00277	HDIG	"HDIG domain"	7	0.07	466.86	0.03	12.72	0.01	0.74	0.00	452.57	0.05	0.83	0.00
+TIGR03689	pup_AAA	"proteasome ATPase"	1	0.01	50.96	0.00	4.85	0.00	3.43	0.00	42.25	0.00	0.43	0.00
+TIGR00641	acid_CoA_mut_N	"methylmalonyl-CoA mutase N-terminal domain"	3	0.03	136.70	0.01	17.98	0.01	1.73	0.00	113.95	0.01	3.04	0.00
+TIGR01411	tatAE	"twin arginine-targeting protein translocase, TatA/E family"	3	0.03	183.98	0.01	13.09	0.01	3.53	0.00	165.25	0.02	2.12	0.00
+TIGR00054	TIGR00054	"RIP metalloprotease RseP"	6	0.06	271.16	0.02	27.50	0.02	5.19	0.00	234.41	0.03	4.05	0.00
+TIGR00671	baf	"pantothenate kinase, type III"	3	0.03	316.69	0.02	9.50	0.01	0.94	0.00	302.99	0.03	3.26	0.00
+TIGR00072	hydrog_prot	"hydrogenase maturation protease"	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+TIGR00126	deoC	"deoxyribose-phosphate aldolase"	2	0.02	65.76	0.00	2.49	0.00	0.10	0.00	63.03	0.01	0.13	0.00
+TIGR03605	antibiot_sagB	"SagB-type dehydrogenase domain"	2	0.02	165.38	0.01	0.01	0.00	0.08	0.00	165.25	0.02	0.05	0.00
+TIGR02639	ClpA	"ATP-dependent Clp protease ATP-binding subunit ClpA"	1	0.01	59.33	0.00	0.00	0.00	0.11	0.00	59.17	0.01	0.04	0.00
+TIGR00977	citramal_synth	"citramalate synthase"	1	0.01	25.47	0.00	0.12	0.00	0.14	0.00	25.10	0.00	0.12	0.00
+TIGR00006	TIGR00006	"16S rRNA (cytosine(1402)-N(4))-methyltransferase"	5	0.05	310.57	0.02	11.01	0.01	0.59	0.00	298.16	0.03	0.82	0.00
+TIGR00074	hypC_hupF	"hydrogenase assembly chaperone HypC/HupF"	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+TIGR02857	CydD	"thiol reductant ABC exporter, CydD subunit"	2	0.02	80.64	0.01	0.00	0.00	0.11	0.00	80.48	0.01	0.05	0.00
+TIGR02482	PFKA_ATP	"6-phosphofructokinase"	2	0.02	146.61	0.01	10.13	0.01	0.08	0.00	136.07	0.01	0.33	0.00
+TIGR01382	PfpI	"intracellular protease, PfpI family"	2	0.02	170.87	0.01	8.18	0.01	0.63	0.00	161.31	0.02	0.74	0.00
+TIGR00187	ribE	"riboflavin synthase, alpha subunit"	5	0.05	358.45	0.02	10.40	0.01	0.46	0.00	346.97	0.04	0.63	0.00
+TIGR00203	cydB	"cytochrome d ubiquinol oxidase, subunit II"	2	0.02	80.64	0.01	0.00	0.00	0.11	0.00	80.48	0.01	0.05	0.00
+TIGR01225	hutH	"histidine ammonia-lyase"	1	0.01	27.05	0.00	0.01	0.00	3.50	0.00	22.65	0.00	0.88	0.00
+TIGR01069	mutS2	"MutS2 family protein"	1	0.01	105.89	0.01	7.76	0.01	0.08	0.00	97.75	0.01	0.29	0.00
+TIGR00128	fabD	"malonyl CoA-acyl carrier protein transacylase"	2	0.02	95.70	0.01	2.40	0.00	0.13	0.00	93.05	0.01	0.12	0.00
+TIGR02017	hutG_amidohyd	"N-formylglutamate deformylase"	2	0.02	93.78	0.01	0.01	0.00	3.65	0.00	89.19	0.01	0.92	0.00
+TIGR00445	mraY	"phospho-N-acetylmuramoyl-pentapeptide-transferase"	4	0.04	286.70	0.02	3.54	0.00	0.48	0.00	282.07	0.03	0.61	0.00
+TIGR03708	poly_P_AMP_trns	"polyphosphate:AMP phosphotransferase"	1	0.01	12.91	0.00	0.21	0.00	0.00	0.00	12.65	0.00	0.04	0.00
+TIGR00640	acid_CoA_mut_C	"methylmalonyl-CoA mutase C-terminal domain"	2	0.02	113.80	0.01	17.90	0.01	1.13	0.00	91.88	0.01	2.90	0.00
+TIGR01745	asd_gamma	"aspartate-semialdehyde dehydrogenase"	1	0.01	21.31	0.00	0.00	0.00	0.00	0.00	21.31	0.00	0.01	0.00
+TIGR01296	asd_B	"aspartate-semialdehyde dehydrogenase"	3	0.03	215.39	0.01	7.89	0.01	0.19	0.00	206.96	0.02	0.35	0.00
+TIGR02025	BchH	"magnesium chelatase, H subunit"	1	0.01	71.59	0.00	0.00	0.00	0.01	0.00	71.56	0.01	0.02	0.00
+TIGR00032	argG	"argininosuccinate synthase"	6	0.06	468.63	0.03	13.90	0.01	9.73	0.00	440.80	0.05	4.20	0.00
+TIGR00704	NaPi_cotrn_rel	"Na/Pi-cotransporter II-related protein"	2	0.02	54.28	0.00	0.91	0.00	0.06	0.00	53.14	0.01	0.18	0.00
+TIGR03300	assembly_YfgL	"outer membrane assembly lipoprotein YfgL"	1	0.01	54.97	0.00	0.04	0.00	0.13	0.00	54.73	0.01	0.07	0.00
+TIGR02663	nifX	"nitrogen fixation protein NifX"	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+TIGR01220	Pmev_kin_Gr_pos	"phosphomevalonate kinase"	1	0.01	49.69	0.00	2.47	0.00	0.00	0.00	47.19	0.01	0.04	0.00
+TIGR01249	pro_imino_pep_1	"prolyl aminopeptidase"	1	0.01	29.33	0.00	0.02	0.00	3.64	0.00	24.90	0.00	0.78	0.00
+TIGR00797	matE	"MATE efflux family protein"	11	0.11	2294.10	0.15	337.04	0.26	594.21	0.28	468.39	0.05	894.47	0.29
+TIGR03990	Arch_GlmM	"phosphoglucosamine mutase"	1	0.01	12.82	0.00	0.00	0.00	0.02	0.00	11.46	0.00	1.33	0.00
+TIGR00500	met_pdase_I	"methionine aminopeptidase, type I"	5	0.05	340.45	0.02	0.29	0.00	4.13	0.00	333.30	0.04	2.73	0.00
+TIGR00225	prc	"C-terminal processing peptidase"	7	0.07	467.62	0.03	14.67	0.01	1.65	0.00	447.24	0.05	4.06	0.00
+TIGR00400	mgtE	"magnesium transporter"	1	0.01	23.30	0.00	0.10	0.00	0.07	0.00	23.05	0.00	0.08	0.00
+TIGR01190	ccmB	"heme exporter protein CcmB"	1	0.01	61.65	0.00	0.00	0.00	0.14	0.00	61.46	0.01	0.04	0.00
+TIGR01650	PD_CobS	"cobaltochelatase, CobS subunit"	2	0.02	234.73	0.01	0.06	0.00	3.67	0.00	229.95	0.03	1.05	0.00
+TIGR00647	DNA_bind_WhiA	"DNA-binding protein WhiA"	2	0.02	100.65	0.01	7.32	0.01	3.43	0.00	89.44	0.01	0.46	0.00
+TIGR01707	gspI	"type II secretion system protein I"	1	0.01	66.73	0.00	0.00	0.00	0.15	0.00	66.54	0.01	0.04	0.00
+TIGR00077	lspA	"signal peptidase II"	2	0.02	73.76	0.00	0.33	0.00	20.13	0.01	50.15	0.01	3.15	0.00
+TIGR02350	prok_dnaK	"chaperone protein DnaK"	4	0.04	217.24	0.01	2.40	0.00	3.57	0.00	210.32	0.02	0.95	0.00
+TIGR00757	RNaseEG	"ribonuclease, Rne/Rng family"	2	0.02	157.97	0.01	0.39	0.00	0.95	0.00	155.22	0.02	1.41	0.00
+TIGR00724	urea_amlyse_rel	"biotin-dependent carboxylase uncharacterized domain"	1	0.01	17.05	0.00	0.00	0.00	0.00	0.00	17.05	0.00	0.00	0.00
+TIGR01722	MMSDH	"methylmalonate-semialdehyde dehydrogenase (acylating)"	1	0.01	202.80	0.01	0.00	0.00	0.43	0.00	202.04	0.02	0.33	0.00
+TIGR00430	Q_tRNA_tgt	"tRNA-guanine transglycosylase"	3	0.03	115.69	0.01	2.39	0.00	0.39	0.00	111.48	0.01	1.42	0.00
+TIGR02397	dnaX_nterm	"DNA polymerase III, subunit gamma and tau"	3	0.03	159.02	0.01	0.06	0.00	3.33	0.00	154.87	0.02	0.76	0.00
+TIGR00755	ksgA	"ribosomal RNA small subunit methyltransferase A"	3	0.03	102.31	0.01	2.37	0.00	0.03	0.00	98.46	0.01	1.46	0.00
+TIGR00778	ahpD_dom	"alkylhydroperoxidase AhpD family core domain"	5	0.05	329.01	0.02	0.27	0.00	7.71	0.00	319.00	0.03	2.03	0.00
+TIGR00173	menD	"2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase"	1	0.01	72.05	0.00	0.00	0.00	0.03	0.00	72.00	0.01	0.02	0.00
+TIGR02091	glgC	"glucose-1-phosphate adenylyltransferase"	2	0.02	67.83	0.00	0.35	0.00	19.79	0.01	44.69	0.00	3.00	0.00
+TIGR00947	2A73	"putative bicarbonate transporter, IctB family"	1	0.01	1783.23	0.11	282.94	0.22	587.09	0.27	15.03	0.00	898.17	0.30
+TIGR01420	pilT_fam	"twitching motility protein"	4	0.04	69.58	0.00	0.14	0.00	0.37	0.00	66.21	0.01	2.86	0.00
+TIGR00594	polc	"DNA polymerase III, alpha subunit"	6	0.06	337.94	0.02	19.90	0.02	1.31	0.00	313.68	0.03	3.05	0.00
+TIGR00049	TIGR00049	"iron-sulfur cluster assembly accessory protein"	5	0.05	583.45	0.04	0.03	0.00	1.11	0.00	581.56	0.06	0.75	0.00
+TIGR00824	EIIA-man	"PTS system, mannose/fructose/sorbose family, IIA component"	1	0.01	42.19	0.00	2.26	0.00	0.00	0.00	39.89	0.00	0.03	0.00
+TIGR01027	proB	"glutamate 5-kinase"	2	0.02	170.09	0.01	8.19	0.01	0.67	0.00	160.56	0.02	0.67	0.00
+TIGR00084	ruvA	"Holliday junction DNA helicase RuvA"	2	0.02	54.04	0.00	2.39	0.00	0.24	0.00	50.03	0.01	1.38	0.00
+TIGR03668	Rv0121_F420	"PPOX class probable F420-dependent enzyme, Rv0121 family"	1	0.01	89.86	0.01	0.35	0.00	0.52	0.00	88.59	0.01	0.41	0.00
+TIGR02194	GlrX_NrdH	"glutaredoxin-like protein NrdH"	1	0.01	34.27	0.00	0.00	0.00	0.00	0.00	34.26	0.00	0.00	0.00
+TIGR00857	pyrC_multi	"dihydroorotase, multifunctional complex type"	2	0.02	77.98	0.00	3.14	0.00	0.05	0.00	74.53	0.01	0.26	0.00
+TIGR01450	recC	"exodeoxyribonuclease V, gamma subunit"	2	0.02	114.57	0.01	0.44	0.00	0.59	0.00	113.04	0.01	0.50	0.00
+TIGR00360	ComEC_N-term	"ComEC/Rec2-related protein"	3	0.03	169.35	0.01	3.60	0.00	0.67	0.00	164.43	0.02	0.64	0.00
+TIGR00056	TIGR00056	"ABC transport permease subunit"	3	0.03	276.79	0.02	0.01	0.00	0.48	0.00	274.48	0.03	1.82	0.00
+TIGR01215	minE	"cell division topological specificity factor MinE"	1	0.01	72.17	0.00	0.00	0.00	0.02	0.00	72.14	0.01	0.01	0.00
+TIGR00589	ogt	"methylated-DNA--[protein]-cysteine S-methyltransferase"	2	0.02	119.68	0.01	6.48	0.01	0.01	0.00	112.90	0.01	0.29	0.00
+TIGR00040	yfcE	"phosphodiesterase, MJ0936 family"	1	0.01	36.00	0.00	0.85	0.00	0.07	0.00	34.84	0.00	0.24	0.00
+TIGR01283	nifE	"nitrogenase MoFe cofactor biosynthesis protein NifE"	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+TIGR01087	murD	"UDP-N-acetylmuramoylalanine--D-glutamate ligase"	8	0.08	455.59	0.03	3.70	0.00	4.17	0.00	446.15	0.05	1.58	0.00
+TIGR02222	chap_CsaA	"export-related chaperone protein CsaA"	3	0.03	123.65	0.01	7.48	0.01	3.63	0.00	111.42	0.01	1.13	0.00
+TIGR00460	fmt	"methionyl-tRNA formyltransferase"	5	0.05	359.93	0.02	2.42	0.00	4.21	0.00	350.75	0.04	2.56	0.00
+TIGR00220	mscL	"large conductance mechanosensitive channel protein"	2	0.02	216.31	0.01	0.13	0.00	0.55	0.00	215.12	0.02	0.51	0.00
+TIGR02714	amido_AtzD_TrzD	"ring-opening amidohydrolases"	1	0.01	92.16	0.01	0.32	0.00	0.58	0.00	90.77	0.01	0.49	0.00
+TIGR00835	agcS	"amino acid carrier protein"	4	0.04	422.48	0.03	0.33	0.00	1.29	0.00	419.96	0.05	0.89	0.00
+TIGR03709	PPK2_rel_1	"polyphosphate:nucleotide phosphotransferase, PPK2 family"	1	0.01	12.91	0.00	0.21	0.00	0.00	0.00	12.65	0.00	0.04	0.00
+TIGR00496	frr	"ribosome recycling factor"	4	0.04	171.90	0.01	17.73	0.01	4.09	0.00	148.70	0.02	1.38	0.00
+TIGR01174	ftsA	"cell division protein FtsA"	5	0.05	140.61	0.01	11.02	0.01	3.51	0.00	124.84	0.01	1.24	0.00
+TIGR03157	cas_Csc2	"CRISPR type I-D/CYANO-associated protein Csc2"	1	0.01	72.80	0.00	0.00	0.00	0.01	0.00	72.76	0.01	0.02	0.00
+TIGR02033	D-hydantoinase	"dihydropyrimidinase"	1	0.01	42.14	0.00	0.24	0.00	16.39	0.01	23.21	0.00	2.31	0.00
+TIGR03599	YloV	"DAK2 domain fusion protein YloV"	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+TIGR00639	PurN	"phosphoribosylglycinamide formyltransferase"	3	0.03	303.70	0.02	0.02	0.00	0.68	0.00	302.55	0.03	0.46	0.00
+TIGR01643	YD_repeat_2x	"YD repeat (two copies)"	1	0.01	68.00	0.00	0.00	0.00	0.14	0.00	67.82	0.01	0.03	0.00
+TIGR00120	ArgJ	"glutamate N-acetyltransferase/amino-acid acetyltransferase"	5	0.05	458.16	0.03	14.13	0.01	6.25	0.00	434.30	0.05	3.48	0.00
+TIGR00416	sms	"DNA repair protein RadA"	1	0.01	171.43	0.01	12.03	0.01	40.15	0.02	62.43	0.01	56.82	0.02
+TIGR01056	topB	"DNA topoisomerase III"	1	0.01	78.70	0.01	7.86	0.01	0.06	0.00	70.54	0.01	0.25	0.00
+TIGR00730	TIGR00730	"TIGR00730 family protein"	5	0.05	273.73	0.02	7.49	0.01	4.05	0.00	257.57	0.03	4.62	0.00
+TIGR02290	M3_fam_3	"oligoendopeptidase, pepF/M3 family"	1	0.01	191.30	0.01	0.01	0.00	0.40	0.00	190.55	0.02	0.34	0.00
+TIGR00628	ung	"uracil-DNA glycosylase"	3	0.03	133.78	0.01	2.37	0.00	0.18	0.00	131.15	0.01	0.07	0.00
+TIGR03688	pupylate_PafA2	"proteasome accessory factor PafA2"	1	0.01	50.96	0.00	4.85	0.00	3.43	0.00	42.25	0.00	0.43	0.00
+TIGR01686	FkbH	"FkbH domain"	1	0.01	92.95	0.01	0.00	0.00	0.04	0.00	92.89	0.01	0.02	0.00

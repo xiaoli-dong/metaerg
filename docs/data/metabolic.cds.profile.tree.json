@@ -1,0 +1,227 @@
+var mydata = {
+ "text":"Compound-process-gene",
+"state": {"opened": true},
+ "children": [
+ {
+  "text": "Oxygen",
+  "data": {"Count":21.00,"Count_pct":0.21,"Abund":1306.50,"Abund_pct":0.08,"Abund_DLM2":40.18,"Abund_pct_DLM2":0.04,"Abund_GEM2":23.87,"Abund_pct_GEM2":0.01,"Abund_LCM1":1223.07,"Abund_pct_LCM1":0.12,"Abund_PLM2":19.39,"Abund_pct_PLM2":0.00},
+"state": {"opened": true},
+  "children": [
+   {
+    "text": "Cytochrome-(quinone)-oxidase,-bd-type",
+    "data": {"Count":2.00,"Count_pct":0.02,"Abund":80.64,"Abund_pct":0.01,"Abund_DLM2":0.00,"Abund_pct_DLM2":0.00,"Abund_GEM2":0.11,"Abund_pct_GEM2":0.00,"Abund_LCM1":80.48,"Abund_pct_LCM1":0.01,"Abund_PLM2":0.05,"Abund_pct_PLM2":0.00},
+    "children": [
+     {
+      "text": "CydB",
+      "data": {"Count":2.00,"Count_pct":0.02,"Abund":80.64,"Abund_pct":0.01,"Abund_DLM2":0.00,"Abund_pct_DLM2":0.00,"Abund_GEM2":0.11,"Abund_pct_GEM2":0.00,"Abund_LCM1":80.48,"Abund_pct_LCM1":0.01,"Abund_PLM2":0.05,"Abund_pct_PLM2":0.00}
+     }
+    ]
+   },
+   {
+    "text": "Cytochrome-(quinone)-oxidase,-bo-type",
+    "data": {"Count":4.00,"Count_pct":0.04,"Abund":314.12,"Abund_pct":0.02,"Abund_DLM2":9.96,"Abund_pct_DLM2":0.01,"Abund_GEM2":1.97,"Abund_pct_GEM2":0.00,"Abund_LCM1":297.62,"Abund_pct_LCM1":0.03,"Abund_PLM2":4.58,"Abund_pct_PLM2":0.00},
+    "children": [
+     {
+      "text": "CyoE",
+      "data": {"Count":4.00,"Count_pct":0.04,"Abund":314.12,"Abund_pct":0.02,"Abund_DLM2":9.96,"Abund_pct_DLM2":0.01,"Abund_GEM2":1.97,"Abund_pct_GEM2":0.00,"Abund_LCM1":297.62,"Abund_pct_LCM1":0.03,"Abund_PLM2":4.58,"Abund_pct_PLM2":0.00}
+     }
+    ]
+   },
+   {
+    "text": "Cytochrome-c-oxidase,-caa3-type",
+    "data": {"Count":11.00,"Count_pct":0.11,"Abund":811.56,"Abund_pct":0.05,"Abund_DLM2":0.27,"Abund_pct_DLM2":0.00,"Abund_GEM2":17.69,"Abund_pct_GEM2":0.01,"Abund_LCM1":787.03,"Abund_pct_LCM1":0.08,"Abund_PLM2":6.57,"Abund_pct_PLM2":0.00},
+    "children": [
+     {
+      "text": "CoxB",
+      "data": {"Count":5.00,"Count_pct":0.05,"Abund":384.71,"Abund_pct":0.02,"Abund_DLM2":0.02,"Abund_pct_DLM2":0.00,"Abund_GEM2":0.65,"Abund_pct_GEM2":0.00,"Abund_LCM1":381.91,"Abund_pct_LCM1":0.04,"Abund_PLM2":2.13,"Abund_pct_PLM2":0.00}
+     },
+     {
+      "text": "CoxA",
+      "data": {"Count":6.00,"Count_pct":0.06,"Abund":426.85,"Abund_pct":0.03,"Abund_DLM2":0.25,"Abund_pct_DLM2":0.00,"Abund_GEM2":17.04,"Abund_pct_GEM2":0.01,"Abund_LCM1":405.12,"Abund_pct_LCM1":0.04,"Abund_PLM2":4.44,"Abund_pct_PLM2":0.00}
+     }
+    ]
+   },
+   {
+    "text": "Cytochrome-c-oxidase,-cbb3-type",
+    "data": {"Count":4.00,"Count_pct":0.04,"Abund":100.18,"Abund_pct":0.00,"Abund_DLM2":29.95,"Abund_pct_DLM2":0.03,"Abund_GEM2":4.10,"Abund_pct_GEM2":0.00,"Abund_LCM1":57.94,"Abund_pct_LCM1":0.00,"Abund_PLM2":8.19,"Abund_pct_PLM2":0.00},
+    "children": [
+     {
+      "text": "ccoN",
+      "data": {"Count":1.00,"Count_pct":0.01,"Abund":28.95,"Abund_pct":0.00,"Abund_DLM2":9.91,"Abund_pct_DLM2":0.01,"Abund_GEM2":1.36,"Abund_pct_GEM2":0.00,"Abund_LCM1":14.98,"Abund_pct_LCM1":0.00,"Abund_PLM2":2.70,"Abund_pct_PLM2":0.00}
+     },
+     {
+      "text": "ccoP",
+      "data": {"Count":2.00,"Count_pct":0.02,"Abund":42.28,"Abund_pct":0.00,"Abund_DLM2":10.13,"Abund_pct_DLM2":0.01,"Abund_GEM2":1.38,"Abund_pct_GEM2":0.00,"Abund_LCM1":27.98,"Abund_pct_LCM1":0.00,"Abund_PLM2":2.79,"Abund_pct_PLM2":0.00}
+     },
+     {
+      "text": "ccoO",
+      "data": {"Count":1.00,"Count_pct":0.01,"Abund":28.95,"Abund_pct":0.00,"Abund_DLM2":9.91,"Abund_pct_DLM2":0.01,"Abund_GEM2":1.36,"Abund_pct_GEM2":0.00,"Abund_LCM1":14.98,"Abund_pct_LCM1":0.00,"Abund_PLM2":2.70,"Abund_pct_PLM2":0.00}
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Urea",
+  "data": {"Count":3.00,"Count_pct":0.03,"Abund":586.77,"Abund_pct":0.03,"Abund_DLM2":0.03,"Abund_pct_DLM2":0.00,"Abund_GEM2":1.26,"Abund_pct_GEM2":0.00,"Abund_LCM1":584.49,"Abund_pct_LCM1":0.06,"Abund_PLM2":0.99,"Abund_pct_PLM2":0.00},
+"state": {"opened": true},
+  "children": [
+   {
+    "text": "Urease",
+    "data": {"Count":3.00,"Count_pct":0.03,"Abund":586.77,"Abund_pct":0.03,"Abund_DLM2":0.03,"Abund_pct_DLM2":0.00,"Abund_GEM2":1.26,"Abund_pct_GEM2":0.00,"Abund_LCM1":584.49,"Abund_pct_LCM1":0.06,"Abund_PLM2":0.99,"Abund_pct_PLM2":0.00},
+    "children": [
+     {
+      "text": "ureA",
+      "data": {"Count":1.00,"Count_pct":0.01,"Abund":195.59,"Abund_pct":0.01,"Abund_DLM2":0.01,"Abund_pct_DLM2":0.00,"Abund_GEM2":0.42,"Abund_pct_GEM2":0.00,"Abund_LCM1":194.83,"Abund_pct_LCM1":0.02,"Abund_PLM2":0.33,"Abund_pct_PLM2":0.00}
+     },
+     {
+      "text": "ureC",
+      "data": {"Count":1.00,"Count_pct":0.01,"Abund":195.59,"Abund_pct":0.01,"Abund_DLM2":0.01,"Abund_pct_DLM2":0.00,"Abund_GEM2":0.42,"Abund_pct_GEM2":0.00,"Abund_LCM1":194.83,"Abund_pct_LCM1":0.02,"Abund_PLM2":0.33,"Abund_pct_PLM2":0.00}
+     },
+     {
+      "text": "ureB",
+      "data": {"Count":1.00,"Count_pct":0.01,"Abund":195.59,"Abund_pct":0.01,"Abund_DLM2":0.01,"Abund_pct_DLM2":0.00,"Abund_GEM2":0.42,"Abund_pct_GEM2":0.00,"Abund_LCM1":194.83,"Abund_pct_LCM1":0.02,"Abund_PLM2":0.33,"Abund_pct_PLM2":0.00}
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Sulfur",
+  "data": {"Count":3.00,"Count_pct":0.03,"Abund":629.22,"Abund_pct":0.03,"Abund_DLM2":0.03,"Abund_pct_DLM2":0.00,"Abund_GEM2":1.50,"Abund_pct_GEM2":0.00,"Abund_LCM1":626.61,"Abund_pct_LCM1":0.06,"Abund_PLM2":1.08,"Abund_pct_PLM2":0.00},
+"state": {"opened": true},
+  "children": [
+   {
+    "text": "thiosulfate-oxidation",
+    "data": {"Count":3.00,"Count_pct":0.03,"Abund":629.22,"Abund_pct":0.03,"Abund_DLM2":0.03,"Abund_pct_DLM2":0.00,"Abund_GEM2":1.50,"Abund_pct_GEM2":0.00,"Abund_LCM1":626.61,"Abund_pct_LCM1":0.06,"Abund_PLM2":1.08,"Abund_pct_PLM2":0.00},
+    "children": [
+     {
+      "text": "soxY",
+      "data": {"Count":1.00,"Count_pct":0.01,"Abund":209.74,"Abund_pct":0.01,"Abund_DLM2":0.01,"Abund_pct_DLM2":0.00,"Abund_GEM2":0.50,"Abund_pct_GEM2":0.00,"Abund_LCM1":208.87,"Abund_pct_LCM1":0.02,"Abund_PLM2":0.36,"Abund_pct_PLM2":0.00}
+     },
+     {
+      "text": "soxB",
+      "data": {"Count":1.00,"Count_pct":0.01,"Abund":209.74,"Abund_pct":0.01,"Abund_DLM2":0.01,"Abund_pct_DLM2":0.00,"Abund_GEM2":0.50,"Abund_pct_GEM2":0.00,"Abund_LCM1":208.87,"Abund_pct_LCM1":0.02,"Abund_PLM2":0.36,"Abund_pct_PLM2":0.00}
+     },
+     {
+      "text": "soxC",
+      "data": {"Count":1.00,"Count_pct":0.01,"Abund":209.74,"Abund_pct":0.01,"Abund_DLM2":0.01,"Abund_pct_DLM2":0.00,"Abund_GEM2":0.50,"Abund_pct_GEM2":0.00,"Abund_LCM1":208.87,"Abund_pct_LCM1":0.02,"Abund_PLM2":0.36,"Abund_pct_PLM2":0.00}
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Carbon-monoxide",
+  "data": {"Count":2.00,"Count_pct":0.02,"Abund":120.76,"Abund_pct":0.01,"Abund_DLM2":0.35,"Abund_pct_DLM2":0.00,"Abund_GEM2":4.50,"Abund_pct_GEM2":0.00,"Abund_LCM1":114.53,"Abund_pct_LCM1":0.01,"Abund_PLM2":1.37,"Abund_pct_PLM2":0.00},
+"state": {"opened": true},
+  "children": [
+   {
+    "text": "CO-oxidation",
+    "data": {"Count":2.00,"Count_pct":0.02,"Abund":120.76,"Abund_pct":0.01,"Abund_DLM2":0.35,"Abund_pct_DLM2":0.00,"Abund_GEM2":4.50,"Abund_pct_GEM2":0.00,"Abund_LCM1":114.53,"Abund_pct_LCM1":0.01,"Abund_PLM2":1.37,"Abund_pct_PLM2":0.00},
+    "children": [
+     {
+      "text": "coxL",
+      "data": {"Count":2.00,"Count_pct":0.02,"Abund":120.76,"Abund_pct":0.01,"Abund_DLM2":0.35,"Abund_pct_DLM2":0.00,"Abund_GEM2":4.50,"Abund_pct_GEM2":0.00,"Abund_LCM1":114.53,"Abund_pct_LCM1":0.01,"Abund_PLM2":1.37,"Abund_pct_PLM2":0.00}
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Halogenated-compounds",
+  "data": {"Count":1.00,"Count_pct":0.01,"Abund":13.34,"Abund_pct":0.00,"Abund_DLM2":0.21,"Abund_pct_DLM2":0.00,"Abund_GEM2":0.03,"Abund_pct_GEM2":0.00,"Abund_LCM1":13.00,"Abund_pct_LCM1":0.00,"Abund_PLM2":0.10,"Abund_pct_PLM2":0.00},
+"state": {"opened": true},
+  "children": [
+   {
+    "text": "Halogenated-compounds-breakdown",
+    "data": {"Count":1.00,"Count_pct":0.01,"Abund":13.34,"Abund_pct":0.00,"Abund_DLM2":0.21,"Abund_pct_DLM2":0.00,"Abund_GEM2":0.03,"Abund_pct_GEM2":0.00,"Abund_LCM1":13.00,"Abund_pct_LCM1":0.00,"Abund_PLM2":0.10,"Abund_pct_PLM2":0.00},
+    "children": [
+     {
+      "text": "Haloacid-dehydrogenase",
+      "data": {"Count":1.00,"Count_pct":0.01,"Abund":13.34,"Abund_pct":0.00,"Abund_DLM2":0.21,"Abund_pct_DLM2":0.00,"Abund_GEM2":0.03,"Abund_pct_GEM2":0.00,"Abund_LCM1":13.00,"Abund_pct_LCM1":0.00,"Abund_PLM2":0.10,"Abund_pct_PLM2":0.00}
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "C1-compounds",
+  "data": {"Count":7.00,"Count_pct":0.07,"Abund":781.24,"Abund_pct":0.05,"Abund_DLM2":0.06,"Abund_pct_DLM2":0.00,"Abund_GEM2":5.51,"Abund_pct_GEM2":0.00,"Abund_LCM1":773.66,"Abund_pct_LCM1":0.08,"Abund_PLM2":2.01,"Abund_pct_PLM2":0.00},
+"state": {"opened": true},
+  "children": [
+   {
+    "text": "Formaldehyde-oxidation",
+    "data": {"Count":4.00,"Count_pct":0.04,"Abund":346.49,"Abund_pct":0.03,"Abund_DLM2":0.04,"Abund_pct_DLM2":0.00,"Abund_GEM2":4.64,"Abund_pct_GEM2":0.00,"Abund_LCM1":340.57,"Abund_pct_LCM1":0.04,"Abund_PLM2":1.24,"Abund_pct_PLM2":0.00},
+    "children": [
+     {
+      "text": "S-formylglutathione-hydrolase",
+      "data": {"Count":2.00,"Count_pct":0.02,"Abund":256.74,"Abund_pct":0.02,"Abund_DLM2":0.01,"Abund_pct_DLM2":0.00,"Abund_GEM2":0.57,"Abund_pct_GEM2":0.00,"Abund_LCM1":255.82,"Abund_pct_LCM1":0.03,"Abund_PLM2":0.34,"Abund_pct_PLM2":0.00}
+     },
+     {
+      "text": "S-(hydroxymethyl)glutathione-dehydrogenase",
+      "data": {"Count":2.00,"Count_pct":0.02,"Abund":89.75,"Abund_pct":0.01,"Abund_DLM2":0.03,"Abund_pct_DLM2":0.00,"Abund_GEM2":4.07,"Abund_pct_GEM2":0.00,"Abund_LCM1":84.75,"Abund_pct_LCM1":0.01,"Abund_PLM2":0.90,"Abund_pct_PLM2":0.00}
+     }
+    ]
+   },
+   {
+    "text": "Formate-oxidation",
+    "data": {"Count":3.00,"Count_pct":0.03,"Abund":434.75,"Abund_pct":0.02,"Abund_DLM2":0.02,"Abund_pct_DLM2":0.00,"Abund_GEM2":0.87,"Abund_pct_GEM2":0.00,"Abund_LCM1":433.09,"Abund_pct_LCM1":0.04,"Abund_PLM2":0.77,"Abund_pct_PLM2":0.00},
+    "children": [
+     {
+      "text": "formate-dehydrogenase,-alpha-subunit",
+      "data": {"Count":2.00,"Count_pct":0.02,"Abund":217.69,"Abund_pct":0.01,"Abund_DLM2":0.01,"Abund_pct_DLM2":0.00,"Abund_GEM2":0.40,"Abund_pct_GEM2":0.00,"Abund_LCM1":216.93,"Abund_pct_LCM1":0.02,"Abund_PLM2":0.35,"Abund_pct_PLM2":0.00}
+     },
+     {
+      "text": "formate-dehydrogenase,-gamma-subunit",
+      "data": {"Count":1.00,"Count_pct":0.01,"Abund":217.06,"Abund_pct":0.01,"Abund_DLM2":0.01,"Abund_pct_DLM2":0.00,"Abund_GEM2":0.47,"Abund_pct_GEM2":0.00,"Abund_LCM1":216.16,"Abund_pct_LCM1":0.02,"Abund_PLM2":0.42,"Abund_pct_PLM2":0.00}
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Nitrogen",
+  "data": {"Count":6.00,"Count_pct":0.06,"Abund":663.52,"Abund_pct":0.02,"Abund_DLM2":0.82,"Abund_pct_DLM2":0.00,"Abund_GEM2":1.44,"Abund_pct_GEM2":0.00,"Abund_LCM1":659.69,"Abund_pct_LCM1":0.07,"Abund_PLM2":1.55,"Abund_pct_PLM2":0.00},
+"state": {"opened": true},
+  "children": [
+   {
+    "text": "Nitrite-reduction",
+    "data": {"Count":3.00,"Count_pct":0.03,"Abund":446.51,"Abund_pct":0.02,"Abund_DLM2":0.80,"Abund_pct_DLM2":0.00,"Abund_GEM2":1.34,"Abund_pct_GEM2":0.00,"Abund_LCM1":442.85,"Abund_pct_LCM1":0.04,"Abund_PLM2":1.50,"Abund_pct_PLM2":0.00},
+    "children": [
+     {
+      "text": "NirD",
+      "data": {"Count":1.00,"Count_pct":0.01,"Abund":204.63,"Abund_pct":0.01,"Abund_DLM2":0.01,"Abund_pct_DLM2":0.00,"Abund_GEM2":0.65,"Abund_pct_GEM2":0.00,"Abund_LCM1":203.32,"Abund_pct_LCM1":0.02,"Abund_PLM2":0.64,"Abund_pct_PLM2":0.00}
+     },
+     {
+      "text": "NirB",
+      "data": {"Count":1.00,"Count_pct":0.01,"Abund":204.63,"Abund_pct":0.01,"Abund_DLM2":0.01,"Abund_pct_DLM2":0.00,"Abund_GEM2":0.65,"Abund_pct_GEM2":0.00,"Abund_LCM1":203.32,"Abund_pct_LCM1":0.02,"Abund_PLM2":0.64,"Abund_pct_PLM2":0.00}
+     },
+     {
+      "text": "cyt-c552-small-NrfH",
+      "data": {"Count":1.00,"Count_pct":0.01,"Abund":37.25,"Abund_pct":0.00,"Abund_DLM2":0.78,"Abund_pct_DLM2":0.00,"Abund_GEM2":0.04,"Abund_pct_GEM2":0.00,"Abund_LCM1":36.21,"Abund_pct_LCM1":0.00,"Abund_PLM2":0.22,"Abund_pct_PLM2":0.00}
+     }
+    ]
+   },
+   {
+    "text": "N2-fixation",
+    "data": {"Count":3.00,"Count_pct":0.03,"Abund":217.01,"Abund_pct":0.00,"Abund_DLM2":0.02,"Abund_pct_DLM2":0.00,"Abund_GEM2":0.10,"Abund_pct_GEM2":0.00,"Abund_LCM1":216.84,"Abund_pct_LCM1":0.03,"Abund_PLM2":0.05,"Abund_pct_PLM2":0.00},
+    "children": [
+     {
+      "text": "Mo-Fe-type-Alpha",
+      "data": {"Count":1.00,"Count_pct":0.01,"Abund":72.42,"Abund_pct":0.00,"Abund_DLM2":0.01,"Abund_pct_DLM2":0.00,"Abund_GEM2":0.04,"Abund_pct_GEM2":0.00,"Abund_LCM1":72.35,"Abund_pct_LCM1":0.01,"Abund_PLM2":0.02,"Abund_pct_PLM2":0.00}
+     },
+     {
+      "text": "nifH",
+      "data": {"Count":1.00,"Count_pct":0.01,"Abund":72.17,"Abund_pct":0.00,"Abund_DLM2":0.00,"Abund_pct_DLM2":0.00,"Abund_GEM2":0.02,"Abund_pct_GEM2":0.00,"Abund_LCM1":72.14,"Abund_pct_LCM1":0.01,"Abund_PLM2":0.01,"Abund_pct_PLM2":0.00}
+     },
+     {
+      "text": "Mo-Fe-type-beta",
+      "data": {"Count":1.00,"Count_pct":0.01,"Abund":72.42,"Abund_pct":0.00,"Abund_DLM2":0.01,"Abund_pct_DLM2":0.00,"Abund_GEM2":0.04,"Abund_pct_GEM2":0.00,"Abund_LCM1":72.35,"Abund_pct_LCM1":0.01,"Abund_PLM2":0.02,"Abund_pct_PLM2":0.00}
+     }
+    ]
+   }
+  ]
+  }
+ ]
+}

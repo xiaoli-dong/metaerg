@@ -1,0 +1,85 @@
+#Taxon	Count	Count_pct	Abund	Abund_pct	Abund_DLM2	Abund_pct_DLM2	Abund_GEM2	Abund_pct_GEM2	Abund_LCM1	Abund_pct_LCM1	Abund_PLM2	Abund_pct_PLM2
+Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta	2	1.53	566.82	2.28	41.82	1.18	1.92	0.05	519.56	4.20	3.52	0.07
+Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales	1	0.76	484.20	1.94	224.55	6.33	67.11	1.73	6.14	0.05	186.41	3.65
+Bacteria;Bacteroidetes;Bacteroidia;Flavobacteriales;Flavobacteriaceae;Psychroflexus	1	0.76	98.31	0.39	16.91	0.48	4.11	0.11	70.29	0.57	7.00	0.14
+Bacteria;Proteobacteria;Gammaproteobacteria;HOC36	1	0.76	375.63	1.51	19.86	0.56	158.92	4.10	27.46	0.22	169.39	3.32
+Eukaryota;Excavata;Discoba;Discicristata;Heterolobosea	1	0.76	6.46	0.03	0.83	0.02	0.00	0.00	5.63	0.05	0.00	0.00
+Bacteria;Bacteroidetes;Rhodothermia;Rhodothermales;Rhodothermaceae	2	1.53	15.64	0.06	1.11	0.03	0.07	0.00	13.89	0.11	0.57	0.01
+Eukaryota;Archaeplastida;Chloroplastida;Charophyta	1	0.76	389.47	1.56	0.31	0.01	0.00	0.00	389.16	3.15	0.00	0.00
+Bacteria;Proteobacteria;Deltaproteobacteria;Bradymonadales;Bradymonadaceae	1	0.76	9.82	0.04	1.59	0.04	0.72	0.02	6.75	0.05	0.76	0.01
+Bacteria;Gemmatimonadetes;Longimicrobia;Longimicrobiales;Longimicrobiaceae	1	0.76	9.85	0.04	0.00	0.00	0.00	0.00	9.72	0.08	0.13	0.00
+Bacteria;Proteobacteria;Gammaproteobacteria;Cellvibrionales;Cellvibrionaceae;uncultured	2	1.53	29.66	0.12	0.09	0.00	0.35	0.01	28.52	0.23	0.70	0.01
+Bacteria;Actinobacteria;Acidimicrobiia;Microtrichales;Ilumatobacteraceae	1	0.76	124.16	0.50	20.59	0.58	30.00	0.77	51.13	0.41	22.44	0.44
+Bacteria;Actinobacteria;Nitriliruptoria;Nitriliruptorales;Nitriliruptoraceae	5	3.82	1118.02	4.49	80.42	2.27	150.35	3.88	734.50	5.94	152.75	2.99
+Bacteria;Patescibacteria;Saccharimonadia;Saccharimonadales	1	0.76	23.58	0.09	0.27	0.01	4.76	0.12	14.15	0.11	4.40	0.09
+Bacteria;Actinobacteria;Acidimicrobiia;Microtrichales;Ilumatobacteraceae;uncultured	1	0.76	102.62	0.41	17.62	0.50	17.36	0.45	29.68	0.24	37.94	0.74
+Eukaryota;Opisthokonta;Aphelidea;Paraphelidium	1	0.76	160.14	0.64	7.37	0.21	2.38	0.06	149.45	1.21	0.95	0.02
+Bacteria;Cyanobacteria;Oxyphotobacteria;Nostocales;Oscillatoriaceae;Oscillatoria PCC-6304	1	0.76	32.60	0.13	0.49	0.01	0.50	0.01	26.49	0.21	5.13	0.10
+Bacteria;Bacteroidetes;Rhodothermia;Balneolales	2	1.53	374.09	1.50	69.00	1.95	91.72	2.36	43.96	0.36	169.41	3.32
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Beijerinckiaceae;Salinarimonas	1	0.76	938.56	3.77	84.32	2.38	595.59	15.36	121.07	0.98	137.57	2.69
+Bacteria;Proteobacteria;Gammaproteobacteria;Alteromonadales;Idiomarinaceae;Aliidiomarina	1	0.76	32.92	0.13	1.92	0.05	0.98	0.03	28.72	0.23	1.30	0.03
+Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Hyphomonadaceae;Oceanicaulis	1	0.76	42.62	0.17	26.08	0.74	0.78	0.02	14.99	0.12	0.76	0.01
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Roseinatronobacter	11	8.40	1149.56	4.62	35.10	0.99	56.57	1.46	1006.88	8.14	51.00	1.00
+Bacteria;Cyanobacteria;Oxyphotobacteria;Nostocales;Nostocaceae;Nodularia PCC-9350	2	1.53	480.87	1.93	0.63	0.02	4.22	0.11	473.88	3.83	2.14	0.04
+Bacteria;Verrucomicrobia;Verrucomicrobiae;Opitutales;uncultured	1	0.76	20.39	0.08	4.45	0.13	3.55	0.09	7.05	0.06	5.35	0.10
+Bacteria;Planctomycetes;Planctomycetacia;Isosphaerales;Isosphaeraceae	1	0.76	14.80	0.06	6.26	0.18	0.34	0.01	6.62	0.05	1.58	0.03
+Bacteria;Actinobacteria;Nitriliruptoria;Nitriliruptorales;Nitriliruptoraceae;Egicoccus	1	0.76	111.93	0.45	6.31	0.18	6.78	0.17	91.87	0.74	6.97	0.14
+Bacteria;Verrucomicrobia;Verrucomicrobiae;Opitutales	1	0.76	40.28	0.16	14.00	0.39	3.63	0.09	13.97	0.11	8.67	0.17
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Halodurantibacterium	1	0.76	157.61	0.63	53.13	1.50	13.79	0.36	58.39	0.47	32.31	0.63
+Bacteria;Bacteroidetes;Bacteroidia;Chitinophagales;Saprospiraceae;uncultured	1	0.76	64.23	0.26	10.54	0.30	11.28	0.29	8.51	0.07	33.91	0.66
+Eukaryota;Opisthokonta;Nucletmycea;Fungi;Dikarya;Ascomycota	1	0.76	7.20	0.03	0.00	0.00	0.00	0.00	7.20	0.06	0.00	0.00
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Rhodobaculum	3	2.29	450.94	1.81	138.00	3.89	68.04	1.75	169.61	1.37	75.29	1.47
+Bacteria;Proteobacteria;Gammaproteobacteria;Alteromonadales;Marinobacteraceae	2	1.53	19.85	0.08	0.38	0.01	0.00	0.00	18.63	0.15	0.84	0.02
+Archaea;Euryarchaeota;Halobacteria;Halobacteriales;Haloferacaceae;uncultured	1	0.76	9.65	0.04	0.00	0.00	0.00	0.00	9.65	0.08	0.00	0.00
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Paracoccus	1	0.76	337.91	1.36	29.69	0.84	31.19	0.80	242.35	1.96	34.69	0.68
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae	2	1.53	397.69	1.60	45.14	1.27	34.03	0.88	275.24	2.23	43.28	0.85
+Bacteria;Proteobacteria;Gammaproteobacteria;Cellvibrionales;Cellvibrionaceae	1	0.76	36.65	0.15	4.65	0.13	0.61	0.02	30.83	0.25	0.55	0.01
+Bacteria;Proteobacteria;Gammaproteobacteria;Alteromonadales;Marinobacteraceae;Marinobacter	1	0.76	19.65	0.08	0.48	0.01	0.00	0.00	18.89	0.15	0.28	0.01
+Archaea;Euryarchaeota;Halobacteria;Halobacteriales;Halococcaceae;Halalkalicoccus	1	0.76	8.63	0.03	0.00	0.00	0.00	0.00	8.63	0.07	0.00	0.00
+Bacteria;Gemmatimonadetes;Longimicrobia;Longimicrobiales	2	1.53	97.83	0.39	7.90	0.22	17.85	0.46	49.52	0.40	22.56	0.44
+Eukaryota;SAR;Alveolata	1	0.76	3.37	0.01	0.00	0.00	0.00	0.00	3.37	0.03	0.00	0.00
+Bacteria;Proteobacteria;Gammaproteobacteria;Oceanospirillales;Nitrincolaceae;Nitrincola	4	3.05	244.48	0.98	118.98	3.36	15.41	0.40	80.91	0.65	29.18	0.57
+Bacteria;Proteobacteria;Gammaproteobacteria;Cellvibrionales;Cellvibrionaceae;Marinimicrobium	1	0.76	26.68	0.11	0.00	0.00	0.00	0.00	26.22	0.21	0.46	0.01
+Bacteria;Verrucomicrobia;Verrucomicrobiae;Verrucomicrobiales;Rubritaleaceae	1	0.76	36.21	0.15	4.55	0.13	0.44	0.01	22.52	0.18	8.70	0.17
+Bacteria;Patescibacteria;Gracilibacteria;JGI 0000069-P22	1	0.76	49.76	0.20	10.08	0.28	5.75	0.15	29.69	0.24	4.24	0.08
+Bacteria;Patescibacteria;Parcubacteria;GWA2-38-13b	1	0.76	11.21	0.05	2.05	0.06	0.07	0.00	8.55	0.07	0.53	0.01
+Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta	1	0.76	11.64	0.05	0.00	0.00	0.00	0.00	11.64	0.09	0.00	0.00
+Bacteria;Bacteroidetes;Bacteroidia;Chitinophagales;Saprospiraceae	1	0.76	309.22	1.24	60.48	1.71	76.41	1.97	24.02	0.19	148.30	2.90
+Bacteria;Actinobacteria;Actinobacteria;Micrococcales;Micrococcaceae	1	0.76	16.62	0.07	4.96	0.14	0.04	0.00	11.44	0.09	0.19	0.00
+Bacteria;Firmicutes;Clostridia;Clostridiales;Peptostreptococcaceae	1	0.76	79.57	0.32	18.31	0.52	6.14	0.16	50.20	0.41	4.92	0.10
+Bacteria;Deinococcus-Thermus;Deinococci;Deinococcales;Trueperaceae;Truepera	1	0.76	66.20	0.27	14.42	0.41	16.99	0.44	18.88	0.15	15.92	0.31
+Eukaryota;Archaeplastida	1	0.76	12.64	0.05	0.00	0.00	0.00	0.00	12.64	0.10	0.00	0.00
+Bacteria;Proteobacteria;Gammaproteobacteria;Gammaproteobacteria Incertae Sedis;Unknown Family;Wenzhouxiangella	1	0.76	130.54	0.52	7.08	0.20	17.36	0.45	91.45	0.74	14.66	0.29
+Bacteria;Gemmatimonadetes;BD2-11 terrestrial group	3	2.29	237.75	0.95	38.55	1.09	70.03	1.81	76.01	0.61	53.16	1.04
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Seohaeicola	1	0.76	160.57	0.64	8.57	0.24	0.82	0.02	146.57	1.19	4.61	0.09
+Bacteria;Deinococcus-Thermus;Deinococci;Deinococcales	1	0.76	76.88	0.31	20.85	0.59	18.93	0.49	19.94	0.16	17.16	0.34
+Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Xanthomonadaceae;Lysobacter	1	0.76	36.48	0.15	1.32	0.04	0.00	0.00	35.15	0.28	0.00	0.00
+Bacteria;Proteobacteria;Gammaproteobacteria;Vibrionales;Vibrionaceae;Catenococcus	1	0.76	117.23	0.47	5.91	0.17	0.10	0.00	110.44	0.89	0.77	0.02
+Bacteria;Proteobacteria;Gammaproteobacteria;Oceanospirillales;Halomonadaceae;Halomonas	2	1.53	275.80	1.11	30.56	0.86	2.06	0.05	239.85	1.94	3.33	0.07
+Bacteria;Verrucomicrobia;Verrucomicrobiae;Opitutales;Puniceicoccaceae	1	0.76	9.32	0.04	0.16	0.00	0.03	0.00	8.84	0.07	0.30	0.01
+Bacteria;Chloroflexi;Chloroflexia;Thermomicrobiales;Thermomicrobiaceae	2	1.53	298.22	1.20	26.33	0.74	53.53	1.38	154.74	1.25	63.61	1.25
+Bacteria;Firmicutes;Bacilli;Bacillales;Sporolactobacillaceae;Salipaludibacillus	1	0.76	218.91	0.88	30.10	0.85	0.15	0.00	188.07	1.52	0.58	0.01
+Bacteria;Proteobacteria;Deltaproteobacteria	1	0.76	26.36	0.11	4.97	0.14	2.87	0.07	14.27	0.12	4.25	0.08
+Bacteria;Proteobacteria;Gammaproteobacteria;Nitrosococcales;Methylophagaceae	1	0.76	39.17	0.16	6.79	0.19	0.49	0.01	29.12	0.24	2.77	0.05
+Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Chlorophyceae	1	0.76	46.84	0.19	24.58	0.69	1.97	0.05	20.28	0.16	0.00	0.00
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Kaiserbacteria	1	0.76	92.91	0.37	34.83	0.98	6.58	0.17	44.77	0.36	6.73	0.13
+Bacteria;Bacteroidetes;Rhodothermia;Balneolales;Balneolaceae	1	0.76	37.29	0.15	11.07	0.31	7.09	0.18	9.04	0.07	10.10	0.20
+Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas	1	0.76	44.23	0.18	5.60	0.16	0.37	0.01	37.45	0.30	0.81	0.02
+Bacteria;Bacteroidetes;Bacteroidia;Flavobacteriales;Cryomorphaceae	2	1.53	58.96	0.24	14.90	0.42	12.30	0.32	20.75	0.17	11.01	0.22
+Bacteria;Proteobacteria;Gammaproteobacteria;Alteromonadales;Idiomarinaceae	1	0.76	15.83	0.06	0.32	0.01	1.12	0.03	13.29	0.11	1.10	0.02
+Bacteria;Actinobacteria;Nitriliruptoria;Nitriliruptorales	2	1.53	121.21	0.49	7.00	0.20	1.78	0.05	111.83	0.90	0.60	0.01
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Rhodobaca	2	1.53	510.50	2.05	38.28	1.08	26.86	0.69	411.89	3.33	33.48	0.66
+Bacteria;Bacteroidetes;Rhodothermia;Rhodothermales	1	0.76	4.45	0.02	0.00	0.00	0.00	0.00	4.45	0.04	0.00	0.00
+Bacteria;Cyanobacteria;Oxyphotobacteria;Chloroplast	2	1.53	14.05	0.06	0.00	0.00	0.00	0.00	14.05	0.11	0.00	0.00
+Bacteria;Firmicutes;Bacilli;Bacillales;Sporolactobacillaceae;Alkalicoccus	2	1.53	1093.24	4.39	75.41	2.13	0.80	0.02	1012.96	8.19	4.08	0.08
+Bacteria;Cyanobacteria;Oxyphotobacteria;Nostocales	1	0.76	25.91	0.10	7.20	0.20	0.92	0.02	15.76	0.13	2.03	0.04
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Rhizobiaceae;Chelativorans	1	0.76	47.59	0.19	5.23	0.15	3.81	0.10	35.99	0.29	2.56	0.05
+Bacteria;Cyanobacteria;Oxyphotobacteria;Phormidesmiales;Nodosilineaceae;Nodosilinea PCC-7104	4	3.05	9150.92	36.75	1832.94	51.69	2115.43	54.54	1834.26	14.83	3368.29	65.93
+unknown	6	4.58	1878.51	7.54	14.14	0.40	2.51	0.06	1860.17	15.04	1.70	0.03
+Bacteria;Firmicutes;Bacilli;Bacillales;Sporolactobacillaceae	1	0.76	16.04	0.06	1.61	0.05	0.00	0.00	14.43	0.12	0.00	0.00
+Bacteria;Bacteroidetes;Bacteroidia;Cytophagales	3	2.29	143.57	0.58	50.80	1.43	3.50	0.09	76.73	0.62	12.54	0.25
+Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Xanthomonadaceae;uncultured	1	0.76	42.20	0.17	1.55	0.04	0.02	0.00	40.08	0.32	0.55	0.01
+Archaea;Euryarchaeota;Halobacteria;Halobacteriales;Halococcaceae	1	0.76	10.89	0.04	0.00	0.00	0.00	0.00	10.89	0.09	0.00	0.00
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;uncultured	1	0.76	105.71	0.42	11.07	0.31	14.02	0.36	58.80	0.48	21.82	0.43
+Bacteria;Firmicutes;Bacilli;Lactobacillales;Carnobacteriaceae;Alkalibacterium	2	1.53	511.98	2.06	13.60	0.38	0.05	0.00	497.88	4.03	0.45	0.01
+Bacteria;Actinobacteria;Acidimicrobiia;Microtrichales;Microtrichaceae	1	0.76	71.59	0.29	9.11	0.26	12.49	0.32	16.83	0.14	33.15	0.65

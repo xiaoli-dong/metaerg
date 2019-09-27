@@ -1,0 +1,2 @@
+#Gene	Contig	Start	End	Gene_Length	Strand	Feature	numRepeat	rpt_uniq_seq
+metaerg.pl|03353	NODE_17_length_116352_cov_46.5074	49904	51960	2057	0	repeat_region	29	GTTTCAATCCCTGATAGGGATTATTAGTAATTGGAAC

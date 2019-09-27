@@ -1,0 +1,42 @@
+##############input contig stats#############
+
+Contig count: 648
+Contig total bases: 11817565
+Contig min length: 503
+Contig max length: 345883
+Contig mean length: 18236.98
+Contig meadian length: 1312.50
+Contig length stdev: 39165.55
+Contig N50: 92499
+##############gene prediction stats#############
+CDS count:	10398
+arc_16SrRNA count:	3
+arc_23SrRNA count:	6
+arc_5SrRNA count:	7
+bac_16SrRNA count:	114
+bac_23SrRNA count:	229
+bac_5SrRNA count:	120
+euk_18SrRNA count:	14
+euk_28SrRNA count:	25
+euk_5_8SrRNA count:	15
+lipoprotein_signal_peptide count:	351
+repeat_region count:	1
+signal_peptide count:	1155
+tRNA count:	262
+transmembrane_helix count:	2426
+##############gene annotation stats#############
+CDS swissprot_hit:	5067
+CDS pfam_hit:	8127
+CDS tigrfam_hit:	2846
+CDS foam_hit:	3043
+CDS metabolic_marker_hit:	42
+CDS genomedb_hit:	9068
+arc_16SrRNA SILVA database search hits:	3
+arc_23SrRNA SILVA database search hits:	6
+arc_5SrRNA SILVA database search hits:	7
+bac_16SrRNA SILVA database search hits:	114
+bac_23SrRNA SILVA database search hits:	229
+bac_5SrRNA SILVA database search hits:	120
+euk_18SrRNA SILVA database search hits:	14
+euk_28SrRNA SILVA database search hits:	25
+euk_5_8SrRNA SILVA database search hits:	15

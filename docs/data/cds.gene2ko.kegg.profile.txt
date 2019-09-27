@@ -1,0 +1,2481 @@
+#kegg_pathway_id	kegg_pathway_name	total_family_in_pathway	total_family_found_in_pathway	ko	ko_name	gene_num
+00530	Aminosugars metabolism	38	17	K00075	murB	10
+00530	Aminosugars metabolism	38	17	K00326	E1.6.2.2	3
+00530	Aminosugars metabolism	38	17	K00698	CHS1	13
+00530	Aminosugars metabolism	38	17	K00790	murA	2
+00530	Aminosugars metabolism	38	17	K00820	E2.6.1.16, glmS	8
+00530	Aminosugars metabolism	38	17	K00972	E2.7.7.23, UAP1	12
+00530	Aminosugars metabolism	38	17	K01183	E3.2.1.14	28
+00530	Aminosugars metabolism	38	17	K01207	E3.2.1.52, nagZ	16
+00530	Aminosugars metabolism	38	17	K01443	E3.5.1.25, nagA, AMDHD2	5
+00530	Aminosugars metabolism	38	17	K01836	E5.4.2.3	1
+00530	Aminosugars metabolism	38	17	K02472	wecC	3
+00530	Aminosugars metabolism	38	17	K02474	wbpO	3
+00530	Aminosugars metabolism	38	17	K02564	nagB, GNPDA	1
+00530	Aminosugars metabolism	38	17	K03431	glmM	8
+00530	Aminosugars metabolism	38	17	K04042	glmU	26
+00530	Aminosugars metabolism	38	17	K07106	murQ	1
+00530	Aminosugars metabolism	38	17	K11528	K11528	19
+00510	N-Glycan biosynthesis	35	7	K00721	DPM1	14
+00510	N-Glycan biosynthesis	35	7	K00729	ALG5	9
+00510	N-Glycan biosynthesis	35	7	K00810	E2.5.1.-	1
+00510	N-Glycan biosynthesis	35	7	K00902	E2.7.1.108	3
+00510	N-Glycan biosynthesis	35	7	K03844	ALG11	17
+00510	N-Glycan biosynthesis	35	7	K07432	ALG13	2
+00510	N-Glycan biosynthesis	35	7	K07441	ALG14	2
+00450	Selenoamino acid metabolism	22	19	K00392	E1.8.7.1, sir	5
+00450	Selenoamino acid metabolism	22	19	K00394	E1.8.99.2A, aprA	5
+00450	Selenoamino acid metabolism	22	19	K00395	E1.8.99.2B, aprB	7
+00450	Selenoamino acid metabolism	22	19	K00599	E2.1.1.-	50
+00450	Selenoamino acid metabolism	22	19	K00681	E2.3.2.2, ggt	8
+00450	Selenoamino acid metabolism	22	19	K00789	E2.5.1.6, metK	3
+00450	Selenoamino acid metabolism	22	19	K00860	E2.7.1.25, cysC	20
+00450	Selenoamino acid metabolism	22	19	K00956	E2.7.7.4A, cysN	21
+00450	Selenoamino acid metabolism	22	19	K00958	E2.7.7.4C, met3	2
+00450	Selenoamino acid metabolism	22	19	K01008	E2.7.9.3, selD	19
+00450	Selenoamino acid metabolism	22	19	K01042	E2.9.1.1, selA	1
+00450	Selenoamino acid metabolism	22	19	K01251	E3.3.1.1, ahcY	3
+00450	Selenoamino acid metabolism	22	19	K01697	E4.2.1.22, CBS	40
+00450	Selenoamino acid metabolism	22	19	K01738	E2.5.1.47, cysK	24
+00450	Selenoamino acid metabolism	22	19	K01739	E2.5.1.48, metB	4
+00450	Selenoamino acid metabolism	22	19	K01758	E4.4.1.1	2
+00450	Selenoamino acid metabolism	22	19	K01760	E4.4.1.8, metC	12
+00450	Selenoamino acid metabolism	22	19	K01761	E4.4.1.11	1
+00450	Selenoamino acid metabolism	22	19	K01874	E6.1.1.10, metG	2
+00760	Nicotinate and nicotinamide metabolism	30	21	K00157	E1.2.3.1, AOX1	6
+00760	Nicotinate and nicotinamide metabolism	30	21	K00278	E1.4.3.16, nadB	7
+00760	Nicotinate and nicotinamide metabolism	30	21	K00322	E1.6.1.1, udhA	4
+00760	Nicotinate and nicotinamide metabolism	30	21	K00324	E1.6.1.2A, pntA	5
+00760	Nicotinate and nicotinamide metabolism	30	21	K00325	E1.6.1.2B, pntB	6
+00760	Nicotinate and nicotinamide metabolism	30	21	K00763	E2.4.2.11, pncB	4
+00760	Nicotinate and nicotinamide metabolism	30	21	K00767	E2.4.2.19, nadC	1
+00760	Nicotinate and nicotinamide metabolism	30	21	K00858	E2.7.1.23	11
+00760	Nicotinate and nicotinamide metabolism	30	21	K00952	E2.7.7.1, nadR	4
+00760	Nicotinate and nicotinamide metabolism	30	21	K00969	E2.7.7.18, nadD	5
+00760	Nicotinate and nicotinamide metabolism	30	21	K01081	E3.1.3.5, ushA	12
+00760	Nicotinate and nicotinamide metabolism	30	21	K01239	E3.2.2.1, iunH	2
+00760	Nicotinate and nicotinamide metabolism	30	21	K01513	E3.6.1.9	2
+00760	Nicotinate and nicotinamide metabolism	30	21	K01916	E6.3.1.5	2
+00760	Nicotinate and nicotinamide metabolism	30	21	K01950	E6.3.5.1, nadE	1
+00760	Nicotinate and nicotinamide metabolism	30	21	K03517	NADA	3
+00760	Nicotinate and nicotinamide metabolism	30	21	K03783	PUNA	2
+00760	Nicotinate and nicotinamide metabolism	30	21	K03784	DEOD	3
+00760	Nicotinate and nicotinamide metabolism	30	21	K06989	E1.4.1.21	1
+00760	Nicotinate and nicotinamide metabolism	30	21	K08722	YFBR	1
+00760	Nicotinate and nicotinamide metabolism	30	21	K08723	YJJG	1
+00062	Fatty acid elongation in mitochondria	8	6	K00022	E1.1.1.35, fadB	50
+00062	Fatty acid elongation in mitochondria	8	6	K07508	ACAA2	15
+00062	Fatty acid elongation in mitochondria	8	6	K07509	HADHB	16
+00062	Fatty acid elongation in mitochondria	8	6	K07511	ECHS1	16
+00062	Fatty acid elongation in mitochondria	8	6	K07512	MECR, NRBF1	2
+00062	Fatty acid elongation in mitochondria	8	6	K07515	HADHA1	35
+00330	Arginine and proline metabolism	53	26	K00261	E1.4.1.3	9
+00330	Arginine and proline metabolism	53	26	K00273	E1.4.3.3, DAO	1
+00330	Arginine and proline metabolism	53	26	K00286	E1.5.1.2, proC	4
+00330	Arginine and proline metabolism	53	26	K00294	E1.5.1.12, putA	22
+00330	Arginine and proline metabolism	53	26	K00318	E1.5.99.8, putA	17
+00330	Arginine and proline metabolism	53	26	K00491	E1.14.13.39, nos	2
+00330	Arginine and proline metabolism	53	26	K00611	E2.1.3.3, OTC, argF, argI	5
+00330	Arginine and proline metabolism	53	26	K00812	E2.6.1.1A, aspB	6
+00330	Arginine and proline metabolism	53	26	K00813	E2.6.1.1B, aspC	1
+00330	Arginine and proline metabolism	53	26	K00819	E2.6.1.13, rocD	2
+00330	Arginine and proline metabolism	53	26	K00824	E2.6.1.21, dat	2
+00330	Arginine and proline metabolism	53	26	K00926	E2.7.2.2, arcC	1
+00330	Arginine and proline metabolism	53	26	K01259	E3.4.11.5, pip	13
+00330	Arginine and proline metabolism	53	26	K01470	E3.5.2.10	3
+00330	Arginine and proline metabolism	53	26	K01473	E3.5.2.14A, hyuA	2
+00330	Arginine and proline metabolism	53	26	K01474	E3.5.2.14B, hyuB	2
+00330	Arginine and proline metabolism	53	26	K01478	E3.5.3.6, arcA	1
+00330	Arginine and proline metabolism	53	26	K01571	E4.1.1.3A, oadA	23
+00330	Arginine and proline metabolism	53	26	K01625	eda	2
+00330	Arginine and proline metabolism	53	26	K01750	E4.3.1.12, ocd	2
+00330	Arginine and proline metabolism	53	26	K01755	E4.3.2.1, argH	11
+00330	Arginine and proline metabolism	53	26	K01881	E6.1.1.15, proS	4
+00330	Arginine and proline metabolism	53	26	K01887	E6.1.1.19, argS	4
+00330	Arginine and proline metabolism	53	26	K01940	E6.3.4.5, argG	12
+00330	Arginine and proline metabolism	53	26	K01948	E6.3.4.16, CPS1	3
+00330	Arginine and proline metabolism	53	26	K11142	LAP3	6
+00940	Phenylpropanoid biosynthesis	19	5	K00430	E1.11.1.7	9
+00940	Phenylpropanoid biosynthesis	19	5	K00517	E1.14.-.-	22
+00940	Phenylpropanoid biosynthesis	19	5	K01188	E3.2.1.21	3
+00940	Phenylpropanoid biosynthesis	19	5	K01904	E6.2.1.12	30
+00940	Phenylpropanoid biosynthesis	19	5	K05349	BGLX	3
+00030	Pentose phosphate pathway	42	24	K00033	E1.1.1.44, PGD, gnd	1
+00030	Pentose phosphate pathway	42	24	K00034	E1.1.1.47, gdh	2
+00030	Pentose phosphate pathway	42	24	K00036	G6PD, zwf	2
+00030	Pentose phosphate pathway	42	24	K00615	E2.2.1.1, tktA, tktB	20
+00030	Pentose phosphate pathway	42	24	K00616	E2.2.1.2, talA, talB	4
+00030	Pentose phosphate pathway	42	24	K00850	PFK	2
+00030	Pentose phosphate pathway	42	24	K00851	E2.7.1.12, gntK, idnK	6
+00030	Pentose phosphate pathway	42	24	K00852	E2.7.1.15, rbsK	1
+00030	Pentose phosphate pathway	42	24	K00874	kdgK	2
+00030	Pentose phosphate pathway	42	24	K00948	E2.7.6.1, prsA	4
+00030	Pentose phosphate pathway	42	24	K01057	PGLS, pgl, devB	2
+00030	Pentose phosphate pathway	42	24	K01619	E4.1.2.4, deoC	2
+00030	Pentose phosphate pathway	42	24	K01623	ALDO, fbaB	3
+00030	Pentose phosphate pathway	42	24	K01624	FBA, fbaA	2
+00030	Pentose phosphate pathway	42	24	K01625	eda	2
+00030	Pentose phosphate pathway	42	24	K01690	edd	2
+00030	Pentose phosphate pathway	42	24	K01783	E5.1.3.1, rpe	3
+00030	Pentose phosphate pathway	42	24	K01807	E5.3.1.6A, rpiA	1
+00030	Pentose phosphate pathway	42	24	K01810	GPI, pgi	2
+00030	Pentose phosphate pathway	42	24	K01835	E5.4.2.2, pgm	12
+00030	Pentose phosphate pathway	42	24	K01839	deoB	2
+00030	Pentose phosphate pathway	42	24	K02446	glpX	1
+00030	Pentose phosphate pathway	42	24	K03841	FBP	2
+00030	Pentose phosphate pathway	42	24	K11532	glpX-SEBP	1
+00631	1,2-Dichloroethane degradation	5	4	K00114	E1.1.99.8	3
+00631	1,2-Dichloroethane degradation	5	4	K00128	E1.2.1.3	17
+00631	1,2-Dichloroethane degradation	5	4	K01561	E3.8.1.3	1
+00631	1,2-Dichloroethane degradation	5	4	K01563	E3.8.1.5, dhaA	1
+00623	2,4-Dichlorobenzoate degradation	14	6	K00448	E1.13.11.3A, pcaG	3
+00623	2,4-Dichlorobenzoate degradation	14	6	K00449	E1.13.11.3B, pcaH	3
+00623	2,4-Dichlorobenzoate degradation	14	6	K00465	E1.13.11.-	5
+00623	2,4-Dichlorobenzoate degradation	14	6	K00481	E1.14.13.2, pobA	1
+00623	2,4-Dichlorobenzoate degradation	14	6	K03384	E1.14.12.-	3
+00623	2,4-Dichlorobenzoate degradation	14	6	K07519	E1.14.12.7	3
+00410	beta-Alanine metabolism	24	15	K00128	E1.2.1.3	17
+00410	beta-Alanine metabolism	24	15	K00137	E1.2.1.19	1
+00410	beta-Alanine metabolism	24	15	K00207	E1.3.1.2, DPYD	10
+00410	beta-Alanine metabolism	24	15	K00249	E1.3.99.3, ACADM, acd	33
+00410	beta-Alanine metabolism	24	15	K00797	E2.5.1.16, SRM, speE	1
+00410	beta-Alanine metabolism	24	15	K00822	E2.6.1.18	1
+00410	beta-Alanine metabolism	24	15	K01270	E3.4.13.3, pepD	2
+00410	beta-Alanine metabolism	24	15	K01464	E3.5.2.2, DPYS	1
+00410	beta-Alanine metabolism	24	15	K01579	E4.1.1.11, panD	2
+00410	beta-Alanine metabolism	24	15	K01692	E4.2.1.17, paaG	36
+00410	beta-Alanine metabolism	24	15	K01918	E6.3.2.1, panC	4
+00410	beta-Alanine metabolism	24	15	K05605	E3.1.2.4	1
+00410	beta-Alanine metabolism	24	15	K07511	ECHS1	16
+00410	beta-Alanine metabolism	24	15	K07514	EHHADH1	35
+00410	beta-Alanine metabolism	24	15	K07515	HADHA1	35
+00625	Tetrachloroethene degradation	7	4	K00100	E1.1.1.-	2
+00625	Tetrachloroethene degradation	7	4	K02586	nifD	2
+00625	Tetrachloroethene degradation	7	4	K02588	nifH	1
+00625	Tetrachloroethene degradation	7	4	K02591	nifK	4
+02020	Two-component system - General	239	121	K00066	algD	3
+02020	Two-component system - General	239	121	K00244	frdA	7
+02020	Two-component system - General	239	121	K00245	frdB	21
+02020	Two-component system - General	239	121	K00246	frdC	11
+02020	Two-component system - General	239	121	K00370	narG	4
+02020	Two-component system - General	239	121	K00371	narH	5
+02020	Two-component system - General	239	121	K00626	E2.3.1.9, atoB	20
+02020	Two-component system - General	239	121	K00689	E2.4.1.5	7
+02020	Two-component system - General	239	121	K00766	E2.4.2.18, trpD	11
+02020	Two-component system - General	239	121	K01034	atoD	1
+02020	Two-component system - General	239	121	K01035	atoA	1
+02020	Two-component system - General	239	121	K01609	E4.1.1.48, trpC	5
+02020	Two-component system - General	239	121	K01657	E4.1.3.27A, trpE	19
+02020	Two-component system - General	239	121	K01695	E4.2.1.20A, trpA	9
+02020	Two-component system - General	239	121	K01696	E4.2.1.20B, trpB	9
+02020	Two-component system - General	239	121	K01915	E6.3.1.2, glnA	7
+02020	Two-component system - General	239	121	K02040	pstS	10
+02020	Two-component system - General	239	121	K02106	atoE	1
+02020	Two-component system - General	239	121	K02259	COX15	1
+02020	Two-component system - General	239	121	K02488	pleD	2
+02020	Two-component system - General	239	121	K02491	kinA	136
+02020	Two-component system - General	239	121	K02556	motA	2
+02020	Two-component system - General	239	121	K02657	pilG	1
+02020	Two-component system - General	239	121	K02658	pilH	3
+02020	Two-component system - General	239	121	K02659	pilI	1
+02020	Two-component system - General	239	121	K02660	pilJ	1
+02020	Two-component system - General	239	121	K02667	pilR	1
+02020	Two-component system - General	239	121	K02668	pilS	195
+02020	Two-component system - General	239	121	K03407	cheA	221
+02020	Two-component system - General	239	121	K04771	degP, htrA	5
+02020	Two-component system - General	239	121	K07636	phoR	211
+02020	Two-component system - General	239	121	K07637	phoQ	130
+02020	Two-component system - General	239	121	K07638	envZ	116
+02020	Two-component system - General	239	121	K07639	rstB	175
+02020	Two-component system - General	239	121	K07640	cpxA	102
+02020	Two-component system - General	239	121	K07641	creC	206
+02020	Two-component system - General	239	121	K07642	baeS	203
+02020	Two-component system - General	239	121	K07643	basS	86
+02020	Two-component system - General	239	121	K07644	cusS, copS	178
+02020	Two-component system - General	239	121	K07645	qseC	142
+02020	Two-component system - General	239	121	K07646	kdpD	204
+02020	Two-component system - General	239	121	K07647	torS	181
+02020	Two-component system - General	239	121	K07648	arcB	175
+02020	Two-component system - General	239	121	K07649	tctE	85
+02020	Two-component system - General	239	121	K07650	cssS	95
+02020	Two-component system - General	239	121	K07651	resE	173
+02020	Two-component system - General	239	121	K07652	vicK	178
+02020	Two-component system - General	239	121	K07653	mprB	204
+02020	Two-component system - General	239	121	K07654	mtrB	205
+02020	Two-component system - General	239	121	K07655	prrB	11
+02020	Two-component system - General	239	121	K07656	trcS	89
+02020	Two-component system - General	239	121	K07657	phoB	5
+02020	Two-component system - General	239	121	K07658	phoB1, phoP	1
+02020	Two-component system - General	239	121	K07659	ompR	4
+02020	Two-component system - General	239	121	K07660	phoP	1
+02020	Two-component system - General	239	121	K07666	qseB	2
+02020	Two-component system - General	239	121	K07668	vicR	1
+02020	Two-component system - General	239	121	K07669	mprA	3
+02020	Two-component system - General	239	121	K07670	mtrA	1
+02020	Two-component system - General	239	121	K07673	narX	208
+02020	Two-component system - General	239	121	K07674	narQ	95
+02020	Two-component system - General	239	121	K07675	uhpB	211
+02020	Two-component system - General	239	121	K07676	rcsD	179
+02020	Two-component system - General	239	121	K07677	rcsC	180
+02020	Two-component system - General	239	121	K07678	barA	173
+02020	Two-component system - General	239	121	K07679	evgS, bvgS	158
+02020	Two-component system - General	239	121	K07680	comP	58
+02020	Two-component system - General	239	121	K07681	vraS	1
+02020	Two-component system - General	239	121	K07682	devS	197
+02020	Two-component system - General	239	121	K07683	nreB	79
+02020	Two-component system - General	239	121	K07684	narL	2
+02020	Two-component system - General	239	121	K07689	uvrY	1
+02020	Two-component system - General	239	121	K07690	evgA, bvgA	1
+02020	Two-component system - General	239	121	K07692	degU	3
+02020	Two-component system - General	239	121	K07694	vraR	2
+02020	Two-component system - General	239	121	K07695	devR	1
+02020	Two-component system - General	239	121	K07696	nreC	1
+02020	Two-component system - General	239	121	K07697	kinB	77
+02020	Two-component system - General	239	121	K07698	kinC	78
+02020	Two-component system - General	239	121	K07699	spo0A	1
+02020	Two-component system - General	239	121	K07701	dcuS	18
+02020	Two-component system - General	239	121	K07704	lytS	170
+02020	Two-component system - General	239	121	K07705	lytT, lytR	2
+02020	Two-component system - General	239	121	K07708	glnL, ntrB	170
+02020	Two-component system - General	239	121	K07709	hydH, zraS	160
+02020	Two-component system - General	239	121	K07710	atoS	186
+02020	Two-component system - General	239	121	K07711	yfhK	155
+02020	Two-component system - General	239	121	K07712	glnG, ntrC	2
+02020	Two-component system - General	239	121	K07714	atoC	2
+02020	Two-component system - General	239	121	K07716	pleC	176
+02020	Two-component system - General	239	121	K07717	ycbA	150
+02020	Two-component system - General	239	121	K07718	yesM	146
+02020	Two-component system - General	239	121	K07768	senX3	170
+02020	Two-component system - General	239	121	K07769	nblS	132
+02020	Two-component system - General	239	121	K07771	basR	1
+02020	Two-component system - General	239	121	K07773	arcA	1
+02020	Two-component system - General	239	121	K07775	resD	3
+02020	Two-component system - General	239	121	K07776	regX3	1
+02020	Two-component system - General	239	121	K07777	degS	82
+02020	Two-component system - General	239	121	K07778	desK	203
+02020	Two-component system - General	239	121	K07787	cusA	1
+02020	Two-component system - General	239	121	K07788	mdtB	2
+02020	Two-component system - General	239	121	K07789	mdtC	2
+02020	Two-component system - General	239	121	K07799	mdtA	3
+02020	Two-component system - General	239	121	K08082	algZ	4
+02020	Two-component system - General	239	121	K08083	algR	1
+02020	Two-component system - General	239	121	K08348	E1.2.1.2NA, fdnG	7
+02020	Two-component system - General	239	121	K08349	E1.2.1.2NB, fdnH	15
+02020	Two-component system - General	239	121	K08350	E1.2.1.2NG, fdnI	1
+02020	Two-component system - General	239	121	K08475	pgtB	155
+02020	Two-component system - General	239	121	K08479	sasA	171
+02020	Two-component system - General	239	121	K10125	dctB	172
+02020	Two-component system - General	239	121	K10126	dctD	1
+02020	Two-component system - General	239	121	K10255	FAD6, desA	2
+02020	Two-component system - General	239	121	K10681	saeS	176
+02020	Two-component system - General	239	121	K11328	nrsS, rppB	72
+02020	Two-component system - General	239	121	K11331	nrsC	1
+02020	Two-component system - General	239	121	K11354	cph1	143
+02020	Two-component system - General	239	121	K11356	cikA	148
+02020	Two-component system - General	239	121	K11357	divJ	176
+02020	Two-component system - General	239	121	K11383	kinB1, kinB	158
+00900	Terpenoid biosynthesis	8	3	K00795	E2.5.1.10, ispA	2
+00900	Terpenoid biosynthesis	8	3	K00806	E2.5.1.31, uppS	3
+00900	Terpenoid biosynthesis	8	3	K01823	E5.3.3.2, idi	2
+00670	One carbon pool by folate	21	17	K00288	E1.5.1.5, folD	5
+00670	One carbon pool by folate	21	17	K00297	E1.5.1.20, metF	1
+00670	One carbon pool by folate	21	17	K00548	E2.1.1.13, metH	9
+00670	One carbon pool by folate	21	17	K00560	E2.1.1.45, thyA	3
+00670	One carbon pool by folate	21	17	K00600	E2.1.2.1, glyA	2
+00670	One carbon pool by folate	21	17	K00601	E2.1.2.2	3
+00670	One carbon pool by folate	21	17	K00602	E2.1.2.3, purH	3
+00670	One carbon pool by folate	21	17	K00603	E2.1.2.5	1
+00670	One carbon pool by folate	21	17	K00604	E2.1.2.9, fmt	6
+00670	One carbon pool by folate	21	17	K00605	E2.1.2.10, gcvT	8
+00670	One carbon pool by folate	21	17	K01491	E3.5.4.9, folD	5
+00670	One carbon pool by folate	21	17	K01746	E4.3.1.4	1
+00670	One carbon pool by folate	21	17	K01934	E6.3.3.2	1
+00670	One carbon pool by folate	21	17	K01938	E6.3.4.3, fhs	5
+00670	One carbon pool by folate	21	17	K03465	E2.1.1.148, thyX, thy1	3
+00670	One carbon pool by folate	21	17	K08289	PURT	15
+00670	One carbon pool by folate	21	17	K11175	PURN	13
+00500	Starch and sucrose metabolism	67	39	K00012	E1.1.1.22, ugd	14
+00500	Starch and sucrose metabolism	67	39	K00688	E2.4.1.1, glgP, PYG	4
+00500	Starch and sucrose metabolism	67	39	K00689	E2.4.1.5	7
+00500	Starch and sucrose metabolism	67	39	K00690	E2.4.1.7	1
+00500	Starch and sucrose metabolism	67	39	K00691	E2.4.1.8, mapA	4
+00500	Starch and sucrose metabolism	67	39	K00694	E2.4.1.12	14
+00500	Starch and sucrose metabolism	67	39	K00695	E2.4.1.13	2
+00500	Starch and sucrose metabolism	67	39	K00697	E2.4.1.15, otsA	4
+00500	Starch and sucrose metabolism	67	39	K00700	E2.4.1.18, glgB	13
+00500	Starch and sucrose metabolism	67	39	K00702	E2.4.1.20	1
+00500	Starch and sucrose metabolism	67	39	K00703	E2.4.1.21, glgA	16
+00500	Starch and sucrose metabolism	67	39	K00705	E2.4.1.25, malQ	3
+00500	Starch and sucrose metabolism	67	39	K00845	glk	9
+00500	Starch and sucrose metabolism	67	39	K00847	E2.7.1.4, scrK	3
+00500	Starch and sucrose metabolism	67	39	K00963	E2.7.7.9, galU	8
+00500	Starch and sucrose metabolism	67	39	K00975	E2.7.7.27, glgC	13
+00500	Starch and sucrose metabolism	67	39	K01087	E3.1.3.12, otsB	4
+00500	Starch and sucrose metabolism	67	39	K01176	E3.2.1.1, amyA, malS	13
+00500	Starch and sucrose metabolism	67	39	K01178	E3.2.1.3	6
+00500	Starch and sucrose metabolism	67	39	K01179	E3.2.1.4	23
+00500	Starch and sucrose metabolism	67	39	K01182	E3.2.1.10	7
+00500	Starch and sucrose metabolism	67	39	K01187	E3.2.1.20, malZ	5
+00500	Starch and sucrose metabolism	67	39	K01188	E3.2.1.21	3
+00500	Starch and sucrose metabolism	67	39	K01193	E3.2.1.26, sacA	2
+00500	Starch and sucrose metabolism	67	39	K01194	E3.2.1.28, treA	7
+00500	Starch and sucrose metabolism	67	39	K01198	E3.2.1.37, xynB	1
+00500	Starch and sucrose metabolism	67	39	K01212	E3.2.1.65, sacC	4
+00500	Starch and sucrose metabolism	67	39	K01225	E3.2.1.91	19
+00500	Starch and sucrose metabolism	67	39	K01226	E3.2.1.93, treC	3
+00500	Starch and sucrose metabolism	67	39	K01513	E3.6.1.9	2
+00500	Starch and sucrose metabolism	67	39	K01810	GPI, pgi	2
+00500	Starch and sucrose metabolism	67	39	K01835	E5.4.2.2, pgm	12
+00500	Starch and sucrose metabolism	67	39	K01838	E5.4.2.6	9
+00500	Starch and sucrose metabolism	67	39	K05342	E2.4.1.64	1
+00500	Starch and sucrose metabolism	67	39	K05343	E5.4.99.16	3
+00500	Starch and sucrose metabolism	67	39	K05344	E2.7.1.41	4
+00500	Starch and sucrose metabolism	67	39	K05349	BGLX	3
+00500	Starch and sucrose metabolism	67	39	K08678	E4.1.1.35, UXS1	1
+00500	Starch and sucrose metabolism	67	39	K08679	E5.1.3.6	1
+00196	Photosynthesis - antenna proteins	40	7	K02284	cpcA	1
+00196	Photosynthesis - antenna proteins	40	7	K02285	cpcB	1
+00196	Photosynthesis - antenna proteins	40	7	K02286	cpcC	3
+00196	Photosynthesis - antenna proteins	40	7	K02287	cpcD	1
+00196	Photosynthesis - antenna proteins	40	7	K02288	cpcE	2
+00196	Photosynthesis - antenna proteins	40	7	K02289	cpcF	2
+00196	Photosynthesis - antenna proteins	40	7	K02290	cpcG	4
+00770	Pantothenate and CoA biosynthesis	24	16	K00053	E1.1.1.86, ilvC	3
+00770	Pantothenate and CoA biosynthesis	24	16	K00077	E1.1.1.169, apbA	3
+00770	Pantothenate and CoA biosynthesis	24	16	K00207	E1.3.1.2, DPYD	10
+00770	Pantothenate and CoA biosynthesis	24	16	K00606	E2.1.2.11, panB	1
+00770	Pantothenate and CoA biosynthesis	24	16	K00826	E2.6.1.42, ilvE	10
+00770	Pantothenate and CoA biosynthesis	24	16	K00859	E2.7.1.24, coaE	6
+00770	Pantothenate and CoA biosynthesis	24	16	K00867	COAA	1
+00770	Pantothenate and CoA biosynthesis	24	16	K00954	E2.7.7.3A, coaD, kdtB	4
+00770	Pantothenate and CoA biosynthesis	24	16	K00997	E2.7.8.7, acpS	1
+00770	Pantothenate and CoA biosynthesis	24	16	K01464	E3.5.2.2, DPYS	1
+00770	Pantothenate and CoA biosynthesis	24	16	K01513	E3.6.1.9	2
+00770	Pantothenate and CoA biosynthesis	24	16	K01652	E2.2.1.6L, ilvB, ilvG, ilvI	47
+00770	Pantothenate and CoA biosynthesis	24	16	K01653	E2.2.1.6S, ilvH, ilvN	6
+00770	Pantothenate and CoA biosynthesis	24	16	K01687	E4.2.1.9, ilvD	4
+00770	Pantothenate and CoA biosynthesis	24	16	K01918	E6.3.2.1, panC	4
+00770	Pantothenate and CoA biosynthesis	24	16	K03525	COAX	3
+00622	Toluene and xylene degradation	15	9	K00055	E1.1.1.90	5
+00622	Toluene and xylene degradation	15	9	K00492	E1.14.13.-	10
+00622	Toluene and xylene degradation	15	9	K01576	E4.1.1.7, mdlC	10
+00622	Toluene and xylene degradation	15	9	K01666	E4.1.3.39, mhpE	3
+00622	Toluene and xylene degradation	15	9	K01781	E5.1.2.2	7
+00622	Toluene and xylene degradation	15	9	K01856	E5.5.1.1	6
+00622	Toluene and xylene degradation	15	9	K03380	E1.14.13.7	1
+00622	Toluene and xylene degradation	15	9	K03381	E1.13.11.1, catA	1
+00622	Toluene and xylene degradation	15	9	K10217	E1.2.1.32	5
+01057	Biosynthesis of type II polyketide products	1	1	K05556	ACTVI1	7
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K00015	E1.1.1.26	3
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K00018	E1.1.1.29	12
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K00025	E1.1.1.37A	6
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K00026	E1.1.1.37B, mdh	6
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K00042	E1.1.1.60, garR	3
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K00050	E1.1.1.81, ttuD	1
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K00104	glcD	2
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K00122	E1.2.1.2	36
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K00123	E1.2.1.2A	29
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K00124	E1.2.1.2B1	32
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K00125	E1.2.1.2B2	22
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K00127	E1.2.1.2G	1
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K00288	E1.5.1.5, folD	5
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K00436	E1.12.1.2	24
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K00532	E1.12.7.2	16
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K00533	E1.12.7.2L	20
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K01091	E3.1.3.18, gph	4
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K01432	E3.5.1.9	5
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K01458	E3.5.1.68	1
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K01491	E3.5.4.9, folD	5
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K01637	E4.1.3.1, aceA	8
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K01638	E2.3.3.9, aceB, glcB	1
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K01647	CS, gltA	3
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K01681	ACO, acnA	9
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K01682	acnB	9
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K01816	E5.3.1.22, gip	1
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K01938	E6.3.4.3, fhs	5
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K08348	E1.2.1.2NA, fdnG	7
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K08349	E1.2.1.2NB, fdnH	15
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K08350	E1.2.1.2NG, fdnI	1
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K08692	E6.2.1.9	3
+00630	Glyoxylate and dicarboxylate metabolism	57	32	K11473	glcF	2
+00561	Glycerolipid metabolism	41	8	K00005	E1.1.1.6, gldA	1
+00561	Glycerolipid metabolism	41	8	K00128	E1.2.1.3	17
+00561	Glycerolipid metabolism	41	8	K00655	E2.3.1.51, plsC	2
+00561	Glycerolipid metabolism	41	8	K00864	E2.7.1.30, glpK	4
+00561	Glycerolipid metabolism	41	8	K01046	E3.1.1.3	4
+00561	Glycerolipid metabolism	41	8	K03429	UGTP	13
+00561	Glycerolipid metabolism	41	8	K06117	GPP2	1
+00561	Glycerolipid metabolism	41	8	K06119	SQD2	1
+00362	Benzoate degradation via hydroxylation	49	21	K00448	E1.13.11.3A, pcaG	3
+00362	Benzoate degradation via hydroxylation	49	21	K00449	E1.13.11.3B, pcaH	3
+00362	Benzoate degradation via hydroxylation	49	21	K00465	E1.13.11.-	5
+00362	Benzoate degradation via hydroxylation	49	21	K00481	E1.14.13.2, pobA	1
+00362	Benzoate degradation via hydroxylation	49	21	K00632	E2.3.1.16, fadA	16
+00362	Benzoate degradation via hydroxylation	49	21	K01055	E3.1.1.24, pcaD	1
+00362	Benzoate degradation via hydroxylation	49	21	K01576	E4.1.1.7, mdlC	10
+00362	Benzoate degradation via hydroxylation	49	21	K01607	E4.1.1.44, pcaC	2
+00362	Benzoate degradation via hydroxylation	49	21	K01666	E4.1.3.39, mhpE	3
+00362	Benzoate degradation via hydroxylation	49	21	K01781	E5.1.2.2	7
+00362	Benzoate degradation via hydroxylation	49	21	K01856	E5.5.1.1	6
+00362	Benzoate degradation via hydroxylation	49	21	K01857	E5.5.1.2, pcaB	21
+00362	Benzoate degradation via hydroxylation	49	21	K03381	E1.13.11.1, catA	1
+00362	Benzoate degradation via hydroxylation	49	21	K04098	E1.13.11.37	1
+00362	Benzoate degradation via hydroxylation	49	21	K05549	BENA	1
+00362	Benzoate degradation via hydroxylation	49	21	K07508	ACAA2	15
+00362	Benzoate degradation via hydroxylation	49	21	K07509	HADHB	16
+00362	Benzoate degradation via hydroxylation	49	21	K07513	ACAA1	16
+00362	Benzoate degradation via hydroxylation	49	21	K07823	E2.3.1.174, pcaF, catF	14
+00362	Benzoate degradation via hydroxylation	49	21	K10217	E1.2.1.32	5
+00362	Benzoate degradation via hydroxylation	49	21	K10218	E4.1.3.17, ligK	1
+00361	gamma-Hexachlorocyclohexane degradation	22	11	K00120	E1.1.-.-	26
+00361	gamma-Hexachlorocyclohexane degradation	22	11	K00492	E1.14.13.-	10
+00361	gamma-Hexachlorocyclohexane degradation	22	11	K00493	E1.14.14.1	1
+00361	gamma-Hexachlorocyclohexane degradation	22	11	K00517	E1.14.-.-	22
+00361	gamma-Hexachlorocyclohexane degradation	22	11	K01061	E3.1.1.45	2
+00361	gamma-Hexachlorocyclohexane degradation	22	11	K01561	E3.8.1.3	1
+00361	gamma-Hexachlorocyclohexane degradation	22	11	K01563	E3.8.1.5, dhaA	1
+00361	gamma-Hexachlorocyclohexane degradation	22	11	K01860	E5.5.1.7	1
+00361	gamma-Hexachlorocyclohexane degradation	22	11	K03380	E1.14.13.7	1
+00361	gamma-Hexachlorocyclohexane degradation	22	11	K03381	E1.13.11.1, catA	1
+00361	gamma-Hexachlorocyclohexane degradation	22	11	K03384	E1.14.12.-	3
+00240	Pyrimidine metabolism	73	46	K00207	E1.3.1.2, DPYD	10
+00240	Pyrimidine metabolism	73	46	K00226	E1.3.3.1, pyrD	27
+00240	Pyrimidine metabolism	73	46	K00254	E1.3.99.11	1
+00240	Pyrimidine metabolism	73	46	K00384	E1.8.1.9, trxB	33
+00240	Pyrimidine metabolism	73	46	K00525	E1.17.4.1A, nrdA, nrdE	4
+00240	Pyrimidine metabolism	73	46	K00527	E1.17.4.2, nrdD	8
+00240	Pyrimidine metabolism	73	46	K00560	E2.1.1.45, thyA	3
+00240	Pyrimidine metabolism	73	46	K00609	E2.1.3.2C, pyrB	31
+00240	Pyrimidine metabolism	73	46	K00610	E2.1.3.2R, pyrI	8
+00240	Pyrimidine metabolism	73	46	K00756	E2.4.2.2, pdp	5
+00240	Pyrimidine metabolism	73	46	K00758	E2.4.2.4, deoA	7
+00240	Pyrimidine metabolism	73	46	K00761	E2.4.2.9, upp	2
+00240	Pyrimidine metabolism	73	46	K00762	E2.4.2.10, pyrE	17
+00240	Pyrimidine metabolism	73	46	K00857	E2.7.1.21, tdk	1
+00240	Pyrimidine metabolism	73	46	K00876	E2.7.1.48, udk	2
+00240	Pyrimidine metabolism	73	46	K00940	E2.7.4.6, ndk	3
+00240	Pyrimidine metabolism	73	46	K00943	E2.7.4.9, tmk	7
+00240	Pyrimidine metabolism	73	46	K00945	E2.7.4.14, cmk	10
+00240	Pyrimidine metabolism	73	46	K00962	E2.7.7.8, pnp	15
+00240	Pyrimidine metabolism	73	46	K01081	E3.1.3.5, ushA	12
+00240	Pyrimidine metabolism	73	46	K01119	E3.1.4.16, cpdB	13
+00240	Pyrimidine metabolism	73	46	K01464	E3.5.2.2, DPYS	1
+00240	Pyrimidine metabolism	73	46	K01465	E3.5.2.3, pyrC	4
+00240	Pyrimidine metabolism	73	46	K01485	E3.5.4.1, codA	9
+00240	Pyrimidine metabolism	73	46	K01489	E3.5.4.5, cdd	3
+00240	Pyrimidine metabolism	73	46	K01493	E3.5.4.12, comEB	1
+00240	Pyrimidine metabolism	73	46	K01494	E3.5.4.13, dcd	4
+00240	Pyrimidine metabolism	73	46	K01518	E3.6.1.17	2
+00240	Pyrimidine metabolism	73	46	K01520	E3.6.1.23, dut	4
+00240	Pyrimidine metabolism	73	46	K01591	E4.1.1.23, pyrF	4
+00240	Pyrimidine metabolism	73	46	K01937	E6.3.4.2, pyrG	98
+00240	Pyrimidine metabolism	73	46	K01955	E6.3.5.5L, carB	42
+00240	Pyrimidine metabolism	73	46	K01956	E6.3.5.5S, carA	31
+00240	Pyrimidine metabolism	73	46	K02335	DPO1, polA	5
+00240	Pyrimidine metabolism	73	46	K02428	MAZG	4
+00240	Pyrimidine metabolism	73	46	K02825	pyrR	3
+00240	Pyrimidine metabolism	73	46	K03465	E2.1.1.148, thyX, thy1	3
+00240	Pyrimidine metabolism	73	46	K03783	PUNA	2
+00240	Pyrimidine metabolism	73	46	K03784	DEOD	3
+00240	Pyrimidine metabolism	73	46	K04765	E3.6.1.8	3
+00240	Pyrimidine metabolism	73	46	K08693	E3.1.3.6	9
+00240	Pyrimidine metabolism	73	46	K08722	YFBR	1
+00240	Pyrimidine metabolism	73	46	K08723	YJJG	1
+00240	Pyrimidine metabolism	73	46	K08728	E2.4.2.6	1
+00240	Pyrimidine metabolism	73	46	K09903	E2.7.4.22, pyrH	3
+00240	Pyrimidine metabolism	73	46	K10807	RRM1	4
+00150	Androgen and estrogen metabolism	19	3	K00492	E1.14.13.-	10
+00150	Androgen and estrogen metabolism	19	3	K00599	E2.1.1.-	50
+00150	Androgen and estrogen metabolism	19	3	K01130	E3.1.6.1, aslA	1
+00380	Tryptophan metabolism	50	31	K00022	E1.1.1.35, fadB	50
+00380	Tryptophan metabolism	50	31	K00128	E1.2.1.3	17
+00380	Tryptophan metabolism	50	31	K00155	E1.2.1.-	12
+00380	Tryptophan metabolism	50	31	K00157	E1.2.3.1, AOX1	6
+00380	Tryptophan metabolism	50	31	K00164	OGDH, sucA	3
+00380	Tryptophan metabolism	50	31	K00252	E1.3.99.7, gcdH	19
+00380	Tryptophan metabolism	50	31	K00453	E1.13.11.11, TDO2	1
+00380	Tryptophan metabolism	50	31	K00486	E1.14.13.9	2
+00380	Tryptophan metabolism	50	31	K00493	E1.14.14.1	1
+00380	Tryptophan metabolism	50	31	K00599	E2.1.1.-	50
+00380	Tryptophan metabolism	50	31	K00626	E2.3.1.9, atoB	20
+00380	Tryptophan metabolism	50	31	K00669	E2.3.1.87, AANAT	2
+00380	Tryptophan metabolism	50	31	K00816	E2.6.1.7	5
+00380	Tryptophan metabolism	50	31	K01426	E3.5.1.4, amiE	3
+00380	Tryptophan metabolism	50	31	K01432	E3.5.1.9	5
+00380	Tryptophan metabolism	50	31	K01501	E3.5.5.1	1
+00380	Tryptophan metabolism	50	31	K01556	E3.7.1.3	7
+00380	Tryptophan metabolism	50	31	K01593	E4.1.1.28, DDC	2
+00380	Tryptophan metabolism	50	31	K01692	E4.2.1.17, paaG	36
+00380	Tryptophan metabolism	50	31	K01867	E6.1.1.2, trpS	2
+00380	Tryptophan metabolism	50	31	K01932	E6.3.2.-	1
+00380	Tryptophan metabolism	50	31	K03392	E4.1.1.45, ACMSD	1
+00380	Tryptophan metabolism	50	31	K03393	E1.14.16.-	1
+00380	Tryptophan metabolism	50	31	K03781	katE, CAT	1
+00380	Tryptophan metabolism	50	31	K03782	KATG	1
+00380	Tryptophan metabolism	50	31	K04103	E4.1.1.74, ipdC	8
+00380	Tryptophan metabolism	50	31	K07511	ECHS1	16
+00380	Tryptophan metabolism	50	31	K07514	EHHADH1	35
+00380	Tryptophan metabolism	50	31	K07515	HADHA1	35
+00380	Tryptophan metabolism	50	31	K07516	EHHADH2	35
+00380	Tryptophan metabolism	50	31	K10217	E1.2.1.32	5
+00632	Benzoate degradation via CoA ligation	67	28	K00074	E1.1.1.157, paaH	3
+00632	Benzoate degradation via CoA ligation	67	28	K00120	E1.1.-.-	26
+00632	Benzoate degradation via CoA ligation	67	28	K00239	sdhA	5
+00632	Benzoate degradation via CoA ligation	67	28	K00240	sdhB	26
+00632	Benzoate degradation via CoA ligation	67	28	K00241	sdhC	3
+00632	Benzoate degradation via CoA ligation	67	28	K00242	sdhD	2
+00632	Benzoate degradation via CoA ligation	67	28	K00244	frdA	7
+00632	Benzoate degradation via CoA ligation	67	28	K00245	frdB	21
+00632	Benzoate degradation via CoA ligation	67	28	K00246	frdC	11
+00632	Benzoate degradation via CoA ligation	67	28	K00252	E1.3.99.7, gcdH	19
+00632	Benzoate degradation via CoA ligation	67	28	K00626	E2.3.1.9, atoB	20
+00632	Benzoate degradation via CoA ligation	67	28	K01034	atoD	1
+00632	Benzoate degradation via CoA ligation	67	28	K01035	atoA	1
+00632	Benzoate degradation via CoA ligation	67	28	K01426	E3.5.1.4, amiE	3
+00632	Benzoate degradation via CoA ligation	67	28	K01501	E3.5.5.1	1
+00632	Benzoate degradation via CoA ligation	67	28	K01512	E3.6.1.7, acyP	1
+00632	Benzoate degradation via CoA ligation	67	28	K01692	E4.2.1.17, paaG	36
+00632	Benzoate degradation via CoA ligation	67	28	K01913	E6.2.1.-	11
+00632	Benzoate degradation via CoA ligation	67	28	K04109	E1.3.99.20D, hbaD	1
+00632	Benzoate degradation via CoA ligation	67	28	K04110	E6.2.1.25, badA	1
+00632	Benzoate degradation via CoA ligation	67	28	K05549	BENA	1
+00632	Benzoate degradation via CoA ligation	67	28	K07511	ECHS1	16
+00632	Benzoate degradation via CoA ligation	67	28	K07514	EHHADH1	35
+00632	Benzoate degradation via CoA ligation	67	28	K07515	HADHA1	35
+00632	Benzoate degradation via CoA ligation	67	28	K07535	BADH	5
+00632	Benzoate degradation via CoA ligation	67	28	K07538	HAD	8
+00632	Benzoate degradation via CoA ligation	67	28	K07550	BBSB	17
+00632	Benzoate degradation via CoA ligation	67	28	K10215	ETHA	2
+00480	Glutathione metabolism	38	21	K00031	IDH1, IDH2, icd	14
+00480	Glutathione metabolism	38	21	K00033	E1.1.1.44, PGD, gnd	1
+00480	Glutathione metabolism	38	21	K00036	G6PD, zwf	2
+00480	Glutathione metabolism	38	21	K00383	E1.8.1.7, GSR, gor	20
+00480	Glutathione metabolism	38	21	K00432	E1.11.1.9	4
+00480	Glutathione metabolism	38	21	K00681	E2.3.2.2, ggt	8
+00480	Glutathione metabolism	38	21	K00797	E2.5.1.16, SRM, speE	1
+00480	Glutathione metabolism	38	21	K00799	E2.5.1.18, gst	19
+00480	Glutathione metabolism	38	21	K01255	CARP, pepA	6
+00480	Glutathione metabolism	38	21	K01256	PEPN	2
+00480	Glutathione metabolism	38	21	K01270	E3.4.13.3, pepD	2
+00480	Glutathione metabolism	38	21	K01469	E3.5.2.9	1
+00480	Glutathione metabolism	38	21	K01581	E4.1.1.17, ODC1, speC, speF	5
+00480	Glutathione metabolism	38	21	K01919	GSHA	1
+00480	Glutathione metabolism	38	21	K01920	E6.3.2.3, gshB	1
+00480	Glutathione metabolism	38	21	K04097	GST	14
+00480	Glutathione metabolism	38	21	K10807	RRM1	4
+00480	Glutathione metabolism	38	21	K11142	LAP3	6
+00480	Glutathione metabolism	38	21	K11185	TRYP	8
+00480	Glutathione metabolism	38	21	K11186	MTRYP	8
+00480	Glutathione metabolism	38	21	K11206	TRYS-A, tryS	3
+04640	Hematopoietic cell lineage	78	1	K05091	KIT, SCFR	12
+00360	Phenylalanine metabolism	38	22	K00055	E1.1.1.90	5
+00360	Phenylalanine metabolism	38	22	K00146	E1.2.1.39, feaB	1
+00360	Phenylalanine metabolism	38	22	K00270	E1.4.1.20	7
+00360	Phenylalanine metabolism	38	22	K00285	E1.4.99.1, dadA	6
+00360	Phenylalanine metabolism	38	22	K00430	E1.11.1.7	9
+00360	Phenylalanine metabolism	38	22	K00457	E1.13.11.27	4
+00360	Phenylalanine metabolism	38	22	K00492	E1.14.13.-	10
+00360	Phenylalanine metabolism	38	22	K00529	E1.18.1.3, hcaD	22
+00360	Phenylalanine metabolism	38	22	K00812	E2.6.1.1A, aspB	6
+00360	Phenylalanine metabolism	38	22	K00813	E2.6.1.1B, aspC	1
+00360	Phenylalanine metabolism	38	22	K00817	E2.6.1.9, hisC	10
+00360	Phenylalanine metabolism	38	22	K00824	E2.6.1.21, dat	2
+00360	Phenylalanine metabolism	38	22	K00832	E2.6.1.57, tyrB	1
+00360	Phenylalanine metabolism	38	22	K01426	E3.5.1.4, amiE	3
+00360	Phenylalanine metabolism	38	22	K01451	E3.5.1.32, hipO	5
+00360	Phenylalanine metabolism	38	22	K01593	E4.1.1.28, DDC	2
+00360	Phenylalanine metabolism	38	22	K01666	E4.1.3.39, mhpE	3
+00360	Phenylalanine metabolism	38	22	K01912	E6.2.1.30, paaK	16
+00360	Phenylalanine metabolism	38	22	K05708	HCAA1, hcaE	2
+00360	Phenylalanine metabolism	38	22	K05710	HCAC	3
+00360	Phenylalanine metabolism	38	22	K05711	HCAB	7
+00360	Phenylalanine metabolism	38	22	K10797	E1.3.1.31	4
+00130	Ubiquinone biosynthesis	38	27	K00329	E1.6.5.3	26
+00130	Ubiquinone biosynthesis	38	27	K00330	NUOA	2
+00130	Ubiquinone biosynthesis	38	27	K00331	NUOB	3
+00130	Ubiquinone biosynthesis	38	27	K00332	NUOC	3
+00130	Ubiquinone biosynthesis	38	27	K00333	NUOD	3
+00130	Ubiquinone biosynthesis	38	27	K00334	NUOE	9
+00130	Ubiquinone biosynthesis	38	27	K00335	NUOF	25
+00130	Ubiquinone biosynthesis	38	27	K00336	NUOG	14
+00130	Ubiquinone biosynthesis	38	27	K00337	NUOH	12
+00130	Ubiquinone biosynthesis	38	27	K00338	NUOI	12
+00130	Ubiquinone biosynthesis	38	27	K00340	NUOK	3
+00130	Ubiquinone biosynthesis	38	27	K00341	NUOL	2
+00130	Ubiquinone biosynthesis	38	27	K00343	NUON	3
+00130	Ubiquinone biosynthesis	38	27	K00568	UBIG	19
+00130	Ubiquinone biosynthesis	38	27	K01661	MENB	2
+00130	Ubiquinone biosynthesis	38	27	K01911	MENE	1
+00130	Ubiquinone biosynthesis	38	27	K02548	MENA	1
+00130	Ubiquinone biosynthesis	38	27	K02549	MENC	3
+00130	Ubiquinone biosynthesis	38	27	K02551	MEND	1
+00130	Ubiquinone biosynthesis	38	27	K02552	MENF	1
+00130	Ubiquinone biosynthesis	38	27	K03179	UBIA	2
+00130	Ubiquinone biosynthesis	38	27	K03182	UBID	1
+00130	Ubiquinone biosynthesis	38	27	K03183	UBIE	12
+00130	Ubiquinone biosynthesis	38	27	K03184	UBIF	2
+00130	Ubiquinone biosynthesis	38	27	K03185	UBIH	1
+00130	Ubiquinone biosynthesis	38	27	K03688	UBIB, aarF	2
+00130	Ubiquinone biosynthesis	38	27	K08680	MENH	2
+00071	Fatty acid metabolism	34	27	K00001	E1.1.1.1, adh	22
+00071	Fatty acid metabolism	34	27	K00022	E1.1.1.35, fadB	50
+00071	Fatty acid metabolism	34	27	K00128	E1.2.1.3	17
+00071	Fatty acid metabolism	34	27	K00232	E1.3.3.6, ACOX1, ACOX3	15
+00071	Fatty acid metabolism	34	27	K00248	E1.3.99.2, bcd	30
+00071	Fatty acid metabolism	34	27	K00249	E1.3.99.3, ACADM, acd	33
+00071	Fatty acid metabolism	34	27	K00252	E1.3.99.7, gcdH	19
+00071	Fatty acid metabolism	34	27	K00255	E1.3.99.13, ACADL	1
+00071	Fatty acid metabolism	34	27	K00493	E1.14.14.1	1
+00071	Fatty acid metabolism	34	27	K00496	E1.14.15.3	1
+00071	Fatty acid metabolism	34	27	K00529	E1.18.1.3, hcaD	22
+00071	Fatty acid metabolism	34	27	K00626	E2.3.1.9, atoB	20
+00071	Fatty acid metabolism	34	27	K00632	E2.3.1.16, fadA	16
+00071	Fatty acid metabolism	34	27	K01692	E4.2.1.17, paaG	36
+00071	Fatty acid metabolism	34	27	K01782	E5.1.2.3	35
+00071	Fatty acid metabolism	34	27	K01825	E5.3.3.8, DCI	35
+00071	Fatty acid metabolism	34	27	K01897	E6.2.1.3, fadD	38
+00071	Fatty acid metabolism	34	27	K01909	E6.2.1.20, aas	34
+00071	Fatty acid metabolism	34	27	K06445	FADE	2
+00071	Fatty acid metabolism	34	27	K07508	ACAA2	15
+00071	Fatty acid metabolism	34	27	K07509	HADHB	16
+00071	Fatty acid metabolism	34	27	K07511	ECHS1	16
+00071	Fatty acid metabolism	34	27	K07513	ACAA1	16
+00071	Fatty acid metabolism	34	27	K07514	EHHADH1	35
+00071	Fatty acid metabolism	34	27	K07515	HADHA1	35
+00071	Fatty acid metabolism	34	27	K07516	EHHADH2	35
+00071	Fatty acid metabolism	34	27	K09478	ACADSB	17
+00750	Vitamin B6 metabolism	14	9	K00097	E1.1.1.262, pdxA	2
+00750	Vitamin B6 metabolism	14	9	K00157	E1.2.3.1, AOX1	6
+00750	Vitamin B6 metabolism	14	9	K00831	E2.6.1.52, serC	2
+00750	Vitamin B6 metabolism	14	9	K00868	E2.7.1.35, pdxK	1
+00750	Vitamin B6 metabolism	14	9	K01733	E4.2.3.1, thrC	19
+00750	Vitamin B6 metabolism	14	9	K03472	E1.2.1.72, epd	1
+00750	Vitamin B6 metabolism	14	9	K03474	E2.6.99.2, pdxJ	2
+00750	Vitamin B6 metabolism	14	9	K06215	PDXS, pdx1	1
+00750	Vitamin B6 metabolism	14	9	K08681	PDXT, pdx2	1
+00621	Biphenyl degradation	15	3	K00055	E1.1.1.90	5
+00621	Biphenyl degradation	15	3	K01666	E4.1.3.39, mhpE	3
+00621	Biphenyl degradation	15	3	K10616	CYMA	2
+00910	Nitrogen metabolism	107	60	K00260	E1.4.1.2	5
+00910	Nitrogen metabolism	107	60	K00261	E1.4.1.3	9
+00910	Nitrogen metabolism	107	60	K00262	E1.4.1.4, gdhA	6
+00910	Nitrogen metabolism	107	60	K00264	E1.4.1.13	11
+00910	Nitrogen metabolism	107	60	K00265	gltB	24
+00910	Nitrogen metabolism	107	60	K00266	gltD	31
+00910	Nitrogen metabolism	107	60	K00284	gltS	4
+00910	Nitrogen metabolism	107	60	K00285	E1.4.99.1, dadA	6
+00910	Nitrogen metabolism	107	60	K00360	E1.7.1.1	14
+00910	Nitrogen metabolism	107	60	K00362	E1.7.1.4L, nirB	18
+00910	Nitrogen metabolism	107	60	K00363	E1.7.1.4S, nirD	14
+00910	Nitrogen metabolism	107	60	K00366	E1.7.7.1, nirA	11
+00910	Nitrogen metabolism	107	60	K00367	E1.7.7.2, narB	4
+00910	Nitrogen metabolism	107	60	K00368	E1.7.2.1	16
+00910	Nitrogen metabolism	107	60	K00369	E1.7.99.4	9
+00910	Nitrogen metabolism	107	60	K00370	narG	4
+00910	Nitrogen metabolism	107	60	K00371	narH	5
+00910	Nitrogen metabolism	107	60	K00372	E1.7.99.4C	9
+00910	Nitrogen metabolism	107	60	K00376	nosZ	7
+00910	Nitrogen metabolism	107	60	K00459	E1.13.11.32	1
+00910	Nitrogen metabolism	107	60	K00605	E2.1.2.10, gcvT	8
+00910	Nitrogen metabolism	107	60	K00926	E2.7.2.2, arcC	1
+00910	Nitrogen metabolism	107	60	K01424	E3.5.1.1, ansA, ansB	2
+00910	Nitrogen metabolism	107	60	K01425	E3.5.1.2, glsA	2
+00910	Nitrogen metabolism	107	60	K01501	E3.5.5.1	1
+00910	Nitrogen metabolism	107	60	K01673	E4.2.1.1A, cynT	1
+00910	Nitrogen metabolism	107	60	K01725	E4.2.1.104, cynS	1
+00910	Nitrogen metabolism	107	60	K01744	E4.3.1.1, aspA	19
+00910	Nitrogen metabolism	107	60	K01745	E4.3.1.3, hutH	1
+00910	Nitrogen metabolism	107	60	K01758	E4.4.1.1	2
+00910	Nitrogen metabolism	107	60	K01760	E4.4.1.8, metC	12
+00910	Nitrogen metabolism	107	60	K01915	E6.3.1.2, glnA	7
+00910	Nitrogen metabolism	107	60	K01916	E6.3.1.5	2
+00910	Nitrogen metabolism	107	60	K01948	E6.3.4.16, CPS1	3
+00910	Nitrogen metabolism	107	60	K01953	E6.3.5.4, asnB	1
+00910	Nitrogen metabolism	107	60	K02193	ccmA	19
+00910	Nitrogen metabolism	107	60	K02194	ccmB	1
+00910	Nitrogen metabolism	107	60	K02195	ccmC	2
+00910	Nitrogen metabolism	107	60	K02197	ccmE	2
+00910	Nitrogen metabolism	107	60	K02198	ccmF	1
+00910	Nitrogen metabolism	107	60	K02199	ccmG, dsbE	1
+00910	Nitrogen metabolism	107	60	K02200	ccmH	2
+00910	Nitrogen metabolism	107	60	K02305	norC	3
+00910	Nitrogen metabolism	107	60	K02567	napA	7
+00910	Nitrogen metabolism	107	60	K02586	nifD	2
+00910	Nitrogen metabolism	107	60	K02587	nifE	1
+00910	Nitrogen metabolism	107	60	K02588	nifH	1
+00910	Nitrogen metabolism	107	60	K02591	nifK	4
+00910	Nitrogen metabolism	107	60	K02592	nifN	1
+00910	Nitrogen metabolism	107	60	K02594	nifV	1
+00910	Nitrogen metabolism	107	60	K02595	nifW	1
+00910	Nitrogen metabolism	107	60	K03385	nrfA	1
+00910	Nitrogen metabolism	107	60	K04013	nrfB	3
+00910	Nitrogen metabolism	107	60	K04014	nrfC	19
+00910	Nitrogen metabolism	107	60	K04488	nifU	1
+00910	Nitrogen metabolism	107	60	K05601	E1.7.99.1	5
+00910	Nitrogen metabolism	107	60	K08345	narZ	4
+00910	Nitrogen metabolism	107	60	K08346	narY	3
+00910	Nitrogen metabolism	107	60	K10534	E1.7.1.3, niaD	3
+00910	Nitrogen metabolism	107	60	K10535	E1.7.3.4	1
+03090	Type II secretion system	78	26	K01493	E3.5.4.12, comEB	1
+03090	Type II secretion system	78	26	K02237	COMEA	1
+03090	Type II secretion system	78	26	K02238	COMEC	3
+03090	Type II secretion system	78	26	K02240	COMFA	1
+03090	Type II secretion system	78	26	K02242	COMFC	1
+03090	Type II secretion system	78	26	K02243	COMGA	1
+03090	Type II secretion system	78	26	K02244	COMGB	1
+03090	Type II secretion system	78	26	K02245	COMGC	1
+03090	Type II secretion system	78	26	K02278	cpaA	1
+03090	Type II secretion system	78	26	K02280	cpaC	1
+03090	Type II secretion system	78	26	K02453	GSPD	3
+03090	Type II secretion system	78	26	K02454	GSPE	2
+03090	Type II secretion system	78	26	K02455	GSPF	2
+03090	Type II secretion system	78	26	K02456	GSPG	2
+03090	Type II secretion system	78	26	K02458	GSPI	2
+03090	Type II secretion system	78	26	K02459	GSPJ	1
+03090	Type II secretion system	78	26	K02460	GSPK	1
+03090	Type II secretion system	78	26	K02654	pilD	1
+03090	Type II secretion system	78	26	K02657	pilG	1
+03090	Type II secretion system	78	26	K02658	pilH	3
+03090	Type II secretion system	78	26	K02659	pilI	1
+03090	Type II secretion system	78	26	K02660	pilJ	1
+03090	Type II secretion system	78	26	K02666	pilQ	1
+03090	Type II secretion system	78	26	K02667	pilR	1
+03090	Type II secretion system	78	26	K02668	pilS	195
+03090	Type II secretion system	78	26	K02669	pilT	3
+00260	Glycine, serine and threonine metabolism	64	42	K00003	E1.1.1.3, thrA	14
+00260	Glycine, serine and threonine metabolism	64	42	K00018	E1.1.1.29	12
+00260	Glycine, serine and threonine metabolism	64	42	K00050	E1.1.1.81, ttuD	1
+00260	Glycine, serine and threonine metabolism	64	42	K00058	E1.1.1.95, serA	16
+00260	Glycine, serine and threonine metabolism	64	42	K00060	E1.1.1.103, tdh	4
+00260	Glycine, serine and threonine metabolism	64	42	K00100	E1.1.1.-	2
+00260	Glycine, serine and threonine metabolism	64	42	K00108	E1.1.99.1, betA, CHDH	2
+00260	Glycine, serine and threonine metabolism	64	42	K00130	E1.2.1.8, betB, gbsA	5
+00260	Glycine, serine and threonine metabolism	64	42	K00133	E1.2.1.11, asd	9
+00260	Glycine, serine and threonine metabolism	64	42	K00273	E1.4.3.3, DAO	1
+00260	Glycine, serine and threonine metabolism	64	42	K00282	E1.4.4.2A, gcvPA	7
+00260	Glycine, serine and threonine metabolism	64	42	K00283	E1.4.4.2B, gcvPB	5
+00260	Glycine, serine and threonine metabolism	64	42	K00302	E1.5.3.1A, soxA	19
+00260	Glycine, serine and threonine metabolism	64	42	K00303	E1.5.3.1B, soxB	2
+00260	Glycine, serine and threonine metabolism	64	42	K00304	E1.5.3.1D, soxD	2
+00260	Glycine, serine and threonine metabolism	64	42	K00305	E1.5.3.1G, soxG	2
+00260	Glycine, serine and threonine metabolism	64	42	K00314	E1.5.99.1	7
+00260	Glycine, serine and threonine metabolism	64	42	K00315	E1.5.99.2	2
+00260	Glycine, serine and threonine metabolism	64	42	K00382	DLD, lpd, pdhD	42
+00260	Glycine, serine and threonine metabolism	64	42	K00499	E1.14.15.7	1
+00260	Glycine, serine and threonine metabolism	64	42	K00600	E2.1.2.1, glyA	2
+00260	Glycine, serine and threonine metabolism	64	42	K00605	E2.1.2.10, gcvT	8
+00260	Glycine, serine and threonine metabolism	64	42	K00639	E2.3.1.29, kbl	3
+00260	Glycine, serine and threonine metabolism	64	42	K00643	E2.3.1.37, ALAS	1
+00260	Glycine, serine and threonine metabolism	64	42	K00830	E2.6.1.51	3
+00260	Glycine, serine and threonine metabolism	64	42	K00831	E2.6.1.52, serC	2
+00260	Glycine, serine and threonine metabolism	64	42	K00872	E2.7.1.39A, thrB	8
+00260	Glycine, serine and threonine metabolism	64	42	K00928	E2.7.2.4, lysC	16
+00260	Glycine, serine and threonine metabolism	64	42	K00998	E2.7.8.8, pssA	10
+00260	Glycine, serine and threonine metabolism	64	42	K01079	E3.1.3.3, serB	3
+00260	Glycine, serine and threonine metabolism	64	42	K01620	E4.1.2.5, ltaA	2
+00260	Glycine, serine and threonine metabolism	64	42	K01697	E4.2.1.22, CBS	40
+00260	Glycine, serine and threonine metabolism	64	42	K01733	E4.2.3.1, thrC	19
+00260	Glycine, serine and threonine metabolism	64	42	K01752	E4.3.1.17, sdaA	2
+00260	Glycine, serine and threonine metabolism	64	42	K01754	E4.3.1.19, ilvA, tdcB	20
+00260	Glycine, serine and threonine metabolism	64	42	K01758	E4.4.1.1	2
+00260	Glycine, serine and threonine metabolism	64	42	K01868	E6.1.1.3, thrS	4
+00260	Glycine, serine and threonine metabolism	64	42	K01875	E6.1.1.11, serS	2
+00260	Glycine, serine and threonine metabolism	64	42	K01878	E6.1.1.14A, glyQ	1
+00260	Glycine, serine and threonine metabolism	64	42	K01880	E6.1.1.14C, GRS1	1
+00260	Glycine, serine and threonine metabolism	64	42	K02203	E2.7.1.39	1
+00260	Glycine, serine and threonine metabolism	64	42	K06720	ectC	1
+00565	Ether lipid metabolism	12	2	K00655	E2.3.1.51, plsC	2
+00565	Ether lipid metabolism	12	2	K01062	E3.1.1.47, PAFAH	2
+00364	Fluorobenzoate degradation	10	6	K01061	E3.1.1.45	2
+00364	Fluorobenzoate degradation	10	6	K01856	E5.5.1.1	6
+00364	Fluorobenzoate degradation	10	6	K01860	E5.5.1.7	1
+00364	Fluorobenzoate degradation	10	6	K03381	E1.13.11.1, catA	1
+00364	Fluorobenzoate degradation	10	6	K03384	E1.14.12.-	3
+00364	Fluorobenzoate degradation	10	6	K05549	BENA	1
+00920	Sulfur metabolism	27	19	K00380	E1.8.1.2A, cysJ	21
+00920	Sulfur metabolism	27	19	K00381	E1.8.1.2B, cysI	5
+00920	Sulfur metabolism	27	19	K00387	E1.8.3.1, SUOX	6
+00920	Sulfur metabolism	27	19	K00390	E1.8.4.8, cysH	23
+00920	Sulfur metabolism	27	19	K00392	E1.8.7.1, sir	5
+00920	Sulfur metabolism	27	19	K00394	E1.8.99.2A, aprA	5
+00920	Sulfur metabolism	27	19	K00395	E1.8.99.2B, aprB	7
+00920	Sulfur metabolism	27	19	K00640	E2.3.1.30, cysE	17
+00920	Sulfur metabolism	27	19	K00641	E2.3.1.31, metX	16
+00920	Sulfur metabolism	27	19	K00651	E2.3.1.46, metA	1
+00920	Sulfur metabolism	27	19	K00860	E2.7.1.25, cysC	20
+00920	Sulfur metabolism	27	19	K00956	E2.7.7.4A, cysN	21
+00920	Sulfur metabolism	27	19	K00958	E2.7.7.4C, met3	2
+00920	Sulfur metabolism	27	19	K01082	E3.1.3.7	3
+00920	Sulfur metabolism	27	19	K01738	E2.5.1.47, cysK	24
+00920	Sulfur metabolism	27	19	K01739	E2.5.1.48, metB	4
+00920	Sulfur metabolism	27	19	K01760	E4.4.1.8, metC	12
+00920	Sulfur metabolism	27	19	K05301	E1.8.2.1	15
+00920	Sulfur metabolism	27	19	K10150	E2.5.1.65	15
+04530	Tight junction	63	2	K04424	ZAK, MLTK	12
+04530	Tight junction	63	2	K06103	CASK	3
+00650	Butanoate metabolism	67	45	K00004	E1.1.1.4	9
+00650	Butanoate metabolism	67	45	K00019	E1.1.1.30, bdh	2
+00650	Butanoate metabolism	67	45	K00022	E1.1.1.35, fadB	50
+00650	Butanoate metabolism	67	45	K00023	E1.1.1.36, phbB	2
+00650	Butanoate metabolism	67	45	K00074	E1.1.1.157, paaH	3
+00650	Butanoate metabolism	67	45	K00100	E1.1.1.-	2
+00650	Butanoate metabolism	67	45	K00114	E1.1.99.8	3
+00650	Butanoate metabolism	67	45	K00128	E1.2.1.3	17
+00650	Butanoate metabolism	67	45	K00135	E1.2.1.16, gabD	4
+00650	Butanoate metabolism	67	45	K00139	E1.2.1.24	2
+00650	Butanoate metabolism	67	45	K00161	PDHA	20
+00650	Butanoate metabolism	67	45	K00162	PDHB	29
+00650	Butanoate metabolism	67	45	K00163	aceE	22
+00650	Butanoate metabolism	67	45	K00170	porB	16
+00650	Butanoate metabolism	67	45	K00171	porD	25
+00650	Butanoate metabolism	67	45	K00172	porG	13
+00650	Butanoate metabolism	67	45	K00239	sdhA	5
+00650	Butanoate metabolism	67	45	K00240	sdhB	26
+00650	Butanoate metabolism	67	45	K00241	sdhC	3
+00650	Butanoate metabolism	67	45	K00242	sdhD	2
+00650	Butanoate metabolism	67	45	K00244	frdA	7
+00650	Butanoate metabolism	67	45	K00245	frdB	21
+00650	Butanoate metabolism	67	45	K00246	frdC	11
+00650	Butanoate metabolism	67	45	K00248	E1.3.99.2, bcd	30
+00650	Butanoate metabolism	67	45	K00626	E2.3.1.9, atoB	20
+00650	Butanoate metabolism	67	45	K00634	E2.3.1.19, ptb	4
+00650	Butanoate metabolism	67	45	K00929	E2.7.2.7, buk	3
+00650	Butanoate metabolism	67	45	K01028	E2.8.3.5A, scoA	2
+00650	Butanoate metabolism	67	45	K01029	E2.8.3.5B, scoB	4
+00650	Butanoate metabolism	67	45	K01034	atoD	1
+00650	Butanoate metabolism	67	45	K01035	atoA	1
+00650	Butanoate metabolism	67	45	K01039	E2.8.3.12A, gctA	1
+00650	Butanoate metabolism	67	45	K01640	E4.1.3.4, hmgL	2
+00650	Butanoate metabolism	67	45	K01652	E2.2.1.6L, ilvB, ilvG, ilvI	47
+00650	Butanoate metabolism	67	45	K01653	E2.2.1.6S, ilvH, ilvN	6
+00650	Butanoate metabolism	67	45	K01692	E4.2.1.17, paaG	36
+00650	Butanoate metabolism	67	45	K01715	E4.2.1.55, crt	7
+00650	Butanoate metabolism	67	45	K01782	E5.1.2.3	35
+00650	Butanoate metabolism	67	45	K01896	E6.2.1.2	2
+00650	Butanoate metabolism	67	45	K03366	E1.1.1.5	8
+00650	Butanoate metabolism	67	45	K03821	PHBC, phaC	1
+00650	Butanoate metabolism	67	45	K07511	ECHS1	16
+00650	Butanoate metabolism	67	45	K07514	EHHADH1	35
+00650	Butanoate metabolism	67	45	K07515	HADHA1	35
+00650	Butanoate metabolism	67	45	K07516	EHHADH2	35
+00351	1,1,1-Trichloro-2,2-bis(4-chlorophenyl)ethane (DDT) degradation	8	2	K00206	E1.2.-.-	1
+00351	1,1,1-Trichloro-2,2-bis(4-chlorophenyl)ethane (DDT) degradation	8	2	K00465	E1.13.11.-	5
+01040	Biosynthesis of unsaturated fatty acids	27	9	K00059	E1.1.1.100, fabG	8
+01040	Biosynthesis of unsaturated fatty acids	27	9	K00232	E1.3.3.6, ACOX1, ACOX3	15
+01040	Biosynthesis of unsaturated fatty acids	27	9	K00507	SCD	1
+01040	Biosynthesis of unsaturated fatty acids	27	9	K07513	ACAA1	16
+01040	Biosynthesis of unsaturated fatty acids	27	9	K07515	HADHA1	35
+01040	Biosynthesis of unsaturated fatty acids	27	9	K10255	FAD6, desA	2
+01040	Biosynthesis of unsaturated fatty acids	27	9	K10257	FAD8, desB	1
+01040	Biosynthesis of unsaturated fatty acids	27	9	K10804	TESA	3
+01040	Biosynthesis of unsaturated fatty acids	27	9	K10805	TESB	2
+05014	Amyotrophic lateral sclerosis (ALS)	43	5	K00491	E1.14.13.39, nos	2
+05014	Amyotrophic lateral sclerosis (ALS)	43	5	K03781	katE, CAT	1
+05014	Amyotrophic lateral sclerosis (ALS)	43	5	K04426	MAP3K5, ASK1	3
+05014	Amyotrophic lateral sclerosis (ALS)	43	5	K04565	E1.15.1.1C, sodC, SOD1	4
+05014	Amyotrophic lateral sclerosis (ALS)	43	5	K08738	CYC	2
+00780	Biotin metabolism	11	2	K00652	E2.3.1.47, bioF	1
+00780	Biotin metabolism	11	2	K01423	E3.4.-.-	2
+00785	Lipoic acid metabolism	4	3	K03644	LIPA	2
+00785	Lipoic acid metabolism	4	3	K03800	LPLA	2
+00785	Lipoic acid metabolism	4	3	K03801	LIPB	3
+00641	3-Chloroacrylic acid degradation	4	3	K00001	E1.1.1.1, adh	22
+00641	3-Chloroacrylic acid degradation	4	3	K00128	E1.2.1.3	17
+00641	3-Chloroacrylic acid degradation	4	3	K01563	E3.8.1.5, dhaA	1
+04080	Neuroactive ligand-receptor interaction	297	1	K05770	BZRP	1
+00680	Methane metabolism	49	28	K00114	E1.1.99.8	3
+00680	Methane metabolism	49	28	K00121	E1.1.1.284	7
+00680	Methane metabolism	49	28	K00122	E1.2.1.2	36
+00680	Methane metabolism	49	28	K00123	E1.2.1.2A	29
+00680	Methane metabolism	49	28	K00124	E1.2.1.2B1	32
+00680	Methane metabolism	49	28	K00125	E1.2.1.2B2	22
+00680	Methane metabolism	49	28	K00127	E1.2.1.2G	1
+00680	Methane metabolism	49	28	K00192	E1.2.99.2A, cdhA	3
+00680	Methane metabolism	49	28	K00197	E1.2.99.2G, cdhE	1
+00680	Methane metabolism	49	28	K00297	E1.5.1.20, metF	1
+00680	Methane metabolism	49	28	K00430	E1.11.1.7	9
+00680	Methane metabolism	49	28	K00436	E1.12.1.2	24
+00680	Methane metabolism	49	28	K00492	E1.14.13.-	10
+00680	Methane metabolism	49	28	K00532	E1.12.7.2	16
+00680	Methane metabolism	49	28	K00533	E1.12.7.2L	20
+00680	Methane metabolism	49	28	K00600	E2.1.2.1, glyA	2
+00680	Methane metabolism	49	28	K01070	E3.1.2.12	2
+00680	Methane metabolism	49	28	K03396	E4.4.1.22	1
+00680	Methane metabolism	49	28	K03518	E1.2.99.2S, coxS	14
+00680	Methane metabolism	49	28	K03519	E1.2.99.2M, cutM, coxM	6
+00680	Methane metabolism	49	28	K03520	E1.2.99.2L, cutL, coxL	6
+00680	Methane metabolism	49	28	K03781	katE, CAT	1
+00680	Methane metabolism	49	28	K03782	KATG	1
+00680	Methane metabolism	49	28	K05299	E1.2.1.43	7
+00680	Methane metabolism	49	28	K08348	E1.2.1.2NA, fdnG	7
+00680	Methane metabolism	49	28	K08349	E1.2.1.2NB, fdnH	15
+00680	Methane metabolism	49	28	K08350	E1.2.1.2NG, fdnI	1
+00680	Methane metabolism	49	28	K08685	E1.4.99.3	1
+00471	D-Glutamine and D-glutamate metabolism	6	5	K00261	E1.4.1.3	9
+00471	D-Glutamine and D-glutamate metabolism	6	5	K01425	E3.5.1.2, glsA	2
+00471	D-Glutamine and D-glutamate metabolism	6	5	K01776	E5.1.1.3, murI	33
+00471	D-Glutamine and D-glutamate metabolism	6	5	K01924	E6.3.2.8, murC	13
+00471	D-Glutamine and D-glutamate metabolism	6	5	K01925	E6.3.2.9, murD	18
+04115	p53 signaling pathway	57	3	K06641	CHK2	3
+04115	p53 signaling pathway	57	3	K08738	CYC	2
+04115	p53 signaling pathway	57	3	K10133	TP53I3	2
+04011	MAPK signaling pathway - yeast	39	3	K01759	E4.4.1.5, GLO1, gloA	17
+04011	MAPK signaling pathway - yeast	39	3	K11228	STE11	16
+04011	MAPK signaling pathway - yeast	39	3	K11231	SLN1	164
+00252	Alanine and aspartate metabolism	45	30	K00161	PDHA	20
+00252	Alanine and aspartate metabolism	45	30	K00162	PDHB	29
+00252	Alanine and aspartate metabolism	45	30	K00163	aceE	22
+00252	Alanine and aspartate metabolism	45	30	K00278	E1.4.3.16, nadB	7
+00252	Alanine and aspartate metabolism	45	30	K00382	DLD, lpd, pdhD	42
+00252	Alanine and aspartate metabolism	45	30	K00609	E2.1.3.2C, pyrB	31
+00252	Alanine and aspartate metabolism	45	30	K00610	E2.1.3.2R, pyrI	8
+00252	Alanine and aspartate metabolism	45	30	K00627	DLAT, aceF, pdhC	5
+00252	Alanine and aspartate metabolism	45	30	K00812	E2.6.1.1A, aspB	6
+00252	Alanine and aspartate metabolism	45	30	K00813	E2.6.1.1B, aspC	1
+00252	Alanine and aspartate metabolism	45	30	K00822	E2.6.1.18	1
+00252	Alanine and aspartate metabolism	45	30	K01270	E3.4.13.3, pepD	2
+00252	Alanine and aspartate metabolism	45	30	K01424	E3.5.1.1, ansA, ansB	2
+00252	Alanine and aspartate metabolism	45	30	K01579	E4.1.1.11, panD	2
+00252	Alanine and aspartate metabolism	45	30	K01744	E4.3.1.1, aspA	19
+00252	Alanine and aspartate metabolism	45	30	K01755	E4.3.2.1, argH	11
+00252	Alanine and aspartate metabolism	45	30	K01756	E4.3.2.2, purB	21
+00252	Alanine and aspartate metabolism	45	30	K01775	E5.1.1.1, alr	2
+00252	Alanine and aspartate metabolism	45	30	K01779	E5.1.1.13	36
+00252	Alanine and aspartate metabolism	45	30	K01872	E6.1.1.7, alaS	3
+00252	Alanine and aspartate metabolism	45	30	K01876	E6.1.1.12, aspS	3
+00252	Alanine and aspartate metabolism	45	30	K01893	E6.1.1.22, asnS	2
+00252	Alanine and aspartate metabolism	45	30	K01939	E6.3.4.4, purA	7
+00252	Alanine and aspartate metabolism	45	30	K01940	E6.3.4.5, argG	12
+00252	Alanine and aspartate metabolism	45	30	K01953	E6.3.5.4, asnB	1
+00252	Alanine and aspartate metabolism	45	30	K01959	E6.4.1.1A, pycA	24
+00252	Alanine and aspartate metabolism	45	30	K01960	E6.4.1.1B, pycB	20
+00252	Alanine and aspartate metabolism	45	30	K02433	GATA	7
+00252	Alanine and aspartate metabolism	45	30	K02434	GATB	3
+00252	Alanine and aspartate metabolism	45	30	K02435	GATC	3
+00251	Glutamate metabolism	47	32	K00135	E1.2.1.16, gabD	4
+00251	Glutamate metabolism	47	32	K00139	E1.2.1.24	2
+00251	Glutamate metabolism	47	32	K00260	E1.4.1.2	5
+00251	Glutamate metabolism	47	32	K00261	E1.4.1.3	9
+00251	Glutamate metabolism	47	32	K00262	E1.4.1.4, gdhA	6
+00251	Glutamate metabolism	47	32	K00264	E1.4.1.13	11
+00251	Glutamate metabolism	47	32	K00265	gltB	24
+00251	Glutamate metabolism	47	32	K00266	gltD	31
+00251	Glutamate metabolism	47	32	K00294	E1.5.1.12, putA	22
+00251	Glutamate metabolism	47	32	K00383	E1.8.1.7, GSR, gor	20
+00251	Glutamate metabolism	47	32	K00764	E2.4.2.14, purF	4
+00251	Glutamate metabolism	47	32	K00812	E2.6.1.1A, aspB	6
+00251	Glutamate metabolism	47	32	K00813	E2.6.1.1B, aspC	1
+00251	Glutamate metabolism	47	32	K00820	E2.6.1.16, glmS	8
+00251	Glutamate metabolism	47	32	K00926	E2.7.2.2, arcC	1
+00251	Glutamate metabolism	47	32	K01425	E3.5.1.2, glsA	2
+00251	Glutamate metabolism	47	32	K01583	E4.1.1.19	4
+00251	Glutamate metabolism	47	32	K01585	E4.1.1.19S, speA	4
+00251	Glutamate metabolism	47	32	K01776	E5.1.1.3, murI	33
+00251	Glutamate metabolism	47	32	K01885	E6.1.1.17, gltX	4
+00251	Glutamate metabolism	47	32	K01886	E6.1.1.18, glnS	2
+00251	Glutamate metabolism	47	32	K01915	E6.3.1.2, glnA	7
+00251	Glutamate metabolism	47	32	K01919	GSHA	1
+00251	Glutamate metabolism	47	32	K01920	E6.3.2.3, gshB	1
+00251	Glutamate metabolism	47	32	K01948	E6.3.4.16, CPS1	3
+00251	Glutamate metabolism	47	32	K01950	E6.3.5.1, nadE	1
+00251	Glutamate metabolism	47	32	K01951	E6.3.5.2, guaA	12
+00251	Glutamate metabolism	47	32	K01955	E6.3.5.5L, carB	42
+00251	Glutamate metabolism	47	32	K01956	E6.3.5.5S, carA	31
+00251	Glutamate metabolism	47	32	K02433	GATA	7
+00251	Glutamate metabolism	47	32	K02434	GATB	3
+00251	Glutamate metabolism	47	32	K02435	GATC	3
+00072	Synthesis and degradation of ketone bodies	7	5	K00019	E1.1.1.30, bdh	2
+00072	Synthesis and degradation of ketone bodies	7	5	K00626	E2.3.1.9, atoB	20
+00072	Synthesis and degradation of ketone bodies	7	5	K01028	E2.8.3.5A, scoA	2
+00072	Synthesis and degradation of ketone bodies	7	5	K01029	E2.8.3.5B, scoB	4
+00072	Synthesis and degradation of ketone bodies	7	5	K01640	E4.1.3.4, hmgL	2
+03010	Ribosome	147	48	K02863	RP-L1, rplA	2
+03010	Ribosome	147	48	K02864	RP-L10, rplJ	1
+03010	Ribosome	147	48	K02867	RP-L11, rplK	2
+03010	Ribosome	147	48	K02871	RP-L13, rplM	3
+03010	Ribosome	147	48	K02874	RP-L14, rplN	1
+03010	Ribosome	147	48	K02876	RP-L15, rplO	2
+03010	Ribosome	147	48	K02878	RP-L16, rplP	1
+03010	Ribosome	147	48	K02879	RP-L17, rplQ	2
+03010	Ribosome	147	48	K02881	RP-L18, rplR	2
+03010	Ribosome	147	48	K02884	RP-L19, rplS	3
+03010	Ribosome	147	48	K02886	RP-L2, rplB	1
+03010	Ribosome	147	48	K02887	RP-L20, rplT	5
+03010	Ribosome	147	48	K02888	RP-L21, rplU	4
+03010	Ribosome	147	48	K02890	RP-L22, rplV	1
+03010	Ribosome	147	48	K02892	RP-L23, rplW	1
+03010	Ribosome	147	48	K02895	RP-L24, rplX	2
+03010	Ribosome	147	48	K02897	RP-L25, rplY	5
+03010	Ribosome	147	48	K02899	RP-L27, rpmA	4
+03010	Ribosome	147	48	K02902	RP-L28, rpmB	1
+03010	Ribosome	147	48	K02904	RP-L29, rpmC	1
+03010	Ribosome	147	48	K02906	RP-L3, rplC	1
+03010	Ribosome	147	48	K02907	RP-L30, rpmD	1
+03010	Ribosome	147	48	K02909	RP-L31, rpmE	3
+03010	Ribosome	147	48	K02911	RP-L32, rpmF	2
+03010	Ribosome	147	48	K02916	RP-L35, rpmI	5
+03010	Ribosome	147	48	K02926	RP-L4, rplD	1
+03010	Ribosome	147	48	K02931	RP-L5, rplE	2
+03010	Ribosome	147	48	K02933	RP-L6, rplF	2
+03010	Ribosome	147	48	K02935	RP-L7, rplL	1
+03010	Ribosome	147	48	K02939	RP-L9, rplI	2
+03010	Ribosome	147	48	K02945	RP-S1, rpsA	5
+03010	Ribosome	147	48	K02948	RP-S11, rpsK	2
+03010	Ribosome	147	48	K02952	RP-S13, rpsM	3
+03010	Ribosome	147	48	K02954	RP-S14, rpsN	2
+03010	Ribosome	147	48	K02956	RP-S15, rpsO	4
+03010	Ribosome	147	48	K02959	RP-S16, rpsP	3
+03010	Ribosome	147	48	K02961	RP-S17, rpsQ	1
+03010	Ribosome	147	48	K02963	RP-S18, rpsR	2
+03010	Ribosome	147	48	K02965	RP-S19, rpsS	1
+03010	Ribosome	147	48	K02967	RP-S2, rpsB	3
+03010	Ribosome	147	48	K02968	RP-S20, rpsT	5
+03010	Ribosome	147	48	K02970	RP-S21, rpsU	1
+03010	Ribosome	147	48	K02982	RP-S3, rpsC	1
+03010	Ribosome	147	48	K02986	RP-S4, rpsD	4
+03010	Ribosome	147	48	K02988	RP-S5, rpsE	2
+03010	Ribosome	147	48	K02990	RP-S6, rpsF	1
+03010	Ribosome	147	48	K02994	RP-S8, rpsH	2
+03010	Ribosome	147	48	K02996	RP-S9, rpsI	3
+00280	Valine, leucine and isoleucine degradation	51	43	K00020	E1.1.1.31, mmsB	6
+00280	Valine, leucine and isoleucine degradation	51	43	K00022	E1.1.1.35, fadB	50
+00280	Valine, leucine and isoleucine degradation	51	43	K00128	E1.2.1.3	17
+00280	Valine, leucine and isoleucine degradation	51	43	K00140	E1.2.1.27, mmsA, iolA	1
+00280	Valine, leucine and isoleucine degradation	51	43	K00157	E1.2.3.1, AOX1	6
+00280	Valine, leucine and isoleucine degradation	51	43	K00166	E1.2.4.4A, bkdA1	11
+00280	Valine, leucine and isoleucine degradation	51	43	K00167	E1.2.4.4B, bkdA2	11
+00280	Valine, leucine and isoleucine degradation	51	43	K00186	vorA	1
+00280	Valine, leucine and isoleucine degradation	51	43	K00248	E1.3.99.2, bcd	30
+00280	Valine, leucine and isoleucine degradation	51	43	K00249	E1.3.99.3, ACADM, acd	33
+00280	Valine, leucine and isoleucine degradation	51	43	K00253	E1.3.99.10, ivd	29
+00280	Valine, leucine and isoleucine degradation	51	43	K00263	E1.4.1.9	12
+00280	Valine, leucine and isoleucine degradation	51	43	K00382	DLD, lpd, pdhD	42
+00280	Valine, leucine and isoleucine degradation	51	43	K00626	E2.3.1.9, atoB	20
+00280	Valine, leucine and isoleucine degradation	51	43	K00632	E2.3.1.16, fadA	16
+00280	Valine, leucine and isoleucine degradation	51	43	K00822	E2.6.1.18	1
+00280	Valine, leucine and isoleucine degradation	51	43	K00826	E2.6.1.42, ilvE	10
+00280	Valine, leucine and isoleucine degradation	51	43	K01028	E2.8.3.5A, scoA	2
+00280	Valine, leucine and isoleucine degradation	51	43	K01029	E2.8.3.5B, scoB	4
+00280	Valine, leucine and isoleucine degradation	51	43	K01640	E4.1.3.4, hmgL	2
+00280	Valine, leucine and isoleucine degradation	51	43	K01692	E4.2.1.17, paaG	36
+00280	Valine, leucine and isoleucine degradation	51	43	K01847	E5.4.99.2	6
+00280	Valine, leucine and isoleucine degradation	51	43	K01848	E5.4.99.2A, mcmA1	6
+00280	Valine, leucine and isoleucine degradation	51	43	K01849	E5.4.99.2B, mcmA2	6
+00280	Valine, leucine and isoleucine degradation	51	43	K01964	E6.4.1.3	13
+00280	Valine, leucine and isoleucine degradation	51	43	K01965	E6.4.1.3A, pccA	20
+00280	Valine, leucine and isoleucine degradation	51	43	K01966	E6.4.1.3B, pccB	18
+00280	Valine, leucine and isoleucine degradation	51	43	K01968	E6.4.1.4A	16
+00280	Valine, leucine and isoleucine degradation	51	43	K01969	E6.4.1.4B	3
+00280	Valine, leucine and isoleucine degradation	51	43	K05605	E3.1.2.4	1
+00280	Valine, leucine and isoleucine degradation	51	43	K05606	E5.1.99.1	1
+00280	Valine, leucine and isoleucine degradation	51	43	K07508	ACAA2	15
+00280	Valine, leucine and isoleucine degradation	51	43	K07509	HADHB	16
+00280	Valine, leucine and isoleucine degradation	51	43	K07511	ECHS1	16
+00280	Valine, leucine and isoleucine degradation	51	43	K07513	ACAA1	16
+00280	Valine, leucine and isoleucine degradation	51	43	K07514	EHHADH1	35
+00280	Valine, leucine and isoleucine degradation	51	43	K07515	HADHA1	35
+00280	Valine, leucine and isoleucine degradation	51	43	K07516	EHHADH2	35
+00280	Valine, leucine and isoleucine degradation	51	43	K08683	E1.1.1.178	5
+00280	Valine, leucine and isoleucine degradation	51	43	K09478	ACADSB	17
+00280	Valine, leucine and isoleucine degradation	51	43	K09699	E2.3.1.168, bkdB	12
+00280	Valine, leucine and isoleucine degradation	51	43	K11381	E1.2.4.4C, bkdA	31
+00280	Valine, leucine and isoleucine degradation	51	43	K11410	acdH	17
+00550	Peptidoglycan biosynthesis	21	19	K00824	E2.6.1.21, dat	2
+00550	Peptidoglycan biosynthesis	21	19	K01000	E2.7.8.13, mraY	6
+00550	Peptidoglycan biosynthesis	21	19	K01446	E3.5.1.28	8
+00550	Peptidoglycan biosynthesis	21	19	K01447	E3.5.1.28A, cwlA, xlyA, xlyB	14
+00550	Peptidoglycan biosynthesis	21	19	K01448	E3.5.1.28B, amiA, amiB, amiC	49
+00550	Peptidoglycan biosynthesis	21	19	K01449	E3.5.1.28C, cwlJ, sleB	12
+00550	Peptidoglycan biosynthesis	21	19	K01915	E6.3.1.2, glnA	7
+00550	Peptidoglycan biosynthesis	21	19	K01921	E6.3.2.4, ddlA	8
+00550	Peptidoglycan biosynthesis	21	19	K01924	E6.3.2.8, murC	13
+00550	Peptidoglycan biosynthesis	21	19	K01925	E6.3.2.9, murD	18
+00550	Peptidoglycan biosynthesis	21	19	K01928	E6.3.2.13, murE	19
+00550	Peptidoglycan biosynthesis	21	19	K01929	E6.3.2.10, murF	13
+00550	Peptidoglycan biosynthesis	21	19	K02563	MURG	5
+00550	Peptidoglycan biosynthesis	21	19	K03587	FTSI	20
+00550	Peptidoglycan biosynthesis	21	19	K05362	E6.3.2.7	3
+00550	Peptidoglycan biosynthesis	21	19	K05364	E2.4.1.129	15
+00550	Peptidoglycan biosynthesis	21	19	K05365	MRCB	7
+00550	Peptidoglycan biosynthesis	21	19	K06153	E3.6.1.27, bacA	8
+00550	Peptidoglycan biosynthesis	21	19	K11066	E3.5.1.28D, amiD	4
+00281	Geraniol degradation	14	13	K00022	E1.1.1.35, fadB	50
+00281	Geraniol degradation	14	13	K00155	E1.2.1.-	12
+00281	Geraniol degradation	14	13	K00632	E2.3.1.16, fadA	16
+00281	Geraniol degradation	14	13	K01041	E2.8.3.-	2
+00281	Geraniol degradation	14	13	K01692	E4.2.1.17, paaG	36
+00281	Geraniol degradation	14	13	K01913	E6.2.1.-	11
+00281	Geraniol degradation	14	13	K07508	ACAA2	15
+00281	Geraniol degradation	14	13	K07509	HADHB	16
+00281	Geraniol degradation	14	13	K07511	ECHS1	16
+00281	Geraniol degradation	14	13	K07513	ACAA1	16
+00281	Geraniol degradation	14	13	K07514	EHHADH1	35
+00281	Geraniol degradation	14	13	K07515	HADHA1	35
+00281	Geraniol degradation	14	13	K07516	EHHADH2	35
+00710	Carbon fixation in photosynthetic organisms	34	18	K00025	E1.1.1.37A	6
+00710	Carbon fixation in photosynthetic organisms	34	18	K00026	E1.1.1.37B, mdh	6
+00710	Carbon fixation in photosynthetic organisms	34	18	K00029	E1.1.1.40, maeB	3
+00710	Carbon fixation in photosynthetic organisms	34	18	K00615	E2.2.1.1, tktA, tktB	20
+00710	Carbon fixation in photosynthetic organisms	34	18	K00812	E2.6.1.1A, aspB	6
+00710	Carbon fixation in photosynthetic organisms	34	18	K00813	E2.6.1.1B, aspC	1
+00710	Carbon fixation in photosynthetic organisms	34	18	K00873	PK, pyk	99
+00710	Carbon fixation in photosynthetic organisms	34	18	K00927	PGK	7
+00710	Carbon fixation in photosynthetic organisms	34	18	K01006	E2.7.9.1, ppdK	8
+00710	Carbon fixation in photosynthetic organisms	34	18	K01595	E4.1.1.31, ppc	1
+00710	Carbon fixation in photosynthetic organisms	34	18	K01623	ALDO, fbaB	3
+00710	Carbon fixation in photosynthetic organisms	34	18	K01624	FBA, fbaA	2
+00710	Carbon fixation in photosynthetic organisms	34	18	K01783	E5.1.3.1, rpe	3
+00710	Carbon fixation in photosynthetic organisms	34	18	K01803	TPI, tpiA	5
+00710	Carbon fixation in photosynthetic organisms	34	18	K01807	E5.3.1.6A, rpiA	1
+00710	Carbon fixation in photosynthetic organisms	34	18	K02446	glpX	1
+00710	Carbon fixation in photosynthetic organisms	34	18	K03841	FBP	2
+00710	Carbon fixation in photosynthetic organisms	34	18	K11532	glpX-SEBP	1
+00640	Propanoate metabolism	59	41	K00016	LDH	7
+00640	Propanoate metabolism	59	41	K00114	E1.1.99.8	3
+00640	Propanoate metabolism	59	41	K00128	E1.2.1.3	17
+00640	Propanoate metabolism	59	41	K00140	E1.2.1.27, mmsA, iolA	1
+00640	Propanoate metabolism	59	41	K00170	porB	16
+00640	Propanoate metabolism	59	41	K00171	porD	25
+00640	Propanoate metabolism	59	41	K00172	porG	13
+00640	Propanoate metabolism	59	41	K00249	E1.3.99.3, ACADM, acd	33
+00640	Propanoate metabolism	59	41	K00625	E2.3.1.8, pta	6
+00640	Propanoate metabolism	59	41	K00626	E2.3.1.9, atoB	20
+00640	Propanoate metabolism	59	41	K00822	E2.6.1.18	1
+00640	Propanoate metabolism	59	41	K00925	E2.7.2.1, ackA	4
+00640	Propanoate metabolism	59	41	K01034	atoD	1
+00640	Propanoate metabolism	59	41	K01035	atoA	1
+00640	Propanoate metabolism	59	41	K01659	E2.3.3.5, prpC	1
+00640	Propanoate metabolism	59	41	K01692	E4.2.1.17, paaG	36
+00640	Propanoate metabolism	59	41	K01720	E4.2.1.79, prpD	1
+00640	Propanoate metabolism	59	41	K01847	E5.4.99.2	6
+00640	Propanoate metabolism	59	41	K01848	E5.4.99.2A, mcmA1	6
+00640	Propanoate metabolism	59	41	K01849	E5.4.99.2B, mcmA2	6
+00640	Propanoate metabolism	59	41	K01895	E6.2.1.1, acs	30
+00640	Propanoate metabolism	59	41	K01899	LSC1	3
+00640	Propanoate metabolism	59	41	K01900	LSC2	3
+00640	Propanoate metabolism	59	41	K01902	sucD	3
+00640	Propanoate metabolism	59	41	K01903	sucC	3
+00640	Propanoate metabolism	59	41	K01905	E6.2.1.13	2
+00640	Propanoate metabolism	59	41	K01913	E6.2.1.-	11
+00640	Propanoate metabolism	59	41	K01961	ACCC	4
+00640	Propanoate metabolism	59	41	K01962	ACCA	5
+00640	Propanoate metabolism	59	41	K01963	ACCD	10
+00640	Propanoate metabolism	59	41	K01964	E6.4.1.3	13
+00640	Propanoate metabolism	59	41	K01965	E6.4.1.3A, pccA	20
+00640	Propanoate metabolism	59	41	K01966	E6.4.1.3B, pccB	18
+00640	Propanoate metabolism	59	41	K02160	ACCB, bccP	2
+00640	Propanoate metabolism	59	41	K03416	E2.1.3.1	18
+00640	Propanoate metabolism	59	41	K03417	E4.1.3.30, prpB	1
+00640	Propanoate metabolism	59	41	K05605	E3.1.2.4	1
+00640	Propanoate metabolism	59	41	K05606	E5.1.99.1	1
+00640	Propanoate metabolism	59	41	K07511	ECHS1	16
+00640	Propanoate metabolism	59	41	K07514	EHHADH1	35
+00640	Propanoate metabolism	59	41	K07515	HADHA1	35
+04150	mTOR signaling pathway	30	3	K03259	eIF-4E, EIF4E	1
+04150	mTOR signaling pathway	30	3	K04373	RPS6KA, RSK2	19
+04150	mTOR signaling pathway	30	3	K04688	RPS6KB	19
+01030	Glycan structures - biosynthesis 1	105	7	K00710	GALNT	8
+01030	Glycan structures - biosynthesis 1	105	7	K00728	POMT	1
+01030	Glycan structures - biosynthesis 1	105	7	K00733	B4GALT7	9
+01030	Glycan structures - biosynthesis 1	105	7	K03844	ALG11	17
+01030	Glycan structures - biosynthesis 1	105	7	K07432	ALG13	2
+01030	Glycan structures - biosynthesis 1	105	7	K07441	ALG14	2
+01030	Glycan structures - biosynthesis 1	105	7	K09667	OGT	15
+00051	Fructose and mannose metabolism	50	21	K00066	algD	3
+00051	Fructose and mannose metabolism	50	21	K00100	E1.1.1.-	2
+00051	Fructose and mannose metabolism	50	21	K00847	E2.7.1.4, scrK	3
+00051	Fructose and mannose metabolism	50	21	K00848	E2.7.1.5, rhaB	5
+00051	Fructose and mannose metabolism	50	21	K00850	PFK	2
+00051	Fructose and mannose metabolism	50	21	K00882	E2.7.1.56, fruK	1
+00051	Fructose and mannose metabolism	50	21	K00895	E2.7.1.90, pfk	2
+00051	Fructose and mannose metabolism	50	21	K00966	E2.7.7.13	25
+00051	Fructose and mannose metabolism	50	21	K00971	E2.7.7.22, manC	10
+00051	Fructose and mannose metabolism	50	21	K01103	E3.1.3.46	2
+00051	Fructose and mannose metabolism	50	21	K01623	ALDO, fbaB	3
+00051	Fructose and mannose metabolism	50	21	K01624	FBA, fbaA	2
+00051	Fructose and mannose metabolism	50	21	K01711	E4.2.1.47, gmd	11
+00051	Fructose and mannose metabolism	50	21	K01803	TPI, tpiA	5
+00051	Fructose and mannose metabolism	50	21	K01809	E5.3.1.8, manA	4
+00051	Fructose and mannose metabolism	50	21	K01840	E5.4.2.8, manB	22
+00051	Fructose and mannose metabolism	50	21	K02377	E1.1.1.271, fcl	1
+00051	Fructose and mannose metabolism	50	21	K02446	glpX	1
+00051	Fructose and mannose metabolism	50	21	K03332	E3.2.1.80	7
+00051	Fructose and mannose metabolism	50	21	K03841	FBP	2
+00051	Fructose and mannose metabolism	50	21	K11532	glpX-SEBP	1
+02010	ABC transporters - General	293	133	K01995	livG	172
+02010	ABC transporters - General	293	133	K01996	livF	168
+02010	ABC transporters - General	293	133	K01997	livH	96
+02010	ABC transporters - General	293	133	K01998	livM	116
+02010	ABC transporters - General	293	133	K01999	livK	7
+02010	ABC transporters - General	293	133	K02000	proV	125
+02010	ABC transporters - General	293	133	K02001	proW	6
+02010	ABC transporters - General	293	133	K02002	proX	2
+02010	ABC transporters - General	293	133	K02003	ABC.CD.A	60
+02010	ABC transporters - General	293	133	K02004	ABC.CD.P	50
+02010	ABC transporters - General	293	133	K02006	cbiO	170
+02010	ABC transporters - General	293	133	K02010	ABC.FE.A	126
+02010	ABC transporters - General	293	133	K02011	ABC.FE.P	9
+02010	ABC transporters - General	293	133	K02012	ABC.FE.S	5
+02010	ABC transporters - General	293	133	K02013	ABC.FEV.A	47
+02010	ABC transporters - General	293	133	K02015	ABC.FEV.P	6
+02010	ABC transporters - General	293	133	K02016	ABC.FEV.S	17
+02010	ABC transporters - General	293	133	K02017	modC	118
+02010	ABC transporters - General	293	133	K02018	modB	42
+02010	ABC transporters - General	293	133	K02020	modA	3
+02010	ABC transporters - General	293	133	K02031	ABC.PE.A	57
+02010	ABC transporters - General	293	133	K02032	ABC.PE.A1	77
+02010	ABC transporters - General	293	133	K02033	ABC.PE.P	19
+02010	ABC transporters - General	293	133	K02034	ABC.PE.P1	22
+02010	ABC transporters - General	293	133	K02035	ABC.PE.S	21
+02010	ABC transporters - General	293	133	K02036	pstB	9
+02010	ABC transporters - General	293	133	K02037	pstC	7
+02010	ABC transporters - General	293	133	K02038	pstA	6
+02010	ABC transporters - General	293	133	K02040	pstS	10
+02010	ABC transporters - General	293	133	K02041	phnC	7
+02010	ABC transporters - General	293	133	K02042	phnE	3
+02010	ABC transporters - General	293	133	K02045	cysA	168
+02010	ABC transporters - General	293	133	K02046	cysU	1
+02010	ABC transporters - General	293	133	K02047	cysW	1
+02010	ABC transporters - General	293	133	K02048	cysP, sbp	5
+02010	ABC transporters - General	293	133	K02049	ABC.SN.A, ssuB, tauB	124
+02010	ABC transporters - General	293	133	K02050	ABC.SN.P, ssuC, tauC	10
+02010	ABC transporters - General	293	133	K02051	ABC.SN.S, ssuA, tauA	6
+02010	ABC transporters - General	293	133	K02062	ABC.VB1.A, thiQ	25
+02010	ABC transporters - General	293	133	K02063	ABC.VB1.P, thiP	1
+02010	ABC transporters - General	293	133	K02064	ABC.VB1.S, tbpA	1
+02010	ABC transporters - General	293	133	K02065	ABC.X1.A	62
+02010	ABC transporters - General	293	133	K02066	ABC.X1.P	3
+02010	ABC transporters - General	293	133	K02067	ABC.X1.S	3
+02010	ABC transporters - General	293	133	K02068	ABC.X2.A	47
+02010	ABC transporters - General	293	133	K02071	ABC.MET.A, metN	134
+02010	ABC transporters - General	293	133	K02072	ABC.MET.P, metI	3
+02010	ABC transporters - General	293	133	K02073	ABC.MET.S, metQ	3
+02010	ABC transporters - General	293	133	K02193	ccmA	19
+02010	ABC transporters - General	293	133	K02194	ccmB	1
+02010	ABC transporters - General	293	133	K02195	ccmC	2
+02010	ABC transporters - General	293	133	K02424	fliY	1
+02010	ABC transporters - General	293	133	K05685	ABC.MAC.P	4
+02010	ABC transporters - General	293	133	K05776	modF	8
+02010	ABC transporters - General	293	133	K05777	ABC.VB1X.S	1
+02010	ABC transporters - General	293	133	K05813	ugpB	4
+02010	ABC transporters - General	293	133	K05815	ugpE	1
+02010	ABC transporters - General	293	133	K05816	ugpC	108
+02010	ABC transporters - General	293	133	K05845	ABC.BCP1.S	4
+02010	ABC transporters - General	293	133	K05846	ABC.BCP1.P	5
+02010	ABC transporters - General	293	133	K05847	ABC.BCP1.A	148
+02010	ABC transporters - General	293	133	K06073	ABC.VB12.P, btuC	1
+02010	ABC transporters - General	293	133	K06857	ABC.TG.A	26
+02010	ABC transporters - General	293	133	K06858	ABC.VB12.S1, btuF	2
+02010	ABC transporters - General	293	133	K09686	ABC-2.AB.P	1
+02010	ABC transporters - General	293	133	K09687	ABC-2.AB.A	20
+02010	ABC transporters - General	293	133	K09689	ABC-2.CPSE.A	1
+02010	ABC transporters - General	293	133	K09690	ABC-2.LPSE.P	1
+02010	ABC transporters - General	293	133	K09691	ABC-2.LPSE.A	3
+02010	ABC transporters - General	293	133	K09693	tagH	9
+02010	ABC transporters - General	293	133	K09695	nodI	1
+02010	ABC transporters - General	293	133	K09697	natA	1
+02010	ABC transporters - General	293	133	K09808	ABC.LPT.P, lolC, lolE	8
+02010	ABC transporters - General	293	133	K09810	ABC.LPT.A, lolD	10
+02010	ABC transporters - General	293	133	K09811	ABC.FTS.P, ftsX	7
+02010	ABC transporters - General	293	133	K09812	ABC.FTS.A, ftsE	29
+02010	ABC transporters - General	293	133	K09813	ABC.HRT.P, hrtB	1
+02010	ABC transporters - General	293	133	K09814	ABC.HRT.A, hrtA	1
+02010	ABC transporters - General	293	133	K09815	znuA	5
+02010	ABC transporters - General	293	133	K09816	znuB	3
+02010	ABC transporters - General	293	133	K09817	znuC	25
+02010	ABC transporters - General	293	133	K09819	ABC.MN.P	2
+02010	ABC transporters - General	293	133	K09969	aapJ, bztA	2
+02010	ABC transporters - General	293	133	K09970	aapQ, bztB	1
+02010	ABC transporters - General	293	133	K09971	aapM, bztC	1
+02010	ABC transporters - General	293	133	K09972	aapP, bztD	3
+02010	ABC transporters - General	293	133	K10000	artP	31
+02010	ABC transporters - General	293	133	K10004	gltL	1
+02010	ABC transporters - General	293	133	K10009	ABC.CYST.P	2
+02010	ABC transporters - General	293	133	K10010	ABC.CYST.A	3
+02010	ABC transporters - General	293	133	K10017	hisP	8
+02010	ABC transporters - General	293	133	K10019	occM, nocM	1
+02010	ABC transporters - General	293	133	K10021	occP, nocP	8
+02010	ABC transporters - General	293	133	K10025	aotP	8
+02010	ABC transporters - General	293	133	K10038	glnQ	5
+02010	ABC transporters - General	293	133	K10041	ABC.GLN1.A	5
+02010	ABC transporters - General	293	133	K10107	ABC-2.CPSE.P1	1
+02010	ABC transporters - General	293	133	K10109	malF	7
+02010	ABC transporters - General	293	133	K10111	malK	143
+02010	ABC transporters - General	293	133	K10112	msmX, msmK	59
+02010	ABC transporters - General	293	133	K10117	msmE	1
+02010	ABC transporters - General	293	133	K10119	msmG	1
+02010	ABC transporters - General	293	133	K10190	lacG, araQ	2
+02010	ABC transporters - General	293	133	K10191	lacK	3
+02010	ABC transporters - General	293	133	K10195	togA	6
+02010	ABC transporters - General	293	133	K10199	ABC.GLC.A	23
+02010	ABC transporters - General	293	133	K10230	smoK, mtlK	11
+02010	ABC transporters - General	293	133	K10232	aglE	1
+02010	ABC transporters - General	293	133	K10233	aglF	1
+02010	ABC transporters - General	293	133	K10235	aglK	40
+02010	ABC transporters - General	293	133	K10239	thuK	7
+02010	ABC transporters - General	293	133	K10243	ABC.CEB.A, msiK	47
+02010	ABC transporters - General	293	133	K10439	rbsB	1
+02010	ABC transporters - General	293	133	K10440	rbsC	2
+02010	ABC transporters - General	293	133	K10441	rbsA	32
+02010	ABC transporters - General	293	133	K10539	araG	12
+02010	ABC transporters - General	293	133	K10542	mglA	6
+02010	ABC transporters - General	293	133	K10543	xylF	1
+02010	ABC transporters - General	293	133	K10544	xylH	1
+02010	ABC transporters - General	293	133	K10545	xylG	12
+02010	ABC transporters - General	293	133	K10551	alsA	6
+02010	ABC transporters - General	293	133	K10558	lsrA, ego	1
+02010	ABC transporters - General	293	133	K10562	rhaT	23
+02010	ABC transporters - General	293	133	K11070	potC	1
+02010	ABC transporters - General	293	133	K11071	potB	2
+02010	ABC transporters - General	293	133	K11072	potA	111
+02010	ABC transporters - General	293	133	K11073	potF	2
+02010	ABC transporters - General	293	133	K11074	potI	3
+02010	ABC transporters - General	293	133	K11075	potH	1
+02010	ABC transporters - General	293	133	K11076	potG	47
+02010	ABC transporters - General	293	133	K11080	attA1	6
+02010	ABC transporters - General	293	133	K11084	phnT	55
+02010	ABC transporters - General	293	133	K11085	ABCB-BAC.MSBA, msbA	5
+00660	C5-Branched dibasic acid metabolism	9	5	K01652	E2.2.1.6L, ilvB, ilvG, ilvI	47
+00660	C5-Branched dibasic acid metabolism	9	5	K01653	E2.2.1.6S, ilvH, ilvN	6
+00660	C5-Branched dibasic acid metabolism	9	5	K01902	sucD	3
+00660	C5-Branched dibasic acid metabolism	9	5	K01903	sucC	3
+00660	C5-Branched dibasic acid metabolism	9	5	K10218	E4.1.3.17, ligK	1
+00040	Pentose and glucuronate interconversions	41	12	K00012	E1.1.1.22, ugd	14
+00040	Pentose and glucuronate interconversions	41	12	K00065	E1.1.1.125, kduD	3
+00040	Pentose and glucuronate interconversions	41	12	K00848	E2.7.1.5, rhaB	5
+00040	Pentose and glucuronate interconversions	41	12	K00853	E2.7.1.16, araB	1
+00040	Pentose and glucuronate interconversions	41	12	K00854	E2.7.1.17	6
+00040	Pentose and glucuronate interconversions	41	12	K00874	kdgK	2
+00040	Pentose and glucuronate interconversions	41	12	K00880	E2.7.1.53, lyxK	5
+00040	Pentose and glucuronate interconversions	41	12	K00963	E2.7.7.9, galU	8
+00040	Pentose and glucuronate interconversions	41	12	K01625	eda	2
+00040	Pentose and glucuronate interconversions	41	12	K01728	E4.2.2.2, pel	20
+00040	Pentose and glucuronate interconversions	41	12	K01730	E4.2.2.6	19
+00040	Pentose and glucuronate interconversions	41	12	K01783	E5.1.3.1, rpe	3
+00340	Histidine metabolism	34	23	K00013	E1.1.1.23, hisD	5
+00340	Histidine metabolism	34	23	K00128	E1.2.1.3	17
+00340	Histidine metabolism	34	23	K00492	E1.14.13.-	10
+00340	Histidine metabolism	34	23	K00599	E2.1.1.-	50
+00340	Histidine metabolism	34	23	K00603	E2.1.2.5	1
+00340	Histidine metabolism	34	23	K00765	E2.4.2.17, hisG	1
+00340	Histidine metabolism	34	23	K00817	E2.6.1.9, hisC	10
+00340	Histidine metabolism	34	23	K01089	E3.1.3.15A, hisB	2
+00340	Histidine metabolism	34	23	K01270	E3.4.13.3, pepD	2
+00340	Histidine metabolism	34	23	K01458	E3.5.1.68	1
+00340	Histidine metabolism	34	23	K01468	E3.5.2.7, hutI	9
+00340	Histidine metabolism	34	23	K01479	E3.5.3.8, hutG	1
+00340	Histidine metabolism	34	23	K01496	E3.5.4.19, hisI	5
+00340	Histidine metabolism	34	23	K01523	E3.6.1.31, hisI	1
+00340	Histidine metabolism	34	23	K01593	E4.1.1.28, DDC	2
+00340	Histidine metabolism	34	23	K01693	E4.2.1.19, hisB	2
+00340	Histidine metabolism	34	23	K01712	E4.2.1.49, hutU	1
+00340	Histidine metabolism	34	23	K01745	E4.3.1.3, hutH	1
+00340	Histidine metabolism	34	23	K01814	E5.3.1.16, hisA	1
+00340	Histidine metabolism	34	23	K01892	E6.1.1.21S, hisS	3
+00340	Histidine metabolism	34	23	K02501	HISH	3
+00340	Histidine metabolism	34	23	K04486	E3.1.3.15B	57
+00340	Histidine metabolism	34	23	K05602	E3.1.3.15	3
+03410	Base excision repair	34	20	K01151	E3.1.21.2, nfo	2
+03410	Base excision repair	34	20	K01246	E3.2.2.20, tag	1
+03410	Base excision repair	34	20	K01247	ALKA	3
+03410	Base excision repair	34	20	K01971	E6.5.1.1, lig	1
+03410	Base excision repair	34	20	K01972	E6.5.1.2, ligA, ligB	4
+03410	Base excision repair	34	20	K02335	DPO1, polA	5
+03410	Base excision repair	34	20	K03575	MUTY	10
+03410	Base excision repair	34	20	K03648	UNG, UDG	4
+03410	Base excision repair	34	20	K03649	MUG, TDG	1
+03410	Base excision repair	34	20	K03652	MPG	9
+03410	Base excision repair	34	20	K03660	OGG1	5
+03410	Base excision repair	34	20	K05522	NEI	5
+03410	Base excision repair	34	20	K07462	RECJ	4
+03410	Base excision repair	34	20	K10563	MUTM, fpg	5
+03410	Base excision repair	34	20	K10747	LIG1	3
+03410	Base excision repair	34	20	K10771	APEX1	1
+03410	Base excision repair	34	20	K10772	APEX2	5
+03410	Base excision repair	34	20	K10773	NTH	7
+03410	Base excision repair	34	20	K10800	SMUG1	4
+03410	Base excision repair	34	20	K10801	MBD4	5
+03430	Mismatch repair	32	12	K01141	E3.1.11.1, sbcB	1
+03430	Mismatch repair	32	12	K01971	E6.5.1.1, lig	1
+03430	Mismatch repair	32	12	K01972	E6.5.1.2, ligA, ligB	4
+03430	Mismatch repair	32	12	K03111	SSB	5
+03430	Mismatch repair	32	12	K03555	MUTS	6
+03430	Mismatch repair	32	12	K03572	MUTL	4
+03430	Mismatch repair	32	12	K03601	XSEA	1
+03430	Mismatch repair	32	12	K03602	XSEB	2
+03430	Mismatch repair	32	12	K03657	UVRD, pcrA	3
+03430	Mismatch repair	32	12	K07456	MUTS2	2
+03430	Mismatch repair	32	12	K07462	RECJ	4
+03430	Mismatch repair	32	12	K10747	LIG1	3
+01051	Biosynthesis of ansamycins	2	1	K00615	E2.2.1.1, tktA, tktB	20
+00562	Inositol phosphate metabolism	31	3	K00010	E1.1.1.18, iolG	1
+00562	Inositol phosphate metabolism	31	3	K01092	E3.1.3.25, IMPA, suhB	5
+00562	Inositol phosphate metabolism	31	3	K01858	E5.5.1.4, INO1	1
+00521	Streptomycin biosynthesis	14	8	K00067	E1.1.1.133, rfbD	3
+00521	Streptomycin biosynthesis	14	8	K00845	glk	9
+00521	Streptomycin biosynthesis	14	8	K00973	E2.7.7.24, rfbA	3
+00521	Streptomycin biosynthesis	14	8	K01092	E3.1.3.25, IMPA, suhB	5
+00521	Streptomycin biosynthesis	14	8	K01710	E4.2.1.46, rfbB	3
+00521	Streptomycin biosynthesis	14	8	K01790	E5.1.3.13, rfbC	3
+00521	Streptomycin biosynthesis	14	8	K01835	E5.4.2.2, pgm	12
+00521	Streptomycin biosynthesis	14	8	K01858	E5.5.1.4, INO1	1
+04111	Cell cycle - yeast	103	3	K02178	BUB1	15
+04111	Cell cycle - yeast	103	3	K02831	RAD53	5
+04111	Cell cycle - yeast	103	3	K03114	SWE1	3
+01031	Glycan structures - biosynthesis 2	78	7	K02527	KDTA	1
+01031	Glycan structures - biosynthesis 2	78	7	K02840	WAAB, rfaB	8
+01031	Glycan structures - biosynthesis 2	78	7	K02844	WAAG, rfaG	16
+01031	Glycan structures - biosynthesis 2	78	7	K03276	WAAR, rfaJ	1
+01031	Glycan structures - biosynthesis 2	78	7	K03279	WAAJ, rfaJ	1
+01031	Glycan structures - biosynthesis 2	78	7	K03857	PIGA, GPI3	3
+01031	Glycan structures - biosynthesis 2	78	7	K08098	PIGZ, SMP3	13
+00310	Lysine degradation	46	19	K00022	E1.1.1.35, fadB	50
+00310	Lysine degradation	46	19	K00128	E1.2.1.3	17
+00310	Lysine degradation	46	19	K00143	E1.2.1.31L	40
+00310	Lysine degradation	46	19	K00149	E1.2.1.47	1
+00310	Lysine degradation	46	19	K00164	OGDH, sucA	3
+00310	Lysine degradation	46	19	K00252	E1.3.99.7, gcdH	19
+00310	Lysine degradation	46	19	K00471	E1.14.11.1	1
+00310	Lysine degradation	46	19	K00626	E2.3.1.9, atoB	20
+00310	Lysine degradation	46	19	K00658	DLST, sucB	32
+00310	Lysine degradation	46	19	K00824	E2.6.1.21, dat	2
+00310	Lysine degradation	46	19	K00825	E2.6.1.39	47
+00310	Lysine degradation	46	19	K01423	E3.4.-.-	2
+00310	Lysine degradation	46	19	K01692	E4.2.1.17, paaG	36
+00310	Lysine degradation	46	19	K01843	E5.4.3.2, kamA	2
+00310	Lysine degradation	46	19	K01844	E5.4.3.3	8
+00310	Lysine degradation	46	19	K07511	ECHS1	16
+00310	Lysine degradation	46	19	K07514	EHHADH1	35
+00310	Lysine degradation	46	19	K07515	HADHA1	35
+00310	Lysine degradation	46	19	K07516	EHHADH2	35
+03020	RNA polymerase	59	23	K02999	RPA1	2
+03020	RNA polymerase	59	23	K03002	RPA2	1
+03020	RNA polymerase	59	23	K03006	RPB1	2
+03020	RNA polymerase	59	23	K03010	RPB2	1
+03020	RNA polymerase	59	23	K03018	RPC1	9
+03020	RNA polymerase	59	23	K03021	RPC2	1
+03020	RNA polymerase	59	23	K03022	RPC25	11
+03020	RNA polymerase	59	23	K03040	RPOA	7
+03020	RNA polymerase	59	23	K03041	RPOA1	5
+03020	RNA polymerase	59	23	K03042	RPOA2	2
+03020	RNA polymerase	59	23	K03043	RPOB	3
+03020	RNA polymerase	59	23	K03044	RPOB1	1
+03020	RNA polymerase	59	23	K03045	RPOB2	1
+03020	RNA polymerase	59	23	K03046	RPOC	3
+03020	RNA polymerase	59	23	K03047	RPOD	3
+03020	RNA polymerase	59	23	K03049	RPOE1	11
+03020	RNA polymerase	59	23	K03055	RPOK	2
+03020	RNA polymerase	59	23	K03060	RPOZ	2
+03020	RNA polymerase	59	23	K03086	SIG1, rpoD	2
+03020	RNA polymerase	59	23	K03087	SIG2, rpoS	1
+03020	RNA polymerase	59	23	K03088	SIG3.2, rpoE	12
+03020	RNA polymerase	59	23	K03089	SIG3.3.1, rpoH	1
+03020	RNA polymerase	59	23	K03092	SIG54, rpoN	1
+04110	Cell cycle	91	5	K02178	BUB1	15
+04110	Cell cycle	91	5	K06067	HDAC1_2	1
+04110	Cell cycle	91	5	K06632	WEE1	3
+04110	Cell cycle	91	5	K06633	PKMYT	3
+04110	Cell cycle	91	5	K06641	CHK2	3
+00253	Tetracycline biosynthesis	4	4	K01961	ACCC	4
+00253	Tetracycline biosynthesis	4	4	K01962	ACCA	5
+00253	Tetracycline biosynthesis	4	4	K01963	ACCD	10
+00253	Tetracycline biosynthesis	4	4	K02160	ACCB, bccP	2
+05012	Parkinson's disease	109	19	K00234	SDHA, SDH1	5
+05012	Parkinson's disease	109	19	K00235	SDHB, SDH2	17
+05012	Parkinson's disease	109	19	K00411	RIP1	1
+05012	Parkinson's disease	109	19	K00412	CYTB	1
+05012	Parkinson's disease	109	19	K00413	CYT1	1
+05012	Parkinson's disease	109	19	K02126	ATPeF0A, MTATP6	3
+05012	Parkinson's disease	109	19	K02128	ATPeF0C, ATP5G	5
+05012	Parkinson's disease	109	19	K03934	NDUFS1	7
+05012	Parkinson's disease	109	19	K03935	NDUFS2	3
+05012	Parkinson's disease	109	19	K03940	NDUFS7	2
+05012	Parkinson's disease	109	19	K03941	NDUFS8	8
+05012	Parkinson's disease	109	19	K03942	NDUFV1	9
+05012	Parkinson's disease	109	19	K03943	NDUFV2	9
+05012	Parkinson's disease	109	19	K03953	NDUFA9	13
+05012	Parkinson's disease	109	19	K03955	NDUFAB1	3
+05012	Parkinson's disease	109	19	K05688	PINK1	16
+05012	Parkinson's disease	109	19	K05864	CYPD, PPID	18
+05012	Parkinson's disease	109	19	K08738	CYC	2
+05012	Parkinson's disease	109	19	K08844	LRRK2	1
+00472	D-Arginine and D-ornithine metabolism	2	2	K00273	E1.4.3.3, DAO	1
+00472	D-Arginine and D-ornithine metabolism	2	2	K00824	E2.6.1.21, dat	2
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K00014	E1.1.1.25, aroE	10
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K00210	E1.3.1.12	9
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K00220	E1.3.1.43, tyrC	3
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K00270	E1.4.1.20	7
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K00500	E1.14.16.1, pah	1
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K00766	E2.4.2.18, trpD	11
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K00800	E2.5.1.19, aroA	7
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K00812	E2.6.1.1A, aspB	6
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K00813	E2.6.1.1B, aspC	1
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K00817	E2.6.1.9, hisC	10
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K00832	E2.6.1.57, tyrB	1
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K00891	E2.7.1.71, aroK	18
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K01609	E4.1.1.48, trpC	5
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K01626	E2.5.1.54, aroF, aroG, aroH	3
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K01657	E4.1.3.27A, trpE	19
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K01658	E4.1.3.27B, trpD	22
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K01695	E4.2.1.20A, trpA	9
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K01696	E4.2.1.20B, trpB	9
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K01713	E4.2.1.51	10
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K01735	E4.2.3.4, ARO1	8
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K01736	E4.2.3.5, aroC	3
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K01817	E5.3.1.24, trpF	15
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K01850	E5.4.99.5	8
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K01866	E6.1.1.1, tyrS	6
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K01889	E6.1.1.20A, pheS	4
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K01890	E6.1.1.20B, pheT	4
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K03785	AROD	7
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K03786	AROQ, qutE	1
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K03856	AROA2, aroA	8
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K04092	TYRA1, tyrA	8
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K04093	PHEA1, pheA	16
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K04516	AROA1, aroA	5
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K04517	TYRA2, tyrA	11
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K04518	PHEA2, pheA	16
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K05358	E1.1.99.25, quiA	4
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K05359	E4.2.1.91	1
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K06001	E4.2.1.20BB, trpB	9
+00400	Phenylalanine, tyrosine and tryptophan biosynthesis	48	38	K06208	AROH	2
+00430	Taurine and hypotaurine metabolism	15	5	K00259	E1.4.1.1, ald	4
+00430	Taurine and hypotaurine metabolism	15	5	K00625	E2.3.1.8, pta	6
+00430	Taurine and hypotaurine metabolism	15	5	K00681	E2.3.2.2, ggt	8
+00430	Taurine and hypotaurine metabolism	15	5	K00925	E2.7.2.1, ackA	4
+00430	Taurine and hypotaurine metabolism	15	5	K03852	E2.3.3.15	7
+00120	Bile acid biosynthesis	22	9	K00001	E1.1.1.1, adh	22
+00120	Bile acid biosynthesis	22	9	K00100	E1.1.1.-	2
+00120	Bile acid biosynthesis	22	9	K00128	E1.2.1.3	17
+00120	Bile acid biosynthesis	22	9	K00492	E1.14.13.-	10
+00120	Bile acid biosynthesis	22	9	K00632	E2.3.1.16, fadA	16
+00120	Bile acid biosynthesis	22	9	K01442	E3.5.1.24	1
+00120	Bile acid biosynthesis	22	9	K07508	ACAA2	15
+00120	Bile acid biosynthesis	22	9	K07509	HADHB	16
+00120	Bile acid biosynthesis	22	9	K07513	ACAA1	16
+04140	Regulation of autophagy	21	1	K08333	PIK3R4, VPS15	17
+00908	Zeatin biosynthesis	4	1	K00791	E2.5.1.8, miaA	1
+04360	Axon guidance	80	8	K05102	EPHA1, EPH	12
+04360	Axon guidance	80	8	K05103	EPHA2, ECK	12
+04360	Axon guidance	80	8	K05105	EPHA4, SEK, TYRO1	12
+04360	Axon guidance	80	8	K05111	EPHB2, ERK, DRT	12
+04360	Axon guidance	80	8	K05112	EPHB3, HEK2, ETK2	12
+04360	Axon guidance	80	8	K05113	EPHB4, HTK	12
+04360	Axon guidance	80	8	K05743	LIMK1	10
+04360	Axon guidance	80	8	K05744	LIMK2	10
+03420	Nucleotide excision repair	48	9	K01971	E6.5.1.1, lig	1
+03420	Nucleotide excision repair	48	9	K01972	E6.5.1.2, ligA, ligB	4
+03420	Nucleotide excision repair	48	9	K02335	DPO1, polA	5
+03420	Nucleotide excision repair	48	9	K03657	UVRD, pcrA	3
+03420	Nucleotide excision repair	48	9	K03701	UVRA	3
+03420	Nucleotide excision repair	48	9	K03702	UVRB	4
+03420	Nucleotide excision repair	48	9	K03703	UVRC	4
+03420	Nucleotide excision repair	48	9	K03723	MFD	4
+03420	Nucleotide excision repair	48	9	K10747	LIG1	3
+00520	Nucleotide sugars metabolism	20	12	K00012	E1.1.1.22, ugd	14
+00520	Nucleotide sugars metabolism	20	12	K00067	E1.1.1.133, rfbD	3
+00520	Nucleotide sugars metabolism	20	12	K00963	E2.7.7.9, galU	8
+00520	Nucleotide sugars metabolism	20	12	K00973	E2.7.7.24, rfbA	3
+00520	Nucleotide sugars metabolism	20	12	K01198	E3.2.1.37, xynB	1
+00520	Nucleotide sugars metabolism	20	12	K01209	E3.2.1.55, abfA	1
+00520	Nucleotide sugars metabolism	20	12	K01710	E4.2.1.46, rfbB	3
+00520	Nucleotide sugars metabolism	20	12	K01784	E5.1.3.2, galE	21
+00520	Nucleotide sugars metabolism	20	12	K01790	E5.1.3.13, rfbC	3
+00520	Nucleotide sugars metabolism	20	12	K08678	E4.1.1.35, UXS1	1
+00520	Nucleotide sugars metabolism	20	12	K08679	E5.1.3.6	1
+00520	Nucleotide sugars metabolism	20	12	K10012	ARNC, pmrF	1
+00052	Galactose metabolism	38	12	K00035	E1.1.1.48, gal	1
+00052	Galactose metabolism	38	12	K00845	glk	9
+00052	Galactose metabolism	38	12	K00849	E2.7.1.6, galK	3
+00052	Galactose metabolism	38	12	K00850	PFK	2
+00052	Galactose metabolism	38	12	K00963	E2.7.7.9, galU	8
+00052	Galactose metabolism	38	12	K01187	E3.2.1.20, malZ	5
+00052	Galactose metabolism	38	12	K01193	E3.2.1.26, sacA	2
+00052	Galactose metabolism	38	12	K01631	E4.1.2.21, dgoAa	7
+00052	Galactose metabolism	38	12	K01684	E4.2.1.6, dgoAb	8
+00052	Galactose metabolism	38	12	K01784	E5.1.3.2, galE	21
+00052	Galactose metabolism	38	12	K01835	E5.4.2.2, pgm	12
+00052	Galactose metabolism	38	12	K02079	AGAA	4
+01055	Biosynthesis of vancomycin group antibiotics	1	1	K01710	E4.2.1.46, rfbB	3
+00906	Carotenoid biosynthesis - General	27	6	K02291	E2.5.1.32, crtB	3
+00906	Carotenoid biosynthesis - General	27	6	K02294	CRTR, crtZ	1
+00906	Carotenoid biosynthesis - General	27	6	K09846	CRTF	1
+00906	Carotenoid biosynthesis - General	27	6	K10208	CRTM	1
+00906	Carotenoid biosynthesis - General	27	6	K10209	CRTN	1
+00906	Carotenoid biosynthesis - General	27	6	K10210	CRTP	2
+00740	Riboflavin metabolism	15	4	K00793	E2.5.1.9A, ribE	3
+00740	Riboflavin metabolism	15	4	K00794	RIBH	5
+00740	Riboflavin metabolism	15	4	K00953	E2.7.7.2, ribF	1
+00740	Riboflavin metabolism	15	4	K01513	E3.6.1.9	2
+04510	Focal adhesion	125	5	K05096	FLT1, VEGFR1	18
+04510	Focal adhesion	125	5	K05097	FLT4, VEGFR3	18
+04510	Focal adhesion	125	5	K05098	KDR, VEGFR2	18
+04510	Focal adhesion	125	5	K06269	PPP1C	2
+04510	Focal adhesion	125	5	K06272	ILK	2
+00730	Thiamine metabolism	19	10	K00788	E2.5.1.3, thiE	6
+00730	Thiamine metabolism	19	10	K00878	E2.7.1.50, thiM	2
+00730	Thiamine metabolism	19	10	K00941	E2.7.4.7, thiD	3
+00730	Thiamine metabolism	19	10	K00949	E2.7.6.2, THI80	1
+00730	Thiamine metabolism	19	10	K01516	E3.6.1.15	3
+00730	Thiamine metabolism	19	10	K03148	THIF	3
+00730	Thiamine metabolism	19	10	K03149	THIG	3
+00730	Thiamine metabolism	19	10	K03151	THII	2
+00730	Thiamine metabolism	19	10	K03707	tenA	1
+00730	Thiamine metabolism	19	10	K04487	E2.8.1.7, iscS, nifS	8
+05111	Vibrio cholerae pathogenic cycle	42	5	K03087	SIG2, rpoS	1
+05111	Vibrio cholerae pathogenic cycle	42	5	K03092	SIG54, rpoN	1
+05111	Vibrio cholerae pathogenic cycle	42	5	K10909	luxQ	102
+05111	Vibrio cholerae pathogenic cycle	42	5	K10916	cqsS, luxN	151
+05111	Vibrio cholerae pathogenic cycle	42	5	K10942	flrB, fleS	92
+01053	Biosynthesis of siderophore group nonribosomal peptides	29	4	K02364	ENTF	37
+01053	Biosynthesis of siderophore group nonribosomal peptides	29	4	K02552	MENF	1
+01053	Biosynthesis of siderophore group nonribosomal peptides	29	4	K04781	YBTS	1
+01053	Biosynthesis of siderophore group nonribosomal peptides	29	4	K04784	HMWP2, irp2	1
+00564	Glycerophospholipid metabolism	59	14	K00006	E1.1.1.8, GPD1	7
+00564	Glycerophospholipid metabolism	59	14	K00057	E1.1.1.94, gpsA	7
+00564	Glycerophospholipid metabolism	59	14	K00105	E1.1.3.21	1
+00564	Glycerophospholipid metabolism	59	14	K00111	E1.1.99.5A, glpA, glpD	1
+00564	Glycerophospholipid metabolism	59	14	K00655	E2.3.1.51, plsC	2
+00564	Glycerophospholipid metabolism	59	14	K00981	E2.7.7.41, CDS1, cdsA	3
+00564	Glycerophospholipid metabolism	59	14	K00995	E2.7.8.5, pgsA	2
+00564	Glycerophospholipid metabolism	59	14	K00998	E2.7.8.8, pssA	10
+00564	Glycerophospholipid metabolism	59	14	K01048	E3.1.1.5, pldB	2
+00564	Glycerophospholipid metabolism	59	14	K01096	E3.1.3.27B, pgpB	3
+00564	Glycerophospholipid metabolism	59	14	K01126	E3.1.4.46, glpQ	3
+00564	Glycerophospholipid metabolism	59	14	K05939	E2.3.1.40, aas	34
+00564	Glycerophospholipid metabolism	59	14	K06131	CLS	11
+00564	Glycerophospholipid metabolism	59	14	K08744	CRLS	1
+00010	Glycolysis / Gluconeogenesis	56	36	K00001	E1.1.1.1, adh	22
+00010	Glycolysis / Gluconeogenesis	56	36	K00016	LDH	7
+00010	Glycolysis / Gluconeogenesis	56	36	K00114	E1.1.99.8	3
+00010	Glycolysis / Gluconeogenesis	56	36	K00128	E1.2.1.3	17
+00010	Glycolysis / Gluconeogenesis	56	36	K00131	E1.2.1.9, gapN	2
+00010	Glycolysis / Gluconeogenesis	56	36	K00134	GAPD, gapA	13
+00010	Glycolysis / Gluconeogenesis	56	36	K00161	PDHA	20
+00010	Glycolysis / Gluconeogenesis	56	36	K00162	PDHB	29
+00010	Glycolysis / Gluconeogenesis	56	36	K00163	aceE	22
+00010	Glycolysis / Gluconeogenesis	56	36	K00170	porB	16
+00010	Glycolysis / Gluconeogenesis	56	36	K00171	porD	25
+00010	Glycolysis / Gluconeogenesis	56	36	K00172	porG	13
+00010	Glycolysis / Gluconeogenesis	56	36	K00382	DLD, lpd, pdhD	42
+00010	Glycolysis / Gluconeogenesis	56	36	K00627	DLAT, aceF, pdhC	5
+00010	Glycolysis / Gluconeogenesis	56	36	K00845	glk	9
+00010	Glycolysis / Gluconeogenesis	56	36	K00850	PFK	2
+00010	Glycolysis / Gluconeogenesis	56	36	K00873	PK, pyk	99
+00010	Glycolysis / Gluconeogenesis	56	36	K00886	E2.7.1.63, ppgK	1
+00010	Glycolysis / Gluconeogenesis	56	36	K00927	PGK	7
+00010	Glycolysis / Gluconeogenesis	56	36	K01512	E3.6.1.7, acyP	1
+00010	Glycolysis / Gluconeogenesis	56	36	K01568	E4.1.1.1, pdc	8
+00010	Glycolysis / Gluconeogenesis	56	36	K01623	ALDO, fbaB	3
+00010	Glycolysis / Gluconeogenesis	56	36	K01624	FBA, fbaA	2
+00010	Glycolysis / Gluconeogenesis	56	36	K01689	ENO	2
+00010	Glycolysis / Gluconeogenesis	56	36	K01785	E5.1.3.3, galM	3
+00010	Glycolysis / Gluconeogenesis	56	36	K01803	TPI, tpiA	5
+00010	Glycolysis / Gluconeogenesis	56	36	K01810	GPI, pgi	2
+00010	Glycolysis / Gluconeogenesis	56	36	K01834	PGAM, gpm	9
+00010	Glycolysis / Gluconeogenesis	56	36	K01835	E5.4.2.2, pgm	12
+00010	Glycolysis / Gluconeogenesis	56	36	K01837	BPGM	5
+00010	Glycolysis / Gluconeogenesis	56	36	K01895	E6.2.1.1, acs	30
+00010	Glycolysis / Gluconeogenesis	56	36	K02446	glpX	1
+00010	Glycolysis / Gluconeogenesis	56	36	K03841	FBP	2
+00010	Glycolysis / Gluconeogenesis	56	36	K04022	EUTG	1
+00010	Glycolysis / Gluconeogenesis	56	36	K05344	E2.7.1.41	4
+00010	Glycolysis / Gluconeogenesis	56	36	K11532	glpX-SEBP	1
+00970	Aminoacyl-tRNA biosynthesis	28	24	K00604	E2.1.2.9, fmt	6
+00970	Aminoacyl-tRNA biosynthesis	28	24	K01866	E6.1.1.1, tyrS	6
+00970	Aminoacyl-tRNA biosynthesis	28	24	K01867	E6.1.1.2, trpS	2
+00970	Aminoacyl-tRNA biosynthesis	28	24	K01868	E6.1.1.3, thrS	4
+00970	Aminoacyl-tRNA biosynthesis	28	24	K01869	E6.1.1.4, leuS	3
+00970	Aminoacyl-tRNA biosynthesis	28	24	K01870	E6.1.1.5, ileS	2
+00970	Aminoacyl-tRNA biosynthesis	28	24	K01872	E6.1.1.7, alaS	3
+00970	Aminoacyl-tRNA biosynthesis	28	24	K01873	E6.1.1.9, valS	2
+00970	Aminoacyl-tRNA biosynthesis	28	24	K01874	E6.1.1.10, metG	2
+00970	Aminoacyl-tRNA biosynthesis	28	24	K01875	E6.1.1.11, serS	2
+00970	Aminoacyl-tRNA biosynthesis	28	24	K01876	E6.1.1.12, aspS	3
+00970	Aminoacyl-tRNA biosynthesis	28	24	K01878	E6.1.1.14A, glyQ	1
+00970	Aminoacyl-tRNA biosynthesis	28	24	K01880	E6.1.1.14C, GRS1	1
+00970	Aminoacyl-tRNA biosynthesis	28	24	K01881	E6.1.1.15, proS	4
+00970	Aminoacyl-tRNA biosynthesis	28	24	K01883	E6.1.1.16A, cysS	3
+00970	Aminoacyl-tRNA biosynthesis	28	24	K01885	E6.1.1.17, gltX	4
+00970	Aminoacyl-tRNA biosynthesis	28	24	K01886	E6.1.1.18, glnS	2
+00970	Aminoacyl-tRNA biosynthesis	28	24	K01887	E6.1.1.19, argS	4
+00970	Aminoacyl-tRNA biosynthesis	28	24	K01889	E6.1.1.20A, pheS	4
+00970	Aminoacyl-tRNA biosynthesis	28	24	K01890	E6.1.1.20B, pheT	4
+00970	Aminoacyl-tRNA biosynthesis	28	24	K01892	E6.1.1.21S, hisS	3
+00970	Aminoacyl-tRNA biosynthesis	28	24	K01893	E6.1.1.22, asnS	2
+00970	Aminoacyl-tRNA biosynthesis	28	24	K04567	LYSU, KARS	4
+00970	Aminoacyl-tRNA biosynthesis	28	24	K04568	GENX	2
+00790	Folate biosynthesis	52	24	K00072	E1.1.1.153, spr	1
+00790	Folate biosynthesis	52	24	K00201	E1.2.99.5B, fwdB, fmdB	6
+00790	Folate biosynthesis	52	24	K00202	E1.2.99.5C, fwdC, fmdC	10
+00790	Folate biosynthesis	52	24	K00203	E1.2.99.5D, fwdD, fmdD	6
+00790	Folate biosynthesis	52	24	K00204	E1.2.99.5H, fwdH	19
+00790	Folate biosynthesis	52	24	K00205	E1.2.99.5F, fwdF, fmdF	32
+00790	Folate biosynthesis	52	24	K00320	E1.5.99.11, hmd	5
+00790	Folate biosynthesis	52	24	K00357	QDPR	1
+00790	Folate biosynthesis	52	24	K00441	E1.12.98.1B, frhB	34
+00790	Folate biosynthesis	52	24	K00443	E1.12.98.1G, frhG	26
+00790	Folate biosynthesis	52	24	K00796	E2.5.1.15, folP	2
+00790	Folate biosynthesis	52	24	K00950	E2.7.6.3, folK	1
+00790	Folate biosynthesis	52	24	K01495	E3.5.4.16, folE	1
+00790	Folate biosynthesis	52	24	K01529	E3.6.1.-	17
+00790	Folate biosynthesis	52	24	K01633	E4.1.2.25, folB	1
+00790	Folate biosynthesis	52	24	K01664	pabA	19
+00790	Folate biosynthesis	52	24	K01665	pabB	19
+00790	Folate biosynthesis	52	24	K01737	E4.2.3.12, ptpS	3
+00790	Folate biosynthesis	52	24	K02619	pabC	20
+00790	Folate biosynthesis	52	24	K03388	E1.8.98.1A	248
+00790	Folate biosynthesis	52	24	K03390	E1.8.98.1C	15
+00790	Folate biosynthesis	52	24	K08264	E1.8.98.1D	13
+00790	Folate biosynthesis	52	24	K11260	E1.2.99.5G, fwdG	25
+00790	Folate biosynthesis	52	24	K11261	E1.2.99.5E, fmdE	2
+00460	Cyanoamino acid metabolism	13	7	K00600	E2.1.2.1, glyA	2
+00460	Cyanoamino acid metabolism	13	7	K00681	E2.3.2.2, ggt	8
+00460	Cyanoamino acid metabolism	13	7	K01188	E3.2.1.21	3
+00460	Cyanoamino acid metabolism	13	7	K01424	E3.5.1.1, ansA, ansB	2
+00460	Cyanoamino acid metabolism	13	7	K01426	E3.5.1.4, amiE	3
+00460	Cyanoamino acid metabolism	13	7	K01501	E3.5.5.1	1
+00460	Cyanoamino acid metabolism	13	7	K05349	BGLX	3
+00350	Tyrosine metabolism	54	16	K00001	E1.1.1.1, adh	22
+00350	Tyrosine metabolism	54	16	K00055	E1.1.1.90	5
+00350	Tyrosine metabolism	54	16	K00135	E1.2.1.16, gabD	4
+00350	Tyrosine metabolism	54	16	K00151	E1.2.1.60, hpaE	5
+00350	Tyrosine metabolism	54	16	K00157	E1.2.3.1, AOX1	6
+00350	Tyrosine metabolism	54	16	K00450	E1.13.11.4	2
+00350	Tyrosine metabolism	54	16	K00457	E1.13.11.27	4
+00350	Tyrosine metabolism	54	16	K00492	E1.14.13.-	10
+00350	Tyrosine metabolism	54	16	K00599	E2.1.1.-	50
+00350	Tyrosine metabolism	54	16	K00812	E2.6.1.1A, aspB	6
+00350	Tyrosine metabolism	54	16	K00813	E2.6.1.1B, aspC	1
+00350	Tyrosine metabolism	54	16	K00817	E2.6.1.9, hisC	10
+00350	Tyrosine metabolism	54	16	K00832	E2.6.1.57, tyrB	1
+00350	Tyrosine metabolism	54	16	K01555	E3.7.1.2, FAH	4
+00350	Tyrosine metabolism	54	16	K01593	E4.1.1.28, DDC	2
+00350	Tyrosine metabolism	54	16	K01800	E5.2.1.2, maiA	2
+00791	Atrazine degradation	11	5	K01428	E3.5.1.5A, ureC	1
+00791	Atrazine degradation	11	5	K01429	E3.5.1.5B, ureB	3
+00791	Atrazine degradation	11	5	K01430	E3.5.1.5G, ureA	3
+00791	Atrazine degradation	11	5	K01457	E3.5.1.54	15
+00791	Atrazine degradation	11	5	K03382	E3.5.99.3	1
+01056	Biosynthesis of type II polyketide backbone	5	1	K05554	ACTVII	2
+00271	Methionine metabolism	38	20	K00548	E2.1.1.13, metH	9
+00271	Methionine metabolism	38	20	K00558	E2.1.1.37, DNMT, dcm	6
+00271	Methionine metabolism	38	20	K00604	E2.1.2.9, fmt	6
+00271	Methionine metabolism	38	20	K00641	E2.3.1.31, metX	16
+00271	Methionine metabolism	38	20	K00651	E2.3.1.46, metA	1
+00271	Methionine metabolism	38	20	K00789	E2.5.1.6, metK	3
+00271	Methionine metabolism	38	20	K00797	E2.5.1.16, SRM, speE	1
+00271	Methionine metabolism	38	20	K00832	E2.6.1.57, tyrB	1
+00271	Methionine metabolism	38	20	K00899	E2.7.1.100	1
+00271	Methionine metabolism	38	20	K01243	E3.2.2.9, pfs	3
+00271	Methionine metabolism	38	20	K01251	E3.3.1.1, ahcY	3
+00271	Methionine metabolism	38	20	K01611	E4.1.1.50, speD	1
+00271	Methionine metabolism	38	20	K01697	E4.2.1.22, CBS	40
+00271	Methionine metabolism	38	20	K01739	E2.5.1.48, metB	4
+00271	Methionine metabolism	38	20	K01740	E2.5.1.49, metY	6
+00271	Methionine metabolism	38	20	K01758	E4.4.1.1	2
+00271	Methionine metabolism	38	20	K01760	E4.4.1.8, metC	12
+00271	Methionine metabolism	38	20	K01874	E6.1.1.10, metG	2
+00271	Methionine metabolism	38	20	K08968	E1.8.4.14	4
+00271	Methionine metabolism	38	20	K10764	METZ	2
+00473	D-Alanine metabolism	4	4	K00824	E2.6.1.21, dat	2
+00473	D-Alanine metabolism	4	4	K01775	E5.1.1.1, alr	2
+00473	D-Alanine metabolism	4	4	K01921	E6.3.2.4, ddlA	8
+00473	D-Alanine metabolism	4	4	K03367	E6.1.1.13, dltC	33
+00633	Trinitrotoluene degradation	22	12	K00170	porB	16
+00633	Trinitrotoluene degradation	22	12	K00171	porD	25
+00633	Trinitrotoluene degradation	22	12	K00172	porG	13
+00633	Trinitrotoluene degradation	22	12	K00192	E1.2.99.2A, cdhA	3
+00633	Trinitrotoluene degradation	22	12	K00197	E1.2.99.2G, cdhE	1
+00633	Trinitrotoluene degradation	22	12	K03518	E1.2.99.2S, coxS	14
+00633	Trinitrotoluene degradation	22	12	K03519	E1.2.99.2M, cutM, coxM	6
+00633	Trinitrotoluene degradation	22	12	K03520	E1.2.99.2L, cutL, coxL	6
+00633	Trinitrotoluene degradation	22	12	K06282	E1.12.99.6S	1
+00633	Trinitrotoluene degradation	22	12	K10680	NEMA	1
+00633	Trinitrotoluene degradation	22	12	K11180	E1.8.99.3A, dsrA	5
+00633	Trinitrotoluene degradation	22	12	K11181	E1.8.99.3B, dsrB	22
+00590	Arachidonic acid metabolism	28	4	K00432	E1.11.1.9	4
+00590	Arachidonic acid metabolism	28	4	K00465	E1.13.11.-	5
+00590	Arachidonic acid metabolism	28	4	K00681	E2.3.2.2, ggt	8
+00590	Arachidonic acid metabolism	28	4	K00687	E2.3.2.-	1
+00624	1- and 2-Methylnaphthalene degradation	13	7	K00001	E1.1.1.1, adh	22
+00624	1- and 2-Methylnaphthalene degradation	13	7	K00120	E1.1.-.-	26
+00624	1- and 2-Methylnaphthalene degradation	13	7	K00155	E1.2.1.-	12
+00624	1- and 2-Methylnaphthalene degradation	13	7	K00480	E1.14.13.1	4
+00624	1- and 2-Methylnaphthalene degradation	13	7	K00492	E1.14.13.-	10
+00624	1- and 2-Methylnaphthalene degradation	13	7	K01041	E2.8.3.-	2
+00624	1- and 2-Methylnaphthalene degradation	13	7	K03384	E1.14.12.-	3
+00626	Naphthalene and anthracene degradation	12	9	K00120	E1.1.-.-	26
+00626	Naphthalene and anthracene degradation	12	9	K00155	E1.2.1.-	12
+00626	Naphthalene and anthracene degradation	12	9	K00465	E1.13.11.-	5
+00626	Naphthalene and anthracene degradation	12	9	K00480	E1.14.13.1	4
+00626	Naphthalene and anthracene degradation	12	9	K00492	E1.14.13.-	10
+00626	Naphthalene and anthracene degradation	12	9	K00517	E1.14.-.-	22
+00626	Naphthalene and anthracene degradation	12	9	K00599	E2.1.1.-	50
+00626	Naphthalene and anthracene degradation	12	9	K01563	E3.8.1.5, dhaA	1
+00626	Naphthalene and anthracene degradation	12	9	K03380	E1.14.13.7	1
+00290	Valine, leucine and isoleucine biosynthesis	20	19	K00052	E1.1.1.85, leuB	4
+00290	Valine, leucine and isoleucine biosynthesis	20	19	K00053	E1.1.1.86, ilvC	3
+00290	Valine, leucine and isoleucine biosynthesis	20	19	K00161	PDHA	20
+00290	Valine, leucine and isoleucine biosynthesis	20	19	K00162	PDHB	29
+00290	Valine, leucine and isoleucine biosynthesis	20	19	K00163	aceE	22
+00290	Valine, leucine and isoleucine biosynthesis	20	19	K00263	E1.4.1.9	12
+00290	Valine, leucine and isoleucine biosynthesis	20	19	K00826	E2.6.1.42, ilvE	10
+00290	Valine, leucine and isoleucine biosynthesis	20	19	K00835	avtA	2
+00290	Valine, leucine and isoleucine biosynthesis	20	19	K01649	E2.3.3.13, leuA	7
+00290	Valine, leucine and isoleucine biosynthesis	20	19	K01652	E2.2.1.6L, ilvB, ilvG, ilvI	47
+00290	Valine, leucine and isoleucine biosynthesis	20	19	K01653	E2.2.1.6S, ilvH, ilvN	6
+00290	Valine, leucine and isoleucine biosynthesis	20	19	K01687	E4.2.1.9, ilvD	4
+00290	Valine, leucine and isoleucine biosynthesis	20	19	K01703	leuC	10
+00290	Valine, leucine and isoleucine biosynthesis	20	19	K01704	leuD	10
+00290	Valine, leucine and isoleucine biosynthesis	20	19	K01754	E4.3.1.19, ilvA, tdcB	20
+00290	Valine, leucine and isoleucine biosynthesis	20	19	K01869	E6.1.1.4, leuS	3
+00290	Valine, leucine and isoleucine biosynthesis	20	19	K01870	E6.1.1.5, ileS	2
+00290	Valine, leucine and isoleucine biosynthesis	20	19	K01873	E6.1.1.9, valS	2
+00290	Valine, leucine and isoleucine biosynthesis	20	19	K09011	cimA	1
+00643	Styrene degradation	19	9	K00146	E1.2.1.39, feaB	1
+00643	Styrene degradation	19	9	K00465	E1.13.11.-	5
+00643	Styrene degradation	19	9	K01039	E2.8.3.12A, gctA	1
+00643	Styrene degradation	19	9	K01426	E3.5.1.4, amiE	3
+00643	Styrene degradation	19	9	K01501	E3.5.5.1	1
+00643	Styrene degradation	19	9	K01502	E3.5.5.7	1
+00643	Styrene degradation	19	9	K01555	E3.7.1.2, FAH	4
+00643	Styrene degradation	19	9	K01666	E4.1.3.39, mhpE	3
+00643	Styrene degradation	19	9	K01800	E5.2.1.2, maiA	2
+00220	Urea cycle and metabolism of amino groups	48	31	K00128	E1.2.1.3	17
+00220	Urea cycle and metabolism of amino groups	48	31	K00137	E1.2.1.19	1
+00220	Urea cycle and metabolism of amino groups	48	31	K00145	E1.2.1.38, argC	14
+00220	Urea cycle and metabolism of amino groups	48	31	K00147	E1.2.1.41, proA	2
+00220	Urea cycle and metabolism of amino groups	48	31	K00611	E2.1.3.3, OTC, argF, argI	5
+00220	Urea cycle and metabolism of amino groups	48	31	K00618	E2.3.1.1	11
+00220	Urea cycle and metabolism of amino groups	48	31	K00619	E2.3.1.1A, argA	11
+00220	Urea cycle and metabolism of amino groups	48	31	K00620	E2.3.1.1J, argJ	11
+00220	Urea cycle and metabolism of amino groups	48	31	K00657	E2.3.1.57, speG	1
+00220	Urea cycle and metabolism of amino groups	48	31	K00797	E2.5.1.16, SRM, speE	1
+00220	Urea cycle and metabolism of amino groups	48	31	K00818	E2.6.1.11, argD	16
+00220	Urea cycle and metabolism of amino groups	48	31	K00930	E2.7.2.8, argB	11
+00220	Urea cycle and metabolism of amino groups	48	31	K00931	E2.7.2.11, proB	9
+00220	Urea cycle and metabolism of amino groups	48	31	K01270	E3.4.13.3, pepD	2
+00220	Urea cycle and metabolism of amino groups	48	31	K01426	E3.5.1.4, amiE	3
+00220	Urea cycle and metabolism of amino groups	48	31	K01428	E3.5.1.5A, ureC	1
+00220	Urea cycle and metabolism of amino groups	48	31	K01429	E3.5.1.5B, ureB	3
+00220	Urea cycle and metabolism of amino groups	48	31	K01430	E3.5.1.5G, ureA	3
+00220	Urea cycle and metabolism of amino groups	48	31	K01438	E3.5.1.16, argE	11
+00220	Urea cycle and metabolism of amino groups	48	31	K01457	E3.5.1.54	15
+00220	Urea cycle and metabolism of amino groups	48	31	K01480	E3.5.3.11, speB	4
+00220	Urea cycle and metabolism of amino groups	48	31	K01581	E4.1.1.17, ODC1, speC, speF	5
+00220	Urea cycle and metabolism of amino groups	48	31	K01583	E4.1.1.19	4
+00220	Urea cycle and metabolism of amino groups	48	31	K01585	E4.1.1.19S, speA	4
+00220	Urea cycle and metabolism of amino groups	48	31	K01611	E4.1.1.50, speD	1
+00220	Urea cycle and metabolism of amino groups	48	31	K01755	E4.3.2.1, argH	11
+00220	Urea cycle and metabolism of amino groups	48	31	K01940	E6.3.4.5, argG	12
+00220	Urea cycle and metabolism of amino groups	48	31	K01941	E6.3.4.6	17
+00220	Urea cycle and metabolism of amino groups	48	31	K01948	E6.3.4.16, CPS1	3
+00220	Urea cycle and metabolism of amino groups	48	31	K09472	PUUC, aldH	8
+00220	Urea cycle and metabolism of amino groups	48	31	K10536	E3.5.3.12	1
+04310	Wnt signaling pathway	100	2	K04427	MAP3K7, TAK1	3
+04310	Wnt signaling pathway	100	2	K04496	CTBP	2
+04020	Calcium signaling pathway	129	11	K00491	E1.14.13.39, nos	2
+04020	Calcium signaling pathway	129	11	K04854	CACNA1G	2
+04020	Calcium signaling pathway	129	11	K05850	ATP2B	1
+04020	Calcium signaling pathway	129	11	K05864	CYPD, PPID	18
+04020	Calcium signaling pathway	129	11	K08041	ADCY1	2
+04020	Calcium signaling pathway	129	11	K08042	ADCY2	2
+04020	Calcium signaling pathway	129	11	K08043	ADCY3	2
+04020	Calcium signaling pathway	129	11	K08044	ADCY4	2
+04020	Calcium signaling pathway	129	11	K08047	ADCY7	2
+04020	Calcium signaling pathway	129	11	K08048	ADCY8	2
+04020	Calcium signaling pathway	129	11	K08049	ADCY9	2
+00401	Novobiocin biosynthesis	10	7	K00210	E1.3.1.12	9
+00401	Novobiocin biosynthesis	10	7	K00220	E1.3.1.43, tyrC	3
+00401	Novobiocin biosynthesis	10	7	K00812	E2.6.1.1A, aspB	6
+00401	Novobiocin biosynthesis	10	7	K00813	E2.6.1.1B, aspC	1
+00401	Novobiocin biosynthesis	10	7	K00817	E2.6.1.9, hisC	10
+00401	Novobiocin biosynthesis	10	7	K00832	E2.6.1.57, tyrB	1
+00401	Novobiocin biosynthesis	10	7	K04517	TYRA2, tyrA	11
+00540	Lipopolysaccharide biosynthesis	31	14	K00677	E2.3.1.129, lpxA	22
+00540	Lipopolysaccharide biosynthesis	31	14	K00748	E2.4.1.182, lpxB	1
+00540	Lipopolysaccharide biosynthesis	31	14	K00912	E2.7.1.130, lpxK	1
+00540	Lipopolysaccharide biosynthesis	31	14	K00979	E2.7.7.38, kdsB	2
+00540	Lipopolysaccharide biosynthesis	31	14	K01627	E2.5.1.55, kdsA	1
+00540	Lipopolysaccharide biosynthesis	31	14	K02517	HTRB	1
+00540	Lipopolysaccharide biosynthesis	31	14	K02527	KDTA	1
+00540	Lipopolysaccharide biosynthesis	31	14	K02535	LPXC	3
+00540	Lipopolysaccharide biosynthesis	31	14	K02536	LPXD	28
+00540	Lipopolysaccharide biosynthesis	31	14	K02840	WAAB, rfaB	8
+00540	Lipopolysaccharide biosynthesis	31	14	K02844	WAAG, rfaG	16
+00540	Lipopolysaccharide biosynthesis	31	14	K03270	E3.1.3.45, kdsC	1
+00540	Lipopolysaccharide biosynthesis	31	14	K03276	WAAR, rfaJ	1
+00540	Lipopolysaccharide biosynthesis	31	14	K03279	WAAJ, rfaJ	1
+03030	DNA replication	50	17	K01972	E6.5.1.2, ligA, ligB	4
+03030	DNA replication	50	17	K02314	DNAB	4
+03030	DNA replication	50	17	K02316	DNAG	6
+03030	DNA replication	50	17	K02335	DPO1, polA	5
+03030	DNA replication	50	17	K02337	DPO3A1, dnaE	19
+03030	DNA replication	50	17	K02338	DPO3B, dnaN	4
+03030	DNA replication	50	17	K02339	DPO3C, holC	2
+03030	DNA replication	50	17	K02340	DPO3D1, holA	20
+03030	DNA replication	50	17	K02341	DPO3D2, holB	21
+03030	DNA replication	50	17	K02342	DPO3E, dnaQ	50
+03030	DNA replication	50	17	K02343	DPO3G, dnaX	21
+03030	DNA replication	50	17	K03111	SSB	5
+03030	DNA replication	50	17	K03469	E3.1.26.4A, RNASEH1, rnhA	6
+03030	DNA replication	50	17	K03470	E3.1.26.4B, rnhB	4
+03030	DNA replication	50	17	K03471	E3.1.26.4C, rnhC	1
+03030	DNA replication	50	17	K03763	DPO3A2, polC	11
+03030	DNA replication	50	17	K10747	LIG1	3
+03450	Non-homologous end-joining	19	2	K01971	E6.5.1.1, lig	1
+03450	Non-homologous end-joining	19	2	K10979	KU	3
+00190	Oxidative phosphorylation	200	81	K00234	SDHA, SDH1	5
+00190	Oxidative phosphorylation	200	81	K00235	SDHB, SDH2	17
+00190	Oxidative phosphorylation	200	81	K00239	sdhA	5
+00190	Oxidative phosphorylation	200	81	K00240	sdhB	26
+00190	Oxidative phosphorylation	200	81	K00241	sdhC	3
+00190	Oxidative phosphorylation	200	81	K00242	sdhD	2
+00190	Oxidative phosphorylation	200	81	K00244	frdA	7
+00190	Oxidative phosphorylation	200	81	K00245	frdB	21
+00190	Oxidative phosphorylation	200	81	K00246	frdC	11
+00190	Oxidative phosphorylation	200	81	K00329	E1.6.5.3	26
+00190	Oxidative phosphorylation	200	81	K00330	NUOA	2
+00190	Oxidative phosphorylation	200	81	K00331	NUOB	3
+00190	Oxidative phosphorylation	200	81	K00332	NUOC	3
+00190	Oxidative phosphorylation	200	81	K00333	NUOD	3
+00190	Oxidative phosphorylation	200	81	K00334	NUOE	9
+00190	Oxidative phosphorylation	200	81	K00335	NUOF	25
+00190	Oxidative phosphorylation	200	81	K00336	NUOG	14
+00190	Oxidative phosphorylation	200	81	K00337	NUOH	12
+00190	Oxidative phosphorylation	200	81	K00338	NUOI	12
+00190	Oxidative phosphorylation	200	81	K00340	NUOK	3
+00190	Oxidative phosphorylation	200	81	K00341	NUOL	2
+00190	Oxidative phosphorylation	200	81	K00343	NUON	3
+00190	Oxidative phosphorylation	200	81	K00356	E1.6.99.3	44
+00190	Oxidative phosphorylation	200	81	K00405	CCOO	6
+00190	Oxidative phosphorylation	200	81	K00406	CCOP	1
+00190	Oxidative phosphorylation	200	81	K00411	RIP1	1
+00190	Oxidative phosphorylation	200	81	K00412	CYTB	1
+00190	Oxidative phosphorylation	200	81	K00413	CYT1	1
+00190	Oxidative phosphorylation	200	81	K00425	CYDA	2
+00190	Oxidative phosphorylation	200	81	K00426	CYDB	3
+00190	Oxidative phosphorylation	200	81	K00937	E2.7.4.1, ppk	6
+00190	Oxidative phosphorylation	200	81	K01507	E3.6.1.1, ppa	3
+00190	Oxidative phosphorylation	200	81	K02108	ATPF0A, atpB	3
+00190	Oxidative phosphorylation	200	81	K02109	ATPF0B, atpF	1
+00190	Oxidative phosphorylation	200	81	K02110	ATPF0C, atpE	5
+00190	Oxidative phosphorylation	200	81	K02111	ATPF1A, atpA	3
+00190	Oxidative phosphorylation	200	81	K02112	ATPF1B, atpD	4
+00190	Oxidative phosphorylation	200	81	K02113	ATPF1D, atpH	2
+00190	Oxidative phosphorylation	200	81	K02114	ATPF1E, atpC	3
+00190	Oxidative phosphorylation	200	81	K02115	ATPF1G, atpG	3
+00190	Oxidative phosphorylation	200	81	K02117	ATPVA, ntpA	1
+00190	Oxidative phosphorylation	200	81	K02118	ATPVB, ntpB	1
+00190	Oxidative phosphorylation	200	81	K02119	ATPVC, ntpC	1
+00190	Oxidative phosphorylation	200	81	K02120	ATPVD, ntpD	1
+00190	Oxidative phosphorylation	200	81	K02122	ATPVF, ntpF	1
+00190	Oxidative phosphorylation	200	81	K02123	ATPVI, ntpI	1
+00190	Oxidative phosphorylation	200	81	K02124	ATPVK, ntpK	5
+00190	Oxidative phosphorylation	200	81	K02126	ATPeF0A, MTATP6	3
+00190	Oxidative phosphorylation	200	81	K02128	ATPeF0C, ATP5G	5
+00190	Oxidative phosphorylation	200	81	K02155	ATPeVPL, ATP6L	5
+00190	Oxidative phosphorylation	200	81	K02257	COX10	5
+00190	Oxidative phosphorylation	200	81	K02258	COX11	3
+00190	Oxidative phosphorylation	200	81	K02259	COX15	1
+00190	Oxidative phosphorylation	200	81	K02274	COXA	5
+00190	Oxidative phosphorylation	200	81	K02275	COXB	6
+00190	Oxidative phosphorylation	200	81	K02276	COXC	1
+00190	Oxidative phosphorylation	200	81	K02301	CYOE	2
+00190	Oxidative phosphorylation	200	81	K02826	QOXA	1
+00190	Oxidative phosphorylation	200	81	K02828	QOXC	1
+00190	Oxidative phosphorylation	200	81	K03661	ATPeVPF, ATP6F	5
+00190	Oxidative phosphorylation	200	81	K03885	NDH	22
+00190	Oxidative phosphorylation	200	81	K03934	NDUFS1	7
+00190	Oxidative phosphorylation	200	81	K03935	NDUFS2	3
+00190	Oxidative phosphorylation	200	81	K03940	NDUFS7	2
+00190	Oxidative phosphorylation	200	81	K03941	NDUFS8	8
+00190	Oxidative phosphorylation	200	81	K03942	NDUFV1	9
+00190	Oxidative phosphorylation	200	81	K03943	NDUFV2	9
+00190	Oxidative phosphorylation	200	81	K03953	NDUFA9	13
+00190	Oxidative phosphorylation	200	81	K03955	NDUFAB1	3
+00190	Oxidative phosphorylation	200	81	K05572	NDHA	1
+00190	Oxidative phosphorylation	200	81	K05576	NDHE	1
+00190	Oxidative phosphorylation	200	81	K05578	NDHG	2
+00190	Oxidative phosphorylation	200	81	K05579	NDHH	3
+00190	Oxidative phosphorylation	200	81	K05580	NDHI	12
+00190	Oxidative phosphorylation	200	81	K05581	NDHJ	2
+00190	Oxidative phosphorylation	200	81	K05582	NDHK	3
+00190	Oxidative phosphorylation	200	81	K05584	NDHM	1
+00190	Oxidative phosphorylation	200	81	K05585	NDHN	1
+00190	Oxidative phosphorylation	200	81	K05586	HOXE	9
+00190	Oxidative phosphorylation	200	81	K05587	HOXF	9
+00190	Oxidative phosphorylation	200	81	K05588	HOXU	18
+00230	Purine metabolism	129	85	K00087	E1.17.1.4, xdhA, xdhB	15
+00230	Purine metabolism	129	85	K00088	E1.1.1.205, guaB	24
+00230	Purine metabolism	129	85	K00106	E1.17.3.2	14
+00230	Purine metabolism	129	85	K00364	E1.7.1.7, guaC	3
+00230	Purine metabolism	129	85	K00365	E1.7.3.3	1
+00230	Purine metabolism	129	85	K00525	E1.17.4.1A, nrdA, nrdE	4
+00230	Purine metabolism	129	85	K00527	E1.17.4.2, nrdD	8
+00230	Purine metabolism	129	85	K00601	E2.1.2.2	3
+00230	Purine metabolism	129	85	K00602	E2.1.2.3, purH	3
+00230	Purine metabolism	129	85	K00758	E2.4.2.4, deoA	7
+00230	Purine metabolism	129	85	K00759	E2.4.2.7, apt	3
+00230	Purine metabolism	129	85	K00760	E2.4.2.8, hpt	82
+00230	Purine metabolism	129	85	K00764	E2.4.2.14, purF	4
+00230	Purine metabolism	129	85	K00769	E2.4.2.22, gpt	1
+00230	Purine metabolism	129	85	K00860	E2.7.1.25, cysC	20
+00230	Purine metabolism	129	85	K00873	PK, pyk	99
+00230	Purine metabolism	129	85	K00926	E2.7.2.2, arcC	1
+00230	Purine metabolism	129	85	K00939	E2.7.4.3, adk	3
+00230	Purine metabolism	129	85	K00940	E2.7.4.6, ndk	3
+00230	Purine metabolism	129	85	K00942	E2.7.4.8, gmk	4
+00230	Purine metabolism	129	85	K00948	E2.7.6.1, prsA	4
+00230	Purine metabolism	129	85	K00951	E2.7.6.5, relA	10
+00230	Purine metabolism	129	85	K00956	E2.7.7.4A, cysN	21
+00230	Purine metabolism	129	85	K00958	E2.7.7.4C, met3	2
+00230	Purine metabolism	129	85	K00962	E2.7.7.8, pnp	15
+00230	Purine metabolism	129	85	K00988	E2.7.7.53	2
+00230	Purine metabolism	129	85	K01081	E3.1.3.5, ushA	12
+00230	Purine metabolism	129	85	K01119	E3.1.4.16, cpdB	13
+00230	Purine metabolism	129	85	K01120	E3.1.4.17, PDE	133
+00230	Purine metabolism	129	85	K01129	E3.1.5.1, dgt	3
+00230	Purine metabolism	129	85	K01139	E3.1.7.2, spoT	4
+00230	Purine metabolism	129	85	K01239	E3.2.2.1, iunH	2
+00230	Purine metabolism	129	85	K01241	E3.2.2.4, amn	1
+00230	Purine metabolism	129	85	K01428	E3.5.1.5A, ureC	1
+00230	Purine metabolism	129	85	K01429	E3.5.1.5B, ureB	3
+00230	Purine metabolism	129	85	K01430	E3.5.1.5G, ureA	3
+00230	Purine metabolism	129	85	K01483	E3.5.3.19, allA	2
+00230	Purine metabolism	129	85	K01486	E3.5.4.2, adeC	10
+00230	Purine metabolism	129	85	K01487	E3.5.4.3, guaD	2
+00230	Purine metabolism	129	85	K01488	E3.5.4.4, ADA, add	5
+00230	Purine metabolism	129	85	K01492	E3.5.4.10, purH	3
+00230	Purine metabolism	129	85	K01509	E3.6.1.3	26
+00230	Purine metabolism	129	85	K01513	E3.6.1.9	2
+00230	Purine metabolism	129	85	K01514	E3.6.1.11, ppx	7
+00230	Purine metabolism	129	85	K01515	E3.6.1.13	22
+00230	Purine metabolism	129	85	K01516	E3.6.1.15	3
+00230	Purine metabolism	129	85	K01518	E3.6.1.17	2
+00230	Purine metabolism	129	85	K01524	E3.6.1.40, gppA	5
+00230	Purine metabolism	129	85	K01588	E4.1.1.21A, purE	3
+00230	Purine metabolism	129	85	K01589	E4.1.1.21B, purK	9
+00230	Purine metabolism	129	85	K01756	E4.3.2.2, purB	21
+00230	Purine metabolism	129	85	K01768	E4.6.1.1	215
+00230	Purine metabolism	129	85	K01769	E4.6.1.2, gcy	130
+00230	Purine metabolism	129	85	K01839	deoB	2
+00230	Purine metabolism	129	85	K01923	E6.3.2.6, purC	2
+00230	Purine metabolism	129	85	K01933	E6.3.3.1, purM	13
+00230	Purine metabolism	129	85	K01939	E6.3.4.4, purA	7
+00230	Purine metabolism	129	85	K01945	E6.3.4.13, purD	15
+00230	Purine metabolism	129	85	K01951	E6.3.5.2, guaA	12
+00230	Purine metabolism	129	85	K01952	E6.3.5.3, purL	6
+00230	Purine metabolism	129	85	K02335	DPO1, polA	5
+00230	Purine metabolism	129	85	K02428	MAZG	4
+00230	Purine metabolism	129	85	K03783	PUNA	2
+00230	Purine metabolism	129	85	K03784	DEOD	3
+00230	Purine metabolism	129	85	K04765	E3.6.1.8	3
+00230	Purine metabolism	129	85	K07816	E2.7.6.5X	1
+00230	Purine metabolism	129	85	K08041	ADCY1	2
+00230	Purine metabolism	129	85	K08042	ADCY2	2
+00230	Purine metabolism	129	85	K08043	ADCY3	2
+00230	Purine metabolism	129	85	K08044	ADCY4	2
+00230	Purine metabolism	129	85	K08045	ADCY5	2
+00230	Purine metabolism	129	85	K08046	ADCY6	2
+00230	Purine metabolism	129	85	K08047	ADCY7	2
+00230	Purine metabolism	129	85	K08048	ADCY8	2
+00230	Purine metabolism	129	85	K08049	ADCY9	2
+00230	Purine metabolism	129	85	K08289	PURT	15
+00230	Purine metabolism	129	85	K08312	NUDE	1
+00230	Purine metabolism	129	85	K08693	E3.1.3.6	9
+00230	Purine metabolism	129	85	K08722	YFBR	1
+00230	Purine metabolism	129	85	K08723	YJJG	1
+00230	Purine metabolism	129	85	K10807	RRM1	4
+00230	Purine metabolism	129	85	K11175	PURN	13
+00230	Purine metabolism	129	85	K11177	YAGR	9
+00230	Purine metabolism	129	85	K11178	YAGS	9
+00230	Purine metabolism	129	85	K11265	ADCY10	23
+00523	Polyketide sugar unit biosynthesis	4	4	K00067	E1.1.1.133, rfbD	3
+00523	Polyketide sugar unit biosynthesis	4	4	K00973	E2.7.7.24, rfbA	3
+00523	Polyketide sugar unit biosynthesis	4	4	K01710	E4.2.1.46, rfbB	3
+00523	Polyketide sugar unit biosynthesis	4	4	K01790	E5.1.3.13, rfbC	3
+00020	Citrate cycle (TCA cycle)	50	35	K00025	E1.1.1.37A	6
+00020	Citrate cycle (TCA cycle)	50	35	K00026	E1.1.1.37B, mdh	6
+00020	Citrate cycle (TCA cycle)	50	35	K00030	IDH3	2
+00020	Citrate cycle (TCA cycle)	50	35	K00031	IDH1, IDH2, icd	14
+00020	Citrate cycle (TCA cycle)	50	35	K00161	PDHA	20
+00020	Citrate cycle (TCA cycle)	50	35	K00162	PDHB	29
+00020	Citrate cycle (TCA cycle)	50	35	K00163	aceE	22
+00020	Citrate cycle (TCA cycle)	50	35	K00164	OGDH, sucA	3
+00020	Citrate cycle (TCA cycle)	50	35	K00170	porB	16
+00020	Citrate cycle (TCA cycle)	50	35	K00171	porD	25
+00020	Citrate cycle (TCA cycle)	50	35	K00172	porG	13
+00020	Citrate cycle (TCA cycle)	50	35	K00176	korD	37
+00020	Citrate cycle (TCA cycle)	50	35	K00234	SDHA, SDH1	5
+00020	Citrate cycle (TCA cycle)	50	35	K00235	SDHB, SDH2	17
+00020	Citrate cycle (TCA cycle)	50	35	K00239	sdhA	5
+00020	Citrate cycle (TCA cycle)	50	35	K00240	sdhB	26
+00020	Citrate cycle (TCA cycle)	50	35	K00241	sdhC	3
+00020	Citrate cycle (TCA cycle)	50	35	K00242	sdhD	2
+00020	Citrate cycle (TCA cycle)	50	35	K00244	frdA	7
+00020	Citrate cycle (TCA cycle)	50	35	K00245	frdB	21
+00020	Citrate cycle (TCA cycle)	50	35	K00246	frdC	11
+00020	Citrate cycle (TCA cycle)	50	35	K00382	DLD, lpd, pdhD	42
+00020	Citrate cycle (TCA cycle)	50	35	K00627	DLAT, aceF, pdhC	5
+00020	Citrate cycle (TCA cycle)	50	35	K00658	DLST, sucB	32
+00020	Citrate cycle (TCA cycle)	50	35	K01647	CS, gltA	3
+00020	Citrate cycle (TCA cycle)	50	35	K01648	ACLY	1
+00020	Citrate cycle (TCA cycle)	50	35	K01679	E4.2.1.2B, fumC	21
+00020	Citrate cycle (TCA cycle)	50	35	K01681	ACO, acnA	9
+00020	Citrate cycle (TCA cycle)	50	35	K01682	acnB	9
+00020	Citrate cycle (TCA cycle)	50	35	K01899	LSC1	3
+00020	Citrate cycle (TCA cycle)	50	35	K01900	LSC2	3
+00020	Citrate cycle (TCA cycle)	50	35	K01902	sucD	3
+00020	Citrate cycle (TCA cycle)	50	35	K01903	sucC	3
+00020	Citrate cycle (TCA cycle)	50	35	K01959	E6.4.1.1A, pycA	24
+00020	Citrate cycle (TCA cycle)	50	35	K01960	E6.4.1.1B, pycB	20
+04612	Antigen processing and presentation	41	1	K04079	HTPG, HSP90A	1
+04210	Apoptosis	63	2	K02861	RIPK1, RIP1	2
+04210	Apoptosis	63	2	K08738	CYC	2
+00592	alpha-Linolenic acid metabolism	14	3	K00232	E1.3.3.6, ACOX1, ACOX3	15
+00592	alpha-Linolenic acid metabolism	14	3	K00632	E2.3.1.16, fadA	16
+00592	alpha-Linolenic acid metabolism	14	3	K10527	MFP2	35
+00300	Lysine biosynthesis	39	24	K00003	E1.1.1.3, thrA	14
+00300	Lysine biosynthesis	39	24	K00133	E1.2.1.11, asd	9
+00300	Lysine biosynthesis	39	24	K00143	E1.2.1.31L	40
+00300	Lysine biosynthesis	39	24	K00215	E1.3.1.26, dapB	4
+00300	Lysine biosynthesis	39	24	K00674	E2.3.1.117, dapD	8
+00300	Lysine biosynthesis	39	24	K00821	E2.6.1.17, dapC	13
+00300	Lysine biosynthesis	39	24	K00825	E2.6.1.39	47
+00300	Lysine biosynthesis	39	24	K00841	E2.6.1.-D, patA	5
+00300	Lysine biosynthesis	39	24	K00928	E2.7.2.4, lysC	16
+00300	Lysine biosynthesis	39	24	K01439	E3.5.1.18, dapE	6
+00300	Lysine biosynthesis	39	24	K01586	E4.1.1.20, lysA	43
+00300	Lysine biosynthesis	39	24	K01655	E2.3.3.14	1
+00300	Lysine biosynthesis	39	24	K01705	E4.2.1.36	6
+00300	Lysine biosynthesis	39	24	K01714	E4.2.1.52, dapA	8
+00300	Lysine biosynthesis	39	24	K01778	E5.1.1.7, dapF	2
+00300	Lysine biosynthesis	39	24	K01928	E6.3.2.13, murE	19
+00300	Lysine biosynthesis	39	24	K01929	E6.3.2.10, murF	13
+00300	Lysine biosynthesis	39	24	K04567	LYSU, KARS	4
+00300	Lysine biosynthesis	39	24	K04568	GENX	2
+00300	Lysine biosynthesis	39	24	K05822	E2.3.1.89	5
+00300	Lysine biosynthesis	39	24	K05823	E3.5.1.47	1
+00300	Lysine biosynthesis	39	24	K05825	LYSN	1
+00300	Lysine biosynthesis	39	24	K05830	LYSJ	11
+00300	Lysine biosynthesis	39	24	K10206	E2.6.1.83	4
+00960	Alkaloid biosynthesis II	11	3	K01044	E3.1.1.1	1
+00960	Alkaloid biosynthesis II	11	3	K01913	E6.2.1.-	11
+00960	Alkaloid biosynthesis II	11	3	K08081	E1.1.1.206	1
+00903	Limonene and pinene degradation	21	11	K00120	E1.1.-.-	26
+00903	Limonene and pinene degradation	21	11	K00128	E1.2.1.3	17
+00903	Limonene and pinene degradation	21	11	K00155	E1.2.1.-	12
+00903	Limonene and pinene degradation	21	11	K00206	E1.2.-.-	1
+00903	Limonene and pinene degradation	21	11	K00492	E1.14.13.-	10
+00903	Limonene and pinene degradation	21	11	K00517	E1.14.-.-	22
+00903	Limonene and pinene degradation	21	11	K01692	E4.2.1.17, paaG	36
+00903	Limonene and pinene degradation	21	11	K01913	E6.2.1.-	11
+00903	Limonene and pinene degradation	21	11	K07511	ECHS1	16
+00903	Limonene and pinene degradation	21	11	K07514	EHHADH1	35
+00903	Limonene and pinene degradation	21	11	K07515	HADHA1	35
+00620	Pyruvate metabolism	67	43	K00016	LDH	7
+00620	Pyruvate metabolism	67	43	K00025	E1.1.1.37A	6
+00620	Pyruvate metabolism	67	43	K00026	E1.1.1.37B, mdh	6
+00620	Pyruvate metabolism	67	43	K00027	E1.1.1.38, sfcA	1
+00620	Pyruvate metabolism	67	43	K00029	E1.1.1.40, maeB	3
+00620	Pyruvate metabolism	67	43	K00101	E1.1.2.3, lldD	2
+00620	Pyruvate metabolism	67	43	K00102	E1.1.2.4, dld	9
+00620	Pyruvate metabolism	67	43	K00128	E1.2.1.3	17
+00620	Pyruvate metabolism	67	43	K00138	E1.2.1.22, aldA, aldB	1
+00620	Pyruvate metabolism	67	43	K00161	PDHA	20
+00620	Pyruvate metabolism	67	43	K00162	PDHB	29
+00620	Pyruvate metabolism	67	43	K00163	aceE	22
+00620	Pyruvate metabolism	67	43	K00170	porB	16
+00620	Pyruvate metabolism	67	43	K00171	porD	25
+00620	Pyruvate metabolism	67	43	K00172	porG	13
+00620	Pyruvate metabolism	67	43	K00382	DLD, lpd, pdhD	42
+00620	Pyruvate metabolism	67	43	K00625	E2.3.1.8, pta	6
+00620	Pyruvate metabolism	67	43	K00626	E2.3.1.9, atoB	20
+00620	Pyruvate metabolism	67	43	K00627	DLAT, aceF, pdhC	5
+00620	Pyruvate metabolism	67	43	K00873	PK, pyk	99
+00620	Pyruvate metabolism	67	43	K00925	E2.7.2.1, ackA	4
+00620	Pyruvate metabolism	67	43	K01006	E2.7.9.1, ppdK	8
+00620	Pyruvate metabolism	67	43	K01007	E2.7.9.2, ppsA	20
+00620	Pyruvate metabolism	67	43	K01069	E3.1.2.6, gloB	13
+00620	Pyruvate metabolism	67	43	K01512	E3.6.1.7, acyP	1
+00620	Pyruvate metabolism	67	43	K01571	E4.1.1.3A, oadA	23
+00620	Pyruvate metabolism	67	43	K01595	E4.1.1.31, ppc	1
+00620	Pyruvate metabolism	67	43	K01638	E2.3.3.9, aceB, glcB	1
+00620	Pyruvate metabolism	67	43	K01649	E2.3.3.13, leuA	7
+00620	Pyruvate metabolism	67	43	K01655	E2.3.3.14	1
+00620	Pyruvate metabolism	67	43	K01663	E4.1.3.-	19
+00620	Pyruvate metabolism	67	43	K01734	E4.2.3.3, mgsA	2
+00620	Pyruvate metabolism	67	43	K01759	E4.4.1.5, GLO1, gloA	17
+00620	Pyruvate metabolism	67	43	K01895	E6.2.1.1, acs	30
+00620	Pyruvate metabolism	67	43	K01905	E6.2.1.13	2
+00620	Pyruvate metabolism	67	43	K01959	E6.4.1.1A, pycA	24
+00620	Pyruvate metabolism	67	43	K01960	E6.4.1.1B, pycB	20
+00620	Pyruvate metabolism	67	43	K01961	ACCC	4
+00620	Pyruvate metabolism	67	43	K01962	ACCA	5
+00620	Pyruvate metabolism	67	43	K01963	ACCD	10
+00620	Pyruvate metabolism	67	43	K02160	ACCB, bccP	2
+00620	Pyruvate metabolism	67	43	K03777	dld	5
+00620	Pyruvate metabolism	67	43	K03778	LDHA	2
+03060	Protein export	24	15	K03070	SECA	5
+03060	Protein export	24	15	K03071	SECB	2
+03060	Protein export	24	15	K03072	SECD	2
+03060	Protein export	24	15	K03073	SECE	1
+03060	Protein export	24	15	K03074	SECF	1
+03060	Protein export	24	15	K03075	SECG	1
+03060	Protein export	24	15	K03076	SECY	2
+03060	Protein export	24	15	K03100	E3.4.21.89, SPASEI, lepB	4
+03060	Protein export	24	15	K03101	E3.4.23.36, SPASEII, lspA	2
+03060	Protein export	24	15	K03106	SRP54, ffh	5
+03060	Protein export	24	15	K03110	SRPR, ftsY	2
+03060	Protein export	24	15	K03116	TATA	1
+03060	Protein export	24	15	K03118	TATC	4
+03060	Protein export	24	15	K03210	YAJC	4
+03060	Protein export	24	15	K03424	TATD	5
+00100	Biosynthesis of steroids	47	13	K00099	E1.1.1.267, dxr	3
+00100	Biosynthesis of steroids	47	13	K00355	E1.6.5.2, NQO1	1
+00100	Biosynthesis of steroids	47	13	K00795	E2.5.1.10, ispA	2
+00100	Biosynthesis of steroids	47	13	K00805	E2.5.1.30	2
+00100	Biosynthesis of steroids	47	13	K00869	E2.7.1.36, mvaK1	1
+00100	Biosynthesis of steroids	47	13	K00919	E2.7.1.148, ispE	4
+00100	Biosynthesis of steroids	47	13	K01597	E4.1.1.33, mvaD	1
+00100	Biosynthesis of steroids	47	13	K01662	E2.2.1.7, dxs	4
+00100	Biosynthesis of steroids	47	13	K01823	E5.3.3.2, idi	2
+00100	Biosynthesis of steroids	47	13	K03526	E1.17.4.3, gcpE, ispG	2
+00100	Biosynthesis of steroids	47	13	K03527	E1.17.1.2, lytB, ispH	4
+00100	Biosynthesis of steroids	47	13	K05356	E2.5.1.11, sds	1
+00100	Biosynthesis of steroids	47	13	K10960	CHLP, bchP	2
+03440	Homologous recombination	46	15	K01159	RUVC	3
+03440	Homologous recombination	46	15	K02335	DPO1, polA	5
+03440	Homologous recombination	46	15	K03111	SSB	5
+03440	Homologous recombination	46	15	K03550	RUVA	3
+03440	Homologous recombination	46	15	K03551	RUVB	3
+03440	Homologous recombination	46	15	K03553	RECA	5
+03440	Homologous recombination	46	15	K03581	RECD	3
+03440	Homologous recombination	46	15	K03582	RECB	2
+03440	Homologous recombination	46	15	K03583	RECC	2
+03440	Homologous recombination	46	15	K03584	RECO	2
+03440	Homologous recombination	46	15	K03629	RECF	2
+03440	Homologous recombination	46	15	K03655	RECG	2
+03440	Homologous recombination	46	15	K04066	PRIA	1
+03440	Homologous recombination	46	15	K06187	RECR	4
+03440	Homologous recombination	46	15	K07462	RECJ	4
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K00025	E1.1.1.37A	6
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K00026	E1.1.1.37B, mdh	6
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K00031	IDH1, IDH2, icd	14
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K00170	porB	16
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K00171	porD	25
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K00172	porG	13
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K00176	korD	37
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K00239	sdhA	5
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K00240	sdhB	26
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K00241	sdhC	3
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K00242	sdhD	2
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K00244	frdA	7
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K00245	frdB	21
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K00246	frdC	11
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K00259	E1.4.1.1, ald	4
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K01007	E2.7.9.2, ppsA	20
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K01595	E4.1.1.31, ppc	1
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K01648	ACLY	1
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K01679	E4.2.1.2B, fumC	21
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K01681	ACO, acnA	9
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K01682	acnB	9
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K01895	E6.2.1.1, acs	30
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K01902	sucD	3
+00720	Reductive carboxylate cycle (CO2 fixation)	32	24	K01903	sucC	3
+00983	Drug metabolism - other enzymes	22	13	K00088	E1.1.1.205, guaB	24
+00983	Drug metabolism - other enzymes	22	13	K00106	E1.17.3.2	14
+00983	Drug metabolism - other enzymes	22	13	K00207	E1.3.1.2, DPYD	10
+00983	Drug metabolism - other enzymes	22	13	K00569	E2.1.1.67, tpmT	1
+00983	Drug metabolism - other enzymes	22	13	K00758	E2.4.2.4, deoA	7
+00983	Drug metabolism - other enzymes	22	13	K00760	E2.4.2.8, hpt	82
+00983	Drug metabolism - other enzymes	22	13	K00762	E2.4.2.10, pyrE	17
+00983	Drug metabolism - other enzymes	22	13	K00857	E2.7.1.21, tdk	1
+00983	Drug metabolism - other enzymes	22	13	K00876	E2.7.1.48, udk	2
+00983	Drug metabolism - other enzymes	22	13	K01044	E3.1.1.1	1
+00983	Drug metabolism - other enzymes	22	13	K01464	E3.5.2.2, DPYS	1
+00983	Drug metabolism - other enzymes	22	13	K01489	E3.5.4.5, cdd	3
+00983	Drug metabolism - other enzymes	22	13	K01951	E6.3.5.2, guaA	12
+00061	Fatty acid biosynthesis	30	15	K00059	E1.1.1.100, fabG	8
+00061	Fatty acid biosynthesis	30	15	K00208	E1.3.1.9, fabI	1
+00061	Fatty acid biosynthesis	30	15	K00645	E2.3.1.39, fabD	3
+00061	Fatty acid biosynthesis	30	15	K00647	E2.3.1.41A, fabB	1
+00061	Fatty acid biosynthesis	30	15	K00648	E2.3.1.180, fabH	4
+00061	Fatty acid biosynthesis	30	15	K00666	E2.3.1.86	12
+00061	Fatty acid biosynthesis	30	15	K01716	E4.2.1.60, fabA	1
+00061	Fatty acid biosynthesis	30	15	K01961	ACCC	4
+00061	Fatty acid biosynthesis	30	15	K01962	ACCA	5
+00061	Fatty acid biosynthesis	30	15	K01963	ACCD	10
+00061	Fatty acid biosynthesis	30	15	K02160	ACCB, bccP	2
+00061	Fatty acid biosynthesis	30	15	K02372	FABZ	3
+00061	Fatty acid biosynthesis	30	15	K09458	E2.3.1.179, fabF	5
+00061	Fatty acid biosynthesis	30	15	K10780	FABL	1
+00061	Fatty acid biosynthesis	30	15	K11263	BCCA	1
+04010	MAPK signaling pathway	175	15	K04367	MOS	10
+04010	MAPK signaling pathway	175	15	K04372	MKNK, MNK	19
+04010	MAPK signaling pathway	175	15	K04373	RPS6KA, RSK2	19
+04010	MAPK signaling pathway	175	15	K04420	MAP3K2, MEKK2	14
+04010	MAPK signaling pathway	175	15	K04421	MAP3K3, MEKK3	14
+04010	MAPK signaling pathway	175	15	K04424	ZAK, MLTK	12
+04010	MAPK signaling pathway	175	15	K04425	MAP3K6, ASK2	3
+04010	MAPK signaling pathway	175	15	K04426	MAP3K5, ASK1	3
+04010	MAPK signaling pathway	175	15	K04427	MAP3K7, TAK1	3
+04010	MAPK signaling pathway	175	15	K04442	MAPKAPK5, PRAK	19
+04010	MAPK signaling pathway	175	15	K04443	MAPKAPK2	19
+04010	MAPK signaling pathway	175	15	K04444	MAPKAPK3	19
+04010	MAPK signaling pathway	175	15	K04445	MSK	19
+04010	MAPK signaling pathway	175	15	K04460	PPP5C, PP5	7
+04010	MAPK signaling pathway	175	15	K04854	CACNA1G	2
+01032	Glycan structures - degradation	21	4	K01132	E3.1.6.4	1
+01032	Glycan structures - degradation	21	4	K01207	E3.2.1.52, nagZ	16
+01032	Glycan structures - degradation	21	4	K01227	E3.2.1.96, atl	1
+01032	Glycan structures - degradation	21	4	K10532	E2.3.1.78, HGSNAT	1
+02060	Phosphotransferase system (PTS)	98	55	K02744	PTS-Aga-EIIA, agaF	15
+02060	Phosphotransferase system (PTS)	98	55	K02745	PTS-Aga-EIIB, agaV	2
+02060	Phosphotransferase system (PTS)	98	55	K02749	PTS-Arb-EIIB, glvB	1
+02060	Phosphotransferase system (PTS)	98	55	K02750	PTS-Arb-EIIC, glvC	1
+02060	Phosphotransferase system (PTS)	98	55	K02752	PTS-Asc-EIIB, ascF	1
+02060	Phosphotransferase system (PTS)	98	55	K02753	PTS-Asc-EIIC, ascF	1
+02060	Phosphotransferase system (PTS)	98	55	K02755	PTS-Bgl-EIIA, bglF	1
+02060	Phosphotransferase system (PTS)	98	55	K02756	PTS-Bgl-EIIB, bglF	1
+02060	Phosphotransferase system (PTS)	98	55	K02757	PTS-Bgl-EIIC, bglF	1
+02060	Phosphotransferase system (PTS)	98	55	K02760	PTS-Cel-EIIB, celA	1
+02060	Phosphotransferase system (PTS)	98	55	K02763	PTS-Dgl-EIIA, gamP	1
+02060	Phosphotransferase system (PTS)	98	55	K02764	PTS-Dgl-EIIB, gamP	1
+02060	Phosphotransferase system (PTS)	98	55	K02765	PTS-Dgl-EIIC, gamP	1
+02060	Phosphotransferase system (PTS)	98	55	K02768	PTS-Fru-EIIA, fruB	12
+02060	Phosphotransferase system (PTS)	98	55	K02769	PTS-Fru-EIIB, fruA	8
+02060	Phosphotransferase system (PTS)	98	55	K02770	PTS-Fru-EIIC, fruA	6
+02060	Phosphotransferase system (PTS)	98	55	K02773	PTS-Gat-EIIA, gatA	1
+02060	Phosphotransferase system (PTS)	98	55	K02774	PTS-Gat-EIIB, gatB	1
+02060	Phosphotransferase system (PTS)	98	55	K02777	PTS-Glc-EIIA, crr	1
+02060	Phosphotransferase system (PTS)	98	55	K02778	PTS-Glc-EIIB, ptsG	1
+02060	Phosphotransferase system (PTS)	98	55	K02779	PTS-Glc-EIIC, ptsG	1
+02060	Phosphotransferase system (PTS)	98	55	K02787	PTS-Lac-EIIB, lacE	1
+02060	Phosphotransferase system (PTS)	98	55	K02788	PTS-Lac-EIIC, lacE	1
+02060	Phosphotransferase system (PTS)	98	55	K02790	PTS-Mal-EIIB, malX	1
+02060	Phosphotransferase system (PTS)	98	55	K02791	PTS-Mal-EIIC, malX	1
+02060	Phosphotransferase system (PTS)	98	55	K02793	PTS-Man-EIIA, manX	18
+02060	Phosphotransferase system (PTS)	98	55	K02794	PTS-Man-EIIB, manX	18
+02060	Phosphotransferase system (PTS)	98	55	K02795	PTS-Man-EIIC, manY	6
+02060	Phosphotransferase system (PTS)	98	55	K02796	PTS-Man-EIID, manZ	1
+02060	Phosphotransferase system (PTS)	98	55	K02798	PTS-Mtl-EIIA, mtlA	1
+02060	Phosphotransferase system (PTS)	98	55	K02799	PTS-Mtl-EIIB, mtlA	1
+02060	Phosphotransferase system (PTS)	98	55	K02800	PTS-Mtl-EIIC, mtlA	1
+02060	Phosphotransferase system (PTS)	98	55	K02802	PTS-Nag-EIIA, nagE	1
+02060	Phosphotransferase system (PTS)	98	55	K02803	PTS-Nag-EIIB, nagE	1
+02060	Phosphotransferase system (PTS)	98	55	K02804	PTS-Nag-EIIC, nagE	1
+02060	Phosphotransferase system (PTS)	98	55	K02806	PTS-Ntr-EIIA, ptsN	27
+02060	Phosphotransferase system (PTS)	98	55	K02808	PTS-Scr-EIIA, scrA	1
+02060	Phosphotransferase system (PTS)	98	55	K02809	PTS-Scr-EIIB, scrA	1
+02060	Phosphotransferase system (PTS)	98	55	K02810	PTS-Scr-EIIC, scrA	1
+02060	Phosphotransferase system (PTS)	98	55	K02812	PTS-Sor-EIIA, sorF	15
+02060	Phosphotransferase system (PTS)	98	55	K02813	PTS-Sor-EIIB, sorB	2
+02060	Phosphotransferase system (PTS)	98	55	K02817	PTS-Tre-EIIA, treP	1
+02060	Phosphotransferase system (PTS)	98	55	K02818	PTS-Tre-EIIB, treB	1
+02060	Phosphotransferase system (PTS)	98	55	K02819	PTS-Tre-EIIC, treB	1
+02060	Phosphotransferase system (PTS)	98	55	K02821	PTS-Ula-EIIA, ulaC, sgaA	14
+02060	Phosphotransferase system (PTS)	98	55	K08483	PTS-EI.PTSI, ptsI	11
+02060	Phosphotransferase system (PTS)	98	55	K08484	PTS-EI.PTSP, ptsP	10
+02060	Phosphotransferase system (PTS)	98	55	K10984	PTS-Gam-EIIB, agaB	2
+02060	Phosphotransferase system (PTS)	98	55	K11183	PTS-HPR.FRUB, fruB, fpr	8
+02060	Phosphotransferase system (PTS)	98	55	K11191	PTS-Mur-EIIB, murP	1
+02060	Phosphotransferase system (PTS)	98	55	K11192	PTS-Mur-EIIC, murP	1
+02060	Phosphotransferase system (PTS)	98	55	K11194	PTS-Fru1-EIIA, levD	2
+02060	Phosphotransferase system (PTS)	98	55	K11198	PTS-Mng-EIIA, mngA, hrsA	4
+02060	Phosphotransferase system (PTS)	98	55	K11199	PTS-Mng-EIIB, mngA, hrsA	4
+02060	Phosphotransferase system (PTS)	98	55	K11200	PTS-Mng-EIIC, mngA, hrsA	4
+00860	Porphyrin and chlorophyll metabolism	85	31	K00228	E1.3.3.3, hemF	2
+00860	Porphyrin and chlorophyll metabolism	85	31	K00231	E1.3.3.4B, hemY	2
+00860	Porphyrin and chlorophyll metabolism	85	31	K00595	COBL1, cobL	1
+00860	Porphyrin and chlorophyll metabolism	85	31	K00643	E2.3.1.37, ALAS	1
+00860	Porphyrin and chlorophyll metabolism	85	31	K00798	E2.5.1.17, cobO, btuR	2
+00860	Porphyrin and chlorophyll metabolism	85	31	K01599	E4.1.1.37, hemE	4
+00860	Porphyrin and chlorophyll metabolism	85	31	K01698	E4.2.1.24, hemB	2
+00860	Porphyrin and chlorophyll metabolism	85	31	K01719	E4.2.1.75, hemD	1
+00860	Porphyrin and chlorophyll metabolism	85	31	K01749	E2.5.1.61, hemC	3
+00860	Porphyrin and chlorophyll metabolism	85	31	K01772	E4.99.1.1, hemH	1
+00860	Porphyrin and chlorophyll metabolism	85	31	K01845	E5.4.3.8, hemL	2
+00860	Porphyrin and chlorophyll metabolism	85	31	K01885	E6.1.1.17, gltX	4
+00860	Porphyrin and chlorophyll metabolism	85	31	K02226	COBC2, cobC, phpB	6
+00860	Porphyrin and chlorophyll metabolism	85	31	K02232	E6.3.5.10, cobQ, cbiP	1
+00860	Porphyrin and chlorophyll metabolism	85	31	K02257	COX10	5
+00860	Porphyrin and chlorophyll metabolism	85	31	K02259	COX15	1
+00860	Porphyrin and chlorophyll metabolism	85	31	K02301	CYOE	2
+00860	Porphyrin and chlorophyll metabolism	85	31	K02302	CYSG1, cysG, cobA	3
+00860	Porphyrin and chlorophyll metabolism	85	31	K02303	CYSG2, cysG	1
+00860	Porphyrin and chlorophyll metabolism	85	31	K02492	E1.2.1.70, hemA	4
+00860	Porphyrin and chlorophyll metabolism	85	31	K02493	HEMK	4
+00860	Porphyrin and chlorophyll metabolism	85	31	K02494	HEMM	1
+00860	Porphyrin and chlorophyll metabolism	85	31	K02495	E1.3.99.22, hemN, hemZ	2
+00860	Porphyrin and chlorophyll metabolism	85	31	K03394	CBIL	1
+00860	Porphyrin and chlorophyll metabolism	85	31	K03403	CHLH	1
+00860	Porphyrin and chlorophyll metabolism	85	31	K03404	CHLD	1
+00860	Porphyrin and chlorophyll metabolism	85	31	K03428	E2.1.1.11, chlM	1
+00860	Porphyrin and chlorophyll metabolism	85	31	K04040	CHLG	2
+00860	Porphyrin and chlorophyll metabolism	85	31	K06042	E5.4.1.2, cobH, cbiC	2
+00860	Porphyrin and chlorophyll metabolism	85	31	K09882	COBS	2
+00860	Porphyrin and chlorophyll metabolism	85	31	K09883	COBT	2
+00272	Cysteine metabolism	21	13	K00016	LDH	7
+00272	Cysteine metabolism	21	13	K00640	E2.3.1.30, cysE	17
+00272	Cysteine metabolism	21	13	K00812	E2.6.1.1A, aspB	6
+00272	Cysteine metabolism	21	13	K00813	E2.6.1.1B, aspC	1
+00272	Cysteine metabolism	21	13	K01011	E2.8.1.2	15
+00272	Cysteine metabolism	21	13	K01738	E2.5.1.47, cysK	24
+00272	Cysteine metabolism	21	13	K01739	E2.5.1.48, metB	4
+00272	Cysteine metabolism	21	13	K01740	E2.5.1.49, metY	6
+00272	Cysteine metabolism	21	13	K01752	E4.3.1.17, sdaA	2
+00272	Cysteine metabolism	21	13	K01758	E4.4.1.1	2
+00272	Cysteine metabolism	21	13	K01760	E4.4.1.8, metC	12
+00272	Cysteine metabolism	21	13	K01883	E6.1.1.16A, cysS	3
+00272	Cysteine metabolism	21	13	K10150	E2.5.1.65	15
+02040	Flagellar assembly	54	20	K02387	flgB	1
+02040	Flagellar assembly	54	20	K02388	flgC	2
+02040	Flagellar assembly	54	20	K02389	flgD	1
+02040	Flagellar assembly	54	20	K02390	flgE	2
+02040	Flagellar assembly	54	20	K02391	flgF	3
+02040	Flagellar assembly	54	20	K02392	flgG	3
+02040	Flagellar assembly	54	20	K02393	flgH	3
+02040	Flagellar assembly	54	20	K02394	flgI	2
+02040	Flagellar assembly	54	20	K02395	flgJ	1
+02040	Flagellar assembly	54	20	K02396	flgK	1
+02040	Flagellar assembly	54	20	K02400	flhA	2
+02040	Flagellar assembly	54	20	K02401	flhB	1
+02040	Flagellar assembly	54	20	K02409	fliF	1
+02040	Flagellar assembly	54	20	K02412	fliI	2
+02040	Flagellar assembly	54	20	K02417	fliNY, fliN	2
+02040	Flagellar assembly	54	20	K02419	fliP	2
+02040	Flagellar assembly	54	20	K02420	fliQ	1
+02040	Flagellar assembly	54	20	K02424	fliY	1
+02040	Flagellar assembly	54	20	K02556	motA	2
+02040	Flagellar assembly	54	20	K02557	motB	1
+00930	Caprolactam degradation	14	9	K00022	E1.1.1.35, fadB	50
+00930	Caprolactam degradation	14	9	K00055	E1.1.1.90	5
+00930	Caprolactam degradation	14	9	K01692	E4.2.1.17, paaG	36
+00930	Caprolactam degradation	14	9	K01913	E6.2.1.-	11
+00930	Caprolactam degradation	14	9	K06446	DCAA	26
+00930	Caprolactam degradation	14	9	K07511	ECHS1	16
+00930	Caprolactam degradation	14	9	K07514	EHHADH1	35
+00930	Caprolactam degradation	14	9	K07515	HADHA1	35
+00930	Caprolactam degradation	14	9	K07516	EHHADH2	35
+00195	Photosynthesis	63	19	K02108	ATPF0A, atpB	3
+00195	Photosynthesis	63	19	K02109	ATPF0B, atpF	1
+00195	Photosynthesis	63	19	K02110	ATPF0C, atpE	5
+00195	Photosynthesis	63	19	K02111	ATPF1A, atpA	3
+00195	Photosynthesis	63	19	K02112	ATPF1B, atpD	4
+00195	Photosynthesis	63	19	K02113	ATPF1D, atpH	2
+00195	Photosynthesis	63	19	K02114	ATPF1E, atpC	3
+00195	Photosynthesis	63	19	K02115	ATPF1G, atpG	3
+00195	Photosynthesis	63	19	K02635	petB	1
+00195	Photosynthesis	63	19	K02636	petC	5
+00195	Photosynthesis	63	19	K02637	petD	1
+00195	Photosynthesis	63	19	K02641	petH	1
+00195	Photosynthesis	63	19	K02694	psaF	1
+00195	Photosynthesis	63	19	K02699	psaL	1
+00195	Photosynthesis	63	19	K02704	psbB	1
+00195	Photosynthesis	63	19	K02706	psbD	1
+00195	Photosynthesis	63	19	K02724	psbZ	1
+00195	Photosynthesis	63	19	K08902	psb27	1
+00195	Photosynthesis	63	19	K08903	psb28	1

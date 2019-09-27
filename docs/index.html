@@ -1,0 +1,351 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MetaErg</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="outform">
+
+    <div class="jumbotron text-center mb-0 mt-5">
+      <h1>Metagenome Annotation Pipeline</h1>
+    </div>
+    <nav class="site-header py-0 mb-5">
+      <div class="container d-flex justify-content-end">
+	<a class="pl-4 d-none d-md-inline-block" href="index.html">Home</a>
+	<a class="pl-4 d-none d-md-inline-block" href="help.html">Help</a>
+      </div>
+    </nav>
+    <div class="container">
+
+      <div class="row mt-3" >
+	<h4>Analysis summary </h4>
+
+	<div class="col-lg-12">
+	  <p><b>Analysis statistics:</b> <a href="data/master.stats.txt">master.stats.txt</a></p>
+	</div>
+
+
+	<div class="col-lg-12">
+	  <p><b>Analysis annotation in gff format:</b> <a href="data/master.gff.txt">master.gff.txt</a></p>
+	</div>
+	<div class="col-lg-12">
+	  <p><b>Analysis annotation in tbl format:</b> <a href="data/master.tbl.txt">master.tbl.txt</a></p>
+	</div>
+	<div class="col-lg-12">
+	  <p><b>Analysis annotation in tab delimited format:</b> <a href="data/master.tsv.txt">master.tsv.txt</a></p>
+	</div>
+      </div>
+     
+
+ <div class="row  mt-3">
+   <h4>Ab initio gene prediction & annotation</h4>
+
+   <div class="col-lg-12">
+     <p>MetaErg begins biological feature and element prediction by identifying CRISPR elements and non-coding RNA genes (tRNA, rRNA genes). Next, to avoid identification of artefactual protein
+coding genes overlapping with detected non-coding features, MetaErg masks these features by replacing them with Ns. Metagenome function annotation is very similar to genomic annotation and relies on comparisons of predicted genes with existing, previously annotated sequences.</p>
+     <div class="table-responsive mb-3 mt-3 ">
+       <table class="table table-bordered table-hover table-sm table-strip">
+	 <thead class="blue-grey lighten-4">
+	   <tr>
+	     <th>Gene Type</th>
+	     <th>Genecalling Tools</th>
+	     <th>Annotation Tools</th>
+	     <th>Browse Genes</th>
+	   </tr>
+	 </thead>
+	 <tbody>
+	    <tr>
+	     <td style="padding-left:10px">CRISPR</td>
+	     <td>minced</td>
+	     <td>N/A</td>
+	     <td><a href="data/crispr.tab.txt">Tabular txt view</a></br>
+	       Interactive <a href="html/crisprTable.html">table</a> view</br>
+	       Sequence file: <a href="data/crispr.ffn">crispr.ffn</a></td>
+	     
+	   </tr>
+	   <tr>
+	     <td style="padding-left:10px">tRNA</td>
+	     <td>aragorn</td>
+	     <td>N/A</td>
+	     
+	     <td><a href="data/tRNA.tab.txt">Tabular txt view </a></br>
+	       Interactive <a href="html/tRNATable.html">table</a> view</br>
+	       Sequence file: <a href="data/tRNA.ffn">tRNA.ffn</a> </td>
+
+	   </tr>
+	   <tr>
+	     <td style="padding-left:10px; padding-top:15px; padding-bottom:15px;">All rRNA</td>
+	     <td style="padding-top:15px; padding-bottom:15px;">rRNAFinder.pl</td>
+	     <td style="padding-top:15px; padding-bottom:15px;">Blastn</td>
+	     <td style="padding-top:15px; padding-bottom:15px;"><a href="data/rRNA.tab.txt">Tabular txt view</a></br>
+	       Interactive <a href="html/rRNATable.html">table</a> view</td>
+	   </tr>
+	   
+	   <tr>
+	     <td style="padding-left:25px">-- 16SrRNA</td>
+	     <td></td>
+	     <td>Blastn search against SILVA SSU 132</td>
+	     <td>Sequence file: <a href="data/16SrRNA.ffn">16SrRNA.ffn</a></td>
+	   </tr>
+	    <tr>
+	      <td style="padding-left:25px">-- 18SrRNA</td>
+	      <td></td>
+	      <td>Blastn search against SILVA SSU 132</td>
+	      <td>Sequence file: <a href="data/18SrRNA.ffn">18SrRNA.ffn</a></td>
+	    </tr>
+	    <tr>
+	      <td style="padding-left:25px">-- 23SrRNA</td>
+	      <td></td>
+	     <td>Blastn search against SILVA LSU 132</td>
+	     <td>Sequence file: <a href="data/23SrRNA.ffn">23SrRNA.ffn</a></td>
+	   </tr>
+	   
+	  
+	   <tr>
+	     <td style="padding-left:25px">-- 28SrRNA</td>
+	     <td></td>
+	     <td>Blastn search against SILVA LSU 132</td>
+	     <td>Sequence file: <a href="data/28SrRNA.ffn">28SrRNA.ffn</a></td>
+	   </tr>
+	   <tr>
+	     <td style="padding-left:25px">-- 5SrRNA</td>
+	     <td></td>
+	     <td>Blastn</td>
+	     <td>Sequence file: <a href="data/5SrRNA.ffn">5SrRNA.ffn</a></td>
+	   </tr>
+	    <tr>
+	      <td style="padding-left:10px; padding-top:15px; padding-bottom:15px;">All CDs</td>
+	      <td style="padding-top:15px; padding-bottom:15px;">Prodigal_v2.6.1</td>
+	      <td style="padding-top:15px; padding-bottom:15px;" >Diamond</br>Hmmearch</td>
+	      <td style="padding-top:15px; padding-bottom:15px;">Sequence files: <a href="data/cds.ffn">cds.ffn</a> ,and <a href="data/cds.faa">cds.faa</a></td>
+	      
+	    </tr>
+	    <tr>
+              <td style="padding-left:25px">-- Swiss-Prot annotations</td>
+	      <td></td>
+              <td>Diamond</td>
+	      <td><a href="data/cds.gene2sprot.tab.txt">Tabular txt view</a></td>
+	    </tr>
+
+	    <tr>
+	      <td style="padding-left:25px">-- Pfam  annotations</td>
+	      <td></td>
+	      <td>Hmmearch</td>
+              <td><a href="data/cds.gene2pfam.tab.txt">Tabular txt view</a></td>
+	    </tr>
+	    
+	    <tr>
+	      <td style="padding-left:25px">-- Tigrfam  annotations</td>
+	      <td></td>
+	      <td>Hmmearch</td>
+              <td><a href="data/cds.gene2tigrfam.tab.txt">Tabular txt view</a> </td>
+	    </tr>
+	    
+	    <tr>
+	      <td style="padding-left:25px">-- Casgene  annotations</td>
+	      <td></td>
+	      <td>Hmmearch</td>
+              <td><a href="data/cds.gene2casgene.tab.txt">Tabular txt view</a> </td>
+	      
+	    </tr>
+	    <tr>
+	      <td style="padding-left:25px">-- Metabolic  annotations</td>
+	      <td></td>
+	      <td>Hmmearch</td>
+              <td><a href="data/cds.gene2metabolic.tab.txt">Tabular txt view</a> </td>
+	    </tr>
+	     <tr>
+	      <td style="padding-left:25px">-- Genomedb  annotations</td>
+	      <td></td>
+	      <td>Diamond</td>
+              <td><a href="data/cds.gene2genomedb.tab.txt">Tabular txt view</a> </td>
+	    </tr>
+	     <tr>
+	      <td style="padding-left:25px">-- EC annotations</td>
+	      <td></td>
+	      <td>Inferred from FOAM, Swiss-Prot, and Tigrfam annotations</td>
+              <td><a href="data/cds.gene2ec.tab.txt">Tabular txt view</a></br>
+		<a href="data/cds.gene2ec.mapping.txt">gene2ec mapping txt</a>
+	      </td>
+	    </tr>
+	      <tr>
+	      <td style="padding-left:25px">-- KO annotations</td>
+	      <td></td>
+	      <td>Inferred from FOAM, and Swiss-Prot annotations</td>
+              <td><a href="data/cds.gene2ko.tab.txt">Tabular txt view</a></br>
+		<a href="data/cds.gene2ko.mapping.txt">gene2ko mapping txt</a>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td style="padding-left:25px">-- GO annotations</td>
+	      <td></td>
+	      <td>Inferred from Pfam, and Swiss-Prot annotations</td>
+              <td><a href="data/cds.gene2go.tab.txt">Tabular txt view</a> </td>
+	    </tr>
+	    
+	    <tr>
+	      <td style="padding-left:25px">-- KEGG annotations</td>
+	      <td></td>
+	      <td>MinPath program using gene2ko mapping file as input</td>
+              <td><a href="data/cds.gene2kegg.tab.txt">Tabular txt view</a></td>
+	    </tr>
+	    <tr>
+	      <td style="padding-left:25px">-- MetaCyc annotations</td>
+	      <td></td>
+	      <td>MinPath program using gene2ec mapping file as input</td>
+              <td><a href="data/cds.gene2metacyc.tab.txt">Tabular txt view</a> </td>
+	    </tr>
+	    
+	  </tbody>
+	</table>
+       <p style="color:blue">Notes: cds.gene2ko.mapping.txt file can be used as an input to KEGG Mapper to reconstruct, search, and color pathways</p>
+	</div>
+   </div>
+ </div>
+ 
+ <div class="row">
+   <h4>Taxonomic profiles based on different genes</h4>
+   <div class="col-lg-12">
+     <p>MetaErg classifies all ORFs based on the best Diamond search hit against a custom database, GenomeDB. All the rRNA genes were classified based on the best Blastn search hit against SILVA SSU and LSU databases.</p>
+     <div class="table-responsive mt-3 mb-3 ">
+       <table class="table table-bordered table-hover table-sm table-strip">
+	 <thead class="blue-grey lighten-4">
+	   <tr>
+	     <th>Gene Type</th>
+	     
+	     <th>Browsing taxonomic profiles & interactive visualization</th>
+	     
+	   </tr>
+	 </thead>
+	 <tbody>
+	   <tr>
+	     <td>SSU rRNA</td>
+	     
+	     <td><a href="data/taxon.ssu.profile.tab.txt">Tabular profile</a>, and interactive <a href="html/taxontable_ssurRNA.html">table</a>, <a href="html/taxontree_ssurRNA.html">tree</a>, <a href="html/taxon_sunburst_ssurRNA.count.html">gene count sunburst</a>, <a href="html/taxon_sunburst_ssurRNA.abd.html">gene abundance sunburst</a> views</td>
+	   </tr>
+	   
+	   <tr>
+	     <td>LSU rRNA</td>
+	     
+	     <td><a href="data/taxon.lsu.profile.tab.txt">Tabular profile</a>, and interactive <a href="html/taxontable_lsurRNA.html">table</a>, <a href="html/taxontree_lsurRNA.html">tree</a>, <a href="html/taxon_sunburst_lsurRNA.count.html">gene count sunburst</a>, <a href="html/taxon_sunburst_lsurRNA.abd.html">gene abundance sunburst</a> views</td>
+	   </tr>
+	   
+	   
+	   <tr>
+	     <td>CDs</td>
+	     
+	     <td><a href="data/taxon.cds.profile.tab.txt">Tabular profile</a>, and interactive <a href="html/taxontable_cds.html">table</a>, <a href="html/taxontree_cds.html">tree</a>, <a href="html/taxon_sunburst_cds.count.html">gene count sunburst</a>, <a href="html/taxon_sunburst_cds.abd.html">gene abundance sunburst</a>views</td>
+	   </tr>
+	 </tbody>
+       </table>
+       
+     </div>
+     
+   </div>
+ </div>
+ 
+ <div class="row">
+   <h4>Function profiles</h4>
+   <div class="col-lg-12">
+	<div class="table-responsive mt-3 mb-3">
+	  <table class="table table-bordered table-hover table-sm">
+	    <thead class="blue-grey lighten-4">
+      	      <tr>
+		<th>Database</th>
+		<th>Profiles and visualizations</th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	      <tr>
+		<td>Pfam</td>
+		<td><a href="data/pfam.cds.profile.tab.txt">Tabular profile</a>, and interactive <a href="html/protein_family_pfam.html">table</a> view</td>
+	      </tr>
+	      <tr>
+		<td>Tigrfam</td>
+		<td><a href="data/tigrfam.cds.profile.tab.txt">Tabular profile</a>, and interactive <a href="html/protein_family_tigrfam.html">table</a> view</td>
+	      </tr>
+	      <tr>
+                <td>Metabolic-hmm</br>
+		(Metaboic marker gene for specific pathways)
+		</td>
+                <td><a href="data/metabolic.cds.profile.tab.txt">Tabular profile</a>, and interactive <a href="html/protein_family_metabolic.html">table</a>, <a href="html/protein_family_metabolic_tree.html">tree</a>, <a href="html/protein_family_metabolic_sunburst_count.html">gene count sunburst</a>, <a href="html/protein_family_metabolic_sunburst_abd.html">gene abundance sunburst</a> views
+		</td>
+              </tr>
+	      <tr>
+		<td>KO (KEGG Orthology)</td>
+		<td><a href="data/ko.cds.profile.tab.txt">Tabular profile</a>, and interactive <a href="html/protein_family_ko.html">table</a> view</td>
+	      </tr>
+	      <tr>
+		<td>Enzyme</td>
+		<td><a href="data/ec.cds.profile.tab.txt">Tabular profile</a>, and interactive <a href="html/protein_family_ec.html">table</a> view</td>
+	      </tr>
+	      <tr>
+		<td>GO (Gene Ontology)</td>
+		<td><a href="data/go.cds.profile.tab.txt">Tabular profile</a>, and interactive <a href="html/protein_family_go.html">table</a> view</td>
+	      </tr>
+	    </tbody>
+	  </table>
+	  
+	</div>
+      </div>
+    </div>
+
+
+ <div class="row">
+    <h4>Pathway profiles</h4>
+
+    <div class="col-lg-12">
+       <p>MetaErg constructs pathways using <a href="">MinPath</a> to get the conservative estimate of the pathways present in an analysis. MinPath only considers the minimum number of pathways required to explain the set of enzymes in the analysis instead of attempting to reconstruct entire pathways from a given set of enzymes identified in the analysis.</p>
+      	<div class="table-responsive mt-3 mb-3">
+	 
+	  <table class="table table-bordered table-hover table-sm">
+
+	    <thead class="blue-grey lighten-4">
+	      <tr>
+		<th>Pathways</th>
+		<th>Summaries and interactive visualization</th>
+	      </tr>
+
+	    </thead>
+	    <tbody>
+	      <tr>
+		<td>KEGG pathways</td>
+		<td><a href="data/kegg.cds.profile.tab.txt">Tabular profile</a>, and interactive <a href="html/kegg_minpath_summary.html">table</a> view
+		 
+		</td>
+	      </tr>
+	       <tr>
+		 <td>MetaCyc pathways</td>
+		 <td><a href="data/metacyc.cds.profile.tab.txt">Tabular profile</a>, and interactive <a href="html/metacyc_minpath_summary.html">table</a> view
+		 
+		</td>
+	      </tr>
+	    </tbody>
+	  </table>
+	  
+	</div>
+
+      </div>
+    </div>
+
+
+</div>
+
+<footer>
+  <div class="col-xs-12">
+    <!--Footer Bottom-->
+    <p class="text-center" >Problems? Questions? Suggestions? Please contact  <a href="mailto:xdong@ucalgary.ca">Xiaoli Dong</a> or <a href="mailto:mstrous@ucalgary.ca">Marc Strous</a></p>
+    <p class="text-center"><a href="http://www.ucalgary.ca/ebg/">Energy Bioengineering Group</a> in <a href="http://geoscience.ucalgary.ca/">Department of Geoscience</a> at <a href="http://www.ucalgary.ca">Univeristy of Calgary</a></p>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</div>
+  </body>
+</html>

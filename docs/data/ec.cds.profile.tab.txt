@@ -1,0 +1,1185 @@
+#Enzyme_id	Name	Count	Count_pct	Abund	Abund_pct	Abund_DLM2	Abund_pct_DLM2	Abund_GEM2	Abund_pct_GEM2	Abund_LCM1	Abund_pct_LCM1	Abund_PLM2	Abund_pct_PLM2
+1.12.-.-	"Acting on hydrogen as donors."	1	0.01	74.07	0.00	0.00	0.00	0.01	0.00	74.05	0.01	0.01	0.00
+2.5.1.55	"3-deoxy-8-phosphooctulonate synthase."	1	0.01	195.59	0.01	0.01	0.00	0.42	0.00	194.83	0.02	0.33	0.00
+4.2.1.59	"3-hydroxyacyl-[acyl-carrier-protein] dehydratase."	3	0.03	112.72	0.01	2.69	0.00	20.22	0.01	86.70	0.01	3.10	0.00
+2.10.1.1	"Molybdopterin molybdotransferase."	1	0.01	72.73	0.00	0.00	0.00	0.02	0.00	72.68	0.01	0.03	0.00
+6.1.1.10	"Methionine--tRNA ligase."	3	0.03	255.00	0.02	2.38	0.00	0.42	0.00	250.28	0.03	1.91	0.00
+7.6.2.10	"ABC-type glycerol 3-phosphate transporter."	1	0.01	16.62	0.00	4.96	0.00	0.04	0.00	11.44	0.00	0.19	0.00
+2.7.1.8	"Glucosamine kinase."	1	0.01	204.63	0.01	0.01	0.00	0.65	0.00	203.32	0.02	0.64	0.00
+3.3.2.12	"Oxepin-CoA hydrolase."	2	0.02	52.45	0.00	0.13	0.00	3.60	0.00	47.73	0.01	0.99	0.00
+1.1.1.40	"Malate dehydrogenase (oxaloacetate-decarboxylating) (NADP(+))."	1	0.01	30.93	0.00	0.03	0.00	3.52	0.00	26.54	0.00	0.84	0.00
+6.3.4.4	"Adenylosuccinate synthase."	4	0.04	2093.41	0.13	325.58	0.25	585.86	0.27	290.94	0.03	891.03	0.29
+3.1.1.1	"Carboxylesterase."	5	0.05	192.84	0.01	0.33	0.00	4.01	0.00	187.48	0.02	1.02	0.00
+1.1.1.94	"Glycerol-3-phosphate dehydrogenase (NAD(P)(+))."	7	0.07	534.52	0.03	31.48	0.02	23.07	0.01	461.26	0.05	18.71	0.01
+6.3.2.-	"Acid--amino-acid ligases (peptide synthases)."	14	0.13	561.22	0.04	10.63	0.01	8.16	0.00	537.48	0.06	4.96	0.00
+2.5.1.48	"Cystathionine gamma-synthase."	2	0.02	40.46	0.00	0.26	0.00	0.19	0.00	38.58	0.00	1.44	0.00
+1.3.5.2	"Dihydroorotate dehydrogenase (quinone)."	1	0.01	9.65	0.00	0.00	0.00	0.00	0.00	9.65	0.00	0.00	0.00
+2.3.1.179	"Beta-ketoacyl-[acyl-carrier-protein] synthase II."	5	0.05	1922.92	0.12	300.93	0.23	564.28	0.26	204.37	0.02	853.33	0.28
+3.7.1.20	"3-fumarylpyruvate hydrolase."	1	0.01	30.93	0.00	0.03	0.00	3.52	0.00	26.54	0.00	0.84	0.00
+2.1.3.15	"Acetyl-CoA carboxytransferase."	10	0.10	857.59	0.05	20.32	0.02	1.52	0.00	832.45	0.09	3.29	0.00
+6.3.2.2	"Glutamate--cysteine ligase."	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+5.1.2.3	"3-hydroxybutyryl-CoA epimerase."	5	0.05	156.57	0.01	0.05	0.00	3.64	0.00	150.37	0.02	2.51	0.00
+6.1.1.15	"Proline--tRNA ligase."	4	0.04	339.75	0.02	17.70	0.01	0.57	0.00	320.63	0.03	0.85	0.00
+4.1.2.14 4.1.3.16	""	1	0.01	13.70	0.00	0.20	0.00	0.00	0.00	13.45	0.00	0.04	0.00
+1.14.13.9	"Kynurenine 3-monooxygenase."	1	0.01	61.65	0.00	0.00	0.00	0.14	0.00	61.46	0.01	0.04	0.00
+3.5.2.10	"Creatininase."	1	0.01	13.71	0.00	0.00	0.00	0.01	0.00	12.23	0.00	1.46	0.00
+1.3.1.103	"2-haloacrylate reductase."	1	0.01	91.39	0.01	0.33	0.00	0.61	0.00	90.02	0.01	0.43	0.00
+1.6.3.5	"Renalase."	1	0.01	195.59	0.01	0.01	0.00	0.42	0.00	194.83	0.02	0.33	0.00
+2.7.8.13	"Phospho-N-acetylmuramoyl-pentapeptide-transferase."	5	0.05	310.57	0.02	11.01	0.01	0.59	0.00	298.16	0.03	0.82	0.00
+1.1.1.37	"Malate dehydrogenase."	4	0.04	233.97	0.01	8.64	0.01	3.81	0.00	220.12	0.02	1.39	0.00
+2.4.2.19	"Nicotinate-nucleotide diphosphorylase (carboxylating)."	3	0.03	311.62	0.02	0.01	0.00	0.67	0.00	309.01	0.03	1.94	0.00
+6.3.2.12	"Dihydrofolate synthase."	4	0.04	306.76	0.02	0.17	0.00	0.83	0.00	304.95	0.03	0.81	0.00
+1.3.-.-	"Acting on the CH-CH group of donors."	4	0.04	139.60	0.01	2.90	0.00	33.03	0.02	97.60	0.01	6.07	0.00
+6.3.1.18	"Gamma-glutamylanilide synthase."	1	0.01	29.16	0.00	0.03	0.00	3.61	0.00	24.78	0.00	0.76	0.00
+2.7.1.148	"4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase."	4	0.04	305.72	0.02	2.40	0.00	3.85	0.00	296.92	0.03	2.55	0.00
+2.7.7.7	"DNA-directed DNA polymerase."	42	0.40	2280.06	0.15	94.34	0.07	35.00	0.02	2132.57	0.23	18.15	0.01
+3.1.4.54	"N-acetylphosphatidylethanolamine-hydrolyzing phospholipase D."	1	0.01	13.76	0.00	0.27	0.00	0.03	0.00	13.32	0.00	0.15	0.00
+2.3.2.29	"Aspartate/glutamate leucyltransferase."	1	0.01	202.80	0.01	0.00	0.00	0.43	0.00	202.04	0.02	0.33	0.00
+6.3.2.9	"UDP-N-acetylmuramoyl-L-alanine--D-glutamate ligase."	8	0.08	455.59	0.03	3.70	0.00	4.17	0.00	446.15	0.05	1.58	0.00
+4.99.1.4	"Sirohydrochlorin ferrochelatase."	3	0.03	417.24	0.03	0.02	0.00	1.05	0.00	415.18	0.05	0.99	0.00
+1.1.1.62	"17-beta-estradiol 17-dehydrogenase."	1	0.01	25.00	0.00	0.05	0.00	3.18	0.00	21.08	0.00	0.69	0.00
+1.5.3.10	"Dimethylglycine oxidase."	1	0.01	25.03	0.00	0.13	0.00	0.10	0.00	24.72	0.00	0.09	0.00
+4.1.1.45	"Aminocarboxymuconate-semialdehyde decarboxylase."	1	0.01	61.65	0.00	0.00	0.00	0.14	0.00	61.46	0.01	0.04	0.00
+1.1.1.346	"2,5-didehydrogluconate reductase (2-dehydro-L-gulonate-forming)."	2	0.02	85.05	0.01	0.00	0.00	0.14	0.00	84.87	0.01	0.04	0.00
+6.3.2.34	"Coenzyme F420-1:gamma-L-glutamate ligase."	1	0.01	27.64	0.00	0.26	0.00	0.16	0.00	27.12	0.00	0.10	0.00
+1.14.11.-	"With 2-oxoglutarate as one donor, and incorporation of one atom each of oxygen into both donors."	2	0.02	263.05	0.02	0.00	0.00	0.56	0.00	262.12	0.03	0.36	0.00
+1.10.3.-	"With oxygen as acceptor."	10	0.10	2239.05	0.14	310.89	0.24	582.66	0.27	486.85	0.05	858.64	0.28
+2.7.1.49 2.7.4.7	""	4	0.04	318.63	0.02	2.41	0.00	0.51	0.00	315.27	0.03	0.44	0.00
+2.4.1.18	"1,4-alpha-glucan branching enzyme."	4	0.04	249.05	0.02	1.80	0.00	17.26	0.01	226.89	0.02	3.09	0.00
+2.7.1.85	"Beta-glucoside kinase."	1	0.01	49.69	0.00	2.47	0.00	0.00	0.00	47.19	0.01	0.04	0.00
+1.14.99.48	"Heme oxygenase (staphylobilin-producing)."	1	0.01	98.44	0.01	6.47	0.01	0.01	0.00	91.67	0.01	0.29	0.00
+1.1.1.25	"Shikimate dehydrogenase."	2	0.02	66.93	0.00	0.88	0.00	3.58	0.00	61.38	0.01	1.08	0.00
+2.8.1.12	"Molybdopterin synthase."	2	0.02	93.69	0.01	0.00	0.00	0.02	0.00	93.64	0.01	0.04	0.00
+4.2.99.20	"2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase."	2	0.02	84.16	0.01	0.00	0.00	0.05	0.00	82.61	0.01	1.50	0.00
+2.6.1.21	"D-amino-acid transaminase."	2	0.02	54.04	0.00	2.39	0.00	0.24	0.00	50.03	0.01	1.38	0.00
+1.1.1.85	"3-isopropylmalate dehydrogenase."	4	0.04	89.04	0.01	0.12	0.00	0.43	0.00	86.92	0.01	1.58	0.00
+2.4.2.14	"Amidophosphoribosyltransferase."	4	0.04	175.48	0.01	0.94	0.00	0.28	0.00	173.99	0.02	0.26	0.00
+5.4.99.15	"(1->4)-alpha-D-glucan 1-alpha-D-glucosylmutase."	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+3.4.24.70	"Oligopeptidase A."	4	0.04	124.88	0.01	10.03	0.01	1.35	0.00	109.18	0.01	4.33	0.00
+5.1.3.1	"Ribulose-phosphate 3-epimerase."	3	0.03	253.26	0.02	2.38	0.00	0.40	0.00	250.10	0.03	0.38	0.00
+3.1.3.11	"Fructose-bisphosphatase."	3	0.03	1827.18	0.12	299.32	0.23	564.17	0.26	110.39	0.01	853.30	0.28
+1.1.1.107	"Pyridoxal 4-dehydrogenase."	1	0.01	52.34	0.00	0.42	0.00	0.34	0.00	50.97	0.01	0.61	0.00
+2.1.1.130	"Precorrin-2 C(20)-methyltransferase."	1	0.01	73.16	0.00	0.00	0.00	0.01	0.00	73.10	0.01	0.04	0.00
+1.7.-.-	"Acting on other nitrogenous compounds as donors."	1	0.01	204.63	0.01	0.01	0.00	0.65	0.00	203.32	0.02	0.64	0.00
+2.7.1.170	"Anhydro-N-acetylmuramic acid kinase."	3	0.03	817.76	0.05	58.03	0.05	378.11	0.18	292.90	0.03	88.71	0.03
+3.5.2.12	"6-aminohexanoate-cyclic-dimer hydrolase."	1	0.01	49.69	0.00	2.47	0.00	0.00	0.00	47.19	0.01	0.04	0.00
+2.8.3.6	"3-oxoadipate CoA-transferase."	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+1.17.7.4	"4-hydroxy-3-methylbut-2-enyl diphosphate reductase."	4	0.04	2003.84	0.13	298.42	0.23	564.46	0.26	285.79	0.03	855.17	0.28
+6.4.1.4	"Methylcrotonoyl-CoA carboxylase."	6	0.06	562.32	0.04	0.09	0.00	8.01	0.00	552.01	0.06	2.21	0.00
+2.3.2.5	"Glutaminyl-peptide cyclotransferase."	1	0.01	76.88	0.00	20.85	0.02	18.93	0.01	19.94	0.00	17.16	0.01
+2.7.6.3	"2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase."	1	0.01	42.83	0.00	0.30	0.00	16.61	0.01	23.61	0.00	2.31	0.00
+2.6.1.62	"Adenosylmethionine--8-amino-7-oxononanoate transaminase."	1	0.01	66.73	0.00	0.00	0.00	0.15	0.00	66.54	0.01	0.04	0.00
+3.5.3.11	"Agmatinase."	3	0.03	273.54	0.02	0.01	0.00	0.42	0.00	272.77	0.03	0.34	0.00
+6.3.5.-	"Carbon--nitrogen ligases with glutamine as amido-N-donor."	8	0.08	651.92	0.04	11.44	0.01	36.23	0.02	595.00	0.06	9.25	0.00
+3.6.1.8	"ATP diphosphatase."	3	0.03	138.46	0.01	0.91	0.00	0.23	0.00	137.12	0.01	0.21	0.00
+5.4.99.23	"23S rRNA pseudouridine(1911/1915/1917) synthase."	1	0.01	42.83	0.00	0.30	0.00	16.61	0.01	23.61	0.00	2.31	0.00
+3.5.1.2	"Glutaminase."	1	0.01	26.43	0.00	0.12	0.00	0.11	0.00	26.14	0.00	0.05	0.00
+1.3.1.25	"1,6-dihydroxycyclohexa-2,4-diene-1-carboxylate dehydrogenase."	1	0.01	215.66	0.01	0.02	0.00	0.52	0.00	214.71	0.02	0.41	0.00
+4.4.1.13	"Cysteine-S-conjugate beta-lyase."	2	0.02	44.69	0.00	0.30	0.00	3.54	0.00	39.86	0.00	0.99	0.00
+4.1.1.21	"Phosphoribosylaminoimidazole carboxylase."	4	0.04	534.55	0.03	0.05	0.00	4.48	0.00	528.32	0.06	1.71	0.00
+2.7.7.89	"[Glutamine synthetase]-adenylyl-L-tyrosine phosphorylase."	1	0.01	202.80	0.01	0.00	0.00	0.43	0.00	202.04	0.02	0.33	0.00
+1.1.98.3	"Decaprenylphospho-beta-D-ribofuranose 2-dehydrogenase."	2	0.02	66.89	0.00	1.23	0.00	3.23	0.00	61.45	0.01	0.98	0.00
+4.2.1.149	"Crotonobetainyl-CoA hydratase."	3	0.03	109.75	0.01	0.29	0.00	4.06	0.00	104.42	0.01	0.98	0.00
+2.4.2.22	"Xanthine phosphoribosyltransferase."	2	0.02	42.63	0.00	0.00	0.00	0.00	0.00	42.61	0.00	0.02	0.00
+2.7.1.33	"Pantothenate kinase."	4	0.04	366.38	0.02	11.96	0.01	0.94	0.00	350.18	0.04	3.29	0.00
+1.4.1.3	"Glutamate dehydrogenase (NAD(P)(+))."	3	0.03	122.45	0.01	0.78	0.00	0.08	0.00	119.97	0.01	1.62	0.00
+4.3.1.17	"L-serine ammonia-lyase."	2	0.02	80.22	0.01	0.00	0.00	0.16	0.00	78.48	0.01	1.57	0.00
+1.97.1.12	"Photosystem I."	1	0.01	72.17	0.00	0.00	0.00	0.02	0.00	72.14	0.01	0.01	0.00
+1.14.13.24	"3-hydroxybenzoate 6-monooxygenase."	4	0.04	303.35	0.02	0.27	0.00	20.31	0.01	279.27	0.03	3.49	0.00
+2.7.9.2	"Pyruvate, water dikinase."	4	0.04	126.68	0.01	0.82	0.00	0.19	0.00	124.00	0.01	1.68	0.00
+2.1.1.63	"Methylated-DNA--[protein]-cysteine S-methyltransferase."	2	0.02	119.68	0.01	6.48	0.01	0.01	0.00	112.90	0.01	0.29	0.00
+2.7.2.3	"Phosphoglycerate kinase."	7	0.07	400.82	0.03	6.15	0.00	20.29	0.01	371.03	0.04	3.36	0.00
+1.3.8.2	"4,4'-diapophytoene desaturase (4,4'-diapolycopene-forming)."	1	0.01	86.60	0.01	8.13	0.01	0.05	0.00	78.17	0.01	0.24	0.00
+4.1.2.13	"Fructose-bisphosphate aldolase."	5	0.05	166.99	0.01	0.47	0.00	0.04	0.00	166.25	0.02	0.22	0.00
+7.5.2.-	"Linked to the hydrolysis of a nucleoside triphosphate."	2	0.02	76.64	0.00	4.97	0.00	3.54	0.00	67.58	0.01	0.56	0.00
+1.8.1.8	"Protein-disulfide reductase."	1	0.01	27.05	0.00	0.01	0.00	3.50	0.00	22.65	0.00	0.88	0.00
+3.1.1.96	"D-aminoacyl-tRNA deacylase."	4	0.04	152.03	0.01	2.48	0.00	0.15	0.00	147.87	0.02	1.53	0.00
+4.2.1.1	"Carbonic anhydrase."	1	0.01	13.76	0.00	0.27	0.00	0.03	0.00	13.32	0.00	0.15	0.00
+2.1.1.192	"23S rRNA (adenine(2503)-C(2))-methyltransferase."	5	0.05	2181.79	0.14	326.50	0.25	585.80	0.27	379.56	0.04	889.93	0.29
+5.4.2.-	"Phosphotransferases (phosphomutases)."	1	0.01	25.03	0.00	0.13	0.00	0.10	0.00	24.72	0.00	0.09	0.00
+2.3.1.51	"1-acylglycerol-3-phosphate O-acyltransferase."	1	0.01	27.87	0.00	10.00	0.01	1.26	0.00	13.88	0.00	2.73	0.00
+2.5.1.147	"5-amino-6-(D-ribitylamino)uracil--L-tyrosine 4-hydroxyphenyl transferase."	2	0.02	41.21	0.00	0.48	0.00	0.17	0.00	40.35	0.00	0.21	0.00
+2.7.7.85	"Diadenylate cyclase."	1	0.01	37.23	0.00	0.91	0.00	0.06	0.00	36.09	0.00	0.18	0.00
+5.3.2.-	"Interconverting keto- and enol-groups."	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+6.3.5.5	"Carbamoyl-phosphate synthase (glutamine-hydrolyzing)."	11	0.11	616.73	0.04	89.23	0.07	11.20	0.01	493.73	0.05	22.57	0.01
+5.4.99.-	"Transferring other groups."	13	0.13	793.23	0.05	37.67	0.03	22.47	0.01	726.21	0.08	6.88	0.00
+2.4.2.2	"Pyrimidine-nucleoside phosphorylase."	4	0.04	213.19	0.01	15.44	0.01	3.72	0.00	193.29	0.02	0.73	0.00
+1.1.1.31	"3-hydroxyisobutyrate dehydrogenase."	1	0.01	202.80	0.01	0.00	0.00	0.43	0.00	202.04	0.02	0.33	0.00
+2.1.1.74	"Methylenetetrahydrofolate--tRNA-(uracil(54)-C(5))-methyltransferase"	1	0.01	74.07	0.00	0.00	0.00	0.01	0.00	74.05	0.01	0.01	0.00
+2.4.1.336	"Monoglucosyldiacylglycerol synthase."	1	0.01	72.38	0.00	0.00	0.00	0.02	0.00	72.33	0.01	0.03	0.00
+2.7.1.12	"Gluconokinase."	2	0.02	162.24	0.01	0.35	0.00	0.53	0.00	160.93	0.02	0.43	0.00
+1.13.12.-	"With incorporation of one atom of oxygen (internal monooxygenases or internal mixed function oxidases)."	2	0.02	53.88	0.00	2.62	0.00	0.00	0.00	51.15	0.01	0.10	0.00
+3.3.1.1	"Adenosylhomocysteinase."	2	0.02	91.06	0.01	4.85	0.00	3.43	0.00	82.35	0.01	0.43	0.00
+2.7.1.2	"Glucokinase."	2	0.02	96.47	0.01	8.13	0.01	0.05	0.00	88.05	0.01	0.24	0.00
+3.6.3.24	"Transferred entry: 7.2.2.11."	4	0.04	297.04	0.02	0.10	0.00	10.84	0.01	283.33	0.03	2.77	0.00
+1.14.12.7	"Phthalate 4,5-dioxygenase."	1	0.01	29.16	0.00	0.03	0.00	3.61	0.00	24.78	0.00	0.76	0.00
+2.7.7.68	"Phosphoenolpyruvate guanylyltransferase."	1	0.01	13.57	0.00	0.23	0.00	0.01	0.00	13.23	0.00	0.10	0.00
+5.6.2.2	"DNA topoisomerase (ATP-hydrolyzing)."	3	0.03	374.47	0.02	15.73	0.01	0.59	0.00	357.23	0.04	0.92	0.00
+6.3.4.13	"Phosphoribosylamine--glycine ligase."	2	0.02	228.48	0.01	0.02	0.00	0.55	0.00	226.17	0.02	1.74	0.00
+4.2.1.46	"dTDP-glucose 4,6-dehydratase."	3	0.03	321.56	0.02	0.05	0.00	0.87	0.00	319.92	0.03	0.72	0.00
+3.1.1.84	"Cocaine esterase."	1	0.01	1814.06	0.12	325.55	0.25	585.16	0.27	14.02	0.00	889.33	0.29
+2.7.7.72	"CCA tRNA nucleotidyltransferase."	3	0.03	97.08	0.01	0.14	0.00	0.24	0.00	95.17	0.01	1.52	0.00
+6.2.1.5	"Succinate--CoA ligase (ADP-forming)."	3	0.03	149.51	0.01	9.77	0.01	1.37	0.00	135.69	0.01	2.68	0.00
+6.3.1.19	"Prokaryotic ubiquitin-like protein ligase."	1	0.01	50.96	0.00	4.85	0.00	3.43	0.00	42.25	0.00	0.43	0.00
+2.2.1.2	"Transaldolase."	4	0.04	1940.26	0.12	284.43	0.22	587.88	0.27	169.01	0.02	898.94	0.30
+1.1.1.205	"IMP dehydrogenase."	4	0.04	262.36	0.02	26.85	0.02	1.21	0.00	231.75	0.03	2.56	0.00
+6.6.1.1	"Magnesium chelatase."	3	0.03	98.57	0.01	0.00	0.00	0.03	0.00	95.45	0.01	3.09	0.00
+1.8.1.-	"With NAD(+) or NADP(+) as acceptor."	1	0.01	21.24	0.00	0.00	0.00	0.00	0.00	21.23	0.00	0.00	0.00
+1.14.11.44	"(R)-dichlorprop dioxygenase (2-oxoglutarate)."	1	0.01	13.76	0.00	0.27	0.00	0.03	0.00	13.32	0.00	0.15	0.00
+2.1.1.44	"L-histidine N(alpha)-methyltransferase."	3	0.03	1888.92	0.12	325.55	0.25	585.32	0.27	87.24	0.01	890.80	0.29
+2.3.1.117	"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase."	2	0.02	52.52	0.00	0.13	0.00	3.64	0.00	47.76	0.01	1.00	0.00
+3.5.1.47	"N-acetyldiaminopimelate deacetylase."	1	0.01	78.70	0.01	7.86	0.01	0.06	0.00	70.54	0.01	0.25	0.00
+3.4.-.-	"Acting on peptide bonds (peptidases)."	20	0.19	1578.96	0.10	49.40	0.04	16.52	0.01	1501.10	0.16	11.95	0.00
+2.5.1.7	"UDP-N-acetylglucosamine 1-carboxyvinyltransferase."	2	0.02	37.03	0.00	7.73	0.01	0.11	0.00	28.92	0.00	0.27	0.00
+2.5.1.54	"3-deoxy-7-phosphoheptulonate synthase."	1	0.01	61.15	0.00	0.00	0.00	0.15	0.00	60.99	0.01	0.01	0.00
+3.4.11.18	"Methionyl aminopeptidase."	5	0.05	340.45	0.02	0.29	0.00	4.13	0.00	333.30	0.04	2.73	0.00
+2.7.1.36	"Mevalonate kinase."	1	0.01	49.69	0.00	2.47	0.00	0.00	0.00	47.19	0.01	0.04	0.00
+3.1.5.1	"dGTPase."	3	0.03	262.32	0.02	0.01	0.00	0.42	0.00	261.55	0.03	0.34	0.00
+5.1.3.12	"UDP-glucuronate 5'-epimerase."	1	0.01	204.63	0.01	0.01	0.00	0.65	0.00	203.32	0.02	0.64	0.00
+2.7.7.53	"ATP adenylyltransferase."	1	0.01	72.38	0.00	0.00	0.00	0.02	0.00	72.33	0.01	0.03	0.00
+4.4.-.-	"Carbon-sulfur lyases."	1	0.01	30.93	0.00	0.03	0.00	3.52	0.00	26.54	0.00	0.84	0.00
+4.3.1.3	"Histidine ammonia-lyase."	1	0.01	27.05	0.00	0.01	0.00	3.50	0.00	22.65	0.00	0.88	0.00
+4.3.2.10	"Imidazole glycerol-phosphate synthase."	3	0.03	225.41	0.01	0.02	0.00	3.99	0.00	220.18	0.02	1.22	0.00
+2.5.1.47	"Cysteine synthase."	3	0.03	135.56	0.01	1.19	0.00	0.10	0.00	133.96	0.01	0.31	0.00
+6.1.1.20	"Phenylalanine--tRNA ligase."	8	0.08	620.93	0.04	27.53	0.02	11.84	0.01	575.35	0.06	6.20	0.00
+2.1.2.1	"Glycine hydroxymethyltransferase."	2	0.02	41.73	0.00	0.03	0.00	3.94	0.00	35.46	0.00	2.29	0.00
+1.2.1.41	"Glutamate-5-semialdehyde dehydrogenase."	2	0.02	149.15	0.01	7.86	0.01	0.09	0.00	140.91	0.02	0.29	0.00
+2.8.3.8	"Acetate CoA-transferase."	1	0.01	50.21	0.00	2.37	0.00	0.01	0.00	47.79	0.01	0.04	0.00
+3.1.25.-	"Site-specific endodeoxyribonucleases specific for altered bases."	12	0.12	712.41	0.05	21.81	0.02	11.23	0.01	674.78	0.07	4.59	0.00
+4.2.-.-	"Carbon-oxygen lyases."	1	0.01	42.19	0.00	2.26	0.00	0.00	0.00	39.89	0.00	0.03	0.00
+2.1.1.107	"Uroporphyrinogen-III C-methyltransferase."	4	0.04	486.75	0.03	0.02	0.00	1.07	0.00	484.65	0.05	1.02	0.00
+3.6.3.14	"Transferred entry: 7.1.2.2."	23	0.22	624.97	0.04	28.77	0.02	7.74	0.00	567.87	0.06	20.59	0.01
+2.5.1.17	"Corrinoid adenosyltransferase."	4	0.04	369.87	0.02	18.13	0.01	1.79	0.00	346.60	0.04	3.35	0.00
+3.5.1.3	"Omega-amidase."	1	0.01	60.25	0.00	0.00	0.00	0.13	0.00	60.08	0.01	0.04	0.00
+1.18.6.1	"Nitrogenase."	4	0.04	289.44	0.02	0.02	0.00	0.14	0.00	289.20	0.03	0.08	0.00
+2.-.-.-	"Transferases."	8	0.08	258.20	0.02	0.41	0.00	7.83	0.00	246.76	0.03	3.19	0.00
+3.1.26.8	"Ribonuclease M5."	1	0.01	50.21	0.00	2.37	0.00	0.01	0.00	47.79	0.01	0.04	0.00
+3.1.3.5	"5'-nucleotidase."	7	0.07	348.15	0.02	24.74	0.02	7.89	0.00	305.52	0.03	10.00	0.00
+7.3.2.1	"ABC-type phosphate transporter."	5	0.05	255.44	0.02	0.12	0.00	0.22	0.00	253.39	0.03	1.71	0.00
+1.3.3.4	"Protoporphyrinogen oxidase."	3	0.03	67.71	0.00	2.37	0.00	0.02	0.00	62.21	0.01	3.11	0.00
+3.1.4.1	"Phosphodiesterase I."	1	0.01	27.20	0.00	9.77	0.01	1.08	0.00	13.70	0.00	2.65	0.00
+2.3.1.242	"Kdo(2)-lipid IV(A) palmitoleoyltransferase."	1	0.01	13.15	0.00	0.00	0.00	0.02	0.00	11.75	0.00	1.38	0.00
+1.1.1.211	"Long-chain-3-hydroxyacyl-CoA dehydrogenase."	1	0.01	8.98	0.00	0.33	0.00	1.09	0.00	5.55	0.00	2.01	0.00
+2.3.1.12	"Dihydrolipoyllysine-residue acetyltransferase."	6	0.06	352.89	0.02	13.22	0.01	1.76	0.00	332.90	0.04	5.00	0.00
+3.5.4.44	"Ectoine hydrolase."	1	0.01	191.30	0.01	0.01	0.00	0.40	0.00	190.55	0.02	0.34	0.00
+2.1.1.307	"8-demethyl-8-(2,3-dimethoxy-alpha-L-rhamnosyl)-tetracenomycin-C 4'-O-"	1	0.01	92.95	0.01	0.00	0.00	0.04	0.00	92.89	0.01	0.02	0.00
+3.1.3.18	"Phosphoglycolate phosphatase."	5	0.05	329.03	0.02	0.03	0.00	4.16	0.00	323.70	0.04	1.15	0.00
+1.6.99.5	"Transferred entry: 1.6.5.11."	8	0.08	845.64	0.05	1.91	0.00	2.37	0.00	836.92	0.09	4.44	0.00
+2.3.-.-	"Acyltransferases."	1	0.01	78.70	0.01	7.86	0.01	0.06	0.00	70.54	0.01	0.25	0.00
+3.2.1.26	"Beta-fructofuranosidase."	3	0.03	157.94	0.01	0.00	0.00	0.06	0.00	157.80	0.02	0.08	0.00
+2.9.1.-	"Selenotransferases."	3	0.03	310.11	0.02	7.90	0.01	4.42	0.00	296.34	0.03	1.46	0.00
+3.6.1.31	"Phosphoribosyl-ATP diphosphatase."	2	0.02	111.35	0.01	0.00	0.00	0.02	0.00	111.30	0.01	0.03	0.00
+1.13.11.-	"With incorporation of two atoms of oxygen."	3	0.03	72.95	0.00	2.26	0.00	0.02	0.00	69.17	0.01	1.50	0.00
+1.3.1.76	"Precorrin-2 dehydrogenase."	3	0.03	417.24	0.03	0.02	0.00	1.05	0.00	415.18	0.05	0.99	0.00
+4.1.2.49	"L-allo-threonine aldolase."	1	0.01	12.82	0.00	0.00	0.00	0.02	0.00	11.46	0.00	1.33	0.00
+3.4.25.2	"HslU--HslV peptidase."	3	0.03	316.31	0.02	17.87	0.01	1.81	0.00	293.29	0.03	3.33	0.00
+3.6.3.31	"Transferred entry: 7.6.2.11."	3	0.03	268.01	0.02	0.25	0.00	17.04	0.01	247.76	0.03	2.96	0.00
+2.7.2.11	"Glutamate 5-kinase."	2	0.02	170.09	0.01	8.19	0.01	0.67	0.00	160.56	0.02	0.67	0.00
+6.1.1.17	"Glutamate--tRNA ligase."	4	0.04	100.52	0.01	8.36	0.01	0.29	0.00	91.32	0.01	0.54	0.00
+2.1.1.61	"tRNA (5-methylaminomethyl-2-thiouridylate)-methyltransferase."	4	0.04	401.95	0.03	2.70	0.00	1.19	0.00	397.13	0.04	0.93	0.00
+3.5.4.1	"Cytosine deaminase."	3	0.03	288.61	0.02	0.27	0.00	0.48	0.00	287.36	0.03	0.49	0.00
+1.17.1.8	"4-hydroxy-tetrahydrodipicolinate reductase."	4	0.04	130.12	0.01	0.31	0.00	4.48	0.00	122.57	0.01	2.78	0.00
+5.1.3.13	"dTDP-4-dehydrorhamnose 3,5-epimerase."	3	0.03	321.56	0.02	0.05	0.00	0.87	0.00	319.92	0.03	0.72	0.00
+1.14.15.17	"Pheophorbide a oxygenase."	2	0.02	1800.15	0.12	298.41	0.23	564.02	0.26	84.60	0.01	853.12	0.28
+2.7.1.45	"2-dehydro-3-deoxygluconokinase."	1	0.01	89.86	0.01	0.35	0.00	0.52	0.00	88.59	0.01	0.41	0.00
+2.1.1.210	"Demethylspheroidene O-methyltransferase."	1	0.01	13.49	0.00	0.00	0.00	0.01	0.00	11.94	0.00	1.53	0.00
+3.5.4.2	"Adenine deaminase."	2	0.02	89.31	0.01	0.00	0.00	0.14	0.00	89.13	0.01	0.04	0.00
+4.2.1.2	"Fumarate hydratase."	3	0.03	225.37	0.01	0.01	0.00	0.46	0.00	223.11	0.02	1.80	0.00
+2.5.1.-	"Transferring alkyl or aryl groups, other than methyl groups."	25	0.24	1699.65	0.11	46.92	0.04	15.45	0.01	1624.03	0.18	13.26	0.00
+3.5.1.1	"Asparaginase."	2	0.02	107.91	0.01	8.13	0.01	0.05	0.00	99.48	0.01	0.25	0.00
+2.7.2.4	"Aspartate kinase."	4	0.04	323.76	0.02	17.80	0.01	2.09	0.00	299.26	0.03	4.61	0.00
+5.4.2.7	"Phosphopentomutase."	2	0.02	127.32	0.01	10.49	0.01	0.06	0.00	116.49	0.01	0.28	0.00
+5.4.99.5	"Chorismate mutase."	4	0.04	245.98	0.02	4.88	0.00	7.12	0.00	232.72	0.03	1.26	0.00
+3.6.1.40	"Guanosine-5'-triphosphate,3'-diphosphate diphosphatase."	1	0.01	13.90	0.00	0.00	0.00	0.02	0.00	12.46	0.00	1.42	0.00
+5.2.1.8	"Peptidylprolyl isomerase."	14	0.13	1079.39	0.07	19.14	0.01	50.55	0.02	1001.47	0.11	8.23	0.00
+1.17.1.5	"Nicotinate dehydrogenase."	3	0.03	82.92	0.01	0.77	0.00	0.48	0.00	81.36	0.01	0.31	0.00
+1.4.1.4	"Glutamate dehydrogenase (NADP(+))."	2	0.02	272.03	0.02	0.05	0.00	0.60	0.00	270.89	0.03	0.49	0.00
+2.4.2.53	"Undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase."	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+1.1.1.169	"2-dehydropantoate 2-reductase."	3	0.03	99.90	0.01	0.54	0.00	0.07	0.00	98.97	0.01	0.32	0.00
+1.7.7.1	"Ferredoxin--nitrite reductase."	2	0.02	83.17	0.01	0.00	0.00	0.01	0.00	83.10	0.01	0.06	0.00
+5.4.99.18	"5-(carboxyamino)imidazole ribonucleotide mutase."	3	0.03	317.49	0.02	0.04	0.00	4.01	0.00	312.16	0.03	1.29	0.00
+2.4.1.213	"Glucosylglycerol-phosphate synthase."	5	0.05	502.24	0.03	0.73	0.00	34.18	0.02	461.95	0.05	5.38	0.00
+1.1.1.385	"Dihydroanticapsin 7-dehydrogenase."	2	0.02	49.15	0.00	0.85	0.00	0.08	0.00	46.59	0.01	1.63	0.00
+6.6.1.2	"Cobaltochelatase."	4	0.04	469.47	0.03	0.13	0.00	7.35	0.00	459.89	0.05	2.10	0.00
+2.3.1.78	"Heparan-alpha-glucosaminide N-acetyltransferase."	1	0.01	72.17	0.00	0.00	0.00	0.02	0.00	72.14	0.01	0.01	0.00
+5.4.99.28	"tRNA pseudouridine(32) synthase."	1	0.01	29.33	0.00	0.02	0.00	3.64	0.00	24.90	0.00	0.78	0.00
+2.5.1.96	"4,4'-diapophytoene synthase."	1	0.01	42.19	0.00	2.26	0.00	0.00	0.00	39.89	0.00	0.03	0.00
+3.1.6.1	"Arylsulfatase (type I)."	1	0.01	12.91	0.00	0.21	0.00	0.00	0.00	12.65	0.00	0.04	0.00
+1.14.14.5	"Alkanesulfonate monooxygenase."	1	0.01	13.90	0.00	0.00	0.00	0.02	0.00	12.46	0.00	1.42	0.00
+5.3.2.8	"4-oxalomesaconate tautomerase."	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+3.1.2.4	"3-hydroxyisobutyryl-CoA hydrolase."	1	0.01	202.80	0.01	0.00	0.00	0.43	0.00	202.04	0.02	0.33	0.00
+2.4.2.17	"ATP phosphoribosyltransferase."	1	0.01	13.15	0.00	0.26	0.00	0.00	0.00	12.83	0.00	0.06	0.00
+1.14.99.n4	"Carotenoid 9,10-dioxygenase."	1	0.01	72.38	0.00	0.00	0.00	0.02	0.00	72.33	0.01	0.03	0.00
+7.2.2.7	"ABC-type Fe(3+) transporter."	1	0.01	215.66	0.01	0.02	0.00	0.52	0.00	214.71	0.02	0.41	0.00
+1.2.1.79	"Succinate-semialdehyde dehydrogenase (NADP(+))."	2	0.02	112.78	0.01	0.85	0.00	0.24	0.00	111.34	0.01	0.34	0.00
+2.5.1.62	"Chlorophyll synthase."	1	0.01	72.73	0.00	0.00	0.00	0.02	0.00	72.68	0.01	0.03	0.00
+3.5.1.11	"Penicillin amidase."	2	0.02	253.56	0.02	0.01	0.00	0.57	0.00	252.62	0.03	0.36	0.00
+2.7.4.22	"UMP kinase."	3	0.03	147.42	0.01	18.60	0.01	0.36	0.00	127.71	0.01	0.75	0.00
+3.5.2.2	"Dihydropyrimidinase."	1	0.01	42.14	0.00	0.24	0.00	16.39	0.01	23.21	0.00	2.31	0.00
+2.1.1.171	"16S rRNA (guanine(966)-N(2))-methyltransferase."	4	0.04	308.86	0.02	2.37	0.00	0.56	0.00	304.12	0.03	1.81	0.00
+2.1.1.200	"tRNA (cytidine(32)/uridine(32)-2'-O)-methyltransferase."	1	0.01	42.83	0.00	0.30	0.00	16.61	0.01	23.61	0.00	2.31	0.00
+2.1.1.177	"23S rRNA (pseudouridine(1915)-N(3))-methyltransferase."	1	0.01	66.73	0.00	0.00	0.00	0.15	0.00	66.54	0.01	0.04	0.00
+2.1.1.220	"tRNA (adenine(58)-N(1))-methyltransferase."	1	0.01	50.96	0.00	4.85	0.00	3.43	0.00	42.25	0.00	0.43	0.00
+2.1.1.193	"16S rRNA (uracil(1498)-N(3))-methyltransferase."	4	0.04	178.26	0.01	0.33	0.00	0.27	0.00	177.47	0.02	0.19	0.00
+1.14.99.50	"Gamma-glutamyl hercynylcysteine S-oxide synthase."	3	0.03	1888.92	0.12	325.55	0.25	585.32	0.27	87.24	0.01	890.80	0.29
+3.5.2.6	"Beta-lactamase."	1	0.01	59.41	0.00	0.00	0.00	0.12	0.00	59.27	0.01	0.02	0.00
+3.4.22.-	"Cysteine endopeptidases."	2	0.02	87.18	0.01	2.88	0.00	0.11	0.00	83.95	0.01	0.24	0.00
+7.6.2.9	"ABC-type quaternary amine transporter."	3	0.03	324.06	0.02	10.24	0.01	0.71	0.00	312.18	0.03	0.93	0.00
+2.8.3.9	"Butyrate--acetoacetate CoA-transferase."	1	0.01	50.21	0.00	2.37	0.00	0.01	0.00	47.79	0.01	0.04	0.00
+3.4.15.5	"Peptidyl-dipeptidase Dcp."	3	0.03	101.57	0.01	0.24	0.00	3.76	0.00	96.72	0.01	0.86	0.00
+1.2.1.68	"Coniferyl-aldehyde dehydrogenase."	1	0.01	13.15	0.00	0.26	0.00	0.00	0.00	12.83	0.00	0.06	0.00
+2.6.1.9	"Histidinol-phosphate transaminase."	4	0.04	119.16	0.01	1.07	0.00	21.80	0.01	92.05	0.01	4.24	0.00
+2.3.1.39	"[Acyl-carrier-protein] S-malonyltransferase."	3	0.03	121.17	0.01	2.52	0.00	0.27	0.00	118.15	0.01	0.23	0.00
+1.1.1.3	"Homoserine dehydrogenase."	1	0.01	28.95	0.00	9.91	0.01	1.36	0.00	14.98	0.00	2.70	0.00
+3.1.-.- 3.6.4.12	""	2	0.02	157.41	0.01	15.72	0.01	0.12	0.00	141.07	0.02	0.50	0.00
+1.5.1.34	"6,7-dihydropteridine reductase."	1	0.01	28.95	0.00	9.91	0.01	1.36	0.00	14.98	0.00	2.70	0.00
+5.1.1.3	"Glutamate racemase."	3	0.03	259.98	0.02	0.01	0.00	0.08	0.00	259.83	0.03	0.06	0.00
+1.11.2.4	"Fatty-acid peroxygenase."	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+6.4.1.1	"Pyruvate carboxylase."	4	0.04	365.83	0.02	12.70	0.01	2.27	0.00	347.27	0.04	3.59	0.00
+2.5.1.10	"(2E,6E)-farnesyl diphosphate synthase."	4	0.04	299.77	0.02	20.19	0.02	44.14	0.02	176.11	0.02	59.33	0.02
+4.1.3.38	"Aminodeoxychorismate lyase."	1	0.01	54.97	0.00	0.04	0.00	0.13	0.00	54.73	0.01	0.07	0.00
+3.1.1.29	"Aminoacyl-tRNA hydrolase."	7	0.07	470.17	0.03	10.74	0.01	20.83	0.01	433.96	0.05	4.65	0.00
+6.3.4.15	"Biotin--[biotin carboxyl-carrier protein] ligase."	6	0.06	2052.54	0.13	310.87	0.24	565.08	0.26	319.86	0.03	856.73	0.28
+4.2.1.91	"Arogenate dehydratase."	1	0.01	23.90	0.00	0.00	0.00	0.00	0.00	23.89	0.00	0.00	0.00
+2.3.1.35 2.3.1.1	""	5	0.05	458.16	0.03	14.13	0.01	6.25	0.00	434.30	0.05	3.48	0.00
+2.7.6.2	"Thiamine diphosphokinase."	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+3.5.4.3	"Guanine deaminase."	1	0.01	13.15	0.00	0.26	0.00	0.00	0.00	12.83	0.00	0.06	0.00
+3.1.3.79	"Mannosylfructose-phosphate phosphatase."	1	0.01	25.40	0.00	0.12	0.00	0.10	0.00	25.07	0.00	0.11	0.00
+1.2.1.32	"Aminomuconate-semialdehyde dehydrogenase."	1	0.01	91.39	0.01	0.33	0.00	0.61	0.00	90.02	0.01	0.43	0.00
+4.1.2.-	"Aldehyde-lyases."	1	0.01	37.23	0.00	0.91	0.00	0.06	0.00	36.09	0.00	0.18	0.00
+4.3.2.3	"Ureidoglycolate lyase."	2	0.02	220.35	0.01	0.01	0.00	0.40	0.00	219.59	0.02	0.35	0.00
+4.1.1.36	"Phosphopantothenoylcysteine decarboxylase."	3	0.03	107.66	0.01	3.25	0.00	3.58	0.00	99.70	0.01	1.12	0.00
+1.10.3.9	"Photosystem II."	1	0.01	72.05	0.00	0.00	0.00	0.03	0.00	72.00	0.01	0.02	0.00
+1.8.1.9	"Thioredoxin-disulfide reductase."	6	0.06	2069.55	0.13	301.00	0.23	564.58	0.26	348.91	0.04	855.06	0.28
+2.3.2.6	"Lysine/arginine leucyltransferase."	3	0.03	165.84	0.01	5.15	0.00	20.07	0.01	137.87	0.02	2.75	0.00
+1.1.1.267	"1-deoxy-D-xylulose-5-phosphate reductoisomerase."	3	0.03	134.51	0.01	17.66	0.01	5.06	0.00	108.00	0.01	3.78	0.00
+2.6.1.1	"Aspartate transaminase."	6	0.06	414.45	0.03	7.53	0.01	20.64	0.01	381.70	0.04	4.58	0.00
+2.7.6.5	"GTP diphosphokinase."	5	0.05	154.84	0.01	5.03	0.00	16.64	0.01	129.37	0.01	3.81	0.00
+3.3.2.10	"Soluble epoxide hydrolase."	1	0.01	13.70	0.00	0.20	0.00	0.00	0.00	13.45	0.00	0.04	0.00
+1.6.-.-	"Acting on NADH or NADPH."	4	0.04	321.24	0.02	3.73	0.00	0.81	0.00	315.02	0.03	1.68	0.00
+3.1.3.70	"Mannosyl-3-phosphoglycerate phosphatase."	1	0.01	13.57	0.00	0.23	0.00	0.01	0.00	13.23	0.00	0.10	0.00
+4.2.1.24	"Porphobilinogen synthase."	2	0.02	26.47	0.00	0.21	0.00	0.04	0.00	24.70	0.00	1.51	0.00
+6.3.4.-	"Other carbon--nitrogen ligases."	4	0.04	187.58	0.01	5.65	0.00	0.19	0.00	181.47	0.02	0.28	0.00
+1.2.1.38	"N-acetyl-gamma-glutamyl-phosphate reductase."	5	0.05	792.15	0.05	72.00	0.06	383.73	0.18	244.75	0.03	91.66	0.03
+3.5.2.-	"In cyclic amides."	3	0.03	198.23	0.01	0.64	0.00	1.18	0.00	194.01	0.02	2.40	0.00
+3.2.1.55	"Non-reducing end alpha-L-arabinofuranosidase."	1	0.01	40.10	0.00	0.00	0.00	0.00	0.00	40.10	0.00	0.00	0.00
+2.6.1.16	"Glutamine--fructose-6-phosphate transaminase (isomerizing)."	5	0.05	378.38	0.02	2.61	0.00	0.82	0.00	372.86	0.04	2.09	0.00
+5.3.1.24	"Phosphoribosylanthranilate isomerase."	3	0.03	114.32	0.01	0.94	0.00	0.14	0.00	113.00	0.01	0.25	0.00
+4.2.1.9	"Dihydroxy-acid dehydratase."	2	0.02	101.50	0.01	0.02	0.00	3.65	0.00	97.04	0.01	0.79	0.00
+1.3.99.-	"With other acceptors."	15	0.14	688.80	0.04	1.72	0.00	4.67	0.00	679.04	0.07	3.38	0.00
+1.1.1.18	"Inositol 2-dehydrogenase."	1	0.01	40.10	0.00	0.00	0.00	0.00	0.00	40.10	0.00	0.00	0.00
+2.7.13.3	"Histidine kinase."	22	0.21	1861.11	0.12	22.98	0.02	100.56	0.05	1685.70	0.18	51.87	0.02
+6.3.2.5	"Phosphopantothenate--cysteine ligase (CTP)."	3	0.03	107.66	0.01	3.25	0.00	3.58	0.00	99.70	0.01	1.12	0.00
+7.2.2.8	"P-type Cu(+) transporter."	3	0.03	123.40	0.01	9.91	0.01	1.37	0.00	109.39	0.01	2.73	0.00
+6.3.2.53	"UDP-N-acetylmuramoyl-L-alanine--L-glutamate ligase."	3	0.03	142.40	0.01	0.15	0.00	0.37	0.00	141.70	0.02	0.19	0.00
+3.1.26.12	"Ribonuclease E."	1	0.01	91.39	0.01	0.33	0.00	0.61	0.00	90.02	0.01	0.43	0.00
+5.4.2.12	"Phosphoglycerate mutase (2,3-diphosphoglycerate-independent)."	2	0.02	262.21	0.02	0.00	0.00	0.55	0.00	261.31	0.03	0.35	0.00
+3.1.1.45	"Carboxymethylenebutenolidase."	2	0.02	94.61	0.01	0.20	0.00	0.05	0.00	94.28	0.01	0.08	0.00
+3.6.1.-	"In phosphorus-containing anhydrides."	26	0.25	6461.19	0.41	936.75	0.73	1721.76	0.80	1198.65	0.13	2604.03	0.86
+6.1.1.3	"Threonine--tRNA ligase."	4	0.04	402.47	0.03	10.13	0.01	0.60	0.00	391.03	0.04	0.70	0.00
+5.3.1.6	"Ribose-5-phosphate isomerase."	1	0.01	25.68	0.00	0.12	0.00	0.11	0.00	25.33	0.00	0.13	0.00
+1.4.3.3	"D-amino-acid oxidase."	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+3.5.4.5	"Cytidine deaminase."	2	0.02	62.26	0.00	1.03	0.00	0.15	0.00	60.81	0.01	0.27	0.00
+2.4.1.21	"Starch synthase."	3	0.03	1881.89	0.12	325.90	0.25	604.95	0.28	58.71	0.01	892.33	0.29
+2.1.1.77	"Protein-L-isoaspartate(D-aspartate) O-methyltransferase."	2	0.02	105.07	0.01	0.54	0.00	0.58	0.00	103.42	0.01	0.54	0.00
+3.5.3.13	"Formimidoylglutamate deiminase."	2	0.02	93.78	0.01	0.01	0.00	3.65	0.00	89.19	0.01	0.92	0.00
+2.8.1.7	"Cysteine desulfurase."	9	0.09	774.10	0.05	10.50	0.01	1.79	0.00	760.07	0.08	1.74	0.00
+3.1.26.4	"Ribonuclease H."	10	0.10	705.22	0.05	13.83	0.01	28.45	0.01	655.85	0.07	7.08	0.00
+6.3.5.1	"NAD(+) synthase (glutamine-hydrolyzing)."	2	0.02	103.29	0.01	0.24	0.00	16.54	0.01	84.20	0.01	2.32	0.00
+1.8.2.1	"Sulfite dehydrogenase (cytochrome)."	1	0.01	209.74	0.01	0.01	0.00	0.50	0.00	208.87	0.02	0.36	0.00
+1.8.4.11	"Peptide-methionine (S)-S-oxide reductase."	8	0.08	2216.13	0.14	306.32	0.24	594.32	0.28	415.36	0.05	900.13	0.30
+4.1.2.25	"Dihydroneopterin aldolase."	1	0.01	72.05	0.00	0.00	0.00	0.03	0.00	72.00	0.01	0.02	0.00
+1.4.1.2	"Glutamate dehydrogenase."	4	0.04	251.21	0.02	8.46	0.01	0.80	0.00	239.83	0.03	2.13	0.00
+5.3.3.6	"Methylitaconate Delta-isomerase."	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+3.1.1.-	"Carboxylic ester hydrolases."	4	0.04	200.51	0.01	0.47	0.00	0.70	0.00	197.40	0.02	1.95	0.00
+2.3.3.16	"Citrate synthase (unknown stereospecificity)."	4	0.04	230.76	0.01	8.01	0.01	0.30	0.00	221.94	0.02	0.51	0.00
+1.3.1.95	"Acryloyl-CoA reductase (NADH)."	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+4.2.1.33	"3-isopropylmalate dehydratase."	2	0.02	50.94	0.00	0.23	0.00	0.28	0.00	50.20	0.01	0.23	0.00
+1.1.1.1	"Alcohol dehydrogenase."	4	0.04	96.92	0.01	0.06	0.00	7.45	0.00	86.14	0.01	3.26	0.00
+4.2.1.19	"Imidazoleglycerol-phosphate dehydratase."	2	0.02	218.35	0.01	0.02	0.00	3.90	0.00	213.21	0.02	1.22	0.00
+3.4.13.9	"Xaa-Pro dipeptidase."	1	0.01	62.26	0.00	0.00	0.00	0.17	0.00	62.06	0.01	0.02	0.00
+7.5.2.6	"ABC-type lipid A-core oligosaccharide transporter."	5	0.05	480.03	0.03	0.35	0.00	1.17	0.00	476.30	0.05	2.21	0.00
+2.1.2.3 3.5.4.10	""	3	0.03	146.13	0.01	0.33	0.00	20.15	0.01	122.48	0.01	3.18	0.00
+7.5.2.7	"ABC-type D-ribose transporter."	1	0.01	195.59	0.01	0.01	0.00	0.42	0.00	194.83	0.02	0.33	0.00
+4.1.99.13	"(6-4)DNA photolyase."	3	0.03	57.98	0.00	0.28	0.00	3.27	0.00	53.57	0.01	0.85	0.00
+1.1.1.79	"Glyoxylate reductase (NADP(+))."	2	0.02	252.06	0.02	0.01	0.00	0.59	0.00	251.04	0.03	0.42	0.00
+1.14.13.2	"4-hydroxybenzoate 3-monooxygenase."	1	0.01	25.63	0.00	0.02	0.00	3.34	0.00	21.51	0.00	0.75	0.00
+1.14.12.10	"Benzoate 1,2-dioxygenase."	2	0.02	431.32	0.03	0.04	0.00	1.05	0.00	429.41	0.05	0.82	0.00
+2.2.1.6	"Acetolactate synthase."	11	0.11	630.64	0.04	1.17	0.00	6.42	0.00	619.83	0.07	3.21	0.00
+6.1.1.22	"Asparagine--tRNA ligase."	2	0.02	50.99	0.00	1.18	0.00	0.08	0.00	49.41	0.01	0.32	0.00
+4.1.3.36	"1,4-dihydroxy-2-naphthoyl-CoA synthase."	2	0.02	1886.79	0.12	325.55	0.25	585.18	0.27	86.70	0.01	889.36	0.29
+4.2.1.104	"Cyanase."	1	0.01	221.14	0.01	0.01	0.00	0.48	0.00	220.28	0.02	0.38	0.00
+3.5.1.81	"N-acyl-D-amino-acid deacylase."	5	0.05	60.00	0.00	2.46	0.00	0.20	0.00	52.38	0.01	4.95	0.00
+2.7.4.7	"Phosphooxymethylpyrimidine kinase."	1	0.01	195.59	0.01	0.01	0.00	0.42	0.00	194.83	0.02	0.33	0.00
+3.6.4.12	"DNA helicase."	26	0.25	1246.38	0.08	41.93	0.03	2.55	0.00	1195.15	0.13	6.74	0.00
+3.1.26.11	"Ribonuclease Z."	2	0.02	53.64	0.00	2.58	0.00	0.01	0.00	50.97	0.01	0.09	0.00
+2.7.1.35	"Pyridoxal kinase."	1	0.01	50.21	0.00	2.37	0.00	0.01	0.00	47.79	0.01	0.04	0.00
+3.4.21.-	"Serine endopeptidases."	22	0.21	1235.77	0.08	33.46	0.03	6.56	0.00	1185.49	0.13	10.27	0.00
+2.3.1.128	"Transferred entry: 2.3.1.267."	2	0.02	209.58	0.01	0.00	0.00	0.42	0.00	207.39	0.02	1.76	0.00
+1.1.1.300	"NADP-retinol dehydrogenase."	1	0.01	13.73	0.00	0.00	0.00	0.01	0.00	12.06	0.00	1.66	0.00
+1.1.99.1	"Choline dehydrogenase."	1	0.01	191.30	0.01	0.01	0.00	0.40	0.00	190.55	0.02	0.34	0.00
+2.6.1.42	"Branched-chain-amino-acid transaminase."	9	0.09	638.35	0.04	27.79	0.02	7.21	0.00	594.44	0.06	8.91	0.00
+2.1.1.226	"23S rRNA (cytidine(1920)-2'-O)-methyltransferase."	3	0.03	85.10	0.01	4.85	0.00	3.67	0.00	76.13	0.01	0.45	0.00
+3.1.11.5	"Exodeoxyribonuclease V."	6	0.06	343.71	0.02	1.33	0.00	1.77	0.00	339.11	0.04	1.50	0.00
+2.5.1.75	"tRNA dimethylallyltransferase."	1	0.01	78.70	0.01	7.86	0.01	0.06	0.00	70.54	0.01	0.25	0.00
+1.11.1.21	"Catalase peroxidase."	1	0.01	191.30	0.01	0.01	0.00	0.40	0.00	190.55	0.02	0.34	0.00
+1.1.2.8	"Alcohol dehydrogenase (cytochrome c)."	1	0.01	204.63	0.01	0.01	0.00	0.65	0.00	203.32	0.02	0.64	0.00
+2.4.-.-	"Glycosyltransferases."	7	0.07	696.22	0.04	10.61	0.01	19.58	0.01	629.42	0.07	36.61	0.01
+3.1.13.5	"Ribonuclease D."	2	0.02	1769.80	0.11	298.41	0.23	563.99	0.26	54.32	0.01	853.09	0.28
+4.1.1.12	"Aspartate 4-decarboxylase."	1	0.01	50.21	0.00	2.37	0.00	0.01	0.00	47.79	0.01	0.04	0.00
+1.14.13.149	"Phenylacetyl-CoA 1,2-epoxidase."	2	0.02	52.45	0.00	0.13	0.00	3.60	0.00	47.73	0.01	0.99	0.00
+4.3.99.3	"7-carboxy-7-deazaguanine synthase."	2	0.02	48.52	0.00	9.77	0.01	1.08	0.00	35.01	0.00	2.66	0.00
+3.5.1.87	"N-carbamoyl-L-amino-acid hydrolase."	1	0.01	42.14	0.00	0.24	0.00	16.39	0.01	23.21	0.00	2.31	0.00
+1.1.1.42	"Isocitrate dehydrogenase (NADP(+))."	3	0.03	208.03	0.01	8.95	0.01	0.27	0.00	198.20	0.02	0.61	0.00
+2.4.1.289	"N-acetylglucosaminyl-diphospho-decaprenol L-rhamnosyltransferase."	1	0.01	27.64	0.00	0.26	0.00	0.16	0.00	27.12	0.00	0.10	0.00
+1.1.1.95	"Phosphoglycerate dehydrogenase."	7	0.07	471.42	0.03	9.26	0.01	1.26	0.00	459.86	0.05	1.04	0.00
+2.7.4.14	"UMP/CMP kinase."	3	0.03	178.28	0.01	15.34	0.01	3.48	0.00	158.74	0.02	0.71	0.00
+4.2.1.148	"2-methylfumaryl-CoA hydratase."	2	0.02	247.68	0.02	0.14	0.00	4.17	0.00	241.87	0.03	1.50	0.00
+2.4.2.-	"Pentosyltransferases."	6	0.06	485.75	0.03	0.05	0.00	8.07	0.00	475.23	0.05	2.41	0.00
+3.4.11.9	"Xaa-Pro aminopeptidase."	1	0.01	196.45	0.01	0.00	0.00	0.40	0.00	195.69	0.02	0.35	0.00
+4.2.3.3	"Methylglyoxal synthase."	2	0.02	114.24	0.01	0.32	0.00	0.58	0.00	112.84	0.01	0.50	0.00
+3.1.26.-	"Endoribonucleases producing 5'-phosphomonoesters."	1	0.01	66.58	0.00	0.06	0.00	0.34	0.00	65.19	0.01	0.98	0.00
+3.5.99.2	"Aminopyrimidine aminohydrolase."	2	0.02	267.76	0.02	0.01	0.00	0.44	0.00	266.97	0.03	0.34	0.00
+2.5.1.61	"Hydroxymethylbilane synthase."	3	0.03	237.53	0.02	0.25	0.00	4.37	0.00	231.60	0.03	1.31	0.00
+3.1.4.46	"Glycerophosphodiester phosphodiesterase."	3	0.03	76.90	0.00	8.37	0.01	1.00	0.00	65.17	0.01	2.35	0.00
+5.1.-.-	"Racemases and epimerases."	2	0.02	30.78	0.00	0.00	0.00	0.01	0.00	29.10	0.00	1.66	0.00
+2.1.1.132	"Precorrin-6B C(5,15)-methyltransferase (decarboxylating)."	1	0.01	73.16	0.00	0.00	0.00	0.01	0.00	73.10	0.01	0.04	0.00
+1.8.4.-	"With a disulfide as acceptor."	7	0.07	251.75	0.02	10.95	0.01	16.68	0.01	221.43	0.02	2.69	0.00
+2.7.4.8	"Guanylate kinase."	4	0.04	367.55	0.02	3.33	0.00	0.73	0.00	362.54	0.04	0.95	0.00
+1.3.1.75	"3,8-divinyl protochlorophyllide a 8-vinyl-reductase (NADPH)."	1	0.01	191.30	0.01	0.01	0.00	0.40	0.00	190.55	0.02	0.34	0.00
+3.4.21.89	"Signal peptidase I."	8	0.08	451.49	0.03	23.24	0.02	0.47	0.00	426.59	0.05	1.19	0.00
+1.14.19.42	"Palmitoyl-[glycerolipid] 7-desaturase."	2	0.02	95.85	0.01	0.12	0.00	0.13	0.00	95.45	0.01	0.14	0.00
+5.1.3.3	"Aldose 1-epimerase."	4	0.04	469.87	0.03	0.42	0.00	1.15	0.00	467.31	0.05	0.99	0.00
+2.7.1.26 2.7.7.2	""	3	0.03	336.49	0.02	10.24	0.01	0.53	0.00	325.01	0.04	0.71	0.00
+2.7.8.-	"Transferases for other substituted phosphate groups."	12	0.12	1039.51	0.07	15.52	0.01	1.95	0.00	1020.04	0.11	2.01	0.00
+1.1.5.-	"With a quinone or similar compound as acceptor."	2	0.02	71.03	0.00	0.03	0.00	3.52	0.00	66.64	0.01	0.84	0.00
+1.3.99.31	"Phytoene desaturase (lycopene-forming)."	2	0.02	74.64	0.00	0.00	0.00	0.16	0.00	72.94	0.01	1.55	0.00
+4.4.1.1	"Cystathionine gamma-lyase."	1	0.01	12.82	0.00	0.00	0.00	0.02	0.00	11.46	0.00	1.33	0.00
+1.13.11.63	"Beta-carotene 15,15'-dioxygenase."	1	0.01	61.15	0.00	0.00	0.00	0.15	0.00	60.99	0.01	0.01	0.00
+5.1.1.23	"UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-L-glutamate epimerase."	3	0.03	142.40	0.01	0.15	0.00	0.37	0.00	141.70	0.02	0.19	0.00
+5.3.3.18	"2-(1,2-epoxy-1,2-dihydrophenyl)acetyl-CoA isomerase."	1	0.01	27.05	0.00	0.01	0.00	3.50	0.00	22.65	0.00	0.88	0.00
+1.14.15.3	"Alkane 1-monooxygenase."	1	0.01	28.60	0.00	0.03	0.00	3.93	0.00	23.76	0.00	0.88	0.00
+3.1.3.6	"3'-nucleotidase."	2	0.02	56.54	0.00	9.79	0.01	4.71	0.00	38.60	0.00	3.43	0.00
+2.7.1.-	"Phosphotransferases with an alcohol group as acceptor."	10	0.10	581.16	0.04	16.93	0.01	5.34	0.00	554.50	0.06	4.39	0.00
+3.5.4.19	"Phosphoribosyl-AMP cyclohydrolase."	1	0.01	72.38	0.00	0.00	0.00	0.02	0.00	72.33	0.01	0.03	0.00
+1.1.99.22	"Glycerol dehydrogenase (acceptor)."	1	0.01	221.14	0.01	0.01	0.00	0.48	0.00	220.28	0.02	0.38	0.00
+5.1.99.1	"Methylmalonyl-CoA epimerase."	2	0.02	291.23	0.02	8.14	0.01	0.70	0.00	281.50	0.03	0.89	0.00
+7.1.1.7	"Ubiquinol oxidase (electrogenic, proton-motive force generating)."	2	0.02	61.42	0.00	0.00	0.00	0.00	0.00	61.41	0.01	0.01	0.00
+4.2.1.75	"Uroporphyrinogen-III synthase."	1	0.01	13.34	0.00	0.21	0.00	0.03	0.00	13.00	0.00	0.10	0.00
+3.2.1.14	"Chitinase."	1	0.01	27.87	0.00	10.00	0.01	1.26	0.00	13.88	0.00	2.73	0.00
+3.6.3.28	"Transferred entry: 7.3.2.2."	1	0.01	12.91	0.00	0.21	0.00	0.00	0.00	12.65	0.00	0.04	0.00
+2.3.1.31	"Homoserine O-acetyltransferase."	3	0.03	279.24	0.02	0.12	0.00	0.68	0.00	277.94	0.03	0.49	0.00
+3.5.1.5	"Urease."	3	0.03	586.78	0.04	0.02	0.00	1.27	0.00	584.50	0.06	0.99	0.00
+2.7.7.2	"FAD synthetase."	4	0.04	532.08	0.03	10.24	0.01	0.95	0.00	519.84	0.06	1.04	0.00
+1.3.8.4	"Isovaleryl-CoA dehydrogenase."	3	0.03	281.16	0.02	0.05	0.00	4.01	0.00	276.00	0.03	1.10	0.00
+5.99.1.-	"Other isomerases."	4	0.04	261.81	0.02	15.96	0.01	16.68	0.01	226.34	0.02	2.83	0.00
+3.1.-.-	"Acting on ester bonds."	51	0.49	7009.19	0.45	703.80	0.55	1202.89	0.56	3295.85	0.36	1806.65	0.60
+4.1.1.37	"Uroporphyrinogen decarboxylase."	4	0.04	306.81	0.02	0.06	0.00	3.63	0.00	300.53	0.03	2.59	0.00
+2.5.1.88	"Trans,polycis-polyprenyl diphosphate synthase ((2Z,6E)-farnesyl"	1	0.01	25.03	0.00	0.13	0.00	0.10	0.00	24.72	0.00	0.09	0.00
+3.6.4.-	"Acting on ATP; involved in cellular and subcellular movement."	18	0.17	2958.35	0.19	313.30	0.24	657.57	0.31	1023.43	0.11	964.04	0.32
+1.1.1.22	"UDP-glucose 6-dehydrogenase."	2	0.02	217.76	0.01	0.01	0.00	0.66	0.00	215.02	0.02	2.06	0.00
+5.3.3.2	"Isopentenyl-diphosphate Delta-isomerase."	2	0.02	74.69	0.00	2.52	0.00	3.18	0.00	68.27	0.01	0.73	0.00
+3.5.1.-	"In linear amides."	19	0.18	1167.44	0.07	22.20	0.02	11.45	0.01	1124.96	0.12	8.83	0.00
+1.12.99.6	"Hydrogenase (acceptor)."	2	0.02	144.85	0.01	0.01	0.00	0.08	0.00	144.71	0.02	0.05	0.00
+1.3.1.1	"Dihydrouracil dehydrogenase (NAD(+))."	2	0.02	84.28	0.01	0.47	0.00	32.78	0.02	46.41	0.01	4.61	0.00
+1.3.1.12	"Prephenate dehydrogenase."	3	0.03	183.82	0.01	7.12	0.01	7.33	0.00	162.86	0.02	6.51	0.00
+4.2.3.12	"6-pyruvoyltetrahydropterin synthase."	1	0.01	27.20	0.00	9.77	0.01	1.08	0.00	13.70	0.00	2.65	0.00
+2.7.7.41	"Phosphatidate cytidylyltransferase."	3	0.03	148.03	0.01	10.26	0.01	3.99	0.00	132.61	0.01	1.17	0.00
+1.1.1.284	"S-(hydroxymethyl)glutathione dehydrogenase."	2	0.02	103.05	0.01	1.18	0.00	0.20	0.00	101.36	0.01	0.30	0.00
+3.1.3.25	"Inositol-phosphate phosphatase."	5	0.05	373.31	0.02	2.52	0.00	0.84	0.00	368.06	0.04	1.89	0.00
+2.7.1.26	"Riboflavin kinase."	3	0.03	336.49	0.02	10.24	0.01	0.53	0.00	325.01	0.04	0.71	0.00
+2.8.1.1	"Thiosulfate sulfurtransferase."	1	0.01	215.66	0.01	0.02	0.00	0.52	0.00	214.71	0.02	0.41	0.00
+4.1.3.17	"4-hydroxy-4-methyl-2-oxoglutarate aldolase."	3	0.03	79.52	0.01	0.00	0.00	0.55	0.00	78.83	0.01	0.15	0.00
+2.1.1.67	"Thiopurine S-methyltransferase."	1	0.01	21.24	0.00	0.00	0.00	0.00	0.00	21.23	0.00	0.00	0.00
+6.3.4.18	"5-(carboxyamino)imidazole ribonucleotide synthase."	1	0.01	217.06	0.01	0.01	0.00	0.47	0.00	216.16	0.02	0.42	0.00
+4.4.1.3	"Dimethylpropiothetin dethiomethylase."	1	0.01	195.59	0.01	0.01	0.00	0.42	0.00	194.83	0.02	0.33	0.00
+3.5.1.98	"Histone deacetylase."	2	0.02	246.14	0.02	0.06	0.00	3.65	0.00	241.36	0.03	1.07	0.00
+1.14.14.-	"With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen."	1	0.01	92.95	0.01	0.00	0.00	0.04	0.00	92.89	0.01	0.02	0.00
+3.4.21.53	"Endopeptidase La."	1	0.01	27.20	0.00	9.77	0.01	1.08	0.00	13.70	0.00	2.65	0.00
+7.3.2.7	"Arsenite-transporting ATPase."	3	0.03	1874.81	0.12	298.41	0.23	564.02	0.26	159.23	0.02	853.14	0.28
+1.1.1.153	"Sepiapterin reductase (L-erythro-7,8-dihydrobiopterin forming)."	1	0.01	25.47	0.00	0.12	0.00	0.14	0.00	25.10	0.00	0.12	0.00
+1.13.11.24	"Quercetin 2,3-dioxygenase."	3	0.03	1919.22	0.12	282.94	0.22	587.36	0.27	150.67	0.02	898.24	0.30
+2.3.1.182	"(R)-citramalate synthase."	1	0.01	25.47	0.00	0.12	0.00	0.14	0.00	25.10	0.00	0.12	0.00
+1.12.2.1	"Cytochrome-c3 hydrogenase."	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+3.1.3.48	"Protein-tyrosine-phosphatase."	5	0.05	1910.06	0.12	291.27	0.23	587.18	0.27	130.35	0.01	901.25	0.30
+1.4.3.16	"L-aspartate oxidase."	2	0.02	234.85	0.02	0.01	0.00	0.49	0.00	232.51	0.03	1.84	0.00
+3.5.99.6	"Glucosamine-6-phosphate deaminase."	1	0.01	49.69	0.00	2.47	0.00	0.00	0.00	47.19	0.01	0.04	0.00
+2.3.1.274	"Phosphate acyltransferase."	3	0.03	134.67	0.01	2.40	0.00	0.13	0.00	132.02	0.01	0.12	0.00
+5.4.99.25	"tRNA pseudouridine(55) synthase."	5	0.05	1993.11	0.13	300.70	0.23	587.60	0.27	205.16	0.02	899.65	0.30
+5.4.99.2	"Methylmalonyl-CoA mutase."	4	0.04	163.90	0.01	27.75	0.02	2.81	0.00	127.65	0.01	5.69	0.00
+1.6.1.2	"NAD(P)(+) transhydrogenase (Re/Si-specific)."	1	0.01	25.00	0.00	0.05	0.00	3.18	0.00	21.08	0.00	0.69	0.00
+1.8.5.7	"Glutathionyl-hydroquinone reductase."	2	0.02	68.31	0.00	0.02	0.00	3.64	0.00	63.87	0.01	0.79	0.00
+1.2.1.27	"Methylmalonate-semialdehyde dehydrogenase (CoA acylating)."	1	0.01	202.80	0.01	0.00	0.00	0.43	0.00	202.04	0.02	0.33	0.00
+2.7.9.3	"Selenide, water dikinase."	2	0.02	281.50	0.02	7.87	0.01	0.49	0.00	272.58	0.03	0.57	0.00
+3.8.1.3	"Haloacetate dehalogenase."	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+2.2.1.9	"2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid"	1	0.01	72.05	0.00	0.00	0.00	0.03	0.00	72.00	0.01	0.02	0.00
+4.4.1.5	"Lactoylglutathione lyase."	3	0.03	288.03	0.02	2.51	0.00	4.42	0.00	279.82	0.03	1.28	0.00
+2.8.1.-	"Sulfurtransferases."	1	0.01	55.78	0.00	0.03	0.00	0.08	0.00	55.60	0.01	0.06	0.00
+4.2.1.119	"Enoyl-CoA hydratase 2."	1	0.01	217.06	0.01	0.01	0.00	0.47	0.00	216.16	0.02	0.42	0.00
+2.6.1.83	"LL-diaminopimelate aminotransferase."	4	0.04	1901.06	0.12	298.53	0.23	564.16	0.26	185.10	0.02	853.27	0.28
+1.2.4.2	"Oxoglutarate dehydrogenase (succinyl-transferring)."	2	0.02	68.87	0.00	0.04	0.00	0.15	0.00	67.20	0.01	1.49	0.00
+6.3.5.10	"Adenosylcobyric acid synthase (glutamine-hydrolyzing)."	1	0.01	221.14	0.01	0.01	0.00	0.48	0.00	220.28	0.02	0.38	0.00
+1.1.1.-	"With NAD(+) or NADP(+) as acceptor."	12	0.12	840.22	0.05	3.60	0.00	19.99	0.01	812.50	0.09	4.12	0.00
+2.5.1.78	"6,7-dimethyl-8-ribityllumazine synthase."	5	0.05	259.11	0.02	10.69	0.01	16.70	0.01	229.09	0.02	2.63	0.00
+2.7.7.49	"RNA-directed DNA polymerase."	3	0.03	216.47	0.01	0.10	0.00	0.10	0.00	216.13	0.02	0.14	0.00
+1.5.1.5	"Methylenetetrahydrofolate dehydrogenase (NADP(+))."	3	0.03	169.55	0.01	16.54	0.01	0.48	0.00	151.76	0.02	0.78	0.00
+2.7.11.1	"Non-specific serine/threonine protein kinase."	8	0.08	440.58	0.03	2.84	0.00	1.11	0.00	434.57	0.05	2.05	0.00
+3.2.1.141	"4-alpha-D-((1->4)-alpha-D-glucano)trehalose trehalohydrolase."	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+1.2.4.4	"3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)."	8	0.08	342.62	0.02	21.01	0.02	0.40	0.00	320.42	0.03	0.79	0.00
+4.1.1.31	"Phosphoenolpyruvate carboxylase."	1	0.01	36.00	0.00	0.85	0.00	0.07	0.00	34.84	0.00	0.24	0.00
+2.5.1.143	"Pyridinium-3,5-biscarboxylic acid mononucleotide synthase."	2	0.02	162.66	0.01	0.35	0.00	0.53	0.00	161.35	0.02	0.43	0.00
+4.1.1.19	"Arginine decarboxylase."	2	0.02	81.70	0.01	0.00	0.00	0.15	0.00	80.05	0.01	1.50	0.00
+1.3.7.9	"4-hydroxybenzoyl-CoA reductase."	1	0.01	27.64	0.00	0.26	0.00	0.16	0.00	27.12	0.00	0.10	0.00
+4.2.1.126	"N-acetylmuramic acid 6-phosphate etherase."	1	0.01	204.63	0.01	0.01	0.00	0.65	0.00	203.32	0.02	0.64	0.00
+3.4.21.105	"Rhomboid protease."	2	0.02	108.68	0.01	8.13	0.01	0.05	0.00	100.24	0.01	0.25	0.00
+2.1.1.222	"2-polyprenyl-6-hydroxyphenol methylase."	3	0.03	284.34	0.02	0.03	0.00	4.18	0.00	279.00	0.03	1.13	0.00
+3.1.3.-	"Phosphoric monoester hydrolases."	12	0.12	765.36	0.05	25.73	0.02	0.84	0.00	737.60	0.08	1.20	0.00
+1.2.1.70	"Glutamyl-tRNA reductase."	4	0.04	1815.30	0.12	298.41	0.23	564.13	0.26	96.84	0.01	855.92	0.28
+1.1.99.39	"D-2-hydroxyglutarate dehydrogenase."	1	0.01	217.06	0.01	0.01	0.00	0.47	0.00	216.16	0.02	0.42	0.00
+2.4.1.230	"Kojibiose phosphorylase."	1	0.01	73.16	0.00	0.00	0.00	0.01	0.00	73.10	0.01	0.04	0.00
+1.1.1.331	"Secoisolariciresinol dehydrogenase."	1	0.01	27.60	0.00	0.04	0.00	3.43	0.00	23.39	0.00	0.74	0.00
+2.7.1.31	"Glycerate 3-kinase."	1	0.01	70.45	0.00	0.00	0.00	0.03	0.00	70.38	0.01	0.04	0.00
+1.14.13.-	"With NADH or NADPH as one donor, and incorporation of one atom of oxygen."	3	0.03	165.20	0.01	8.13	0.01	0.10	0.00	156.53	0.02	0.43	0.00
+6.3.2.8	"UDP-N-acetylmuramate--L-alanine ligase."	5	0.05	307.64	0.02	3.56	0.00	3.84	0.00	298.81	0.03	1.44	0.00
+7.1.1.3	"Ubiquinol oxidase (H(+)-transporting)."	1	0.01	59.33	0.00	0.00	0.00	0.11	0.00	59.17	0.01	0.04	0.00
+2.3.1.61	"Dihydrolipoyllysine-residue succinyltransferase."	1	0.01	54.97	0.00	0.04	0.00	0.13	0.00	54.73	0.01	0.07	0.00
+4.2.2.-	"Acting on polysaccharides."	2	0.02	95.70	0.01	2.40	0.00	0.13	0.00	93.05	0.01	0.12	0.00
+2.4.1.187	"N-acetylglucosaminyldiphosphoundecaprenol N-acetyl-beta-D-"	1	0.01	49.69	0.00	2.47	0.00	0.00	0.00	47.19	0.01	0.04	0.00
+2.4.2.1	"Purine-nucleoside phosphorylase."	5	0.05	439.73	0.03	20.73	0.02	2.39	0.00	412.79	0.04	3.81	0.00
+1.5.1.36	"Flavin reductase (NADH)."	1	0.01	78.70	0.01	7.86	0.01	0.06	0.00	70.54	0.01	0.25	0.00
+1.14.19.6	"Acyl-CoA (9+3)-desaturase."	1	0.01	70.45	0.00	0.00	0.00	0.03	0.00	70.38	0.01	0.04	0.00
+2.7.8.5	"CDP-diacylglycerol--glycerol-3-phosphate 1-phosphatidyltransferase."	3	0.03	170.39	0.01	15.08	0.01	3.49	0.00	151.11	0.02	0.72	0.00
+3.1.13.-	"Exoribonucleases producing 5'-phosphomonoesters."	1	0.01	13.43	0.00	0.00	0.00	0.03	0.00	11.90	0.00	1.50	0.00
+1.17.1.2	"Transferred entry: 1.17.7.4."	4	0.04	2003.84	0.13	298.42	0.23	564.46	0.26	285.79	0.03	855.17	0.28
+7.2.2.16	"ABC-type ferric hydroxamate transporter."	1	0.01	50.21	0.00	2.37	0.00	0.01	0.00	47.79	0.01	0.04	0.00
+1.3.99.22	"Transferred entry: 1.3.98.3."	4	0.04	180.60	0.01	10.29	0.01	9.12	0.00	156.44	0.02	4.74	0.00
+1.3.99.16	"Isoquinoline 1-oxidoreductase."	2	0.02	26.30	0.00	0.51	0.00	0.00	0.00	25.66	0.00	0.13	0.00
+3.4.17.19	"Carboxypeptidase Taq."	2	0.02	121.53	0.01	8.16	0.01	16.67	0.01	94.14	0.01	2.56	0.00
+4.1.1.1	"Pyruvate decarboxylase."	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+1.7.1.17	"FMN-dependent NADH-azoreductase."	2	0.02	140.37	0.01	0.00	0.00	0.16	0.00	140.15	0.02	0.06	0.00
+5.1.1.1	"Alanine racemase."	2	0.02	111.30	0.01	0.91	0.00	0.06	0.00	110.14	0.01	0.19	0.00
+6.3.2.6	"Phosphoribosylaminoimidazolesuccinocarboxamide synthase."	1	0.01	37.23	0.00	0.91	0.00	0.06	0.00	36.09	0.00	0.18	0.00
+5.3.1.1	"Triose-phosphate isomerase."	4	0.04	363.27	0.02	5.78	0.00	4.33	0.00	351.16	0.04	2.01	0.00
+4.1.1.33	"Diphosphomevalonate decarboxylase."	1	0.01	49.69	0.00	2.47	0.00	0.00	0.00	47.19	0.01	0.04	0.00
+2.1.1.148	"Thymidylate synthase (FAD)."	3	0.03	44.02	0.00	0.00	0.00	0.01	0.00	42.47	0.00	1.54	0.00
+1.8.1.7	"Glutathione-disulfide reductase."	3	0.03	184.50	0.01	2.47	0.00	0.15	0.00	181.75	0.02	0.12	0.00
+1.1.1.60	"2-hydroxy-3-oxopropionate reductase."	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+1.3.3.3	"Coproporphyrinogen oxidase."	2	0.02	40.75	0.00	0.04	0.00	3.45	0.00	35.14	0.00	2.12	0.00
+7.2.3.-	"Linked to the hydrolysis of diphosphate."	1	0.01	66.73	0.00	0.00	0.00	0.15	0.00	66.54	0.01	0.04	0.00
+4.1.3.16	"4-hydroxy-2-oxoglutarate aldolase."	1	0.01	13.31	0.00	0.02	0.00	0.24	0.00	11.71	0.00	1.34	0.00
+1.15.1.1	"Superoxide dismutase."	4	0.04	362.99	0.02	8.25	0.01	0.68	0.00	353.32	0.04	0.73	0.00
+1.8.4.8	"Phosphoadenylyl-sulfate reductase (thioredoxin)."	1	0.01	191.30	0.01	0.01	0.00	0.40	0.00	190.55	0.02	0.34	0.00
+3.5.5.1	"Nitrilase."	1	0.01	29.33	0.00	0.02	0.00	3.64	0.00	24.90	0.00	0.78	0.00
+7.4.2.10	"ABC-type glutathione transporter."	2	0.02	52.05	0.00	0.06	0.00	6.67	0.00	43.73	0.00	1.58	0.00
+2.1.3.-	"Carboxy- and carbamoyltransferases."	1	0.01	13.15	0.00	0.26	0.00	0.00	0.00	12.83	0.00	0.06	0.00
+2.5.1.49	"O-acetylhomoserine aminocarboxypropyltransferase."	1	0.01	62.26	0.00	0.00	0.00	0.17	0.00	62.06	0.01	0.02	0.00
+6.1.1.6	"Lysine--tRNA ligase."	4	0.04	102.03	0.01	10.65	0.01	7.10	0.00	81.31	0.01	2.98	0.00
+3.1.3.15	"Histidinol-phosphatase."	5	0.05	449.18	0.03	12.64	0.01	7.67	0.00	427.01	0.05	1.86	0.00
+2.1.2.10	"Aminomethyltransferase."	3	0.03	185.38	0.01	8.15	0.01	3.41	0.00	172.79	0.02	1.04	0.00
+1.3.5.1	"Succinate dehydrogenase (quinone)."	6	0.06	567.36	0.04	1.99	0.00	8.47	0.00	553.43	0.06	3.48	0.00
+2.7.1.39	"Homoserine kinase."	1	0.01	28.95	0.00	9.91	0.01	1.36	0.00	14.98	0.00	2.70	0.00
+2.7.2.1	"Acetate kinase."	4	0.04	205.85	0.01	12.39	0.01	0.09	0.00	193.00	0.02	0.37	0.00
+4.3.2.2	"Adenylosuccinate lyase."	4	0.04	308.97	0.02	1.07	0.00	0.72	0.00	306.48	0.03	0.70	0.00
+2.4.2.8	"Hypoxanthine phosphoribosyltransferase."	4	0.04	354.40	0.02	5.77	0.00	0.73	0.00	346.99	0.04	0.91	0.00
+6.1.1.16	"Cysteine--tRNA ligase."	3	0.03	102.75	0.01	12.43	0.01	0.32	0.00	89.58	0.01	0.42	0.00
+4.3.3.7	"4-hydroxy-tetrahydrodipicolinate synthase."	6	0.06	485.31	0.03	27.78	0.02	40.72	0.02	358.09	0.04	58.72	0.02
+2.4.1.64	"Alpha,alpha-trehalose phosphorylase."	1	0.01	50.96	0.00	4.85	0.00	3.43	0.00	42.25	0.00	0.43	0.00
+2.1.1.264	"23S rRNA (guanine(2069)-N(7))-methyltransferase."	1	0.01	13.71	0.00	0.00	0.00	0.01	0.00	12.23	0.00	1.46	0.00
+5.4.99.12	"tRNA pseudouridine(38-40) synthase."	4	0.04	1928.38	0.12	326.49	0.25	585.30	0.27	127.02	0.01	889.57	0.29
+1.10.2.2	"Transferred entry: 7.1.1.8."	2	0.02	215.95	0.01	0.26	0.00	0.43	0.00	214.87	0.02	0.39	0.00
+7.1.1.8	"Quinol--cytochrome-c reductase."	2	0.02	215.95	0.01	0.26	0.00	0.43	0.00	214.87	0.02	0.39	0.00
+3.6.4.8	"Transferred entry: 5.6.1.5."	1	0.01	50.96	0.00	4.85	0.00	3.43	0.00	42.25	0.00	0.43	0.00
+2.4.99.17	"S-adenosylmethionine:tRNA ribosyltransferase-isomerase."	5	0.05	183.05	0.01	3.69	0.00	0.58	0.00	176.96	0.02	1.82	0.00
+2.7.1.191	"Protein-N(pi)-phosphohistidine--D-mannose phosphotransferase."	2	0.02	84.38	0.01	4.53	0.00	0.01	0.00	79.78	0.01	0.07	0.00
+1.10.9.1	"Transferred entry: 7.1.1.6."	1	0.01	70.45	0.00	0.00	0.00	0.03	0.00	70.38	0.01	0.04	0.00
+2.7.7.42	"[Glutamine synthetase] adenylyltransferase."	1	0.01	202.80	0.01	0.00	0.00	0.43	0.00	202.04	0.02	0.33	0.00
+1.14.13.232	"6-methylpretetramide 4-monooxygenase."	1	0.01	69.50	0.00	0.00	0.00	0.02	0.00	69.46	0.01	0.02	0.00
+1.3.1.43	"Arogenate dehydrogenase."	3	0.03	93.22	0.01	0.78	0.00	19.61	0.01	68.29	0.01	4.53	0.00
+5.1.1.-	"Acting on amino acids and derivatives."	3	0.03	1979.18	0.13	325.55	0.25	585.22	0.27	179.06	0.02	889.36	0.29
+1.1.99.-	"With other acceptors."	3	0.03	179.97	0.01	0.35	0.00	4.34	0.00	174.07	0.02	1.20	0.00
+1.2.1.22	"Lactaldehyde dehydrogenase."	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+3.1.3.7	"3'(2'),5'-bisphosphate nucleotidase."	3	0.03	113.86	0.01	0.33	0.00	20.13	0.01	90.25	0.01	3.15	0.00
+2.1.1.45	"Thymidylate synthase."	1	0.01	209.74	0.01	0.01	0.00	0.50	0.00	208.87	0.02	0.36	0.00
+5.4.99.13	"Isobutyryl-CoA mutase."	1	0.01	62.26	0.00	0.00	0.00	0.17	0.00	62.06	0.01	0.02	0.00
+6.1.1.19	"Arginine--tRNA ligase."	4	0.04	211.39	0.01	0.26	0.00	0.48	0.00	210.41	0.02	0.24	0.00
+1.1.1.284 1.1.1.1	""	2	0.02	89.75	0.01	0.03	0.00	4.07	0.00	84.75	0.01	0.90	0.00
+6.1.1.21	"Histidine--tRNA ligase."	3	0.03	119.57	0.01	9.87	0.01	0.24	0.00	109.13	0.01	0.33	0.00
+2.8.4.4	"[Ribosomal protein S12] (aspartate(89)-C(3))-methylthiotransferase."	3	0.03	98.36	0.01	7.20	0.01	1.05	0.00	86.63	0.01	3.48	0.00
+1.14.13.83	"Precorrin-3B synthase."	1	0.01	73.16	0.00	0.00	0.00	0.01	0.00	73.10	0.01	0.04	0.00
+6.3.2.3	"Glutathione synthase."	2	0.02	54.43	0.00	2.57	0.00	0.01	0.00	51.77	0.01	0.08	0.00
+4.2.1.51	"Prephenate dehydratase."	2	0.02	53.23	0.00	0.03	0.00	3.64	0.00	48.79	0.01	0.78	0.00
+3.1.1.3	"Triacylglycerol lipase."	1	0.01	62.26	0.00	0.00	0.00	0.17	0.00	62.06	0.01	0.02	0.00
+1.2.1.-	"With NAD(+) or NADP(+) as acceptor."	11	0.11	2847.44	0.18	311.94	0.24	573.26	0.27	1105.86	0.12	856.39	0.28
+2.1.1.186	"23S rRNA (cytidine(2498)-2'-O)-methyltransferase."	1	0.01	22.08	0.00	0.00	0.00	0.00	0.00	22.07	0.00	0.01	0.00
+4.2.3.4	"3-dehydroquinate synthase."	1	0.01	196.45	0.01	0.00	0.00	0.40	0.00	195.69	0.02	0.35	0.00
+6.1.1.5	"Isoleucine--tRNA ligase."	2	0.02	77.96	0.00	3.27	0.00	0.06	0.00	74.41	0.01	0.22	0.00
+3.4.17.-	"Metallocarboxypeptidases."	5	0.05	680.18	0.04	58.27	0.05	377.80	0.18	154.21	0.02	89.91	0.03
+3.5.4.-	"In cyclic amidines."	4	0.04	219.91	0.01	10.39	0.01	0.07	0.00	209.16	0.02	0.29	0.00
+6.3.2.4	"D-alanine--D-alanine ligase."	4	0.04	106.51	0.01	1.34	0.00	3.75	0.00	98.92	0.01	2.50	0.00
+1.11.1.-	"Peroxidases."	1	0.01	13.71	0.00	0.00	0.00	0.01	0.00	12.23	0.00	1.46	0.00
+1.13.11.27	"4-hydroxyphenylpyruvate dioxygenase."	1	0.01	72.38	0.00	0.00	0.00	0.02	0.00	72.33	0.01	0.03	0.00
+3.1.31.-	"Endoribonucleases active with either ribo- or deoxyribonucleic acids and producing 3'-phosphomonoesters."	1	0.01	25.68	0.00	0.12	0.00	0.11	0.00	25.33	0.00	0.13	0.00
+3.4.11.25	"Beta-peptidyl aminopeptidase."	1	0.01	13.15	0.00	0.00	0.00	0.02	0.00	11.75	0.00	1.38	0.00
+1.1.1.381	"3-hydroxy acid dehydrogenase."	2	0.02	1827.55	0.12	325.55	0.25	585.17	0.27	25.97	0.00	890.86	0.29
+1.5.3.1	"Sarcosine oxidase."	4	0.04	440.93	0.03	0.06	0.00	8.02	0.00	430.66	0.05	2.19	0.00
+3.4.19.-	"Omega peptidases."	1	0.01	60.25	0.00	0.00	0.00	0.13	0.00	60.08	0.01	0.04	0.00
+4.2.1.108	"Ectoine synthase."	1	0.01	13.76	0.00	0.27	0.00	0.03	0.00	13.32	0.00	0.15	0.00
+6.3.1.-	"Acid--ammonia (or amine) ligases (amide synthases)."	2	0.02	116.93	0.01	0.03	0.00	0.23	0.00	116.60	0.01	0.08	0.00
+3.6.1.27	"Undecaprenyl-diphosphate phosphatase."	5	0.05	192.87	0.01	8.25	0.01	3.75	0.00	178.33	0.02	2.54	0.00
+7.1.1.2	"NADH:ubiquinone reductase (H(+)-translocating)."	2	0.02	1535.89	0.10	0.02	0.00	0.00	0.00	1535.54	0.17	0.32	0.00
+2.7.7.56	"tRNA nucleotidyltransferase."	2	0.02	66.25	0.00	17.31	0.01	6.13	0.00	36.43	0.00	6.38	0.00
+4.2.1.117	"2-methylcitrate dehydratase (2-methyl-trans-aconitate forming)."	1	0.01	62.26	0.00	0.00	0.00	0.17	0.00	62.06	0.01	0.02	0.00
+2.4.1.11	"Glycogen(starch) synthase."	1	0.01	92.16	0.01	0.32	0.00	0.58	0.00	90.77	0.01	0.49	0.00
+5.4.99.16	"Maltose alpha-D-glucosyltransferase."	2	0.02	115.96	0.01	1.19	0.00	0.06	0.00	114.42	0.01	0.29	0.00
+1.8.5.-	"With a quinone or similar compound as acceptor."	3	0.03	132.45	0.01	6.90	0.01	6.09	0.00	112.56	0.01	6.90	0.00
+2.6.1.76	"Diaminobutyrate--2-oxoglutarate transaminase."	2	0.02	250.71	0.02	0.01	0.00	0.52	0.00	249.82	0.03	0.36	0.00
+1.1.1.35	"3-hydroxyacyl-CoA dehydrogenase."	5	0.05	156.57	0.01	0.05	0.00	3.64	0.00	150.37	0.02	2.51	0.00
+2.3.1.157	"Glucosamine-1-phosphate N-acetyltransferase."	2	0.02	266.96	0.02	2.49	0.00	0.66	0.00	263.11	0.03	0.70	0.00
+2.1.1.- 2.8.1.-	""	9	0.09	2392.47	0.15	315.31	0.25	566.15	0.26	653.11	0.07	857.91	0.28
+1.3.8.1	"Short-chain acyl-CoA dehydrogenase."	1	0.01	59.33	0.00	0.00	0.00	0.11	0.00	59.17	0.01	0.04	0.00
+1.5.5.1	"Electron-transferring-flavoprotein dehydrogenase."	4	0.04	312.19	0.02	0.06	0.00	3.91	0.00	305.33	0.03	2.89	0.00
+3.2.2.23	"DNA-formamidopyrimidine glycosylase."	3	0.03	159.43	0.01	10.13	0.01	0.11	0.00	147.53	0.02	1.66	0.00
+1.2.1.91	"3-oxo-5,6-dehydrosuberyl-CoA semialdehyde dehydrogenase."	2	0.02	52.45	0.00	0.13	0.00	3.60	0.00	47.73	0.01	0.99	0.00
+3.2.2.15	"DNA-deoxyinosine glycosylase."	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+2.3.1.30	"Serine O-acetyltransferase."	1	0.01	13.57	0.00	0.23	0.00	0.01	0.00	13.23	0.00	0.10	0.00
+2.8.1.8	"Lipoyl synthase."	2	0.02	205.03	0.01	0.01	0.00	0.42	0.00	202.61	0.02	2.00	0.00
+3.2.1.41	"Pullulanase."	1	0.01	50.21	0.00	2.37	0.00	0.01	0.00	47.79	0.01	0.04	0.00
+5.5.1.4	"Inositol-3-phosphate synthase."	1	0.01	13.13	0.00	0.00	0.00	0.02	0.00	11.70	0.00	1.41	0.00
+1.3.1.9	"Enoyl-[acyl-carrier-protein] reductase (NADH)."	2	0.02	216.77	0.01	0.12	0.00	0.54	0.00	215.65	0.02	0.45	0.00
+3.1.11.1	"Exodeoxyribonuclease I."	9	0.09	393.43	0.03	19.71	0.02	17.78	0.01	349.18	0.04	6.75	0.00
+4.2.1.22	"Cystathionine beta-synthase."	4	0.04	96.61	0.01	1.73	0.00	0.49	0.00	92.52	0.01	1.87	0.00
+3.5.1.32	"Hippurate hydrolase."	2	0.02	432.72	0.03	0.03	0.00	1.00	0.00	430.86	0.05	0.83	0.00
+2.4.1.266	"Glucosyl-3-phosphoglycerate synthase."	1	0.01	13.57	0.00	0.23	0.00	0.01	0.00	13.23	0.00	0.10	0.00
+3.5.1.14	"N-acyl-aliphatic-L-amino acid amidohydrolase."	1	0.01	61.51	0.00	2.77	0.00	0.00	0.00	58.63	0.01	0.11	0.00
+2.1.1.297	"Peptide chain release factor N(5)-glutamine methyltransferase."	3	0.03	111.52	0.01	0.00	0.00	0.14	0.00	109.94	0.01	1.44	0.00
+1.13.11.3	"Protocatechuate 3,4-dioxygenase."	2	0.02	51.26	0.00	0.04	0.00	6.69	0.00	43.02	0.00	1.51	0.00
+3.5.1.18	"Succinyl-diaminopimelate desuccinylase."	3	0.03	243.82	0.02	0.13	0.00	4.04	0.00	238.31	0.03	1.34	0.00
+6.3.4.21	"Nicotinate phosphoribosyltransferase."	4	0.04	155.98	0.01	2.50	0.00	3.67	0.00	147.42	0.02	2.38	0.00
+1.1.1.292	"1,5-anhydro-D-fructose reductase (1,5-anhydro-D-mannitol-forming)."	1	0.01	26.43	0.00	0.12	0.00	0.11	0.00	26.14	0.00	0.05	0.00
+3.5.1.126	"Oxamate amidohydrolase."	1	0.01	42.83	0.00	0.30	0.00	16.61	0.01	23.61	0.00	2.31	0.00
+2.4.2.18	"Anthranilate phosphoribosyltransferase."	4	0.04	337.17	0.02	0.93	0.00	0.71	0.00	334.70	0.04	0.84	0.00
+5.1.99.-	"Acting on other compounds."	1	0.01	204.63	0.01	0.01	0.00	0.65	0.00	203.32	0.02	0.64	0.00
+6.2.1.2	"Medium-chain acyl-CoA ligase."	2	0.02	230.40	0.01	0.04	0.00	3.87	0.00	225.43	0.02	1.07	0.00
+1.14.99.63	"Beta-carotene 4-ketolase."	1	0.01	1814.06	0.12	325.55	0.25	585.16	0.27	14.02	0.00	889.33	0.29
+2.6.1.11	"Acetylornithine transaminase."	6	0.06	335.83	0.02	13.89	0.01	9.43	0.00	308.67	0.03	3.83	0.00
+2.7.1.69	"Transferred entry: 2.7.1.191, 2.7.1.192, 2.7.1.193, 2.7.1.194, 2.7.1.195,"	3	0.03	106.46	0.01	4.53	0.00	0.01	0.00	101.85	0.01	0.08	0.00
+1.14.-.-	"Acting on paired donors, with incorporation or reduction of molecular oxygen. The oxygen incorporated need not be derived from O(2)."	5	0.05	306.19	0.02	0.37	0.00	4.10	0.00	300.52	0.03	1.20	0.00
+4.2.1.79	"2-methylcitrate dehydratase."	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+3.4.14.5	"Dipeptidyl-peptidase IV."	2	0.02	99.51	0.01	0.78	0.00	0.21	0.00	98.28	0.01	0.24	0.00
+1.6.99.1	"NADPH dehydrogenase."	1	0.01	25.40	0.00	0.12	0.00	0.10	0.00	25.07	0.00	0.11	0.00
+2.3.1.47	"8-amino-7-oxononanoate synthase."	3	0.03	165.98	0.01	17.86	0.01	1.43	0.00	143.69	0.02	3.00	0.00
+2.8.3.5	"3-oxoacid CoA-transferase."	2	0.02	434.12	0.03	0.02	0.00	0.95	0.00	432.31	0.05	0.84	0.00
+3.4.23.-	"Aspartic endopeptidases."	4	0.04	450.53	0.03	0.24	0.00	16.79	0.01	430.80	0.05	2.69	0.00
+6.2.1.1	"Acetate--CoA ligase."	4	0.04	286.86	0.02	0.80	0.00	4.06	0.00	279.20	0.03	2.79	0.00
+3.5.2.17	"Hydroxyisourate hydrolase."	1	0.01	23.90	0.00	0.00	0.00	0.00	0.00	23.89	0.00	0.00	0.00
+2.3.2.2	"Gamma-glutamyltransferase."	6	0.06	1962.20	0.13	325.62	0.25	588.98	0.27	156.15	0.02	891.46	0.29
+1.4.3.19	"Glycine oxidase."	2	0.02	66.33	0.00	0.91	0.00	0.33	0.00	64.85	0.01	0.24	0.00
+1.1.1.362	"Aklaviketone reductase."	1	0.01	25.00	0.00	0.05	0.00	3.18	0.00	21.08	0.00	0.69	0.00
+3.6.4.13	"RNA helicase."	9	0.09	2246.89	0.14	306.86	0.24	586.74	0.27	494.33	0.05	858.97	0.28
+6.5.1.1	"DNA ligase (ATP)."	5	0.05	535.12	0.03	1.43	0.00	1.29	0.00	531.14	0.06	1.27	0.00
+1.4.99.-	"With other acceptors."	3	0.03	434.16	0.03	0.07	0.00	4.40	0.00	428.15	0.05	1.55	0.00
+2.9.1.1	"L-seryl-tRNA(Sec) selenium transferase."	1	0.01	78.70	0.01	7.86	0.01	0.06	0.00	70.54	0.01	0.25	0.00
+1.13.11.75	"All-trans-8'-apo-beta-carotenal 15,15'-oxygenase."	2	0.02	1886.11	0.12	325.55	0.25	585.19	0.27	86.03	0.01	889.34	0.29
+2.1.2.3	"Phosphoribosylaminoimidazolecarboxamide formyltransferase."	3	0.03	146.13	0.01	0.33	0.00	20.15	0.01	122.48	0.01	3.18	0.00
+1.11.1.9	"Glutathione peroxidase."	2	0.02	38.57	0.00	0.28	0.00	3.19	0.00	34.31	0.00	0.80	0.00
+7.3.2.3	"ABC-type sulfate transporter."	3	0.03	87.97	0.01	0.31	0.00	16.61	0.01	68.73	0.01	2.31	0.00
+1.8.7.1	"Assimilatory sulfite reductase (ferredoxin)."	2	0.02	264.10	0.02	0.01	0.00	0.42	0.00	263.31	0.03	0.36	0.00
+5.1.3.2	"UDP-glucose 4-epimerase."	3	0.03	112.36	0.01	0.26	0.00	0.19	0.00	110.38	0.01	1.54	0.00
+3.1.11.6	"Exodeoxyribonuclease VII."	6	0.06	492.88	0.03	28.32	0.02	44.43	0.02	361.89	0.04	58.25	0.02
+2.5.1.15	"Dihydropteroate synthase."	2	0.02	85.88	0.01	0.02	0.00	3.47	0.00	81.60	0.01	0.79	0.00
+2.3.1.181	"Lipoyl(octanoyl) transferase."	4	0.04	206.88	0.01	9.45	0.01	32.90	0.02	159.43	0.02	5.10	0.00
+1.3.1.78	"Arogenate dehydrogenase (NADP(+))."	1	0.01	27.99	0.00	8.37	0.01	0.30	0.00	18.85	0.00	0.46	0.00
+4.3.1.16	"Threo-3-hydroxy-L-aspartate ammonia-lyase."	2	0.02	42.81	0.00	0.20	0.00	0.28	0.00	42.21	0.00	0.11	0.00
+2.8.4.3	"tRNA-2-methylthio-N(6)-dimethylallyladenosine synthase."	4	0.04	2061.29	0.13	307.20	0.24	564.62	0.26	335.55	0.04	853.92	0.28
+1.5.1.43	"Carboxynorspermidine synthase."	1	0.01	30.93	0.00	0.03	0.00	3.52	0.00	26.54	0.00	0.84	0.00
+3.1.1.23	"Acylglycerol lipase."	1	0.01	27.87	0.00	10.00	0.01	1.26	0.00	13.88	0.00	2.73	0.00
+4.1.1.112	"Oxaloacetate decarboxylase."	1	0.01	13.76	0.00	0.27	0.00	0.03	0.00	13.32	0.00	0.15	0.00
+2.7.1.30	"Glycerol kinase."	4	0.04	299.97	0.02	12.15	0.01	1.61	0.00	281.82	0.03	4.39	0.00
+1.1.1.44	"Phosphogluconate dehydrogenase (NADP(+)-dependent, decarboxylating)."	1	0.01	89.86	0.01	0.35	0.00	0.52	0.00	88.59	0.01	0.41	0.00
+4.4.1.25	"L-cysteate sulfo-lyase."	2	0.02	52.74	0.00	0.27	0.00	0.03	0.00	52.29	0.01	0.15	0.00
+1.3.98.1	"Dihydroorotate oxidase (fumarate)."	2	0.02	50.38	0.00	2.37	0.00	0.00	0.00	47.97	0.01	0.04	0.00
+1.14.13.107	"Limonene 1,2-monooxygenase."	1	0.01	29.33	0.00	0.02	0.00	3.64	0.00	24.90	0.00	0.78	0.00
+3.6.1.23	"dUTP diphosphatase."	3	0.03	79.12	0.01	0.03	0.00	3.52	0.00	74.72	0.01	0.85	0.00
+2.7.7.13	"Mannose-1-phosphate guanylyltransferase."	4	0.04	349.20	0.02	0.30	0.00	1.03	0.00	347.04	0.04	0.83	0.00
+3.5.1.10	"Formyltetrahydrofolate deformylase."	3	0.03	270.06	0.02	0.05	0.00	3.91	0.00	264.98	0.03	1.13	0.00
+3.4.21.88	"Repressor LexA."	8	0.08	325.81	0.02	12.03	0.01	3.70	0.00	308.50	0.03	1.57	0.00
+4.2.1.162	"6-deoxy-6-sulfo-D-gluconate dehydratase."	1	0.01	215.66	0.01	0.02	0.00	0.52	0.00	214.71	0.02	0.41	0.00
+2.3.1.174	"3-oxoadipyl-CoA thiolase."	1	0.01	27.05	0.00	0.01	0.00	3.50	0.00	22.65	0.00	0.88	0.00
+6.3.4.14	"Biotin carboxylase."	5	0.05	210.23	0.01	10.98	0.01	16.62	0.01	178.52	0.02	4.11	0.00
+2.7.1.50	"Hydroxyethylthiazole kinase."	2	0.02	212.64	0.01	0.01	0.00	0.42	0.00	211.88	0.02	0.33	0.00
+4.3.1.19	"Threonine ammonia-lyase."	4	0.04	324.55	0.02	7.89	0.01	4.14	0.00	309.70	0.03	2.82	0.00
+2.1.1.228	"tRNA (guanine(37)-N(1))-methyltransferase."	3	0.03	102.06	0.01	0.04	0.00	4.00	0.00	95.88	0.01	2.14	0.00
+2.3.1.46	"Homoserine O-succinyltransferase."	1	0.01	191.30	0.01	0.01	0.00	0.40	0.00	190.55	0.02	0.34	0.00
+3.1.4.52	"Cyclic-guanylate-specific phosphodiesterase."	1	0.01	25.63	0.00	0.02	0.00	3.34	0.00	21.51	0.00	0.75	0.00
+5.3.3.-	"Transposing C=C bonds."	1	0.01	62.26	0.00	0.00	0.00	0.17	0.00	62.06	0.01	0.02	0.00
+1.6.5.-	"With a quinone or similar compound as acceptor."	1	0.01	54.97	0.00	0.04	0.00	0.13	0.00	54.73	0.01	0.07	0.00
+2.4.1.-	"Hexosyltransferases."	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+3.1.4.53	"3',5'-cyclic-AMP phosphodiesterase."	1	0.01	71.59	0.00	0.00	0.00	0.01	0.00	71.56	0.01	0.02	0.00
+2.7.8.33	"UDP-N-acetylglucosamine--undecaprenyl-phosphate"	1	0.01	49.69	0.00	2.47	0.00	0.00	0.00	47.19	0.01	0.04	0.00
+2.1.1.64	"3-demethylubiquinol 3-O-methyltransferase."	3	0.03	284.34	0.02	0.03	0.00	4.18	0.00	279.00	0.03	1.13	0.00
+2.7.8.39	"Archaetidylinositol phosphate synthase."	1	0.01	13.13	0.00	0.00	0.00	0.02	0.00	11.70	0.00	1.41	0.00
+2.3.1.234	"N(6)-L-threonylcarbamoyladenine synthase."	4	0.04	318.39	0.02	0.03	0.00	0.69	0.00	315.91	0.03	1.76	0.00
+1.14.99.36	"Transferred entry: 1.13.11.63."	1	0.01	61.15	0.00	0.00	0.00	0.15	0.00	60.99	0.01	0.01	0.00
+3.5.2.1	"Barbiturase."	1	0.01	92.16	0.01	0.32	0.00	0.58	0.00	90.77	0.01	0.49	0.00
+3.4.11.-	"Aminopeptidases."	2	0.02	119.61	0.01	7.76	0.01	0.10	0.00	109.81	0.01	1.95	0.00
+3.2.1.-	"Glycosidases, i.e. enzymes hydrolyzing O- and S-glycosyl compounds."	6	0.06	172.32	0.01	1.93	0.00	19.97	0.01	146.90	0.02	3.52	0.00
+3.5.2.7	"Imidazolonepropionase."	2	0.02	40.39	0.00	0.23	0.00	3.52	0.00	35.66	0.00	0.98	0.00
+1.16.1.1	"Mercury(II) reductase."	1	0.01	92.16	0.01	0.32	0.00	0.58	0.00	90.77	0.01	0.49	0.00
+4.1.1.50	"Adenosylmethionine decarboxylase."	1	0.01	105.89	0.01	7.76	0.01	0.08	0.00	97.75	0.01	0.29	0.00
+4.1.3.27	"Anthranilate synthase."	6	0.06	168.08	0.01	0.34	0.00	16.79	0.01	145.73	0.02	5.22	0.00
+2.7.4.2	"Phosphomevalonate kinase."	1	0.01	49.69	0.00	2.47	0.00	0.00	0.00	47.19	0.01	0.04	0.00
+3.6.1.11	"Exopolyphosphatase."	4	0.04	143.42	0.01	0.50	0.00	0.25	0.00	142.43	0.02	0.24	0.00
+4.2.1.47	"GDP-mannose 4,6-dehydratase."	2	0.02	277.36	0.02	0.02	0.00	0.67	0.00	276.00	0.03	0.68	0.00
+5.99.1.3	"Transferred entry: 5.6.2.2."	6	0.06	292.77	0.02	7.71	0.01	0.79	0.00	280.48	0.03	3.79	0.00
+2.8.3.-	"CoA-transferases."	4	0.04	534.54	0.03	4.76	0.00	0.97	0.00	527.88	0.06	0.92	0.00
+1.14.12.15	"Terephthalate 1,2-dioxygenase."	1	0.01	13.34	0.00	0.21	0.00	0.03	0.00	13.00	0.00	0.10	0.00
+7.3.2.2	"ABC-type phosphonate transporter."	1	0.01	12.91	0.00	0.21	0.00	0.00	0.00	12.65	0.00	0.04	0.00
+3.5.1.25	"N-acetylglucosamine-6-phosphate deacetylase."	5	0.05	442.42	0.03	2.92	0.00	1.35	0.00	436.89	0.05	1.25	0.00
+2.8.3.13	"Succinate--hydroxymethylglutarate CoA-transferase."	2	0.02	116.06	0.01	0.33	0.00	0.58	0.00	114.67	0.01	0.49	0.00
+2.7.7.23	"UDP-N-acetylglucosamine diphosphorylase."	2	0.02	266.96	0.02	2.49	0.00	0.66	0.00	263.11	0.03	0.70	0.00
+5.5.1.1	"Muconate cycloisomerase."	1	0.01	215.66	0.01	0.02	0.00	0.52	0.00	214.71	0.02	0.41	0.00
+2.1.1.305	"8-demethyl-8-alpha-L-rhamnosyl tetracenomycin-C 2'-O-methyltransferase."	1	0.01	36.43	0.00	0.62	0.00	0.19	0.00	35.25	0.00	0.37	0.00
+2.4.99.-	"Transferring other glycosyl groups."	5	0.05	1861.40	0.12	301.29	0.23	580.75	0.27	122.35	0.01	857.01	0.28
+3.7.1.-	"In ketonic substances."	1	0.01	25.40	0.00	0.12	0.00	0.10	0.00	25.07	0.00	0.11	0.00
+3.1.3.45	"3-deoxy-manno-octulosonate-8-phosphatase."	1	0.01	13.15	0.00	0.26	0.00	0.00	0.00	12.83	0.00	0.06	0.00
+2.7.7.38	"3-deoxy-manno-octulosonate cytidylyltransferase."	2	0.02	235.69	0.02	0.01	0.00	0.42	0.00	234.93	0.03	0.33	0.00
+2.1.1.185	"23S rRNA (guanosine(2251)-2'-O)-methyltransferase."	2	0.02	275.07	0.02	0.02	0.00	0.64	0.00	273.98	0.03	0.43	0.00
+4.1.2.50	"6-carboxytetrahydropterin synthase."	2	0.02	238.15	0.02	12.04	0.01	40.30	0.02	128.96	0.01	56.86	0.02
+3.1.1.24	"3-oxoadipate enol-lactonase."	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+7.3.2.4	"ABC-type nitrate transporter."	1	0.01	204.63	0.01	0.01	0.00	0.65	0.00	203.32	0.02	0.64	0.00
+2.7.1.47	"D-ribulokinase."	1	0.01	72.38	0.00	0.00	0.00	0.02	0.00	72.33	0.01	0.03	0.00
+1.7.1.13	"PreQ(1) synthase."	2	0.02	76.46	0.00	0.00	0.00	0.12	0.00	76.32	0.01	0.03	0.00
+2.4.1.1	"Glycogen phosphorylase."	2	0.02	84.72	0.01	1.48	0.00	16.67	0.01	63.98	0.01	2.59	0.00
+4.6.1.16	"tRNA-intron lyase."	1	0.01	9.65	0.00	0.00	0.00	0.00	0.00	9.65	0.00	0.00	0.00
+3.4.13.-	"Dipeptidases."	4	0.04	387.82	0.02	12.63	0.01	4.01	0.00	370.11	0.04	1.08	0.00
+3.1.3.89	"5'-deoxynucleotidase."	1	0.01	49.69	0.00	2.47	0.00	0.00	0.00	47.19	0.01	0.04	0.00
+2.3.1.275	"Acyl phosphate:glycerol-3-phosphate acyltransferase."	2	0.02	159.33	0.01	8.13	0.01	0.07	0.00	150.85	0.02	0.27	0.00
+2.4.1.15	"Alpha,alpha-trehalose-phosphate synthase (UDP-forming)."	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+3.5.4.26	"Diaminohydroxyphosphoribosylaminopyrimidine deaminase."	6	0.06	336.48	0.02	21.35	0.02	11.68	0.01	268.64	0.03	34.81	0.01
+3.5.4.13	"dCTP deaminase."	2	0.02	57.31	0.00	0.85	0.00	0.07	0.00	56.15	0.01	0.25	0.00
+4.1.2.58	"2-dehydro-3,6-dideoxy-6-sulfogluconate aldolase."	1	0.01	215.66	0.01	0.02	0.00	0.52	0.00	214.71	0.02	0.41	0.00
+3.4.13.18	"Cytosol nonspecific dipeptidase."	2	0.02	30.96	0.00	0.00	0.00	0.02	0.00	29.51	0.00	1.42	0.00
+1.5.1.40	"8-hydroxy-5-deazaflavin:NADPH oxidoreductase."	1	0.01	13.57	0.00	0.23	0.00	0.01	0.00	13.23	0.00	0.10	0.00
+3.5.4.33	"tRNA(adenine(34)) deaminase."	3	0.03	119.88	0.01	0.87	0.00	0.23	0.00	118.44	0.01	0.33	0.00
+2.5.1.72	"Quinolinate synthase."	3	0.03	315.76	0.02	0.01	0.00	0.54	0.00	313.34	0.03	1.88	0.00
+3.4.11.5	"Prolyl aminopeptidase."	1	0.01	29.33	0.00	0.02	0.00	3.64	0.00	24.90	0.00	0.78	0.00
+6.2.1.30	"Phenylacetate--CoA ligase."	2	0.02	63.48	0.00	0.63	0.00	3.69	0.00	57.91	0.01	1.26	0.00
+2.7.7.60	"2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase."	3	0.03	269.37	0.02	5.92	0.00	0.76	0.00	261.61	0.03	1.09	0.00
+4.1.1.105	"L-tryptophan decarboxylase."	1	0.01	91.39	0.01	0.33	0.00	0.61	0.00	90.02	0.01	0.43	0.00
+1.13.11.1	"Catechol 1,2-dioxygenase."	1	0.01	215.66	0.01	0.02	0.00	0.52	0.00	214.71	0.02	0.41	0.00
+1.14.12.-	"With NADH or NADPH as one donor, and incorporation of two atoms of oxygen into one donor."	2	0.02	244.99	0.02	0.04	0.00	4.16	0.00	239.60	0.03	1.19	0.00
+1.11.1.5	"Cytochrome-c peroxidase."	2	0.02	225.94	0.01	0.01	0.00	0.65	0.00	224.63	0.02	0.65	0.00
+7.2.2.1	"Na(+)-transporting two-sector ATPase."	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+4.2.99.-	"Other carbon-oxygen lyases."	2	0.02	46.02	0.00	0.10	0.00	0.07	0.00	45.75	0.00	0.10	0.00
+2.8.3.20	"Succinyl-CoA--D-citramalate CoA-transferase."	2	0.02	42.68	0.00	0.23	0.00	0.29	0.00	41.99	0.00	0.17	0.00
+4.1.1.20	"Diaminopimelate decarboxylase."	5	0.05	193.93	0.01	10.98	0.01	3.59	0.00	178.12	0.02	1.24	0.00
+3.6.1.1	"Inorganic diphosphatase."	7	0.07	487.79	0.03	5.13	0.00	4.36	0.00	475.82	0.05	2.48	0.00
+2.8.1.13	"tRNA-uridine 2-sulfurtransferase."	3	0.03	192.21	0.01	2.69	0.00	0.69	0.00	188.26	0.02	0.57	0.00
+3.5.-.-	"Acting on carbon-nitrogen bonds, other than peptide bonds."	11	0.11	864.55	0.06	21.91	0.02	18.16	0.01	819.78	0.09	4.71	0.00
+1.17.1.9	"Formate dehydrogenase."	2	0.02	217.69	0.01	0.01	0.00	0.40	0.00	216.93	0.02	0.35	0.00
+2.1.1.197	"Malonyl-[acyl-carrier protein] O-methyltransferase."	2	0.02	116.90	0.01	0.30	0.00	16.62	0.01	97.66	0.01	2.32	0.00
+2.1.2.2	"Phosphoribosylglycinamide formyltransferase."	3	0.03	303.70	0.02	0.02	0.00	0.68	0.00	302.55	0.03	0.46	0.00
+7.2.1.2	"Ferredoxin--NAD(+) oxidoreductase (Na(+)-transporting)."	1	0.01	49.69	0.00	2.47	0.00	0.00	0.00	47.19	0.01	0.04	0.00
+4.2.3.1	"Threonine synthase."	3	0.03	259.34	0.02	10.14	0.01	1.86	0.00	244.14	0.03	3.21	0.00
+4.2.1.-	"Hydro-lyases."	7	0.07	402.24	0.03	10.61	0.01	4.67	0.00	385.40	0.04	1.57	0.00
+1.2.1.12	"Glyceraldehyde-3-phosphate dehydrogenase (phosphorylating)."	11	0.11	2590.68	0.17	304.48	0.24	592.86	0.28	834.58	0.09	858.75	0.28
+3.4.11.14	"Cytosol alanyl aminopeptidase."	1	0.01	66.73	0.00	0.00	0.00	0.15	0.00	66.54	0.01	0.04	0.00
+2.4.2.10	"Orotate phosphoribosyltransferase."	2	0.02	76.04	0.00	19.65	0.02	2.61	0.00	48.20	0.01	5.57	0.00
+2.7.9.1	"Pyruvate, phosphate dikinase."	1	0.01	25.63	0.00	0.02	0.00	3.34	0.00	21.51	0.00	0.75	0.00
+1.14.99.-	"Miscellaneous."	8	0.08	434.40	0.03	29.01	0.02	0.32	0.00	402.70	0.04	2.36	0.00
+4.1.3.30	"Methylisocitrate lyase."	1	0.01	60.25	0.00	0.00	0.00	0.13	0.00	60.08	0.01	0.04	0.00
+4.2.1.12	"Phosphogluconate dehydratase."	2	0.02	52.68	0.00	0.20	0.00	0.00	0.00	52.43	0.01	0.05	0.00
+2.6.1.45	"Serine--glyoxylate transaminase."	1	0.01	23.90	0.00	0.00	0.00	0.00	0.00	23.89	0.00	0.00	0.00
+2.5.1.140	"N-(2-amino-2-carboxyethyl)-L-glutamate synthase."	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+3.1.3.27	"Phosphatidylglycerophosphatase."	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+2.6.1.57	"Aromatic-amino-acid transaminase."	3	0.03	262.65	0.02	0.14	0.00	0.63	0.00	261.34	0.03	0.55	0.00
+1.1.1.310	"(S)-sulfolactate dehydrogenase."	1	0.01	215.66	0.01	0.02	0.00	0.52	0.00	214.71	0.02	0.41	0.00
+1.11.1.15	"Peroxiredoxin."	12	0.12	4297.10	0.27	646.17	0.50	1190.48	0.55	658.92	0.07	1801.53	0.59
+3.1.1.5	"Lysophospholipase."	2	0.02	57.27	0.00	0.33	0.00	0.18	0.00	56.57	0.01	0.19	0.00
+2.1.1.207	"tRNA (cytidine(34)-2'-O)-methyltransferase."	2	0.02	157.86	0.01	6.47	0.01	0.13	0.00	150.94	0.02	0.31	0.00
+2.3.1.79	"Maltose O-acetyltransferase."	1	0.01	209.74	0.01	0.01	0.00	0.50	0.00	208.87	0.02	0.36	0.00
+3.5.4.4	"Adenosine deaminase."	3	0.03	126.54	0.01	0.91	0.00	0.19	0.00	125.22	0.01	0.22	0.00
+3.6.5.n1	"Elongation factor 4."	5	0.05	292.10	0.02	3.06	0.00	1.33	0.00	285.44	0.03	2.29	0.00
+4.99.1.12	"Pyridinium-3,5-bisthiocarboxylic acid mononucleotide nickel chelatase."	1	0.01	89.86	0.01	0.35	0.00	0.52	0.00	88.59	0.01	0.41	0.00
+1.1.1.330	"Very-long-chain 3-oxoacyl-CoA reductase."	1	0.01	66.58	0.00	0.06	0.00	0.34	0.00	65.19	0.01	0.98	0.00
+1.1.1.337	"L-2-hydroxycarboxylate dehydrogenase (NAD(+))."	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+1.11.1.22	"Hydroperoxy fatty acid reductase."	2	0.02	276.11	0.02	0.04	0.00	0.60	0.00	275.01	0.03	0.45	0.00
+3.6.1.13	"ADP-ribose diphosphatase."	3	0.03	184.70	0.01	8.13	0.01	0.31	0.00	175.99	0.02	0.28	0.00
+2.4.1.25	"4-alpha-glucanotransferase."	3	0.03	109.72	0.01	1.53	0.00	19.85	0.01	85.06	0.01	3.28	0.00
+4.1.1.97	"2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase."	1	0.01	23.90	0.00	0.00	0.00	0.00	0.00	23.89	0.00	0.00	0.00
+3.5.1.19	"Nicotinamidase."	1	0.01	13.71	0.00	0.00	0.00	0.01	0.00	12.23	0.00	1.46	0.00
+3.6.5.-	"Acting on GTP; involved in cellular and subcellular movement."	9	0.09	480.38	0.03	5.42	0.00	1.53	0.00	469.66	0.05	3.77	0.00
+2.4.2.7	"Adenine phosphoribosyltransferase."	2	0.02	62.04	0.00	2.37	0.00	0.00	0.00	59.62	0.01	0.05	0.00
+1.2.1.59	"Glyceraldehyde-3-phosphate dehydrogenase (NAD(P)(+)) (phosphorylating)."	1	0.01	105.89	0.01	7.76	0.01	0.08	0.00	97.75	0.01	0.29	0.00
+6.3.4.12	"Glutamate--methylamine ligase."	1	0.01	91.39	0.01	0.33	0.00	0.61	0.00	90.02	0.01	0.43	0.00
+3.1.3.102	"FMN hydrolase."	1	0.01	25.47	0.00	0.12	0.00	0.14	0.00	25.10	0.00	0.12	0.00
+2.4.1.182	"Lipid-A-disaccharide synthase."	1	0.01	27.20	0.00	9.77	0.01	1.08	0.00	13.70	0.00	2.65	0.00
+3.2.2.9	"Adenosylhomocysteine nucleosidase."	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+2.1.1.173	"23S rRNA (guanine(2445)-N(2))-methyltransferase."	2	0.02	209.30	0.01	0.01	0.00	0.44	0.00	207.06	0.02	1.79	0.00
+1.16.-.-	"Oxidizing metal ions."	1	0.01	13.70	0.00	0.20	0.00	0.00	0.00	13.45	0.00	0.04	0.00
+3.5.4.25	"GTP cyclohydrolase II."	6	0.06	423.57	0.03	10.96	0.01	17.17	0.01	392.32	0.04	3.11	0.00
+2.3.3.9	"Malate synthase."	2	0.02	79.12	0.01	7.69	0.01	0.11	0.00	70.93	0.01	0.39	0.00
+1.1.1.100	"3-oxoacyl-[acyl-carrier-protein] reductase."	6	0.06	203.78	0.01	4.82	0.00	3.73	0.00	192.89	0.02	2.34	0.00
+4.1.1.23	"Orotidine-5'-phosphate decarboxylase."	3	0.03	119.98	0.01	3.28	0.00	16.80	0.01	97.18	0.01	2.72	0.00
+1.5.1.-	"With NAD(+) or NADP(+) as acceptor."	1	0.01	13.90	0.00	0.00	0.00	0.02	0.00	12.46	0.00	1.42	0.00
+1.8.3.1	"Sulfite oxidase."	2	0.02	406.19	0.03	0.02	0.00	0.90	0.00	404.56	0.04	0.71	0.00
+3.6.3.-	"Acting on acid anhydrides; catalyzing transmembrane movement of substances."	42	0.40	6107.76	0.39	647.48	0.50	1143.84	0.53	2591.40	0.28	1725.04	0.57
+1.1.1.271	"GDP-L-fucose synthase."	1	0.01	204.63	0.01	0.01	0.00	0.65	0.00	203.32	0.02	0.64	0.00
+2.4.1.129	"Peptidoglycan glycosyltransferase."	11	0.11	834.15	0.05	11.29	0.01	5.25	0.00	814.99	0.09	2.62	0.00
+3.6.3.27	"Transferred entry: 7.3.2.1."	4	0.04	183.06	0.01	0.12	0.00	0.20	0.00	181.05	0.02	1.68	0.00
+6.5.1.2	"DNA ligase (NAD(+))."	4	0.04	196.76	0.01	0.32	0.00	0.70	0.00	195.21	0.02	0.52	0.00
+3.1.2.12	"S-formylglutathione hydrolase."	2	0.02	256.74	0.02	0.01	0.00	0.57	0.00	255.82	0.03	0.34	0.00
+3.1.1.32	"Phospholipase A(1)."	1	0.01	21.24	0.00	0.00	0.00	0.00	0.00	21.23	0.00	0.00	0.00
+1.8.2.3	"Sulfide-cytochrome-c reductase (flavocytochrome c)."	2	0.02	222.89	0.01	0.27	0.00	0.50	0.00	221.70	0.02	0.42	0.00
+1.2.99.10	"4,4'-diapolycopenoate synthase."	1	0.01	86.60	0.01	8.13	0.01	0.05	0.00	78.17	0.01	0.24	0.00
+2.3.1.1	"Amino-acid N-acetyltransferase."	5	0.05	458.16	0.03	14.13	0.01	6.25	0.00	434.30	0.05	3.48	0.00
+2.8.5.2	"L-cysteine S-thiosulfotransferase."	2	0.02	222.89	0.01	0.27	0.00	0.50	0.00	221.70	0.02	0.42	0.00
+1.1.1.133	"dTDP-4-dehydrorhamnose reductase."	3	0.03	321.56	0.02	0.05	0.00	0.87	0.00	319.92	0.03	0.72	0.00
+2.7.1.49	"Hydroxymethylpyrimidine kinase."	4	0.04	464.01	0.03	0.04	0.00	0.92	0.00	462.32	0.05	0.73	0.00
+2.1.1.37	"DNA (cytosine-5-)-methyltransferase."	1	0.01	64.16	0.00	0.77	0.00	0.81	0.00	61.40	0.01	1.17	0.00
+2.6.99.2	"Pyridoxine 5'-phosphate synthase."	2	0.02	68.60	0.00	0.03	0.00	0.10	0.00	67.07	0.01	1.40	0.00
+5.5.1.25	"3,6-anhydro-L-galactonate cycloisomerase."	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+1.5.-.-	"Acting on the CH-NH group of donors."	1	0.01	209.74	0.01	0.01	0.00	0.50	0.00	208.87	0.02	0.36	0.00
+2.5.1.9	"Riboflavin synthase."	5	0.05	358.45	0.02	10.40	0.01	0.46	0.00	346.97	0.04	0.63	0.00
+4.1.1.36 6.3.2.5	""	3	0.03	107.66	0.01	3.25	0.00	3.58	0.00	99.70	0.01	1.12	0.00
+1.17.99.6	"Epoxyqueuosine reductase."	2	0.02	138.55	0.01	6.47	0.01	0.01	0.00	131.77	0.01	0.29	0.00
+4.2.99.18	"DNA-(apurinic or apyrimidinic site) lyase."	2	0.02	289.11	0.02	0.01	0.00	0.50	0.00	288.16	0.03	0.44	0.00
+5.3.3.8	"Delta(3)-Delta(2)-enoyl-CoA isomerase."	1	0.01	22.08	0.00	0.00	0.00	0.00	0.00	22.07	0.00	0.01	0.00
+4.1.1.11	"Aspartate 1-decarboxylase."	2	0.02	91.76	0.01	0.13	0.00	0.25	0.00	91.25	0.01	0.13	0.00
+3.1.1.93	"Mycophenolic acid acyl-glucuronide esterase."	1	0.01	196.45	0.01	0.00	0.00	0.40	0.00	195.69	0.02	0.35	0.00
+3.1.3.21	"Glycerol-1-phosphatase."	1	0.01	8.20	0.00	0.00	0.00	0.00	0.00	8.20	0.00	0.00	0.00
+3.1.13.1	"Exoribonuclease II."	5	0.05	340.66	0.02	1.12	0.00	27.61	0.01	305.65	0.03	6.28	0.00
+3.6.-.-	"Acting on acid anhydrides."	13	0.13	792.61	0.05	12.42	0.01	16.72	0.01	753.49	0.08	9.98	0.00
+2.8.2.-	"Sulfotransferases."	1	0.01	59.41	0.00	0.00	0.00	0.12	0.00	59.27	0.01	0.02	0.00
+6.1.1.1	"Tyrosine--tRNA ligase."	6	0.06	951.16	0.06	68.29	0.05	378.28	0.18	415.46	0.05	89.14	0.03
+6.3.4.2	"CTP synthase (glutamine hydrolyzing)."	3	0.03	272.49	0.02	4.86	0.00	4.09	0.00	262.76	0.03	0.78	0.00
+2.7.8.28	"Phosphoenolpyruvate transferase."	2	0.02	41.21	0.00	0.48	0.00	0.17	0.00	40.35	0.00	0.21	0.00
+1.5.1.3	"Dihydrofolate reductase."	1	0.01	209.74	0.01	0.01	0.00	0.50	0.00	208.87	0.02	0.36	0.00
+2.1.1.191	"23S rRNA (cytosine(1962)-C(5))-methyltransferase."	1	0.01	38.98	0.00	0.00	0.00	0.00	0.00	38.97	0.00	0.01	0.00
+2.7.1.40	"Pyruvate kinase."	4	0.04	243.24	0.02	10.14	0.01	0.11	0.00	232.64	0.03	0.36	0.00
+2.5.1.3	"Thiamine phosphate synthase."	5	0.05	493.92	0.03	0.04	0.00	1.10	0.00	490.76	0.05	2.03	0.00
+4.1.99.22	"GTP 3',8-cyclase."	2	0.02	295.46	0.02	7.98	0.01	0.71	0.00	285.86	0.03	0.91	0.00
+3.6.3.41	"Transferred entry: 7.6.2.5."	13	0.13	608.73	0.04	30.82	0.02	5.82	0.00	556.85	0.06	15.24	0.01
+3.2.2.27	"Uracil-DNA glycosylase."	3	0.03	133.78	0.01	2.37	0.00	0.18	0.00	131.15	0.01	0.07	0.00
+1.2.1.72	"Erythrose-4-phosphate dehydrogenase."	1	0.01	27.75	0.00	0.00	0.00	0.00	0.00	27.75	0.00	0.00	0.00
+1.1.1.390	"Sulfoquinovose 1-dehydrogenase."	1	0.01	215.66	0.01	0.02	0.00	0.52	0.00	214.71	0.02	0.41	0.00
+3.1.2.-	"Thiolester hydrolases."	7	0.07	295.31	0.02	18.12	0.01	8.59	0.00	263.69	0.03	4.92	0.00
+2.7.1.21	"Thymidine kinase."	1	0.01	34.27	0.00	0.00	0.00	0.00	0.00	34.26	0.00	0.00	0.00
+5.4.4.2 4.1.3.-	""	1	0.01	92.95	0.01	0.00	0.00	0.04	0.00	92.89	0.01	0.02	0.00
+1.1.1.304	"Diacetyl reductase ((S)-acetoin forming)."	1	0.01	195.59	0.01	0.01	0.00	0.42	0.00	194.83	0.02	0.33	0.00
+3.2.2.16 3.2.2.9	""	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+1.2.1.2	"Transferred entry: 1.17.1.9."	3	0.03	434.75	0.03	0.02	0.00	0.87	0.00	433.08	0.05	0.77	0.00
+2.1.1.166	"23S rRNA (uridine(2552)-2'-O)-methyltransferase."	1	0.01	60.25	0.00	0.00	0.00	0.13	0.00	60.08	0.01	0.04	0.00
+2.5.1.6	"Methionine adenosyltransferase."	3	0.03	82.18	0.01	2.57	0.00	0.01	0.00	79.52	0.01	0.08	0.00
+2.1.-.-	"Transferring one-carbon groups."	1	0.01	49.61	0.00	0.56	0.00	18.40	0.01	27.66	0.00	2.99	0.00
+6.3.4.19	"tRNA(Ile)-lysidine synthetase."	3	0.03	146.85	0.01	3.28	0.00	0.19	0.00	143.15	0.02	0.24	0.00
+3.5.4.26 1.1.1.193	""	2	0.02	116.57	0.01	10.96	0.01	11.61	0.01	59.49	0.01	34.52	0.01
+1.1.2.-	"With a cytochrome as acceptor."	1	0.01	204.63	0.01	0.01	0.00	0.65	0.00	203.32	0.02	0.64	0.00
+3.4.19.13	"Glutathione gamma-glutamate hydrolase."	6	0.06	2174.79	0.14	328.14	0.26	586.04	0.27	370.44	0.04	890.17	0.29
+4.3.2.1	"Argininosuccinate lyase."	11	0.11	949.40	0.06	72.44	0.06	388.15	0.18	395.94	0.04	92.87	0.03
+2.3.3.5	"2-methylcitrate synthase."	1	0.01	60.25	0.00	0.00	0.00	0.13	0.00	60.08	0.01	0.04	0.00
+2.7.2.2	"Carbamate kinase."	1	0.01	92.16	0.01	0.32	0.00	0.58	0.00	90.77	0.01	0.49	0.00
+2.6.1.17	"Succinyldiaminopimelate transaminase."	1	0.01	25.40	0.00	0.12	0.00	0.10	0.00	25.07	0.00	0.11	0.00
+2.7.8.7	"Holo-[acyl-carrier-protein] synthase."	4	0.04	389.15	0.02	0.61	0.00	22.48	0.01	361.80	0.04	4.26	0.00
+6.2.1.25	"Benzoate--CoA ligase."	1	0.01	92.95	0.01	0.00	0.00	0.04	0.00	92.89	0.01	0.02	0.00
+3.5.2.19	"Streptothricin hydrolase."	1	0.01	92.16	0.01	0.32	0.00	0.58	0.00	90.77	0.01	0.49	0.00
+4.1.3.1	"Isocitrate lyase."	1	0.01	59.33	0.00	0.00	0.00	0.11	0.00	59.17	0.01	0.04	0.00
+3.4.24.71	"Endothelin-converting enzyme 1."	1	0.01	59.33	0.00	0.00	0.00	0.11	0.00	59.17	0.01	0.04	0.00
+4.1.3.6	"Citrate (pro-3S)-lyase."	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+1.14.19.-	"With oxidation of a pair of donors resulting in the reduction of molecular oxygen to two molecules of water."	3	0.03	124.04	0.01	0.00	0.00	0.04	0.00	122.42	0.01	1.58	0.00
+2.7.7.-	"Nucleotidyltransferases."	11	0.11	436.77	0.03	0.59	0.00	23.77	0.01	406.76	0.04	5.64	0.00
+5.4.2.11	"Phosphoglycerate mutase (2,3-diphosphoglycerate-dependent)."	1	0.01	50.96	0.00	4.85	0.00	3.43	0.00	42.25	0.00	0.43	0.00
+1.1.1.41	"Isocitrate dehydrogenase (NAD(+))."	2	0.02	116.93	0.01	0.03	0.00	0.23	0.00	116.60	0.01	0.08	0.00
+2.5.1.130	"2-carboxy-1,4-naphthoquinone phytyltransferase."	1	0.01	73.16	0.00	0.00	0.00	0.01	0.00	73.10	0.01	0.04	0.00
+2.7.4.9	"dTMP kinase."	6	0.06	403.84	0.03	21.13	0.02	35.90	0.02	325.53	0.04	21.28	0.01
+3.4.23.36	"Signal peptidase II."	2	0.02	73.76	0.00	0.33	0.00	20.13	0.01	50.15	0.01	3.15	0.00
+4.-.-.-	"Lyases."	11	0.11	4225.70	0.27	568.93	0.44	1175.38	0.55	683.93	0.07	1797.45	0.59
+1.5.1.42	"FMN reductase (NADH)."	2	0.02	216.70	0.01	0.13	0.00	0.51	0.00	215.62	0.02	0.44	0.00
+5.3.1.16	"1-(5-phosphoribosyl)-5-"	1	0.01	216.75	0.01	0.12	0.00	0.65	0.00	215.33	0.02	0.66	0.00
+2.7.7.3	"Pantetheine-phosphate adenylyltransferase."	4	0.04	308.86	0.02	2.37	0.00	0.56	0.00	304.12	0.03	1.81	0.00
+2.7.7.27	"Glucose-1-phosphate adenylyltransferase."	2	0.02	67.83	0.00	0.35	0.00	19.79	0.01	44.69	0.00	3.00	0.00
+2.7.2.7	"Butyrate kinase."	3	0.03	145.84	0.01	10.39	0.01	0.06	0.00	135.11	0.01	0.28	0.00
+2.1.1.n11	"Methylphosphotriester-DNA--[protein]-cysteine S-methyltransferase."	1	0.01	21.24	0.00	0.00	0.00	0.00	0.00	21.23	0.00	0.00	0.00
+3.1.2.28	"1,4-dihydroxy-2-naphthoyl-CoA hydrolase."	2	0.02	1802.86	0.12	298.41	0.23	564.00	0.26	87.32	0.01	853.12	0.28
+1.5.1.20	"Methylenetetrahydrofolate reductase (NAD(P)H)."	2	0.02	41.45	0.00	0.20	0.00	0.00	0.00	41.20	0.00	0.04	0.00
+2.6.1.51	"Serine--pyruvate transaminase."	2	0.02	104.98	0.01	0.32	0.00	0.60	0.00	102.24	0.01	1.83	0.00
+2.1.1.33	"tRNA (guanine(46)-N(7))-methyltransferase."	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+2.3.1.19	"Phosphate butyryltransferase."	3	0.03	145.84	0.01	10.39	0.01	0.06	0.00	135.11	0.01	0.28	0.00
+3.5.4.16	"GTP cyclohydrolase I."	2	0.02	146.01	0.01	8.13	0.01	0.17	0.00	137.44	0.01	0.27	0.00
+1.3.8.7	"Medium-chain acyl-CoA dehydrogenase."	2	0.02	97.55	0.01	0.03	0.00	0.11	0.00	97.36	0.01	0.06	0.00
+4.1.2.4	"Deoxyribose-phosphate aldolase."	2	0.02	65.76	0.00	2.49	0.00	0.10	0.00	63.03	0.01	0.13	0.00
+4.3.1.27	"Threo-3-hydroxy-D-aspartate ammonia-lyase."	1	0.01	89.86	0.01	0.35	0.00	0.52	0.00	88.59	0.01	0.41	0.00
+4.2.1.99	"2-methylisocitrate dehydratase."	1	0.01	62.26	0.00	0.00	0.00	0.17	0.00	62.06	0.01	0.02	0.00
+2.3.1.269	"Apolipoprotein N-acyltransferase."	2	0.02	266.62	0.02	4.87	0.00	3.95	0.00	256.96	0.03	0.84	0.00
+2.3.1.57	"Diamine N-acetyltransferase."	1	0.01	17.05	0.00	0.00	0.00	0.00	0.00	17.05	0.00	0.00	0.00
+6.2.-.-	"Forming carbon-sulfur bonds."	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+1.14.11.1	"Gamma-butyrobetaine dioxygenase."	1	0.01	26.43	0.00	0.12	0.00	0.11	0.00	26.14	0.00	0.05	0.00
+5.1.99.6	"NAD(P)H-hydrate epimerase."	2	0.02	53.85	0.00	2.37	0.00	0.02	0.00	50.02	0.01	1.45	0.00
+1.8.-.-	"Acting on a sulfur group of donors."	2	0.02	115.54	0.01	18.04	0.01	1.41	0.00	93.15	0.01	2.94	0.00
+3.1.22.4	"Crossover junction endodeoxyribonuclease."	4	0.04	106.08	0.01	1.21	0.00	0.30	0.00	102.95	0.01	1.63	0.00
+7.1.2.2	"H(+)-transporting two-sector ATPase."	9	0.09	351.91	0.02	12.12	0.01	2.10	0.00	330.96	0.04	6.72	0.00
+1.17.5.2	"Caffeine dehydrogenase."	1	0.01	92.16	0.01	0.32	0.00	0.58	0.00	90.77	0.01	0.49	0.00
+3.5.1.128	"Deaminated glutathione amidase."	2	0.02	101.71	0.01	0.02	0.00	3.65	0.00	97.23	0.01	0.81	0.00
+1.5.5.2	"Proline dehydrogenase."	3	0.03	291.23	0.02	0.01	0.00	0.62	0.00	290.21	0.03	0.39	0.00
+5.1.1.7	"Diaminopimelate epimerase."	2	0.02	208.93	0.01	0.22	0.00	0.45	0.00	207.84	0.02	0.43	0.00
+7.1.3.1	"H(+)-exporting diphosphatase."	1	0.01	50.96	0.00	4.85	0.00	3.43	0.00	42.25	0.00	0.43	0.00
+1.6.99.-	"With other acceptors."	1	0.01	50.21	0.00	2.37	0.00	0.01	0.00	47.79	0.01	0.04	0.00
+3.5.2.9	"5-oxoprolinase (ATP-hydrolyzing)."	2	0.02	30.20	0.00	0.00	0.00	0.02	0.00	28.80	0.00	1.39	0.00
+1.1.1.38	"Malate dehydrogenase (oxaloacetate-decarboxylating)."	1	0.01	105.89	0.01	7.76	0.01	0.08	0.00	97.75	0.01	0.29	0.00
+1.14.99.44	"Diapolycopene oxygenase."	1	0.01	86.60	0.01	8.13	0.01	0.05	0.00	78.17	0.01	0.24	0.00
+1.2.1.11	"Aspartate-semialdehyde dehydrogenase."	4	0.04	236.71	0.02	7.89	0.01	0.19	0.00	228.27	0.02	0.36	0.00
+5.6.2.3	""	11	0.11	572.02	0.04	23.67	0.02	17.48	0.01	524.25	0.06	6.62	0.00
+6.3.5.4	"Asparagine synthase (glutamine-hydrolyzing)."	1	0.01	28.60	0.00	0.03	0.00	3.93	0.00	23.76	0.00	0.88	0.00
+2.7.4.6	"Nucleoside-diphosphate kinase."	3	0.03	180.54	0.01	8.17	0.01	0.18	0.00	171.87	0.02	0.32	0.00
+6.3.1.5	"NAD(+) synthase."	4	0.04	231.69	0.01	10.56	0.01	16.60	0.01	201.92	0.02	2.61	0.00
+3.5.3.7	"Guanidinobutyrase."	1	0.01	38.98	0.00	0.00	0.00	0.00	0.00	38.97	0.00	0.01	0.00
+3.5.4.28	"S-adenosylhomocysteine deaminase."	2	0.02	262.21	0.02	0.00	0.00	0.55	0.00	261.31	0.03	0.35	0.00
+6.2.1.n3	"Malonate--CoA ligase."	1	0.01	42.14	0.00	0.24	0.00	16.39	0.01	23.21	0.00	2.31	0.00
+1.7.1.4	"Nitrite reductase (NAD(P)H)."	2	0.02	409.26	0.03	0.03	0.00	1.29	0.00	406.65	0.04	1.29	0.00
+2.7.1.130	"Tetraacyldisaccharide 4'-kinase."	1	0.01	29.16	0.00	0.03	0.00	3.61	0.00	24.78	0.00	0.76	0.00
+1.4.4.2	"Glycine dehydrogenase (aminomethyl-transferring)."	5	0.05	326.95	0.02	16.31	0.01	3.59	0.00	305.69	0.03	1.35	0.00
+1.1.1.412	"2-alkyl-3-oxoalkanoate reductase."	1	0.01	66.73	0.00	0.00	0.00	0.15	0.00	66.54	0.01	0.04	0.00
+2.2.1.7	"1-deoxy-D-xylulose-5-phosphate synthase."	4	0.04	378.79	0.02	20.51	0.02	44.70	0.02	255.13	0.03	58.43	0.02
+2.1.1.181	"23S rRNA (adenine(1618)-N(6))-methyltransferase."	1	0.01	27.87	0.00	10.00	0.01	1.26	0.00	13.88	0.00	2.73	0.00
+4.2.1.96	"4a-hydroxytetrahydrobiopterin dehydratase."	4	0.04	313.16	0.02	0.86	0.00	0.62	0.00	311.06	0.03	0.62	0.00
+6.2.1.12	"4-coumarate--CoA ligase."	1	0.01	13.76	0.00	0.27	0.00	0.03	0.00	13.32	0.00	0.15	0.00
+2.8.1.10	"Thiazole synthase."	3	0.03	63.85	0.00	0.95	0.00	0.54	0.00	59.51	0.01	2.85	0.00
+1.2.1.98	"2-hydroxy-2-methylpropanal dehydrogenase."	1	0.01	27.05	0.00	0.01	0.00	3.50	0.00	22.65	0.00	0.88	0.00
+6.3.2.1	"Pantoate--beta-alanine ligase (AMP-forming)."	1	0.01	37.23	0.00	0.91	0.00	0.06	0.00	36.09	0.00	0.18	0.00
+2.1.1.11	"Magnesium protoporphyrin IX methyltransferase."	1	0.01	69.50	0.00	0.00	0.00	0.02	0.00	69.46	0.01	0.02	0.00
+2.1.1.298	"Ribosomal protein L3 N(5)-glutamine methyltransferase."	1	0.01	21.24	0.00	0.00	0.00	0.00	0.00	21.23	0.00	0.00	0.00
+1.1.1.193	"5-amino-6-(5-phosphoribosylamino)uracil reductase."	6	0.06	336.48	0.02	21.35	0.02	11.68	0.01	268.64	0.03	34.81	0.01
+1.1.3.21	"Glycerol-3-phosphate oxidase."	1	0.01	50.21	0.00	2.37	0.00	0.01	0.00	47.79	0.01	0.04	0.00
+2.7.6.1	"Ribose-phosphate diphosphokinase."	4	0.04	326.04	0.02	2.58	0.00	0.56	0.00	322.45	0.04	0.45	0.00
+2.3.1.247	"3-keto-5-aminohexanoate cleavage enzyme."	2	0.02	241.29	0.02	0.04	0.00	3.87	0.00	236.22	0.03	1.16	0.00
+3.1.2.30	"(3S)-malyl-CoA thioesterase."	2	0.02	247.68	0.02	0.14	0.00	4.17	0.00	241.87	0.03	1.50	0.00
+1.17.7.3	"(E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase (flavodoxin)."	2	0.02	246.98	0.02	0.79	0.00	0.54	0.00	245.08	0.03	0.57	0.00
+3.2.2.4	"AMP nucleosidase."	1	0.01	28.60	0.00	0.03	0.00	3.93	0.00	23.76	0.00	0.88	0.00
+2.7.1.4	"Fructokinase."	1	0.01	72.38	0.00	0.00	0.00	0.02	0.00	72.33	0.01	0.03	0.00
+1.6.5.2	"NAD(P)H dehydrogenase (quinone)."	3	0.03	114.56	0.01	0.52	0.00	0.20	0.00	113.55	0.01	0.29	0.00
+6.1.1.4	"Leucine--tRNA ligase."	3	0.03	379.26	0.02	0.34	0.00	1.24	0.00	376.84	0.04	0.84	0.00
+4.1.1.35	"UDP-glucuronate decarboxylase."	1	0.01	13.13	0.00	0.00	0.00	0.02	0.00	11.70	0.00	1.41	0.00
+3.5.3.17	"Guanidinopropionase."	1	0.01	52.34	0.00	0.42	0.00	0.34	0.00	50.97	0.01	0.61	0.00
+3.4.22.70	"Sortase A."	1	0.01	25.68	0.00	0.12	0.00	0.11	0.00	25.33	0.00	0.13	0.00
+6.1.1.7	"Alanine--tRNA ligase."	3	0.03	78.55	0.01	2.42	0.00	3.20	0.00	70.86	0.01	2.07	0.00
+5.4.2.6	"Beta-phosphoglucomutase."	2	0.02	99.58	0.01	0.12	0.00	0.12	0.00	99.24	0.01	0.09	0.00
+3.6.1.65	"(d)CTP diphosphatase."	2	0.02	257.14	0.02	0.86	0.00	0.54	0.00	255.12	0.03	0.62	0.00
+1.17.2.1	"Nicotinate dehydrogenase (cytochrome)."	2	0.02	57.89	0.00	19.82	0.02	2.72	0.00	29.96	0.00	5.39	0.00
+6.1.1.-	"Ligases forming aminoacyl-tRNA and related compounds."	4	0.04	371.50	0.02	2.38	0.00	0.92	0.00	367.45	0.04	0.75	0.00
+2.5.1.26	"Alkylglycerone-phosphate synthase."	1	0.01	25.40	0.00	0.12	0.00	0.10	0.00	25.07	0.00	0.11	0.00
+2.7.3.9	"Phosphoenolpyruvate--protein phosphotransferase."	3	0.03	265.61	0.02	2.37	0.00	0.43	0.00	262.43	0.03	0.37	0.00
+5.4.99.9	"UDP-galactopyranose mutase."	1	0.01	42.83	0.00	0.30	0.00	16.61	0.01	23.61	0.00	2.31	0.00
+5.4.99.60	"Cobalt-precorrin-8 methylmutase."	1	0.01	74.07	0.00	0.00	0.00	0.01	0.00	74.05	0.01	0.01	0.00
+3.5.4.11	"Pterin deaminase."	1	0.01	202.80	0.01	0.00	0.00	0.43	0.00	202.04	0.02	0.33	0.00
+6.1.1.14	"Glycine--tRNA ligase."	2	0.02	1808.26	0.12	283.07	0.22	587.19	0.27	39.74	0.00	898.26	0.30
+5.3.1.22	"Hydroxypyruvate isomerase."	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+4.2.1.20	"Tryptophan synthase."	9	0.09	2191.79	0.14	300.53	0.23	581.05	0.27	453.98	0.05	856.23	0.28
+1.5.8.4	"Dimethylglycine dehydrogenase."	1	0.01	29.33	0.00	0.02	0.00	3.64	0.00	24.90	0.00	0.78	0.00
+3.4.19.5	"Beta-aspartyl-peptidase."	2	0.02	73.96	0.00	0.00	0.00	0.14	0.00	72.31	0.01	1.50	0.00
+3.4.24.-	"Metalloendopeptidases."	31	0.30	2589.05	0.17	115.56	0.09	414.96	0.19	1953.92	0.21	104.62	0.03
+6.3.2.10	"UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase."	3	0.03	256.70	0.02	8.38	0.01	0.59	0.00	247.01	0.03	0.72	0.00
+6.3.3.1	"Phosphoribosylformylglycinamidine cyclo-ligase."	4	0.04	519.36	0.03	0.04	0.00	1.20	0.00	517.25	0.06	0.86	0.00
+3.8.1.5	"Haloalkane dehalogenase."	1	0.01	12.91	0.00	0.21	0.00	0.00	0.00	12.65	0.00	0.04	0.00
+6.1.1.2	"Tryptophan--tRNA ligase."	2	0.02	22.96	0.00	0.02	0.00	0.24	0.00	21.36	0.00	1.34	0.00
+3.5.1.53	"N-carbamoylputrescine amidase."	1	0.01	54.97	0.00	0.04	0.00	0.13	0.00	54.73	0.01	0.07	0.00
+2.3.1.168	"Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase."	5	0.05	208.56	0.01	11.28	0.01	0.24	0.00	196.42	0.02	0.61	0.00
+6.4.1.2	"Acetyl-CoA carboxylase."	10	0.10	857.59	0.05	20.32	0.02	1.52	0.00	832.45	0.09	3.29	0.00
+2.1.1.13	"Methionine synthase."	2	0.02	105.48	0.01	20.89	0.02	22.86	0.01	43.70	0.00	18.04	0.01
+3.5.4.9	"Methenyltetrahydrofolate cyclohydrolase."	3	0.03	169.55	0.01	16.54	0.01	0.48	0.00	151.76	0.02	0.78	0.00
+3.2.2.24	"ADP-ribosyl-[dinitrogen reductase] hydrolase."	1	0.01	72.80	0.00	0.00	0.00	0.01	0.00	72.76	0.01	0.02	0.00
+3.1.4.16	"2',3'-cyclic-nucleotide 2'-phosphodiesterase."	5	0.05	390.44	0.02	20.12	0.02	5.29	0.00	360.54	0.04	4.49	0.00
+3.1.2.6	"Hydroxyacylglutathione hydrolase."	3	0.03	136.60	0.01	5.07	0.00	3.45	0.00	127.58	0.01	0.50	0.00
+1.2.1.3	"Aldehyde dehydrogenase (NAD(+))."	4	0.04	181.68	0.01	0.13	0.00	0.26	0.00	181.16	0.02	0.13	0.00
+2.5.1.32	"15-cis-phytoene synthase."	2	0.02	103.65	0.01	8.13	0.01	0.05	0.00	95.22	0.01	0.25	0.00
+2.4.1.352	"Glucosylglycerate phosphorylase."	1	0.01	13.57	0.00	0.23	0.00	0.01	0.00	13.23	0.00	0.10	0.00
+6.3.3.2	"5-formyltetrahydrofolate cyclo-ligase."	2	0.02	303.35	0.02	8.24	0.01	0.71	0.00	293.50	0.03	0.90	0.00
+3.6.1.9	"Nucleotide diphosphatase."	5	0.05	1864.32	0.12	318.18	0.25	566.49	0.26	119.80	0.01	859.84	0.28
+1.3.1.83	"Geranylgeranyl diphosphate reductase."	2	0.02	38.15	0.00	0.05	0.00	3.19	0.00	32.83	0.00	2.08	0.00
+1.1.-.-	"Acting on the CH-OH group of donors."	10	0.10	1161.37	0.07	2.40	0.00	2.20	0.00	1155.17	0.13	1.60	0.00
+4.2.1.116	"3-hydroxypropionyl-CoA dehydratase."	7	0.07	413.25	0.03	1.11	0.00	19.31	0.01	389.23	0.04	3.60	0.00
+4.1.1.-	"Carboxy-lyases."	3	0.03	119.18	0.01	0.09	0.00	0.62	0.00	118.30	0.01	0.17	0.00
+1.17.7.1	"(E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase (ferredoxin)."	2	0.02	246.98	0.02	0.79	0.00	0.54	0.00	245.08	0.03	0.57	0.00
+5.1.1.13	"Aspartate racemase."	1	0.01	13.76	0.00	0.27	0.00	0.03	0.00	13.32	0.00	0.15	0.00
+1.1.1.262	"4-hydroxythreonine-4-phosphate dehydrogenase."	2	0.02	51.80	0.00	0.00	0.00	0.02	0.00	50.43	0.01	1.34	0.00
+1.8.1.4	"Dihydrolipoyl dehydrogenase."	8	0.08	354.80	0.02	12.91	0.01	0.35	0.00	339.36	0.04	2.18	0.00
+4.2.1.151	"Chorismate dehydratase."	1	0.01	86.60	0.01	8.13	0.01	0.05	0.00	78.17	0.01	0.24	0.00
+3.2.2.20	"DNA-3-methyladenine glycosylase I."	1	0.01	61.51	0.00	2.77	0.00	0.00	0.00	58.63	0.01	0.11	0.00
+7.2.2.-	"Linked to the hydrolysis of a nucleoside triphosphate."	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+1.1.1.393	"3-beta-hydroxycholanate 3-dehydrogenase (NADP(+))."	1	0.01	12.91	0.00	0.21	0.00	0.00	0.00	12.65	0.00	0.04	0.00
+2.4.2.9	"Uracil phosphoribosyltransferase."	5	0.05	163.74	0.01	13.69	0.01	1.17	0.00	145.75	0.02	3.13	0.00
+6.1.1.9	"Valine--tRNA ligase."	2	0.02	113.10	0.01	2.37	0.00	0.02	0.00	110.65	0.01	0.07	0.00
+1.3.99.1	"Deleted entry."	1	0.01	36.00	0.00	0.85	0.00	0.07	0.00	34.84	0.00	0.24	0.00
+3.2.1.20	"Alpha-glucosidase."	2	0.02	95.85	0.01	0.12	0.00	0.13	0.00	95.45	0.01	0.14	0.00
+2.1.1.17	"Phosphatidylethanolamine N-methyltransferase."	2	0.02	209.17	0.01	0.23	0.00	0.44	0.00	208.06	0.02	0.43	0.00
+6.3.1.20	"Lipoate--protein ligase."	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+3.5.3.26	"(S)-ureidoglycine aminohydrolase."	1	0.01	23.90	0.00	0.00	0.00	0.00	0.00	23.89	0.00	0.00	0.00
+1.5.1.37	"FAD reductase (NADH)."	1	0.01	13.15	0.00	0.26	0.00	0.00	0.00	12.83	0.00	0.06	0.00
+4.2.1.150	"Short-chain-enoyl-CoA hydratase."	2	0.02	42.25	0.00	0.00	0.00	0.29	0.00	40.51	0.00	1.45	0.00
+5.4.99.61	"Precorrin-8X methylmutase."	1	0.01	73.16	0.00	0.00	0.00	0.01	0.00	73.10	0.01	0.04	0.00
+5.1.3.14	"UDP-N-acetylglucosamine 2-epimerase (non-hydrolyzing)."	1	0.01	37.25	0.00	0.78	0.00	0.04	0.00	36.21	0.00	0.22	0.00
+4.1.1.96	"Carboxynorspermidine decarboxylase."	1	0.01	30.93	0.00	0.03	0.00	3.52	0.00	26.54	0.00	0.84	0.00
+1.3.8.14	"L-prolyl-[peptidyl-carrier protein] dehydrogenase."	1	0.01	13.15	0.00	0.26	0.00	0.00	0.00	12.83	0.00	0.06	0.00
+1.11.1.6	"Catalase."	2	0.02	233.19	0.01	1.19	0.00	0.46	0.00	230.92	0.03	0.62	0.00
+6.3.1.2	"Glutamine synthetase."	5	0.05	228.33	0.01	13.40	0.01	3.62	0.00	209.93	0.02	1.39	0.00
+7.6.2.5	"ABC-type heme transporter."	1	0.01	61.65	0.00	0.00	0.00	0.14	0.00	61.46	0.01	0.04	0.00
+2.7.4.25	"(d)CMP kinase."	2	0.02	127.32	0.01	10.49	0.01	0.06	0.00	116.49	0.01	0.28	0.00
+6.3.5.7	"Glutaminyl-tRNA synthase (glutamine-hydrolyzing)."	7	0.07	820.02	0.05	0.74	0.00	18.66	0.01	795.04	0.09	5.58	0.00
+4.1.1.44	"4-carboxymuconolactone decarboxylase."	3	0.03	83.84	0.01	0.02	0.00	3.89	0.00	79.03	0.01	0.89	0.00
+4.1.1.6	"Cis-aconitate decarboxylase."	2	0.02	58.21	0.00	0.00	0.00	0.55	0.00	57.52	0.01	0.14	0.00
+2.1.3.2	"Aspartate carbamoyltransferase."	4	0.04	177.34	0.01	12.91	0.01	1.14	0.00	160.38	0.02	2.92	0.00
+1.13.11.4	"Gentisate 1,2-dioxygenase."	2	0.02	60.26	0.00	0.05	0.00	7.15	0.00	51.44	0.01	1.62	0.00
+2.7.1.202	"Protein-N(pi)-phosphohistidine--D-fructose phosphotransferase."	1	0.01	22.08	0.00	0.00	0.00	0.00	0.00	22.07	0.00	0.01	0.00
+3.1.3.71	"2-phosphosulfolactate phosphatase."	2	0.02	38.60	0.00	0.12	0.00	0.16	0.00	36.80	0.00	1.53	0.00
+1.1.1.103	"L-threonine 3-dehydrogenase."	4	0.04	266.40	0.02	8.34	0.01	0.69	0.00	256.61	0.03	0.77	0.00
+1.4.1.1	"Alanine dehydrogenase."	2	0.02	204.61	0.01	0.21	0.00	0.45	0.00	203.51	0.02	0.44	0.00
+1.13.11.2	"Catechol 2,3-dioxygenase."	1	0.01	42.19	0.00	2.26	0.00	0.00	0.00	39.89	0.00	0.03	0.00
+2.5.1.77	"Transferred entry: 2.5.1.147."	2	0.02	41.21	0.00	0.48	0.00	0.17	0.00	40.35	0.00	0.21	0.00
+6.3.2.31	"Coenzyme F420-0:L-glutamate ligase."	2	0.02	41.21	0.00	0.48	0.00	0.17	0.00	40.35	0.00	0.21	0.00
+3.5.2.3	"Dihydroorotase."	3	0.03	145.97	0.01	3.14	0.00	0.18	0.00	142.35	0.02	0.29	0.00
+5.5.1.2	"3-carboxy-cis,cis-muconate cycloisomerase."	2	0.02	58.27	0.00	0.03	0.00	3.88	0.00	53.54	0.01	0.82	0.00
+2.6.1.18	"Beta-alanine--pyruvate transaminase."	1	0.01	202.80	0.01	0.00	0.00	0.43	0.00	202.04	0.02	0.33	0.00
+1.8.4.12	"Peptide-methionine (R)-S-oxide reductase."	4	0.04	201.23	0.01	10.53	0.01	16.67	0.01	171.43	0.02	2.60	0.00
+1.2.1.8	"Betaine-aldehyde dehydrogenase."	2	0.02	282.69	0.02	0.34	0.00	1.01	0.00	280.58	0.03	0.76	0.00
+4.3.3.6	"Pyridoxal 5'-phosphate synthase (glutamine hydrolyzing)."	2	0.02	34.10	0.00	0.00	0.00	0.00	0.00	34.10	0.00	0.01	0.00
+2.1.1.269	"Dimethylsulfoniopropionate demethylase."	1	0.01	25.03	0.00	0.13	0.00	0.10	0.00	24.72	0.00	0.09	0.00
+6.2.1.3	"Long-chain-fatty-acid--CoA ligase."	9	0.09	642.72	0.04	20.47	0.02	7.42	0.00	612.67	0.07	2.16	0.00
+3.5.1.124	"Protein deglycase."	2	0.02	170.87	0.01	8.18	0.01	0.63	0.00	161.31	0.02	0.74	0.00
+1.1.1.36	"Acetoacetyl-CoA reductase."	3	0.03	141.33	0.01	8.15	0.01	3.67	0.00	128.44	0.01	1.07	0.00
+7.2.2.4	"ABC-type Na(+) transporter."	1	0.01	12.82	0.00	0.00	0.00	0.02	0.00	11.46	0.00	1.33	0.00
+7.6.2.2	"ABC-type xenobiotic transporter."	1	0.01	78.70	0.01	7.86	0.01	0.06	0.00	70.54	0.01	0.25	0.00
+2.6.-.-	"Transferring nitrogenous groups."	2	0.02	233.80	0.01	0.12	0.00	0.65	0.00	232.38	0.03	0.66	0.00
+6.3.4.3	"Formate--tetrahydrofolate ligase."	2	0.02	111.63	0.01	8.25	0.01	0.15	0.00	102.89	0.01	0.34	0.00
+2.3.1.37	"5-aminolevulinate synthase."	1	0.01	209.74	0.01	0.01	0.00	0.50	0.00	208.87	0.02	0.36	0.00
+1.6.5.5	"NADPH:quinone reductase."	2	0.02	119.99	0.01	0.36	0.00	4.54	0.00	113.79	0.01	1.31	0.00
+3.1.3.85	"Glucosyl-3-phosphoglycerate phosphatase."	1	0.01	91.39	0.01	0.33	0.00	0.61	0.00	90.02	0.01	0.43	0.00
+3.1.11.2	"Exodeoxyribonuclease III."	5	0.05	563.83	0.04	17.30	0.01	3.52	0.00	536.73	0.06	6.27	0.00
+2.5.1.30	"Heptaprenyl diphosphate synthase."	2	0.02	99.72	0.01	8.13	0.01	0.07	0.00	89.87	0.01	1.66	0.00
+5.3.1.8	"Mannose-6-phosphate isomerase."	4	0.04	346.59	0.02	0.17	0.00	0.97	0.00	344.64	0.04	0.81	0.00
+6.2.1.26	"o-succinylbenzoate--CoA ligase."	1	0.01	29.33	0.00	0.02	0.00	3.64	0.00	24.90	0.00	0.78	0.00
+3.4.21.92	"Endopeptidase Clp."	2	0.02	1894.97	0.12	325.55	0.25	585.21	0.27	94.85	0.01	889.36	0.29
+5.4.2.10	"Phosphoglucosamine mutase."	2	0.02	73.07	0.00	0.00	0.00	0.15	0.00	71.55	0.01	1.37	0.00
+1.1.98.2	"Glucose-6-phosphate dehydrogenase (coenzyme-F420)."	2	0.02	55.47	0.00	1.41	0.00	0.07	0.00	53.60	0.01	0.39	0.00
+2.1.2.5	"Glutamate formimidoyltransferase."	1	0.01	13.13	0.00	0.00	0.00	0.02	0.00	11.70	0.00	1.41	0.00
+7.1.1.-	"Hydron translocation or charge separation linked to oxidoreductase reactions."	51	0.49	6445.33	0.41	340.38	0.27	603.43	0.28	4587.70	0.50	913.84	0.30
+1.1.1.136	"UDP-N-acetylglucosamine 6-dehydrogenase."	1	0.01	13.13	0.00	0.00	0.00	0.02	0.00	11.70	0.00	1.41	0.00
+4.1.3.4	"Hydroxymethylglutaryl-CoA lyase."	2	0.02	204.87	0.01	0.23	0.00	0.42	0.00	203.78	0.02	0.44	0.00
+3.5.1.41	"Chitin deacetylase."	1	0.01	23.90	0.00	0.00	0.00	0.00	0.00	23.89	0.00	0.00	0.00
+2.3.1.9	"Acetyl-CoA C-acetyltransferase."	5	0.05	135.18	0.01	2.42	0.00	6.98	0.00	122.82	0.01	2.96	0.00
+5.1.1.20	"L-Ala-D/L-Glu epimerase."	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+2.4.99.12	"Lipid IV(A) 3-deoxy-D-manno-octulosonic acid transferase."	1	0.01	25.63	0.00	0.02	0.00	3.34	0.00	21.51	0.00	0.75	0.00
+6.4.1.3	"Propionyl-CoA carboxylase."	2	0.02	114.24	0.01	8.38	0.01	0.22	0.00	105.29	0.01	0.35	0.00
+2.5.1.19	"3-phosphoshikimate 1-carboxyvinyltransferase."	2	0.02	93.79	0.01	5.15	0.00	20.04	0.01	65.86	0.01	2.73	0.00
+2.5.1.90	"All-trans-octaprenyl-diphosphate synthase."	4	0.04	359.62	0.02	0.06	0.00	4.04	0.00	354.27	0.04	1.25	0.00
+3.1.4.-	"Phosphoric diester hydrolases."	4	0.04	284.54	0.02	0.42	0.00	1.20	0.00	281.42	0.03	1.50	0.00
+3.9.1.-	"Acting on phosphorus-nitrogen bonds."	1	0.01	59.41	0.00	0.00	0.00	0.12	0.00	59.27	0.01	0.02	0.00
+2.3.1.180	"Beta-ketoacyl-[acyl-carrier-protein] synthase III."	5	0.05	188.01	0.01	12.52	0.01	1.52	0.00	171.00	0.02	2.96	0.00
+5.4.2.2	"Phosphoglucomutase (alpha-D-glucose-1,6-bisphosphate-dependent)."	4	0.04	202.85	0.01	3.69	0.00	3.82	0.00	193.88	0.02	1.46	0.00
+2.7.8.8	"CDP-diacylglycerol--serine O-phosphatidyltransferase."	1	0.01	37.23	0.00	0.91	0.00	0.06	0.00	36.09	0.00	0.18	0.00
+3.4.21.26	"Prolyl oligopeptidase."	1	0.01	25.68	0.00	0.12	0.00	0.11	0.00	25.33	0.00	0.13	0.00
+3.2.1.28	"Alpha,alpha-trehalase."	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+2.2.1.1	"Transketolase."	6	0.06	1915.98	0.12	308.96	0.24	564.15	0.26	189.35	0.02	853.52	0.28
+3.2.2.31	"Adenine glycosylase."	4	0.04	1915.80	0.12	325.58	0.25	589.22	0.27	109.11	0.01	891.89	0.29
+2.7.11.33	"[Pyruvate, water dikinase] kinase."	2	0.02	76.28	0.00	0.04	0.00	0.13	0.00	76.04	0.01	0.08	0.00
+2.7.7.18	"Nicotinate-nucleotide adenylyltransferase."	5	0.05	407.56	0.03	2.70	0.00	1.20	0.00	401.41	0.04	2.25	0.00
+6.3.5.3	"Phosphoribosylformylglycinamidine synthase."	5	0.05	188.76	0.01	2.79	0.00	0.51	0.00	183.93	0.02	1.53	0.00
+5.4.3.8	"Glutamate-1-semialdehyde 2,1-aminomutase."	2	0.02	85.51	0.01	0.00	0.00	0.03	0.00	84.03	0.01	1.44	0.00
+1.2.1.26	"2,5-dioxovalerate dehydrogenase."	1	0.01	89.86	0.01	0.35	0.00	0.52	0.00	88.59	0.01	0.41	0.00
+3.5.1.28	"N-acetylmuramoyl-L-alanine amidase."	4	0.04	304.99	0.02	2.72	0.00	16.90	0.01	282.55	0.03	2.83	0.00
+3.5.1.68	"N-formylglutamate deformylase."	2	0.02	93.78	0.01	0.01	0.00	3.65	0.00	89.19	0.01	0.92	0.00
+3.7.1.3	"Kynureninase."	1	0.01	61.65	0.00	0.00	0.00	0.14	0.00	61.46	0.01	0.04	0.00
+4.2.1.6	"Galactonate dehydratase."	1	0.01	40.10	0.00	0.00	0.00	0.00	0.00	40.10	0.00	0.00	0.00
+1.5.1.49	"1-pyrroline-2-carboxylate reductase (NAD(P)H)."	2	0.02	220.59	0.01	0.06	0.00	3.60	0.00	215.91	0.02	1.02	0.00
+5.4.2.8	"Phosphomannomutase."	2	0.02	232.27	0.01	0.27	0.00	0.81	0.00	230.44	0.03	0.75	0.00
+1.3.8.-	"With a flavin as acceptor."	6	0.06	216.68	0.01	2.91	0.00	7.30	0.00	204.55	0.02	1.92	0.00
+1.4.1.21	"Aspartate dehydrogenase."	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+7.6.2.11	"ABC-type polyamine transporter."	4	0.04	333.69	0.02	3.62	0.00	17.09	0.01	309.81	0.03	3.16	0.00
+1.13.11.11	"Tryptophan 2,3-dioxygenase."	1	0.01	91.39	0.01	0.33	0.00	0.61	0.00	90.02	0.01	0.43	0.00
+1.-.-.-	"Oxidoreductases."	56	0.54	6979.77	0.45	708.19	0.55	1215.11	0.56	3292.99	0.36	1763.48	0.58
+6.3.5.2	"GMP synthase (glutamine-hydrolyzing)."	1	0.01	50.96	0.00	4.85	0.00	3.43	0.00	42.25	0.00	0.43	0.00
+1.3.1.104	"Enoyl-[acyl-carrier-protein] reductase."	3	0.03	99.61	0.01	0.01	0.00	3.63	0.00	93.68	0.01	2.29	0.00
+3.4.16.4	"Serine-type D-Ala-D-Ala carboxypeptidase."	16	0.15	1380.97	0.09	20.85	0.02	19.08	0.01	1334.79	0.15	6.26	0.00
+5.4.99.22	"23S rRNA pseudouridine(2605) synthase."	3	0.03	186.74	0.01	10.49	0.01	0.17	0.00	175.76	0.02	0.31	0.00
+3.4.13.19	"Membrane dipeptidase."	1	0.01	12.91	0.00	0.21	0.00	0.00	0.00	12.65	0.00	0.04	0.00
+4.2.1.17	"Enoyl-CoA hydratase."	16	0.15	752.09	0.05	11.65	0.01	16.28	0.01	715.74	0.08	8.42	0.00
+5.3.1.8 2.7.7.13	""	3	0.03	321.56	0.02	0.05	0.00	0.87	0.00	319.92	0.03	0.72	0.00
+3.1.1.72	"Acetylxylan esterase."	1	0.01	49.69	0.00	2.47	0.00	0.00	0.00	47.19	0.01	0.04	0.00
+1.2.1.16	"Succinate-semialdehyde dehydrogenase (NAD(P)(+))."	2	0.02	226.52	0.01	0.03	0.00	3.94	0.00	221.38	0.02	1.17	0.00
+1.21.98.1	"Cyclic dehypoxanthinyl futalosine synthase."	1	0.01	105.89	0.01	7.76	0.01	0.08	0.00	97.75	0.01	0.29	0.00
+1.14.16.1	"Phenylalanine 4-monooxygenase."	1	0.01	60.25	0.00	0.00	0.00	0.13	0.00	60.08	0.01	0.04	0.00
+1.14.15.33	"Pikromycin synthase."	1	0.01	209.74	0.01	0.01	0.00	0.50	0.00	208.87	0.02	0.36	0.00
+2.7.1.63	"Polyphosphate--glucose phosphotransferase."	1	0.01	72.38	0.00	0.00	0.00	0.02	0.00	72.33	0.01	0.03	0.00
+1.6.99.3	"NADH dehydrogenase."	6	0.06	224.15	0.01	8.45	0.01	0.86	0.00	212.42	0.02	2.42	0.00
+3.5.1.97	"Acyl-homoserine-lactone acylase."	1	0.01	13.73	0.00	0.00	0.00	0.01	0.00	12.06	0.00	1.66	0.00
+4.2.2.n1	"Peptidoglycan lytic exotransglycosylase."	2	0.02	69.90	0.00	0.00	0.00	0.12	0.00	69.73	0.01	0.05	0.00
+2.7.7.8	"Polyribonucleotide nucleotidyltransferase."	4	0.04	212.62	0.01	10.26	0.01	3.75	0.00	197.46	0.02	1.16	0.00
+1.18.1.3	"Ferredoxin--NAD(+) reductase."	2	0.02	411.25	0.03	0.03	0.00	0.95	0.00	409.54	0.04	0.74	0.00
+1.3.1.84	"Acrylyl-CoA reductase (NADPH)."	2	0.02	44.27	0.00	0.24	0.00	3.54	0.00	39.55	0.00	0.94	0.00
+1.5.1.2	"Pyrroline-5-carboxylate reductase."	2	0.02	113.65	0.01	8.14	0.01	3.55	0.00	100.83	0.01	1.13	0.00
+1.1.1.179	"D-xylose 1-dehydrogenase (NADP(+))."	1	0.01	24.70	0.00	0.10	0.00	0.07	0.00	24.44	0.00	0.09	0.00
+2.7.4.3	"Adenylate kinase."	3	0.03	2036.92	0.13	325.56	0.25	585.68	0.27	234.59	0.03	891.09	0.29
+2.7.7.65	"Diguanylate cyclase."	3	0.03	282.48	0.02	2.64	0.00	0.82	0.00	278.23	0.03	0.79	0.00
+3.6.1.66	"XTP/dITP diphosphatase."	1	0.01	30.93	0.00	0.03	0.00	3.52	0.00	26.54	0.00	0.84	0.00
+1.2.1.83	"3-succinoylsemialdehyde-pyridine dehydrogenase."	2	0.02	72.16	0.00	0.32	0.00	20.25	0.01	48.50	0.01	3.09	0.00
+3.4.11.2	"Membrane alanyl aminopeptidase."	4	0.04	186.25	0.01	5.21	0.00	20.08	0.01	158.14	0.02	2.83	0.00
+5.99.1.2	"Transferred entry: 5.6.2.1."	3	0.03	374.47	0.02	15.73	0.01	0.59	0.00	357.23	0.04	0.92	0.00
+4.2.1.10	"3-dehydroquinate dehydratase."	1	0.01	13.13	0.00	0.00	0.00	0.02	0.00	11.70	0.00	1.41	0.00
+2.7.2.8	"Acetylglutamate kinase."	6	0.06	803.18	0.05	72.00	0.06	383.73	0.18	255.78	0.03	91.66	0.03
+2.1.1.170	"16S rRNA (guanine(527)-N(7))-methyltransferase."	2	0.02	56.61	0.00	0.14	0.00	3.63	0.00	51.87	0.01	0.97	0.00
+5.1.3.34	"Monoglucosyldiacylglycerol epimerase."	1	0.01	71.59	0.00	0.00	0.00	0.01	0.00	71.56	0.01	0.02	0.00
+1.1.1.329	"2-deoxy-scyllo-inosamine dehydrogenase."	1	0.01	72.73	0.00	0.00	0.00	0.02	0.00	72.68	0.01	0.03	0.00
+2.5.1.31	"Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-"	4	0.04	173.07	0.01	10.39	0.01	4.08	0.00	157.33	0.02	1.26	0.00
+2.1.1.72	"Site-specific DNA-methyltransferase (adenine-specific)."	3	0.03	109.39	0.01	1.23	0.00	20.31	0.01	84.59	0.01	3.26	0.00
+1.6.5.12	"Demethylphylloquinone reductase."	1	0.01	1814.06	0.12	325.55	0.25	585.16	0.27	14.02	0.00	889.33	0.29
+3.5.1.88	"Peptide deformylase."	9	0.09	689.80	0.04	9.92	0.01	8.29	0.00	667.61	0.07	3.97	0.00
+6.1.1.18	"Glutamine--tRNA ligase."	2	0.02	24.32	0.00	0.30	0.00	0.35	0.00	23.35	0.00	0.32	0.00
+3.2.1.21	"Beta-glucosidase."	1	0.01	13.76	0.00	0.27	0.00	0.03	0.00	13.32	0.00	0.15	0.00
+2.3.1.8	"Phosphate acetyltransferase."	2	0.02	63.34	0.00	2.37	0.00	0.03	0.00	59.49	0.01	1.45	0.00
+1.1.1.157	"3-hydroxybutyryl-CoA dehydrogenase."	3	0.03	119.23	0.01	0.00	0.00	0.07	0.00	116.34	0.01	2.82	0.00
+3.2.2.-	"Hydrolyzing N-glycosyl compounds."	17	0.16	836.80	0.05	11.89	0.01	33.24	0.02	773.42	0.08	18.25	0.01
+3.1.3.104	"5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase."	2	0.02	119.43	0.01	10.23	0.01	0.06	0.00	108.85	0.01	0.29	0.00
+2.3.1.36	"D-amino-acid N-acetyltransferase."	1	0.01	42.14	0.00	0.24	0.00	16.39	0.01	23.21	0.00	2.31	0.00
+1.1.1.23	"Histidinol dehydrogenase."	4	0.04	201.25	0.01	2.57	0.00	0.03	0.00	198.53	0.02	0.12	0.00
+5.5.1.-	"Intramolecular lyases."	1	0.01	215.66	0.01	0.02	0.00	0.52	0.00	214.71	0.02	0.41	0.00
+1.3.8.8	"Long-chain-acyl-CoA dehydrogenase."	1	0.01	27.05	0.00	0.01	0.00	3.50	0.00	22.65	0.00	0.88	0.00
+3.6.3.25	"Transferred entry: 7.3.2.3."	1	0.01	21.24	0.00	0.00	0.00	0.00	0.00	21.23	0.00	0.00	0.00
+7.4.2.5	"Bacterial ABC-type protein transporter."	2	0.02	144.39	0.01	0.01	0.00	0.03	0.00	144.32	0.02	0.04	0.00
+1.1.1.86	"Ketol-acid reductoisomerase (NADP(+))."	3	0.03	237.71	0.02	0.09	0.00	1.05	0.00	236.02	0.03	0.55	0.00
+2.7.1.56	"1-phosphofructokinase."	1	0.01	22.08	0.00	0.00	0.00	0.00	0.00	22.07	0.00	0.01	0.00
+1.6.5.9	"NADH:ubiquinone reductase (non-electrogenic)."	1	0.01	72.38	0.00	0.00	0.00	0.02	0.00	72.33	0.01	0.03	0.00
+5.4.3.-	"Transferring amino groups."	1	0.01	59.41	0.00	0.00	0.00	0.12	0.00	59.27	0.01	0.02	0.00
+5.3.1.13	"Arabinose-5-phosphate isomerase."	1	0.01	40.10	0.00	0.00	0.00	0.00	0.00	40.10	0.00	0.00	0.00
+2.7.1.15	"Ribokinase."	1	0.01	72.05	0.00	0.00	0.00	0.03	0.00	72.00	0.01	0.02	0.00
+2.1.1.198	"16S rRNA (cytidine(1402)-2'-O)-methyltransferase."	1	0.01	13.15	0.00	0.26	0.00	0.00	0.00	12.83	0.00	0.06	0.00
+3.-.-.-	"Hydrolases."	14	0.13	1070.30	0.07	46.65	0.04	33.18	0.02	954.78	0.10	35.69	0.01
+2.1.3.9	"N-acetylornithine carbamoyltransferase."	1	0.01	556.01	0.04	58.03	0.05	377.67	0.18	31.97	0.00	88.34	0.03
+1.7.2.2	"Nitrite reductase (cytochrome; ammonia-forming)."	2	0.02	74.50	0.00	1.55	0.00	0.09	0.00	72.43	0.01	0.43	0.00
+2.3.1.191	"UDP-3-O-(3-hydroxymyristoyl)glucosamine N-acyltransferase."	1	0.01	191.30	0.01	0.01	0.00	0.40	0.00	190.55	0.02	0.34	0.00
+3.1.26.3	"Ribonuclease III."	2	0.02	129.85	0.01	0.03	0.00	0.09	0.00	129.65	0.01	0.08	0.00
+3.1.21.2	"Deoxyribonuclease IV."	2	0.02	53.88	0.00	2.37	0.00	0.02	0.00	50.07	0.01	1.42	0.00
+3.6.1.7	"Acylphosphatase."	1	0.01	13.57	0.00	0.23	0.00	0.01	0.00	13.23	0.00	0.10	0.00
+4.2.1.113	"o-succinylbenzoate synthase."	3	0.03	112.35	0.01	0.12	0.00	0.16	0.00	110.26	0.01	1.81	0.00
+1.3.99.29	"Phytoene desaturase (zeta-carotene-forming)."	1	0.01	72.80	0.00	0.00	0.00	0.01	0.00	72.76	0.01	0.02	0.00
+2.7.1.23	"NAD(+) kinase."	11	0.11	499.81	0.03	15.24	0.01	7.85	0.00	474.85	0.05	1.87	0.00
+1.3.98.3	"Coproporphyrinogen dehydrogenase."	2	0.02	58.28	0.00	9.94	0.01	4.99	0.00	39.87	0.00	3.48	0.00
+2.7.1.24	"Dephospho-CoA kinase."	6	0.06	316.86	0.02	24.92	0.02	8.51	0.00	279.11	0.03	4.32	0.00
+6.3.2.47	"Dapdiamide synthase."	1	0.01	21.24	0.00	0.00	0.00	0.00	0.00	21.23	0.00	0.00	0.00
+2.7.11.-	"Protein-serine/threonine kinases."	1	0.01	49.69	0.00	2.47	0.00	0.00	0.00	47.19	0.01	0.04	0.00
+2.6.1.13	"Ornithine aminotransferase."	2	0.02	186.58	0.01	6.94	0.01	2.36	0.00	176.20	0.02	1.10	0.00
+4.1.99.3	"Deoxyribodipyrimidine photo-lyase."	5	0.05	225.05	0.01	8.49	0.01	0.29	0.00	215.77	0.02	0.49	0.00
+2.7.1.71	"Shikimate kinase."	2	0.02	203.51	0.01	0.00	0.00	0.49	0.00	202.67	0.02	0.35	0.00
+2.3.1.-	"Transferring groups other than amino-acyl groups."	24	0.23	1456.90	0.09	25.75	0.02	9.69	0.00	1415.85	0.15	5.62	0.00
+2.7.7.23 2.3.1.157	""	2	0.02	266.96	0.02	2.49	0.00	0.66	0.00	263.11	0.03	0.70	0.00
+3.4.14.13	"Gamma-D-glutamyl-L-lysine dipeptidyl-peptidase."	1	0.01	49.61	0.00	0.56	0.00	18.40	0.01	27.66	0.00	2.99	0.00
+3.1.1.99	"6-deoxy-6-sulfogluconolactonase."	1	0.01	215.66	0.01	0.02	0.00	0.52	0.00	214.71	0.02	0.41	0.00
+6.3.4.5	"Argininosuccinate synthase."	8	0.08	1035.40	0.07	71.92	0.06	387.40	0.18	483.54	0.05	92.54	0.03
+1.2.1.31	"L-aminoadipate-semialdehyde dehydrogenase."	2	0.02	69.49	0.00	0.03	0.00	0.09	0.00	67.84	0.01	1.53	0.00
+2.3.1.35	"Glutamate N-acetyltransferase."	5	0.05	458.16	0.03	14.13	0.01	6.25	0.00	434.30	0.05	3.48	0.00
+3.4.11.1	"Leucyl aminopeptidase."	6	0.06	2071.95	0.13	327.02	0.26	604.13	0.28	247.22	0.03	893.58	0.29
+2.4.1.346	"Phosphatidyl-myo-inositol dimannoside synthase."	1	0.01	72.38	0.00	0.00	0.00	0.02	0.00	72.33	0.01	0.03	0.00
+1.4.1.9	"Leucine dehydrogenase."	8	0.08	335.79	0.02	20.53	0.02	1.64	0.00	309.08	0.03	4.53	0.00
+4.2.1.17 5.3.3.8 1.1.1.35 5.1.2.3	""	1	0.01	22.08	0.00	0.00	0.00	0.00	0.00	22.07	0.00	0.01	0.00
+2.7.4.1	"Polyphosphate kinase."	8	0.08	2060.86	0.13	328.50	0.26	592.51	0.28	248.72	0.03	891.13	0.29
+2.7.-.-	"Transferring phosphorus-containing groups."	8	0.08	291.24	0.02	31.26	0.02	11.38	0.01	236.25	0.03	12.35	0.00
+2.7.7.6	"DNA-directed RNA polymerase."	7	0.07	2129.15	0.14	328.22	0.26	601.84	0.28	305.93	0.03	893.16	0.29
+7.-.-.-	"Translocases."	1	0.01	49.69	0.00	2.47	0.00	0.00	0.00	47.19	0.01	0.04	0.00
+3.4.21.102	"C-terminal processing peptidase."	5	0.05	428.58	0.03	7.47	0.01	0.72	0.00	419.78	0.05	0.62	0.00
+1.3.1.98	"UDP-N-acetylmuramate dehydrogenase."	1	0.01	25.63	0.00	0.02	0.00	3.34	0.00	21.51	0.00	0.75	0.00
+1.3.8.12	"(2S)-methylsuccinyl-CoA dehydrogenase."	1	0.01	42.83	0.00	0.30	0.00	16.61	0.01	23.61	0.00	2.31	0.00
+1.5.99.14	"6-hydroxypseudooxynicotine dehydrogenase."	1	0.01	92.16	0.01	0.32	0.00	0.58	0.00	90.77	0.01	0.49	0.00
+5.4.4.2	"Isochorismate synthase."	1	0.01	73.16	0.00	0.00	0.00	0.01	0.00	73.10	0.01	0.04	0.00
+2.1.2.11	"3-methyl-2-oxobutanoate hydroxymethyltransferase."	1	0.01	37.23	0.00	0.91	0.00	0.06	0.00	36.09	0.00	0.18	0.00
+2.6.1.85	"Aminodeoxychorismate synthase."	2	0.02	68.87	0.00	0.04	0.00	0.15	0.00	67.20	0.01	1.49	0.00
+2.6.1.52	"Phosphoserine transaminase."	2	0.02	268.02	0.02	4.86	0.00	3.90	0.00	258.41	0.03	0.85	0.00
+2.3.3.13	"2-isopropylmalate synthase."	1	0.01	25.47	0.00	0.12	0.00	0.14	0.00	25.10	0.00	0.12	0.00
+4.2.1.49	"Urocanate hydratase."	1	0.01	27.05	0.00	0.01	0.00	3.50	0.00	22.65	0.00	0.88	0.00
+2.4.1.332	"1,2-alpha-glucosylglycerol phosphorylase."	1	0.01	26.43	0.00	0.12	0.00	0.11	0.00	26.14	0.00	0.05	0.00
+5.1.3.23	"UDP-2,3-diacetamido-2,3-dideoxyglucuronic acid 2-epimerase."	1	0.01	37.25	0.00	0.78	0.00	0.04	0.00	36.21	0.00	0.22	0.00
+1.1.1.27	"L-lactate dehydrogenase."	3	0.03	165.91	0.01	10.50	0.01	0.34	0.00	154.72	0.02	0.35	0.00
+2.5.1.18	"Glutathione transferase."	4	0.04	155.17	0.01	0.53	0.00	20.13	0.01	131.24	0.01	3.26	0.00
+2.7.1.11	"6-phosphofructokinase."	2	0.02	146.61	0.01	10.13	0.01	0.08	0.00	136.07	0.01	0.33	0.00
+3.5.3.6	"Arginine deiminase."	1	0.01	59.33	0.00	0.00	0.00	0.11	0.00	59.17	0.01	0.04	0.00
+3.4.21.107	"Peptidase Do."	6	0.06	177.54	0.01	12.07	0.01	5.64	0.00	154.92	0.02	4.91	0.00
+5.1.99.5	"Hydantoin racemase."	1	0.01	23.90	0.00	0.00	0.00	0.00	0.00	23.89	0.00	0.00	0.00
+3.1.3.3	"Phosphoserine phosphatase."	1	0.01	217.06	0.01	0.01	0.00	0.47	0.00	216.16	0.02	0.42	0.00
+1.18.1.2	"Ferredoxin--NADP(+) reductase."	4	0.04	1908.85	0.12	285.31	0.22	587.28	0.27	136.62	0.01	899.62	0.30
+2.1.1.163	"Demethylmenaquinone methyltransferase."	2	0.02	99.42	0.01	8.13	0.01	0.08	0.00	89.64	0.01	1.58	0.00
+2.6.1.-	"Transaminases."	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+1.6.5.3	"Transferred entry: 7.1.1.2."	1	0.01	74.07	0.00	0.00	0.00	0.01	0.00	74.05	0.01	0.01	0.00
+3.5.1.16	"Acetylornithine deacetylase."	1	0.01	25.03	0.00	0.13	0.00	0.10	0.00	24.72	0.00	0.09	0.00
+3.1.6.4	"N-acetylgalactosamine-6-sulfatase."	1	0.01	12.91	0.00	0.21	0.00	0.00	0.00	12.65	0.00	0.04	0.00
+2.4.2.29	"tRNA-guanine(34) transglycosylase."	3	0.03	115.69	0.01	2.39	0.00	0.39	0.00	111.48	0.01	1.42	0.00
+2.4.99.16	"Starch synthase (maltosyl-transferring)."	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+5.3.1.9	"Glucose-6-phosphate isomerase."	2	0.02	88.81	0.01	0.00	0.00	0.15	0.00	88.61	0.01	0.05	0.00
+2.4.2.45	"Decaprenyl-phosphate phosphoribosyltransferase."	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+1.14.11.33	"DNA oxidative demethylase."	2	0.02	80.65	0.01	0.00	0.00	0.12	0.00	80.50	0.01	0.03	0.00
+3.1.26.5	"Ribonuclease P."	2	0.02	51.58	0.00	7.31	0.01	1.02	0.00	41.09	0.00	2.16	0.00
+4.2.3.5	"Chorismate synthase."	3	0.03	272.61	0.02	0.04	0.00	0.50	0.00	271.67	0.03	0.40	0.00
+2.4.1.180	"Lipopolysaccharide N-acetylmannosaminouronosyltransferase."	2	0.02	1814.16	0.12	282.97	0.22	590.60	0.27	41.57	0.00	899.01	0.30
+3.4.14.-	"Dipeptidyl-peptidases and tripeptidyl-peptidases."	1	0.01	72.73	0.00	0.00	0.00	0.02	0.00	72.68	0.01	0.03	0.00
+2.4.1.58	"Lipopolysaccharide glucosyltransferase I."	1	0.01	49.69	0.00	2.47	0.00	0.00	0.00	47.19	0.01	0.04	0.00
+2.1.1.199	"16S rRNA (cytosine(1402)-N(4))-methyltransferase."	5	0.05	310.57	0.02	11.01	0.01	0.59	0.00	298.16	0.03	0.82	0.00
+7.1.1.1	"Proton-translocating NAD(P)(+) transhydrogenase."	5	0.05	118.70	0.01	0.34	0.00	8.16	0.00	108.38	0.01	1.81	0.00
+4.1.3.32	"2,3-dimethylmalate lyase."	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+2.3.1.n4	"1-acyl-sn-glycerol-3-phosphate acyltransferase."	2	0.02	127.32	0.01	10.49	0.01	0.06	0.00	116.49	0.01	0.28	0.00
+2.5.1.141	"Heme o synthase."	5	0.05	327.85	0.02	9.96	0.01	1.99	0.00	309.67	0.03	6.23	0.00
+2.1.1.176	"16S rRNA (cytosine(967)-C(5))-methyltransferase."	4	0.04	167.31	0.01	2.68	0.00	16.89	0.01	144.01	0.02	3.73	0.00
+2.5.1.16	"Spermidine synthase."	1	0.01	68.00	0.00	0.00	0.00	0.14	0.00	67.82	0.01	0.03	0.00
+4.1.99.12	"3,4-dihydroxy-2-butanone-4-phosphate synthase."	5	0.05	202.43	0.01	10.96	0.01	16.70	0.01	172.04	0.02	2.73	0.00
+2.1.1.320	"Type II protein arginine methyltransferase."	2	0.02	64.07	0.00	0.30	0.00	16.61	0.01	44.84	0.00	2.31	0.00
+2.1.1.182	"16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase."	3	0.03	102.31	0.01	2.37	0.00	0.03	0.00	98.46	0.01	1.46	0.00
+3.1.11.-	"Exodeoxyribonucleases producing 5'-phosphomonoesters."	2	0.02	100.78	0.01	7.86	0.01	0.06	0.00	92.61	0.01	0.26	0.00
+1.13.11.83	"4-hydroxy-3-prenylphenylpyruvate oxygenase."	1	0.01	13.34	0.00	0.21	0.00	0.03	0.00	13.00	0.00	0.10	0.00
+2.8.1.4	"tRNA uracil 4-sulfurtransferase."	2	0.02	146.61	0.01	10.13	0.01	0.08	0.00	136.07	0.01	0.33	0.00
+2.8.4.5	"tRNA (N(6)-L-threonylcarbamoyladenosine(37)-C(2))-methylthiotransferase."	2	0.02	232.82	0.01	0.91	0.00	0.48	0.00	230.92	0.03	0.51	0.00
+1.2.5.3	"Aerobic carbon monoxide dehydrogenase."	4	0.04	177.97	0.01	0.42	0.00	12.35	0.01	162.06	0.02	3.14	0.00
+6.3.2.13	"UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase."	3	0.03	245.97	0.02	1.17	0.00	0.48	0.00	243.76	0.03	0.57	0.00
+2.7.7.24	"Glucose-1-phosphate thymidylyltransferase."	3	0.03	321.56	0.02	0.05	0.00	0.87	0.00	319.92	0.03	0.72	0.00
+1.3.99.33	"Urocanate reductase."	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+6.3.4.20	"7-cyano-7-deazaguanine synthase."	1	0.01	21.31	0.00	0.00	0.00	0.00	0.00	21.31	0.00	0.01	0.00
+3.4.11.7	"Glutamyl aminopeptidase."	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+2.3.2.-	"Aminoacyltransferases."	2	0.02	104.10	0.01	7.98	0.01	0.16	0.00	95.61	0.01	0.35	0.00
+2.1.3.3	"Ornithine carbamoyltransferase."	4	0.04	169.92	0.01	13.18	0.01	7.28	0.00	147.84	0.02	1.62	0.00
+3.5.4.10	"IMP cyclohydrolase."	3	0.03	146.13	0.01	0.33	0.00	20.15	0.01	122.48	0.01	3.18	0.00
+4.2.1.11	"Phosphopyruvate hydratase."	2	0.02	227.80	0.01	0.05	0.00	3.61	0.00	223.12	0.02	1.02	0.00
+4.1.2.48	"Low-specificity L-threonine aldolase."	1	0.01	196.45	0.01	0.00	0.00	0.40	0.00	195.69	0.02	0.35	0.00
+3.1.3.16	"Protein-serine/threonine phosphatase."	3	0.03	160.87	0.01	4.83	0.00	0.03	0.00	155.88	0.02	0.12	0.00
+2.1.2.9	"Methionyl-tRNA formyltransferase."	6	0.06	383.81	0.02	9.89	0.01	4.32	0.00	366.83	0.04	2.77	0.00
+4.4.1.11	"Methionine gamma-lyase."	2	0.02	73.03	0.00	0.00	0.00	0.13	0.00	71.40	0.01	1.50	0.00
+4.1.2.14	"2-dehydro-3-deoxy-phosphogluconate aldolase."	1	0.01	13.70	0.00	0.20	0.00	0.00	0.00	13.45	0.00	0.04	0.00
+4.3.1.32	"7,8-didemethyl-8-hydroxy-5-deazariboflavin synthase."	2	0.02	41.21	0.00	0.48	0.00	0.17	0.00	40.35	0.00	0.21	0.00
+2.7.7.9	"UTP--glucose-1-phosphate uridylyltransferase."	4	0.04	163.55	0.01	2.79	0.00	20.13	0.01	137.44	0.01	3.19	0.00
+3.2.1.80	"Fructan beta-fructosidase."	1	0.01	17.05	0.00	0.00	0.00	0.00	0.00	17.05	0.00	0.00	0.00
+2.5.1.145	"Phosphatidylglycerol--prolipoprotein diacylglyceryl transferase."	5	0.05	1861.40	0.12	301.29	0.23	580.75	0.27	122.35	0.01	857.01	0.28
+1.17.4.2	"Ribonucleoside-triphosphate reductase (thioredoxin)."	1	0.01	34.27	0.00	0.00	0.00	0.00	0.00	34.26	0.00	0.00	0.00
+1.17.4.1	"Ribonucleoside-diphosphate reductase."	3	0.03	163.45	0.01	8.13	0.01	0.18	0.00	154.87	0.02	0.27	0.00
+2.7.1.48	"Uridine kinase."	2	0.02	54.43	0.00	2.37	0.00	0.02	0.00	50.55	0.01	1.50	0.00
+1.2.1.88	"L-glutamate gamma-semialdehyde dehydrogenase."	5	0.05	374.22	0.02	0.01	0.00	0.64	0.00	371.62	0.04	1.95	0.00
+1.17.1.4	"Xanthine dehydrogenase."	1	0.01	71.59	0.00	0.00	0.00	0.01	0.00	71.56	0.01	0.02	0.00
+3.2.1.52	"Beta-N-acetylhexosaminidase."	6	0.06	327.43	0.02	0.66	0.00	1.41	0.00	322.99	0.04	2.36	0.00
+2.1.2.-	"Hydroxymethyl-, formyl- and related transferases."	2	0.02	72.74	0.00	0.00	0.00	0.17	0.00	72.52	0.01	0.05	0.00
+1.1.1.26	"Glyoxylate reductase."	3	0.03	67.84	0.00	0.52	0.00	3.66	0.00	62.61	0.01	1.05	0.00
+4.1.1.48	"Indole-3-glycerol-phosphate synthase."	3	0.03	132.54	0.01	0.91	0.00	0.06	0.00	131.37	0.01	0.19	0.00
+2.7.4.-	"Phosphotransferases with a phosphate group as acceptor."	5	0.05	2077.82	0.13	334.15	0.26	585.98	0.27	266.09	0.03	891.60	0.29
+3.5.1.108	"UDP-3-O-acyl-N-acetylglucosamine deacetylase."	3	0.03	234.37	0.01	0.28	0.00	3.76	0.00	229.18	0.02	1.15	0.00
+2.3.1.16	"Acetyl-CoA C-acyltransferase."	16	0.15	613.49	0.04	3.16	0.00	31.24	0.01	570.05	0.06	9.05	0.00
+2.4.1.227	"Undecaprenyldiphospho-muramoylpentapeptide beta-N-"	5	0.05	318.36	0.02	10.77	0.01	3.95	0.00	302.06	0.03	1.58	0.00
+2.3.3.15	"Sulfoacetaldehyde acetyltransferase."	1	0.01	29.33	0.00	0.02	0.00	3.64	0.00	24.90	0.00	0.78	0.00
+2.4.2.4	"Thymidine phosphorylase."	1	0.01	215.66	0.01	0.02	0.00	0.52	0.00	214.71	0.02	0.41	0.00
+6.3.2.2 6.3.2.3	""	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+2.3.1.41	"Beta-ketoacyl-[acyl-carrier-protein] synthase I."	2	0.02	406.96	0.03	0.03	0.00	0.93	0.00	405.26	0.04	0.75	0.00
+1.10.3.11	"Ubiquinol oxidase (non-electrogenic)."	1	0.01	13.34	0.00	0.21	0.00	0.03	0.00	13.00	0.00	0.10	0.00
+2.1.1.-	"Methyltransferases."	37	0.36	3582.07	0.23	376.29	0.29	605.32	0.28	1669.61	0.18	930.85	0.31
+4.99.1.1	"Protoporphyrin ferrochelatase."	2	0.02	42.82	0.00	0.02	0.00	3.65	0.00	36.84	0.00	2.31	0.00
+2.4.1.13	"Sucrose synthase."	2	0.02	142.66	0.01	0.00	0.00	0.03	0.00	142.57	0.02	0.06	0.00
+4.6.1.12	"2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase."	2	0.02	233.37	0.01	5.07	0.00	0.69	0.00	226.77	0.02	0.85	0.00
+1.4.1.13	"Glutamate synthase (NADPH)."	7	0.07	325.93	0.02	0.67	0.00	8.02	0.00	314.67	0.03	2.57	0.00
+7.6.2.-	"Linked to the hydrolysis of a nucleoside triphosphate."	1	0.01	120.88	0.01	33.13	0.03	27.40	0.01	27.31	0.00	33.04	0.01
+6.1.1.11	"Serine--tRNA ligase."	2	0.02	82.74	0.01	2.77	0.00	0.00	0.00	79.86	0.01	0.12	0.00
+1.9.3.1	"Cytochrome-c oxidase."	22	0.21	2152.05	0.14	30.11	0.02	22.67	0.01	2080.79	0.23	18.48	0.01
+1.1.5.3	"Glycerol-3-phosphate dehydrogenase."	1	0.01	27.20	0.00	9.77	0.01	1.08	0.00	13.70	0.00	2.65	0.00
+1.2.4.1	"Pyruvate dehydrogenase (acetyl-transferring)."	10	0.10	340.60	0.02	6.85	0.01	1.00	0.00	326.90	0.04	5.84	0.00
+6.1.1.23	"Aspartate--tRNA(Asn) ligase."	2	0.02	271.36	0.02	0.02	0.00	0.80	0.00	269.86	0.03	0.68	0.00
+6.1.1.12	"Aspartate--tRNA ligase."	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+1.3.1.-	"With NAD(+) or NADP(+) as acceptor."	11	0.11	2330.42	0.15	321.85	0.25	593.36	0.28	510.62	0.06	904.58	0.30
+4.2.1.3	"Aconitate hydratase."	7	0.07	296.38	0.02	22.71	0.02	5.41	0.00	264.67	0.03	3.59	0.00
+6.2.1.-	"Acid--thiol ligases."	5	0.05	385.94	0.02	10.40	0.01	93.32	0.04	234.66	0.03	47.55	0.02

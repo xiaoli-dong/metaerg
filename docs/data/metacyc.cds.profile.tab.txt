@@ -1,0 +1,895 @@
+#Pathway_id	Type	Name	ECs	total_family	total_family_found	Count	Count_pct	Abund	Abund_pct	Abund_DLM2	Abund_pct_DLM2	Abund_GEM2	Abund_pct_GEM2	Abund_LCM1	Abund_pct_LCM1	Abund_PLM2	Abund_pct_PLM2
+BIOTIN-BIOSYNTHESIS-PWY	"BIOTIN-SYN; Super-Pathways;"	"biotin biosynthesis I;"	1.1.1.100+2.1.1.-+2.3.1.180+2.3.1.41+2.3.1.47+2.6.1.62+3.1.1.-+4.2.1.59	11	8	61	0.59	4926.75	0.31	414.68	0.32	634.00	0.29	2933.08	0.32	945.00	0.31
+PWY-6427	"Rotenoids-Biosynthesis;"	"rot-2'-enonate biosynthesis;"	2.1.1.-	2	1	37	0.36	3582.07	0.23	376.29	0.29	605.32	0.28	1669.61	0.18	930.85	0.31
+PWY0-662	"Sugar-Phosphate-Biosynthesis;"	"PRPP biosynthesis;"	2.7.6.1	1	1	4	0.04	326.04	0.02	2.58	0.00	0.56	0.00	322.45	0.04	0.45	0.00
+PWY-6316	"POLYKETIDE-SYN;"	"aromatic polyketides biosynthesis;"	2.3.1.-	2	1	24	0.23	1456.90	0.09	25.75	0.02	9.69	0.00	1415.85	0.15	5.62	0.00
+PWY-5987	"QUINONE-SYN;"	"sorgoleone biosynthesis;"	1.-.-.-+1.14.99.-+2.1.1.-+2.3.1.-	4	4	125	1.20	12453.13	0.80	1139.24	0.89	1830.44	0.85	6781.15	0.74	2702.31	0.89
+PWY-3941	"Beta-Alanine-Biosynthesis;"	"&beta;-alanine biosynthesis II;"	2.6.1.18+3.1.2.4+4.2.1.116	6	3	9	0.09	818.85	0.05	1.12	0.00	20.17	0.01	793.31	0.09	4.25	0.00
+PWY0-1298	"Pyrimidine-Degradation; Super-Pathways;"	"superpathway of pyrimidine deoxyribonucleosides degradation;"	2.4.2.4+4.1.2.4+5.4.2.7	5	3	5	0.05	408.74	0.03	13.00	0.01	0.68	0.00	394.23	0.04	0.83	0.00
+PWY-5140	"TERPENOPHENOLICS-SYN;"	"cannabinoid biosynthesis;"	1.3.-.-+2.3.1.-+2.5.1.-	4	3	53	0.51	3296.15	0.21	75.56	0.06	58.16	0.03	3137.48	0.34	24.96	0.01
+PWY-6455	"Cell-Wall-Biosynthesis; Vancomycin-Resistnace;"	"vancomycin resistance II;"	6.3.2.-	3	1	14	0.13	561.22	0.04	10.63	0.01	8.16	0.00	537.48	0.06	4.96	0.00
+PYRIDNUCSYN-PWY	"NAD-SYN;"	"NAD <i>de novo</i> biosynthesis I (from aspartate);"	1.4.3.16+2.4.2.19+2.5.1.72+2.7.7.18+6.3.1.5+6.3.5.1	6	6	17	0.16	1501.48	0.10	13.28	0.01	19.49	0.01	1458.19	0.16	10.51	0.00
+PWY-5354	""	""	2.7.7.-+2.8.1.-+3.5.4.-+3.6.1.-	4	4	42	0.40	7173.65	0.46	947.77	0.74	1745.68	0.81	1870.16	0.20	2610.03	0.86
+PWY-83	"LIGNIN-SYN; Metabolic-Clusters;"	"monolignol glucosides biosynthesis;"	2.4.1.-	2	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+PWY-5345	"Methionine-De-novo-Biosynthesis; Super-Pathways;"	"superpathway of L-methionine biosynthesis (by sulfhydrylation);"	1.1.1.3+1.2.1.11+1.8.4.8+2.1.1.13+2.3.1.31+2.5.1.49+2.6.1.1+2.7.2.4	12	8	21	0.20	1613.19	0.10	54.23	0.04	47.02	0.02	1483.49	0.16	28.45	0.01
+PWY-5116	"FLAVANONES-SYN; FLAVONOID-PHYTOALEXINS;"	"sakuranetin biosynthesis;"	2.1.1.-	1	1	37	0.36	3582.07	0.23	376.29	0.29	605.32	0.28	1669.61	0.18	930.85	0.31
+PWY0-1352	"ANAEROBIC-RESPIRATION; Electron-Transfer; Nitrate-Reduction;"	"nitrate reduction VIII (dissimilatory);"	1.6.5.-	2	1	1	0.01	54.97	0.00	0.04	0.00	0.13	0.00	54.73	0.01	0.07	0.00
+PWY-4821	"Super-Pathways; UDP-Sugar-Biosynthesis;"	"UDP-&alpha;-D-xylose biosynthesis;"	1.1.1.22+4.1.1.35	2	2	3	0.03	230.89	0.01	0.01	0.00	0.68	0.00	226.72	0.02	3.47	0.00
+PWY-6295	""	""	2.3.1.-	1	1	24	0.23	1456.90	0.09	25.75	0.02	9.69	0.00	1415.85	0.15	5.62	0.00
+PWY-5816	"Polyprenyl-Biosynthesis;"	"all <i>trans</i> undecaprenyl diphosphate biosynthesis;"	2.5.1.-	1	1	25	0.24	1699.65	0.11	46.92	0.04	15.45	0.01	1624.03	0.18	13.26	0.00
+PWY0-1415	"Heme-b-Biosynthesis; Super-Pathways;"	"superpathway of heme <i>b</i> biosynthesis from uroporphyrinogen-III;"	1.3.3.3+1.3.3.4+1.3.99.22+4.1.1.37+4.99.1.1	6	5	15	0.14	638.69	0.04	12.78	0.01	19.87	0.01	591.16	0.06	14.88	0.00
+PWY66-373	"SUCROSE-DEG;"	"sucrose degradation V (sucrose &alpha;-glucosidase);"	4.1.2.13+5.1.3.3+5.3.1.1	6	3	13	0.13	1000.13	0.06	6.67	0.01	5.53	0.00	984.73	0.11	3.21	0.00
+PWY-6579	"Guanine-Guanosine-Salvage; Super-Pathways;"	"superpathway of guanine and guanosine salvage;"	2.4.2.1+2.4.2.8	3	2	9	0.09	794.13	0.05	26.50	0.02	3.12	0.00	759.78	0.08	4.73	0.00
+PWY-5691	"Urate-Degradation;"	"urate conversion to allantoin I;"	3.5.2.17	2	1	1	0.01	23.90	0.00	0.00	0.00	0.00	0.00	23.89	0.00	0.00	0.00
+POLYAMSYN-PWY	"Polyamine-Biosynthesis; Super-Pathways;"	"superpathway of polyamine biosynthesis I;"	2.5.1.16+3.5.3.11+4.1.1.19+4.1.1.50	6	4	7	0.07	529.13	0.03	7.77	0.01	0.80	0.00	518.40	0.06	2.16	0.00
+PWY-4381	"Fatty-acid-biosynthesis;"	"fatty acid biosynthesis initiation I;"	2.3.1.180+2.3.1.39+6.4.1.2	3	3	18	0.17	1166.76	0.07	35.36	0.03	3.31	0.00	1121.61	0.12	6.49	0.00
+KDO-LIPASYN-PWY	"Lipid-Biosynthesis;"	"(Kdo)<sub>2</sub>-lipid A biosynthesis I;"	2.3.1.-	1	1	24	0.23	1456.90	0.09	25.75	0.02	9.69	0.00	1415.85	0.15	5.62	0.00
+PWY-6089	"3-Chlorocatechol-Degradation;"	"3-chlorocatechol degradation I (<i>ortho</i>);"	3.1.1.45	2	1	2	0.02	94.61	0.01	0.20	0.00	0.05	0.00	94.28	0.01	0.08	0.00
+CYANCAT-PWY	"Detoxification; NITROGEN-DEG;"	"cyanate degradation;"	4.2.1.1+4.2.1.104	2	2	2	0.02	234.90	0.02	0.27	0.00	0.50	0.00	233.60	0.03	0.52	0.00
+PWY-6028	"Carbohydrates-Degradation;"	"acetoin degradation;"	1.1.1.1	2	1	4	0.04	96.92	0.01	0.06	0.00	7.45	0.00	86.14	0.01	3.26	0.00
+PWY-5940	"Antibiotic-Biosynthesis;"	"streptomycin biosynthesis;"	1.1.1.18+5.4.2.2	12	2	5	0.05	242.95	0.02	3.69	0.00	3.82	0.00	233.98	0.03	1.47	0.00
+PWY-5943	"C40-Carotenoids-Biosynthesis;"	"&beta;-carotene biosynthesis;"	5.5.1.-	1	1	1	0.01	215.66	0.01	0.02	0.00	0.52	0.00	214.71	0.02	0.41	0.00
+P105-PWY	"TCA-VARIANTS;"	"TCA cycle IV (2-oxoglutarate decarboxylase);"	1.1.1.37+1.1.1.42+1.2.1.-+1.3.99.1+2.3.3.9+4.1.3.1+4.2.1.2+4.2.1.3	10	8	32	0.31	3985.63	0.25	360.80	0.28	583.50	0.27	2176.90	0.24	864.43	0.28
+PWY-761	"Siderophores-Biosynthesis;"	"rhizobactin 1021 biosynthesis;"	2.6.1.76	2	1	2	0.02	250.71	0.02	0.01	0.00	0.52	0.00	249.82	0.03	0.36	0.00
+P21-PWY	"Pentose-Phosphate-Cycle;"	"pentose phosphate pathway (partial);"	2.2.1.1+5.1.3.1	2	2	9	0.09	2169.25	0.14	311.34	0.24	564.56	0.26	439.45	0.05	853.90	0.28
+PWY-6413	"TERPENOID-DEG;"	"ginsenoside degradation III;"	2.3.1.-	1	1	24	0.23	1456.90	0.09	25.75	0.02	9.69	0.00	1415.85	0.15	5.62	0.00
+PWY-241	"Photosynthesis;"	"C4 photosynthetic carbon assimilation cycle, NADP-ME type;"	1.1.1.40+2.7.9.1+4.1.1.31	4	3	3	0.03	92.56	0.01	0.90	0.00	6.93	0.00	82.90	0.01	1.84	0.00
+PWY0-166	"Pyrimid-Deoxyribonucleot-De-Novo-Biosyn; Super-Pathways;"	"superpathway of pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis (<i>E. coli</i>);"	1.17.4.1+2.1.1.45+2.7.4.6+2.7.4.9+3.5.4.13+3.6.1.23	7	6	18	0.17	1094.00	0.07	38.32	0.03	40.34	0.02	992.01	0.11	23.33	0.01
+PHESYN	"PHENYLALANINE-SYN;"	"L-phenylalanine biosynthesis I;"	2.6.1.57+4.2.1.51+5.4.99.5	3	3	9	0.09	561.86	0.04	5.04	0.00	11.39	0.01	542.85	0.06	2.59	0.00
+GLUTATHIONESYN-PWY	"Reductants;"	"glutathione biosynthesis;"	6.3.2.2+6.3.2.3	2	2	2	0.02	54.43	0.00	2.57	0.00	0.01	0.00	51.77	0.01	0.08	0.00
+P542-PWY	"Choline-Degradation; Super-Pathways;"	"choline-<i>O</i>-sulfate degradation;"	1.1.99.1+1.2.1.8	3	2	3	0.03	473.99	0.03	0.34	0.00	1.41	0.00	471.13	0.05	1.10	0.00
+PWY-6385	"Peptidoglycan-Biosynthesis; Super-Pathways;"	"peptidoglycan biosynthesis III (mycobacteria);"	2.4.1.129+2.4.1.227+2.5.1.7+2.7.8.-+5.1.1.3+6.3.2.10+6.3.2.13+6.3.2.4+6.3.2.8+6.3.2.9	11	10	56	0.54	3861.43	0.25	63.46	0.05	24.16	0.01	3760.47	0.41	13.34	0.00
+PWY1A0-6325	"Antibiotic-Biosynthesis;"	"actinorhodin biosynthesis;"	1.1.1.-+1.3.1.-+2.3.1.-+4.-.-.-+4.2.1.-	5	5	65	0.63	9255.48	0.59	930.74	0.73	1803.09	0.84	3808.30	0.41	2713.34	0.89
+PWY-2021	"Indole-3-Acetate-Inactivation;"	"indole-3-acetate inactivation IV;"	2.4.1.-	2	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+PWY-6109	"TRITERPENOID-SYN;"	"mangrove triterpenoid biosynthesis;"	5.4.99.-	2	1	13	0.13	793.23	0.05	37.67	0.03	22.47	0.01	726.21	0.08	6.88	0.00
+GLYCOLYSIS	"GLYCOLYSIS-VARIANTS;"	"glycolysis I (from glucose 6-phosphate);"	1.2.1.12+2.7.1.11+2.7.1.40+2.7.2.3+2.7.9.2+3.1.3.11+4.1.2.13+4.2.1.11+5.3.1.1+5.3.1.9	11	10	44	0.42	6182.09	0.39	637.33	0.50	1185.83	0.55	2637.84	0.29	1721.08	0.57
+PWY-5406	"Divinyl-Ether-Biosynthesis; Metabolic-Clusters;"	"divinyl ether biosynthesis I;"	1.13.11.-	1	1	3	0.03	72.95	0.00	2.26	0.00	0.02	0.00	69.17	0.01	1.50	0.00
+PWY0-1264	"Lipid-Biosynthesis;"	"biotin-carboxyl carrier protein assembly;"	6.3.4.14+6.3.4.15+6.4.1.2	3	3	21	0.20	3120.36	0.20	342.17	0.27	583.22	0.27	1330.83	0.14	864.13	0.28
+PWY-5975	"SECONDARY-METABOLITE-BIOSYNTHESIS;"	"furaneol and mesifurane biosynthesis;"	2.1.1.-	1	1	37	0.36	3582.07	0.23	376.29	0.29	605.32	0.28	1669.61	0.18	930.85	0.31
+PWY-2661	"Trehalose-biosynthesis;"	"trehalose biosynthesis V;"	3.2.1.141+5.4.99.15	3	2	2	0.02	83.79	0.01	2.37	0.00	0.11	0.00	80.74	0.01	0.56	0.00
+PWY-6573	"Glycan-Degradation; Glycosaminoglycan-Degradation;"	"chondroitin sulfate degradation (metazoa);"	3.1.6.4+3.2.1.52	4	2	7	0.07	340.34	0.02	0.88	0.00	1.42	0.00	335.64	0.04	2.41	0.00
+PWY-5362	"Unsaturated-Fatty-Acids-Biosynthesis;"	"sapienate biosynthesis;"	1.14.99.-	1	1	8	0.08	434.40	0.03	29.01	0.02	0.32	0.00	402.70	0.04	2.36	0.00
+PWY-5739	"GDP-Sugar-Biosynthesis;"	"GDP-D-perosamine biosynthesis;"	4.2.1.47	1	1	2	0.02	277.36	0.02	0.02	0.00	0.67	0.00	276.00	0.03	0.68	0.00
+PWY-4441	"Activation;"	"DIMBOA-glucoside activation;"	3.2.1.21	1	1	1	0.01	13.76	0.00	0.27	0.00	0.03	0.00	13.32	0.00	0.15	0.00
+PWY-6310	"POLYKETIDE-SYN;"	"aloesone biosynthesis II;"	2.3.1.-	1	1	24	0.23	1456.90	0.09	25.75	0.02	9.69	0.00	1415.85	0.15	5.62	0.00
+ALL-CHORISMATE-PWY	"Super-Pathways;"	"superpathway of chorismate metabolism;"	1.1.1.25+1.14.14.-+1.3.1.12+1.5.1.3+2.1.1.-+2.1.1.163+2.1.2.2+2.2.1.9+2.4.2.18+2.5.1.15+2.5.1.19+2.5.1.54+2.6.1.57+2.6.1.85+2.7.1.71+2.7.6.3+3.1.2.-+3.5.4.16+3.5.4.9+3.6.1.-+4.1.1.-+4.1.1.48+4.1.2.25+4.1.3.27+4.1.3.36+4.1.3.38+4.2.1.10+4.2.1.113+4.2.1.20+4.2.1.51+4.2.3.4+4.2.3.5+4.2.99.20+5.3.1.24+5.4.4.2+5.4.99.5+6.2.1.26+6.3.2.12	44	38	152	1.46	18811.07	1.20	2004.05	1.56	3590.94	1.67	7897.13	0.86	5318.94	1.75
+PWY-6153	"Autoinducer-Biosynthesis;"	"autoinducer AI-2 biosynthesis I;"	2.1.1.-+3.2.2.9	3	2	38	0.37	3622.79	0.23	378.66	0.30	605.32	0.28	1707.92	0.19	930.89	0.31
+PWY-2501	"Fatty-Acid-Degradation;"	"fatty acid &alpha;-oxidation I;"	1.13.11.-+1.2.1.3	2	2	7	0.07	254.63	0.02	2.40	0.00	0.28	0.00	250.33	0.03	1.63	0.00
+PWY-13	"Super-Pathways; XANTHONE-SYN;"	"superpathway of tetrahydroxyxanthone biosynthesis;"	6.2.1.25	2	1	1	0.01	92.95	0.01	0.00	0.00	0.04	0.00	92.89	0.01	0.02	0.00
+PWY-6134	"TYROSINE-SYN;"	"L-tyrosine biosynthesis IV;"	1.14.16.1	1	1	1	0.01	60.25	0.00	0.00	0.00	0.13	0.00	60.08	0.01	0.04	0.00
+PWY-6556	"Pyrimidine-Nucleotide-Salvage; Pyrimidine-Ribonucleosides-Degradation;"	"pyrimidine ribonucleosides salvage II;"	3.5.4.5	2	1	2	0.02	62.26	0.00	1.03	0.00	0.15	0.00	60.81	0.01	0.27	0.00
+PWY-5910	"DITERPENOID-SYN; GGPP-Biosynthesis; Super-Pathways;"	"superpathway of geranylgeranyldiphosphate biosynthesis I (via mevalonate);"	2.3.1.9+2.5.1.10+2.7.1.36+2.7.4.2+4.1.1.33+5.3.3.2	10	6	14	0.13	658.72	0.04	32.52	0.03	54.30	0.03	508.77	0.06	63.13	0.02
+N2FIX-PWY	"Nitrogen-Fixation;"	"nitrogen fixation I (ferredoxin);"	1.18.6.1	1	1	4	0.04	289.44	0.02	0.02	0.00	0.14	0.00	289.20	0.03	0.08	0.00
+VALSYN-PWY	"VALINE-BIOSYNTHESIS;"	"L-valine biosynthesis;"	1.1.1.86+2.2.1.6+2.6.1.42+4.2.1.9	4	4	25	0.24	1608.19	0.10	29.08	0.02	18.33	0.01	1547.33	0.17	13.45	0.00
+PWY-5313	"ANTHOCYANIN-SYN; Super-Pathways;"	"superpathway of anthocyanin biosynthesis (from cyanidin and cyanidin 3-<i>O</i>-glucoside);"	2.3.1.-+2.4.1.-	4	2	34	0.33	3822.68	0.24	316.13	0.25	601.22	0.28	1999.83	0.22	905.50	0.30
+PWY-5135	"PRENYLFLAVONOID-SYN;"	"xanthohumol biosynthesis;"	2.1.1.-+2.5.1.-+6.2.1.12	4	3	62	0.60	5282.33	0.34	423.22	0.33	620.79	0.29	3294.12	0.36	944.20	0.31
+PRPP-PWY	"Super-Pathways;"	"superpathway of histidine, purine, and pyrimidine biosynthesis;"	1.1.1.205+1.1.1.23+1.17.4.1+1.3.5.2+2.1.2.-+2.1.2.3+2.1.3.2+2.4.2.-+2.4.2.10+2.4.2.14+2.4.2.17+2.6.1.9+2.7.4.14+2.7.4.3+2.7.4.6+2.7.4.8+2.7.6.1+3.1.3.15+3.5.2.3+3.5.4.10+3.5.4.19+3.6.1.31+3.6.3.14+4.1.1.23+4.2.1.19+4.3.2.2+5.3.1.16+5.4.2.7+5.4.99.18+6.3.2.6+6.3.3.1+6.3.4.13+6.3.4.18+6.3.4.2+6.3.4.4+6.3.5.2+6.3.5.3+6.3.5.5	40	38	134	1.29	11641.02	0.74	915.56	0.71	1294.86	0.60	7566.63	0.82	1863.96	0.61
+PWY-6549	"GLUTAMINE-SYN;"	"L-glutamine biosynthesis III;"	1.1.1.41+1.1.1.42+2.7.9.1+4.1.1.31+4.2.1.3+6.3.1.2	8	6	19	0.18	911.30	0.06	45.96	0.04	12.93	0.01	845.75	0.09	6.66	0.00
+PWY-6395	"Other-Amino-Acid-Biosynthesis; Seleno-Amino-Acid-Detoxification; Super-Pathways;"	"superpathway of seleno-compound metabolism;"	2.1.1.-	1	1	37	0.36	3582.07	0.23	376.29	0.29	605.32	0.28	1669.61	0.18	930.85	0.31
+PWY-5806	"Polyprenyl-Biosynthesis;"	"all-<i>trans</i>-decaprenyl diphosphate biosynthesis;"	2.5.1.-	1	1	25	0.24	1699.65	0.11	46.92	0.04	15.45	0.01	1624.03	0.18	13.26	0.00
+PWY-5479	"LIGNAN-SYN;"	"6-methoxypodophyllotoxin biosynthesis;"	1.-.-.-+1.14.-.-+1.14.13.-+2.1.1.-	4	4	101	0.97	11033.22	0.70	1092.99	0.85	1824.63	0.85	5419.65	0.59	2695.96	0.89
+PWY-6507	"Sugar-Derivatives;"	"4-deoxy-L-<i>threo</i>-hex-4-enopyranuronate degradation;"	2.7.1.45+4.1.2.14	4	2	2	0.02	103.57	0.01	0.55	0.00	0.52	0.00	102.05	0.01	0.45	0.00
+PWY-6411	"Ginsenoside-Degradation;"	"ginsenoside degradation I;"	2.3.1.-	1	1	24	0.23	1456.90	0.09	25.75	0.02	9.69	0.00	1415.85	0.15	5.62	0.00
+PWY-0	"Putrescine-Degradation;"	"putrescine degradation III;"	1.2.1.3+2.3.1.57+3.5.1.-	4	3	24	0.23	1366.17	0.09	22.34	0.02	11.71	0.01	1323.16	0.14	8.96	0.00
+PWY-6088	"3-Chlorobenzoate-Degradation;"	"3-chlorobenzoate degradation I (via chlorocatechol);"	1.14.12.-+1.3.1.-	2	2	13	0.13	2575.41	0.16	321.90	0.25	597.52	0.28	750.22	0.08	905.77	0.30
+MET-SAM-PWY	"Super-Pathways;"	"superpathway of <i>S</i>-adenosyl-L-methionine biosynthesis;"	1.1.1.3+1.2.1.11+2.1.1.13+2.3.1.46+2.5.1.48+2.5.1.6+2.7.2.4	9	7	16	0.15	979.89	0.06	49.41	0.04	25.73	0.01	879.89	0.10	24.87	0.01
+PWY-5203	"TRITERPENOID-SYN;"	"soybean saponin I biosynthesis;"	1.14.13.-+5.4.99.-	3	2	16	0.15	958.43	0.06	45.81	0.04	22.58	0.01	882.74	0.10	7.30	0.00
+HCAMHPDEG-PWY	"Phenolic-Compounds-Degradation;"	"3-phenylpropanoate and 3-(3-hydroxyphenyl)propanoate degradation to 2-hydroxypentadienoate;"	1.14.13.-+1.3.1.-+3.7.1.-	5	3	15	0.14	2521.02	0.16	330.11	0.26	593.57	0.28	692.22	0.08	905.11	0.30
+PWY-5750	"Itaconate-Biosynthesis;"	"itaconate biosynthesis I;"	4.1.1.6+4.2.1.3+6.4.1.1	4	3	13	0.13	720.41	0.05	35.41	0.03	8.22	0.00	669.46	0.07	7.32	0.00
+PWY-5862	"Demethylmenaquinone-Biosynthesis; Super-Pathways;"	"superpathway of demethylmenaquinol-9 biosynthesis;"	2.2.1.9+2.5.1.-+3.1.2.-+4.1.3.36+4.2.1.113+4.2.99.20+5.4.4.2+6.2.1.26	9	8	42	0.40	4252.80	0.27	390.73	0.30	613.10	0.28	2337.29	0.25	911.69	0.30
+PWY-112	"TRITERPENOID-SYN;"	"lupeol biosynthesis;"	5.4.99.-	1	1	13	0.13	793.23	0.05	37.67	0.03	22.47	0.01	726.21	0.08	6.88	0.00
+PWY-3462	"PHENYLALANINE-SYN;"	"L-phenylalanine biosynthesis II;"	4.2.1.91+5.4.99.5	3	2	5	0.05	269.88	0.02	4.88	0.00	7.12	0.00	256.61	0.03	1.26	0.00
+PWY-6470	"Antibiotic-Resistance; Peptidoglycan-Biosynthesis; Super-Pathways;"	"peptidoglycan biosynthesis V (&beta;-lactam resistance);"	2.4.1.129+2.4.1.227+2.5.1.7+2.7.8.13+5.1.1.3+6.3.2.10+6.3.2.4+6.3.2.8+6.3.2.9	14	9	46	0.44	2886.52	0.18	57.78	0.05	22.32	0.01	2794.84	0.30	11.59	0.00
+PWY-2681	"CYTOKININ-BIOSYNTHESIS;"	"<i>trans</i>-zeatin biosynthesis;"	2.5.1.-+3.2.2.-	3	2	42	0.40	2536.45	0.16	58.81	0.05	48.68	0.02	2397.44	0.26	31.52	0.01
+PWY-5121	"DITERPENOID-SYN; GGPP-Biosynthesis; Super-Pathways;"	"superpathway of geranylgeranyl diphosphate biosynthesis II (via MEP);"	1.1.1.267+1.17.1.2+1.17.7.1+2.2.1.7+2.5.1.10+2.7.1.148+2.7.7.60+4.6.1.12+5.3.3.2	11	9	26	0.25	3713.67	0.24	368.42	0.29	666.69	0.31	1696.91	0.18	981.66	0.32
+TOLUENE-DEG-3-OH-PWY	"TOLUENE-DEG;"	"toluene degradation to 2-hydroxypentadienoate (<I>via 4-methylcatechol</i>);"	1.14.13.-+3.7.1.-	2	2	4	0.04	190.60	0.01	8.25	0.01	0.21	0.00	181.60	0.02	0.53	0.00
+THISYNARA-PWY	"Super-Pathways; Thiamine-Biosynthesis;"	"superpathway of thiamine diphosphate biosynthesis III (eukaryotes);"	2.5.1.3+2.7.1.49+2.7.4.7+2.7.6.2	5	4	9	0.09	803.07	0.05	2.44	0.00	1.61	0.00	796.56	0.09	2.47	0.00
+PWY-5849	"Menaquinone-Biosynthesis;"	"menaquinol-6 biosynthesis;"	2.1.1.163	1	1	2	0.02	99.42	0.01	8.13	0.01	0.08	0.00	89.64	0.01	1.58	0.00
+PWY-6147	"6-HM-Dihydropterin-PP-Biosynthesis;"	"6-hydroxymethyl-dihydropterin diphosphate biosynthesis I;"	2.7.6.3+3.5.4.16+3.6.1.-+4.1.2.25	4	4	30	0.29	6722.08	0.43	945.18	0.74	1738.57	0.81	1431.70	0.16	2606.62	0.86
+PWY-6515	"FLAVONOID-SYN;"	"phloridzin biosynthesis;"	2.3.1.-	1	1	24	0.23	1456.90	0.09	25.75	0.02	9.69	0.00	1415.85	0.15	5.62	0.00
+PWY-5101	"ISOLEUCINE-SYN;"	"L-isoleucine biosynthesis II;"	1.1.1.86+2.2.1.6+2.3.1.182+2.6.1.42+4.2.1.9	6	5	26	0.25	1633.66	0.10	29.20	0.02	18.47	0.01	1572.43	0.17	13.57	0.00
+PWY-5863	"Phylloquinone-Biosynthesis; Super-Pathways;"	"superpathway of phylloquinol biosynthesis;"	1.3.1.-+2.2.1.9+2.5.1.-+3.1.2.-+4.1.3.36+4.2.1.113+4.2.99.20+5.4.4.2+6.2.1.26	10	9	53	0.51	6583.22	0.42	712.58	0.56	1206.46	0.56	2847.91	0.31	1816.27	0.60
+PWY-5180	"Super-Pathways; TOLUENE-DEG;"	"toluene degradation I (aerobic) (<I>via</I> <i>o</I>-cresol);"	1.13.11.2+1.14.13.-+3.7.1.-	6	3	5	0.05	232.79	0.01	10.52	0.01	0.21	0.00	221.49	0.02	0.57	0.00
+PWY-5343	"Glycan-Pathways; Oligosaccharides-Biosynthesis;"	"ajugose biosynthesis II (galactinol-independent);"	2.4.1.-	1	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+PWY0-781	"Super-Pathways;"	"aspartate superpathway;"	1.1.1.3+1.2.1.11+1.4.3.16+2.1.1.13+2.3.1.117+2.3.1.46+2.4.2.19+2.5.1.48+2.5.1.6+2.5.1.72+2.6.1.1+2.6.1.17+2.7.1.39+2.7.2.4+2.7.7.18+3.5.1.18+4.1.1.20+4.2.3.1+5.1.1.7+6.3.1.5+6.3.5.1	25	21	56	0.54	3908.72	0.25	101.85	0.08	80.88	0.04	3676.00	0.40	49.98	0.02
+PWY-5855	"Ubiquinone-Biosynthesis;"	"ubiquinol-7 biosynthesis (prokaryotic);"	2.1.1.-+2.1.1.64+4.1.1.-	5	3	43	0.41	3985.59	0.25	376.41	0.29	610.11	0.28	2066.91	0.23	932.16	0.31
+PWY-5861	"Demethylmenaquinol-8-Biosynthesis; Super-Pathways;"	"superpathway of demethylmenaquinol-8 biosynthesis I;"	2.2.1.9+2.5.1.-+3.1.2.-+4.1.3.36+4.2.1.113+4.2.99.20+5.4.4.2+6.2.1.26	9	8	42	0.40	4252.80	0.27	390.73	0.30	613.10	0.28	2337.29	0.25	911.69	0.30
+PWY-6262	"Demethylmenaquinol-8-Biosynthesis;"	"demethylmenaquinol-8 biosynthesis II;"	2.5.1.-	2	1	25	0.24	1699.65	0.11	46.92	0.04	15.45	0.01	1624.03	0.18	13.26	0.00
+PWY-6303	"Auxin-Biosynthesis; Interconversion;"	"methyl indole-3-acetate interconversion;"	2.1.1.-+3.1.1.1	2	2	42	0.40	3774.91	0.24	376.62	0.29	609.33	0.28	1857.08	0.20	931.88	0.31
+PWY-6548	""	""	1.5.1.3+2.5.1.15+2.7.6.3+3.5.1.-+6.3.2.12	6	5	27	0.26	1812.64	0.12	22.71	0.02	32.86	0.02	1743.98	0.19	13.09	0.00
+PWY0-1314	"Sugars-And-Polysaccharides-Degradation;"	"fructose degradation;"	2.7.1.56	1	1	1	0.01	22.08	0.00	0.00	0.00	0.00	0.00	22.07	0.00	0.01	0.00
+P41-PWY	"Pyruvate-Acetate-Fermentation; Pyruvate-Lactate-Fermentation; Super-Pathways;"	"pyruvate fermentation to acetate and (<i>S</i>)-lactate I;"	1.1.1.27+1.2.1.-+2.3.1.8+2.7.2.1	4	4	20	0.19	3282.54	0.21	337.20	0.26	573.72	0.27	1513.06	0.16	858.56	0.28
+PWY-5335	"Sulfide-Oxidation; Super-Pathways;"	"superpathway of sulfide oxidation (<i>Starkeya novella</i>);"	1.8.2.1	2	1	1	0.01	209.74	0.01	0.01	0.00	0.50	0.00	208.87	0.02	0.36	0.00
+PWY-6415	"Ascorbate-Biosynthesis; Super-Pathways;"	"L-ascorbate biosynthesis V;"	1.1.1.22	2	1	2	0.02	217.76	0.01	0.01	0.00	0.66	0.00	215.02	0.02	2.06	0.00
+PWY0-1295	"Pyrimidine-Ribonucleosides-Degradation;"	"pyrimidine ribonucleosides degradation;"	3.5.4.5+5.4.2.7	3	2	4	0.04	189.59	0.01	11.53	0.01	0.21	0.00	177.30	0.02	0.55	0.00
+MALTOSECAT-PWY	"Sugars-And-Polysaccharides-Degradation;"	"maltose degradation;"	5.4.2.6	2	1	2	0.02	99.58	0.01	0.12	0.00	0.12	0.00	99.24	0.01	0.09	0.00
+PWY-5176	"COUMARIN-SYN;"	"coumarin biosynthesis (via 2-coumarate);"	3.2.1.21	4	1	1	0.01	13.76	0.00	0.27	0.00	0.03	0.00	13.32	0.00	0.15	0.00
+PWY-6432	"POLYKETIDE-SYN; Super-Pathways;"	"curcuminoid biosynthesis;"	2.3.1.-+6.2.1.-	3	2	29	0.28	1842.84	0.12	36.15	0.03	103.01	0.05	1650.51	0.18	53.17	0.02
+PWY-5377	"TRITERPENOID-SYN;"	"&alpha;-amyrin biosynthesis;"	5.4.99.-	1	1	13	0.13	793.23	0.05	37.67	0.03	22.47	0.01	726.21	0.08	6.88	0.00
+PWY-6086	"Chloroaromatic-Compounds-Degradation;"	"4-chloro-2-methylphenoxyacetate degradation;"	1.14.11.-	2	1	2	0.02	263.05	0.02	0.00	0.00	0.56	0.00	262.12	0.03	0.36	0.00
+GLYOXDEG-PWY	"Glycolate-Degradation;"	"glycolate and glyoxylate degradation II;"	2.3.3.9	2	1	2	0.02	79.12	0.01	7.69	0.01	0.11	0.00	70.93	0.01	0.39	0.00
+PWY-6123	"IMP-Biosynthesis;"	"inosine-5'-phosphate biosynthesis I;"	2.1.2.3+3.5.4.10+4.3.2.2+5.4.99.18+6.3.2.6+6.3.4.18	6	6	12	0.12	1026.89	0.07	2.35	0.00	25.41	0.01	993.37	0.11	5.76	0.00
+PWY-2721	"Trehalose-Degradation;"	"trehalose degradation III;"	5.4.2.6	2	1	2	0.02	99.58	0.01	0.12	0.00	0.12	0.00	99.24	0.01	0.09	0.00
+PWY-5061	"ISOFLAVONOID-SYN;"	"6,7,4'-trihydroxyisoflavone biosynthesis;"	1.14.13.-+4.2.1.-	2	2	10	0.10	567.44	0.04	18.74	0.01	4.78	0.00	541.93	0.06	2.00	0.00
+PWY-6317	"GALACTOSE-DEGRADATION;"	"D-galactose degradation I (Leloir pathway);"	5.1.3.2+5.1.3.3+5.4.2.6	5	3	9	0.09	681.81	0.04	0.80	0.00	1.47	0.00	676.93	0.07	2.62	0.00
+SAM-PWY	"Cofactor-Biosynthesis;"	"S-adenosyl-L-methionine biosynthesis;"	2.5.1.6	1	1	3	0.03	82.18	0.01	2.57	0.00	0.01	0.00	79.52	0.01	0.08	0.00
+PWY66-162	"Ethanol-Degradation;"	"ethanol degradation IV;"	1.2.1.3+6.2.1.1	3	2	8	0.08	468.53	0.03	0.94	0.00	4.32	0.00	460.36	0.05	2.92	0.00
+ADENOSYLHOMOCYSCAT-PWY	"Methionine-Salvage;"	"L-methionine salvage from L-homocysteine;"	2.1.1.13	2	1	2	0.02	105.48	0.01	20.89	0.02	22.86	0.01	43.70	0.00	18.04	0.01
+PWY-3341	"PROLINE-SYN;"	"L-proline biosynthesis III;"	1.5.1.2+2.6.1.13	2	2	4	0.04	300.23	0.02	15.08	0.01	5.91	0.00	277.02	0.03	2.22	0.00
+PWY0-661	""	""	5.4.2.7	1	1	2	0.02	127.32	0.01	10.49	0.01	0.06	0.00	116.49	0.01	0.28	0.00
+HSERMETANA-PWY	"Methionine-De-novo-Biosynthesis; Super-Pathways;"	"L-methionine biosynthesis III;"	2.1.1.13	2	1	2	0.02	105.48	0.01	20.89	0.02	22.86	0.01	43.70	0.00	18.04	0.01
+PWY-6562	"Polyamine-Biosynthesis;"	"norspermidine biosynthesis;"	1.2.1.11+1.5.1.-+2.6.1.76+2.7.2.4	5	4	11	0.11	825.09	0.05	25.70	0.02	2.82	0.00	789.82	0.09	6.75	0.00
+FERMENTATION-PWY	"Fermentation-to-Acids; Pyruvate-Ethanol-Fermentation;"	"mixed acid fermentation;"	1.1.1.1+1.1.1.37+1.1.1.42+2.3.1.8+2.7.1.40+2.7.2.1+4.1.1.31+4.2.1.2+4.2.1.3	14	9	32	0.31	1609.09	0.10	66.13	0.05	17.68	0.01	1512.22	0.16	13.07	0.00
+PWY-5139	"ANTHOCYANIN-SYN;"	"pelargonidin conjugates biosynthesis;"	2.3.1.-+2.4.1.-	4	2	34	0.33	3822.68	0.24	316.13	0.25	601.22	0.28	1999.83	0.22	905.50	0.30
+PWY-5966	"Fatty-acid-biosynthesis;"	"fatty acid biosynthesis initiation II;"	2.3.1.41	2	1	2	0.02	406.96	0.03	0.03	0.00	0.93	0.00	405.26	0.04	0.75	0.00
+PWY-5197	"Energy-Metabolism;"	"lactate biosynthesis (archaea);"	1.1.1.-+1.2.1.22	3	2	13	0.13	869.32	0.06	3.60	0.00	20.27	0.01	841.26	0.09	4.19	0.00
+PWY-561	"Energy-Metabolism; Super-Pathways;"	"superpathway of glyoxylate cycle and fatty acid degradation;"	1.1.1.35+1.1.1.37+1.3.5.1+2.3.1.16+2.3.3.9+4.1.3.1+4.2.1.17+4.2.1.2+4.2.1.3+6.2.1.3	13	10	64	0.62	3469.83	0.22	76.32	0.06	73.31	0.03	3289.89	0.36	30.31	0.01
+PWY-6125	"Purine-Nucleotide-De-Novo-Biosynthesis; Super-Pathways;"	"superpathway of guanosine nucleotides <i>de novo</i> biosynthesis II;"	1.1.1.205+1.17.4.1+2.7.4.6+2.7.4.8+6.3.5.2	7	5	15	0.14	1024.86	0.07	51.33	0.04	5.72	0.00	963.28	0.10	4.53	0.00
+METSYN-PWY	"Methionine-De-novo-Biosynthesis; Super-Pathways;"	"superpathway of L-homoserine and L-methionine biosynthesis;"	1.1.1.3+1.2.1.11+2.1.1.13+2.3.1.46+2.5.1.48+2.7.2.4	8	6	13	0.13	897.71	0.06	46.84	0.04	25.72	0.01	800.37	0.09	24.79	0.01
+REDCITCYC	"TCA-VARIANTS;"	"TCA cycle VIII (Helicobacter);"	1.1.1.42+2.8.3.5+4.2.1.2+4.2.1.3	8	4	15	0.14	1163.89	0.07	31.69	0.02	7.08	0.00	1118.29	0.12	6.83	0.00
+PWY-4421	"PHENYLPROPANOID-SYN; POLYKETIDE-SYN;"	"curcumin glucoside biosynthesis;"	2.4.1.-	1	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+ANAGLYCOLYSIS-PWY	"GLYCOLYSIS-VARIANTS;"	"glycolysis III (from glucose);"	1.2.1.12+2.7.1.11+2.7.1.2+2.7.1.40+2.7.2.3+4.1.2.13+4.2.1.11+5.3.1.1+5.3.1.9	10	9	39	0.38	4324.70	0.28	345.33	0.27	621.53	0.29	2491.50	0.27	866.34	0.29
+GLYCOLYSIS-TCA-GLYOX-BYPASS	"Energy-Metabolism; Super-Pathways;"	"superpathway of glycolysis, pyruvate dehydrogenase, TCA, and glyoxylate bypass;"	1.1.1.37+1.1.1.42+1.2.1.-+1.2.1.12+1.3.5.1+2.3.3.9+2.7.1.11+2.7.1.40+2.7.2.3+2.7.9.2+3.1.3.11+4.1.2.13+4.1.3.1+4.2.1.11+4.2.1.2+4.2.1.3+5.3.1.1+5.3.1.9+6.2.1.5	22	19	76	0.73	8525.49	0.54	704.88	0.55	1206.88	0.56	4877.65	0.53	1736.07	0.57
+PWY-321	"EPIDERMAL-STRUCTURE; Lipid-Biosynthesis;"	"cutin biosynthesis;"	1.1.1.-+1.14.13.-+1.2.1.-	5	3	26	0.25	3852.85	0.25	323.67	0.25	593.36	0.28	2074.89	0.23	860.94	0.28
+GALACTCAT-PWY	"SUGAR-ACIDS-DEG;"	"D-galactonate degradation;"	4.2.1.6	3	1	1	0.01	40.10	0.00	0.00	0.00	0.00	0.00	40.10	0.00	0.00	0.00
+PWY-5701	"QUINONE-SYN;"	"shikonin biosynthesis;"	1.14.13.-+2.5.1.-	2	2	28	0.27	1864.85	0.12	55.05	0.04	15.55	0.01	1780.56	0.19	13.69	0.00
+PWY-5062	"AROMATIC-COMPOUNDS-DEGRADATION; Super-Pathways;"	"superpathway of nicotinate degradation;"	1.17.1.5+1.17.2.1+4.1.3.32+5.3.3.6	16	4	7	0.07	199.02	0.01	20.59	0.02	3.75	0.00	168.84	0.02	5.84	0.00
+PWY0-43	"SUCC-DEG;"	"conversion of succinate to propanoate;"	2.8.3.-+5.4.99.2	3	2	8	0.08	698.44	0.04	32.51	0.03	3.78	0.00	655.54	0.07	6.62	0.00
+PWY-5740	"GDP-Sugar-Biosynthesis;"	"GDP-L-colitose biosynthesis;"	4.2.1.47	1	1	2	0.02	277.36	0.02	0.02	0.00	0.67	0.00	276.00	0.03	0.68	0.00
+ALANINE-VALINESYN-PWY	"ALANINE-SYN;"	"L-alanine biosynthesis I;"	2.6.1.42+5.1.1.1	3	2	11	0.11	749.65	0.05	28.70	0.02	7.27	0.00	704.58	0.08	9.09	0.00
+PPGPPMET-PWY	"Metabolic-Regulators;"	"ppGpp biosynthesis;"	2.7.4.6+2.7.6.5+3.6.1.40	4	3	9	0.09	349.29	0.02	13.20	0.01	16.84	0.01	313.70	0.03	5.55	0.00
+PWY-6438	"POLYKETIDE-SYN;"	"phenylphenalenone biosynthesis;"	2.3.1.-	1	1	24	0.23	1456.90	0.09	25.75	0.02	9.69	0.00	1415.85	0.15	5.62	0.00
+PWY-5491	"Phosphorus-Compounds;"	"diethylphosphate degradation;"	3.1.3.-	2	1	12	0.12	765.36	0.05	25.73	0.02	0.84	0.00	737.60	0.08	1.20	0.00
+PWY-6321	"Sulfur-Metabolism;"	"homotaurine degradation;"	2.6.1.-	1	1	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+PWY-5097	"LYSINE-SYN;"	"L-lysine biosynthesis VI;"	1.2.1.11+2.6.1.83+2.7.2.4+4.1.1.20+5.1.1.7	7	5	19	0.18	2864.39	0.18	335.42	0.26	570.46	0.27	1098.60	0.12	859.91	0.28
+PWY-5314	"LYSINE-DEG;"	"L-lysine degradation VIII;"	1.2.1.31	2	1	2	0.02	69.49	0.00	0.03	0.00	0.09	0.00	67.84	0.01	1.53	0.00
+PWY-6240	""	""	2.7.9.1	1	1	1	0.01	25.63	0.00	0.02	0.00	3.34	0.00	21.51	0.00	0.75	0.00
+PWY3O-4108	"TYROSINE-DEG;"	"L-tyrosine degradation III;"	1.1.1.1+2.6.1.57	4	2	7	0.07	359.57	0.02	0.20	0.00	8.09	0.00	347.48	0.04	3.81	0.00
+PWY-6494	"GIBBERELLINS-DEGRADATION; Gibberellin-Inactivation; Metabolic-Clusters;"	"gibberellin inactivation III (epoxidation);"	1.14.-.-	1	1	5	0.05	306.19	0.02	0.37	0.00	4.10	0.00	300.52	0.03	1.20	0.00
+PWY-6282	"Palmitoleate-Biosynthesis;"	"palmitoleate biosynthesis I (from (5Z)-dodec-5-enoate);"	1.1.1.100+2.3.1.41+4.2.1.59	5	3	11	0.11	723.46	0.05	7.54	0.01	24.88	0.01	684.85	0.07	6.19	0.00
+LIPASYN-PWY	"Fatty-Acid-and-Lipid-Degradation; Metabolic-Clusters;"	"phospholipases;"	3.1.1.32	5	1	1	0.01	21.24	0.00	0.00	0.00	0.00	0.00	21.23	0.00	0.00	0.00
+PWY-5344	"Other-Amino-Acid-Biosynthesis;"	"L-homocysteine biosynthesis;"	2.3.1.31+2.5.1.49	2	2	4	0.04	341.49	0.02	0.12	0.00	0.85	0.00	340.00	0.04	0.52	0.00
+PWY66-366	"Flavin-Biosynthesis;"	"flavin biosynthesis IV (mammalian);"	2.7.1.26+2.7.7.2	2	2	4	0.04	532.08	0.03	10.24	0.01	0.95	0.00	519.84	0.06	1.04	0.00
+PWY-1801	"Formaldehyde-Oxidation;"	"formaldehyde oxidation II (glutathione-dependent);"	1.1.1.284+3.1.2.12	3	2	4	0.04	359.79	0.02	1.19	0.00	0.77	0.00	357.19	0.04	0.64	0.00
+PWY-5958	"ALKALOIDS-SYN;"	"acridone alkaloid biosynthesis;"	4.1.3.27+6.2.1.-	4	2	11	0.11	554.02	0.04	10.75	0.01	110.11	0.05	380.39	0.04	52.78	0.02
+PWY-6193	"3-Chlorocatechol-Degradation;"	"3-chlorocatechol degradation II (<i>ortho</i>);"	3.1.1.45+5.5.1.-	3	2	3	0.03	310.27	0.02	0.22	0.00	0.58	0.00	308.98	0.03	0.49	0.00
+ACETATEUTIL-PWY	"CARBOXYLATES-DEG; Super-Pathways;"	"superpathway of acetate utilization and formation;"	2.3.1.8+2.7.2.1+6.2.1.1	3	3	10	0.10	556.05	0.04	15.57	0.01	4.18	0.00	531.69	0.06	4.61	0.00
+PWY-5400	"BETALAIN-ALKALOIDS;"	"amaranthin biosynthesis;"	2.3.1.-+2.4.1.-	2	2	34	0.33	3822.68	0.24	316.13	0.25	601.22	0.28	1999.83	0.22	905.50	0.30
+PWY-6457	"AROMATIC-COMPOUNDS-BIOSYN; CINNAMATE-SYN;"	"cinnamoyl-CoA biosynthesis;"	6.2.1.-	2	1	5	0.05	385.94	0.02	10.40	0.01	93.32	0.04	234.66	0.03	47.55	0.02
+PWY-723	"Other-Degradation;"	"alkylnitronates degradation;"	1.7.1.4	2	1	2	0.02	409.26	0.03	0.03	0.00	1.29	0.00	406.65	0.04	1.29	0.00
+PWY-681	"AROMATIC-COMPOUNDS-DEGRADATION;"	"dibenzothiophene desulfurization;"	1.14.13.-+1.14.14.-	3	2	4	0.04	258.15	0.02	8.14	0.01	0.14	0.00	249.42	0.03	0.45	0.00
+PWY-6174	"Mevalonate-Pathways;"	"mevalonate pathway II (archaea);"	2.3.1.9+2.7.1.36+5.3.3.2	5	3	8	0.08	259.56	0.02	7.40	0.01	10.15	0.00	238.28	0.03	3.73	0.00
+PWY-2724	"Fatty-Acid-Degradation;"	"alkane oxidation;"	1.2.1.3	1	1	4	0.04	181.68	0.01	0.13	0.00	0.26	0.00	181.16	0.02	0.13	0.00
+P122-PWY	"Fermentation-to-Lactate; Pyruvate-Ethanol-Fermentation;"	"heterolactic fermentation;"	1.1.1.1+1.1.1.27+1.1.1.44+1.2.1.12+2.3.1.8+2.7.1.2+2.7.1.4+2.7.1.40+2.7.2.3+4.2.1.11+5.1.3.1+5.3.1.9	18	12	42	0.40	4389.50	0.28	344.61	0.27	625.83	0.29	2549.39	0.28	869.67	0.29
+PWY-5188	"Tetrapyrrole-Biosynthesis;"	"tetrapyrrole biosynthesis I (from glutamate);"	1.2.1.70+2.5.1.61+4.2.1.24+4.2.1.75+5.4.3.8+6.1.1.17	6	6	16	0.15	2278.66	0.15	307.45	0.24	568.90	0.26	541.49	0.06	860.81	0.28
+PHOTOALL-PWY	"Photosynthesis; Super-Pathways;"	"oxygenic photosynthesis;"	1.18.1.2+2.2.1.1+2.7.2.3+3.1.3.11+4.1.2.-+4.1.2.13+5.1.3.1+5.3.1.1+5.3.1.6	13	9	34	0.33	6899.26	0.44	909.39	0.71	1740.84	0.81	1636.33	0.18	2612.71	0.86
+PWY-5538	"Pyruvate-Acetate-Fermentation; Super-Pathways;"	"pyruvate fermentation to acetate VI;"	6.2.1.5	2	1	3	0.03	149.51	0.01	9.77	0.01	1.37	0.00	135.69	0.01	2.68	0.00
+PWY-5774	"TRITERPENOID-SYN;"	"saponin biosynthesis IV;"	2.4.1.-	1	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+PWY-6559	"Spermidine-Biosynthesis;"	"spermidine biosynthesis II;"	1.2.1.11+1.5.1.-+2.7.2.4	3	3	9	0.09	574.38	0.04	25.69	0.02	2.30	0.00	540.00	0.06	6.39	0.00
+PWY-2722	"Trehalose-Degradation;"	"trehalose degradation IV;"	2.4.1.64+2.7.1.2+5.4.2.6	3	3	5	0.05	247.02	0.02	13.10	0.01	3.61	0.00	229.55	0.03	0.76	0.00
+PWY-6100	"Metabolic-Regulators;"	"L-carnitine biosynthesis;"	1.14.11.1	3	1	1	0.01	26.43	0.00	0.12	0.00	0.11	0.00	26.14	0.00	0.05	0.00
+PWY-5111	""	""	2.5.1.55+2.7.7.38+3.1.3.45	3	3	4	0.04	444.44	0.03	0.27	0.00	0.84	0.00	442.60	0.05	0.73	0.00
+GLUDEG-II-PWY	"Acetyl-CoA-Butyrate; GLUTAMATE-DEG; Super-Pathways;"	"L-glutamate degradation VII (to butanoate);"	1.1.1.35+2.3.1.19+2.3.1.9+2.7.2.7+6.2.1.1	13	5	20	0.19	870.28	0.06	24.05	0.02	14.79	0.01	822.61	0.09	8.82	0.00
+ANAEROFRUCAT-PWY	"Fermentation-to-Lactate; Super-Pathways;"	"homolactic fermentation;"	1.1.1.27+1.2.1.12+2.7.1.11+2.7.1.2+2.7.1.40+2.7.2.3+2.7.9.2+3.1.3.11+4.1.2.13+4.2.1.11+5.3.1.1+5.3.1.9	13	12	49	0.47	6444.47	0.41	655.96	0.51	1186.23	0.55	2880.61	0.31	1721.67	0.57
+PWY-6453	"Lipid-Biosynthesis;"	"stigma estolide biosynthesis;"	3.1.2.-	1	1	7	0.07	295.31	0.02	18.12	0.01	8.59	0.00	263.69	0.03	4.92	0.00
+GLUT-REDOX-PWY	"Reductants;"	"glutathione-glutaredoxin redox reactions;"	1.8.1.7	2	1	3	0.03	184.50	0.01	2.47	0.00	0.15	0.00	181.75	0.02	0.12	0.00
+ARGDEGRAD-PWY	"ARGININE-DEG; Super-Pathways;"	"L-arginine degradation V (arginine deiminase pathway);"	2.1.3.3+2.7.2.2+3.5.3.6	3	3	6	0.06	321.41	0.02	13.50	0.01	7.97	0.00	297.78	0.03	2.15	0.00
+PWY-4081	"Reductants;"	"glutathione-peroxide redox reactions;"	1.11.1.9+1.8.1.7	3	2	5	0.05	223.07	0.01	2.75	0.00	3.34	0.00	216.06	0.02	0.92	0.00
+PWY-1861	"Formaldehyde-Assimilation;"	"formaldehyde assimilation II (assimilatory RuMP Cycle);"	2.2.1.1+2.2.1.2+2.7.1.11+4.1.2.13+5.1.3.1+5.3.1.6	8	6	21	0.20	4448.79	0.28	606.48	0.47	1152.67	0.54	936.11	0.10	1753.52	0.58
+PWY1-2	"ALANINE-DEG;"	"L-alanine degradation IV;"	1.4.1.1	1	1	2	0.02	204.61	0.01	0.21	0.00	0.45	0.00	203.51	0.02	0.44	0.00
+PWY-6270	"ISOPRENOIDS; Super-Pathways;"	"isoprene biosynthesis I;"	1.1.1.267+1.17.1.2+1.17.7.1+2.2.1.7+2.7.1.148+2.7.7.60+4.6.1.12+5.3.3.2	9	8	22	0.21	3413.90	0.22	348.22	0.27	622.54	0.29	1520.80	0.17	922.33	0.30
+GLUTSYN-PWY	"GLUTAMATE-SYN;"	"L-glutamate biosynthesis I;"	1.4.1.13	1	1	7	0.07	325.93	0.02	0.67	0.00	8.02	0.00	314.67	0.03	2.57	0.00
+PHENYLALANINE-DEG1-PWY	"PHENYLALANINE-DEG;"	"L-phenylalanine degradation I (aerobic);"	1.14.16.1+1.5.1.34+4.2.1.96	3	3	6	0.06	402.35	0.03	10.77	0.01	2.10	0.00	386.13	0.04	3.35	0.00
+PWY-5754	"4-Hydroxybenzoate-Biosynthesis;"	"4-hydroxybenzoate biosynthesis I (eukaryotes);"	6.2.1.12	3	1	1	0.01	13.76	0.00	0.27	0.00	0.03	0.00	13.32	0.00	0.15	0.00
+PWY-6543	"Folate-Biosynthesis;"	"4-aminobenzoate biosynthesis;"	2.6.1.85+4.1.3.38	2	2	3	0.03	123.84	0.01	0.08	0.00	0.28	0.00	121.93	0.01	1.57	0.00
+PWY-1381	"Fluorene-Degradation;"	"fluorene degradation II;"	1.14.-.-	1	1	5	0.05	306.19	0.02	0.37	0.00	4.10	0.00	300.52	0.03	1.20	0.00
+PWY-6126	"Purine-Nucleotide-De-Novo-Biosynthesis; Super-Pathways;"	"superpathway of adenosine nucleotides <i>de novo</i> biosynthesis II;"	1.17.4.1+2.7.4.3+2.7.4.6+3.6.3.14+4.3.2.2+6.3.4.4	7	6	40	0.38	5408.26	0.35	697.27	0.54	1180.36	0.55	1726.62	0.19	1804.02	0.59
+PWY-5768	"Pyruvate-Acetate-Fermentation;"	"pyruvate fermentation to acetate VIII;"	4.1.1.1	2	1	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+PWY-84	"STILBENE-PHYTOALEXINS; STILBENE-SYN;"	"resveratrol biosynthesis;"	2.3.1.-	2	1	24	0.23	1456.90	0.09	25.75	0.02	9.69	0.00	1415.85	0.15	5.62	0.00
+PWY-1581	"Plastoquinone-Biosynthesis;"	"plastoquinol-9 biosynthesis I;"	1.13.11.27+2.1.1.-	2	2	38	0.37	3654.44	0.23	376.29	0.29	605.33	0.28	1741.94	0.19	930.88	0.31
+TEICHOICACID-PWY	"Teichoic-Acids-Biosynthesis;"	"poly(glycerol phosphate) wall teichoic acid biosynthesis;"	2.4.1.187+2.7.8.-+5.1.3.14	6	3	14	0.13	1126.45	0.07	18.76	0.01	1.99	0.00	1103.44	0.12	2.26	0.00
+SER-GLYSYN-PWY	"Amino-Acid-Biosynthesis; Super-Pathways;"	"superpathway of L-serine and glycine biosynthesis I;"	1.1.1.95+2.1.2.1+2.6.1.52+3.1.3.3	4	4	12	0.12	998.23	0.06	14.16	0.01	9.57	0.00	969.89	0.11	4.61	0.00
+PWY-3022	"CYANOGENIC-GLUCOSIDE-SYN;"	"linamarin biosynthesis;"	1.14.13.-	2	1	3	0.03	165.20	0.01	8.13	0.01	0.10	0.00	156.53	0.02	0.43	0.00
+2ASDEG-PWY	"AROMATIC-COMPOUNDS-DEGRADATION;"	"orthanilate degradation;"	1.13.11.-+5.3.2.-	4	2	4	0.04	145.37	0.01	2.27	0.00	0.06	0.00	141.52	0.02	1.52	0.00
+PWY-5469	"LIGNAN-SYN;"	"sesamin biosynthesis;"	1.-.-.-+1.14.13.-	2	2	59	0.57	7144.96	0.46	716.32	0.56	1215.22	0.56	3449.52	0.38	1763.90	0.58
+PYRUVDEHYD-PWY	"Acetyl-CoA-Biosynthesis; CARBOXYLATES-DEG;"	"pyruvate decarboxylation to acetyl CoA;"	1.2.4.1+1.8.1.4+2.3.1.12	3	3	24	0.23	1048.29	0.07	32.99	0.03	3.11	0.00	999.17	0.11	13.03	0.00
+PWY-2781	"CYTOKININ-BIOSYNTHESIS;"	"<i>cis</i>-zeatin biosynthesis;"	2.5.1.75	1	1	1	0.01	78.70	0.01	7.86	0.01	0.06	0.00	70.54	0.01	0.25	0.00
+PWY-5181	"Super-Pathways; TOLUENE-DEG;"	"toluene degradation III (aerobic) (via <i>p</i>-cresol);"	1.13.11.3+1.14.13.-+1.14.13.2+2.3.1.174+2.8.3.6+3.1.1.24+4.1.1.44+5.5.1.2	10	8	14	0.13	469.44	0.03	8.25	0.01	21.96	0.01	433.81	0.05	5.42	0.00
+PWY-5464	"Energy-Metabolism; Super-Pathways;"	"superpathway of cytosolic glycolysis (plants), pyruvate dehydrogenase and TCA cycle;"	1.1.1.37+1.1.1.41+1.2.1.12+1.2.4.1+1.3.5.1+1.8.1.4+2.3.1.12+2.7.1.11+2.7.1.40+2.7.2.3+4.1.2.13+4.2.1.11+4.2.1.2+4.2.1.3+5.3.1.1+6.2.1.5	20	16	84	0.81	6777.22	0.43	413.34	0.32	644.17	0.30	4827.62	0.53	892.09	0.29
+PWYG-321	"Fatty-acid-biosynthesis;"	"mycolate biosynthesis;"	1.-.-.-+1.1.1.100+2.1.1.-+2.3.1.-+2.3.1.179+2.3.1.41+3.6.3.-+4.2.1.-+6.4.1.3	14	9	181	1.74	21176.64	1.35	2082.48	1.62	3547.77	1.65	10263.06	1.12	5283.33	1.74
+PWY-5001	"XANTHONE-SYN;"	"tetrahydroxyxanthone biosynthesis (from benzoate);"	6.2.1.25	2	1	1	0.01	92.95	0.01	0.00	0.00	0.04	0.00	92.89	0.01	0.02	0.00
+P221-PWY	"Other-Degradation;"	"octane oxidation;"	1.1.99.-+1.14.15.3+1.2.1.3+6.2.1.3	5	4	17	0.16	1032.96	0.07	20.99	0.02	15.94	0.01	991.67	0.11	4.38	0.00
+DESULFONATION-PWY	"Sulfoaromatics-Degradation;"	"benzenesulfonate degradation;"	1.14.12.-	1	1	2	0.02	244.99	0.02	0.04	0.00	4.16	0.00	239.60	0.03	1.19	0.00
+PWY-6014	"Vernolate-Biosynthesis;"	"vernolate biosynthesis I;"	1.14.13.-	1	1	3	0.03	165.20	0.01	8.13	0.01	0.10	0.00	156.53	0.02	0.43	0.00
+PWY-6536	"4-Aminobutyraye-Degradation;"	"4-aminobutanoate degradation III;"	1.2.1.16	2	1	2	0.02	226.52	0.01	0.03	0.00	3.94	0.00	221.38	0.02	1.17	0.00
+PWY-5265	"Peptidoglycan-Biosynthesis; Super-Pathways;"	"peptidoglycan biosynthesis II (staphylococci);"	2.4.1.129+2.4.1.227+2.5.1.7+2.7.8.13+3.4.16.4+5.1.1.3+6.3.2.10+6.3.2.4+6.3.2.8+6.3.2.9	15	10	57	0.55	3922.03	0.25	76.00	0.06	40.69	0.02	3788.03	0.41	17.31	0.01
+CARNMET-PWY	"CARN-DEG;"	"L-carnitine degradation I;"	1.3.99.-+2.8.3.-+4.2.1.-+6.2.1.-	4	4	31	0.30	2011.53	0.13	27.49	0.02	103.64	0.05	1826.98	0.20	53.42	0.02
+PWY66-368	"OTHER-ENERGY;"	"ketolysis;"	2.3.1.9+2.8.3.5	3	2	7	0.07	569.30	0.04	2.44	0.00	7.92	0.00	555.14	0.06	3.81	0.00
+PROTOCATECHUATE-ORTHO-CLEAVAGE-PWY	"Protocatechuate-Degradation;"	"protocatechuate degradation II (ortho-cleavage pathway);"	1.13.11.3+3.1.1.24+4.1.1.44+5.5.1.2	4	4	8	0.08	222.47	0.01	0.09	0.00	14.74	0.01	204.35	0.02	3.29	0.00
+PWY-5981	"CDP-diacylglycerol-Biosynthesis;"	"CDP-diacylglycerol biosynthesis III;"	1.1.1.94+2.3.1.-+2.3.1.51+2.7.7.41	4	4	35	0.34	2167.32	0.14	77.49	0.06	37.99	0.02	2023.61	0.22	28.22	0.01
+PWY-5339	"CHALCONE-SYN;"	"chalcone 2'-<i>O</i>-glucoside biosynthesis;"	2.4.1.-	1	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+PWY-5398	"APOCAROTENOID-SYN;"	"crocetin esters biosynthesis;"	2.4.1.-	1	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+PWY-6293	"CYSTEINE-SYN; Super-Pathways;"	"superpathway of L-cysteine biosynthesis (fungi);"	2.3.1.31+2.5.1.49+4.2.1.22+4.4.1.1	5	4	9	0.09	450.92	0.03	1.85	0.00	1.36	0.00	443.99	0.05	3.72	0.00
+TRYPTOPHAN-DEGRADATION-1	"Super-Pathways; TRYPTOPHAN-DEG;"	"L-tryptophan degradation III (eukaryotic);"	1.1.1.35+1.13.11.11+1.14.13.9+1.2.1.32+2.3.1.9+3.7.1.3+4.1.1.45	11	7	15	0.14	659.47	0.04	3.14	0.00	12.26	0.01	637.62	0.07	6.45	0.00
+SERSYN-PWY	"SERINE-BIOSYNTHESIS;"	"L-serine biosynthesis I;"	1.1.1.95+2.6.1.52+3.1.3.3	3	3	10	0.10	956.50	0.06	14.13	0.01	5.63	0.00	934.43	0.10	2.31	0.00
+GLUTSYNIII-PWY	"GLUTAMATE-SYN;"	"L-glutamate biosynthesis III;"	1.4.1.4	1	1	2	0.02	272.03	0.02	0.05	0.00	0.60	0.00	270.89	0.03	0.49	0.00
+CALVIN-PWY	"Autotrophic-CO2-Fixation; CARBO-BIOSYNTHESIS; Photosynthesis;"	"Calvin-Benson-Bassham cycle;"	2.2.1.1+2.7.2.3+3.1.3.11+4.1.2.-+4.1.2.13+5.1.3.1+5.3.1.1+5.3.1.6	12	8	30	0.29	4990.42	0.32	624.07	0.49	1153.56	0.54	1499.70	0.16	1713.09	0.56
+PWY-5947	"C40-Carotenoids-Biosynthesis;"	"lutein biosynthesis;"	1.14.99.-+5.5.1.-	2	2	9	0.09	650.05	0.04	29.03	0.02	0.85	0.00	617.41	0.07	2.77	0.00
+PWY-5642	"Dinitrotoluene-Degradation;"	"2,4-dinitrotoluene degradation;"	1.2.1.27	1	1	1	0.01	202.80	0.01	0.00	0.00	0.43	0.00	202.04	0.02	0.33	0.00
+CITRULBIO-PWY	"Citrulline-Biosynthesis;"	"L-citrulline biosynthesis;"	1.2.1.41+2.1.3.3+2.6.1.13+2.7.2.11+3.5.1.2	7	5	11	0.11	702.18	0.04	36.29	0.03	10.50	0.00	651.64	0.07	3.73	0.00
+PWY-5800	"SECONDARY-CELL-WALL;"	"xylan biosynthesis;"	2.4.1.-+2.4.2.-	3	2	16	0.15	2851.53	0.18	290.44	0.23	599.60	0.28	1059.21	0.12	902.29	0.30
+PWY-3961	"Pantothenate-Biosynthesis;"	"phosphopantothenate biosynthesis II;"	6.3.2.1	2	1	1	0.01	37.23	0.00	0.91	0.00	0.06	0.00	36.09	0.00	0.18	0.00
+KDO-NAGLIPASYN-PWY	"Lipid-Biosynthesis; Lipopolysaccharide-Biosynthesis; Super-Pathways;"	"superpathway of (Kdo)<SUB>2</SUB>-lipid A biosynthesis;"	2.3.1.-+2.3.1.191+2.4.1.182+2.4.99.12+2.5.1.55+2.7.1.130+2.7.7.38+3.1.3.45+3.5.1.108+5.3.1.13	13	10	35	0.34	2257.81	0.14	36.11	0.03	22.32	0.01	2187.72	0.24	11.66	0.00
+PWY-6435	"4-Hydroxybenzoate-Biosynthesis;"	"4-hydroxybenzoate biosynthesis III (plants);"	1.1.1.35+2.3.1.16+4.2.1.17+6.2.1.12	5	4	33	0.32	1379.35	0.09	15.08	0.01	47.55	0.02	1299.11	0.14	17.61	0.01
+PWY-5063	"Phytyl-Diphosphate-Biosynthesis;"	"phytyl diphosphate biosynthesis;"	1.3.1.-	1	1	11	0.11	2330.42	0.15	321.85	0.25	593.36	0.28	510.62	0.06	904.58	0.30
+PWY-5064	"Chlorophyll-a-Biosynthesis;"	"chlorophyll <i>a</i> biosynthesis II;"	1.3.1.-+2.5.1.-	2	2	36	0.35	4030.07	0.26	368.77	0.29	608.81	0.28	2134.65	0.23	917.85	0.30
+HOMOCYSDEGR-PWY	"CYSTEINE-SYN; HOMOCYSTEINE-DEG;"	"L-cysteine biosynthesis III (from L-homocysteine);"	4.2.1.22+4.4.1.1	2	2	5	0.05	109.43	0.01	1.73	0.00	0.51	0.00	103.98	0.01	3.21	0.00
+PWY-5990	"CYANOGENIC-GLUCOSIDE-SYN;"	"lotaustralin biosynthesis;"	1.14.13.-	2	1	3	0.03	165.20	0.01	8.13	0.01	0.10	0.00	156.53	0.02	0.43	0.00
+PWY-6188	""	""	3.6.3.-	1	1	42	0.40	6107.76	0.39	647.48	0.50	1143.84	0.53	2591.40	0.28	1725.04	0.57
+PWY-6214	"3-Chlorocatechol-Degradation;"	"3-chlorocatechol degradation III (<i>meta</i> pathway);"	5.3.2.-	2	1	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+TRESYN-PWY	"Trehalose-biosynthesis;"	"trehalose biosynthesis I;"	2.4.1.15	2	1	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+PWYQT-4429	"CO2-Fixation;"	"CO<sub>2</sub> fixation into oxaloacetate (anaplerotic);"	4.1.1.31	1	1	1	0.01	36.00	0.00	0.85	0.00	0.07	0.00	34.84	0.00	0.24	0.00
+PWY-5154	"ARGININE-SYN;"	"L-arginine biosynthesis III (via <i>N</i>-acetyl-L-citrulline);"	1.2.1.38+2.1.3.9+2.3.1.1+2.6.1.11+2.7.2.8+3.5.1.16+4.3.2.1+6.3.4.5+6.3.5.5	9	9	54	0.52	5571.90	0.36	463.77	0.36	1947.67	0.91	2673.40	0.29	487.05	0.16
+PWY-5366	"Palmitoleate-Biosynthesis;"	"palmitoleate biosynthesis II (plants and bacteria);"	1.14.99.-	2	1	8	0.08	434.40	0.03	29.01	0.02	0.32	0.00	402.70	0.04	2.36	0.00
+PWY-6235	""	""	2.8.2.-	1	1	1	0.01	59.41	0.00	0.00	0.00	0.12	0.00	59.27	0.01	0.02	0.00
+PWY-6578	"7-Keto-8-aminopelargonate-Biosynthesis;"	"8-amino-7-oxononanoate biosynthesis III;"	2.3.1.47	2	1	3	0.03	165.98	0.01	17.86	0.01	1.43	0.00	143.69	0.02	3.00	0.00
+PWY-3001	"ISOLEUCINE-SYN; Super-Pathways;"	"superpathway of L-isoleucine biosynthesis I;"	1.1.1.3+1.1.1.86+1.2.1.11+2.2.1.6+2.6.1.1+2.6.1.42+2.7.1.39+2.7.2.4+4.2.1.9+4.2.3.1+4.3.1.19	11	11	47	0.45	3195.95	0.20	90.23	0.07	48.60	0.02	3025.38	0.33	31.73	0.01
+PWY-1921	"Activation;"	"indole-3-acetate activation II;"	3.1.-.-	1	1	51	0.49	7009.19	0.45	703.80	0.55	1202.89	0.56	3295.85	0.36	1806.65	0.60
+PWY-5108	"ISOLEUCINE-SYN;"	"L-isoleucine biosynthesis V;"	2.6.1.42	1	1	9	0.09	638.35	0.04	27.79	0.02	7.21	0.00	594.44	0.06	8.91	0.00
+PWY-882	"Ascorbate-Biosynthesis;"	"L-ascorbate biosynthesis I (L-galactose pathway);"	1.1.1.-+2.7.7.-+2.7.7.13+3.1.3.-+5.3.1.8+5.4.2.8	8	6	42	0.40	2648.85	0.17	30.61	0.02	46.55	0.02	2559.05	0.28	12.64	0.00
+GLUTDEG-PWY	"ASPARTATE-SYN; GLUTAMATE-DEG;"	"L-glutamate degradation II;"	2.6.1.1	2	1	6	0.06	414.45	0.03	7.53	0.01	20.64	0.01	381.70	0.04	4.58	0.00
+NADSYN-PWY	"NAD-SYN; Super-Pathways;"	"NAD <i>de novo</i> biosynthesis II (from tryptophan);"	1.13.11.11+1.14.13.9+2.4.2.19+2.7.7.18+3.7.1.3+6.3.5.1	8	6	13	0.13	1037.17	0.07	3.28	0.00	19.30	0.01	1007.56	0.11	7.02	0.00
+PWY-5196	"Cofactor-Biosynthesis;"	"factor 430 biosynthesis;"	2.1.1.107	1	1	4	0.04	486.75	0.03	0.02	0.00	1.07	0.00	484.65	0.05	1.02	0.00
+GLUTORN-PWY	"L-Ornithine-Biosynthesis;"	"L-ornithine biosynthesis I;"	1.2.1.38+2.3.1.1+2.6.1.11+2.7.2.8+3.5.1.16	5	5	23	0.22	2414.35	0.15	172.15	0.13	783.25	0.36	1268.22	0.14	190.73	0.06
+P124-PWY	"Acetate-Formation; Fermentation-to-Lactate; Sugars-And-Polysaccharides-Degradation;"	"Bifidobacterium shunt;"	1.1.1.27+1.2.1.12+2.2.1.1+2.2.1.2+2.7.1.2+2.7.1.40+2.7.2.1+2.7.2.3+4.2.1.11+5.1.3.1+5.3.1.6+5.3.1.9	15	12	49	0.47	8154.77	0.52	947.72	0.74	1770.04	0.82	2819.52	0.31	2617.48	0.86
+PWY-4242	""	""	2.7.1.24+2.7.1.33+2.7.7.3+4.1.1.36+6.3.2.1+6.3.2.5	7	6	18	0.17	1136.98	0.07	43.41	0.03	13.65	0.01	1069.21	0.12	10.72	0.00
+PWY-5367	"Unsaturated-Fatty-Acids-Biosynthesis;"	"petroselinate biosynthesis;"	1.1.1.100+1.14.99.-+1.3.1.-+4.2.1.-	5	4	32	0.31	3370.84	0.22	366.29	0.29	602.09	0.28	1491.61	0.16	910.85	0.30
+PWY-5350	"Thiosulfate-Disproportionation;"	"thiosulfate disproportionation IV (rhodanese);"	2.8.1.1	1	1	1	0.01	215.66	0.01	0.02	0.00	0.52	0.00	214.71	0.02	0.41	0.00
+PWY-701	"METHIONINE-DEG;"	"L-methionine degradation II;"	4.4.1.11	1	1	2	0.02	73.03	0.00	0.00	0.00	0.13	0.00	71.40	0.01	1.50	0.00
+PWY-5132	"TERPENOPHENOLICS-SYN;"	"lupulone and humulone biosynthesis;"	2.5.1.-	2	1	25	0.24	1699.65	0.11	46.92	0.04	15.45	0.01	1624.03	0.18	13.26	0.00
+PWY-5808	"TERPENOPHENOLICS-SYN;"	"hyperforin and adhyperforin biosynthesis;"	2.5.1.-	2	1	25	0.24	1699.65	0.11	46.92	0.04	15.45	0.01	1624.03	0.18	13.26	0.00
+PWY-6154	"Autoinducer-Biosynthesis;"	"autoinducer AI-2 biosynthesis II (<i>Vibrio</i>);"	2.1.1.-+3.2.2.9	3	2	38	0.37	3622.79	0.23	378.66	0.30	605.32	0.28	1707.92	0.19	930.89	0.31
+PWY-5805	"Polyprenyl-Biosynthesis;"	"nonaprenyl diphosphate biosynthesis I;"	2.5.1.-	1	1	25	0.24	1699.65	0.11	46.92	0.04	15.45	0.01	1624.03	0.18	13.26	0.00
+P261-PWY	"Coenzyme-M-Biosynthesis;"	"coenzyme M biosynthesis I;"	3.1.3.71	3	1	2	0.02	38.60	0.00	0.12	0.00	0.16	0.00	36.80	0.00	1.53	0.00
+PWY-5807	"Polyprenyl-Biosynthesis;"	"heptaprenyl diphosphate biosynthesis;"	2.5.1.30	1	1	2	0.02	99.72	0.01	8.13	0.01	0.07	0.00	89.87	0.01	1.66	0.00
+DENOVOPURINE2-PWY	"Purine-Nucleotide-De-Novo-Biosynthesis; Super-Pathways;"	"superpathway of purine nucleotides <i>de novo</i> biosynthesis II;"	1.1.1.205+1.17.4.1+2.1.2.-+2.1.2.3+2.4.2.14+2.7.4.3+2.7.4.6+2.7.4.8+3.5.4.10+3.6.3.14+4.3.2.2+5.4.99.18+6.3.2.6+6.3.3.1+6.3.4.13+6.3.4.18+6.3.4.4+6.3.5.2+6.3.5.3	21	19	73	0.70	7776.20	0.50	737.35	0.58	1212.59	0.56	4009.21	0.44	1817.06	0.60
+HOMOSERSYN-PWY	"Other-Amino-Acid-Biosynthesis;"	"L-homoserine biosynthesis;"	1.1.1.3+1.2.1.11+2.7.2.4	3	3	8	0.08	560.47	0.04	25.69	0.02	2.28	0.00	527.53	0.06	4.97	0.00
+TREDEGLOW-PWY	"Trehalose-Degradation;"	"trehalose degradation I (low osmolarity);"	2.7.1.2	2	1	2	0.02	96.47	0.01	8.13	0.01	0.05	0.00	88.05	0.01	0.24	0.00
+PWY0-1299	"Acid-Resistance;"	"arginine dependent acid resistance;"	4.1.1.19	1	1	2	0.02	81.70	0.01	0.00	0.00	0.15	0.00	80.05	0.01	1.50	0.00
+ILEUDEG-PWY	"ISOLEUCINE-DEG;"	"L-isoleucine degradation I;"	2.3.1.9+2.6.1.42+4.2.1.17	5	3	30	0.29	1525.62	0.10	41.86	0.03	30.46	0.01	1433.00	0.16	20.29	0.01
+PWY-5600	"Pyruvate-Acetate-Fermentation; Super-Pathways;"	"pyruvate fermentation to acetate VII;"	2.3.1.8+2.7.2.1	3	2	6	0.06	269.19	0.02	14.76	0.01	0.12	0.00	252.49	0.03	1.82	0.00
+PWY-5074	"CARBOXYLATES-DEG;"	"mevalonate degradation;"	4.1.3.4	2	1	2	0.02	204.87	0.01	0.23	0.00	0.42	0.00	203.78	0.02	0.44	0.00
+AMMASSIM-PWY	"Ammonia-Assimilation; Super-Pathways;"	"ammonia assimilation cycle III;"	1.4.1.13+6.3.1.2	2	2	12	0.12	554.27	0.04	14.07	0.01	11.64	0.01	524.60	0.06	3.96	0.00
+PWY0-381	"GLYCEROL-DEG; Super-Pathways;"	"glycerol and glycerophosphodiester degradation;"	1.1.5.3+2.7.1.30+3.1.4.46	3	3	8	0.08	404.07	0.03	30.30	0.02	3.68	0.00	360.70	0.04	9.39	0.00
+PWY-5673	""	""	1.7.2.2	2	1	2	0.02	74.50	0.00	1.55	0.00	0.09	0.00	72.43	0.01	0.43	0.00
+PWY-821	"Amino-Acid-Biosynthesis; Super-Pathways;"	"superpathway of sulfur amino acid biosynthesis (<i>Saccharomyces cerevisiae</i>);"	1.8.4.8+2.3.1.31+2.5.1.49+4.2.1.22+4.4.1.1	9	5	10	0.10	642.22	0.04	1.86	0.00	1.76	0.00	634.54	0.07	4.06	0.00
+CENTFERM-PWY	"Acetyl-CoA-Butyrate; Pyruvate-Degradation;"	"pyruvate fermentation to butanoate;"	1.1.1.35+2.3.1.19+2.3.1.9+2.7.2.7	6	4	16	0.15	583.42	0.04	23.25	0.02	10.73	0.00	543.41	0.06	6.03	0.00
+PWY-5997	"Alpha-Linolenate-Biosynthesis;"	"&alpha;-linolenate biosynthesis I (plants and red algae);"	1.14.19.-	1	1	3	0.03	124.04	0.01	0.00	0.00	0.04	0.00	122.42	0.01	1.58	0.00
+PWY-5155	"Beta-Alanine-Biosynthesis;"	"&beta;-alanine biosynthesis III;"	4.1.1.11	1	1	2	0.02	91.76	0.01	0.13	0.00	0.25	0.00	91.25	0.01	0.13	0.00
+PWY-5923	"Limonene-Degradation;"	"limonene degradation I (D-limonene);"	1.14.13.107	3	1	1	0.01	29.33	0.00	0.02	0.00	3.64	0.00	24.90	0.00	0.78	0.00
+PWY-6124	"IMP-Biosynthesis;"	"inosine-5'-phosphate biosynthesis II;"	2.1.2.3+3.5.4.10+4.1.1.21+4.3.2.2+6.3.2.6	5	5	12	0.12	1026.89	0.07	2.35	0.00	25.41	0.01	993.37	0.11	5.76	0.00
+PWY-283	"Benzoate-Degradation;"	"benzoate degradation II (aerobic and anaerobic);"	6.2.1.25	1	1	1	0.01	92.95	0.01	0.00	0.00	0.04	0.00	92.89	0.01	0.02	0.00
+PWY-5160	"ANTHOCYANIN-SYN;"	"rose anthocyanin biosynthesis I (via cyanidin 5-<i>O</i>-&beta;-<i>D</i>-glucoside);"	2.4.1.-	1	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+PYRIDOXSYN-PWY	"Vitamin-B6-Biosynthesis;"	"pyridoxal 5'-phosphate biosynthesis I;"	1.1.1.262+1.2.1.72+2.2.1.7+2.6.1.52+2.6.99.2	7	5	11	0.11	794.95	0.05	25.40	0.02	48.73	0.02	658.79	0.07	62.02	0.02
+PWY-6012	"Cofactor-Biosynthesis; Interconversion;"	"acyl carrier protein metabolism;"	2.7.8.7	2	1	4	0.04	389.15	0.02	0.61	0.00	22.48	0.01	361.80	0.04	4.26	0.00
+PWY-5134	"Metabolic-Clusters; Super-Pathways; TERPENOPHENOLICS-SYN;"	"superpathway of bitter acids biosynthesis;"	2.5.1.-	2	1	25	0.24	1699.65	0.11	46.92	0.04	15.45	0.01	1624.03	0.18	13.26	0.00
+PWY-801	"CYSTEINE-SYN; Interconversion;"	"homocysteine and cysteine interconversion;"	4.2.1.22+4.4.1.1	3	2	5	0.05	109.43	0.01	1.73	0.00	0.51	0.00	103.98	0.01	3.21	0.00
+PWY-1881	"C1-COMPOUNDS; CHEMOAUTOTROPHIC-ENERGY-METABOLISM;"	"formate oxidation to CO<sub>2</sub>;"	1.2.1.2	1	1	3	0.03	434.75	0.03	0.02	0.00	0.87	0.00	433.08	0.05	0.77	0.00
+PWY-5723	"Energy-Metabolism;"	"Rubisco shunt;"	2.2.1.1+2.2.1.2+2.7.1.40+4.2.1.11+5.1.3.1+5.3.1.6	9	6	20	0.19	4606.23	0.29	606.07	0.47	1156.26	0.54	1089.54	0.12	1754.36	0.58
+PHOSLIPSYN2-PWY	"Phospholipid-Biosynthesis; Super-Pathways;"	"superpathway of phospholipid biosynthesis II (plants);"	1.1.1.94+2.3.1.51+2.7.7.-+2.7.7.41+2.7.8.-+2.7.8.5+2.7.8.8+3.1.3.27	21	8	39	0.38	2436.20	0.16	85.02	0.07	57.63	0.03	2262.12	0.25	31.43	0.01
+PWY-5666	"ALKALOIDS-SYN;"	"&alpha;-solanine/&alpha;-chaconine biosynthesis;"	2.4.1.-	1	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+SUCUTIL-PWY	"SUCROSE-DEG;"	"sucrose degradation I (sucrose phosphotransferase);"	2.7.1.4+3.2.1.26	2	2	4	0.04	230.32	0.01	0.00	0.00	0.08	0.00	230.13	0.03	0.11	0.00
+PWY-5113	"UDP-Sugar-Biosynthesis;"	"UDP-D-apiose biosynthesis (from UDP-D-glucuronate);"	4.1.1.-	1	1	3	0.03	119.18	0.01	0.09	0.00	0.62	0.00	118.30	0.01	0.17	0.00
+PWY-6516	"Sugar-Derivatives; Super-Pathways;"	"superpathway of microbial D-galacturonate and D-glucuronate degradation;"	1.1.1.-+1.1.1.60+1.2.1.26+2.7.1.45+4.1.2.14	19	5	16	0.15	1062.75	0.07	4.50	0.00	21.30	0.01	1031.90	0.11	5.05	0.00
+P283-PWY	"Hydrogen-Oxidation;"	"hydrogen oxidation I (aerobic);"	1.12.99.6	1	1	2	0.02	144.85	0.01	0.01	0.00	0.08	0.00	144.71	0.02	0.05	0.00
+TCA	"TCA-VARIANTS;"	"TCA cycle I (prokaryotic);"	1.1.1.37+1.1.1.42+1.3.5.1+4.2.1.2+4.2.1.3+6.2.1.5	8	6	26	0.25	1680.61	0.11	52.07	0.04	19.78	0.01	1595.22	0.17	13.54	0.00
+PWY-5845	"Menaquinone-Biosynthesis; Super-Pathways;"	"superpathway of menaquinol-9 biosynthesis;"	2.1.1.163+2.2.1.9+2.5.1.-+3.1.2.-+4.1.3.36+4.2.1.113+4.2.99.20+5.4.4.2+6.2.1.26	10	9	44	0.42	4352.21	0.28	398.85	0.31	613.18	0.28	2426.92	0.26	913.26	0.30
+PWY4FS-7	"PhosphatidylglycerolBiosynthesis; Super-Pathways;"	"phosphatidylglycerol biosynthesis I (plastidic);"	1.1.1.94+2.3.1.51+2.7.7.41+2.7.8.5+3.1.3.27	6	5	15	0.14	922.70	0.06	68.00	0.05	31.85	0.01	799.24	0.09	23.61	0.01
+PWYQT-4475	"GLUCOSINOLATE-SYN;"	"glucosinolate biosynthesis from hexahomomethionine;"	1.14.13.-+2.6.1.-+2.8.2.-	4	3	5	0.05	265.33	0.02	10.50	0.01	0.23	0.00	254.12	0.03	0.49	0.00
+PWY-6164	"3-Dehydroquinate-Biosynthesis;"	"3-dehydroquinate biosynthesis I;"	2.5.1.54+4.2.3.4	2	2	2	0.02	257.60	0.02	0.00	0.00	0.55	0.00	256.69	0.03	0.36	0.00
+NONOXIPENT-PWY	"Pentose-Phosphate-Cycle;"	"pentose phosphate pathway (non-oxidative branch);"	2.2.1.1+2.2.1.2+5.1.3.1+5.3.1.6	4	4	14	0.13	4135.19	0.26	595.88	0.46	1152.54	0.54	633.78	0.07	1752.97	0.58
+TOLUENE-DEG-2-OH-PWY	"TOLUENE-DEG;"	"toluene degradation to 2-hydroxypentadienoate I (<I>via</I> <i>o</I>-cresol);"	1.13.11.2+1.14.13.-+3.7.1.-	3	3	5	0.05	232.79	0.01	10.52	0.01	0.21	0.00	221.49	0.02	0.57	0.00
+PWY-5114	"Interconversion; Super-Pathways; UDP-Sugar-Biosynthesis;"	"UDP-sugars interconversion;"	1.1.1.22+2.4.1.13+2.7.7.9+4.1.1.-+4.1.1.35+5.1.3.2+5.1.3.3+5.4.2.6	20	8	21	0.20	1338.09	0.09	3.69	0.00	22.93	0.01	1301.96	0.14	9.51	0.00
+THREONINE-DEG2-PWY	"THREONINE-DEG;"	"L-threonine degradation II;"	1.1.1.103	2	1	4	0.04	266.40	0.02	8.34	0.01	0.69	0.00	256.61	0.03	0.77	0.00
+PWY-622	"GLYCOGEN-BIOSYN;"	"starch biosynthesis;"	2.4.1.18+2.4.1.21+2.7.7.27+5.3.1.9+5.4.2.2	6	5	15	0.14	2490.42	0.16	331.74	0.26	645.98	0.30	612.78	0.07	899.93	0.30
+PWY-5787	"AROMATIC-COMPOUNDS-BIOSYN;"	"oligomeric urushiol biosynthesis;"	1.10.3.-	1	1	10	0.10	2239.05	0.14	310.89	0.24	582.66	0.27	486.85	0.05	858.64	0.28
+LEUSYN-PWY	"LEUCINE-SYN;"	"L-leucine biosynthesis;"	1.1.1.85+2.3.3.13+2.6.1.42+4.2.1.33	4	4	16	0.15	803.80	0.05	28.25	0.02	8.06	0.00	756.66	0.08	10.83	0.00
+SALVPURINE2-PWY	"Purine-Nucleotides-Salvage;"	"xanthine and xanthosine salvage;"	2.4.2.1+2.4.2.22+2.4.2.8+3.5.4.3	5	4	12	0.12	849.91	0.05	26.76	0.02	3.12	0.00	815.23	0.09	4.81	0.00
+PWY-5482	"Pyruvate-Acetate-Fermentation;"	"pyruvate fermentation to acetate II;"	1.2.1.-+2.3.1.8+2.7.2.1	3	3	17	0.16	3116.63	0.20	326.71	0.25	573.37	0.27	1358.34	0.15	858.21	0.28
+PWY-5516	"Xylose-Degradation;"	"D-xylose degradation II;"	1.1.1.-	1	1	12	0.12	840.22	0.05	3.60	0.00	19.99	0.01	812.50	0.09	4.12	0.00
+ASPARAGINE-DEG1-PWY	"ASPARAGINE-DEG;"	"L-asparagine degradation I;"	3.5.1.1	1	1	2	0.02	107.91	0.01	8.13	0.01	0.05	0.00	99.48	0.01	0.25	0.00
+PWY-6085	"Chloroaromatic-Compounds-Degradation;"	"2,4-dichlorophenoxyacetate degradation;"	1.14.11.-	2	1	2	0.02	263.05	0.02	0.00	0.00	0.56	0.00	262.12	0.03	0.36	0.00
+PWY490-4	"ASPARAGINE-SYN; Aminoacyl-tRNAs-Charging;"	"L-asparagine biosynthesis III (tRNA-dependent);"	6.1.1.-+6.3.5.-	2	2	12	0.12	1023.41	0.07	13.82	0.01	37.15	0.02	962.45	0.10	9.99	0.00
+PWY-5946	"C40-Carotenoids-Biosynthesis;"	"&delta;-carotene biosynthesis;"	5.5.1.-	1	1	1	0.01	215.66	0.01	0.02	0.00	0.52	0.00	214.71	0.02	0.41	0.00
+PWY-5893	"Polyprenyl-Biosynthesis;"	"tridecaprenyl diphosphate biosynthesis;"	2.5.1.-	1	1	25	0.24	1699.65	0.11	46.92	0.04	15.45	0.01	1624.03	0.18	13.26	0.00
+PWY-5027	"Phylloquinone-Biosynthesis; Vitamin-Biosynthesis;"	"phylloquinol biosynthesis;"	2.5.1.-	1	1	25	0.24	1699.65	0.11	46.92	0.04	15.45	0.01	1624.03	0.18	13.26	0.00
+PWY-5989	"Stearate-Biosynthesis;"	"stearate biosynthesis II (bacteria and plants);"	1.1.1.100+1.3.1.9+2.3.1.41+4.2.1.59	5	4	13	0.13	940.23	0.06	7.66	0.01	25.42	0.01	900.50	0.10	6.65	0.00
+FAO-PWY	"Fatty-Acid-Degradation;"	"fatty acid &beta;-oxidation I;"	1.1.1.35+2.3.1.16+4.2.1.17+5.1.2.3+5.3.3.8+6.2.1.3	7	6	41	0.39	2008.31	0.13	35.28	0.03	54.94	0.03	1898.46	0.21	19.63	0.01
+COMPLETE-ARO-PWY	"Amino-Acid-Biosynthesis; Super-Pathways;"	"superpathway of aromatic amino acid biosynthesis;"	1.1.1.25+1.3.1.12+2.4.2.18+2.5.1.19+2.5.1.54+2.6.1.57+2.7.1.71+4.1.1.48+4.1.3.27+4.2.1.10+4.2.1.20+4.2.1.51+4.2.3.4+4.2.3.5+5.3.1.24+5.4.99.5	17	16	49	0.47	4597.15	0.29	321.88	0.25	642.64	0.30	2754.46	0.30	878.17	0.29
+LPSSYN-PWY	"Lipid-Biosynthesis; Super-Pathways;"	"superpathway of lipopolysaccharide biosynthesis;"	2.-.-.-+2.3.1.-+2.3.1.191+2.4.-.-+2.4.1.182+2.4.1.58+2.4.99.12+2.5.1.55+2.7.1.-+2.7.1.130+2.7.7.38+3.1.3.45+3.5.1.108+5.3.1.13	18	14	61	0.59	3843.08	0.25	66.53	0.05	55.07	0.03	3665.59	0.40	55.89	0.02
+PWY-1822	"Activation;"	"indole-3-acetate activation I;"	3.5.1.-	1	1	19	0.18	1167.44	0.07	22.20	0.02	11.45	0.01	1124.96	0.12	8.83	0.00
+KDOSYN-PWY	"KDO-Lipid-IV-Transfer;"	"Kdo transfer to lipid IV<sub>A</sub> I;"	2.4.99.12	2	1	1	0.01	25.63	0.00	0.02	0.00	3.34	0.00	21.51	0.00	0.75	0.00
+PWY-6281	"Selenocysteine-Biosynthesis;"	"L-selenocysteine biosynthesis II (archaea and eukaryotes);"	2.7.9.3+6.1.1.11	4	2	4	0.04	364.25	0.02	10.63	0.01	0.49	0.00	352.43	0.04	0.69	0.00
+PWY-1701	"Methanol-Oxidation; Super-Pathways;"	"methanol and methylamine oxidation to formaldehyde;"	1.1.2.-	2	1	1	0.01	204.63	0.01	0.01	0.00	0.65	0.00	203.32	0.02	0.64	0.00
+PWY-6228	"3-Chlorobenzoate-Degradation;"	"3-chlorobenzoate degradation III (via gentisate);"	1.14.13.24	1	1	4	0.04	303.35	0.02	0.27	0.00	20.31	0.01	279.27	0.03	3.49	0.00
+PWY-6005	"TRITERPENOID-SYN;"	"marneral biosynthesis;"	5.4.99.-	1	1	13	0.13	793.23	0.05	37.67	0.03	22.47	0.01	726.21	0.08	6.88	0.00
+PWY-5913	"TCA-VARIANTS;"	"partial TCA cycle (obligate autotrophs);"	1.1.1.37+1.1.1.42+1.3.5.1+1.4.1.4+2.6.1.1+4.1.1.31+4.2.1.2+4.2.1.3+6.2.1.5	10	9	35	0.34	2403.09	0.15	60.49	0.05	41.08	0.02	2282.65	0.25	18.86	0.01
+PWY-1281	"Sulfoacetaldehyde-Degradation;"	"sulfoacetaldehyde degradation I;"	2.3.1.8+2.3.3.15	2	2	3	0.03	92.67	0.01	2.39	0.00	3.66	0.00	84.38	0.01	2.23	0.00
+PWY-5133	"TERPENOPHENOLICS-SYN;"	"colupulone and cohumulone biosynthesis;"	2.5.1.-	2	1	25	0.24	1699.65	0.11	46.92	0.04	15.45	0.01	1624.03	0.18	13.26	0.00
+P185-PWY	"Formaldehyde-Assimilation;"	"formaldehyde assimilation III (dihydroxyacetone cycle);"	1.2.1.12+2.2.1.1+2.2.1.2+2.7.2.3+3.1.3.11+4.1.2.13+5.1.3.1+5.3.1.1+5.3.1.6	11	9	44	0.42	9484.13	0.61	1212.08	0.95	2334.24	1.08	2467.20	0.27	3470.61	1.14
+P183-PWY	"Catechol-Degradation;"	"catechol degradation to 2-hydroxypentadienoate I;"	1.13.11.2	2	1	1	0.01	42.19	0.00	2.26	0.00	0.00	0.00	39.89	0.00	0.03	0.00
+PWY-6473	"4-Aminobutyraye-Degradation;"	"4-aminobutanoate degradation IV;"	2.6.1.-	2	1	1	0.01	40.73	0.00	2.37	0.00	0.00	0.00	38.32	0.00	0.04	0.00
+PWY-4983	"ARGININE-DEG; ARGININE-SYN; Nitric-Oxide-Biosynthesis;"	"nitric oxide biosynthesis II (mammals);"	4.3.2.1+6.3.4.5	3	2	19	0.18	1984.80	0.13	144.36	0.11	775.55	0.36	879.48	0.10	185.41	0.06
+PWY-5973	"Unsaturated-Fatty-Acids-Biosynthesis;"	"<i>cis</i>-vaccenate biosynthesis;"	1.1.1.100+2.3.1.179	4	2	11	0.11	2126.70	0.14	305.76	0.24	568.01	0.26	397.26	0.04	855.67	0.28
+PWY-5687	""	""	2.7.4.14+2.7.4.6+6.3.4.2	3	3	9	0.09	631.32	0.04	28.36	0.02	7.75	0.00	593.38	0.06	1.82	0.00
+PWY-5653	"NAD-SYN;"	"NAD biosynthesis from 2-amino-3-carboxymuconate semialdehyde;"	2.4.2.19+2.7.7.18+6.3.5.1	3	3	10	0.10	822.48	0.05	2.95	0.00	18.41	0.01	794.62	0.09	6.51	0.00
+HISTSYN-PWY	"HISTIDINE-SYN;"	"L-histidine biosynthesis;"	1.1.1.23+2.4.2.-+2.4.2.17+2.6.1.9+3.1.3.15+3.5.4.19+3.6.1.31+4.2.1.19+5.3.1.16	9	9	25	0.24	1814.96	0.12	16.73	0.01	42.14	0.02	1745.49	0.19	10.60	0.00
+BRANCHED-CHAIN-AA-SYN-PWY	"Amino-Acid-Biosynthesis; Super-Pathways;"	"superpathway of branched chain amino acid biosynthesis;"	1.1.1.85+1.1.1.86+2.2.1.6+2.3.3.13+2.6.1.42+4.2.1.33+4.2.1.9+4.3.1.19	8	8	36	0.35	2098.19	0.13	37.43	0.03	23.32	0.01	2019.25	0.22	18.19	0.01
+PWY-6389	"Acetoin-Biosynthesis;"	"pyruvate fermentation to (<i>S</i>)-acetoin;"	1.1.1.304+2.2.1.6	2	2	12	0.12	826.23	0.05	1.18	0.00	6.84	0.00	814.67	0.09	3.54	0.00
+PWY0-1319	"CDP-diacylglycerol-Biosynthesis;"	"CDP-diacylglycerol biosynthesis II;"	1.1.1.94+2.3.1.51+2.7.7.41	4	3	11	0.11	710.41	0.05	51.74	0.04	28.31	0.01	607.76	0.07	22.61	0.01
+PWY-6517	"N-Acetylglucosamine-Degradation; Super-Pathways;"	"<i>N</i>-acetylglucosamine degradation II;"	3.5.1.25+3.5.99.6	3	2	6	0.06	492.11	0.03	5.39	0.00	1.35	0.00	484.08	0.05	1.29	0.00
+PWY-981	"Salicylate-Biosynthesis;"	"salicylate biosynthesis II;"	3.1.2.-	1	1	7	0.07	295.31	0.02	18.12	0.01	8.59	0.00	263.69	0.03	4.92	0.00
+PWY-6216	"3-Chlorobenzoate-Degradation;"	"3-chlorobenzoate degradation II (via protocatechuate);"	1.14.12.-	2	1	2	0.02	244.99	0.02	0.04	0.00	4.16	0.00	239.60	0.03	1.19	0.00
+PWY-5036	"GIBBERELLINS-BIOSYNTHESIS;"	"gibberellin biosynthesis II (early C-3 hydroxylation);"	1.14.11.-	1	1	2	0.02	263.05	0.02	0.00	0.00	0.56	0.00	262.12	0.03	0.36	0.00
+PWY0-1471	"Uracil-Degradation;"	"uracil degradation III;"	4.2.1.104	2	1	1	0.01	221.14	0.01	0.01	0.00	0.48	0.00	220.28	0.02	0.38	0.00
+PWY-4502	"ISOFLAVONOID-PHYTOALEXINS; ISOFLAVONOID-SYN;"	"wighteone and luteone biosynthesis;"	2.5.1.-	2	1	25	0.24	1699.65	0.11	46.92	0.04	15.45	0.01	1624.03	0.18	13.26	0.00
+PWY-6409	"Siderophores-Biosynthesis;"	"pyoverdine I biosynthesis;"	2.6.1.76	1	1	2	0.02	250.71	0.02	0.01	0.00	0.52	0.00	249.82	0.03	0.36	0.00
+PWY-5675	"Nitrate-Reduction;"	"nitrate reduction V (assimilatory);"	1.4.1.4+1.7.1.4+6.3.1.2	4	3	9	0.09	909.62	0.06	13.47	0.01	5.52	0.00	887.46	0.10	3.17	0.00
+CODH-PWY	"Autotrophic-CO2-Fixation;"	"reductive acetyl coenzyme A pathway I (homoacetogenic bacteria);"	1.5.1.5+2.1.1.-+3.5.4.9+6.3.4.3	6	4	42	0.40	3863.25	0.25	401.08	0.31	605.95	0.28	1924.25	0.21	931.97	0.31
+MALATE-ASPARTATE-SHUTTLE-PWY	"ASPARTATE-DEG;"	"L-aspartate degradation II;"	1.1.1.37+2.6.1.1	2	2	10	0.10	648.41	0.04	16.17	0.01	24.45	0.01	601.83	0.07	5.97	0.00
+PWY-5979	"SECONDARY-METABOLITE-BIOSYNTHESIS;"	"3-amino-5-hydroxybenzoate biosynthesis;"	2.2.1.1	1	1	6	0.06	1915.98	0.12	308.96	0.24	564.15	0.26	189.35	0.02	853.52	0.28
+ARGININE-SYN4-PWY	"L-Ornithine-Biosynthesis;"	"L-ornithine biosynthesis II;"	1.4.1.3+2.1.3.3+2.6.1.13+4.3.2.1+6.3.4.5	5	5	28	0.27	2463.75	0.16	165.26	0.13	785.27	0.36	1323.48	0.14	189.75	0.06
+PWY-6404	"Cell-Wall-Biosynthesis; Super-Pathways;"	"superpathway of mycolyl-arabinogalactan-peptidoglycan complex biosynthesis;"	1.1.1.133+2.3.1.-+2.3.1.157+2.4.1.-+2.5.1.-+2.6.1.16+2.7.6.1+2.7.7.23+2.7.7.24+3.6.1.-+4.2.1.46+5.1.3.13+5.1.3.2+5.3.3.2+5.4.2.10+5.4.99.9	18	16	116	1.12	14544.09	0.93	1310.73	1.02	2364.09	1.10	7334.41	0.80	3534.86	1.16
+PWY-1781	"Beta-Alanine-Degradation;"	"&beta;-alanine degradation II;"	2.6.1.18	2	1	1	0.01	202.80	0.01	0.00	0.00	0.43	0.00	202.04	0.02	0.33	0.00
+PWY-5747	"Methyl-Citrate-Cycle;"	"2-methylcitrate cycle II;"	2.3.3.5+4.1.3.30+4.2.1.117+4.2.1.99	5	4	3	0.03	182.75	0.01	0.00	0.00	0.43	0.00	182.23	0.02	0.10	0.00
+PWYQT-4472	"GLUCOSINOLATE-SYN;"	"glucosinolate biosynthesis from trihomomethionine;"	1.14.13.-+2.6.1.-+2.8.2.-	4	3	5	0.05	265.33	0.02	10.50	0.01	0.23	0.00	254.12	0.03	0.49	0.00
+PWY-5784	"Indole-3-Acetate-Inactivation;"	"indole-3-acetate inactivation VIII;"	2.4.1.-+3.5.1.-	3	2	29	0.28	3533.22	0.23	312.59	0.24	602.98	0.28	1708.93	0.19	908.70	0.30
+PWY66-161	"Ethanol-Degradation;"	"ethanol degradation III;"	1.2.1.3+6.2.1.1	2	2	8	0.08	468.53	0.03	0.94	0.00	4.32	0.00	460.36	0.05	2.92	0.00
+PWY-4981	"PROLINE-SYN;"	"L-proline biosynthesis II (from arginine);"	1.5.1.2+2.1.3.3+2.6.1.13+3.5.3.6	5	4	9	0.09	529.48	0.03	28.26	0.02	13.30	0.01	484.03	0.05	3.89	0.00
+GLYCOL-GLYOXDEG-PWY	"Alcohol-Degradation; Super-Pathways;"	"superpathway of glycol metabolism and degradation;"	1.1.1.60+2.3.3.9+2.7.1.31	6	3	4	0.04	178.67	0.01	7.69	0.01	0.42	0.00	170.06	0.02	0.50	0.00
+PWY-6008	"TRITERPENOID-SYN;"	"baruol biosynthesis;"	5.4.99.-	1	1	13	0.13	793.23	0.05	37.67	0.03	22.47	0.01	726.21	0.08	6.88	0.00
+PWY-2503	"Benzoate-Degradation;"	"benzoate degradation I (aerobic);"	1.14.12.10+1.3.1.25	2	2	3	0.03	646.97	0.04	0.06	0.00	1.57	0.00	644.12	0.07	1.23	0.00
+HISHP-PWY	"HISTIDINE-DEG;"	"L-histidine degradation VI;"	1.14.13.-+3.5.2.7+4.2.1.49+4.3.1.3	4	4	7	0.07	259.68	0.02	8.38	0.01	10.63	0.00	237.50	0.03	3.17	0.00
+PWY-5195	"SESQUITERPENE-LACTONE;"	"artemisinin and arteannuin B biosynthesis;"	1.1.1.-+1.14.13.-+1.2.1.-	4	3	26	0.25	3852.85	0.25	323.67	0.25	593.36	0.28	2074.89	0.23	860.94	0.28
+PWY-5393	"POLYKETIDE-SYN;"	"raspberry ketone biosynthesis;"	1.3.1.-+2.3.1.-	2	2	35	0.34	3787.32	0.24	347.60	0.27	603.05	0.28	1926.47	0.21	910.20	0.30
+PWY-6018	""	""	3.4.11.1	1	1	6	0.06	2071.95	0.13	327.02	0.26	604.13	0.28	247.22	0.03	893.58	0.29
+PWY-5057	"VALINE-DEG;"	"L-valine degradation II;"	1.1.1.1+2.6.1.42+4.1.1.1	3	3	14	0.13	764.37	0.05	27.86	0.02	14.94	0.01	709.34	0.08	12.24	0.00
+PWY-6297	"Inactivation;"	"tuberonate glucoside biosynthesis;"	2.4.1.-	1	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+PWY-5078	"ISOLEUCINE-DEG;"	"L-isoleucine degradation II;"	1.1.1.1+2.6.1.42	3	2	13	0.13	735.26	0.05	27.86	0.02	14.66	0.01	680.58	0.07	12.17	0.00
+PWY-5497	"Fermentation; Purine-Degradation;"	"purine nucleobases degradation II (anaerobic);"	1.17.1.4+1.2.1.2+1.5.1.5+2.1.2.1+2.3.1.8+2.7.2.1+3.5.2.-+3.5.4.3+3.5.4.9+4.3.1.17+6.3.4.3	15	11	23	0.22	1390.04	0.09	40.51	0.03	6.92	0.00	1332.55	0.15	10.06	0.00
+PWY-5743	"Autotrophic-CO2-Fixation;"	"3-hydroxypropanoate cycle;"	1.3.1.84+4.2.1.116+5.1.99.1+5.4.99.2+6.4.1.2+6.4.1.3	10	6	27	0.26	1884.47	0.12	65.94	0.05	28.10	0.01	1775.67	0.19	14.76	0.00
+PWY-4302	"AEROBIC-RESPIRATION; Electron-Transfer;"	"aerobic respiration III (alternative oxidase pathway);"	1.-.-.-+1.3.5.1+1.6.5.3	3	3	63	0.61	7621.20	0.49	710.18	0.55	1223.59	0.57	3920.46	0.43	1766.97	0.58
+PWY0-1021	"ALANINE-SYN;"	"L-alanine biosynthesis III;"	2.8.1.7	1	1	9	0.09	774.10	0.05	10.50	0.01	1.79	0.00	760.07	0.08	1.74	0.00
+FASYN-INITIAL-PWY	"Fatty-acid-biosynthesis; Super-Pathways;"	"superpathway of fatty acid biosynthesis initiation (E. coli);"	2.3.1.-+2.3.1.180+2.3.1.39+2.3.1.41+6.4.1.2	6	5	44	0.42	3030.62	0.19	61.13	0.05	13.93	0.01	2942.72	0.32	12.85	0.00
+PWY-6526	"Limonene-Degradation;"	"limonene degradation III (to perillate);"	1.14.13.-	2	1	3	0.03	165.20	0.01	8.13	0.01	0.10	0.00	156.53	0.02	0.43	0.00
+GLUAMCAT-PWY	"N-Acetylglucosamine-Degradation;"	"<i>N</i>-acetylglucosamine degradation I;"	3.5.1.25+3.5.99.6	2	2	6	0.06	492.11	0.03	5.39	0.00	1.35	0.00	484.08	0.05	1.29	0.00
+NAGLIPASYN-PWY	"Lipid-Biosynthesis; Lipopolysaccharide-Biosynthesis;"	"lipid IV<sub>A</sub> biosynthesis;"	2.3.1.191+2.4.1.182+2.7.1.130+3.5.1.108	6	4	6	0.06	482.04	0.03	10.08	0.01	8.85	0.00	458.21	0.05	4.90	0.00
+PWY-1422	"Quinone-Biosynthesis; Vitamin-Biosynthesis;"	"vitamin E biosynthesis (tocopherols);"	1.13.11.27+2.1.1.-	3	2	38	0.37	3654.44	0.23	376.29	0.29	605.33	0.28	1741.94	0.19	930.88	0.31
+PWY-5971	"Palmitate-Biosynthesis;"	"palmitate biosynthesis II (bacteria and plants);"	1.1.1.100+1.3.1.9+2.3.1.41+4.2.1.59	8	4	13	0.13	940.23	0.06	7.66	0.01	25.42	0.01	900.50	0.10	6.65	0.00
+12DICHLORETHDEG-PWY	"CHLORINATED-COMPOUNDS-DEG;"	"1,2-dichloroethane degradation;"	1.1.99.-+3.8.1.5	4	2	4	0.04	192.88	0.01	0.57	0.00	4.34	0.00	186.72	0.02	1.25	0.00
+P4-PWY	"Amino-Acid-Biosynthesis; Super-Pathways;"	"superpathway of L-lysine, L-threonine and L-methionine biosynthesis I;"	1.1.1.3+1.2.1.11+2.1.1.13+2.3.1.117+2.3.1.46+2.5.1.48+2.6.1.1+2.6.1.17+2.7.1.39+2.7.2.4+3.5.1.18+4.1.1.20+4.2.3.1+5.1.1.7	18	14	36	0.35	2325.06	0.15	86.00	0.07	61.39	0.03	2138.29	0.23	39.39	0.01
+PWY-1061	"PRIMARY-CELL-WALL; Polysaccharides-Biosynthesis;"	"homogalacturonan biosynthesis;"	2.1.1.-	2	1	37	0.36	3582.07	0.23	376.29	0.29	605.32	0.28	1669.61	0.18	930.85	0.31
+CYSTSYN-PWY	"CYSTEINE-SYN;"	"L-cysteine biosynthesis I;"	2.3.1.30+2.5.1.47	2	2	4	0.04	149.13	0.01	1.42	0.00	0.11	0.00	147.19	0.02	0.41	0.00
+PWY-5183	"Super-Pathways; TOLUENE-DEG;"	"superpathway of aerobic toluene degradation;"	1.13.11.2+1.13.11.3+1.14.12.10+1.14.13.-+1.14.13.2+1.3.1.25+2.3.1.174+2.8.3.6+3.1.1.24+3.7.1.-+4.1.1.44+5.5.1.2	22	12	19	0.18	1184.01	0.08	10.69	0.01	23.64	0.01	1142.88	0.12	6.79	0.00
+PWY0-901	"Selenocysteine-Biosynthesis;"	"L-selenocysteine biosynthesis I (bacteria);"	2.7.9.3+2.9.1.1+6.1.1.11	3	3	5	0.05	442.95	0.03	18.50	0.01	0.55	0.00	422.97	0.05	0.94	0.00
+PWY-6059	"Dimethylsulfide-Degradation;"	"dimethyl sulfide degradation II (oxidation);"	1.14.13.-	2	1	3	0.03	165.20	0.01	8.13	0.01	0.10	0.00	156.53	0.02	0.43	0.00
+FLUORENE-DEG-9-ONE-PWY	"Fluorene-Degradation;"	"fluorene degradation I;"	1.14.-.-	2	1	5	0.05	306.19	0.02	0.37	0.00	4.10	0.00	300.52	0.03	1.20	0.00
+PWY-4021	"Betaine-Biosynthesis; MISCELLANEOUS-DEG;"	"&beta;-alanine betaine biosynthesis;"	2.1.1.-	2	1	37	0.36	3582.07	0.23	376.29	0.29	605.32	0.28	1669.61	0.18	930.85	0.31
+PWY-5484	"GLYCOLYSIS-VARIANTS;"	"glycolysis II (from fructose 6-phosphate);"	1.2.1.12+2.7.1.11+2.7.1.40+2.7.2.3+2.7.9.2+3.1.3.11+4.1.2.13+4.2.1.11+5.3.1.1	10	9	42	0.40	6093.28	0.39	637.33	0.50	1185.68	0.55	2549.24	0.28	1721.03	0.57
+PWY-6001	"Linoleate-Biosynthesis;"	"linoleate biosynthesis II (animals);"	1.14.19.6+6.2.1.3	2	2	10	0.10	713.17	0.05	20.47	0.02	7.45	0.00	683.05	0.07	2.20	0.00
+PWY-5674	"ANAEROBIC-RESPIRATION; Nitrate-Reduction;"	"nitrate reduction IV (dissimilatory);"	1.7.2.2	2	1	2	0.02	74.50	0.00	1.55	0.00	0.09	0.00	72.43	0.01	0.43	0.00
+PWY-5826	"SECONDARY-METABOLITE-BIOSYNTHESIS;"	"hypoglycin biosynthesis;"	1.-.-.-+2.3.-.-+2.3.2.2+2.6.1.-+4.1.1.-+4.3.1.19	7	6	71	0.68	9505.13	0.61	1052.01	0.82	1808.91	0.84	3985.99	0.43	2658.21	0.88
+THRESYN-PWY	"Super-Pathways; THREONINE-BIOSYNTHESIS;"	"superpathway of L-threonine biosynthesis;"	1.1.1.3+1.2.1.11+2.6.1.1+2.7.1.39+2.7.2.4+4.2.3.1	6	6	18	0.17	1263.21	0.08	53.27	0.04	26.13	0.01	1168.35	0.13	15.46	0.01
+PWY-5079	"PHENYLALANINE-DEG;"	"L-phenylalanine degradation III;"	1.1.1.1+2.6.1.57	4	2	7	0.07	359.57	0.02	0.20	0.00	8.09	0.00	347.48	0.04	3.81	0.00
+PWY-5667	"CDP-diacylglycerol-Biosynthesis;"	"CDP-diacylglycerol biosynthesis I;"	1.1.1.94+2.3.1.51+2.7.7.41	4	3	11	0.11	710.41	0.05	51.74	0.04	28.31	0.01	607.76	0.07	22.61	0.01
+GLYCOGENSYNTH-PWY	"GLYCOGEN-BIOSYN;"	"glycogen biosynthesis I (from ADP-D-Glucose);"	2.4.1.18+2.4.1.21+2.7.7.27	3	3	9	0.09	2198.76	0.14	328.05	0.26	642.01	0.30	330.29	0.04	898.42	0.30
+PWY-601	"GLUCOSINOLATE-SYN;"	"glucosinolate biosynthesis from tryptophan;"	1.14.13.-+2.8.2.-	3	2	4	0.04	224.61	0.01	8.13	0.01	0.22	0.00	215.80	0.02	0.45	0.00
+PWY-6575	"HORMONE-SYN; JH-III-Biosynthesis;"	"juvenile hormone III biosynthesis I;"	1.1.1.-+1.14.14.-+1.2.1.3+2.1.1.-	5	4	54	0.52	4696.92	0.30	380.03	0.30	625.60	0.29	2756.16	0.30	935.13	0.31
+PWY-5840	"Menaquinone-Biosynthesis; Super-Pathways;"	"superpathway of menaquinol-7 biosynthesis;"	2.1.1.163+2.2.1.9+2.5.1.30+3.1.2.-+4.1.3.36+4.2.1.113+4.2.99.20+5.4.4.2+6.2.1.26	10	9	21	0.20	2752.29	0.18	360.06	0.28	597.80	0.28	892.77	0.10	901.66	0.30
+PWY-6471	"Antibiotic-Resistance; Peptidoglycan-Biosynthesis; Super-Pathways;"	"peptidoglycan biosynthesis IV (Enterococcus faecium);"	2.4.1.129+2.4.1.227+2.5.1.7+2.7.8.13+3.4.16.4+5.1.1.3+6.3.1.-+6.3.2.10+6.3.2.4+6.3.2.8+6.3.2.9	14	11	59	0.57	4038.96	0.26	76.03	0.06	40.91	0.02	3904.63	0.43	17.39	0.01
+PWY-5397	"APOCAROTENOID-SYN;"	"crocetin biosynthesis;"	1.14.99.-+2.4.1.-	3	2	18	0.17	2800.17	0.18	319.40	0.25	591.86	0.28	986.68	0.11	902.24	0.30
+PWY-5529	"Chlorophyll-a-Biosynthesis; Super-Pathways;"	"superpathway of bacteriochlorophyll <i>a</i> biosynthesis;"	1.14.13.-+1.3.1.75+1.3.3.3+1.3.3.4+2.1.1.11+2.3.1.37+2.5.1.61+4.1.1.37+4.2.1.24+4.2.1.75+6.6.1.1	12	11	24	0.23	1426.91	0.09	11.30	0.01	12.59	0.01	1388.04	0.15	14.97	0.00
+PWY-6467	"KDO-Lipid-IV-Transfer; Super-Pathways;"	"Kdo transfer to lipid IV<SUB>A</SUB> III (Chlamydia);"	2.4.99.-+2.4.99.12	5	2	6	0.06	1887.03	0.12	301.31	0.23	584.10	0.27	143.86	0.02	857.76	0.28
+PWY0-1348	"ANAEROBIC-RESPIRATION; Electron-Transfer;"	"NADH to dimethyl sulfoxide electron transfer;"	1.6.5.-	2	1	1	0.01	54.97	0.00	0.04	0.00	0.13	0.00	54.73	0.01	0.07	0.00
+GLYCOCAT-PWY	"Glycan-Degradation; Glycogen-Degradation;"	"glycogen degradation I;"	2.4.1.1+2.4.1.25+2.7.1.2+3.2.1.20+5.4.2.2	6	5	13	0.13	589.61	0.04	14.95	0.01	40.52	0.02	526.41	0.06	7.73	0.00
+PWY-6292	"CYSTEINE-SYN; Super-Pathways;"	"superpathway of L-cysteine biosynthesis (mammalian);"	2.1.1.-+2.5.1.6+3.3.1.1+4.2.1.22+4.4.1.1	5	5	47	0.45	3864.73	0.25	385.44	0.30	609.26	0.28	1935.46	0.21	934.57	0.31
+PWY-5499	"COFACTOR-DEGRADATION;"	"vitamin B<sub>6</sub> degradation;"	1.1.1.107	7	1	1	0.01	52.34	0.00	0.42	0.00	0.34	0.00	50.97	0.01	0.61	0.00
+PWY-5026	"Auxin-Biosynthesis;"	"indole-3-acetate biosynthesis V (bacteria and fungi);"	3.5.5.1	1	1	1	0.01	29.33	0.00	0.02	0.00	3.64	0.00	24.90	0.00	0.78	0.00
+PWY-5083	"NAD-Metabolism;"	"NAD/NADH phosphorylation and dephosphorylation;"	1.6.5.3+2.7.1.23+3.1.3.-	5	3	24	0.23	1339.24	0.09	40.97	0.03	8.69	0.00	1286.50	0.14	3.08	0.00
+PWY-5327	"LYSINE-DEG; Super-Pathways;"	"superpathway of L-lysine degradation;"	1.1.1.-+1.2.1.31+2.3.1.8+2.3.1.9+2.6.1.-+2.7.2.1+2.8.3.9+3.5.1.-	30	8	46	0.44	2572.45	0.16	47.75	0.04	38.64	0.02	2466.71	0.27	19.34	0.01
+PWY0-1353	"AEROBIC-RESPIRATION; Electron-Transfer;"	"succinate to cytochrome <i>bd</i> oxidase electron transfer;"	1.3.5.1	2	1	6	0.06	567.36	0.04	1.99	0.00	8.47	0.00	553.43	0.06	3.48	0.00
+VALDEG-PWY	"VALINE-DEG;"	"L-valine degradation I;"	1.1.1.31+1.2.1.27+2.6.1.42+3.1.2.4+4.2.1.17	8	5	28	0.27	1998.84	0.13	39.45	0.03	24.78	0.01	1916.30	0.21	18.30	0.01
+PWY-5405	"BETALAIN-ALKALOIDS; Super-Pathways;"	"superpathway of betalain biosynthesis;"	1.10.3.-+1.13.11.-+2.3.1.-+2.4.1.-	9	4	47	0.45	6134.68	0.39	629.29	0.49	1183.90	0.55	2555.85	0.28	1765.64	0.58
+PWY-5399	"BETALAIN-ALKALOIDS;"	"betacyanin biosynthesis;"	2.4.1.-	2	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+HISDEG-PWY	"HISTIDINE-DEG;"	"L-histidine degradation I;"	3.5.2.7+4.2.1.49+4.3.1.3	4	3	4	0.04	94.49	0.01	0.25	0.00	10.52	0.00	80.97	0.01	2.75	0.00
+PWY-5530	"Sorbitol-Biosynthesis;"	"sorbitol biosynthesis II;"	2.7.1.12	3	1	2	0.02	162.24	0.01	0.35	0.00	0.53	0.00	160.93	0.02	0.43	0.00
+PWY-2622	"Trehalose-biosynthesis;"	"trehalose biosynthesis IV;"	5.4.99.16	1	1	2	0.02	115.96	0.01	1.19	0.00	0.06	0.00	114.42	0.01	0.29	0.00
+PWY-5307	"ANTHOCYANIN-SYN;"	"gentiodelphin biosynthesis;"	2.3.1.-+2.4.1.-	4	2	34	0.33	3822.68	0.24	316.13	0.25	601.22	0.28	1999.83	0.22	905.50	0.30
+PWY-5082	"METHIONINE-DEG;"	"L-methionine degradation III;"	1.1.1.1	1	1	4	0.04	96.92	0.01	0.06	0.00	7.45	0.00	86.14	0.01	3.26	0.00
+PWY5F9-3233	"AROMATIC-COMPOUNDS-DEGRADATION;"	"phthalate degradation (aerobic);"	1.14.12.7+1.3.1.-	3	2	12	0.12	2359.58	0.15	321.88	0.25	596.97	0.28	535.39	0.06	905.34	0.30
+PWY-6117	"SPERMINE-SPERMIDINE-DEG;"	"spermine and spermidine degradation I;"	2.3.1.57	3	1	1	0.01	17.05	0.00	0.00	0.00	0.00	0.00	17.05	0.00	0.00	0.00
+GLUCONSUPER-PWY	"CARBOXYLATES-DEG;"	"D-gluconate degradation;"	2.7.1.12	1	1	2	0.02	162.24	0.01	0.35	0.00	0.53	0.00	160.93	0.02	0.43	0.00
+PWY-2881	"CYTOKININ-BIOSYNTHESIS; Metabolic-Clusters;"	"cytokinins 7-<i>N</i>-glucoside biosynthesis;"	2.4.1.-	1	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+PWY-6501	"D-Glucuronate-Degradation;"	"D-glucuronate degradation II;"	1.1.1.-	1	1	12	0.12	840.22	0.05	3.60	0.00	19.99	0.01	812.50	0.09	4.12	0.00
+PWY-6151	"S-adenosyl-L-methionine-cycle; Super-Pathways;"	"<i>S</i>-adenosyl-L-methionine cycle I;"	2.1.1.-+2.5.1.6+3.2.2.9	5	3	41	0.39	3704.97	0.24	381.23	0.30	605.32	0.28	1787.44	0.19	930.98	0.31
+GALLATE-DEGRADATION-I-PWY	"GALLATE-DEG;"	"gallate degradation II;"	1.13.11.3+4.1.3.17	4	2	5	0.05	130.78	0.01	0.04	0.00	7.24	0.00	121.85	0.01	1.65	0.00
+PWY0-1061	"ALANINE-SYN; Super-Pathways;"	"superpathway of L-alanine biosynthesis;"	2.6.1.42+2.8.1.7+5.1.1.1	5	3	20	0.19	1523.74	0.10	39.20	0.03	9.06	0.00	1464.64	0.16	10.83	0.00
+PWY-5209	"METHANOGENESIS;"	"methyl-coenzyme M oxidation to CO<sub>2</sub>;"	2.1.1.-+2.3.1.-+3.5.4.-	5	3	65	0.63	5258.88	0.34	412.43	0.32	615.07	0.29	3294.61	0.36	936.76	0.31
+PWY-724	"Amino-Acid-Biosynthesis; Super-Pathways;"	"superpathway of L-lysine, L-threonine and L-methionine biosynthesis II;"	1.1.1.3+1.2.1.11+2.5.1.-+2.6.1.83+2.7.1.39+2.7.2.4+4.1.1.20+4.2.3.1+5.1.1.7	14	9	48	0.46	4852.33	0.31	402.39	0.31	589.12	0.27	2981.74	0.32	879.08	0.29
+PROPIONMET-PWY	"Propionate-Degradation;"	"propanoyl CoA degradation I;"	5.1.99.1+5.4.99.2+6.4.1.3	3	3	8	0.08	569.37	0.04	44.27	0.03	3.73	0.00	514.44	0.06	6.93	0.00
+PWY-762	"Phospholipid-Biosynthesis;"	"phospholipid desaturation;"	1.14.99.-	1	1	8	0.08	434.40	0.03	29.01	0.02	0.32	0.00	402.70	0.04	2.36	0.00
+PWY-6475	"Lycopene-Biosynthesis;"	"<i>trans</i>-lycopene biosynthesis II (oxygenic phototrophs and green sulfur bacteria);"	1.14.99.-+2.5.1.32	3	2	10	0.10	538.04	0.03	37.14	0.03	0.38	0.00	497.92	0.05	2.60	0.00
+PWY-6120	"TYROSINE-SYN;"	"L-tyrosine biosynthesis III;"	1.3.1.43+5.4.99.5	3	2	7	0.07	339.19	0.02	5.66	0.00	26.73	0.01	301.01	0.03	5.79	0.00
+PWY-5695	"Purine-Degradation;"	"inosine 5'-phosphate degradation;"	1.1.1.205+1.17.1.4+2.4.2.1+3.1.3.5	4	4	17	0.16	1121.83	0.07	72.33	0.06	11.50	0.01	1021.62	0.11	16.39	0.01
+PWY-5103	"ISOLEUCINE-SYN;"	"L-isoleucine biosynthesis III;"	1.1.1.86+2.2.1.6+2.6.1.42+4.2.1.9	5	4	25	0.24	1608.19	0.10	29.08	0.02	18.33	0.01	1547.33	0.17	13.45	0.00
+PWY-5123	"All-Trans-Farnesyl-PP-Biosynthesis;"	"<i>trans, trans</i>-farnesyl diphosphate biosynthesis;"	2.5.1.10+5.3.3.2	3	2	6	0.06	374.46	0.02	22.71	0.02	47.32	0.02	244.38	0.03	60.06	0.02
+PWY-5652	"CARBOXYLATES-DEG;"	"2-amino-3-carboxymuconate semialdehyde degradation to glutaryl-CoA;"	1.2.1.32+4.1.1.45	2	2	2	0.02	153.04	0.01	0.33	0.00	0.75	0.00	151.48	0.02	0.47	0.00
+PWY-5067	"GLYCOGEN-BIOSYN;"	"glycogen biosynthesis II (from UDP-D-Glucose);"	2.4.1.11+2.4.1.18+2.7.7.9	4	3	9	0.09	504.76	0.03	4.92	0.00	37.97	0.02	455.10	0.05	6.77	0.00
+PWY-3481	"Amino-Acid-Biosynthesis; Super-Pathways;"	"superpathway of L-phenylalanine and L-tyrosine biosynthesis;"	1.3.1.-+4.2.1.91+5.4.99.5	4	3	16	0.15	2600.30	0.17	326.74	0.25	600.48	0.28	767.23	0.08	905.84	0.30
+ANARESP1-PWY	""	""	1.1.1.37+1.1.1.42+1.2.1.-+2.7.1.40+4.1.1.31+4.2.1.11+4.2.1.2+4.2.1.3	11	8	35	0.34	4318.22	0.28	363.29	0.28	586.98	0.27	2502.56	0.27	865.39	0.29
+URDEGR-PWY	"Allantoin-degradation; Super-Pathways;"	"superpathway of allantoin degradation in plants;"	3.5.1.5+4.3.2.3	7	2	5	0.05	807.12	0.05	0.03	0.00	1.67	0.00	804.09	0.09	1.34	0.00
+PWY0-1336	"ANAEROBIC-RESPIRATION; Electron-Transfer;"	"NADH to fumarate electron transfer;"	1.6.5.-	2	1	1	0.01	54.97	0.00	0.04	0.00	0.13	0.00	54.73	0.01	0.07	0.00
+PWY-5035	"GIBBERELLINS-BIOSYNTHESIS;"	"gibberellin biosynthesis III (early C-13 hydroxylation);"	1.14.11.-	3	1	2	0.02	263.05	0.02	0.00	0.00	0.56	0.00	262.12	0.03	0.36	0.00
+PWY-6129	"Lipid-Biosynthesis;"	"dolichol and dolichyl phosphate biosynthesis;"	2.5.1.-	2	1	25	0.24	1699.65	0.11	46.92	0.04	15.45	0.01	1624.03	0.18	13.26	0.00
+PWY-4984	"NITROGEN-DEG;"	"urea cycle;"	2.1.3.3+4.3.2.1+6.3.4.5	5	3	23	0.22	2154.72	0.14	157.54	0.12	782.83	0.36	1027.32	0.11	187.04	0.06
+PWY-5926	"ISOFLAVONOID-SYN; Interconversion;"	"afrormosin conjugates interconversion;"	2.4.1.-	1	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+FASYN-ELONG-PWY	"Fatty-acid-biosynthesis;"	"fatty acid elongation -- saturated;"	1.1.1.100+1.3.1.9+2.3.1.41+4.2.1.-	5	4	17	0.16	1229.75	0.08	15.58	0.01	9.87	0.00	1199.20	0.13	5.11	0.00
+PWY-6197	"Chloroaromatic-Compounds-Degradation;"	"chlorinated phenols degradation;"	1.14.13.-	1	1	3	0.03	165.20	0.01	8.13	0.01	0.10	0.00	156.53	0.02	0.43	0.00
+PWY-862	"Glycan-Pathways; POLYSACCHARIDES-DEG;"	"fructan degradation;"	3.2.1.-+3.2.1.80	2	2	7	0.07	189.37	0.01	1.93	0.00	19.97	0.01	163.95	0.02	3.53	0.00
+PWY-5998	"Gamma-linolenate-Biosynthesis;"	"&gamma;-linolenate biosynthesis I (plants);"	1.14.19.-	1	1	3	0.03	124.04	0.01	0.00	0.00	0.04	0.00	122.42	0.01	1.58	0.00
+PWY-3221	""	""	4.2.1.46	1	1	3	0.03	321.56	0.02	0.05	0.00	0.87	0.00	319.92	0.03	0.72	0.00
+PWY0-1433	"Cofactor-Biosynthesis;"	"tetrahydromonapterin biosynthesis;"	1.5.1.-	2	1	1	0.01	13.90	0.00	0.00	0.00	0.02	0.00	12.46	0.00	1.42	0.00
+PWY-699	"Brassinosteroid-Biosynthesis;"	"brassinosteroid biosynthesis I;"	1.14.-.-+1.14.13.-+1.3.99.-	5	3	23	0.22	1160.19	0.07	10.22	0.01	8.87	0.00	1136.09	0.12	5.01	0.00
+PWY-6305	"Putrescine-Biosynthesis;"	"putrescine biosynthesis IV;"	3.5.3.11+4.1.1.19	4	2	5	0.05	355.25	0.02	0.01	0.00	0.58	0.00	352.83	0.04	1.84	0.00
+PWY-922	"Mevalonate-Pathways;"	"mevalonate pathway I;"	2.3.1.9+2.7.1.36+2.7.4.2+4.1.1.33+5.3.3.2	7	5	10	0.10	358.95	0.02	12.33	0.01	10.15	0.00	332.66	0.04	3.80	0.00
+PWY0-1337	"Fatty-Acid-Degradation;"	"oleate &beta;-oxidation;"	3.1.2.-	1	1	7	0.07	295.31	0.02	18.12	0.01	8.59	0.00	263.69	0.03	4.92	0.00
+P381-PWY	"De-Novo-Adenosylcobalamin-Biosynthesis; Super-Pathways;"	"adenosylcobalamin biosynthesis II (aerobic);"	1.14.13.83+2.1.1.107+2.1.1.130+2.1.1.132+2.5.1.17+6.3.5.10+6.6.1.2	20	7	16	0.15	1766.69	0.11	18.28	0.01	10.70	0.00	1730.73	0.19	6.97	0.00
+P461-PWY	"Acetate-Formation; Fermentation-to-Lactate; Pyruvate-Ethanol-Fermentation; SUGAR-ALCOHOLS-DEG; Super-Pathways;"	"hexitol fermentation to lactate, formate, ethanol and acetate;"	1.1.1.1+1.1.1.27+1.2.1.12+2.3.1.8+2.7.1.11+2.7.1.40+2.7.2.1+2.7.2.3+2.7.9.2+3.1.3.11+4.1.2.13+4.2.1.11+5.3.1.1	18	13	55	0.53	6625.30	0.42	662.66	0.52	1193.59	0.55	3042.58	0.33	1726.46	0.57
+METHGLYUT-PWY	"Aldehyde-Degradation; Super-Pathways;"	"superpathway of methylglyoxal degradation;"	1.2.1.22+3.1.2.6+4.4.1.5	5	3	7	0.07	453.74	0.03	7.58	0.01	8.15	0.00	436.16	0.05	1.85	0.00
+LEU-DEG2-PWY	"LEUCINE-DEG;"	"L-leucine degradation I;"	2.6.1.42+4.1.3.4+6.4.1.4	5	3	17	0.16	1405.54	0.09	28.12	0.02	15.64	0.01	1350.23	0.15	11.56	0.00
+PWY-5817	"Polyprenyl-Biosynthesis;"	"dodecaprenyl diphosphate biosynthesis;"	2.5.1.-	1	1	25	0.24	1699.65	0.11	46.92	0.04	15.45	0.01	1624.03	0.18	13.26	0.00
+P121-PWY	"Adenine-Adenosine-Salvage;"	"adenine and adenosine salvage I;"	1.1.1.205+2.4.2.1+2.4.2.7+2.4.2.8+3.5.4.3+3.5.4.4+4.3.2.2+6.3.4.4	9	8	27	0.26	3660.61	0.23	383.52	0.30	591.11	0.27	1786.62	0.19	899.35	0.30
+PWY-3542	"Choline-Biosynthesis;"	"choline biosynthesis II;"	2.1.1.-	1	1	37	0.36	3582.07	0.23	376.29	0.29	605.32	0.28	1669.61	0.18	930.85	0.31
+PWY-6476	"Cofactor-Biosynthesis;"	"cytidylyl molybdenum cofactor biosynthesis;"	2.7.7.-	1	1	11	0.11	436.77	0.03	0.59	0.00	23.77	0.01	406.76	0.04	5.64	0.00
+PWY-5386	"Methylglyoxal-Detoxification;"	"methylglyoxal degradation I;"	3.1.2.6+4.4.1.5	3	2	6	0.06	424.63	0.03	7.58	0.01	7.88	0.00	407.40	0.04	1.78	0.00
+PWY-5942	"Lycopene-Biosynthesis; Super-Pathways;"	"<i>trans</i>-lycopene biosynthesis I;"	1.14.99.-+2.5.1.32	3	2	10	0.10	538.04	0.03	37.14	0.03	0.38	0.00	497.92	0.05	2.60	0.00
+PWY-5669	"PhosphatidylethanolamineBiosynthesis; Phosphatidylserine-Biosynthesis;"	"phosphatidylserine and phosphatidylethanolamine biosynthesis I;"	2.7.8.8	2	1	1	0.01	37.23	0.00	0.91	0.00	0.06	0.00	36.09	0.00	0.18	0.00
+COLANSYN-PWY	"Carbohydrates-Biosynthesis; Super-Pathways;"	"colanic acid building blocks biosynthesis;"	1.1.1.22+1.1.1.271+2.7.7.13+2.7.7.9+4.2.1.47+5.1.3.2+5.3.1.8+5.3.1.9+5.4.2.8	11	9	21	0.20	1670.97	0.11	3.79	0.00	24.39	0.01	1632.97	0.18	9.82	0.00
+CAMALEXIN-SYN	"INDOLE-PHYTOALEXIN-SYN;"	"camalexin biosynthesis;"	1.14.13.-	1	1	3	0.03	165.20	0.01	8.13	0.01	0.10	0.00	156.53	0.02	0.43	0.00
+PWY-5473	"N-CONTAINING-SECONDARY-CMPD-SYN;"	"hydroxycinnamic acid serotonin amides biosynthesis;"	1.14.13.-	2	1	3	0.03	165.20	0.01	8.13	0.01	0.10	0.00	156.53	0.02	0.43	0.00
+GLYSYN-PWY	"GLYCINE-SYN;"	"glycine biosynthesis I;"	2.1.2.1	1	1	2	0.02	41.73	0.00	0.03	0.00	3.94	0.00	35.46	0.00	2.29	0.00
+PWY-6336	"Protocatechuate-Degradation;"	"protocatechuate degradation III (<I>para</I>-cleavage pathway);"	5.3.2.-	2	1	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+DTDPRHAMSYN-PWY	"dTDP-Sugar-Biosynthesis;"	"dTDP-L-rhamnose biosynthesis;"	1.1.1.133+2.7.7.24+4.2.1.46+5.1.3.13	4	4	12	0.12	1286.24	0.08	0.18	0.00	3.49	0.00	1279.68	0.14	2.89	0.00
+PWYQT-4474	"GLUCOSINOLATE-SYN;"	"glucosinolate biosynthesis from pentahomomethionine;"	1.14.13.-+2.6.1.-+2.8.2.-	4	3	5	0.05	265.33	0.02	10.50	0.01	0.23	0.00	254.12	0.03	0.49	0.00
+PWY-6442	"N-CONTAINING-SECONDARY-CMPD-SYN;"	"spermidine hydroxycinnamic acid conjugates biosynthesis;"	1.14.-.-+2.1.1.-+2.3.1.-	3	3	66	0.63	5345.16	0.34	402.41	0.31	619.10	0.29	3385.98	0.37	937.68	0.31
+P222-PWY	"CHEMOAUTOTROPHIC-ENERGY-METABOLISM; Sulfide-Oxidation;"	"sulfide oxidation I (sulfide-quinone reductase);"	1.8.5.-	1	1	3	0.03	132.45	0.01	6.90	0.01	6.09	0.00	112.56	0.01	6.90	0.00
+PWY-5485	"Pyruvate-Acetate-Fermentation; Super-Pathways;"	"pyruvate fermentation to acetate IV;"	2.3.1.8+2.7.2.1	3	2	6	0.06	269.19	0.02	14.76	0.01	0.12	0.00	252.49	0.03	1.82	0.00
+PWY-5143	"Activation; Lipid-Biosynthesis;"	"long-chain fatty acid activation;"	6.2.1.3	1	1	9	0.09	642.72	0.04	20.47	0.02	7.42	0.00	612.67	0.07	2.16	0.00
+PWY-5793	"FLAVONE-SYN;"	"maysin biosynthesis;"	2.4.1.-	1	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+ARGSPECAT-PWY	"Polyamine-Biosynthesis;"	"spermine biosynthesis;"	4.1.1.50	2	1	1	0.01	105.89	0.01	7.76	0.01	0.08	0.00	97.75	0.01	0.29	0.00
+OANTIGEN-PWY	"Metabolic-Clusters; SUGAR-NUCLEOTIDES; Super-Pathways;"	"<i>O</i>-antigen building blocks biosynthesis (<i>E. coli</i>);"	1.1.1.133+2.3.1.157+2.6.1.16+2.7.7.23+2.7.7.24+4.2.1.46+5.1.3.13+5.4.2.10+5.4.99.9	9	9	22	0.21	2047.48	0.13	5.57	0.00	21.74	0.01	2010.81	0.22	9.36	0.00
+FOLSYN-PWY	"Folate-Biosynthesis; Super-Pathways;"	"superpathway of tetrahydrofolate biosynthesis and salvage;"	1.5.1.3+2.1.2.2+2.5.1.15+2.6.1.85+2.7.6.3+3.5.4.16+3.5.4.9+3.6.1.-+4.1.2.25+4.1.3.38+6.3.2.12	11	11	46	0.44	7921.55	0.51	962.02	0.75	1744.80	0.81	2603.35	0.28	2611.38	0.86
+PWY-4261	"Fatty-Acid-and-Lipid-Degradation; GLYCEROL-DEG;"	"glycerol degradation I;"	1.1.5.3+2.7.1.30	2	2	5	0.05	327.17	0.02	21.92	0.02	2.68	0.00	295.53	0.03	7.04	0.00
+TCA-GLYOX-BYPASS	"Super-Pathways; TCA-VARIANTS;"	"superpathway of glyoxylate bypass and TCA;"	1.1.1.37+1.1.1.42+1.3.5.1+2.3.3.9+4.1.3.1+4.2.1.2+4.2.1.3+6.2.1.5	10	8	29	0.28	1819.06	0.12	59.76	0.05	20.01	0.01	1725.31	0.19	13.97	0.00
+PWY-5896	"Menaquinone-Biosynthesis; Super-Pathways;"	"superpathway of menaquinol-10 biosynthesis;"	2.1.1.163+2.2.1.9+2.5.1.-+3.1.2.-+4.1.3.36+4.2.1.113+4.2.99.20+5.4.4.2+6.2.1.26	10	9	44	0.42	4352.21	0.28	398.85	0.31	613.18	0.28	2426.92	0.26	913.26	0.30
+THRDLCTCAT-PWY	"THREONINE-DEG;"	"L-threonine degradation III (to methylglyoxal);"	1.1.1.103	2	1	4	0.04	266.40	0.02	8.34	0.01	0.69	0.00	256.61	0.03	0.77	0.00
+PWY-6468	""	""	1.14.14.-	1	1	1	0.01	92.95	0.01	0.00	0.00	0.04	0.00	92.89	0.01	0.02	0.00
+PWY-6046	"Dimethylsulfoniopropionate-Degradation;"	"dimethylsulfoniopropanoate degradation I (cleavage);"	4.4.1.3	1	1	1	0.01	195.59	0.01	0.01	0.00	0.42	0.00	194.83	0.02	0.33	0.00
+METHIONINE-DEG1-PWY	"METHIONINE-DEG;"	"L-methionine degradation I (to L-homocysteine);"	2.1.1.-+2.5.1.6+3.3.1.1	3	3	42	0.40	3755.30	0.24	383.71	0.30	608.75	0.28	1831.48	0.20	931.37	0.31
+TYRSYN	"TYROSINE-SYN;"	"L-tyrosine biosynthesis I;"	1.3.1.12+2.6.1.57+5.4.99.5	3	3	10	0.10	692.45	0.04	12.13	0.01	15.08	0.01	656.91	0.07	8.32	0.00
+PWY-5972	"Stearate-Biosynthesis;"	"stearate biosynthesis I (animals and fungi);"	1.1.1.-+1.3.1.-+2.3.1.-+4.2.1.59+6.2.1.3	6	5	59	0.57	5382.98	0.34	374.36	0.29	650.68	0.30	3438.35	0.37	919.59	0.30
+METH-ACETATE-PWY	"METHANOGENESIS;"	"methanogenesis from acetate;"	2.1.1.-+2.3.1.8+2.7.2.1	3	3	43	0.41	3851.26	0.25	391.06	0.30	605.43	0.28	1922.09	0.21	932.67	0.31
+PWY-66	"GDP-Sugar-Biosynthesis;"	"GDP-L-fucose biosynthesis I (from GDP-D-mannose);"	1.1.1.271+4.2.1.47	2	2	3	0.03	481.99	0.03	0.03	0.00	1.31	0.00	479.32	0.05	1.32	0.00
+PWY-6330	"Acetaldehyde-Biosynthesis; SECONDARY-METABOLITE-BIOSYNTHESIS;"	"acetaldehyde biosynthesis II;"	4.1.1.1	1	1	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+P341-PWY	"GLYCOLYSIS-VARIANTS;"	"glycolysis V (Pyrococcus);"	2.7.1.40+4.1.2.13+4.2.1.11+5.3.1.1+5.3.1.9	9	5	17	0.16	1090.11	0.07	16.44	0.01	8.24	0.00	1061.78	0.12	3.65	0.00
+PWY-3801	"SUCROSE-DEG;"	"sucrose degradation II (sucrose synthase);"	1.1.1.1+1.1.1.27+1.2.1.12+2.4.1.13+2.7.1.11+2.7.1.4+2.7.1.40+2.7.2.3+2.7.7.9+4.1.1.1+4.1.2.13+4.2.1.11+5.3.1.1+5.3.1.9+5.4.2.2	16	15	56	0.54	5101.60	0.33	354.25	0.28	653.54	0.30	3219.29	0.35	874.52	0.29
+PWY-5338	"Cyclitols-Biosynthesis;"	"galactosylcyclitol biosynthesis;"	2.4.1.-	1	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+PANTOSYN-PWY	"CoA-Biosynthesis; Super-Pathways; Vitamin-Biosynthesis;"	"superpathway of coenzyme A biosynthesis I (bacteria);"	1.1.1.169+2.1.2.11+2.7.1.24+2.7.1.33+2.7.7.3+4.1.1.11+4.1.1.36+6.3.2.1+6.3.2.5	9	9	24	0.23	1365.87	0.09	44.98	0.04	14.02	0.01	1295.53	0.14	11.34	0.00
+PEPTIDOGLYCANSYN-PWY	"Peptidoglycan-Biosynthesis; Super-Pathways;"	"peptidoglycan biosynthesis I (<I>meso</I>-diaminopimelate containing);"	2.4.1.129+2.4.1.227+2.5.1.7+2.7.8.13+3.4.16.4+5.1.1.3+6.3.2.10+6.3.2.13+6.3.2.4+6.3.2.8+6.3.2.9	12	11	60	0.58	4168.00	0.27	77.17	0.06	41.16	0.02	4031.79	0.44	17.88	0.01
+PWY-3841	"Folate-Transformations;"	"folate transformations II;"	1.5.1.20+1.5.1.3+1.5.1.5+2.1.1.13+2.1.1.45+2.1.2.1+3.5.4.9+6.3.2.12+6.3.3.2+6.3.4.3	10	10	19	0.18	1499.42	0.10	54.35	0.04	29.97	0.01	1391.19	0.15	23.91	0.01
+SALVADEHYPOX-PWY	"Adenosine-Nucleotides-Degradation;"	"adenosine nucleotides degradation II;"	1.17.1.4+2.4.2.1+2.4.2.7+2.4.2.8+3.2.2.4+3.5.4.4	7	6	16	0.15	1082.91	0.07	29.81	0.02	7.26	0.00	1039.95	0.11	5.90	0.00
+PWY-5844	"Menaquinone-Biosynthesis;"	"menaquinol-9 biosynthesis;"	2.1.1.163	1	1	2	0.02	99.42	0.01	8.13	0.01	0.08	0.00	89.64	0.01	1.58	0.00
+GLUTAMATE-SYN2-PWY	"GLUTAMATE-SYN;"	"L-glutamate biosynthesis II;"	1.4.1.3	1	1	3	0.03	122.45	0.01	0.78	0.00	0.08	0.00	119.97	0.01	1.62	0.00
+P621-PWY	"Other-Degradation;"	"nylon-6 oligomer degradation;"	2.6.1.-+3.5.2.-	4	2	4	0.04	238.96	0.02	3.01	0.00	1.18	0.00	232.33	0.03	2.44	0.00
+PWY-6509	"Methanol-Oxidation;"	"methanol oxidation to formaldehyde III;"	1.1.99.-	1	1	3	0.03	179.97	0.01	0.35	0.00	4.34	0.00	174.07	0.02	1.20	0.00
+PWY-5381	"NAD-Metabolism;"	"pyridine nucleotide cycling (plants);"	2.4.2.-+2.7.1.-+2.7.7.18+3.1.3.5+3.2.2.-+3.5.1.19+6.3.5.1	10	7	48	0.46	2776.42	0.18	56.55	0.04	72.28	0.03	2606.51	0.28	41.08	0.01
+P1-PWY	""	""	2.1.1.45+2.4.2.1+2.4.2.4+2.4.2.7+2.4.2.8+2.4.2.9+2.7.1.-+2.7.1.21+2.7.1.48+2.7.4.14+2.7.4.3+2.7.4.8+2.7.4.9+3.5.4.5	15	14	49	0.47	5164.02	0.33	428.29	0.33	636.61	0.30	3170.26	0.35	928.88	0.31
+PWY-6545	"Metabolic-Clusters; Pyrimid-Deoxyribonucleot-De-Novo-Biosyn;"	"pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis III;"	1.17.4.1+2.1.1.148+2.7.4.6+2.7.4.9+3.5.4.13+3.6.1.23	7	6	20	0.19	928.28	0.06	38.30	0.03	39.85	0.02	825.61	0.09	24.51	0.01
+PWY-6113	"Fatty-acid-biosynthesis; Super-Pathways;"	"superpathway of mycolate biosynthesis;"	1.-.-.-+1.1.1.100+1.3.1.9+2.1.1.-+2.3.1.-+2.3.1.179+2.3.1.180+2.3.1.39+2.3.1.41+3.6.3.-+4.2.1.-+4.2.1.59+6.4.1.2+6.4.1.3	23	14	202	1.94	22603.00	1.44	2118.25	1.65	3568.24	1.66	11623.93	1.27	5292.58	1.74
+SUCROSEUTIL2-PWY	"SUCROSE-DEG;"	"sucrose degradation VII (sucrose 3-dehydrogenase);"	1.1.1.-+3.2.1.-	3	2	18	0.17	1012.54	0.06	5.53	0.00	39.96	0.02	959.40	0.10	7.65	0.00
+PWY-5963	"Cofactor-Biosynthesis;"	"thio-molybdenum cofactor biosynthesis;"	2.8.1.-	1	1	1	0.01	55.78	0.00	0.03	0.00	0.08	0.00	55.60	0.01	0.06	0.00
+PWY-5920	"Heme-b-Biosynthesis; Super-Pathways;"	"superpathway of <i>b</i> heme biosynthesis from glycine;"	1.3.3.3+1.3.3.4+2.3.1.37+2.5.1.61+4.1.1.37+4.2.1.24+4.2.1.75+4.99.1.1	8	8	18	0.17	945.16	0.06	3.18	0.00	15.68	0.01	912.89	0.10	13.41	0.00
+PWY0-1466	"Trehalose-Degradation;"	"trehalose degradation VI (periplasmic);"	3.2.1.28	1	1	1	0.01	41.89	0.00	1.18	0.00	0.06	0.00	40.37	0.00	0.28	0.00
+PWY-5992	"TRITERPENOID-SYN;"	"thalianol and derivatives biosynthesis;"	1.14.13.-+5.4.99.-	3	2	16	0.15	958.43	0.06	45.81	0.04	22.58	0.01	882.74	0.10	7.30	0.00
+PWY-1269	"CMP-KDO-Biosynthesis; CMP-Sugar-Biosynthesis;"	"CMP-3-deoxy-D-<I>manno</I>-octulosonate biosynthesis;"	2.5.1.55+2.7.7.38+3.1.3.45+5.3.1.13	4	4	5	0.05	484.54	0.03	0.27	0.00	0.84	0.00	482.70	0.05	0.73	0.00
+PWY-5797	"Indole-3-Acetate-Inactivation;"	"indole-3-acetate inactivation VI;"	2.4.1.-	2	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+PWY-5046	"Respiration;"	"2-oxoisovalerate decarboxylation to isobutanoyl-CoA;"	1.2.4.4+1.8.1.4+2.3.1.168	3	3	21	0.20	905.98	0.06	45.21	0.04	0.98	0.00	856.20	0.09	3.58	0.00
+PWY-5288	"C40-Carotenoids-Biosynthesis;"	"astaxanthin biosynthesis (bacteria, fungi, algae);"	1.14.99.-	1	1	8	0.08	434.40	0.03	29.01	0.02	0.32	0.00	402.70	0.04	2.36	0.00
+DAPLYSINESYN-PWY	"LYSINE-SYN;"	"L-lysine biosynthesis I;"	1.2.1.11+2.3.1.117+2.6.1.17+2.7.2.4+3.5.1.18+4.1.1.20+5.1.1.7	9	7	21	0.20	1285.08	0.08	37.28	0.03	14.09	0.01	1224.63	0.13	9.08	0.00
+NPGLUCAT-PWY	"Entner-Duodoroff-Pathways;"	"Entner-Doudoroff pathway II (non-phosphorylative);"	1.2.1.3+2.7.1.40+4.1.2.-+4.2.1.11+5.1.3.3	10	5	15	0.14	1159.82	0.07	11.65	0.01	5.18	0.00	1140.32	0.12	2.67	0.00
+PWY-6387	"Acetylmuramoyl-Pentapeptide-Biosynthesis;"	"UDP-<i>N</i>-acetylmuramoyl-pentapeptide biosynthesis I (<i>meso</i>-diaminopimelate containing);"	2.5.1.7+5.1.1.3+6.3.2.10+6.3.2.13+6.3.2.4+6.3.2.8+6.3.2.9	8	7	28	0.27	1669.42	0.11	25.89	0.02	13.01	0.01	1623.39	0.18	7.13	0.00
+PWY-5	"NON-PROTEIN-AMINO-ACID-SYN;"	"canavanine biosynthesis;"	2.1.3.3+4.3.2.1+6.3.4.5	3	3	23	0.22	2154.72	0.14	157.54	0.12	782.83	0.36	1027.32	0.11	187.04	0.06
+PWY-5531	"Chlorophyllide-a-Biosynthesis;"	"3,8-divinyl-chlorophyllide <i>a</i> biosynthesis II (anaerobic);"	1.14.13.-+1.3.1.75+1.3.3.3+1.3.3.4+2.1.1.11+4.1.1.37+6.6.1.1	8	7	17	0.16	939.84	0.06	10.61	0.01	7.66	0.00	909.87	0.10	11.70	0.00
+PWY-4221	"CoA-Biosynthesis; Super-Pathways;"	"superpathway of coenzyme A biosynthesis II (plants);"	1.1.1.169+2.1.2.11+2.6.1.18+2.7.1.24+2.7.1.33+2.7.7.3+3.1.2.4+4.1.1.36+4.2.1.116+6.3.2.1+6.3.2.5	14	11	31	0.30	2092.96	0.13	45.97	0.04	33.95	0.02	1997.59	0.22	15.46	0.01
+ARGSYN-PWY	"ARGININE-SYN; Super-Pathways;"	"L-arginine biosynthesis I (via L-ornithine);"	1.2.1.38+2.1.3.3+2.3.1.1+2.6.1.11+2.7.2.8+3.5.1.16+4.3.2.1+6.3.4.5+6.3.5.5	9	9	57	0.55	5185.81	0.33	418.93	0.33	1577.28	0.73	2789.27	0.30	400.34	0.13
+PWY1F-353	"Betaine-Biosynthesis;"	"glycine betaine biosynthesis III (plants);"	1.2.1.8	2	1	2	0.02	282.69	0.02	0.34	0.00	1.01	0.00	280.58	0.03	0.76	0.00
+PWY-6463	"Peptidoglycan-Cross-Bridge-Biosynthesis;"	"peptidoglycan cross-bridge biosynthesis IV (Weissella viridescens);"	2.3.2.-	2	1	2	0.02	104.10	0.01	7.98	0.01	0.16	0.00	95.61	0.01	0.35	0.00
+PWY-5767	""	""	2.4.1.1+2.4.1.25+5.4.2.2	5	3	9	0.09	397.29	0.03	6.70	0.01	40.33	0.02	342.92	0.04	7.34	0.00
+PWY-381	"Nitrate-Reduction;"	"nitrate reduction II (assimilatory);"	1.7.7.1+6.3.1.2	3	2	7	0.07	311.50	0.02	13.40	0.01	3.63	0.00	293.03	0.03	1.44	0.00
+TRNA-CHARGING-PWY	"Aminoacyl-tRNAs-Charging; Metabolic-Clusters;"	"tRNA charging;"	6.1.1.1+6.1.1.10+6.1.1.11+6.1.1.12+6.1.1.14+6.1.1.15+6.1.1.16+6.1.1.17+6.1.1.18+6.1.1.19+6.1.1.2+6.1.1.20+6.1.1.21+6.1.1.22+6.1.1.3+6.1.1.4+6.1.1.5+6.1.1.6+6.1.1.7+6.1.1.9	20	20	64	0.62	5884.45	0.38	465.69	0.36	992.52	0.46	3419.32	0.37	1006.92	0.33
+PWY-5996	"Oleate-Biosynthesis;"	"oleate biosynthesis II (animals and fungi);"	3.1.2.-	2	1	7	0.07	295.31	0.02	18.12	0.01	8.59	0.00	263.69	0.03	4.92	0.00
+PWY-5030	"HISTIDINE-DEG;"	"L-histidine degradation III;"	2.1.2.5+3.5.2.7+3.5.4.9+4.2.1.49+4.3.1.3	6	5	8	0.08	277.17	0.02	16.79	0.01	11.02	0.01	244.42	0.03	4.94	0.00
+PWY-6520	"Polyprenyl-Biosynthesis;"	"nonaprenyl diphosphate biosynthesis II;"	2.5.1.-	1	1	25	0.24	1699.65	0.11	46.92	0.04	15.45	0.01	1624.03	0.18	13.26	0.00
+PWY-5156	"Fatty-acid-biosynthesis; Super-Pathways;"	"superpathway of fatty acid biosynthesis II (plant);"	1.1.1.100+1.3.1.9+2.3.1.180+2.3.1.39+2.3.1.41+4.2.1.59+6.4.1.2	12	7	31	0.30	2106.99	0.13	43.02	0.03	28.74	0.01	2022.11	0.22	13.13	0.00
+PWY-5938	"Acetoin-Biosynthesis;"	"pyruvate fermentation to (<i>R</i>)-acetoin I;"	2.2.1.6	2	1	11	0.11	630.64	0.04	1.17	0.00	6.42	0.00	619.83	0.07	3.21	0.00
+LIPA-CORESYN-PWY	"Glycan-Biosynthesis; Lipid-Biosynthesis;"	"lipid A-core biosynthesis (<i>E. coli</i> K-12);"	2.-.-.-+2.4.-.-+2.4.1.58+2.7.1.-	5	4	26	0.25	1585.27	0.10	30.42	0.02	32.75	0.02	1477.87	0.16	44.23	0.01
+ARG-PRO-PWY	"ARGININE-DEG; PROLINE-SYN;"	"L-arginine degradation VI (arginase 2 pathway);"	1.5.1.2+2.6.1.13	3	2	4	0.04	300.23	0.02	15.08	0.01	5.91	0.00	277.02	0.03	2.22	0.00
+PWY-6171	""	""	3.6.3.-	1	1	42	0.40	6107.76	0.39	647.48	0.50	1143.84	0.53	2591.40	0.28	1725.04	0.57
+PWY-5944	"C40-Carotenoids-Biosynthesis;"	"zeaxanthin biosynthesis;"	1.14.99.-	1	1	8	0.08	434.40	0.03	29.01	0.02	0.32	0.00	402.70	0.04	2.36	0.00
+ARG+POLYAMINE-SYN	"Polyamine-Biosynthesis; Super-Pathways;"	"superpathway of arginine and polyamine biosynthesis;"	1.2.1.38+2.1.3.3+2.3.1.1+2.5.1.16+2.6.1.11+2.7.2.8+3.5.1.16+3.5.3.11+4.1.1.19+4.1.1.50+4.3.2.1+6.3.4.5+6.3.5.5	15	13	64	0.62	5714.94	0.37	426.70	0.33	1578.07	0.73	3307.67	0.36	402.50	0.13
+P641-PWY	"Mercury-Detoxification;"	"phenylmercury acetate degradation;"	1.16.1.1	2	1	1	0.01	92.16	0.01	0.32	0.00	0.58	0.00	90.77	0.01	0.49	0.00
+PWY-1187	"GLUCOSINOLATE-SYN;"	"glucosinolate biosynthesis from homomethionine;"	1.14.13.-+2.8.2.-	3	2	4	0.04	224.61	0.01	8.13	0.01	0.22	0.00	215.80	0.02	0.45	0.00
+PWY-5899	"Menaquinone-Biosynthesis; Super-Pathways;"	"superpathway of menaquinol-13 biosynthesis;"	2.1.1.163+2.2.1.9+2.5.1.-+3.1.2.-+4.1.3.36+4.2.1.113+4.2.99.20+5.4.4.2+6.2.1.26	10	9	44	0.42	4352.21	0.28	398.85	0.31	613.18	0.28	2426.92	0.26	913.26	0.30
+PWY-2901	"CYTOKININ-BIOSYNTHESIS; Metabolic-Clusters;"	"cytokinins 9-<i>N</i>-glucoside biosynthesis;"	2.4.1.-	1	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+NONMEVIPP-PWY	"MEP-Pathways;"	"methylerythritol phosphate pathway I;"	1.1.1.267+1.17.1.2+1.17.7.1+2.2.1.7+2.7.1.148+2.7.7.60+4.6.1.12+5.3.3.2	8	8	22	0.21	3413.90	0.22	348.22	0.27	622.54	0.29	1520.80	0.17	922.33	0.30
+PWY0-501	"Lipoate-Biosynthesis;"	"lipoate biosynthesis and incorporation I;"	2.3.1.181+2.8.1.8	2	2	6	0.06	411.90	0.03	9.46	0.01	33.32	0.02	362.04	0.04	7.10	0.00
+PWY-5136	"Fatty-Acid-Degradation;"	"fatty acid &beta;-oxidation II (peroxisome);"	1.1.1.35+2.3.1.16+4.2.1.17+6.2.1.3	5	4	41	0.39	2008.31	0.13	35.28	0.03	54.94	0.03	1898.46	0.21	19.63	0.01
+PWY-5269	"Cardiolipin-Biosynthesis;"	"cardiolipin biosynthesis II;"	2.7.8.5+3.1.3.27	2	2	4	0.04	212.28	0.01	16.26	0.01	3.54	0.00	191.48	0.02	1.00	0.00
+PWY-5276	"CHEMOAUTOTROPHIC-ENERGY-METABOLISM; Sulfite-Oxidation;"	"sulfite oxidation I;"	1.8.2.1	1	1	1	0.01	209.74	0.01	0.01	0.00	0.50	0.00	208.87	0.02	0.36	0.00
+PWY-5272	"Abscisic-Acid-Degradation; Interconversion;"	"abscisic acid degradation by glucosylation;"	2.4.1.-	1	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+PWY-5898	"Menaquinone-Biosynthesis; Super-Pathways;"	"superpathway of menaquinol-12 biosynthesis;"	2.1.1.163+2.2.1.9+2.5.1.-+3.1.2.-+4.1.3.36+4.2.1.113+4.2.99.20+5.4.4.2+6.2.1.26	10	9	44	0.42	4352.21	0.28	398.85	0.31	613.18	0.28	2426.92	0.26	913.26	0.30
+P3-PWY	"GALLATE-DEG;"	"gallate degradation III (anaerobic);"	2.3.1.-+2.3.1.8+2.7.2.1+2.8.3.-+2.8.3.8+3.7.1.-+4.2.1.17	12	7	51	0.49	3038.12	0.19	57.05	0.04	27.15	0.01	2937.04	0.32	16.88	0.01
+PWY-5486	"Pyruvate-Ethanol-Fermentation;"	"pyruvate fermentation to ethanol II;"	1.1.1.1+4.1.1.1	2	2	5	0.05	126.02	0.01	0.06	0.00	7.73	0.00	114.90	0.01	3.33	0.00
+PWY-6116	"Oligosaccharides-Biosynthesis;"	"mannosylfructose biosynthesis;"	3.1.3.79	2	1	1	0.01	25.40	0.00	0.12	0.00	0.10	0.00	25.07	0.00	0.11	0.00
+PWY-5342	"Glycan-Pathways; Oligosaccharides-Biosynthesis;"	"ajugose biosynthesis I (galactinol-dependent);"	2.4.1.-	1	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+PHOSLIPSYN-PWY	"Phospholipid-Biosynthesis; Super-Pathways;"	"superpathway of phospholipid biosynthesis I (bacteria);"	1.1.1.94+2.3.1.51+2.7.7.41+2.7.8.-+2.7.8.5+2.7.8.8+3.1.3.27	9	7	28	0.27	1999.43	0.13	84.43	0.07	33.85	0.02	1855.37	0.20	25.79	0.01
+PWY-5173	"Acetyl-CoA-Biosynthesis; Super-Pathways;"	"superpathway of acetyl-CoA biosynthesis;"	1.2.4.1+1.8.1.4+2.3.1.12	4	3	24	0.23	1048.29	0.07	32.99	0.03	3.11	0.00	999.17	0.11	13.03	0.00
+PWY-6465	""	""	1.14.14.-	2	1	1	0.01	92.95	0.01	0.00	0.00	0.04	0.00	92.89	0.01	0.02	0.00
+DARABCAT-PWY	"D-Arabinose-Degradation;"	"D-arabinose degradation II;"	2.7.1.47+5.1.3.1	3	2	4	0.04	325.64	0.02	2.38	0.00	0.42	0.00	322.44	0.04	0.41	0.00
+PWY-5481	"Pyruvate-Lactate-Fermentation;"	"pyruvate fermentation to (<i>S</i>)-lactate;"	1.1.1.27	1	1	3	0.03	165.91	0.01	10.50	0.01	0.34	0.00	154.72	0.02	0.35	0.00
+CHLOROPHYLL-SYN	"Chlorophyllide-a-Biosynthesis;"	"3,8-divinyl-chlorophyllide <i>a</i> biosynthesis I (aerobic, light-dependent);"	1.3.1.75+1.3.3.3+1.3.3.4+2.1.1.11+4.1.1.37+6.6.1.1	8	6	14	0.13	774.64	0.05	2.47	0.00	7.55	0.00	753.34	0.08	11.28	0.00
+PWY-5857	"Ubiquinone-Biosynthesis;"	"ubiquinol-10 biosynthesis (prokaryotic);"	2.1.1.-+2.1.1.64+4.1.1.-	5	3	43	0.41	3985.59	0.25	376.41	0.29	610.11	0.28	2066.91	0.23	932.16	0.31
+ILEUSYN-PWY	"ISOLEUCINE-SYN;"	"L-isoleucine biosynthesis I (from threonine);"	1.1.1.86+2.2.1.6+2.6.1.42+4.2.1.9+4.3.1.19	5	5	29	0.28	1932.74	0.12	36.97	0.03	22.47	0.01	1857.03	0.20	16.27	0.01
+PWY-6537	"4-Aminobutyraye-Degradation;"	"4-aminobutanoate degradation II;"	1.2.1.-	2	1	11	0.11	2847.44	0.18	311.94	0.24	573.26	0.27	1105.86	0.12	856.39	0.28
+GLYCOLYSIS-E-D	"Energy-Metabolism; Super-Pathways;"	"superpathway of glycolysis and the Entner-Doudoroff pathway;"	1.2.1.12+2.7.1.11+2.7.1.40+2.7.2.3+2.7.9.2+3.1.3.11+4.1.2.13+4.1.2.14+4.2.1.11+4.2.1.12+5.3.1.1+5.3.1.9	15	12	47	0.45	6248.47	0.40	637.74	0.50	1185.84	0.55	2703.72	0.29	1721.16	0.57
+LCYSDEG-PWY	"CYSTEINE-DEG;"	"L-cysteine degradation II;"	4.4.1.1	1	1	1	0.01	12.82	0.00	0.00	0.00	0.02	0.00	11.46	0.00	1.33	0.00
+PWY0-1347	"ANAEROBIC-RESPIRATION; Electron-Transfer;"	"NADH to trimethylamine <i>N</i>-oxide electron transfer;"	1.6.5.-	2	1	1	0.01	54.97	0.00	0.04	0.00	0.13	0.00	54.73	0.01	0.07	0.00
+CATECHOL-ORTHO-CLEAVAGE-PWY	"Catechol-Degradation;"	"catechol degradation to &beta;-ketoadipate;"	1.13.11.1+3.1.1.24+5.5.1.1	4	3	3	0.03	460.42	0.03	0.04	0.00	1.33	0.00	458.17	0.05	0.89	0.00
+CYSTEINE-DEG-PWY	"CYSTEINE-DEG;"	"L-cysteine degradation I;"	2.6.1.1	2	1	6	0.06	414.45	0.03	7.53	0.01	20.64	0.01	381.70	0.04	4.58	0.00
+PWY-5130	"2-Oxobutanoate-Degradation; Super-Pathways;"	"2-oxobutanoate degradation I;"	5.1.99.1+5.4.99.2+6.4.1.3	3	3	8	0.08	569.37	0.04	44.27	0.03	3.73	0.00	514.44	0.06	6.93	0.00
+PWY-6054	"Dimethylsulfoniopropionate-Biosynthesis;"	"dimethylsulfoniopropanoate biosynthesis I (Wollastonia);"	1.2.1.3	2	1	4	0.04	181.68	0.01	0.13	0.00	0.26	0.00	181.16	0.02	0.13	0.00
+PWY-5890	"Menaquinone-Biosynthesis;"	"menaquinol-10 biosynthesis;"	2.1.1.163	2	1	2	0.02	99.42	0.01	8.13	0.01	0.08	0.00	89.64	0.01	1.58	0.00
+PWY-5641	"Nitro-Toluene-Degradation;"	"2-nitrotoluene degradation;"	1.13.11.2+3.7.1.-	2	2	2	0.02	67.59	0.00	2.39	0.00	0.11	0.00	64.96	0.01	0.14	0.00
+PWY-5353	"Arachidonate-Biosynthesis;"	"arachidonate biosynthesis I (6-desaturase, lower eukaryotes);"	1.14.19.-	1	1	3	0.03	124.04	0.01	0.00	0.00	0.04	0.00	122.42	0.01	1.58	0.00
+PWY-5298	"LYSINE-DEG;"	"L-lysine degradation VI;"	1.2.1.31	2	1	2	0.02	69.49	0.00	0.03	0.00	0.09	0.00	67.84	0.01	1.53	0.00
+PWY0-1312	"Acetate-Formation;"	"acetate and ATP formation from acetyl-CoA I;"	2.3.1.8+2.7.2.1	2	2	6	0.06	269.19	0.02	14.76	0.01	0.12	0.00	252.49	0.03	1.82	0.00
+PWY-3781	"AEROBIC-RESPIRATION; Electron-Transfer;"	"aerobic respiration I (cytochrome c);"	1.10.2.2+1.3.5.1+1.6.5.3+1.9.3.1	4	4	31	0.30	3009.43	0.19	32.36	0.03	31.58	0.01	2923.13	0.32	22.36	0.01
+PWY-5041	"S-adenosyl-L-methionine-cycle;"	"<i>S</i>-adenosyl-L-methionine cycle II;"	2.1.1.-+2.5.1.6+3.3.1.1	4	3	42	0.40	3755.30	0.24	383.71	0.30	608.75	0.28	1831.48	0.20	931.37	0.31
+PANTO-PWY	"Pantothenate-Biosynthesis;"	"phosphopantothenate biosynthesis I;"	1.1.1.169+2.1.2.11+6.3.2.1	3	3	5	0.05	174.36	0.01	2.35	0.00	0.18	0.00	171.16	0.02	0.67	0.00
+P662-PWY	"AROMATIC-COMPOUNDS-DEGRADATION;"	"dibenzofuran degradation;"	1.13.11.-+1.14.12.-	3	2	5	0.05	317.94	0.02	2.31	0.00	4.18	0.00	308.77	0.03	2.69	0.00
+PWY-6403	"Polysaccharides-Biosynthesis;"	"carrageenan biosynthesis;"	2.5.1.-	1	1	25	0.24	1699.65	0.11	46.92	0.04	15.45	0.01	1624.03	0.18	13.26	0.00
+PWY0-1334	"AEROBIC-RESPIRATION; Electron-Transfer;"	"NADH to cytochrome <i>bd</i> oxidase electron transfer I;"	1.6.5.3	2	1	1	0.01	74.07	0.00	0.00	0.00	0.01	0.00	74.05	0.01	0.01	0.00
+PWY-3722	"Betaine-Biosynthesis;"	"glycine betaine biosynthesis II (Gram-positive bacteria);"	1.1.1.1+1.2.1.8	2	2	6	0.06	379.61	0.02	0.40	0.00	8.47	0.00	366.72	0.04	4.02	0.00
+SOPHOROSYLOXYDOCOSANOATE-SYN-PWY	"Lipid-Biosynthesis;"	"sophorolipid biosynthesis;"	2.3.1.-	2	1	24	0.23	1456.90	0.09	25.75	0.02	9.69	0.00	1415.85	0.15	5.62	0.00
+PWY-5892	"Menaquinone-Biosynthesis;"	"menaquinol-12 biosynthesis;"	2.1.1.163	2	1	2	0.02	99.42	0.01	8.13	0.01	0.08	0.00	89.64	0.01	1.58	0.00
+ARGDEG-III-PWY	"ARGININE-DEG;"	"L-arginine degradation IV (arginine decarboxylase/agmatine deiminase pathway);"	3.5.1.53+4.1.1.19	3	2	3	0.03	136.67	0.01	0.04	0.00	0.28	0.00	134.78	0.01	1.57	0.00
+PWY-5988	""	""	3.4.11.1	1	1	6	0.06	2071.95	0.13	327.02	0.26	604.13	0.28	247.22	0.03	893.58	0.29
+PWY-6477	"GIBBERELLINS-DEGRADATION; Gibberellin-Inactivation; Metabolic-Clusters;"	"gibberellin inactivation II (methylation);"	2.1.1.-	1	1	37	0.36	3582.07	0.23	376.29	0.29	605.32	0.28	1669.61	0.18	930.85	0.31
+PWY-5785	"Polyprenyl-Biosynthesis;"	"di-<i>trans</i>,poly-<i>cis</i>-undecaprenyl phosphate biosynthesis;"	2.5.1.31	1	1	4	0.04	173.07	0.01	10.39	0.01	4.08	0.00	157.33	0.02	1.26	0.00
+PWY0-1317	"Lactaldehyde-Degradation;"	"L-lactaldehyde degradation (aerobic);"	1.2.1.22	1	1	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+GLUTAMINDEG-PWY	"GLUTAMINE-DEG;"	"L-glutamine degradation I;"	3.5.1.2	1	1	1	0.01	26.43	0.00	0.12	0.00	0.11	0.00	26.14	0.00	0.05	0.00
+P23-PWY	"Reductive-TCA-Cycles;"	"reductive TCA cycle I;"	1.1.1.37+1.3.99.1+2.7.9.2+4.1.1.31+4.2.1.2+4.2.1.3+6.2.1.5	10	7	23	0.22	1103.90	0.07	43.65	0.03	11.36	0.01	1037.27	0.11	11.62	0.00
+PWY-5198	"Cofactor-Biosynthesis;"	"factor 420 biosynthesis;"	2.5.1.77+2.7.7.68+2.7.8.28	3	3	5	0.05	96.00	0.01	1.19	0.00	0.36	0.00	93.93	0.01	0.52	0.00
+GLNSYN-PWY	"Ammonia-Assimilation; GLUTAMINE-SYN;"	"L-glutamine biosynthesis I;"	6.3.1.2	1	1	5	0.05	228.33	0.01	13.40	0.01	3.62	0.00	209.93	0.02	1.39	0.00
+PWY-5268	"ANTHOCYANIN-SYN;"	"salvianin biosynthesis;"	2.3.1.-+2.4.1.-	3	2	34	0.33	3822.68	0.24	316.13	0.25	601.22	0.28	1999.83	0.22	905.50	0.30
+PWY-881	"Trehalose-biosynthesis;"	"trehalose biosynthesis II;"	2.4.1.-	2	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+PWY-5044	"Purine-Degradation; Super-Pathways;"	"purine nucleotides degradation I (plants);"	1.1.1.205+1.17.1.4+3.1.3.5+3.5.4.3	8	4	13	0.13	695.25	0.04	51.85	0.04	9.10	0.00	621.66	0.07	12.64	0.00
+PROSYN-PWY	"PROLINE-SYN;"	"L-proline biosynthesis I;"	1.2.1.41+1.5.1.2+2.7.2.11	3	3	6	0.06	432.89	0.03	24.19	0.02	4.31	0.00	402.30	0.04	2.09	0.00
+HOMOSER-THRESYN-PWY	"THREONINE-BIOSYNTHESIS;"	"L-threonine biosynthesis;"	2.7.1.39+4.2.3.1	2	2	4	0.04	288.29	0.02	20.05	0.02	3.21	0.00	259.12	0.03	5.91	0.00
+3-HYDROXYPHENYLACETATE-DEGRADATION-PWY	"AROMATIC-COMPOUNDS-DEGRADATION;"	"4-hydroxyphenylacetate degradation;"	1.14.14.-+1.2.1.-+4.1.2.-+4.2.1.-	8	4	20	0.19	3379.87	0.22	323.46	0.25	578.02	0.27	1620.24	0.18	858.15	0.28
+PWY-6277	"AIR-Biosynthesis; Super-Pathways;"	"superpathway of 5-aminoimidazole ribonucleotide biosynthesis;"	2.1.2.-+2.1.2.2+2.4.2.14+6.3.3.1+6.3.4.13+6.3.5.3	6	6	18	0.17	1057.20	0.07	3.77	0.00	2.34	0.00	1047.00	0.11	4.09	0.00
+CO2FORM-PWY	"C1-COMPOUNDS; METHANOGENESIS;"	"methanogenesis from methanol;"	2.1.1.-	2	1	37	0.36	3582.07	0.23	376.29	0.29	605.32	0.28	1669.61	0.18	930.85	0.31
+THREOCAT-PWY	"Super-Pathways; THREONINE-DEG;"	"superpathway of L-threonine metabolism;"	1.1.1.103+1.1.1.86+2.2.1.6+2.3.1.-+2.6.1.42+4.2.1.9+4.3.1.19	13	7	57	0.55	3656.04	0.23	71.05	0.06	32.85	0.02	3529.49	0.38	22.66	0.01
+THISYN-PWY	"Super-Pathways; Thiamine-Biosynthesis;"	"superpathway of thiamine diphosphate biosynthesis I;"	2.2.1.7+2.5.1.3+2.7.1.49+2.7.1.50+2.7.4.7+2.7.7.-	8	6	25	0.24	1790.54	0.11	21.19	0.02	70.50	0.03	1632.01	0.18	66.84	0.02
+PWY-6406	"Salicylate-Biosynthesis;"	"salicylate biosynthesis I;"	4.2.99.-+5.4.4.2	2	2	3	0.03	119.18	0.01	0.10	0.00	0.08	0.00	118.85	0.01	0.14	0.00
+PWY-2582	"Brassinosteroid-Biosynthesis;"	"brassinosteroid biosynthesis II;"	1.14.-.-+1.14.13.-+1.3.99.-	6	3	23	0.22	1160.19	0.07	10.22	0.01	8.87	0.00	1136.09	0.12	5.01	0.00
+ECASYN-PWY	"Lipopolysaccharide-Biosynthesis; Super-Pathways;"	"enterobacterial common antigen biosynthesis;"	1.1.1.-+2.3.1.-+2.4.1.-+2.6.1.-+2.7.7.24+4.2.1.46+5.1.3.14	7	7	54	0.52	5383.99	0.34	322.97	0.25	623.00	0.29	3526.70	0.38	911.32	0.30
+PWY-5664	"Tetrahydrobiopterin-Biosynthesis;"	"<i>erythro</i>-tetrahydrobiopterin biosynthesis II;"	3.5.4.16+4.2.3.12	3	2	3	0.03	173.21	0.01	17.90	0.01	1.25	0.00	151.15	0.02	2.92	0.00
+PWY0-1300	"Sugars-And-Polysaccharides-Degradation;"	"2-<I>O</I>-&alpha;-mannosyl-D-glycerate degradation;"	3.1.1.-	2	1	4	0.04	200.51	0.01	0.47	0.00	0.70	0.00	197.40	0.02	1.95	0.00
+PWY-6386	"Acetylmuramoyl-Pentapeptide-Biosynthesis;"	"UDP-<i>N</i>-acetylmuramoyl-pentapeptide biosynthesis II (lysine-containing);"	2.5.1.7+5.1.1.3+6.3.2.10+6.3.2.4+6.3.2.8+6.3.2.9	8	6	25	0.24	1423.44	0.09	24.72	0.02	12.53	0.01	1379.63	0.15	6.56	0.00
+PWY-6182	"AROMATIC-COMPOUNDS-DEGRADATION; Super-Pathways;"	"superpathway of salicylate degradation;"	1.13.11.1+2.3.1.174+2.8.3.6+3.1.1.24+5.5.1.1	7	5	5	0.05	516.57	0.03	0.05	0.00	5.10	0.00	509.58	0.06	1.84	0.00
+PWY-5661	"GDP-Sugar-Biosynthesis;"	"GDP-glucose biosynthesis;"	2.7.1.2+5.4.2.2	4	2	6	0.06	299.32	0.02	11.82	0.01	3.87	0.00	281.93	0.03	1.71	0.00
+PWY0-823	"ARGININE-DEG;"	"L-arginine degradation III (arginine decarboxylase/agmatinase pathway);"	3.5.3.11+4.1.1.19	2	2	5	0.05	355.25	0.02	0.01	0.00	0.58	0.00	352.83	0.04	1.84	0.00
+PWY-6412	"Ginsenoside-Degradation;"	"ginsenoside degradation II;"	2.3.1.-	1	1	24	0.23	1456.90	0.09	25.75	0.02	9.69	0.00	1415.85	0.15	5.62	0.00
+PWY0-162	"Pyrimid-Ribonucleot-De-Novo-Biosyn; Super-Pathways;"	"superpathway of pyrimidine ribonucleotides <i>de novo</i> biosynthesis;"	1.3.5.2+2.1.3.2+2.4.2.10+2.7.4.14+2.7.4.6+3.5.2.3+4.1.1.23+6.3.4.2+6.3.5.5	9	9	33	0.32	1777.04	0.11	156.58	0.12	39.70	0.02	1544.86	0.17	35.90	0.01
+PWY-5651	"TRYPTOPHAN-DEG;"	"L-tryptophan degradation to 2-amino-3-carboxymuconate semialdehyde;"	1.13.11.11+1.14.13.9+3.7.1.3	5	3	3	0.03	214.69	0.01	0.34	0.00	0.89	0.00	212.94	0.02	0.51	0.00
+ARGDEG-IV-PWY	"ARGININE-DEG;"	"L-arginine degradation VIII (arginine oxidase pathway);"	3.5.3.7	4	1	1	0.01	38.98	0.00	0.00	0.00	0.00	0.00	38.97	0.00	0.01	0.00
+PWY-3982	"Beta-Alanine-Biosynthesis; Uracil-Degradation;"	"uracil degradation I (reductive);"	3.5.2.2	3	1	1	0.01	42.14	0.00	0.24	0.00	16.39	0.01	23.21	0.00	2.31	0.00
+ACETOACETATE-DEG-PWY	"Fatty-Acid-and-Lipid-Degradation;"	"acetoacetate degradation (to acetyl CoA);"	2.3.1.9+2.8.3.-	2	2	9	0.09	669.72	0.04	7.18	0.01	7.95	0.00	650.71	0.07	3.89	0.00
+GLUTAMINEFUM-PWY	"GLUTAMINE-DEG;"	"L-glutamine degradation II;"	1.4.1.13	1	1	7	0.07	325.93	0.02	0.67	0.00	8.02	0.00	314.67	0.03	2.57	0.00
+PWY0-1325	"ASPARAGINE-SYN; Super-Pathways;"	"superpathway of L-asparagine biosynthesis;"	6.3.5.4	2	1	1	0.01	28.60	0.00	0.03	0.00	3.93	0.00	23.76	0.00	0.88	0.00
+PWY-5028	"HISTIDINE-DEG;"	"L-histidine degradation II;"	3.5.1.68+3.5.2.7+3.5.3.13+4.2.1.49+4.3.1.3	5	5	8	0.08	282.04	0.02	0.28	0.00	17.82	0.01	259.35	0.03	4.59	0.00
+GDPRHAMSYN-PWY	"GDP-Sugar-Biosynthesis;"	"GDP-D-rhamnose biosynthesis;"	4.2.1.47	2	1	2	0.02	277.36	0.02	0.02	0.00	0.67	0.00	276.00	0.03	0.68	0.00
+PWY-6333	"Acetaldehyde-Biosynthesis;"	"acetaldehyde biosynthesis I;"	1.1.1.1+4.1.1.1	2	2	5	0.05	126.02	0.01	0.06	0.00	7.73	0.00	114.90	0.01	3.33	0.00
+PWY-6401	"AURONE-SYN;"	"hispidol and hispidol 4'-<i>O</i>-&beta;-<i>D</i>-glucoside biosynthesis;"	1.11.1.-	1	1	1	0.01	13.71	0.00	0.00	0.00	0.01	0.00	12.23	0.00	1.46	0.00
+PWY-5437	"THREONINE-DEG;"	"L-threonine degradation I;"	2.3.1.-+4.3.1.19	3	2	28	0.27	1781.45	0.11	33.63	0.03	13.83	0.01	1725.55	0.19	8.44	0.00
+PWY-5860	"Demethylmenaquinol-6-Biosynthesis; Super-Pathways;"	"superpathway of demethylmenaquinol-6 biosynthesis I;"	2.2.1.9+3.1.2.-+4.1.3.36+4.2.1.113+4.2.99.20+5.4.4.2+6.2.1.26	9	7	17	0.16	2553.14	0.16	343.81	0.27	597.65	0.28	713.26	0.08	898.42	0.30
+PWY-5286	"ANTHOCYANIN-SYN; Metabolic-Clusters;"	"anthocyanidin sophoroside metabolism;"	2.4.1.-	1	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+METHYLGALLATE-DEGRADATION-PWY	"AROMATIC-COMPOUNDS-DEGRADATION;"	"methylgallate degradation;"	4.1.3.17	5	1	3	0.03	79.52	0.01	0.00	0.00	0.55	0.00	78.83	0.01	0.15	0.00
+BENZCOA-PWY	"AROMATIC-COMPOUNDS-DEGRADATION; Super-Pathways;"	"anaerobic aromatic compound degradation (<i>Thauera aromatica</i>);"	1.1.1.-+2.3.1.-+2.6.1.57+3.7.1.-+4.2.1.-+6.2.1.25+6.2.1.30	18	7	50	0.48	3143.85	0.20	40.84	0.03	38.81	0.02	3050.96	0.33	13.24	0.00
+PWY-5161	"CHALCONE-SYN;"	"6'-deoxychalcone metabolism;"	1.14.13.-+2.4.1.-	2	2	13	0.13	2530.97	0.16	298.52	0.23	591.64	0.27	740.51	0.08	900.30	0.30
+PWY-5392	"Reductive-TCA-Cycles;"	"reductive TCA cycle II;"	1.1.1.-+1.1.1.37+1.3.99.1+4.2.1.2+4.2.1.3+6.2.1.5	11	6	29	0.28	1720.28	0.11	45.58	0.04	30.96	0.01	1629.94	0.18	13.80	0.00
+P441-PWY	"CARBOXYLATES-DEG; Super-Pathways;"	"superpathway of <i>N</i>-acetylneuraminate degradation;"	1.1.1.1+1.2.1.12+2.3.1.8+2.7.1.11+2.7.1.40+2.7.2.1+2.7.2.3+2.7.9.2+3.1.3.11+3.5.1.25+3.5.99.6+4.1.2.13+4.2.1.11+5.3.1.1	20	14	58	0.56	6951.50	0.44	657.55	0.51	1194.61	0.56	3371.95	0.37	1727.40	0.57
+PWY-6397	"Cell-Wall-Biosynthesis;"	"mycolyl-arabinogalactan-peptidoglycan complex biosynthesis;"	2.3.1.-+2.4.1.-+5.1.3.2+5.4.99.9	4	4	38	0.37	3977.87	0.25	316.69	0.25	618.02	0.29	2133.81	0.23	909.34	0.30
+SUCSYN-PWY	"Sucrose-Biosynthesis; Super-Pathways;"	"sucrose biosynthesis I (from photosynthesis);"	2.4.1.13+2.7.7.9+5.4.2.2	6	3	10	0.10	509.06	0.03	6.48	0.01	23.98	0.01	473.89	0.05	4.72	0.00
+CAROTENOID-PWY	"C40-Carotenoids-Biosynthesis; Super-Pathways;"	"superpathway of carotenoid biosynthesis in plants;"	1.14.99.-+2.5.1.32+5.5.1.-	6	3	11	0.11	753.70	0.05	37.16	0.03	0.90	0.00	712.63	0.08	3.01	0.00
+P161-PWY	"Acetate-Formation; Pyruvate-Ethanol-Fermentation;"	"acetylene degradation (anaerobic);"	1.1.1.1+2.3.1.8+2.7.2.1	5	3	10	0.10	366.11	0.02	14.83	0.01	7.57	0.00	338.63	0.04	5.08	0.00
+PWY-6002	"CYANOGENIC-GLUCOSIDE-DEG;"	"lotaustralin degradation;"	3.2.1.21	2	1	1	0.01	13.76	0.00	0.27	0.00	0.03	0.00	13.32	0.00	0.15	0.00
+PWY-5153	"ANTHOCYANIN-SYN;"	"anthocyanin biosynthesis (delphinidin 3-O-glucoside);"	1.14.11.-	2	1	2	0.02	263.05	0.02	0.00	0.00	0.56	0.00	262.12	0.03	0.36	0.00
+PWY-6163	"Chorismate-Biosynthesis;"	"chorismate biosynthesis from 3-dehydroquinate;"	1.1.1.25+2.5.1.19+2.7.1.71+4.2.1.10+4.2.3.5	6	5	10	0.10	649.96	0.04	6.07	0.00	24.63	0.01	613.28	0.07	5.98	0.00
+PWY66-21	"Ethanol-Degradation;"	"ethanol degradation II;"	1.1.1.1+1.2.1.3+6.2.1.1	3	3	12	0.12	565.45	0.04	1.00	0.00	11.78	0.01	546.50	0.06	6.18	0.00
+PWY-6071	"AMINE-DEG; Phenolic-Compounds-Degradation; Super-Pathways;"	"superpathway of phenylethylamine degradation;"	2.3.1.174+6.2.1.30	4	2	3	0.03	90.53	0.01	0.64	0.00	7.19	0.00	80.56	0.01	2.14	0.00
+PWY-5995	"Linoleate-Biosynthesis;"	"linoleate biosynthesis I (plants);"	1.14.19.6+6.2.1.3	2	2	10	0.10	713.17	0.05	20.47	0.02	7.45	0.00	683.05	0.07	2.20	0.00
+PWY-5104	"ISOLEUCINE-SYN;"	"L-isoleucine biosynthesis IV;"	1.1.1.86+2.2.1.6+2.6.1.42+4.2.1.9	6	4	25	0.24	1608.19	0.10	29.08	0.02	18.33	0.01	1547.33	0.17	13.45	0.00
+PWY-5005	"BIOTIN-SYN; Super-Pathways;"	"biotin biosynthesis II;"	2.3.1.47+2.6.1.62	5	2	4	0.04	232.71	0.01	17.86	0.01	1.58	0.00	210.22	0.02	3.04	0.00
+PWY-5891	"Menaquinone-Biosynthesis;"	"menaquinol-11 biosynthesis;"	2.1.1.163	2	1	2	0.02	99.42	0.01	8.13	0.01	0.08	0.00	89.64	0.01	1.58	0.00
+PWY-481	"AROMATIC-COMPOUNDS-DEGRADATION;"	"ethylbenzene degradation (anaerobic);"	1.1.1.-	2	1	12	0.12	840.22	0.05	3.60	0.00	19.99	0.01	812.50	0.09	4.12	0.00
+PWY-2941	"LYSINE-SYN;"	"L-lysine biosynthesis II;"	1.2.1.11+2.7.2.4+3.5.1.47+4.1.1.20+5.1.1.7	8	5	16	0.15	1042.03	0.07	44.76	0.03	6.37	0.00	984.03	0.11	6.88	0.00
+MANNCAT-PWY	"Sugars-And-Polysaccharides-Degradation;"	"D-mannose degradation;"	5.3.1.8	1	1	4	0.04	346.59	0.02	0.17	0.00	0.97	0.00	344.64	0.04	0.81	0.00
+ALKANEMONOX-PWY	"Sulfur-Metabolism;"	"two-component alkanesulfonate monooxygenase;"	1.14.14.5	2	1	1	0.01	13.90	0.00	0.00	0.00	0.02	0.00	12.46	0.00	1.42	0.00
+PWY-6456	"Polyamine-Biosynthesis;"	"serinol biosynthesis;"	2.6.1.-+3.1.3.-	2	2	13	0.13	806.09	0.05	28.09	0.02	0.84	0.00	775.91	0.08	1.24	0.00
+PWY-5328	"METHIONINE-DEG; Super-Pathways;"	"superpathway of L-methionine salvage and degradation;"	1.8.3.1+2.1.1.-+2.1.1.13+2.5.1.6+2.6.1.1+3.3.1.1+4.2.1.22+4.4.1.1+5.1.99.1+5.4.99.2+6.4.1.3	13	11	65	0.63	5360.21	0.34	458.13	0.36	657.38	0.31	3279.87	0.36	964.83	0.32
+PWY-5284	"ANTHOCYANIN-SYN;"	"shisonin biosynthesis;"	2.3.1.-+2.4.1.-	3	2	34	0.33	3822.68	0.24	316.13	0.25	601.22	0.28	1999.83	0.22	905.50	0.30
+PWY4FS-4	"PhosphatidylcholineBiosynthesis;"	"phosphatidylcholine biosynthesis IV;"	2.7.7.-+2.7.8.-	4	2	23	0.22	1476.27	0.09	16.11	0.01	25.72	0.01	1426.79	0.16	7.65	0.00
+P108-PWY	"Pyruvate-Propanoate-Fermentation;"	"pyruvate fermentation to propanoate I;"	1.1.1.37+2.8.3.-+4.2.1.2+5.1.99.1+5.4.99.2	7	5	17	0.16	1449.00	0.09	49.30	0.04	8.75	0.00	1380.27	0.15	10.69	0.00
+PWY-5506	"Methanol-Oxidation;"	"methanol oxidation to formaldehyde IV;"	1.11.1.6	2	1	2	0.02	233.19	0.01	1.19	0.00	0.46	0.00	230.92	0.03	0.62	0.00
+PWY-6055	"Dimethylsulfoniopropionate-Biosynthesis;"	"dimethylsulfoniopropanoate biosynthesis II (Spartina);"	1.2.1.3	2	1	4	0.04	181.68	0.01	0.13	0.00	0.26	0.00	181.16	0.02	0.13	0.00
+PWY-5686	"UMP-Biosynthesis;"	"UMP biosynthesis I;"	1.3.5.2+2.1.3.2+2.4.2.10+3.5.2.3+4.1.1.23+6.3.5.5	6	6	24	0.23	1145.72	0.07	128.22	0.10	31.94	0.01	951.49	0.10	34.08	0.01
+PWY-6396	"Butanediol-Biosynthesis; Super-Pathways;"	"superpathway of 2,3-butanediol biosynthesis;"	1.1.1.304+2.2.1.6	6	2	12	0.12	826.23	0.05	1.18	0.00	6.84	0.00	814.67	0.09	3.54	0.00
+PROPFERM-PWY	"Acetate-Formation; Fermentation-to-propanoate; Super-Pathways;"	"L-alanine fermentation to propanoate and acetate;"	1.4.1.2+2.3.1.8+2.7.2.1+2.8.3.-	10	4	14	0.13	1054.94	0.07	27.98	0.02	1.88	0.00	1020.21	0.11	4.87	0.00
+PWY-1042	"GLYCOLYSIS-VARIANTS;"	"glycolysis IV (plant cytosol);"	1.2.1.12+2.7.1.11+2.7.1.40+2.7.2.3+4.1.2.13+4.2.1.11+5.3.1.1	10	7	35	0.34	4139.42	0.26	337.20	0.26	621.33	0.29	2314.84	0.25	866.05	0.29
+PWY-5783	"Polyprenyl-Biosynthesis;"	"octaprenyl diphosphate biosynthesis;"	2.5.1.-	1	1	25	0.24	1699.65	0.11	46.92	0.04	15.45	0.01	1624.03	0.18	13.26	0.00
+PWY3O-440	"Acetoin-Biosynthesis;"	"pyruvate fermentation to acetoin III;"	4.1.1.1	1	1	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+PWY-5431	"Catechol-Degradation; Super-Pathways;"	"aromatic compounds degradation via &beta;-ketoadipate;"	1.13.11.1+1.13.11.3+2.3.1.174+2.8.3.6+3.1.1.24+4.1.1.44+5.5.1.1+5.5.1.2	9	8	12	0.12	709.94	0.05	0.14	0.00	19.56	0.01	685.18	0.07	5.06	0.00
+PWY-5407	"FATTY-ACID-DERIVATIVE-SYN;"	"9-lipoxygenase and 9-allene oxide synthase pathway;"	1.13.11.-	1	1	3	0.03	72.95	0.00	2.26	0.00	0.02	0.00	69.17	0.01	1.50	0.00
+PWY-5690	"TCA-VARIANTS;"	"TCA cycle II (plants and fungi);"	1.1.1.37+1.1.1.41+1.3.5.1+4.2.1.2+4.2.1.3+6.2.1.5	7	6	25	0.24	1589.51	0.10	43.15	0.03	19.74	0.01	1513.61	0.16	13.01	0.00
+PWY-5676	"Acetyl-CoA-Butyrate; Super-Pathways;"	"acetyl-CoA fermentation to butanoate II;"	1.1.1.36+2.3.1.8+2.3.1.9+2.7.2.1+2.8.3.8	7	5	15	0.14	595.91	0.04	27.70	0.02	10.78	0.01	551.54	0.06	5.89	0.00
+PWYQT-4473	"GLUCOSINOLATE-SYN;"	"glucosinolate biosynthesis from tetrahomomethionine;"	1.14.13.-+2.6.1.-+2.8.2.-	4	3	5	0.05	265.33	0.02	10.50	0.01	0.23	0.00	254.12	0.03	0.49	0.00
+PWY-5305	"APOCAROTENOID-SYN;"	"bixin biosynthesis;"	1.13.12.-+1.2.1.-+2.1.1.-	3	3	50	0.48	6483.39	0.41	690.85	0.54	1178.58	0.55	2826.61	0.31	1787.34	0.59
+PWY-5448	""	""	1.1.1.103	2	1	4	0.04	266.40	0.02	8.34	0.01	0.69	0.00	256.61	0.03	0.77	0.00
+ASPASN-PWY	"Amino-Acid-Biosynthesis; Metabolic-Clusters; Super-Pathways;"	"superpathway of L-aspartate and L-asparagine biosynthesis;"	2.6.1.1+3.5.1.1	4	2	8	0.08	522.36	0.03	15.65	0.01	20.69	0.01	481.18	0.05	4.84	0.00
+PWY-5672	"TRITERPENOID-SYN;"	"ginsenosides biosynthesis;"	2.4.1.-+5.4.99.-	3	2	23	0.22	3159.01	0.20	328.06	0.26	614.00	0.29	1310.19	0.14	906.75	0.30
+ARGORNPROST-PWY	"ARGININE-DEG; Super-Pathways;"	"L-arginine degradation (Stickland reaction);"	1.5.1.2+2.1.3.3+2.6.1.13+2.7.2.2+3.5.3.6	11	5	10	0.10	621.64	0.04	28.58	0.02	13.88	0.01	574.80	0.06	4.38	0.00
+THIOREDOX-PWY	"Reductants;"	"thioredoxin pathway;"	1.8.1.9	1	1	6	0.06	2069.55	0.13	301.00	0.23	564.58	0.26	348.91	0.04	855.06	0.28
+PWY-1186	"Other-Amino-Acid-Biosynthesis;"	"L-homomethionine biosynthesis;"	1.1.1.-+2.6.1.-	4	2	13	0.13	880.94	0.06	5.97	0.00	19.99	0.01	850.82	0.09	4.16	0.00
+PWY0-321	"Phenylacetate-Degradation;"	"phenylacetate degradation I (aerobic);"	2.3.1.174+6.2.1.30	2	2	3	0.03	90.53	0.01	0.64	0.00	7.19	0.00	80.56	0.01	2.14	0.00
+DETOX1-PWY	"REACTIVE-OXYGEN-SPECIES-DEGRADATION;"	"superoxide radicals degradation;"	1.11.1.6+1.15.1.1	2	2	6	0.06	596.18	0.04	9.44	0.01	1.14	0.00	584.25	0.06	1.36	0.00
+PWY-5004	"Citrulline-Biosynthesis; Super-Pathways;"	"superpathway of L-citrulline metabolism;"	1.2.1.41+2.1.3.3+2.6.1.13+2.7.2.11+3.5.1.2+4.3.2.1+6.3.4.5	11	7	30	0.29	2686.98	0.17	180.66	0.14	786.05	0.37	1531.12	0.17	189.15	0.06
+PLPSAL-PWY	"Vitamin-B6-Biosynthesis;"	"pyridoxal 5'-phosphate salvage I;"	2.7.1.-+2.7.1.35	3	2	11	0.11	631.37	0.04	19.30	0.02	5.35	0.00	602.28	0.07	4.43	0.00
+PWY-5759	"TRITERPENOID-SYN;"	"saponin biosynthesis III;"	2.4.1.-	1	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+PWY-5663	"Tetrahydrobiopterin-Biosynthesis;"	"erythro-tetrahydrobiopterin biosynthesis I;"	1.1.1.153+3.5.4.16+4.2.3.12	3	3	4	0.04	198.68	0.01	18.01	0.01	1.39	0.00	176.25	0.02	3.04	0.00
+PWY-5864	"Plastoquinone-Biosynthesis; Super-Pathways;"	"superpathway of plastoquinol biosynthesis;"	1.13.11.27+2.1.1.-+2.5.1.-	4	3	62	0.60	5340.95	0.34	422.95	0.33	620.78	0.29	3353.13	0.37	944.08	0.31
+PWY0-1479	"Nucleic-Acid-Processing;"	"tRNA processing;"	2.7.7.56+3.1.13.1+3.1.13.5+3.1.26.12+3.1.26.5	5	5	12	0.12	2319.68	0.15	324.49	0.25	599.36	0.28	527.50	0.06	868.33	0.29
+PWY-5294	"Sulfide-Oxidation; Super-Pathways;"	"superpathway of sulfide oxidation (<i>Acidithiobacillus ferrooxidans</i>);"	1.8.2.1+1.8.5.-	3	2	4	0.04	342.19	0.02	6.92	0.01	6.58	0.00	321.43	0.04	7.26	0.00
+URSIN-PWY	"Polyamine-Biosynthesis; Super-Pathways;"	"ureide biosynthesis;"	1.1.1.205+1.17.1.4+2.4.2.1+3.1.3.5+3.5.2.17	6	5	18	0.17	1145.73	0.07	72.33	0.06	11.50	0.01	1045.52	0.11	16.39	0.01
+PWY4FS-8	"PhosphatidylglycerolBiosynthesis; Super-Pathways;"	"phosphatidylglycerol biosynthesis II (non-plastidic);"	1.1.1.94+2.3.1.51+2.7.7.41+2.7.8.5+3.1.3.27	6	5	15	0.14	922.70	0.06	68.00	0.05	31.85	0.01	799.24	0.09	23.61	0.01
+GAMMAHEXCHLORDEG-PWY	"CHLORINATED-COMPOUNDS-DEG;"	"&gamma;-hexachlorocyclohexane degradation;"	1.1.-.-+3.8.1.5	4	2	11	0.11	1174.28	0.08	2.62	0.00	2.21	0.00	1167.82	0.13	1.64	0.00
+SULFATE-CYS-PWY	"Sulfur-Metabolism; Super-Pathways;"	"superpathway of sulfate assimilation and cysteine biosynthesis;"	1.1.1.95+1.8.4.8+2.3.1.30+2.5.1.47+2.6.1.52+3.1.3.3	9	6	15	0.14	1296.93	0.08	15.55	0.01	6.15	0.00	1272.17	0.14	3.06	0.00
+PWY-6462	"Peptidoglycan-Cross-Bridge-Biosynthesis;"	"peptidoglycan cross-bridge biosynthesis III (Enterococcus faecalis);"	2.3.2.-	2	1	2	0.02	104.10	0.01	7.98	0.01	0.16	0.00	95.61	0.01	0.35	0.00
+PWY-5921	"Aminoacyl-tRNAs-Charging;"	"glutaminyl-tRNA<sup>gln</sup> biosynthesis via transamidation;"	6.3.5.7	1	1	7	0.07	820.02	0.05	0.74	0.00	18.66	0.01	795.04	0.09	5.58	0.00
+PWY-43	"Putrescine-Biosynthesis;"	"putrescine biosynthesis II;"	3.5.1.53+4.1.1.19	3	2	3	0.03	136.67	0.01	0.04	0.00	0.28	0.00	134.78	0.01	1.57	0.00
+M-CRESOL-DEGRADATION-PWY	"AROMATIC-COMPOUNDS-DEGRADATION;"	"<I>m</I>-cresol degradation;"	1.14.13.-+1.14.13.24	5	2	7	0.07	468.54	0.03	8.40	0.01	20.42	0.01	435.80	0.05	3.92	0.00
+PWY-6422	"D-Amino-Acid-Degradation;"	"D-arginine degradation;"	1.4.99.-	2	1	3	0.03	434.16	0.03	0.07	0.00	4.40	0.00	428.15	0.05	1.55	0.00
+GLUTAMATE-DEG1-PWY	"GLUTAMATE-DEG;"	"L-glutamate degradation I;"	1.4.1.2	1	1	4	0.04	251.21	0.02	8.46	0.01	0.80	0.00	239.83	0.03	2.13	0.00
+ENTNER-DOUDOROFF-PWY	"Entner-Duodoroff-Pathways;"	"Entner-Doudoroff shunt;"	4.1.2.14+4.2.1.12	2	2	3	0.03	66.38	0.00	0.41	0.00	0.01	0.00	65.88	0.01	0.09	0.00
+PWY-5189	"Tetrapyrrole-Biosynthesis;"	"tetrapyrrole biosynthesis II (from glycine);"	2.3.1.37+2.5.1.61+4.2.1.24+4.2.1.75	4	4	7	0.07	487.07	0.03	0.69	0.00	4.94	0.00	478.17	0.05	3.27	0.00
+PWY-1723	"Formaldehyde-Oxidation;"	"formaldehyde oxidation VI (H<sub>4</sub>MPT pathway);"	1.5.1.-	2	1	1	0.01	13.90	0.00	0.00	0.00	0.02	0.00	12.46	0.00	1.42	0.00
+PWY-6268	"Cobamide-Salvage;"	"adenosylcobalamin salvage from cobalamin;"	2.5.1.17	1	1	4	0.04	369.87	0.02	18.13	0.01	1.79	0.00	346.60	0.04	3.35	0.00
+PWY-6426	"Uracil-Degradation;"	"uracil degradation II (oxidative);"	3.5.2.1	3	1	1	0.01	92.16	0.01	0.32	0.00	0.58	0.00	90.77	0.01	0.49	0.00
+PWY-5760	"Beta-Alanine-Biosynthesis;"	"&beta;-alanine biosynthesis IV;"	1.2.1.3	2	1	4	0.04	181.68	0.01	0.13	0.00	0.26	0.00	181.16	0.02	0.13	0.00
+PWY-6146	"Biosynthesis; Super-Pathways;"	"<i>Methanobacterium thermoautotrophicum</i> biosynthetic metabolism;"	1.1.1.37+1.3.99.1+1.5.1.5+2.1.1.-+2.3.1.9+2.5.1.10+2.6.1.1+2.7.1.36+2.7.1.40+2.7.4.2+3.5.4.9+4.1.1.31+4.1.1.33+4.1.2.13+4.2.1.1+4.2.1.11+4.2.1.2+5.3.1.1+5.3.1.9+5.3.3.2+6.2.1.5+6.3.4.3+6.4.1.1	39	23	96	0.92	7086.96	0.45	490.66	0.38	697.18	0.32	4885.70	0.53	1013.42	0.33
+PWY0-881	"Fatty-acid-biosynthesis; Super-Pathways;"	"superpathway of fatty acid biosynthesis I (E. coli);"	1.1.1.100+1.3.1.9+2.3.1.-+2.3.1.180+2.3.1.39+2.3.1.41+4.2.1.-+4.2.1.59+6.4.1.2	13	9	60	0.58	3896.25	0.25	76.98	0.06	39.49	0.02	3760.26	0.41	19.52	0.01
+BSUBPOLYAMSYN-PWY	"Spermidine-Biosynthesis;"	"spermidine biosynthesis I;"	2.5.1.16+4.1.1.50	2	2	2	0.02	173.88	0.01	7.76	0.01	0.22	0.00	165.57	0.02	0.32	0.00
+PWY-5837	"DHNA-Biosynthesis;"	"2-carboxy-1,4-naphthoquinol biosynthesis;"	2.2.1.9+3.1.2.-+4.1.3.36+4.2.1.113+4.2.99.20+5.4.4.2+6.2.1.26	7	7	17	0.16	2553.14	0.16	343.81	0.27	597.65	0.28	713.26	0.08	898.42	0.30
+PWY-5107	"DITERPENOID-SYN;"	"phytol salvage pathway;"	2.7.1.-+2.7.4.-	2	2	15	0.14	2658.98	0.17	351.08	0.27	591.32	0.27	820.59	0.09	895.99	0.30
+PWY-6165	"Chorismate-Biosynthesis; Super-Pathways;"	"chorismate biosynthesis II (archaea);"	1.1.1.25+2.5.1.19+2.7.1.71+4.2.1.10+4.2.3.5	6	5	10	0.10	649.96	0.04	6.07	0.00	24.63	0.01	613.28	0.07	5.98	0.00
+PWY-6135	""	""	3.6.3.-	1	1	42	0.40	6107.76	0.39	647.48	0.50	1143.84	0.53	2591.40	0.28	1725.04	0.57
+TRPSYN-PWY	"TRYPTOPHAN-BIOSYNTHESIS;"	"L-tryptophan biosynthesis;"	2.4.2.18+4.1.1.48+4.1.3.27+4.2.1.20+5.3.1.24	5	5	25	0.24	2943.90	0.19	303.65	0.24	598.75	0.28	1178.78	0.13	862.72	0.28
+PWY-6519	"7-Keto-8-aminopelargonate-Biosynthesis;"	"8-amino-7-oxononanoate biosynthesis I;"	1.1.1.100+2.1.1.-+2.3.1.180+2.3.1.41+2.3.1.47+3.1.1.-+4.2.1.59	8	7	60	0.58	4860.03	0.31	414.67	0.32	633.85	0.29	2866.54	0.31	944.96	0.31
+TOLUENE-DEG-DIOL-PWY	"TOLUENE-DEG;"	"toluene degradation to 2-hydroxypentadienoate (<I>via</I> toluene-<I>cis</I>-diol);"	1.13.11.2+3.7.1.-	4	2	2	0.02	67.59	0.00	2.39	0.00	0.11	0.00	64.96	0.01	0.14	0.00
+MENAQUINONESYN-PWY	"Menaquinone-Biosynthesis;"	"menaquinol-8 biosynthesis;"	2.1.1.163	1	1	2	0.02	99.42	0.01	8.13	0.01	0.08	0.00	89.64	0.01	1.58	0.00
+PWY-6424	""	""	2.1.1.-	1	1	37	0.36	3582.07	0.23	376.29	0.29	605.32	0.28	1669.61	0.18	930.85	0.31
+PWY-3821	"Detoxification;"	"D-galactose detoxification;"	1.1.1.22+2.4.1.13+2.7.7.9+5.1.3.2	6	4	11	0.11	636.33	0.04	3.06	0.00	21.01	0.01	605.41	0.07	6.84	0.00
+PWY-5965	"Fatty-acid-biosynthesis;"	"fatty acid biosynthesis initiation III;"	2.3.1.-+2.3.1.41	2	2	26	0.25	1863.86	0.12	25.77	0.02	10.61	0.00	1821.11	0.20	6.37	0.00
+RIBOKIN-PWY	"Sugars-And-Polysaccharides-Degradation;"	"ribose phosphorylation;"	2.7.1.15+5.4.99.-	2	2	14	0.13	865.28	0.06	37.68	0.03	22.50	0.01	798.22	0.09	6.89	0.00
+PWY-782	"Glycolipids-Biosynthesis;"	"glycolipid desaturation;"	1.14.99.-	1	1	8	0.08	434.40	0.03	29.01	0.02	0.32	0.00	402.70	0.04	2.36	0.00
+PWY-5791	""	""	2.2.1.9+3.1.2.-+4.1.3.36+4.2.1.113+4.2.99.20+5.4.4.2+6.2.1.26	7	7	17	0.16	2553.14	0.16	343.81	0.27	597.65	0.28	713.26	0.08	898.42	0.30
+PWY-6118	"OTHER-ENERGY;"	"glycerol-3-phosphate shuttle;"	1.1.5.3	2	1	1	0.01	27.20	0.00	9.77	0.01	1.08	0.00	13.70	0.00	2.65	0.00
+HEME-BIOSYNTHESIS-II	"Heme-b-Biosynthesis;"	"heme <i>b</i> biosynthesis I (aerobic);"	1.3.3.3+1.3.3.4+4.1.1.37+4.99.1.1	4	4	11	0.11	458.09	0.03	2.49	0.00	10.75	0.00	434.72	0.05	10.14	0.00
+PWY-101	"Electron-Transfer; Photosynthesis;"	"photosynthesis light reactions;"	1.18.1.2	1	1	4	0.04	1908.85	0.12	285.31	0.22	587.28	0.27	136.62	0.01	899.62	0.30
+COA-PWY	"CoA-Biosynthesis;"	"coenzyme A biosynthesis I (prokaryotic);"	2.7.1.24+2.7.1.33+2.7.7.3+4.1.1.36+6.3.2.5	5	5	17	0.16	1099.75	0.07	42.50	0.03	13.59	0.01	1033.12	0.11	10.54	0.00
+PWY0-1329	"AEROBIC-RESPIRATION; Electron-Transfer;"	"succinate to cytochrome <i>bo</i> oxidase electron transfer;"	1.3.5.1	2	1	6	0.06	567.36	0.04	1.99	0.00	8.47	0.00	553.43	0.06	3.48	0.00
+PWY-2961	"SESQUITERPENOID-SYN; TERPENOID-PHYTOALEXINS;"	"sesquiterpenoid phytoalexins biosynthesis;"	1.14.-.-	2	1	5	0.05	306.19	0.02	0.37	0.00	4.10	0.00	300.52	0.03	1.20	0.00
+PWY-5324	"LYSINE-DEG;"	"L-lysine degradation IX;"	1.2.1.31	2	1	2	0.02	69.49	0.00	0.03	0.00	0.09	0.00	67.84	0.01	1.53	0.00
+PWY-5439	"BETALAIN-ALKALOIDS;"	"betacyanin biosynthesis (via dopamine);"	1.10.3.-	1	1	10	0.10	2239.05	0.14	310.89	0.24	582.66	0.27	486.85	0.05	858.64	0.28
+GLUCONEO-PWY	"Gluconeogenesis;"	"gluconeogenesis I;"	1.1.1.37+1.1.1.38+1.1.1.40+1.2.1.12+2.7.2.3+2.7.9.2+3.1.3.11+4.1.1.31+4.1.2.13+4.2.1.11+5.3.1.9	13	11	41	0.39	5835.74	0.37	628.58	0.49	1188.79	0.55	2297.24	0.25	1721.13	0.57
+LIPAS-PWY	"Fatty-Acid-and-Lipid-Degradation;"	"triacylglycerol degradation;"	3.1.1.-+3.1.1.23+3.1.1.3	3	3	6	0.06	290.63	0.02	10.47	0.01	2.12	0.00	273.34	0.03	4.70	0.00
+PWY-6577	"All-Trans-Farnesyl-PP-Biosynthesis; Detoxification;"	"farnesylcysteine salvage pathway;"	1.1.1.-+2.7.1.-+2.7.4.-	4	3	27	0.26	3499.20	0.22	354.68	0.28	611.32	0.28	1633.09	0.18	900.11	0.30
+TOLSULFDEG-PWY	"4-Toluenesulfonate-Degradation;"	"4-toluenesulfonate degradation I;"	1.1.1.-+1.14.99.-+1.2.1.-	4	3	31	0.30	4122.05	0.26	344.55	0.27	593.58	0.28	2321.06	0.25	862.87	0.28
+ASPARTATE-DEG1-PWY	"ASPARTATE-DEG;"	"L-aspartate degradation I;"	2.6.1.1	1	1	6	0.06	414.45	0.03	7.53	0.01	20.64	0.01	381.70	0.04	4.58	0.00
+PWY-6185	"AROMATIC-COMPOUNDS-DEGRADATION;"	"4-methylcatechol degradation (<i>ortho</i> cleavage);"	2.3.1.174+2.8.3.6+3.1.1.24	6	3	3	0.03	85.26	0.01	0.01	0.00	4.05	0.00	80.17	0.01	1.02	0.00
+PWY-5326	"Sulfite-Oxidation;"	"sulfite oxidation IV;"	1.8.3.1	1	1	2	0.02	406.19	0.03	0.02	0.00	0.90	0.00	404.56	0.04	0.71	0.00
+PWY-4061	"Detoxification; Other-Degradation;"	"glutathione-mediated detoxification I;"	2.5.1.18+3.4.11.2	5	2	8	0.08	341.42	0.02	5.73	0.00	40.22	0.02	289.38	0.03	6.09	0.00
+PWY-6167	"Flavin-Biosynthesis;"	"flavin biosynthesis II (archaea);"	2.5.1.78+2.5.1.9+2.7.7.2+3.5.4.-+4.1.99.12	9	5	23	0.22	1571.98	0.10	52.68	0.04	34.88	0.02	1477.09	0.16	7.32	0.00
+PWY-842	"Glycan-Degradation; Starch-Degradation;"	"starch degradation I;"	2.4.1.1+2.4.1.25+3.2.1.20+3.2.1.41+5.4.2.2	9	5	12	0.12	543.35	0.03	9.20	0.01	40.48	0.02	486.15	0.05	7.52	0.00
+TRPCAT-PWY	"TRYPTOPHAN-DEG;"	"L-tryptophan degradation I (via anthranilate);"	1.13.11.11+3.7.1.3	3	2	2	0.02	153.04	0.01	0.33	0.00	0.75	0.00	151.48	0.02	0.47	0.00
+PWY0-1297	"NUCLEO-DEG; Super-Pathways;"	"superpathway of purine deoxyribonucleosides degradation;"	4.1.2.4+5.4.2.7	3	2	4	0.04	193.08	0.01	12.98	0.01	0.16	0.00	179.52	0.02	0.42	0.00
+PWY-5384	"SUCROSE-DEG;"	"sucrose degradation IV (sucrose phosphorylase);"	2.7.1.4+5.3.1.9+5.4.2.2	5	3	7	0.07	364.04	0.02	3.69	0.00	3.98	0.00	354.82	0.04	1.54	0.00
+PWY-5271	"Abscisic-Acid-Degradation;"	"abscisic acid degradation to phaseic acid;"	1.-.-.-	2	1	56	0.54	6979.77	0.45	708.19	0.55	1215.11	0.56	3292.99	0.36	1763.48	0.58
+PWY-5850	"Menaquinone-Biosynthesis; Super-Pathways;"	"superpathway of menaquinol-6 biosynthesis I;"	2.1.1.163+2.2.1.9+3.1.2.-+4.1.3.36+4.2.1.113+4.2.99.20+5.4.4.2+6.2.1.26	10	8	19	0.18	2652.56	0.17	351.94	0.27	597.73	0.28	802.89	0.09	900.00	0.30
+PWY-6312	"POLYKETIDE-SYN;"	"barbaloin biosynthesis;"	2.3.1.-	1	1	24	0.23	1456.90	0.09	25.75	0.02	9.69	0.00	1415.85	0.15	5.62	0.00
+ETOH-ACETYLCOA-ANA-PWY	"Ethanol-Degradation;"	"ethanol degradation I;"	1.1.1.1	2	1	4	0.04	96.92	0.01	0.06	0.00	7.45	0.00	86.14	0.01	3.26	0.00
+PWY-5380	"CYCLITOLS-DEG; SUGAR-DERIVS;"	"A series fagopyritols biosynthesis;"	2.4.1.-	1	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+PWY-5194	"Porphyrin-Compounds-Biosynthesis;"	"siroheme biosynthesis;"	1.3.1.76+2.1.1.107+4.99.1.4	3	3	4	0.04	486.75	0.03	0.02	0.00	1.07	0.00	484.65	0.05	1.02	0.00
+PWY-5084	"Respiration;"	"2-oxoglutarate decarboxylation to succinyl-CoA;"	1.2.4.2+1.8.1.4+2.3.1.61	3	3	11	0.11	478.65	0.03	12.99	0.01	0.62	0.00	461.29	0.05	3.75	0.00
+CITRULLINE-DEG-PWY	"MISCELLANEOUS-DEG;"	"L-citrulline degradation;"	2.1.3.3+2.7.2.2	2	2	5	0.05	262.08	0.02	13.50	0.01	7.85	0.00	238.61	0.03	2.12	0.00
+PWY-2504	"AROMATIC-COMPOUNDS-DEGRADATION; Super-Pathways;"	"superpathway of aromatic compound degradation via 3-oxoadipate;"	1.13.11.1+1.13.11.11+1.13.11.3+1.14.12.10+1.14.13.2+1.3.1.25+2.3.1.174+2.8.3.6+3.1.1.24+3.7.1.3+4.1.1.44+4.2.1.10+5.5.1.1+5.5.1.2	25	14	19	0.18	1548.70	0.10	0.55	0.00	25.25	0.01	1513.99	0.16	8.92	0.00
+PWY-5420	"Catechol-Degradation; Super-Pathways;"	"catechol degradation II (<I>meta</I>-cleavage pathway);"	1.13.11.2+5.3.2.-	6	2	2	0.02	114.61	0.01	2.27	0.00	0.05	0.00	112.24	0.01	0.06	0.00
+NADPHOS-DEPHOS-PWY	"NAD-Metabolism;"	"NAD phosphorylation and dephosphorylation;"	1.6.1.2+2.7.1.23+3.1.3.-	3	3	24	0.23	1290.17	0.08	41.02	0.03	11.86	0.01	1233.53	0.13	3.76	0.00
+GLYCOLATEMET-PWY	"Glycolate-Degradation;"	"glycolate and glyoxylate degradation I;"	1.1.1.60+2.7.1.31	4	2	2	0.02	99.55	0.01	0.00	0.00	0.31	0.00	99.14	0.01	0.11	0.00
+P101-PWY	"Polyamine-Biosynthesis;"	"ectoine biosynthesis;"	1.2.1.11+2.6.1.76+2.7.2.4+4.2.1.108	5	4	11	0.11	824.94	0.05	25.97	0.02	2.82	0.00	790.68	0.09	5.48	0.00
+P42-PWY	"Reductive-TCA-Cycles;"	"incomplete reductive TCA cycle;"	1.1.1.37+1.3.99.1+4.2.1.2+6.2.1.5+6.4.1.1	7	5	15	0.14	1010.67	0.06	31.97	0.02	7.97	0.00	961.03	0.10	9.70	0.00
+PWY-5048	"Rosmarinate-Biosynthesis;"	"rosmarinic acid biosynthesis I;"	1.1.1.-	2	1	12	0.12	840.22	0.05	3.60	0.00	19.99	0.01	812.50	0.09	4.12	0.00
+PWY-5654	"CARBOXYLATES-DEG;"	"2-amino-3-carboxymuconate semialdehyde degradation to 2-hydroxypentadienoate;"	1.2.1.32+4.1.1.45	4	2	2	0.02	153.04	0.01	0.33	0.00	0.75	0.00	151.48	0.02	0.47	0.00
+PWY-1722	"C1-COMPOUNDS;"	"formate assimilation into 5,10-methylenetetrahydrofolate;"	1.5.1.5+3.5.4.9+6.3.4.3	3	3	5	0.05	281.18	0.02	24.79	0.02	0.64	0.00	254.64	0.03	1.12	0.00
+PWY-5408	"FATTY-ACID-DERIVATIVE-SYN;"	"9-lipoxygenase and 9-hydroperoxide lyase pathway;"	1.13.11.-	1	1	3	0.03	72.95	0.00	2.26	0.00	0.02	0.00	69.17	0.01	1.50	0.00
+PWY-5704	"Urea-Degradation;"	"urea degradation II;"	3.5.1.5	1	1	3	0.03	586.78	0.04	0.02	0.00	1.27	0.00	584.50	0.06	0.99	0.00
+PWY-5659	"GDP-Sugar-Biosynthesis;"	"GDP-mannose biosynthesis;"	2.7.7.13+5.3.1.8+5.3.1.9+5.4.2.8	4	4	9	0.09	695.31	0.04	0.70	0.00	2.09	0.00	690.81	0.08	1.71	0.00
+GLYOXYLATE-BYPASS	"Energy-Metabolism;"	"glyoxylate cycle;"	1.1.1.37+2.3.3.9+4.1.3.1+4.2.1.3	5	4	14	0.13	668.79	0.04	39.05	0.03	9.45	0.00	614.89	0.07	5.40	0.00
+PWY-6142	"Gluconeogenesis; Super-Pathways;"	"gluconeogenesis II (<i>Methanobacterium thermoautotrophicum</i>);"	1.5.1.5+2.1.1.-+2.7.1.40+3.5.4.9+4.1.1.31+4.1.2.13+4.2.1.1+4.2.1.11+5.3.1.1+5.3.1.9+6.3.4.3+6.4.1.1	18	12	65	0.63	5368.95	0.34	431.34	0.34	616.55	0.29	3381.46	0.37	939.60	0.31
+PWY0-1182	"Trehalose-Degradation;"	"trehalose degradation II (cytosolic);"	2.7.1.2+3.2.1.28	2	2	3	0.03	138.37	0.01	9.31	0.01	0.11	0.00	128.42	0.01	0.53	0.00
+POLYISOPRENSYN-PWY	"Polyprenyl-Biosynthesis; Super-Pathways;"	"polyisoprenoid biosynthesis (<i>E. coli</i>);"	2.5.1.-+2.5.1.10+2.5.1.31+5.3.3.2	5	4	32	0.31	2099.15	0.13	69.75	0.05	62.86	0.03	1893.12	0.21	73.41	0.02
+PWY-5821	"ISOFLAVONOID-SYN;"	"dalcochinin biosynthesis;"	3.2.1.-	1	1	6	0.06	172.32	0.01	1.93	0.00	19.97	0.01	146.90	0.02	3.52	0.00
+PWY490-3	"Nitrate-Reduction;"	"nitrate reduction VI (assimilatory);"	1.4.1.4+1.7.7.1+6.3.1.2	4	3	9	0.09	583.53	0.04	13.45	0.01	4.23	0.00	563.91	0.06	1.94	0.00
+PWY-6287	"C40-Carotenoids-Biosynthesis;"	"neurosporene biosynthesis;"	1.14.99.-+2.5.1.32	3	2	10	0.10	538.04	0.03	37.14	0.03	0.38	0.00	497.92	0.05	2.60	0.00
+PWY-3121	"CYANOGENIC-GLUCOSIDE-DEG;"	"linamarin degradation;"	3.2.1.21	2	1	1	0.01	13.76	0.00	0.27	0.00	0.03	0.00	13.32	0.00	0.15	0.00
+PWY0-1296	"Purine-Degradation;"	"purine ribonucleosides degradation;"	2.4.2.1+3.5.4.4+5.4.2.7	3	3	10	0.10	693.59	0.04	32.13	0.03	2.64	0.00	654.50	0.07	4.32	0.00
+4TOLCARBDEG-PWY	"AROMATIC-COMPOUNDS-DEGRADATION;"	"4-toluenecarboxylate degradation;"	1.1.1.-+1.14.12.-+1.14.99.-+1.2.1.-	4	4	33	0.32	4367.05	0.28	344.59	0.27	597.74	0.28	2560.66	0.28	864.06	0.28
+LYSDEGII-PWY	"LYSINE-DEG;"	"L-lysine degradation III;"	1.1.1.-+2.6.1.-+3.5.1.-	6	3	32	0.31	2048.38	0.13	28.17	0.02	31.45	0.01	1975.78	0.22	12.99	0.00
+PWY-6383	"Polyprenyl-Biosynthesis;"	"mono-<i>trans</i>, poly-<i>cis</i> decaprenyl phosphate biosynthesis;"	2.5.1.-+3.6.1.-+5.3.3.2	5	3	53	0.51	8235.54	0.53	986.19	0.77	1740.38	0.81	2890.94	0.31	2618.02	0.86
+PWY-6419	"Shikimate-Degradation;"	"shikimate degradation II;"	1.1.1.-	2	1	12	0.12	840.22	0.05	3.60	0.00	19.99	0.01	812.50	0.09	4.12	0.00
+PWY-2221	"Entner-Duodoroff-Pathways;"	"Entner-Doudoroff pathway III (semi-phosphorylative);"	1.2.1.3+2.7.1.40+2.7.1.45+4.1.2.14+4.2.1.11+5.1.3.3	10	6	16	0.15	1226.15	0.08	11.29	0.01	5.64	0.00	1206.27	0.13	2.95	0.00
+PWY-5175	"C40-Carotenoids-Biosynthesis;"	"lactucaxanthin biosynthesis;"	1.14.99.-+5.5.1.-	2	2	9	0.09	650.05	0.04	29.03	0.02	0.85	0.00	617.41	0.07	2.77	0.00
+P661-PWY	"AROMATIC-COMPOUNDS-DEGRADATION;"	"dibenzo-<I>p</I>-dioxin degradation;"	1.13.11.-+1.14.12.-+3.7.1.-	3	3	6	0.06	343.34	0.02	2.43	0.00	4.28	0.00	333.84	0.04	2.79	0.00
+UDPNACETYLGALSYN-PWY	"UDP-NAc-Glucosamine-Biosynthesis;"	"UDP-<i>N</i>-acetyl-D-glucosamine biosynthesis II;"	2.6.1.16+2.7.7.23	4	2	7	0.07	645.34	0.04	5.10	0.00	1.48	0.00	635.97	0.07	2.79	0.00
+PWY-5876	"ISOQUINOLINE-ALKALOIDS;"	"magnoflorine biosynthesis;"	2.1.1.-	2	1	37	0.36	3582.07	0.23	376.29	0.29	605.32	0.28	1669.61	0.18	930.85	0.31
+PWY0-1313	"CARBOXYLATES-DEG;"	"acetate conversion to acetyl-CoA;"	6.2.1.1	1	1	4	0.04	286.86	0.02	0.80	0.00	4.06	0.00	279.20	0.03	2.79	0.00
+PWY-102	"GIBBERELLINS-DEGRADATION; Gibberellin-Inactivation; Metabolic-Clusters;"	"gibberellin inactivation I (2&beta;-hydroxylation);"	1.14.11.-	2	1	2	0.02	263.05	0.02	0.00	0.00	0.56	0.00	262.12	0.03	0.36	0.00
+ARGSYNBSUB-PWY	"ARGININE-SYN;"	"L-arginine biosynthesis II (acetyl cycle);"	1.2.1.38+2.1.3.3+2.3.1.1+2.3.1.35+2.6.1.11+2.7.2.8+4.3.2.1+6.3.4.5+6.3.5.5	9	9	56	0.54	5160.77	0.33	418.80	0.33	1577.18	0.73	2764.55	0.30	400.25	0.13
+POLYAMINSYN3-PWY	"Polyamine-Biosynthesis; Super-Pathways;"	"superpathway of polyamine biosynthesis II;"	2.5.1.16+3.5.1.53+4.1.1.19+4.1.1.50	7	4	5	0.05	310.55	0.02	7.80	0.01	0.50	0.00	300.35	0.03	1.90	0.00
+PWY-6565	"Polyamine-Biosynthesis; Super-Pathways;"	"superpathway of polyamine biosynthesis III;"	1.2.1.11+1.5.1.-+2.6.1.76+2.7.2.4	5	4	11	0.11	825.09	0.05	25.70	0.02	2.82	0.00	789.82	0.09	6.75	0.00
+PWY-5756	"TRITERPENOID-SYN;"	"saponin biosynthesis II;"	2.4.1.-	2	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+PWY-5419	"Catechol-Degradation;"	"catechol degradation to 2-hydroxypentadienoate II;"	1.13.11.2+5.3.2.-	3	2	2	0.02	114.61	0.01	2.27	0.00	0.05	0.00	112.24	0.01	0.06	0.00
+PWY-5939	"Acetoin-Biosynthesis;"	"pyruvate fermentation to (<i>R</i>)-acetoin II;"	2.2.1.6	2	1	11	0.11	630.64	0.04	1.17	0.00	6.42	0.00	619.83	0.07	3.21	0.00
+P481-PWY	"Other-Degradation;"	"adamantanone degradation;"	1.14.-.-	1	1	5	0.05	306.19	0.02	0.37	0.00	4.10	0.00	300.52	0.03	1.20	0.00
+PWY-4041	"Reductants; Super-Pathways;"	"&gamma;-glutamyl cycle;"	2.3.2.2+3.4.11.2+3.5.2.9+6.3.2.2+6.3.2.3	6	5	14	0.13	2233.08	0.14	333.40	0.26	609.08	0.28	394.85	0.04	895.75	0.30
+PWY-6168	"Flavin-Biosynthesis;"	"flavin biosynthesis III (fungi);"	2.5.1.78+2.5.1.9+2.7.1.26+2.7.7.2+3.5.4.-+3.5.4.25+4.1.99.12	8	7	24	0.23	1793.12	0.11	52.69	0.04	35.36	0.02	1697.37	0.18	7.70	0.00
+PWY-6000	"Gamma-linolenate-Biosynthesis;"	"&gamma;-linolenate biosynthesis II (animals);"	6.2.1.3	2	1	9	0.09	642.72	0.04	20.47	0.02	7.42	0.00	612.67	0.07	2.16	0.00
+PWY-6502	"Detoxification; Metabolic-Clusters;"	"oxidized GTP and dGTP detoxification;"	3.6.1.-	1	1	26	0.25	6461.19	0.41	936.75	0.73	1721.76	0.80	1198.65	0.13	2604.03	0.86
+PWY-5459	"Methylglyoxal-Detoxification; Super-Pathways;"	"methylglyoxal degradation IV;"	1.2.1.22	2	1	1	0.01	29.10	0.00	0.00	0.00	0.28	0.00	28.76	0.00	0.07	0.00
+SULFMETII-PWY	"Assimilatory-Sulfate-Reduction;"	"assimilatory sulfate reduction II;"	1.8.7.1	3	1	2	0.02	264.10	0.02	0.01	0.00	0.42	0.00	263.31	0.03	0.36	0.00
+PWY-5825	"ISOFLAVONOID-SYN;"	"dalpatein and dalnigrein biosynthesis;"	3.2.1.-	1	1	6	0.06	172.32	0.01	1.93	0.00	19.97	0.01	146.90	0.02	3.52	0.00
+PWY-5467	"INDOLE-ALKALOIDS;"	"gramine biosynthesis;"	2.1.1.-	1	1	37	0.36	3582.07	0.23	376.29	0.29	605.32	0.28	1669.61	0.18	930.85	0.31
+PWY-181	"Photosynthesis;"	"photorespiration;"	2.1.2.1+2.6.1.45+2.7.1.31+3.1.3.18+4.1.1.-	8	5	12	0.12	584.29	0.04	0.15	0.00	8.75	0.00	571.73	0.06	3.65	0.00
+PWY-5838	"Menaquinone-Biosynthesis; Super-Pathways;"	"superpathway of menaquinol-8 biosynthesis I;"	2.1.1.163+2.2.1.9+2.5.1.-+3.1.2.-+4.1.3.36+4.2.1.113+4.2.99.20+5.4.4.2+6.2.1.26	10	9	44	0.42	4352.21	0.28	398.85	0.31	613.18	0.28	2426.92	0.26	913.26	0.30
+PWY-6550	"AROMATIC-COMPOUNDS-DEGRADATION;"	"carbazole degradation;"	1.13.11.-+1.14.12.-+3.7.1.-	3	3	6	0.06	343.34	0.02	2.43	0.00	4.28	0.00	333.84	0.04	2.79	0.00
+PWY1-3	"Storage-Compounds-Biosynthesis;"	"polyhydroxybutanoate biosynthesis;"	1.1.1.36+2.3.1.-+2.3.1.9	3	3	32	0.31	1733.41	0.11	36.31	0.03	20.34	0.01	1667.12	0.18	9.65	0.00
+PWY-5076	"LEUCINE-DEG;"	"L-leucine degradation III;"	1.1.1.1+2.6.1.42+4.1.1.1	3	3	14	0.13	764.37	0.05	27.86	0.02	14.94	0.01	709.34	0.08	12.24	0.00
+PWY-5941	"Glycan-Degradation; Glycogen-Degradation;"	"glycogen degradation II;"	2.4.1.1+2.4.1.25+5.4.2.2	4	3	9	0.09	397.29	0.03	6.70	0.01	40.33	0.02	342.92	0.04	7.34	0.00
+ALADEG-PWY	"ALANINE-DEG;"	"L-alanine degradation I;"	5.1.1.1	2	1	2	0.02	111.30	0.01	0.91	0.00	0.06	0.00	110.14	0.01	0.19	0.00
+PWY-6285	"Fatty-acid-biosynthesis; Super-Pathways;"	"superpathway of fatty acids biosynthesis (<i>E. coli</i>);"	1.1.1.100+1.3.1.9+2.3.1.179+2.3.1.180+2.3.1.39+2.3.1.41+4.2.1.59+6.4.1.2	15	8	36	0.35	4029.91	0.26	343.95	0.27	593.02	0.28	2226.48	0.24	866.46	0.29
+CENTBENZCOA-PWY	"Benzoyl-CoA-Degradation;"	"benzoyl-CoA degradation II (anaerobic);"	1.1.1.-+2.3.1.-+3.7.1.-+4.2.1.-	6	4	44	0.42	2724.76	0.17	40.07	0.03	34.45	0.02	2638.82	0.29	11.42	0.00
+PWY-5319	"COUMARIN-SYN; PHENYLPROPANOID-DERIVATIVE-DEG;"	"coumarin metabolism (to melilotic acid);"	1.3.-.-	2	1	4	0.04	139.60	0.01	2.90	0.00	33.03	0.02	97.60	0.01	6.07	0.00
+PWY-5177	"CARBOXYLATES-DEG;"	"glutaryl-CoA degradation;"	1.1.1.35+2.3.1.9	4	2	10	0.10	291.75	0.02	2.47	0.00	10.61	0.00	273.19	0.03	5.47	0.00
+PWY0-163	""	""	2.4.2.9+2.7.1.-+2.7.1.48+2.7.4.14+2.7.4.6+3.5.4.1+3.5.4.5	8	7	28	0.27	1509.03	0.10	57.80	0.05	10.82	0.01	1429.59	0.16	10.82	0.00
+PWY-5993	"Antibiotic-Biosynthesis; Super-Pathways;"	"superpathway of rifamycin B biosynthesis;"	2.2.1.1	1	1	6	0.06	1915.98	0.12	308.96	0.24	564.15	0.26	189.35	0.02	853.52	0.28
+PWY-6320	"AROMATIC-COMPOUNDS-BIOSYN;"	"phaselate biosynthesis;"	3.1.2.-+6.2.1.12	4	2	8	0.08	309.07	0.02	18.39	0.01	8.61	0.00	277.01	0.03	5.06	0.00
+PWY-5789	"Autotrophic-CO2-Fixation;"	"3-hydroxypropanoate/4-hydroxybutanate cycle;"	1.1.1.-+1.1.1.35+1.3.1.84+2.3.1.9+4.2.1.116+5.1.99.1+5.4.99.2+6.4.1.2+6.4.1.3	16	9	49	0.47	3016.43	0.19	72.01	0.06	58.71	0.03	2861.36	0.31	24.35	0.01
+PWY-5379	"CYCLITOLS-DEG; SUGAR-DERIVS;"	"B series fagopyritols biosynthesis;"	2.4.1.-	1	1	10	0.10	2365.78	0.15	290.39	0.23	591.53	0.27	583.98	0.06	899.88	0.30
+ARO-PWY	"Chorismate-Biosynthesis; Super-Pathways;"	"chorismate biosynthesis I;"	1.1.1.25+2.5.1.19+2.5.1.54+2.7.1.71+4.2.1.10+4.2.3.4+4.2.3.5	8	7	12	0.12	907.56	0.06	6.08	0.00	25.18	0.01	869.97	0.09	6.34	0.00
+PWY-5656	"Mannosylglycerate-Biosynthesis;"	"mannosylglycerate biosynthesis I;"	3.1.3.70	2	1	1	0.01	13.57	0.00	0.23	0.00	0.01	0.00	13.23	0.00	0.10	0.00
+PWY-5086	"Chlorophyll-a-Biosynthesis;"	"chlorophyll <i>a</i> biosynthesis I;"	2.5.1.62	1	1	1	0.01	72.73	0.00	0.00	0.00	0.02	0.00	72.68	0.01	0.03	0.00
+PWY-6443	"Benzoate-Biosynthesis; Super-Pathways;"	"benzoate biosynthesis I (CoA-dependent, &beta;-oxidative);"	6.2.1.-+6.2.1.25	3	2	6	0.06	478.89	0.03	10.41	0.01	93.36	0.04	327.55	0.04	47.57	0.02
+PWY0-42	"Methyl-Citrate-Cycle;"	"2-methylcitrate cycle I;"	2.3.3.5+4.1.3.30+4.2.1.79+4.2.1.99	5	4	4	0.04	211.86	0.01	0.00	0.00	0.70	0.00	210.99	0.02	0.17	0.00
+PWY-2201	"Folate-Transformations;"	"folate transformations I;"	1.5.1.20+1.5.1.5+2.1.1.13+2.1.2.1+3.5.1.10+3.5.4.9+6.3.3.2+6.3.4.3	11	8	16	0.15	1043.25	0.07	54.20	0.04	32.06	0.01	933.48	0.10	23.52	0.01
+PWY-5773	"SESQUITERPENOID-SYN;"	"gossypol biosynthesis;"	1.14.13.-+2.1.1.-	3	2	40	0.38	3747.26	0.24	384.42	0.30	605.42	0.28	1826.14	0.20	931.28	0.31
+PWY0-1275	"Lipoate-Biosynthesis;"	"lipoate biosynthesis and incorporation II;"	2.8.1.8	1	1	2	0.02	205.03	0.01	0.01	0.00	0.42	0.00	202.61	0.02	2.00	0.00
+PWY-6318	"PHENYLALANINE-DEG;"	"L-phenylalanine degradation IV (mammalian, via side chain);"	1.13.11.27+2.3.1.-+2.6.1.1+6.2.1.-	8	4	36	0.35	2329.67	0.15	43.67	0.03	123.66	0.06	2104.55	0.23	57.78	0.02
+PWY-5404	"BETALAIN-ALKALOIDS;"	"betaxanthin biosynthesis (via dopaxanthin);"	1.10.3.-	2	1	10	0.10	2239.05	0.14	310.89	0.24	582.66	0.27	486.85	0.05	858.64	0.28
+PWY-6121	"AIR-Biosynthesis;"	"5-aminoimidazole ribonucleotide biosynthesis I;"	2.1.2.2+2.4.2.14+6.3.3.1+6.3.4.13+6.3.5.3	5	5	16	0.15	984.45	0.06	3.77	0.00	2.17	0.00	974.48	0.11	4.04	0.00
+PWY-5897	"Menaquinone-Biosynthesis; Super-Pathways;"	"superpathway of menaquinol-11 biosynthesis;"	2.1.1.163+2.2.1.9+2.5.1.-+3.1.2.-+4.1.3.36+4.2.1.113+4.2.99.20+5.4.4.2+6.2.1.26	10	9	44	0.42	4352.21	0.28	398.85	0.31	613.18	0.28	2426.92	0.26	913.26	0.30
+UBISYN-PWY	"Super-Pathways; Ubiquinone-Biosynthesis;"	"superpathway of ubiquinol-8 biosynthesis (prokaryotic);"	1.14.14.-+2.1.1.-+4.1.1.-	5	3	41	0.39	3794.20	0.24	376.38	0.29	605.97	0.28	1880.80	0.20	931.05	0.31
+P421-PWY	"4-Nitrotoluene-Degradation;"	"4-nitrotoluene degradation I;"	1.1.99.-+1.14.13.-	3	2	6	0.06	345.16	0.02	8.49	0.01	4.44	0.00	330.60	0.04	1.63	0.00
+PWY-6544	"Super-Pathways;"	"superpathway of C28 brassinosteroid biosynthesis;"	1.14.-.-+1.14.13.-+1.3.99.-	6	3	23	0.22	1160.19	0.07	10.22	0.01	8.87	0.00	1136.09	0.12	5.01	0.00
+PWY-5070	"GIBBERELLINS-BIOSYNTHESIS;"	"gibberellin biosynthesis I (non C-3, non C-13 hydroxylation);"	1.14.11.-	1	1	2	0.02	263.05	0.02	0.00	0.00	0.56	0.00	262.12	0.03	0.36	0.00
+TOLUENE-DEG-4-OH-PWY	"TOLUENE-DEG;"	"toluene degradation to 4-methylphenol;"	1.14.13.-+1.14.13.2	4	2	4	0.04	190.82	0.01	8.15	0.01	3.45	0.00	178.04	0.02	1.18	0.00
+P302-PWY	"Sugars-And-Polysaccharides-Degradation;"	"L-sorbose degradation;"	1.1.1.-	2	1	12	0.12	840.22	0.05	3.60	0.00	19.99	0.01	812.50	0.09	4.12	0.00
+PWY-5738	"GDP-Sugar-Biosynthesis;"	"GDP-6-deoxy-D-talose biosynthesis;"	4.2.1.47	2	1	2	0.02	277.36	0.02	0.02	0.00	0.67	0.00	276.00	0.03	0.68	0.00
+PWY-5137	"Fatty-Acid-Degradation;"	"fatty acid &beta;-oxidation III (unsaturated, odd number);"	5.3.3.8	1	1	1	0.01	22.08	0.00	0.00	0.00	0.00	0.00	22.07	0.00	0.01	0.00
+GLYCLEAV-PWY	"GLYCINE-DEG;"	"glycine cleavage;"	1.4.4.2+1.8.1.4+2.1.2.10	3	3	16	0.15	867.13	0.06	37.37	0.03	7.34	0.00	817.84	0.09	4.57	0.00
+P142-PWY	"Pyruvate-Acetate-Fermentation; Super-Pathways;"	"pyruvate fermentation to acetate I;"	2.3.1.8+2.7.2.1	3	2	6	0.06	269.19	0.02	14.76	0.01	0.12	0.00	252.49	0.03	1.82	0.00
+PWY0-181	""	""	2.4.2.4+2.7.1.21	3	2	2	0.02	249.92	0.02	0.02	0.00	0.52	0.00	248.97	0.03	0.41	0.00
+PWY-6122	"AIR-Biosynthesis;"	"5-aminoimidazole ribonucleotide biosynthesis II;"	2.1.2.-+2.4.2.14+6.3.3.1+6.3.4.13+6.3.5.3	5	5	16	0.15	969.15	0.06	3.77	0.00	2.19	0.00	959.16	0.10	4.04	0.00
+PWY-3502	"NAD-SYN; Super-Pathways;"	"superpathway of NAD biosynthesis in eukaryotes;"	1.13.11.11+1.14.13.9+2.4.2.19+2.7.7.18+3.5.1.19+3.7.1.3+6.3.5.1	14	7	14	0.13	1050.87	0.07	3.28	0.00	19.32	0.01	1019.79	0.11	8.48	0.00
+PWY-6237	""	""	1.17.1.4	1	1	1	0.01	71.59	0.00	0.00	0.00	0.01	0.00	71.56	0.01	0.02	0.00
+PWY-2301	"Cyclitols-Biosynthesis;"	"<i>myo</i>-inositol biosynthesis;"	3.1.3.25+5.5.1.4	2	2	6	0.06	386.44	0.02	2.52	0.00	0.86	0.00	379.75	0.04	3.31	0.00
+HYDROXYPRODEG-PWY	"Hydroxyprolines-Degradation;"	"<i>trans</i>-4-hydroxy-L-proline degradation I;"	4.1.3.16	4	1	1	0.01	13.31	0.00	0.02	0.00	0.24	0.00	11.71	0.00	1.34	0.00
+PENTOSE-P-PWY	"Pentose-Phosphate-Cycle; Super-Pathways;"	"pentose phosphate pathway;"	1.1.1.44+2.2.1.1+2.2.1.2+5.1.3.1+5.3.1.6	7	5	15	0.14	4225.05	0.27	596.23	0.47	1153.06	0.54	722.38	0.08	1753.38	0.58
+PWY-3461	"TYROSINE-SYN;"	"L-tyrosine biosynthesis II;"	1.3.1.-+5.4.99.5	3	2	15	0.14	2576.40	0.16	326.73	0.25	600.48	0.28	743.34	0.08	905.84	0.30
+PWY-5199	"Cofactor-Biosynthesis;"	"factor 420 polyglutamylation;"	6.3.2.31+6.3.2.34	2	2	2	0.02	41.21	0.00	0.48	0.00	0.17	0.00	40.35	0.00	0.21	0.00
+PWY-2361	"CARBOXYLATES-DEG;"	"3-oxoadipate degradation;"	2.3.1.174+2.8.3.6	2	2	2	0.02	56.15	0.00	0.01	0.00	3.77	0.00	51.41	0.01	0.95	0.00
+PWY-6166	""	""	3.6.3.-	1	1	42	0.40	6107.76	0.39	647.48	0.50	1143.84	0.53	2591.40	0.28	1725.04	0.57
+PWY-5839	"Menaquinone-Biosynthesis;"	"menaquinol-7 biosynthesis;"	2.1.1.163	2	1	2	0.02	99.42	0.01	8.13	0.01	0.08	0.00	89.64	0.01	1.58	0.00
+PWY-3661	"Glycine-Betaine-Degradation;"	"glycine betaine degradation I;"	1.5.3.1+2.1.2.1+4.3.1.17	5	3	8	0.08	562.87	0.04	0.10	0.00	12.12	0.01	544.60	0.06	6.06	0.00
+PWY-621	"SUCROSE-DEG;"	"sucrose degradation III (sucrose invertase);"	2.4.1.13+2.7.1.4+2.7.7.9+3.2.1.26+5.3.1.9+5.4.2.2	8	6	16	0.15	828.19	0.05	6.48	0.01	24.21	0.01	792.63	0.09	4.87	0.00
+HOMOSER-METSYN-PWY	"Methionine-De-novo-Biosynthesis;"	"L-methionine biosynthesis I;"	2.1.1.13+2.3.1.46+2.5.1.48	5	3	5	0.05	337.24	0.02	21.15	0.02	23.45	0.01	272.84	0.03	19.82	0.01
+PWY0-1261	"Anhydromuropeptides-Recycling;"	"anhydromuropeptides recycling I;"	2.7.1.-+4.2.-.-	2	2	11	0.11	623.35	0.04	19.19	0.01	5.34	0.00	594.38	0.06	4.42	0.00
+PWY-5505	"GLUTAMATE-SYN; GLUTAMINE-SYN; Metabolic-Clusters; Super-Pathways;"	"L-glutamate and L-glutamine biosynthesis;"	1.4.1.13+1.4.1.3+1.4.1.4+6.3.1.2	6	4	17	0.16	948.74	0.06	14.90	0.01	12.33	0.01	915.45	0.10	6.07	0.00
+CHOLINE-BETAINE-ANA-PWY	"Choline-Degradation;"	"choline degradation I;"	1.1.99.1+1.2.1.8	2	2	3	0.03	473.99	0.03	0.34	0.00	1.41	0.00	471.13	0.05	1.10	0.00
+PWY-5163	"AROMATIC-COMPOUNDS-DEGRADATION;"	"<I>p</I>-cumate degradation to 2-hydroxypentadienoate;"	1.13.11.-+3.7.1.-+4.1.1.-	4	3	7	0.07	217.53	0.01	2.47	0.00	0.74	0.00	212.54	0.02	1.78	0.00
+PWY-6558	"Glycosaminoglycans-Biosynthesis;"	"heparan sulfate biosynthesis (late stages);"	2.8.2.-+3.1.1.-	10	2	5	0.05	259.93	0.02	0.47	0.00	0.82	0.00	256.67	0.03	1.98	0.00
+PWY-5100	"Pyruvate-Acetate-Fermentation; Pyruvate-Lactate-Fermentation; Super-Pathways;"	"pyruvate fermentation to acetate and lactate II;"	1.1.1.27+2.3.1.8+2.7.2.1	4	3	9	0.09	435.10	0.03	25.26	0.02	0.46	0.00	407.20	0.04	2.17	0.00
+PWY-5476	"ELLAGITANNINS;"	"cornusiin E biosynthesis;"	1.10.3.-	1	1	10	0.10	2239.05	0.14	310.89	0.24	582.66	0.27	486.85	0.05	858.64	0.28
+CRNFORCAT-PWY	"Creatinine-Degradation;"	"creatinine degradation I;"	1.5.3.1+3.5.2.10	4	2	5	0.05	454.64	0.03	0.06	0.00	8.03	0.00	442.89	0.05	3.65	0.00
+PWY-6461	"Peptidoglycan-Cross-Bridge-Biosynthesis;"	"peptidoglycan cross-bridge biosynthesis II (E. faecium);"	6.3.1.-	2	1	2	0.02	116.93	0.01	0.03	0.00	0.23	0.00	116.60	0.01	0.08	0.00
+PWY-3981	"Beta-Alanine-Biosynthesis;"	"&beta;-alanine biosynthesis I;"	1.2.1.3	2	1	4	0.04	181.68	0.01	0.13	0.00	0.26	0.00	181.16	0.02	0.13	0.00
+PWY-5068	"Chlorophyll-a-Biosynthesis;"	"chlorophyll cycle;"	2.5.1.-+2.5.1.62	4	2	25	0.24	1699.65	0.11	46.92	0.04	15.45	0.01	1624.03	0.18	13.26	0.00
+UDPNAGSYN-PWY	"UDP-NAc-Glucosamine-Biosynthesis;"	"UDP-<i>N</i>-acetyl-D-glucosamine biosynthesis I;"	2.3.1.157+2.6.1.16+2.7.7.23+5.4.2.10	4	4	9	0.09	718.41	0.05	5.10	0.00	1.63	0.00	707.52	0.08	4.16	0.00
+PWY-5537	"Pyruvate-Acetate-Fermentation; Super-Pathways;"	"pyruvate fermentation to acetate V;"	1.2.1.-+6.2.1.5	2	2	14	0.13	2996.95	0.19	321.71	0.25	574.63	0.27	1241.54	0.14	859.07	0.28
+RIBITOLUTIL-PWY	"SUGAR-ALCOHOLS-DEG;"	"ribitol degradation;"	2.7.1.47+5.1.3.1	3	2	4	0.04	325.64	0.02	2.38	0.00	0.42	0.00	322.44	0.04	0.41	0.00
+PWY-5165	"4-Toluenesulfonate-Degradation;"	"4-toluenesulfonate degradation II;"	1.14.12.-	1	1	2	0.02	244.99	0.02	0.04	0.00	4.16	0.00	239.60	0.03	1.19	0.00
+PWY-6223	"Gentisate-Degradation;"	"gentisate degradation I;"	1.13.11.4	2	1	2	0.02	60.26	0.00	0.05	0.00	7.15	0.00	51.44	0.01	1.62	0.00
+PWY-5168	"CINNAMATE-SYN;"	"ferulate and sinapate biosynthesis;"	1.14.13.-+1.2.1.68	3	2	4	0.04	178.35	0.01	8.39	0.01	0.10	0.00	169.36	0.02	0.49	0.00
+PWY-6263	"Menaquinone-Biosynthesis; Super-Pathways;"	"superpathway of menaquinol-8 biosynthesis II;"	2.1.1.163+2.5.1.-	3	2	27	0.26	1799.07	0.11	55.04	0.04	15.53	0.01	1713.66	0.19	14.84	0.00
+PWY-6533	"AROMATIC-COMPOUNDS-DEGRADATION;"	"aniline degradation;"	1.14.12.-	1	1	2	0.02	244.99	0.02	0.04	0.00	4.16	0.00	239.60	0.03	1.19	0.00
+P601-PWY	"Camphor-Degradation;"	"(+)-camphor degradation;"	1.1.1.1+1.14.13.-+6.2.1.-	4	3	12	0.12	648.05	0.04	18.60	0.01	100.88	0.05	477.34	0.05	51.24	0.02
+PWY-841	"Purine-Nucleotide-De-Novo-Biosynthesis; Super-Pathways;"	"superpathway of purine nucleotides <i>de novo</i> biosynthesis I;"	1.1.1.205+2.1.2.2+2.1.2.3+2.4.2.14+3.5.4.10+4.1.1.21+4.3.2.2+6.3.2.6+6.3.3.1+6.3.4.13+6.3.4.4+6.3.5.2+6.3.5.3	13	13	37	0.36	4418.07	0.28	363.39	0.28	618.07	0.29	2532.79	0.28	903.82	0.30
+BETSYN-PWY	"Betaine-Biosynthesis;"	"glycine betaine biosynthesis I (Gram-negative bacteria);"	1.1.99.1+1.2.1.8	2	2	3	0.03	473.99	0.03	0.34	0.00	1.41	0.00	471.13	0.05	1.10	0.00
+ASPARAGINE-BIOSYNTHESIS	"ASPARAGINE-SYN;"	"L-asparagine biosynthesis I;"	6.3.5.4	1	1	1	0.01	28.60	0.00	0.03	0.00	3.93	0.00	23.76	0.00	0.88	0.00
+SERDEG-PWY	"SERINE-DEG;"	"L-serine degradation;"	4.3.1.17	1	1	2	0.02	80.22	0.01	0.00	0.00	0.16	0.00	78.48	0.01	1.57	0.00
+PWY0-1335	"AEROBIC-RESPIRATION; Electron-Transfer;"	"NADH to cytochrome <i>bo</i> oxidase electron transfer I;"	1.6.5.3	2	1	1	0.01	74.07	0.00	0.00	0.00	0.01	0.00	74.05	0.01	0.01	0.00
+PWY-5856	"Ubiquinone-Biosynthesis;"	"ubiquinol-9 biosynthesis (prokaryotic);"	2.1.1.-+2.1.1.64+4.1.1.-	5	3	43	0.41	3985.59	0.25	376.41	0.29	610.11	0.28	2066.91	0.23	932.16	0.31
+ASPARTATESYN-PWY	"ASPARTATE-SYN;"	"L-aspartate biosynthesis;"	2.6.1.1	1	1	6	0.06	414.45	0.03	7.53	0.01	20.64	0.01	381.70	0.04	4.58	0.00
+PWY0-845	"Super-Pathways; Vitamin-B6-Biosynthesis;"	"superpathway of pyridoxal 5'-phosphate biosynthesis and salvage;"	1.1.1.262+1.2.1.72+2.2.1.7+2.6.1.52+2.6.99.2+2.7.1.-+2.7.1.35	9	7	22	0.21	1426.32	0.09	44.71	0.03	54.08	0.03	1261.07	0.14	66.45	0.02
+PWY-5417	"Catechol-Degradation; Super-Pathways;"	"catechol degradation III (ortho-cleavage pathway);"	1.13.11.1+2.3.1.174+2.8.3.6+3.1.1.24+5.5.1.1	6	5	5	0.05	516.57	0.03	0.05	0.00	5.10	0.00	509.58	0.06	1.84	0.00
+PWY-2161	"Folate-Biosynthesis;"	"folate polyglutamylation;"	2.1.2.1+6.3.4.3	3	2	4	0.04	153.36	0.01	8.28	0.01	4.10	0.00	138.35	0.02	2.63	0.00
+PWY-6049	"Dimethylsulfoniopropionate-Degradation; Super-Pathways;"	"superpathway of dimethylsulfoniopropanoate degradation;"	4.4.1.3	1	1	1	0.01	195.59	0.01	0.01	0.00	0.42	0.00	194.83	0.02	0.33	0.00
+PWY-2821	"GLUCOSINOLATE-SYN;"	"glucosinolate biosynthesis from phenylalanine;"	1.-.-.-+1.14.13.-+2.8.2.-	4	3	60	0.58	7204.38	0.46	716.32	0.56	1215.34	0.56	3508.79	0.38	1763.93	0.58
+PWY-5976	"CYANOGENIC-GLUCOSIDE-DEG;"	"dhurrin degradation;"	3.2.1.-	2	1	6	0.06	172.32	0.01	1.93	0.00	19.97	0.01	146.90	0.02	3.52	0.00
+PWY-6217	"Chlorobenzoate-Degradation;"	"3,4-dichlorobenzoate degradation;"	1.14.12.-	2	1	2	0.02	244.99	0.02	0.04	0.00	4.16	0.00	239.60	0.03	1.19	0.00
+PWY-5729	"ISOFLAVONOID-SYN;"	"vestitol and sativan biosynthesis;"	1.3.1.-+2.1.1.-	2	2	48	0.46	5912.49	0.38	698.14	0.54	1198.68	0.56	2180.22	0.24	1835.44	0.60
+RIBOSYN2-PWY	"Flavin-Biosynthesis;"	"flavin biosynthesis I (bacteria and plants);"	1.1.1.193+2.5.1.78+2.5.1.9+2.7.1.26+2.7.7.2+3.5.4.25+3.5.4.26+4.1.99.12	8	8	26	0.25	1909.69	0.12	63.64	0.05	46.97	0.02	1756.86	0.19	42.22	0.01
+PWY-5668	"Cardiolipin-Biosynthesis;"	"cardiolipin biosynthesis I;"	2.7.8.-+2.7.8.5+3.1.3.27	3	3	16	0.15	1251.79	0.08	31.78	0.02	5.49	0.00	1211.52	0.13	3.01	0.00
+1CMET2-PWY	"Folate-Biosynthesis;"	"<i>N</i><sup>10</sup>-formyl-tetrahydrofolate biosynthesis;"	1.5.1.20+1.5.1.3+1.5.1.5+2.1.1.13+2.1.1.45+2.1.2.1+3.5.1.10+3.5.4.9+6.3.2.12+6.3.4.3	10	10	20	0.19	1466.13	0.09	46.15	0.04	33.17	0.02	1362.67	0.15	24.14	0.01
+PWY-5347	"Methionine-De-novo-Biosynthesis; Super-Pathways;"	"superpathway of L-methionine biosynthesis (transsulfuration);"	1.1.1.3+1.2.1.11+2.1.1.13+2.3.1.46+2.5.1.48+2.6.1.1+2.7.2.4	9	7	19	0.18	1312.16	0.08	54.37	0.04	46.36	0.02	1182.07	0.13	29.37	0.01
+PWY-5477	"GALLOTANNINS;"	"gallotannin biosynthesis;"	2.3.1.-	1	1	24	0.23	1456.90	0.09	25.75	0.02	9.69	0.00	1415.85	0.15	5.62	0.00
+PWYQT-4471	"GLUCOSINOLATE-SYN;"	"glucosinolate biosynthesis from dihomomethionine;"	1.14.13.-+2.6.1.-+2.8.2.-	4	3	5	0.05	265.33	0.02	10.50	0.01	0.23	0.00	254.12	0.03	0.49	0.00
+PWY-40	"Putrescine-Biosynthesis;"	"putrescine biosynthesis I;"	3.5.3.11+4.1.1.19	2	2	5	0.05	355.25	0.02	0.01	0.00	0.58	0.00	352.83	0.04	1.84	0.00
+PWY-1882	"C1-COMPOUNDS; Super-Pathways;"	"superpathway of C1 compounds oxidation to CO<sub>2</sub>;"	1.1.1.284+1.1.2.-+1.2.1.2+1.5.1.-+1.5.1.5+3.1.2.12+3.5.4.9+6.3.4.3	13	8	14	0.13	1294.26	0.08	26.01	0.02	2.95	0.00	1260.70	0.14	4.59	0.00
+PWY-6115	""	""	5.4.99.-	2	1	13	0.13	793.23	0.05	37.67	0.03	22.47	0.01	726.21	0.08	6.88	0.00
+PWY-5895	"Menaquinone-Biosynthesis;"	"menaquinol-13 biosynthesis;"	2.1.1.163	2	1	2	0.02	99.42	0.01	8.13	0.01	0.08	0.00	89.64	0.01	1.58	0.00
+PWY-5466	"LIGNAN-SYN;"	"matairesinol biosynthesis;"	1.1.1.-+1.10.3.-+1.3.1.-	3	3	33	0.32	5409.69	0.35	636.35	0.50	1196.02	0.56	1809.97	0.20	1767.35	0.58
+PWY-5080	"Fatty-acid-biosynthesis;"	"very long chain fatty acid biosynthesis I;"	1.1.1.36+2.3.1.-+4.2.1.119	4	3	28	0.27	1815.29	0.12	33.90	0.03	13.83	0.01	1760.45	0.19	7.10	0.00
+PWY-6353	"Purine-Degradation; Super-Pathways;"	"purine nucleotides degradation II (aerobic);"	1.1.1.205+1.17.1.4+2.4.2.1+3.1.3.5+3.5.4.3+3.5.4.4	7	6	21	0.20	1261.52	0.08	73.49	0.06	11.69	0.01	1159.67	0.13	16.67	0.01
+HEMESYN2-PWY	"Heme-b-Biosynthesis;"	"heme <i>b</i> biosynthesis II (anaerobic);"	1.3.99.22+4.1.1.37+4.99.1.1	4	3	10	0.10	530.23	0.03	10.37	0.01	16.40	0.01	493.81	0.05	9.65	0.00
+PWY-5918	"Heme-b-Biosynthesis; Super-Pathways;"	"superpathay of heme <i>b</i> biosynthesis from glutamate;"	1.2.1.70+1.3.3.3+1.3.3.4+2.5.1.61+4.1.1.37+4.2.1.24+4.2.1.75+4.99.1.1+5.4.3.8+6.1.1.17	10	10	27	0.26	2736.75	0.17	309.94	0.24	579.64	0.27	976.21	0.11	870.95	0.29
+PWY-5991	"Super-Pathways;"	"superpathway of linamarin and lotaustralin biosynthesis;"	1.14.13.-	2	1	3	0.03	165.20	0.01	8.13	0.01	0.10	0.00	156.53	0.02	0.43	0.00
+PWY-6309	"Super-Pathways; TRYPTOPHAN-DEG;"	"L-tryptophan degradation XI (mammalian, via kynurenine);"	1.13.11.11+1.14.13.9+1.2.1.32+3.7.1.3+4.1.1.45	9	5	5	0.05	367.73	0.02	0.67	0.00	1.65	0.00	364.43	0.04	0.98	0.00
+PWY-4801	"POLYKETIDE-SYN;"	"aloesone biosynthesis I;"	2.3.1.-	1	1	24	0.23	1456.90	0.09	25.75	0.02	9.69	0.00	1415.85	0.15	5.62	0.00
+PWY-5184	"Super-Pathways; TOLUENE-DEG;"	"toluene degradation VI (anaerobic);"	1.1.1.-+1.1.1.35+2.3.1.-+2.3.1.9+3.7.1.-+4.2.1.-	12	6	54	0.52	3016.51	0.19	42.54	0.03	45.07	0.02	2912.01	0.32	16.89	0.01
+PWY-1622	"Formaldehyde-Assimilation;"	"formaldehyde assimilation I (serine pathway);"	1.1.1.37+2.1.2.1+2.6.1.45+4.1.1.31+4.2.1.11	10	5	10	0.10	563.39	0.04	9.58	0.01	11.43	0.01	537.44	0.06	4.94	0.00
+P164-PWY	"Fermentation; Purine-Degradation;"	"purine nucleobases degradation I (anaerobic);"	1.17.1.4+1.2.1.2+2.7.2.1+3.5.2.-+3.5.4.3+3.5.4.9+6.3.4.3	11	7	17	0.16	1204.76	0.08	38.10	0.03	2.79	0.00	1159.13	0.13	4.74	0.00
+PWY-6007	"DMNT-Biosynthesis;"	"(3<i>E</i>)-4,8-dimethylnona-1,3,7-triene biosynthesis II;"	4.2.1.-	1	1	7	0.07	402.24	0.03	10.61	0.01	4.67	0.00	385.40	0.04	1.57	0.00
+PWY-5138	"Fatty-Acid-Degradation;"	"unsaturated, even numbered fatty acid &beta;-oxidation;"	4.2.1.119+4.2.1.17+5.1.2.3+5.3.3.8	5	4	17	0.16	969.15	0.06	11.66	0.01	16.75	0.01	931.90	0.10	8.84	0.00
+PWY-6418	"PHYTOALEXIN-SYN; POLYKETIDE-SYN;"	"4-hydroxycoumarin and dicoumarol biosynthesis;"	2.3.1.-	1	1	24	0.23	1456.90	0.09	25.75	0.02	9.69	0.00	1415.85	0.15	5.62	0.00
+PWY-5766	"GLUTAMATE-DEG;"	"L-glutamate degradation X;"	1.4.1.3	1	1	3	0.03	122.45	0.01	0.78	0.00	0.08	0.00	119.97	0.01	1.62	0.00

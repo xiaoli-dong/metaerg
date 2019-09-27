@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SSU taxonomic profile</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script type="text/javascript" src="../data/taxon.ssu.profile.sunburst.count.json"></script>
+  </head> 
+
+  <body>
+    <div id="outform">
+      <div class="jumbotron text-center mb-0 mt-5">
+	<h1>Metagenome Annotation Pipeline</h1>
+      </div>
+      <nav class="site-header py-0 mb-5">
+	<div class="container d-flex justify-content-end">
+	  <a class="pl-4 d-none d-md-inline-block" href="../index.html">Home</a>
+	  
+	  <a class="pl-4 d-none d-md-inline-block" href="../help.html">Help</a>
+	</div>
+      </nav>
+    <div class="container"> 
+      <div class="title">Taxonomy summary based on 16SrRNA genes</div>
+      <div id="chart"></div>
+      <div style="height:50px;"></div>  
+    </div>
+    </div>
+    <script type="text/javascript" src="sequences_taxon.js"></script>
+    <script>
+      
+      json = data;
+     //alert(json.name);
+     createVisualization(json);
+     
+     
+    </script>
+   
+ 
+
+  </body>
+</html>

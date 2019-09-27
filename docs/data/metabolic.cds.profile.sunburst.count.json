@@ -1,0 +1,199 @@
+data = {
+ "text":"Compound-process-gene",
+ "children": [
+ {
+  "text": "C1 compounds",
+  "children":[
+   {
+    "text": "Formaldehyde oxidation",
+    "children":[
+     {
+      "text": "S-formylglutathione hydrolase",
+      "size": 2
+     },
+     {
+      "text": "S-(hydroxymethyl)glutathione dehydrogenase",
+      "size": 2
+     }
+    ]
+   },
+   {
+    "text": "Formate oxidation",
+    "children":[
+     {
+      "text": "formate dehydrogenase, alpha subunit",
+      "size": 2
+     },
+     {
+      "text": "formate dehydrogenase, gamma subunit",
+      "size": 1
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Sulfur",
+  "children":[
+   {
+    "text": "thiosulfate oxidation",
+    "children":[
+     {
+      "text": "soxC",
+      "size": 1
+     },
+     {
+      "text": "soxY",
+      "size": 1
+     },
+     {
+      "text": "soxB",
+      "size": 1
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Nitrogen",
+  "children":[
+   {
+    "text": "N2 fixation",
+    "children":[
+     {
+      "text": "nifH",
+      "size": 1
+     },
+     {
+      "text": "Mo-Fe type beta",
+      "size": 1
+     },
+     {
+      "text": "Mo-Fe type Alpha",
+      "size": 1
+     }
+    ]
+   },
+   {
+    "text": "Nitrite reduction",
+    "children":[
+     {
+      "text": "cyt c552 small NrfH",
+      "size": 1
+     },
+     {
+      "text": "NirB",
+      "size": 1
+     },
+     {
+      "text": "NirD",
+      "size": 1
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Halogenated compounds",
+  "children":[
+   {
+    "text": "Halogenated compounds breakdown",
+    "children":[
+     {
+      "text": "Haloacid dehydrogenase",
+      "size": 1
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Urea",
+  "children":[
+   {
+    "text": "Urease",
+    "children":[
+     {
+      "text": "ureA",
+      "size": 1
+     },
+     {
+      "text": "ureB",
+      "size": 1
+     },
+     {
+      "text": "ureC",
+      "size": 1
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Carbon monoxide",
+  "children":[
+   {
+    "text": "CO oxidation",
+    "children":[
+     {
+      "text": "coxL",
+      "size": 2
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Oxygen",
+  "children":[
+   {
+    "text": "Cytochrome (quinone) oxidase, bo type",
+    "children":[
+     {
+      "text": "CyoE",
+      "size": 4
+     }
+    ]
+   },
+   {
+    "text": "Cytochrome c oxidase, cbb3-type",
+    "children":[
+     {
+      "text": "ccoN",
+      "size": 1
+     },
+     {
+      "text": "ccoP",
+      "size": 2
+     },
+     {
+      "text": "ccoO",
+      "size": 1
+     }
+    ]
+   },
+   {
+    "text": "Cytochrome c oxidase, caa3-type",
+    "children":[
+     {
+      "text": "CoxB",
+      "size": 5
+     },
+     {
+      "text": "CoxA",
+      "size": 6
+     }
+    ]
+   },
+   {
+    "text": "Cytochrome (quinone) oxidase, bd type",
+    "children":[
+     {
+      "text": "CydB",
+      "size": 2
+     }
+    ]
+   }
+  ]
+  }
+]}

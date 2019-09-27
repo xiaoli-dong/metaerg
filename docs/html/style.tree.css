@@ -1,0 +1,80 @@
+html, body{
+    //font-family: Arial, Helvetica, sans-serif;
+    //font-size: 14px;
+    padding: 20px;
+    line-height: 150%;
+    background-color:dimgray;
+}
+
+#outform{
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    overflow:auto;
+    clear:both;
+    //border: 5px solid red;
+    
+}
+
+.jumbotron{
+    margin: auto;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-image: url("../images/banner.png");
+    background-color: #FFFFFF;
+    text-align: right;
+    margin-left: 100px;
+    color: #000000;
+    padding-left: 50px;
+    
+}
+
+
+.site-header {
+    background-color: #ffae03;
+}
+
+.site-header a {
+    color: #333333;
+    padding: 15px;
+}
+.site-header a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.jstree-table-wrapper {
+    border: 1px solid #ccc;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 90%;
+     margin-left:auto;
+    margin-right:auto;
+   
+    
+}
+.jstree-leaf > .jstree-anchor > .jstree-themeicon {
+    background:url(../images/leave.png) no-repeat; !important;
+    background-size: 16px 16px;
+    
+}
+
+.jstree-node {
+   
+}
+.jstree-table-cell{
+    
+    min-width: 100px;
+   
+}
+
+.jstree-table-column{
+   
+    min-width: 100px;
+   
+   
+}

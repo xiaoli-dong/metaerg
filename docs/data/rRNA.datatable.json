@@ -1,0 +1,5332 @@
+data = [
+  {
+  "geneid": "metaerg.pl|04255",
+  "contigid": "NODE_23_length_110672_cov_25.9406",
+  "start": "110568",
+  "end": "110671",
+  "genelen": "104",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|12874",
+  "contigid": "NODE_278_length_54558_cov_93.7421",
+  "start": "1",
+  "end": "758",
+  "genelen": "758",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Roseinatronobacter"
+  },
+  {
+  "geneid": "metaerg.pl|12952",
+  "contigid": "NODE_298_length_53607_cov_46.7431",
+  "start": "1",
+  "end": "304",
+  "genelen": "304",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Cyanobacteria;Oxyphotobacteria;Nostocales;Nostocaceae;Nodularia PCC-9350"
+  },
+  {
+  "geneid": "metaerg.pl|13019",
+  "contigid": "NODE_396_length_47810_cov_9.34581",
+  "start": "1",
+  "end": "326",
+  "genelen": "326",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Cyanobacteria;Oxyphotobacteria;Phormidesmiales;Nodosilineaceae;Nodosilinea PCC-7104"
+  },
+  {
+  "geneid": "metaerg.pl|13120",
+  "contigid": "NODE_628_length_39243_cov_20.7514",
+  "start": "38486",
+  "end": "39243",
+  "genelen": "758",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Roseinatronobacter"
+  },
+  {
+  "geneid": "metaerg.pl|13121",
+  "contigid": "NODE_1188_length_30529_cov_9.36119",
+  "start": "1",
+  "end": "318",
+  "genelen": "318",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Cyanobacteria;Oxyphotobacteria;Nostocales"
+  },
+  {
+  "geneid": "metaerg.pl|13199",
+  "contigid": "NODE_1195_length_30458_cov_17.1381",
+  "start": "30213",
+  "end": "30326",
+  "genelen": "114",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacteriales"
+  },
+  {
+  "geneid": "metaerg.pl|13200",
+  "contigid": "NODE_1860_length_24588_cov_17.6553",
+  "start": "166",
+  "end": "273",
+  "genelen": "108",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13233",
+  "contigid": "NODE_1894_length_24309_cov_76.6133",
+  "start": "21",
+  "end": "1524",
+  "genelen": "1504",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13234",
+  "contigid": "NODE_1894_length_24309_cov_76.6133",
+  "start": "1726",
+  "end": "2694",
+  "genelen": "969",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13249",
+  "contigid": "NODE_1894_length_24309_cov_76.6133",
+  "start": "7575",
+  "end": "8430",
+  "genelen": "856",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13295",
+  "contigid": "NODE_2264_length_22430_cov_55.3873",
+  "start": "22072",
+  "end": "22429",
+  "genelen": "358",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria;Nitriliruptorales;Nitriliruptoraceae"
+  },
+  {
+  "geneid": "metaerg.pl|13296",
+  "contigid": "NODE_2993_length_19396_cov_43.0945",
+  "start": "2",
+  "end": "1090",
+  "genelen": "1089",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Ectothiorhodospirales;Ectothiorhodospiraceae;Thioalkalivibrio"
+  },
+  {
+  "geneid": "metaerg.pl|13297",
+  "contigid": "NODE_2993_length_19396_cov_43.0945",
+  "start": "1195",
+  "end": "1308",
+  "genelen": "114",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13346",
+  "contigid": "NODE_3798_length_17023_cov_12.0159",
+  "start": "1",
+  "end": "929",
+  "genelen": "929",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Patescibacteria;Parcubacteria;OLB19"
+  },
+  {
+  "geneid": "metaerg.pl|13348",
+  "contigid": "NODE_3798_length_17023_cov_12.0159",
+  "start": "1262",
+  "end": "1360",
+  "genelen": "99",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13400",
+  "contigid": "NODE_4613_length_15247_cov_53.4285",
+  "start": "15004",
+  "end": "15119",
+  "genelen": "116",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13417",
+  "contigid": "NODE_5065_length_14422_cov_37.977",
+  "start": "250",
+  "end": "359",
+  "genelen": "110",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "Bacteria;Firmicutes;Negativicutes"
+  },
+  {
+  "geneid": "metaerg.pl|13445",
+  "contigid": "NODE_5401_length_13876_cov_89.7481",
+  "start": "4379",
+  "end": "5628",
+  "genelen": "1250",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13446",
+  "contigid": "NODE_5401_length_13876_cov_89.7481",
+  "start": "5728",
+  "end": "7327",
+  "genelen": "1600",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13485",
+  "contigid": "NODE_5721_length_13422_cov_7.02155",
+  "start": "12973",
+  "end": "13421",
+  "genelen": "449",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Gemmatimonadetes"
+  },
+  {
+  "geneid": "metaerg.pl|13486",
+  "contigid": "NODE_5836_length_13249_cov_52.6354",
+  "start": "1",
+  "end": "758",
+  "genelen": "758",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Roseinatronobacter"
+  },
+  {
+  "geneid": "metaerg.pl|13504",
+  "contigid": "NODE_6140_length_12811_cov_61.2677",
+  "start": "1",
+  "end": "99",
+  "genelen": "99",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13546",
+  "contigid": "NODE_6587_length_12261_cov_6.09495",
+  "start": "11385",
+  "end": "12261",
+  "genelen": "877",
+  "strand": "1",
+  "feature": "arc_16SrRNA",
+  "taxon": "Archaea;Euryarchaeota;Halobacteria;Halobacteriales;Haloferacaceae;uncultured"
+  },
+  {
+  "geneid": "metaerg.pl|13559",
+  "contigid": "NODE_7024_length_11821_cov_15.8983",
+  "start": "133",
+  "end": "246",
+  "genelen": "114",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacteriales"
+  },
+  {
+  "geneid": "metaerg.pl|13579",
+  "contigid": "NODE_7123_length_11723_cov_10.4794",
+  "start": "1",
+  "end": "2425",
+  "genelen": "2425",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Verrucomicrobia;Verrucomicrobiae;Opitutales"
+  },
+  {
+  "geneid": "metaerg.pl|13580",
+  "contigid": "NODE_7123_length_11723_cov_10.4794",
+  "start": "2568",
+  "end": "2681",
+  "genelen": "114",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13594",
+  "contigid": "NODE_7423_length_11433_cov_7.07954",
+  "start": "1",
+  "end": "331",
+  "genelen": "331",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Alteromonadales;Marinobacteraceae"
+  },
+  {
+  "geneid": "metaerg.pl|13615",
+  "contigid": "NODE_7764_length_11107_cov_9.00317",
+  "start": "9887",
+  "end": "11106",
+  "genelen": "1220",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Actinobacteria;Micrococcales;Micrococcaceae"
+  },
+  {
+  "geneid": "metaerg.pl|13629",
+  "contigid": "NODE_8378_length_10610_cov_55.2659",
+  "start": "1",
+  "end": "758",
+  "genelen": "758",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Roseinatronobacter"
+  },
+  {
+  "geneid": "metaerg.pl|13654",
+  "contigid": "NODE_8695_length_10344_cov_74.9999",
+  "start": "8232",
+  "end": "8344",
+  "genelen": "113",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13721",
+  "contigid": "NODE_9371_length_9877_cov_14.9059",
+  "start": "9763",
+  "end": "9871",
+  "genelen": "109",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13732",
+  "contigid": "NODE_9422_length_9835_cov_30.6058",
+  "start": "2",
+  "end": "105",
+  "genelen": "104",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13743",
+  "contigid": "NODE_9538_length_9758_cov_15.0609",
+  "start": "1",
+  "end": "757",
+  "genelen": "757",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Hyphomonadaceae;Oceanicaulis"
+  },
+  {
+  "geneid": "metaerg.pl|13760",
+  "contigid": "NODE_9670_length_9671_cov_6.26726",
+  "start": "1",
+  "end": "310",
+  "genelen": "310",
+  "strand": "1",
+  "feature": "arc_23SrRNA",
+  "taxon": "Archaea;Euryarchaeota;Halobacteria;Halobacteriales;Halococcaceae;Halalkalicoccus"
+  },
+  {
+  "geneid": "metaerg.pl|13761",
+  "contigid": "NODE_9670_length_9671_cov_6.26726",
+  "start": "435",
+  "end": "544",
+  "genelen": "110",
+  "strand": "1",
+  "feature": "arc_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13776",
+  "contigid": "NODE_9824_length_9576_cov_42.1984",
+  "start": "854",
+  "end": "2642",
+  "genelen": "1789",
+  "strand": "1",
+  "feature": "euk_18SrRNA",
+  "taxon": "Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta"
+  },
+  {
+  "geneid": "metaerg.pl|13805",
+  "contigid": "NODE_9965_length_9506_cov_6.34631",
+  "start": "9370",
+  "end": "9482",
+  "genelen": "113",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13832",
+  "contigid": "NODE_10457_length_9218_cov_21.9996",
+  "start": "4530",
+  "end": "4642",
+  "genelen": "113",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13833",
+  "contigid": "NODE_10457_length_9218_cov_21.9996",
+  "start": "4720",
+  "end": "7652",
+  "genelen": "2933",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13845",
+  "contigid": "NODE_10513_length_9186_cov_19.3219",
+  "start": "8393",
+  "end": "9186",
+  "genelen": "794",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Deinococcus-Thermus;Deinococci;Deinococcales"
+  },
+  {
+  "geneid": "metaerg.pl|13846",
+  "contigid": "NODE_11218_length_8808_cov_6.08923",
+  "start": "387",
+  "end": "499",
+  "genelen": "113",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13895",
+  "contigid": "NODE_12902_length_8016_cov_4.94536",
+  "start": "7503",
+  "end": "7615",
+  "genelen": "113",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13896",
+  "contigid": "NODE_12902_length_8016_cov_4.94536",
+  "start": "7693",
+  "end": "8016",
+  "genelen": "324",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Actinobacteria;Micrococcales;Cellulomonadaceae;Actinotalea"
+  },
+  {
+  "geneid": "metaerg.pl|13910",
+  "contigid": "NODE_13374_length_7822_cov_18.064",
+  "start": "7412",
+  "end": "7822",
+  "genelen": "411",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Firmicutes;Bacilli;Bacillales;Sporolactobacillaceae;Alkalicoccus"
+  },
+  {
+  "geneid": "metaerg.pl|13927",
+  "contigid": "NODE_13418_length_7802_cov_17.1113",
+  "start": "6640",
+  "end": "6751",
+  "genelen": "112",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13928",
+  "contigid": "NODE_13418_length_7802_cov_17.1113",
+  "start": "6885",
+  "end": "7800",
+  "genelen": "916",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Xanthomonadaceae"
+  },
+  {
+  "geneid": "metaerg.pl|13931",
+  "contigid": "NODE_13457_length_7789_cov_10.9072",
+  "start": "1854",
+  "end": "1961",
+  "genelen": "108",
+  "strand": "1",
+  "feature": "arc_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13951",
+  "contigid": "NODE_13787_length_7669_cov_45.9159",
+  "start": "6912",
+  "end": "7669",
+  "genelen": "758",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Roseinatronobacter"
+  },
+  {
+  "geneid": "metaerg.pl|13952",
+  "contigid": "NODE_14028_length_7572_cov_51.0915",
+  "start": "331",
+  "end": "445",
+  "genelen": "115",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13979",
+  "contigid": "NODE_16271_length_6854_cov_5.64465",
+  "start": "6651",
+  "end": "6854",
+  "genelen": "204",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia;Chitinophagales;Saprospiraceae;uncultured"
+  },
+  {
+  "geneid": "metaerg.pl|13980",
+  "contigid": "NODE_16738_length_6714_cov_14.3748",
+  "start": "1",
+  "end": "83",
+  "genelen": "83",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|13999",
+  "contigid": "NODE_17223_length_6584_cov_4.82938",
+  "start": "6111",
+  "end": "6224",
+  "genelen": "114",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14000",
+  "contigid": "NODE_17223_length_6584_cov_4.82938",
+  "start": "6360",
+  "end": "6584",
+  "genelen": "225",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Verrucomicrobia;Verrucomicrobiae;Opitutales"
+  },
+  {
+  "geneid": "metaerg.pl|14002",
+  "contigid": "NODE_17455_length_6523_cov_19.6105",
+  "start": "708",
+  "end": "2247",
+  "genelen": "1540",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Verrucomicrobia;Verrucomicrobiae;Verrucomicrobiales;Rubritaleaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14005",
+  "contigid": "NODE_17455_length_6523_cov_19.6105",
+  "start": "3206",
+  "end": "6049",
+  "genelen": "2844",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Verrucomicrobia;Verrucomicrobiae;Verrucomicrobiales"
+  },
+  {
+  "geneid": "metaerg.pl|14006",
+  "contigid": "NODE_17455_length_6523_cov_19.6105",
+  "start": "6365",
+  "end": "6478",
+  "genelen": "114",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14007",
+  "contigid": "NODE_17645_length_6475_cov_97.7509",
+  "start": "1",
+  "end": "2442",
+  "genelen": "2442",
+  "strand": "1",
+  "feature": "euk_28SrRNA",
+  "taxon": "Eukaryota;Opisthokonta;Nucletmycea"
+  },
+  {
+  "geneid": "metaerg.pl|14009",
+  "contigid": "NODE_17645_length_6475_cov_97.7509",
+  "start": "5283",
+  "end": "6475",
+  "genelen": "1193",
+  "strand": "1",
+  "feature": "euk_18SrRNA",
+  "taxon": "Eukaryota;Opisthokonta;Aphelidea;Paraphelidium"
+  },
+  {
+  "geneid": "metaerg.pl|14011",
+  "contigid": "NODE_18115_length_6357_cov_8.05236",
+  "start": "1",
+  "end": "911",
+  "genelen": "911",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14021",
+  "contigid": "NODE_18239_length_6329_cov_11.731",
+  "start": "2704",
+  "end": "2811",
+  "genelen": "108",
+  "strand": "1",
+  "feature": "arc_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14054",
+  "contigid": "NODE_20433_length_5879_cov_6.63187",
+  "start": "5788",
+  "end": "5875",
+  "genelen": "88",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14064",
+  "contigid": "NODE_20707_length_5828_cov_15.0095",
+  "start": "5730",
+  "end": "5828",
+  "genelen": "99",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14074",
+  "contigid": "NODE_20864_length_5797_cov_6.7837",
+  "start": "5710",
+  "end": "5797",
+  "genelen": "88",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14084",
+  "contigid": "NODE_23112_length_5400_cov_9.22413",
+  "start": "1",
+  "end": "1965",
+  "genelen": "1965",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes"
+  },
+  {
+  "geneid": "metaerg.pl|14097",
+  "contigid": "NODE_23925_length_5269_cov_25.0934",
+  "start": "4969",
+  "end": "5075",
+  "genelen": "107",
+  "strand": "-1",
+  "feature": "arc_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14107",
+  "contigid": "NODE_24022_length_5251_cov_13.7296",
+  "start": "5173",
+  "end": "5250",
+  "genelen": "78",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14108",
+  "contigid": "NODE_24884_length_5120_cov_28.7031",
+  "start": "96",
+  "end": "1565",
+  "genelen": "1470",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Patescibacteria;Gracilibacteria;JGI 0000069-P22"
+  },
+  {
+  "geneid": "metaerg.pl|14110",
+  "contigid": "NODE_24884_length_5120_cov_28.7031",
+  "start": "1701",
+  "end": "4629",
+  "genelen": "2929",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Patescibacteria;Gracilibacteria"
+  },
+  {
+  "geneid": "metaerg.pl|14113",
+  "contigid": "NODE_24884_length_5120_cov_28.7031",
+  "start": "4729",
+  "end": "4841",
+  "genelen": "113",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "Bacteria;Firmicutes;Clostridia"
+  },
+  {
+  "geneid": "metaerg.pl|14134",
+  "contigid": "NODE_26316_length_4919_cov_9.44655",
+  "start": "4805",
+  "end": "4913",
+  "genelen": "109",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14150",
+  "contigid": "NODE_28370_length_4657_cov_7.85007",
+  "start": "2037",
+  "end": "2421",
+  "genelen": "385",
+  "strand": "-1",
+  "feature": "euk_28SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14163",
+  "contigid": "NODE_30291_length_4443_cov_5.2778",
+  "start": "4266",
+  "end": "4367",
+  "genelen": "102",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14165",
+  "contigid": "NODE_31975_length_4281_cov_4.98864",
+  "start": "756",
+  "end": "2250",
+  "genelen": "1495",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Patescibacteria;Parcubacteria;GWA2-38-13b"
+  },
+  {
+  "geneid": "metaerg.pl|14168",
+  "contigid": "NODE_34541_length_4056_cov_7.04949",
+  "start": "414",
+  "end": "521",
+  "genelen": "108",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "Bacteria;Firmicutes;Clostridia"
+  },
+  {
+  "geneid": "metaerg.pl|14169",
+  "contigid": "NODE_34541_length_4056_cov_7.04949",
+  "start": "659",
+  "end": "767",
+  "genelen": "109",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14174",
+  "contigid": "NODE_35162_length_4001_cov_7.72656",
+  "start": "122",
+  "end": "539",
+  "genelen": "418",
+  "strand": "-1",
+  "feature": "euk_18SrRNA",
+  "taxon": "Eukaryota;Archaeplastida"
+  },
+  {
+  "geneid": "metaerg.pl|14185",
+  "contigid": "NODE_36440_length_3904_cov_7.32996",
+  "start": "3768",
+  "end": "3881",
+  "genelen": "114",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria"
+  },
+  {
+  "geneid": "metaerg.pl|14192",
+  "contigid": "NODE_39828_length_3661_cov_16.1819",
+  "start": "2",
+  "end": "259",
+  "genelen": "258",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Oceanospirillales;Nitrincolaceae;Nitrincola"
+  },
+  {
+  "geneid": "metaerg.pl|14193",
+  "contigid": "NODE_39828_length_3661_cov_16.1819",
+  "start": "429",
+  "end": "542",
+  "genelen": "114",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria"
+  },
+  {
+  "geneid": "metaerg.pl|14203",
+  "contigid": "NODE_40224_length_3635_cov_43.6142",
+  "start": "2879",
+  "end": "3635",
+  "genelen": "757",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Rhodobaculum"
+  },
+  {
+  "geneid": "metaerg.pl|14205",
+  "contigid": "NODE_40251_length_3633_cov_62.6951",
+  "start": "197",
+  "end": "300",
+  "genelen": "104",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14206",
+  "contigid": "NODE_40251_length_3633_cov_62.6951",
+  "start": "555",
+  "end": "3513",
+  "genelen": "2959",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Chloroflexi;Chloroflexia"
+  },
+  {
+  "geneid": "metaerg.pl|14214",
+  "contigid": "NODE_41679_length_3541_cov_3.90591",
+  "start": "3234",
+  "end": "3347",
+  "genelen": "114",
+  "strand": "-1",
+  "feature": "arc_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14223",
+  "contigid": "NODE_42382_length_3495_cov_29.3927",
+  "start": "2416",
+  "end": "2529",
+  "genelen": "114",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria"
+  },
+  {
+  "geneid": "metaerg.pl|14224",
+  "contigid": "NODE_42382_length_3495_cov_29.3927",
+  "start": "2619",
+  "end": "3494",
+  "genelen": "876",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Oceanospirillales;Halomonadaceae;Halomonas"
+  },
+  {
+  "geneid": "metaerg.pl|14228",
+  "contigid": "NODE_42458_length_3491_cov_15.6278",
+  "start": "2867",
+  "end": "3491",
+  "genelen": "625",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Deinococcus-Thermus;Deinococci;Deinococcales;Trueperaceae;Truepera"
+  },
+  {
+  "geneid": "metaerg.pl|14229",
+  "contigid": "NODE_42953_length_3462_cov_116.084",
+  "start": "2",
+  "end": "2809",
+  "genelen": "2808",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Cyanobacteria;Oxyphotobacteria;Nostocales;Nostocaceae;Nodularia PCC-9350"
+  },
+  {
+  "geneid": "metaerg.pl|14230",
+  "contigid": "NODE_42953_length_3462_cov_116.084",
+  "start": "2884",
+  "end": "2996",
+  "genelen": "113",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14237",
+  "contigid": "NODE_43994_length_3401_cov_9.28631",
+  "start": "3298",
+  "end": "3400",
+  "genelen": "103",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14243",
+  "contigid": "NODE_46096_length_3282_cov_9.59932",
+  "start": "1",
+  "end": "2274",
+  "genelen": "2274",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14245",
+  "contigid": "NODE_46096_length_3282_cov_9.59932",
+  "start": "2402",
+  "end": "2900",
+  "genelen": "499",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14249",
+  "contigid": "NODE_46234_length_3274_cov_29.9254",
+  "start": "740",
+  "end": "3274",
+  "genelen": "2535",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes"
+  },
+  {
+  "geneid": "metaerg.pl|14254",
+  "contigid": "NODE_46925_length_3236_cov_13.1254",
+  "start": "1508",
+  "end": "1621",
+  "genelen": "114",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14258",
+  "contigid": "NODE_48116_length_3176_cov_29.3653",
+  "start": "1",
+  "end": "2563",
+  "genelen": "2563",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14263",
+  "contigid": "NODE_48151_length_3174_cov_57.8166",
+  "start": "1",
+  "end": "1194",
+  "genelen": "1194",
+  "strand": "-1",
+  "feature": "euk_18SrRNA",
+  "taxon": "Eukaryota;Archaeplastida;Chloroplastida;Charophyta"
+  },
+  {
+  "geneid": "metaerg.pl|14279",
+  "contigid": "NODE_49734_length_3098_cov_9.51068",
+  "start": "1814",
+  "end": "1926",
+  "genelen": "113",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14280",
+  "contigid": "NODE_49734_length_3098_cov_9.51068",
+  "start": "2217",
+  "end": "3098",
+  "genelen": "882",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Actinobacteria;Micrococcales;Micrococcaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14283",
+  "contigid": "NODE_52064_length_2996_cov_104.465",
+  "start": "1",
+  "end": "1680",
+  "genelen": "1680",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Oceanospirillales;Halomonadaceae;Halomonas"
+  },
+  {
+  "geneid": "metaerg.pl|14286",
+  "contigid": "NODE_52064_length_2996_cov_104.465",
+  "start": "2371",
+  "end": "2996",
+  "genelen": "626",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Vibrionales;Vibrionaceae;Catenococcus"
+  },
+  {
+  "geneid": "metaerg.pl|14288",
+  "contigid": "NODE_53136_length_2953_cov_3.62353",
+  "start": "28",
+  "end": "726",
+  "genelen": "699",
+  "strand": "-1",
+  "feature": "euk_28SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14289",
+  "contigid": "NODE_53136_length_2953_cov_3.62353",
+  "start": "1030",
+  "end": "1100",
+  "genelen": "71",
+  "strand": "-1",
+  "feature": "euk_5_8SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14290",
+  "contigid": "NODE_53136_length_2953_cov_3.62353",
+  "start": "1145",
+  "end": "2831",
+  "genelen": "1687",
+  "strand": "-1",
+  "feature": "euk_18SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14292",
+  "contigid": "NODE_54537_length_2896_cov_22.4555",
+  "start": "1",
+  "end": "616",
+  "genelen": "616",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Gemmatimonadetes;Longimicrobia;Longimicrobiales"
+  },
+  {
+  "geneid": "metaerg.pl|14293",
+  "contigid": "NODE_54537_length_2896_cov_22.4555",
+  "start": "848",
+  "end": "2896",
+  "genelen": "2049",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Gemmatimonadetes"
+  },
+  {
+  "geneid": "metaerg.pl|14297",
+  "contigid": "NODE_55666_length_2851_cov_11.6406",
+  "start": "865",
+  "end": "979",
+  "genelen": "115",
+  "strand": "-1",
+  "feature": "arc_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14298",
+  "contigid": "NODE_55666_length_2851_cov_11.6406",
+  "start": "1133",
+  "end": "2851",
+  "genelen": "1719",
+  "strand": "-1",
+  "feature": "arc_23SrRNA",
+  "taxon": "Archaea;Euryarchaeota;Halobacteria;Halobacteriales;Haloferacaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14299",
+  "contigid": "NODE_56948_length_2800_cov_140.857",
+  "start": "1",
+  "end": "623",
+  "genelen": "623",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Firmicutes;Bacilli;Lactobacillales;Carnobacteriaceae;Alkalibacterium"
+  },
+  {
+  "geneid": "metaerg.pl|14300",
+  "contigid": "NODE_56948_length_2800_cov_140.857",
+  "start": "845",
+  "end": "2800",
+  "genelen": "1956",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Firmicutes;Bacilli;Lactobacillales;Carnobacteriaceae;Alkalibacterium"
+  },
+  {
+  "geneid": "metaerg.pl|14303",
+  "contigid": "NODE_57108_length_2795_cov_12.965",
+  "start": "841",
+  "end": "2795",
+  "genelen": "1955",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes"
+  },
+  {
+  "geneid": "metaerg.pl|14304",
+  "contigid": "NODE_58218_length_2755_cov_50.8648",
+  "start": "167",
+  "end": "274",
+  "genelen": "108",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14308",
+  "contigid": "NODE_58216_length_2755_cov_96.41",
+  "start": "2",
+  "end": "2739",
+  "genelen": "2738",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales"
+  },
+  {
+  "geneid": "metaerg.pl|14313",
+  "contigid": "NODE_58427_length_2748_cov_3.61975",
+  "start": "2675",
+  "end": "2748",
+  "genelen": "74",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14320",
+  "contigid": "NODE_61773_length_2631_cov_53.6002",
+  "start": "1",
+  "end": "1859",
+  "genelen": "1859",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Gemmatimonadetes"
+  },
+  {
+  "geneid": "metaerg.pl|14323",
+  "contigid": "NODE_61773_length_2631_cov_53.6002",
+  "start": "1966",
+  "end": "2077",
+  "genelen": "112",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14325",
+  "contigid": "NODE_61823_length_2630_cov_5.79728",
+  "start": "310",
+  "end": "697",
+  "genelen": "388",
+  "strand": "1",
+  "feature": "euk_28SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14330",
+  "contigid": "NODE_63047_length_2592_cov_5.19748",
+  "start": "122",
+  "end": "2528",
+  "genelen": "2407",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14335",
+  "contigid": "NODE_63383_length_2582_cov_3.80174",
+  "start": "1824",
+  "end": "1937",
+  "genelen": "114",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "Bacteria;Cyanobacteria;Oxyphotobacteria;Chloroplast"
+  },
+  {
+  "geneid": "metaerg.pl|14336",
+  "contigid": "NODE_63383_length_2582_cov_3.80174",
+  "start": "2170",
+  "end": "2582",
+  "genelen": "413",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Cyanobacteria;Oxyphotobacteria;Chloroplast"
+  },
+  {
+  "geneid": "metaerg.pl|14338",
+  "contigid": "NODE_63959_length_2563_cov_10.26",
+  "start": "690",
+  "end": "2563",
+  "genelen": "1874",
+  "strand": "1",
+  "feature": "euk_28SrRNA",
+  "taxon": "Eukaryota;Opisthokonta;Nucletmycea;Fungi;Dikarya;Ascomycota"
+  },
+  {
+  "geneid": "metaerg.pl|14341",
+  "contigid": "NODE_64789_length_2538_cov_36.4342",
+  "start": "1",
+  "end": "477",
+  "genelen": "477",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria;Nitriliruptorales;Nitriliruptoraceae"
+  },
+  {
+  "geneid": "metaerg.pl|14345",
+  "contigid": "NODE_66123_length_2498_cov_94.4433",
+  "start": "1",
+  "end": "364",
+  "genelen": "364",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Cyanobacteria;Oxyphotobacteria;Phormidesmiales;Nodosilineaceae;Nodosilinea PCC-7104"
+  },
+  {
+  "geneid": "metaerg.pl|14348",
+  "contigid": "NODE_68985_length_2417_cov_16.6566",
+  "start": "2",
+  "end": "99",
+  "genelen": "98",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14351",
+  "contigid": "NODE_69170_length_2412_cov_9.82902",
+  "start": "3",
+  "end": "534",
+  "genelen": "532",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia;Flavobacteriales;Cryomorphaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14354",
+  "contigid": "NODE_69703_length_2398_cov_11.2625",
+  "start": "2057",
+  "end": "2172",
+  "genelen": "116",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14358",
+  "contigid": "NODE_71468_length_2351_cov_7.0135",
+  "start": "2068",
+  "end": "2181",
+  "genelen": "114",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14361",
+  "contigid": "NODE_72586_length_2322_cov_10.9956",
+  "start": "701",
+  "end": "2166",
+  "genelen": "1466",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Patescibacteria;Saccharimonadia;Saccharimonadales"
+  },
+  {
+  "geneid": "metaerg.pl|14362",
+  "contigid": "NODE_72782_length_2317_cov_82.286",
+  "start": "1",
+  "end": "1974",
+  "genelen": "1974",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia;Cytophagales"
+  },
+  {
+  "geneid": "metaerg.pl|14371",
+  "contigid": "NODE_73552_length_2298_cov_102.479",
+  "start": "1",
+  "end": "1689",
+  "genelen": "1689",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Ectothiorhodospirales;Ectothiorhodospiraceae;Thioalkalivibrio"
+  },
+  {
+  "geneid": "metaerg.pl|14377",
+  "contigid": "NODE_73978_length_2288_cov_133.946",
+  "start": "1531",
+  "end": "2288",
+  "genelen": "758",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Roseinatronobacter"
+  },
+  {
+  "geneid": "metaerg.pl|14379",
+  "contigid": "NODE_74149_length_2284_cov_10.0157",
+  "start": "1924",
+  "end": "2026",
+  "genelen": "103",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14380",
+  "contigid": "NODE_74858_length_2267_cov_55.6343",
+  "start": "1",
+  "end": "768",
+  "genelen": "768",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Oceanospirillales;Nitrincolaceae;Nitrincola"
+  },
+  {
+  "geneid": "metaerg.pl|14384",
+  "contigid": "NODE_74858_length_2267_cov_55.6343",
+  "start": "1633",
+  "end": "2267",
+  "genelen": "635",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Alteromonadales;Marinobacteraceae"
+  },
+  {
+  "geneid": "metaerg.pl|14385",
+  "contigid": "NODE_75834_length_2244_cov_9.05984",
+  "start": "156",
+  "end": "416",
+  "genelen": "261",
+  "strand": "-1",
+  "feature": "euk_28SrRNA",
+  "taxon": "Eukaryota;Archaeplastida"
+  },
+  {
+  "geneid": "metaerg.pl|14394",
+  "contigid": "NODE_76415_length_2231_cov_141.256",
+  "start": "598",
+  "end": "2230",
+  "genelen": "1633",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Loktanella"
+  },
+  {
+  "geneid": "metaerg.pl|14400",
+  "contigid": "NODE_77087_length_2216_cov_3.66081",
+  "start": "1608",
+  "end": "2216",
+  "genelen": "609",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Cyanobacteria;Oxyphotobacteria;Chloroplast"
+  },
+  {
+  "geneid": "metaerg.pl|14401",
+  "contigid": "NODE_78119_length_2192_cov_29.5976",
+  "start": "2",
+  "end": "1433",
+  "genelen": "1432",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Acidimicrobiia;Microtrichales;Microtrichaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14402",
+  "contigid": "NODE_78119_length_2192_cov_29.5976",
+  "start": "1687",
+  "end": "2191",
+  "genelen": "505",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Acidimicrobiia;Microtrichales;Ilumatobacteraceae;uncultured"
+  },
+  {
+  "geneid": "metaerg.pl|14404",
+  "contigid": "NODE_79336_length_2164_cov_45.0308",
+  "start": "1",
+  "end": "1159",
+  "genelen": "1159",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Firmicutes;Clostridia;Clostridiales;Peptostreptococcaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14407",
+  "contigid": "NODE_79486_length_2161_cov_91.7042",
+  "start": "1",
+  "end": "64",
+  "genelen": "64",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14409",
+  "contigid": "NODE_79486_length_2161_cov_91.7042",
+  "start": "280",
+  "end": "2161",
+  "genelen": "1882",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Gemmatimonadetes;Gemmatimonadetes"
+  },
+  {
+  "geneid": "metaerg.pl|14411",
+  "contigid": "NODE_81670_length_2118_cov_116.979",
+  "start": "1",
+  "end": "1692",
+  "genelen": "1692",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales"
+  },
+  {
+  "geneid": "metaerg.pl|14414",
+  "contigid": "NODE_81670_length_2118_cov_116.979",
+  "start": "1882",
+  "end": "1994",
+  "genelen": "113",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14416",
+  "contigid": "NODE_83120_length_2089_cov_82.5295",
+  "start": "1",
+  "end": "935",
+  "genelen": "935",
+  "strand": "-1",
+  "feature": "euk_28SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14418",
+  "contigid": "NODE_83120_length_2089_cov_82.5295",
+  "start": "1414",
+  "end": "1557",
+  "genelen": "144",
+  "strand": "-1",
+  "feature": "euk_5_8SrRNA",
+  "taxon": "Eukaryota;Opisthokonta;Nucletmycea"
+  },
+  {
+  "geneid": "metaerg.pl|14419",
+  "contigid": "NODE_84116_length_2070_cov_66.3737",
+  "start": "2",
+  "end": "397",
+  "genelen": "396",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Rhodobaca"
+  },
+  {
+  "geneid": "metaerg.pl|14422",
+  "contigid": "NODE_84116_length_2070_cov_66.3737",
+  "start": "522",
+  "end": "633",
+  "genelen": "112",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14429",
+  "contigid": "NODE_85512_length_2043_cov_93.3913",
+  "start": "319",
+  "end": "1849",
+  "genelen": "1531",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14433",
+  "contigid": "NODE_85819_length_2037_cov_50.3219",
+  "start": "402",
+  "end": "2037",
+  "genelen": "1636",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Cyanobacteria;Oxyphotobacteria"
+  },
+  {
+  "geneid": "metaerg.pl|14434",
+  "contigid": "NODE_86782_length_2019_cov_12.3915",
+  "start": "1",
+  "end": "843",
+  "genelen": "843",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia"
+  },
+  {
+  "geneid": "metaerg.pl|14438",
+  "contigid": "NODE_86782_length_2019_cov_12.3915",
+  "start": "1419",
+  "end": "2019",
+  "genelen": "601",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia;Flavobacteriales;Cryomorphaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14439",
+  "contigid": "NODE_88234_length_1992_cov_6.84047",
+  "start": "231",
+  "end": "345",
+  "genelen": "115",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14443",
+  "contigid": "NODE_88383_length_1989_cov_120.406",
+  "start": "1232",
+  "end": "1989",
+  "genelen": "758",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Roseinatronobacter"
+  },
+  {
+  "geneid": "metaerg.pl|14444",
+  "contigid": "NODE_88481_length_1988_cov_4.0119",
+  "start": "1",
+  "end": "1988",
+  "genelen": "1988",
+  "strand": "-1",
+  "feature": "euk_28SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14446",
+  "contigid": "NODE_89615_length_1968_cov_8.09723",
+  "start": "1614",
+  "end": "1967",
+  "genelen": "354",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria;Nitriliruptorales;Nitriliruptoraceae"
+  },
+  {
+  "geneid": "metaerg.pl|14447",
+  "contigid": "NODE_89813_length_1965_cov_4.45131",
+  "start": "4",
+  "end": "1525",
+  "genelen": "1522",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Planctomycetes;Planctomycetacia;Isosphaerales;Isosphaeraceae"
+  },
+  {
+  "geneid": "metaerg.pl|14451",
+  "contigid": "NODE_90123_length_1959_cov_6.12973",
+  "start": "1416",
+  "end": "1959",
+  "genelen": "544",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Gemmatimonadetes;Longimicrobia;Longimicrobiales;Longimicrobiaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14453",
+  "contigid": "NODE_90520_length_1952_cov_178.747",
+  "start": "1",
+  "end": "1952",
+  "genelen": "1952",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria;Nitriliruptorales"
+  },
+  {
+  "geneid": "metaerg.pl|14456",
+  "contigid": "NODE_93653_length_1899_cov_24.4046",
+  "start": "1623",
+  "end": "1897",
+  "genelen": "275",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria;Nitriliruptorales;Nitriliruptoraceae"
+  },
+  {
+  "geneid": "metaerg.pl|14457",
+  "contigid": "NODE_93836_length_1896_cov_103.772",
+  "start": "2",
+  "end": "1896",
+  "genelen": "1895",
+  "strand": "-1",
+  "feature": "euk_28SrRNA",
+  "taxon": "Eukaryota;Archaeplastida"
+  },
+  {
+  "geneid": "metaerg.pl|14459",
+  "contigid": "NODE_94134_length_1892_cov_3.47578",
+  "start": "1",
+  "end": "1698",
+  "genelen": "1698",
+  "strand": "1",
+  "feature": "euk_28SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14464",
+  "contigid": "NODE_96694_length_1851_cov_5.56236",
+  "start": "672",
+  "end": "1851",
+  "genelen": "1180",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14470",
+  "contigid": "NODE_99256_length_1811_cov_61.4208",
+  "start": "1497",
+  "end": "1811",
+  "genelen": "315",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria;Nitriliruptorales"
+  },
+  {
+  "geneid": "metaerg.pl|14471",
+  "contigid": "NODE_100199_length_1798_cov_17.8342",
+  "start": "1",
+  "end": "1797",
+  "genelen": "1797",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Verrucomicrobia;Verrucomicrobiae"
+  },
+  {
+  "geneid": "metaerg.pl|14477",
+  "contigid": "NODE_102484_length_1766_cov_4.72297",
+  "start": "1",
+  "end": "876",
+  "genelen": "876",
+  "strand": "-1",
+  "feature": "euk_28SrRNA",
+  "taxon": "Eukaryota;Opisthokonta;Nucletmycea;Fungi;Dikarya;Ascomycota"
+  },
+  {
+  "geneid": "metaerg.pl|14478",
+  "contigid": "NODE_102484_length_1766_cov_4.72297",
+  "start": "1040",
+  "end": "1192",
+  "genelen": "153",
+  "strand": "-1",
+  "feature": "euk_5_8SrRNA",
+  "taxon": "Eukaryota;Opisthokonta;Nucletmycea;Fungi;Dikarya;Ascomycota;Pezizomycotina"
+  },
+  {
+  "geneid": "metaerg.pl|14479",
+  "contigid": "NODE_102484_length_1766_cov_4.72297",
+  "start": "1387",
+  "end": "1766",
+  "genelen": "380",
+  "strand": "-1",
+  "feature": "euk_18SrRNA",
+  "taxon": "Eukaryota;Opisthokonta;Nucletmycea;Fungi;Dikarya;Ascomycota"
+  },
+  {
+  "geneid": "metaerg.pl|14480",
+  "contigid": "NODE_103063_length_1757_cov_37.3425",
+  "start": "1",
+  "end": "563",
+  "genelen": "563",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria"
+  },
+  {
+  "geneid": "metaerg.pl|14485",
+  "contigid": "NODE_103810_length_1747_cov_6.68085",
+  "start": "2",
+  "end": "1343",
+  "genelen": "1342",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia;Cytophagales"
+  },
+  {
+  "geneid": "metaerg.pl|14486",
+  "contigid": "NODE_104625_length_1736_cov_9.3599",
+  "start": "3",
+  "end": "763",
+  "genelen": "761",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Verrucomicrobia;Verrucomicrobiae;Opitutales;Puniceicoccaceae;Coraliomargarita"
+  },
+  {
+  "geneid": "metaerg.pl|14489",
+  "contigid": "NODE_104625_length_1736_cov_9.3599",
+  "start": "1493",
+  "end": "1736",
+  "genelen": "244",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Verrucomicrobia;Verrucomicrobiae;Opitutales;Puniceicoccaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14490",
+  "contigid": "NODE_104774_length_1734_cov_26.8517",
+  "start": "1",
+  "end": "1210",
+  "genelen": "1210",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Actinobacteria;Micrococcales;Demequinaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14491",
+  "contigid": "NODE_104868_length_1733_cov_49.1603",
+  "start": "2",
+  "end": "1002",
+  "genelen": "1001",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Gemmatimonadetes;BD2-11 terrestrial group"
+  },
+  {
+  "geneid": "metaerg.pl|14495",
+  "contigid": "NODE_105178_length_1729_cov_33.9146",
+  "start": "119",
+  "end": "1573",
+  "genelen": "1455",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Patescibacteria;Parcubacteria;Candidatus Kaiserbacteria"
+  },
+  {
+  "geneid": "metaerg.pl|14498",
+  "contigid": "NODE_105506_length_1725_cov_36.9132",
+  "start": "395",
+  "end": "1724",
+  "genelen": "1330",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia"
+  },
+  {
+  "geneid": "metaerg.pl|14499",
+  "contigid": "NODE_106036_length_1718_cov_59.1666",
+  "start": "129",
+  "end": "244",
+  "genelen": "116",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14504",
+  "contigid": "NODE_106620_length_1710_cov_72.2876",
+  "start": "888",
+  "end": "1710",
+  "genelen": "823",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Firmicutes;Bacilli;Lactobacillales;Carnobacteriaceae;Alkalibacterium"
+  },
+  {
+  "geneid": "metaerg.pl|14510",
+  "contigid": "NODE_110792_length_1657_cov_14.4345",
+  "start": "1",
+  "end": "374",
+  "genelen": "374",
+  "strand": "1",
+  "feature": "euk_18SrRNA",
+  "taxon": "Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta"
+  },
+  {
+  "geneid": "metaerg.pl|14511",
+  "contigid": "NODE_110792_length_1657_cov_14.4345",
+  "start": "691",
+  "end": "843",
+  "genelen": "153",
+  "strand": "1",
+  "feature": "euk_5_8SrRNA",
+  "taxon": "Eukaryota;Opisthokonta;Nucletmycea;Fungi"
+  },
+  {
+  "geneid": "metaerg.pl|14513",
+  "contigid": "NODE_110792_length_1657_cov_14.4345",
+  "start": "1207",
+  "end": "1628",
+  "genelen": "422",
+  "strand": "1",
+  "feature": "euk_28SrRNA",
+  "taxon": "Eukaryota;Archaeplastida"
+  },
+  {
+  "geneid": "metaerg.pl|14515",
+  "contigid": "NODE_111472_length_1649_cov_12.5841",
+  "start": "260",
+  "end": "1648",
+  "genelen": "1389",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia;Cytophagales"
+  },
+  {
+  "geneid": "metaerg.pl|14516",
+  "contigid": "NODE_111676_length_1647_cov_12.5126",
+  "start": "1",
+  "end": "1224",
+  "genelen": "1224",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Actinobacteria;Micrococcales"
+  },
+  {
+  "geneid": "metaerg.pl|14521",
+  "contigid": "NODE_113175_length_1629_cov_11.1887",
+  "start": "1026",
+  "end": "1629",
+  "genelen": "604",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Nitrosococcales"
+  },
+  {
+  "geneid": "metaerg.pl|14523",
+  "contigid": "NODE_113366_length_1627_cov_4.48601",
+  "start": "174",
+  "end": "1626",
+  "genelen": "1453",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria"
+  },
+  {
+  "geneid": "metaerg.pl|14524",
+  "contigid": "NODE_113567_length_1624_cov_65.508",
+  "start": "1",
+  "end": "311",
+  "genelen": "311",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Pseudoruegeria"
+  },
+  {
+  "geneid": "metaerg.pl|14525",
+  "contigid": "NODE_113567_length_1624_cov_65.508",
+  "start": "447",
+  "end": "558",
+  "genelen": "112",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14537",
+  "contigid": "NODE_116278_length_1594_cov_27.848",
+  "start": "4",
+  "end": "897",
+  "genelen": "894",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Alteromonadales"
+  },
+  {
+  "geneid": "metaerg.pl|14541",
+  "contigid": "NODE_118510_length_1570_cov_6.25875",
+  "start": "872",
+  "end": "974",
+  "genelen": "103",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14542",
+  "contigid": "NODE_118510_length_1570_cov_6.25875",
+  "start": "1179",
+  "end": "1570",
+  "genelen": "392",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Rhodothermia;Balneolales"
+  },
+  {
+  "geneid": "metaerg.pl|14545",
+  "contigid": "NODE_119462_length_1560_cov_41.3801",
+  "start": "474",
+  "end": "1560",
+  "genelen": "1087",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas"
+  },
+  {
+  "geneid": "metaerg.pl|14547",
+  "contigid": "NODE_121837_length_1534_cov_156.974",
+  "start": "1",
+  "end": "900",
+  "genelen": "900",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae"
+  },
+  {
+  "geneid": "metaerg.pl|14548",
+  "contigid": "NODE_122685_length_1525_cov_74.7184",
+  "start": "1",
+  "end": "1525",
+  "genelen": "1525",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Cyanobacteria;Oxyphotobacteria"
+  },
+  {
+  "geneid": "metaerg.pl|14553",
+  "contigid": "NODE_123925_length_1512_cov_6.64036",
+  "start": "1408",
+  "end": "1511",
+  "genelen": "104",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14556",
+  "contigid": "NODE_124769_length_1503_cov_16.0559",
+  "start": "1065",
+  "end": "1503",
+  "genelen": "439",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Rhodothermia"
+  },
+  {
+  "geneid": "metaerg.pl|14558",
+  "contigid": "NODE_125549_length_1495_cov_160.515",
+  "start": "738",
+  "end": "1495",
+  "genelen": "758",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Roseinatronobacter"
+  },
+  {
+  "geneid": "metaerg.pl|14560",
+  "contigid": "NODE_126123_length_1490_cov_3.89199",
+  "start": "1362",
+  "end": "1470",
+  "genelen": "109",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Actinobacteria"
+  },
+  {
+  "geneid": "metaerg.pl|14561",
+  "contigid": "NODE_128523_length_1466_cov_52.0971",
+  "start": "5",
+  "end": "92",
+  "genelen": "88",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14563",
+  "contigid": "NODE_128872_length_1463_cov_3.51349",
+  "start": "214",
+  "end": "1279",
+  "genelen": "1066",
+  "strand": "1",
+  "feature": "euk_28SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14564",
+  "contigid": "NODE_129534_length_1456_cov_27.3226",
+  "start": "522",
+  "end": "1456",
+  "genelen": "935",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Gemmatimonadetes;Longimicrobia;Longimicrobiales"
+  },
+  {
+  "geneid": "metaerg.pl|14566",
+  "contigid": "NODE_129643_length_1455_cov_29.4036",
+  "start": "1",
+  "end": "499",
+  "genelen": "499",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Gemmatimonadetes;BD2-11 terrestrial group"
+  },
+  {
+  "geneid": "metaerg.pl|14567",
+  "contigid": "NODE_129643_length_1455_cov_29.4036",
+  "start": "916",
+  "end": "1455",
+  "genelen": "540",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Gemmatimonadetes"
+  },
+  {
+  "geneid": "metaerg.pl|14569",
+  "contigid": "NODE_130149_length_1451_cov_4.43553",
+  "start": "1",
+  "end": "1451",
+  "genelen": "1451",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14572",
+  "contigid": "NODE_131362_length_1439_cov_158.835",
+  "start": "2",
+  "end": "1246",
+  "genelen": "1245",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Gammaproteobacteria Incertae Sedis;Unknown Family"
+  },
+  {
+  "geneid": "metaerg.pl|14574",
+  "contigid": "NODE_131362_length_1439_cov_158.835",
+  "start": "1322",
+  "end": "1433",
+  "genelen": "112",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14575",
+  "contigid": "NODE_132139_length_1432_cov_43.1924",
+  "start": "1",
+  "end": "610",
+  "genelen": "610",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria"
+  },
+  {
+  "geneid": "metaerg.pl|14577",
+  "contigid": "NODE_132139_length_1432_cov_43.1924",
+  "start": "951",
+  "end": "1432",
+  "genelen": "482",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria;Nitriliruptorales;Nitriliruptoraceae;Egicoccus"
+  },
+  {
+  "geneid": "metaerg.pl|14578",
+  "contigid": "NODE_133320_length_1421_cov_81.4758",
+  "start": "2",
+  "end": "1421",
+  "genelen": "1420",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales"
+  },
+  {
+  "geneid": "metaerg.pl|14583",
+  "contigid": "NODE_137704_length_1382_cov_45.6609",
+  "start": "528",
+  "end": "1381",
+  "genelen": "854",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Ectothiorhodospirales"
+  },
+  {
+  "geneid": "metaerg.pl|14584",
+  "contigid": "NODE_138285_length_1377_cov_48.4334",
+  "start": "1",
+  "end": "1377",
+  "genelen": "1377",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia"
+  },
+  {
+  "geneid": "metaerg.pl|14587",
+  "contigid": "NODE_138720_length_1374_cov_4.55876",
+  "start": "1057",
+  "end": "1374",
+  "genelen": "318",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Cyanobacteria;Oxyphotobacteria;Chloroplast"
+  },
+  {
+  "geneid": "metaerg.pl|14589",
+  "contigid": "NODE_141210_length_1353_cov_74.5169",
+  "start": "1",
+  "end": "768",
+  "genelen": "768",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Oceanospirillales;Nitrincolaceae;Nitrincola"
+  },
+  {
+  "geneid": "metaerg.pl|14593",
+  "contigid": "NODE_141827_length_1349_cov_3.27202",
+  "start": "1",
+  "end": "1129",
+  "genelen": "1129",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Firmicutes;Clostridia"
+  },
+  {
+  "geneid": "metaerg.pl|14594",
+  "contigid": "NODE_142059_length_1347_cov_3.11223",
+  "start": "531",
+  "end": "1346",
+  "genelen": "816",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Cyanobacteria;Oxyphotobacteria;Chloroplast"
+  },
+  {
+  "geneid": "metaerg.pl|14595",
+  "contigid": "NODE_142625_length_1342_cov_4.64957",
+  "start": "292",
+  "end": "407",
+  "genelen": "116",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14600",
+  "contigid": "NODE_142968_length_1339_cov_14.8123",
+  "start": "1161",
+  "end": "1272",
+  "genelen": "112",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14601",
+  "contigid": "NODE_144089_length_1330_cov_7.94275",
+  "start": "1",
+  "end": "323",
+  "genelen": "323",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Actinobacteria;Micrococcales"
+  },
+  {
+  "geneid": "metaerg.pl|14602",
+  "contigid": "NODE_144089_length_1330_cov_7.94275",
+  "start": "408",
+  "end": "515",
+  "genelen": "108",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14608",
+  "contigid": "NODE_144202_length_1329_cov_60.2331",
+  "start": "1",
+  "end": "1071",
+  "genelen": "1071",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Acidimicrobiia;Microtrichales;Ilumatobacteraceae"
+  },
+  {
+  "geneid": "metaerg.pl|14605",
+  "contigid": "NODE_144205_length_1329_cov_35.471",
+  "start": "196",
+  "end": "308",
+  "genelen": "113",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14606",
+  "contigid": "NODE_144205_length_1329_cov_35.471",
+  "start": "388",
+  "end": "1329",
+  "genelen": "942",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Rhizobiaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14609",
+  "contigid": "NODE_144914_length_1324_cov_3.42238",
+  "start": "408",
+  "end": "1317",
+  "genelen": "910",
+  "strand": "1",
+  "feature": "euk_28SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14612",
+  "contigid": "NODE_146240_length_1313_cov_37.1932",
+  "start": "3",
+  "end": "843",
+  "genelen": "841",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria;Nitriliruptorales;Nitriliruptoraceae"
+  },
+  {
+  "geneid": "metaerg.pl|14617",
+  "contigid": "NODE_146616_length_1310_cov_15.6996",
+  "start": "1",
+  "end": "543",
+  "genelen": "543",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;HOC36"
+  },
+  {
+  "geneid": "metaerg.pl|14624",
+  "contigid": "NODE_147891_length_1300_cov_18.9004",
+  "start": "1",
+  "end": "445",
+  "genelen": "445",
+  "strand": "1",
+  "feature": "euk_28SrRNA",
+  "taxon": "Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta"
+  },
+  {
+  "geneid": "metaerg.pl|14626",
+  "contigid": "NODE_149053_length_1291_cov_108.698",
+  "start": "6",
+  "end": "119",
+  "genelen": "114",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14627",
+  "contigid": "NODE_149053_length_1291_cov_108.698",
+  "start": "181",
+  "end": "1291",
+  "genelen": "1111",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Acidimicrobiia;Microtrichales"
+  },
+  {
+  "geneid": "metaerg.pl|14628",
+  "contigid": "NODE_149587_length_1287_cov_24.8791",
+  "start": "382",
+  "end": "1286",
+  "genelen": "905",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Cellvibrionales"
+  },
+  {
+  "geneid": "metaerg.pl|14631",
+  "contigid": "NODE_150096_length_1283_cov_88.4153",
+  "start": "490",
+  "end": "1283",
+  "genelen": "794",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria"
+  },
+  {
+  "geneid": "metaerg.pl|14632",
+  "contigid": "NODE_150733_length_1279_cov_3.28922",
+  "start": "8",
+  "end": "1201",
+  "genelen": "1194",
+  "strand": "-1",
+  "feature": "euk_18SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14633",
+  "contigid": "NODE_150922_length_1277_cov_17.2136",
+  "start": "1",
+  "end": "972",
+  "genelen": "972",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia;Chitinophagales;Saprospiraceae"
+  },
+  {
+  "geneid": "metaerg.pl|14634",
+  "contigid": "NODE_151372_length_1274_cov_5.98687",
+  "start": "6",
+  "end": "113",
+  "genelen": "108",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "Bacteria;Firmicutes;Clostridia"
+  },
+  {
+  "geneid": "metaerg.pl|14639",
+  "contigid": "NODE_151864_length_1270_cov_60.6963",
+  "start": "1",
+  "end": "666",
+  "genelen": "666",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Alteromonadales;Marinobacteraceae;Marinobacter"
+  },
+  {
+  "geneid": "metaerg.pl|14641",
+  "contigid": "NODE_151864_length_1270_cov_60.6963",
+  "start": "822",
+  "end": "935",
+  "genelen": "114",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14645",
+  "contigid": "NODE_153102_length_1261_cov_38.1683",
+  "start": "337",
+  "end": "450",
+  "genelen": "114",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14646",
+  "contigid": "NODE_153102_length_1261_cov_38.1683",
+  "start": "723",
+  "end": "1261",
+  "genelen": "539",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Cellvibrionales;Cellvibrionaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14648",
+  "contigid": "NODE_154486_length_1251_cov_193.623",
+  "start": "1",
+  "end": "758",
+  "genelen": "758",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Roseinatronobacter"
+  },
+  {
+  "geneid": "metaerg.pl|14650",
+  "contigid": "NODE_156682_length_1236_cov_34.2456",
+  "start": "1",
+  "end": "1235",
+  "genelen": "1235",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Cellvibrionales;Cellvibrionaceae;Marinimicrobium"
+  },
+  {
+  "geneid": "metaerg.pl|14651",
+  "contigid": "NODE_156701_length_1236_cov_7.10584",
+  "start": "3",
+  "end": "1236",
+  "genelen": "1234",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14653",
+  "contigid": "NODE_157242_length_1232_cov_6.03738",
+  "start": "417",
+  "end": "1232",
+  "genelen": "816",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria"
+  },
+  {
+  "geneid": "metaerg.pl|14654",
+  "contigid": "NODE_158688_length_1222_cov_9.02742",
+  "start": "805",
+  "end": "910",
+  "genelen": "106",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14657",
+  "contigid": "NODE_162197_length_1199_cov_14.9694",
+  "start": "885",
+  "end": "1000",
+  "genelen": "116",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14658",
+  "contigid": "NODE_162342_length_1198_cov_226.101",
+  "start": "11",
+  "end": "871",
+  "genelen": "861",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Cyanobacteria;Oxyphotobacteria;Phormidesmiales;Nodosilineaceae;Nodosilinea PCC-7104"
+  },
+  {
+  "geneid": "metaerg.pl|14661",
+  "contigid": "NODE_162508_length_1197_cov_11.7644",
+  "start": "84",
+  "end": "191",
+  "genelen": "108",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14662",
+  "contigid": "NODE_162508_length_1197_cov_11.7644",
+  "start": "312",
+  "end": "1197",
+  "genelen": "886",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria;Nitriliruptorales"
+  },
+  {
+  "geneid": "metaerg.pl|14663",
+  "contigid": "NODE_165029_length_1181_cov_85.8819",
+  "start": "1",
+  "end": "1181",
+  "genelen": "1181",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Alteromonadales"
+  },
+  {
+  "geneid": "metaerg.pl|14666",
+  "contigid": "NODE_165053_length_1181_cov_9.87034",
+  "start": "724",
+  "end": "1178",
+  "genelen": "455",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Verrucomicrobia"
+  },
+  {
+  "geneid": "metaerg.pl|14668",
+  "contigid": "NODE_165489_length_1178_cov_29.4203",
+  "start": "165",
+  "end": "276",
+  "genelen": "112",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14671",
+  "contigid": "NODE_165836_length_1176_cov_96.3363",
+  "start": "1",
+  "end": "1173",
+  "genelen": "1173",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Firmicutes;Clostridia;Clostridiales"
+  },
+  {
+  "geneid": "metaerg.pl|14673",
+  "contigid": "NODE_168093_length_1163_cov_3.09025",
+  "start": "124",
+  "end": "1162",
+  "genelen": "1039",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Planctomycetes;Planctomycetacia;Pirellulales"
+  },
+  {
+  "geneid": "metaerg.pl|14674",
+  "contigid": "NODE_169485_length_1154_cov_163.995",
+  "start": "1",
+  "end": "1151",
+  "genelen": "1151",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria;Nitriliruptorales"
+  },
+  {
+  "geneid": "metaerg.pl|14675",
+  "contigid": "NODE_169838_length_1152_cov_29.505",
+  "start": "118",
+  "end": "1151",
+  "genelen": "1034",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14677",
+  "contigid": "NODE_170492_length_1148_cov_17.4593",
+  "start": "612",
+  "end": "1148",
+  "genelen": "537",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Gemmatimonadetes;Gemmatimonadetes"
+  },
+  {
+  "geneid": "metaerg.pl|14679",
+  "contigid": "NODE_171577_length_1142_cov_8.82245",
+  "start": "390",
+  "end": "1141",
+  "genelen": "752",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes"
+  },
+  {
+  "geneid": "metaerg.pl|14681",
+  "contigid": "NODE_172608_length_1136_cov_51.6549",
+  "start": "1",
+  "end": "1135",
+  "genelen": "1135",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria"
+  },
+  {
+  "geneid": "metaerg.pl|14685",
+  "contigid": "NODE_172985_length_1134_cov_18.8981",
+  "start": "986",
+  "end": "1082",
+  "genelen": "97",
+  "strand": "1",
+  "feature": "euk_5_8SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae"
+  },
+  {
+  "geneid": "metaerg.pl|14686",
+  "contigid": "NODE_173879_length_1129_cov_76.5857",
+  "start": "1",
+  "end": "1129",
+  "genelen": "1129",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Beijerinckiaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14689",
+  "contigid": "NODE_174946_length_1123_cov_33.1695",
+  "start": "742",
+  "end": "855",
+  "genelen": "114",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14690",
+  "contigid": "NODE_175516_length_1120_cov_70.8629",
+  "start": "1",
+  "end": "1120",
+  "genelen": "1120",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Firmicutes;Clostridia;Clostridiales"
+  },
+  {
+  "geneid": "metaerg.pl|14691",
+  "contigid": "NODE_175716_length_1119_cov_5.32801",
+  "start": "1",
+  "end": "1119",
+  "genelen": "1119",
+  "strand": "1",
+  "feature": "arc_23SrRNA",
+  "taxon": "Archaea;Euryarchaeota;Halobacteria;Halobacteriales;Halococcaceae;Halalkalicoccus"
+  },
+  {
+  "geneid": "metaerg.pl|14693",
+  "contigid": "NODE_177569_length_1109_cov_8.66414",
+  "start": "3",
+  "end": "375",
+  "genelen": "373",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia;Cytophagales"
+  },
+  {
+  "geneid": "metaerg.pl|14695",
+  "contigid": "NODE_178333_length_1105_cov_8.52095",
+  "start": "796",
+  "end": "903",
+  "genelen": "108",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "Bacteria;Firmicutes;Clostridia"
+  },
+  {
+  "geneid": "metaerg.pl|14697",
+  "contigid": "NODE_178510_length_1104_cov_9.44328",
+  "start": "609",
+  "end": "720",
+  "genelen": "112",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "Bacteria;Firmicutes;Bacilli;Bacillales"
+  },
+  {
+  "geneid": "metaerg.pl|14698",
+  "contigid": "NODE_178971_length_1102_cov_3.25597",
+  "start": "10",
+  "end": "1102",
+  "genelen": "1093",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Planctomycetes;Planctomycetacia;Pirellulales;Pirellulaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14702",
+  "contigid": "NODE_182017_length_1085_cov_71.2301",
+  "start": "1",
+  "end": "561",
+  "genelen": "561",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Alteromonadales;Idiomarinaceae;Idiomarina"
+  },
+  {
+  "geneid": "metaerg.pl|14703",
+  "contigid": "NODE_182017_length_1085_cov_71.2301",
+  "start": "756",
+  "end": "869",
+  "genelen": "114",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria"
+  },
+  {
+  "geneid": "metaerg.pl|14704",
+  "contigid": "NODE_182251_length_1084_cov_4.95432",
+  "start": "1",
+  "end": "859",
+  "genelen": "859",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia"
+  },
+  {
+  "geneid": "metaerg.pl|14706",
+  "contigid": "NODE_183356_length_1078_cov_48.9296",
+  "start": "1",
+  "end": "1075",
+  "genelen": "1075",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Chloroflexi;Chloroflexia;Thermomicrobiales;Thermomicrobiaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14707",
+  "contigid": "NODE_183358_length_1078_cov_42.3421",
+  "start": "443",
+  "end": "555",
+  "genelen": "113",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14708",
+  "contigid": "NODE_183358_length_1078_cov_42.3421",
+  "start": "656",
+  "end": "1078",
+  "genelen": "423",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Nitrosococcales;Methylophagaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14709",
+  "contigid": "NODE_184717_length_1071_cov_58.9104",
+  "start": "2",
+  "end": "468",
+  "genelen": "467",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia;Cytophagales;Cyclobacteriaceae;Cecembia"
+  },
+  {
+  "geneid": "metaerg.pl|14710",
+  "contigid": "NODE_184717_length_1071_cov_58.9104",
+  "start": "647",
+  "end": "752",
+  "genelen": "106",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14711",
+  "contigid": "NODE_184926_length_1070_cov_90.3941",
+  "start": "1",
+  "end": "928",
+  "genelen": "928",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria;Nitriliruptorales"
+  },
+  {
+  "geneid": "metaerg.pl|14712",
+  "contigid": "NODE_184926_length_1070_cov_90.3941",
+  "start": "1022",
+  "end": "1070",
+  "genelen": "49",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14713",
+  "contigid": "NODE_185123_length_1069_cov_145.99",
+  "start": "1",
+  "end": "758",
+  "genelen": "758",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Rhodobaculum"
+  },
+  {
+  "geneid": "metaerg.pl|14714",
+  "contigid": "NODE_187159_length_1059_cov_26.2888",
+  "start": "269",
+  "end": "1059",
+  "genelen": "791",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Acidimicrobiia;Microtrichales;Microtrichaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14715",
+  "contigid": "NODE_187997_length_1055_cov_7.92",
+  "start": "1",
+  "end": "382",
+  "genelen": "382",
+  "strand": "1",
+  "feature": "euk_18SrRNA",
+  "taxon": "Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta"
+  },
+  {
+  "geneid": "metaerg.pl|14717",
+  "contigid": "NODE_187997_length_1055_cov_7.92",
+  "start": "610",
+  "end": "763",
+  "genelen": "154",
+  "strand": "1",
+  "feature": "euk_5_8SrRNA",
+  "taxon": "Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta"
+  },
+  {
+  "geneid": "metaerg.pl|14718",
+  "contigid": "NODE_188434_length_1053_cov_4.15531",
+  "start": "2",
+  "end": "821",
+  "genelen": "820",
+  "strand": "-1",
+  "feature": "euk_28SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14719",
+  "contigid": "NODE_189823_length_1047_cov_2.51512",
+  "start": "45",
+  "end": "1047",
+  "genelen": "1003",
+  "strand": "1",
+  "feature": "euk_18SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14720",
+  "contigid": "NODE_189626_length_1047_cov_82.7077",
+  "start": "1",
+  "end": "518",
+  "genelen": "518",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14721",
+  "contigid": "NODE_189626_length_1047_cov_82.7077",
+  "start": "712",
+  "end": "825",
+  "genelen": "114",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14722",
+  "contigid": "NODE_189841_length_1046_cov_151.591",
+  "start": "436",
+  "end": "1046",
+  "genelen": "611",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria"
+  },
+  {
+  "geneid": "metaerg.pl|14724",
+  "contigid": "NODE_190293_length_1044_cov_8.41658",
+  "start": "2",
+  "end": "400",
+  "genelen": "399",
+  "strand": "-1",
+  "feature": "euk_28SrRNA",
+  "taxon": "Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta"
+  },
+  {
+  "geneid": "metaerg.pl|14725",
+  "contigid": "NODE_190293_length_1044_cov_8.41658",
+  "start": "614",
+  "end": "767",
+  "genelen": "154",
+  "strand": "-1",
+  "feature": "euk_5_8SrRNA",
+  "taxon": "Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta"
+  },
+  {
+  "geneid": "metaerg.pl|14727",
+  "contigid": "NODE_194034_length_1026_cov_115.229",
+  "start": "1",
+  "end": "943",
+  "genelen": "943",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Loktanella"
+  },
+  {
+  "geneid": "metaerg.pl|14729",
+  "contigid": "NODE_194262_length_1025_cov_48.1485",
+  "start": "1",
+  "end": "1025",
+  "genelen": "1025",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Actinobacteria;Micrococcales"
+  },
+  {
+  "geneid": "metaerg.pl|14732",
+  "contigid": "NODE_195532_length_1020_cov_3.25596",
+  "start": "70",
+  "end": "1020",
+  "genelen": "951",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Rhodothermia"
+  },
+  {
+  "geneid": "metaerg.pl|14734",
+  "contigid": "NODE_196946_length_1013_cov_31.6524",
+  "start": "479",
+  "end": "1013",
+  "genelen": "535",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Deltaproteobacteria"
+  },
+  {
+  "geneid": "metaerg.pl|14740",
+  "contigid": "NODE_196933_length_1013_cov_83.7777",
+  "start": "1",
+  "end": "975",
+  "genelen": "975",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia;Cytophagales"
+  },
+  {
+  "geneid": "metaerg.pl|14736",
+  "contigid": "NODE_196955_length_1013_cov_16.4447",
+  "start": "1",
+  "end": "475",
+  "genelen": "475",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia;Cytophagales"
+  },
+  {
+  "geneid": "metaerg.pl|14742",
+  "contigid": "NODE_198278_length_1007_cov_163.507",
+  "start": "355",
+  "end": "467",
+  "genelen": "113",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14743",
+  "contigid": "NODE_198278_length_1007_cov_163.507",
+  "start": "611",
+  "end": "1006",
+  "genelen": "396",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Rhodobaca"
+  },
+  {
+  "geneid": "metaerg.pl|14745",
+  "contigid": "NODE_199618_length_1001_cov_139.381",
+  "start": "252",
+  "end": "1001",
+  "genelen": "750",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Seohaeicola"
+  },
+  {
+  "geneid": "metaerg.pl|14746",
+  "contigid": "NODE_200751_length_996_cov_112.801",
+  "start": "144",
+  "end": "296",
+  "genelen": "153",
+  "strand": "1",
+  "feature": "euk_5_8SrRNA",
+  "taxon": "Eukaryota;Opisthokonta;Nucletmycea;Fungi"
+  },
+  {
+  "geneid": "metaerg.pl|14747",
+  "contigid": "NODE_200751_length_996_cov_112.801",
+  "start": "545",
+  "end": "966",
+  "genelen": "422",
+  "strand": "1",
+  "feature": "euk_28SrRNA",
+  "taxon": "Eukaryota;Archaeplastida"
+  },
+  {
+  "geneid": "metaerg.pl|14748",
+  "contigid": "NODE_201699_length_992_cov_39.5379",
+  "start": "4",
+  "end": "625",
+  "genelen": "622",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Acidimicrobiia"
+  },
+  {
+  "geneid": "metaerg.pl|14751",
+  "contigid": "NODE_201695_length_992_cov_52.8282",
+  "start": "514",
+  "end": "991",
+  "genelen": "478",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria"
+  },
+  {
+  "geneid": "metaerg.pl|14752",
+  "contigid": "NODE_202178_length_990_cov_121.834",
+  "start": "1",
+  "end": "538",
+  "genelen": "538",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria"
+  },
+  {
+  "geneid": "metaerg.pl|14754",
+  "contigid": "NODE_202829_length_988_cov_3.30225",
+  "start": "8",
+  "end": "404",
+  "genelen": "397",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria"
+  },
+  {
+  "geneid": "metaerg.pl|14755",
+  "contigid": "NODE_202829_length_988_cov_3.30225",
+  "start": "526",
+  "end": "978",
+  "genelen": "453",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14756",
+  "contigid": "NODE_202964_length_987_cov_11.3122",
+  "start": "2",
+  "end": "987",
+  "genelen": "986",
+  "strand": "-1",
+  "feature": "euk_28SrRNA",
+  "taxon": "Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta"
+  },
+  {
+  "geneid": "metaerg.pl|14757",
+  "contigid": "NODE_203193_length_986_cov_53.8657",
+  "start": "340",
+  "end": "985",
+  "genelen": "646",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Firmicutes;Bacilli;Bacillales;Sporolactobacillaceae;Salisediminibacterium"
+  },
+  {
+  "geneid": "metaerg.pl|14758",
+  "contigid": "NODE_203442_length_985_cov_209.282",
+  "start": "228",
+  "end": "985",
+  "genelen": "758",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Roseinatronobacter"
+  },
+  {
+  "geneid": "metaerg.pl|14759",
+  "contigid": "NODE_204138_length_982_cov_55.6268",
+  "start": "1",
+  "end": "437",
+  "genelen": "437",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria"
+  },
+  {
+  "geneid": "metaerg.pl|14761",
+  "contigid": "NODE_204827_length_979_cov_71.3896",
+  "start": "35",
+  "end": "131",
+  "genelen": "97",
+  "strand": "-1",
+  "feature": "euk_5_8SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae"
+  },
+  {
+  "geneid": "metaerg.pl|14764",
+  "contigid": "NODE_209208_length_962_cov_3.58214",
+  "start": "264",
+  "end": "376",
+  "genelen": "113",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14770",
+  "contigid": "NODE_212261_length_950_cov_9.84134",
+  "start": "1",
+  "end": "464",
+  "genelen": "464",
+  "strand": "-1",
+  "feature": "arc_23SrRNA",
+  "taxon": "Archaea;Euryarchaeota;Halobacteria;Halobacteriales"
+  },
+  {
+  "geneid": "metaerg.pl|14773",
+  "contigid": "NODE_213889_length_944_cov_5.28796",
+  "start": "132",
+  "end": "944",
+  "genelen": "813",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes"
+  },
+  {
+  "geneid": "metaerg.pl|14776",
+  "contigid": "NODE_214356_length_942_cov_100.601",
+  "start": "175",
+  "end": "942",
+  "genelen": "768",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Oceanospirillales;Nitrincolaceae;Nitrincola"
+  },
+  {
+  "geneid": "metaerg.pl|14778",
+  "contigid": "NODE_218110_length_928_cov_29.5899",
+  "start": "284",
+  "end": "927",
+  "genelen": "644",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Firmicutes;Bacilli;Bacillales"
+  },
+  {
+  "geneid": "metaerg.pl|14779",
+  "contigid": "NODE_218939_length_925_cov_7.11954",
+  "start": "1",
+  "end": "621",
+  "genelen": "621",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Verrucomicrobia;Verrucomicrobiae;Opitutales;uncultured"
+  },
+  {
+  "geneid": "metaerg.pl|14780",
+  "contigid": "NODE_219451_length_923_cov_42.1175",
+  "start": "80",
+  "end": "921",
+  "genelen": "842",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Patescibacteria;Parcubacteria;OLB19"
+  },
+  {
+  "geneid": "metaerg.pl|14782",
+  "contigid": "NODE_222501_length_913_cov_2.61772",
+  "start": "325",
+  "end": "913",
+  "genelen": "589",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Acidimicrobiia"
+  },
+  {
+  "geneid": "metaerg.pl|14785",
+  "contigid": "NODE_223204_length_910_cov_5.9883",
+  "start": "403",
+  "end": "507",
+  "genelen": "105",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14783",
+  "contigid": "NODE_223163_length_910_cov_13.9977",
+  "start": "1",
+  "end": "315",
+  "genelen": "315",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Rhodothermia;Balneolales"
+  },
+  {
+  "geneid": "metaerg.pl|14786",
+  "contigid": "NODE_224247_length_906_cov_144.227",
+  "start": "3",
+  "end": "426",
+  "genelen": "424",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Firmicutes;Bacilli;Bacillales;Sporolactobacillaceae;Salipaludibacillus"
+  },
+  {
+  "geneid": "metaerg.pl|14789",
+  "contigid": "NODE_224847_length_904_cov_49.1496",
+  "start": "2",
+  "end": "785",
+  "genelen": "784",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Oceanospirillales"
+  },
+  {
+  "geneid": "metaerg.pl|14792",
+  "contigid": "NODE_227809_length_894_cov_6.56734",
+  "start": "352",
+  "end": "894",
+  "genelen": "543",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Rhodothermia;Balneolales;Balneolaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14793",
+  "contigid": "NODE_228905_length_890_cov_60.188",
+  "start": "1",
+  "end": "339",
+  "genelen": "339",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Gammaproteobacteria Incertae Sedis;Unknown Family;Wenzhouxiangella"
+  },
+  {
+  "geneid": "metaerg.pl|14796",
+  "contigid": "NODE_230112_length_886_cov_134.788",
+  "start": "2",
+  "end": "886",
+  "genelen": "885",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria;Nitriliruptorales"
+  },
+  {
+  "geneid": "metaerg.pl|14794",
+  "contigid": "NODE_230111_length_886_cov_160.099",
+  "start": "103",
+  "end": "885",
+  "genelen": "783",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Firmicutes;Bacilli;Bacillales;Sporolactobacillaceae;Alkalicoccus"
+  },
+  {
+  "geneid": "metaerg.pl|14797",
+  "contigid": "NODE_230779_length_884_cov_30.3667",
+  "start": "557",
+  "end": "884",
+  "genelen": "328",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Cellvibrionales;Cellvibrionaceae;Marinimicrobium"
+  },
+  {
+  "geneid": "metaerg.pl|14800",
+  "contigid": "NODE_231280_length_883_cov_2.77536",
+  "start": "315",
+  "end": "882",
+  "genelen": "568",
+  "strand": "1",
+  "feature": "euk_18SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14798",
+  "contigid": "NODE_231147_length_883_cov_4.23551",
+  "start": "1",
+  "end": "328",
+  "genelen": "328",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria"
+  },
+  {
+  "geneid": "metaerg.pl|14799",
+  "contigid": "NODE_231147_length_883_cov_4.23551",
+  "start": "489",
+  "end": "602",
+  "genelen": "114",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14801",
+  "contigid": "NODE_233176_length_876_cov_82.6931",
+  "start": "443",
+  "end": "876",
+  "genelen": "434",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Oceanospirillales;Halomonadaceae;Halomonas"
+  },
+  {
+  "geneid": "metaerg.pl|14804",
+  "contigid": "NODE_233289_length_876_cov_3.74543",
+  "start": "612",
+  "end": "721",
+  "genelen": "110",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14805",
+  "contigid": "NODE_234123_length_873_cov_6.06112",
+  "start": "435",
+  "end": "873",
+  "genelen": "439",
+  "strand": "-1",
+  "feature": "euk_28SrRNA",
+  "taxon": "Eukaryota;Opisthokonta;Nucletmycea;Fungi;Dikarya"
+  },
+  {
+  "geneid": "metaerg.pl|14806",
+  "contigid": "NODE_236224_length_866_cov_107.689",
+  "start": "221",
+  "end": "865",
+  "genelen": "645",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Firmicutes;Bacilli;Bacillales"
+  },
+  {
+  "geneid": "metaerg.pl|14809",
+  "contigid": "NODE_236238_length_866_cov_32.0173",
+  "start": "609",
+  "end": "706",
+  "genelen": "98",
+  "strand": "1",
+  "feature": "euk_5_8SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae"
+  },
+  {
+  "geneid": "metaerg.pl|14811",
+  "contigid": "NODE_236220_length_866_cov_236.932",
+  "start": "2",
+  "end": "866",
+  "genelen": "865",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales"
+  },
+  {
+  "geneid": "metaerg.pl|14807",
+  "contigid": "NODE_236222_length_866_cov_125.572",
+  "start": "4",
+  "end": "858",
+  "genelen": "855",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Oceanospirillales"
+  },
+  {
+  "geneid": "metaerg.pl|14814",
+  "contigid": "NODE_237622_length_862_cov_3.34944",
+  "start": "590",
+  "end": "691",
+  "genelen": "102",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14818",
+  "contigid": "NODE_237775_length_861_cov_159.164",
+  "start": "1",
+  "end": "670",
+  "genelen": "670",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Firmicutes;Bacilli;Lactobacillales;Carnobacteriaceae;Alkalibacterium"
+  },
+  {
+  "geneid": "metaerg.pl|14819",
+  "contigid": "NODE_237775_length_861_cov_159.164",
+  "start": "779",
+  "end": "858",
+  "genelen": "80",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14820",
+  "contigid": "NODE_237799_length_861_cov_22.5782",
+  "start": "1",
+  "end": "861",
+  "genelen": "861",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Nitrosococcales"
+  },
+  {
+  "geneid": "metaerg.pl|14823",
+  "contigid": "NODE_239824_length_855_cov_4.4275",
+  "start": "2",
+  "end": "855",
+  "genelen": "854",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Verrucomicrobia;Verrucomicrobiae"
+  },
+  {
+  "geneid": "metaerg.pl|14822",
+  "contigid": "NODE_239988_length_855_cov_2.7",
+  "start": "4",
+  "end": "852",
+  "genelen": "849",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Planctomycetes;Planctomycetacia"
+  },
+  {
+  "geneid": "metaerg.pl|14825",
+  "contigid": "NODE_241372_length_850_cov_30.2742",
+  "start": "2",
+  "end": "497",
+  "genelen": "496",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Cellvibrionales;Cellvibrionaceae;Marinimicrobium"
+  },
+  {
+  "geneid": "metaerg.pl|14826",
+  "contigid": "NODE_243053_length_845_cov_37.9354",
+  "start": "9",
+  "end": "845",
+  "genelen": "837",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia;Cytophagales;Cyclobacteriaceae;Nafulsella"
+  },
+  {
+  "geneid": "metaerg.pl|14829",
+  "contigid": "NODE_246249_length_836_cov_8.6402",
+  "start": "3",
+  "end": "833",
+  "genelen": "831",
+  "strand": "-1",
+  "feature": "arc_23SrRNA",
+  "taxon": "Archaea;Euryarchaeota;Halobacteria;Halobacteriales"
+  },
+  {
+  "geneid": "metaerg.pl|14830",
+  "contigid": "NODE_247999_length_831_cov_4.58763",
+  "start": "2",
+  "end": "830",
+  "genelen": "829",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Planctomycetes;Planctomycetacia;Pirellulales"
+  },
+  {
+  "geneid": "metaerg.pl|14832",
+  "contigid": "NODE_248315_length_830_cov_6.09419",
+  "start": "387",
+  "end": "830",
+  "genelen": "444",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales"
+  },
+  {
+  "geneid": "metaerg.pl|14833",
+  "contigid": "NODE_248258_length_830_cov_92.7252",
+  "start": "57",
+  "end": "165",
+  "genelen": "109",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14834",
+  "contigid": "NODE_248258_length_830_cov_92.7252",
+  "start": "341",
+  "end": "830",
+  "genelen": "490",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria;Nitriliruptorales;Nitriliruptoraceae"
+  },
+  {
+  "geneid": "metaerg.pl|14837",
+  "contigid": "NODE_249302_length_827_cov_17.7487",
+  "start": "2",
+  "end": "404",
+  "genelen": "403",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Deltaproteobacteria;Bradymonadales;Bradymonadaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14836",
+  "contigid": "NODE_249286_length_827_cov_35.8886",
+  "start": "720",
+  "end": "825",
+  "genelen": "106",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14839",
+  "contigid": "NODE_249597_length_826_cov_63.0195",
+  "start": "1",
+  "end": "723",
+  "genelen": "723",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Alteromonadales"
+  },
+  {
+  "geneid": "metaerg.pl|14842",
+  "contigid": "NODE_249933_length_825_cov_20.3753",
+  "start": "510",
+  "end": "818",
+  "genelen": "309",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales"
+  },
+  {
+  "geneid": "metaerg.pl|14844",
+  "contigid": "NODE_250645_length_823_cov_113.807",
+  "start": "56",
+  "end": "823",
+  "genelen": "768",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Oceanospirillales;Nitrincolaceae;Nitrincola"
+  },
+  {
+  "geneid": "metaerg.pl|14845",
+  "contigid": "NODE_250781_length_823_cov_4.02865",
+  "start": "1",
+  "end": "823",
+  "genelen": "823",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14849",
+  "contigid": "NODE_254632_length_812_cov_116.44",
+  "start": "1",
+  "end": "811",
+  "genelen": "811",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia;Cytophagales"
+  },
+  {
+  "geneid": "metaerg.pl|14848",
+  "contigid": "NODE_254667_length_812_cov_16.646",
+  "start": "462",
+  "end": "563",
+  "genelen": "102",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14850",
+  "contigid": "NODE_255343_length_810_cov_112.31",
+  "start": "1",
+  "end": "758",
+  "genelen": "758",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Beijerinckiaceae;Salinarimonas"
+  },
+  {
+  "geneid": "metaerg.pl|14853",
+  "contigid": "NODE_257196_length_805_cov_141.089",
+  "start": "447",
+  "end": "793",
+  "genelen": "347",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria"
+  },
+  {
+  "geneid": "metaerg.pl|14854",
+  "contigid": "NODE_257603_length_804_cov_6.71028",
+  "start": "1",
+  "end": "804",
+  "genelen": "804",
+  "strand": "1",
+  "feature": "euk_28SrRNA",
+  "taxon": "Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta"
+  },
+  {
+  "geneid": "metaerg.pl|14857",
+  "contigid": "NODE_258304_length_802_cov_30.7068",
+  "start": "369",
+  "end": "802",
+  "genelen": "434",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Alteromonadales;Marinobacteraceae;Marinobacter"
+  },
+  {
+  "geneid": "metaerg.pl|14858",
+  "contigid": "NODE_259444_length_799_cov_52.7903",
+  "start": "1",
+  "end": "799",
+  "genelen": "799",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas"
+  },
+  {
+  "geneid": "metaerg.pl|14859",
+  "contigid": "NODE_261827_length_793_cov_50.2222",
+  "start": "1",
+  "end": "425",
+  "genelen": "425",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Cellvibrionales;Cellvibrionaceae;Cellvibrio"
+  },
+  {
+  "geneid": "metaerg.pl|14861",
+  "contigid": "NODE_261827_length_793_cov_50.2222",
+  "start": "578",
+  "end": "691",
+  "genelen": "114",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14865",
+  "contigid": "NODE_262214_length_792_cov_79.7639",
+  "start": "546",
+  "end": "791",
+  "genelen": "246",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Cellvibrionales;Cellvibrionaceae;uncultured"
+  },
+  {
+  "geneid": "metaerg.pl|14866",
+  "contigid": "NODE_262995_length_790_cov_37.0884",
+  "start": "186",
+  "end": "243",
+  "genelen": "58",
+  "strand": "-1",
+  "feature": "euk_5_8SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Rhodobacter"
+  },
+  {
+  "geneid": "metaerg.pl|14868",
+  "contigid": "NODE_263350_length_789_cov_47.8243",
+  "start": "1",
+  "end": "789",
+  "genelen": "789",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Xanthomonadaceae;uncultured"
+  },
+  {
+  "geneid": "metaerg.pl|14871",
+  "contigid": "NODE_263410_length_789_cov_8.18801",
+  "start": "77",
+  "end": "178",
+  "genelen": "102",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14869",
+  "contigid": "NODE_263369_length_789_cov_23.0599",
+  "start": "2",
+  "end": "498",
+  "genelen": "497",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Rhodothermia;Rhodothermales"
+  },
+  {
+  "geneid": "metaerg.pl|14870",
+  "contigid": "NODE_263369_length_789_cov_23.0599",
+  "start": "582",
+  "end": "691",
+  "genelen": "110",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14873",
+  "contigid": "NODE_265273_length_784_cov_65.8601",
+  "start": "2",
+  "end": "783",
+  "genelen": "782",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Oceanospirillales"
+  },
+  {
+  "geneid": "metaerg.pl|14876",
+  "contigid": "NODE_265675_length_783_cov_52.2843",
+  "start": "2",
+  "end": "783",
+  "genelen": "782",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria"
+  },
+  {
+  "geneid": "metaerg.pl|14878",
+  "contigid": "NODE_265742_length_783_cov_6.2033",
+  "start": "2",
+  "end": "782",
+  "genelen": "781",
+  "strand": "-1",
+  "feature": "euk_28SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14880",
+  "contigid": "NODE_266867_length_780_cov_98.2552",
+  "start": "497",
+  "end": "780",
+  "genelen": "284",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Roseinatronobacter"
+  },
+  {
+  "geneid": "metaerg.pl|14882",
+  "contigid": "NODE_267696_length_778_cov_94.9101",
+  "start": "1",
+  "end": "777",
+  "genelen": "777",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Beijerinckiaceae;Salinarimonas"
+  },
+  {
+  "geneid": "metaerg.pl|14883",
+  "contigid": "NODE_268598_length_776_cov_7.48266",
+  "start": "420",
+  "end": "519",
+  "genelen": "100",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14884",
+  "contigid": "NODE_269338_length_774_cov_70.42",
+  "start": "2",
+  "end": "774",
+  "genelen": "773",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria;Nitriliruptorales;Nitriliruptoraceae"
+  },
+  {
+  "geneid": "metaerg.pl|14886",
+  "contigid": "NODE_270689_length_771_cov_3.39665",
+  "start": "1",
+  "end": "770",
+  "genelen": "770",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Rhodothermia"
+  },
+  {
+  "geneid": "metaerg.pl|14890",
+  "contigid": "NODE_271998_length_768_cov_2.82889",
+  "start": "2",
+  "end": "454",
+  "genelen": "453",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Verrucomicrobia;Verrucomicrobiae;Opitutales;Puniceicoccaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14892",
+  "contigid": "NODE_272543_length_767_cov_2.32303",
+  "start": "273",
+  "end": "719",
+  "genelen": "447",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14894",
+  "contigid": "NODE_272646_length_766_cov_7.827",
+  "start": "253",
+  "end": "765",
+  "genelen": "513",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Cyanobacteria;Oxyphotobacteria;Nostocales;Oscillatoriaceae;Oscillatoria PCC-6304"
+  },
+  {
+  "geneid": "metaerg.pl|14895",
+  "contigid": "NODE_273281_length_765_cov_2.88451",
+  "start": "1",
+  "end": "759",
+  "genelen": "759",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Verrucomicrobia;Verrucomicrobiae"
+  },
+  {
+  "geneid": "metaerg.pl|14897",
+  "contigid": "NODE_273880_length_763_cov_204.36",
+  "start": "1",
+  "end": "761",
+  "genelen": "761",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Firmicutes;Bacilli;Bacillales;Sporolactobacillaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14898",
+  "contigid": "NODE_275185_length_760_cov_49.1177",
+  "start": "204",
+  "end": "760",
+  "genelen": "557",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia;Cytophagales;Cyclobacteriaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14899",
+  "contigid": "NODE_275752_length_759_cov_4.22727",
+  "start": "1",
+  "end": "759",
+  "genelen": "759",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales"
+  },
+  {
+  "geneid": "metaerg.pl|14900",
+  "contigid": "NODE_276080_length_758_cov_22.4751",
+  "start": "1",
+  "end": "758",
+  "genelen": "758",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria"
+  },
+  {
+  "geneid": "metaerg.pl|14901",
+  "contigid": "NODE_277312_length_755_cov_35.44",
+  "start": "1",
+  "end": "543",
+  "genelen": "543",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Nitrosococcales;Methylophagaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14902",
+  "contigid": "NODE_278627_length_752_cov_83.132",
+  "start": "5",
+  "end": "752",
+  "genelen": "748",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Cellvibrionales;Cellvibrionaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14905",
+  "contigid": "NODE_278630_length_752_cov_72.3845",
+  "start": "506",
+  "end": "751",
+  "genelen": "246",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Cellvibrionales;Cellvibrionaceae;uncultured"
+  },
+  {
+  "geneid": "metaerg.pl|14908",
+  "contigid": "NODE_280051_length_749_cov_3.90346",
+  "start": "1",
+  "end": "749",
+  "genelen": "749",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14906",
+  "contigid": "NODE_279914_length_749_cov_155.251",
+  "start": "2",
+  "end": "749",
+  "genelen": "748",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales"
+  },
+  {
+  "geneid": "metaerg.pl|14910",
+  "contigid": "NODE_280343_length_748_cov_67.1342",
+  "start": "641",
+  "end": "746",
+  "genelen": "106",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14912",
+  "contigid": "NODE_281200_length_746_cov_173.964",
+  "start": "1",
+  "end": "746",
+  "genelen": "746",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Rhodobaculum"
+  },
+  {
+  "geneid": "metaerg.pl|14914",
+  "contigid": "NODE_281204_length_746_cov_136.399",
+  "start": "2",
+  "end": "746",
+  "genelen": "745",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria;Nitriliruptorales;Nitriliruptoraceae"
+  },
+  {
+  "geneid": "metaerg.pl|14915",
+  "contigid": "NODE_281665_length_745_cov_40.2855",
+  "start": "4",
+  "end": "745",
+  "genelen": "742",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Gemmatimonadetes;Gemmatimonadetes"
+  },
+  {
+  "geneid": "metaerg.pl|14920",
+  "contigid": "NODE_282996_length_742_cov_25.0626",
+  "start": "582",
+  "end": "695",
+  "genelen": "114",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacteriales"
+  },
+  {
+  "geneid": "metaerg.pl|14916",
+  "contigid": "NODE_283335_length_742_cov_2.34498",
+  "start": "198",
+  "end": "619",
+  "genelen": "422",
+  "strand": "1",
+  "feature": "euk_28SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14922",
+  "contigid": "NODE_283405_length_741_cov_62.2172",
+  "start": "634",
+  "end": "739",
+  "genelen": "106",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14923",
+  "contigid": "NODE_283816_length_740_cov_156.939",
+  "start": "1",
+  "end": "740",
+  "genelen": "740",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales"
+  },
+  {
+  "geneid": "metaerg.pl|14926",
+  "contigid": "NODE_284727_length_738_cov_15.2958",
+  "start": "357",
+  "end": "470",
+  "genelen": "114",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14928",
+  "contigid": "NODE_286094_length_735_cov_181.381",
+  "start": "2",
+  "end": "397",
+  "genelen": "396",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Rhodobaca"
+  },
+  {
+  "geneid": "metaerg.pl|14930",
+  "contigid": "NODE_286094_length_735_cov_181.381",
+  "start": "541",
+  "end": "653",
+  "genelen": "113",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14931",
+  "contigid": "NODE_289379_length_728_cov_17.7073",
+  "start": "1",
+  "end": "480",
+  "genelen": "480",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria"
+  },
+  {
+  "geneid": "metaerg.pl|14933",
+  "contigid": "NODE_290277_length_727_cov_1.89732",
+  "start": "26",
+  "end": "727",
+  "genelen": "702",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Spirochaetes;Spirochaetia"
+  },
+  {
+  "geneid": "metaerg.pl|14934",
+  "contigid": "NODE_290756_length_725_cov_29.3821",
+  "start": "3",
+  "end": "108",
+  "genelen": "106",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14937",
+  "contigid": "NODE_292068_length_722_cov_167.055",
+  "start": "1",
+  "end": "722",
+  "genelen": "722",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Cyanobacteria;Oxyphotobacteria;Phormidesmiales;Nodosilineaceae;Nodosilinea PCC-7104"
+  },
+  {
+  "geneid": "metaerg.pl|14938",
+  "contigid": "NODE_292618_length_721_cov_6.98498",
+  "start": "1",
+  "end": "349",
+  "genelen": "349",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Gemmatimonadetes;BD2-11 terrestrial group"
+  },
+  {
+  "geneid": "metaerg.pl|14940",
+  "contigid": "NODE_293118_length_720_cov_5.47218",
+  "start": "1",
+  "end": "720",
+  "genelen": "720",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Acidimicrobiia"
+  },
+  {
+  "geneid": "metaerg.pl|14943",
+  "contigid": "NODE_293571_length_719_cov_7.8012",
+  "start": "506",
+  "end": "619",
+  "genelen": "114",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14944",
+  "contigid": "NODE_293499_length_719_cov_100.122",
+  "start": "2",
+  "end": "718",
+  "genelen": "717",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales"
+  },
+  {
+  "geneid": "metaerg.pl|14945",
+  "contigid": "NODE_294058_length_718_cov_8.7813",
+  "start": "4",
+  "end": "718",
+  "genelen": "715",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria"
+  },
+  {
+  "geneid": "metaerg.pl|14946",
+  "contigid": "NODE_296874_length_712_cov_143.479",
+  "start": "1",
+  "end": "696",
+  "genelen": "696",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae"
+  },
+  {
+  "geneid": "metaerg.pl|14947",
+  "contigid": "NODE_297406_length_711_cov_23.0259",
+  "start": "1",
+  "end": "337",
+  "genelen": "337",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Xanthomonadaceae;Lysobacter"
+  },
+  {
+  "geneid": "metaerg.pl|14950",
+  "contigid": "NODE_297387_length_711_cov_56.3628",
+  "start": "441",
+  "end": "537",
+  "genelen": "97",
+  "strand": "1",
+  "feature": "euk_5_8SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Rhodobacter"
+  },
+  {
+  "geneid": "metaerg.pl|14952",
+  "contigid": "NODE_299930_length_706_cov_55.3794",
+  "start": "7",
+  "end": "706",
+  "genelen": "700",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Rhodothermia;Balneolales"
+  },
+  {
+  "geneid": "metaerg.pl|14953",
+  "contigid": "NODE_300965_length_704_cov_84.0986",
+  "start": "2",
+  "end": "692",
+  "genelen": "691",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria"
+  },
+  {
+  "geneid": "metaerg.pl|14955",
+  "contigid": "NODE_300959_length_704_cov_183.273",
+  "start": "14",
+  "end": "704",
+  "genelen": "691",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Cyanobacteria;Oxyphotobacteria;Phormidesmiales;Nodosilineaceae;Nodosilinea PCC-7104"
+  },
+  {
+  "geneid": "metaerg.pl|14956",
+  "contigid": "NODE_301976_length_702_cov_14.3107",
+  "start": "1",
+  "end": "479",
+  "genelen": "479",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Hyphomonadaceae;Oceanicaulis"
+  },
+  {
+  "geneid": "metaerg.pl|14957",
+  "contigid": "NODE_301976_length_702_cov_14.3107",
+  "start": "569",
+  "end": "678",
+  "genelen": "110",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14958",
+  "contigid": "NODE_302523_length_701_cov_6.82353",
+  "start": "1",
+  "end": "700",
+  "genelen": "700",
+  "strand": "-1",
+  "feature": "arc_23SrRNA",
+  "taxon": "Archaea;Euryarchaeota;Halobacteria;Halobacteriales;Halococcaceae;Halalkalicoccus"
+  },
+  {
+  "geneid": "metaerg.pl|14959",
+  "contigid": "NODE_304033_length_698_cov_142.813",
+  "start": "1",
+  "end": "682",
+  "genelen": "682",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;uncultured"
+  },
+  {
+  "geneid": "metaerg.pl|14962",
+  "contigid": "NODE_307101_length_692_cov_11.6374",
+  "start": "5",
+  "end": "692",
+  "genelen": "688",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Verrucomicrobia;Verrucomicrobiae;Opitutales"
+  },
+  {
+  "geneid": "metaerg.pl|14965",
+  "contigid": "NODE_309104_length_688_cov_220.526",
+  "start": "1",
+  "end": "683",
+  "genelen": "683",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Paracoccus"
+  },
+  {
+  "geneid": "metaerg.pl|14966",
+  "contigid": "NODE_309117_length_688_cov_62.831",
+  "start": "148",
+  "end": "256",
+  "genelen": "109",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14968",
+  "contigid": "NODE_309759_length_687_cov_5.99525",
+  "start": "90",
+  "end": "184",
+  "genelen": "95",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14969",
+  "contigid": "NODE_309759_length_687_cov_5.99525",
+  "start": "378",
+  "end": "475",
+  "genelen": "98",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14970",
+  "contigid": "NODE_310724_length_685_cov_214.008",
+  "start": "5",
+  "end": "685",
+  "genelen": "681",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Rhodobaca"
+  },
+  {
+  "geneid": "metaerg.pl|14972",
+  "contigid": "NODE_312879_length_681_cov_42.8626",
+  "start": "1",
+  "end": "678",
+  "genelen": "678",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Verrucomicrobia;Verrucomicrobiae;Opitutales"
+  },
+  {
+  "geneid": "metaerg.pl|14971",
+  "contigid": "NODE_312860_length_681_cov_167.88",
+  "start": "1",
+  "end": "681",
+  "genelen": "681",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Firmicutes;Bacilli;Bacillales;Sporolactobacillaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14974",
+  "contigid": "NODE_313422_length_680_cov_159.858",
+  "start": "2",
+  "end": "397",
+  "genelen": "396",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Rhodobaca"
+  },
+  {
+  "geneid": "metaerg.pl|14976",
+  "contigid": "NODE_313422_length_680_cov_159.858",
+  "start": "496",
+  "end": "608",
+  "genelen": "113",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14977",
+  "contigid": "NODE_313960_length_679_cov_141.135",
+  "start": "2",
+  "end": "679",
+  "genelen": "678",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Cellvibrionales;Cellvibrionaceae;Marinimicrobium"
+  },
+  {
+  "geneid": "metaerg.pl|14978",
+  "contigid": "NODE_317298_length_673_cov_40.9984",
+  "start": "2",
+  "end": "672",
+  "genelen": "671",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria"
+  },
+  {
+  "geneid": "metaerg.pl|14979",
+  "contigid": "NODE_317845_length_672_cov_40.0924",
+  "start": "2",
+  "end": "671",
+  "genelen": "670",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|14980",
+  "contigid": "NODE_318985_length_670_cov_38.8927",
+  "start": "1",
+  "end": "669",
+  "genelen": "669",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Acidimicrobiia;Microtrichales;Ilumatobacteraceae"
+  },
+  {
+  "geneid": "metaerg.pl|14981",
+  "contigid": "NODE_323206_length_663_cov_3.20888",
+  "start": "10",
+  "end": "624",
+  "genelen": "615",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Planctomycetes;Planctomycetacia"
+  },
+  {
+  "geneid": "metaerg.pl|14982",
+  "contigid": "NODE_322993_length_663_cov_16.3191",
+  "start": "1",
+  "end": "663",
+  "genelen": "663",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Alteromonadales;Marinobacteraceae;Marinobacter"
+  },
+  {
+  "geneid": "metaerg.pl|14989",
+  "contigid": "NODE_327169_length_656_cov_5.61065",
+  "start": "1",
+  "end": "471",
+  "genelen": "471",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Rhodothermia;Rhodothermales;Rhodothermaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14988",
+  "contigid": "NODE_327125_length_656_cov_17",
+  "start": "1",
+  "end": "651",
+  "genelen": "651",
+  "strand": "1",
+  "feature": "arc_16SrRNA",
+  "taxon": "Archaea;Euryarchaeota;Halobacteria;Halobacteriales;Halococcaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14990",
+  "contigid": "NODE_328898_length_653_cov_15.3428",
+  "start": "2",
+  "end": "327",
+  "genelen": "326",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Cyanobacteria;Oxyphotobacteria;Nostocales;Oscillatoriaceae;Oscillatoria PCC-6304"
+  },
+  {
+  "geneid": "metaerg.pl|14993",
+  "contigid": "NODE_330079_length_651_cov_20.1896",
+  "start": "2",
+  "end": "646",
+  "genelen": "645",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Firmicutes;Bacilli;Bacillales"
+  },
+  {
+  "geneid": "metaerg.pl|14991",
+  "contigid": "NODE_330038_length_651_cov_123.592",
+  "start": "1",
+  "end": "651",
+  "genelen": "651",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Rhodothermia;Balneolales;Balneolaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14994",
+  "contigid": "NODE_332423_length_647_cov_227.4",
+  "start": "1",
+  "end": "647",
+  "genelen": "647",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Rhodobaca"
+  },
+  {
+  "geneid": "metaerg.pl|14997",
+  "contigid": "NODE_333657_length_645_cov_190.325",
+  "start": "1",
+  "end": "645",
+  "genelen": "645",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Halodurantibacterium"
+  },
+  {
+  "geneid": "metaerg.pl|14995",
+  "contigid": "NODE_333735_length_645_cov_6.62542",
+  "start": "1",
+  "end": "645",
+  "genelen": "645",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Firmicutes;Bacilli;Bacillales;Bacillaceae"
+  },
+  {
+  "geneid": "metaerg.pl|14999",
+  "contigid": "NODE_334370_length_644_cov_10.927",
+  "start": "119",
+  "end": "231",
+  "genelen": "113",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|15000",
+  "contigid": "NODE_334969_length_643_cov_15.4745",
+  "start": "1",
+  "end": "273",
+  "genelen": "273",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia"
+  },
+  {
+  "geneid": "metaerg.pl|15001",
+  "contigid": "NODE_334969_length_643_cov_15.4745",
+  "start": "483",
+  "end": "590",
+  "genelen": "108",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|15002",
+  "contigid": "NODE_339261_length_636_cov_17.1721",
+  "start": "229",
+  "end": "636",
+  "genelen": "408",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Firmicutes;Bacilli;Bacillales;Sporolactobacillaceae"
+  },
+  {
+  "geneid": "metaerg.pl|15003",
+  "contigid": "NODE_339519_length_636_cov_3.12048",
+  "start": "1",
+  "end": "435",
+  "genelen": "435",
+  "strand": "1",
+  "feature": "euk_28SrRNA",
+  "taxon": "Eukaryota;Opisthokonta;Nucletmycea;Fungi;Dikarya;Ascomycota"
+  },
+  {
+  "geneid": "metaerg.pl|15004",
+  "contigid": "NODE_339851_length_635_cov_92.4776",
+  "start": "1",
+  "end": "635",
+  "genelen": "635",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Gammaproteobacteria Incertae Sedis;Unknown Family"
+  },
+  {
+  "geneid": "metaerg.pl|15005",
+  "contigid": "NODE_341808_length_632_cov_114.539",
+  "start": "1",
+  "end": "631",
+  "genelen": "631",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales"
+  },
+  {
+  "geneid": "metaerg.pl|15006",
+  "contigid": "NODE_342593_length_631_cov_4.39063",
+  "start": "389",
+  "end": "501",
+  "genelen": "113",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|15008",
+  "contigid": "NODE_345088_length_627_cov_31.6818",
+  "start": "2",
+  "end": "627",
+  "genelen": "626",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Patescibacteria;Parcubacteria"
+  },
+  {
+  "geneid": "metaerg.pl|15007",
+  "contigid": "NODE_345078_length_627_cov_53.2115",
+  "start": "1",
+  "end": "625",
+  "genelen": "625",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas"
+  },
+  {
+  "geneid": "metaerg.pl|15009",
+  "contigid": "NODE_347828_length_623_cov_7.16197",
+  "start": "21",
+  "end": "133",
+  "genelen": "113",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|15010",
+  "contigid": "NODE_347828_length_623_cov_7.16197",
+  "start": "321",
+  "end": "623",
+  "genelen": "303",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;uncultured"
+  },
+  {
+  "geneid": "metaerg.pl|15011",
+  "contigid": "NODE_348412_length_622_cov_58.0847",
+  "start": "1",
+  "end": "620",
+  "genelen": "620",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia;Flavobacteriales;Flavobacteriaceae;Psychroflexus"
+  },
+  {
+  "geneid": "metaerg.pl|15013",
+  "contigid": "NODE_349154_length_621_cov_30.4947",
+  "start": "1",
+  "end": "620",
+  "genelen": "620",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Actinobacteria;Micrococcales;Cellulomonadaceae;Actinotalea"
+  },
+  {
+  "geneid": "metaerg.pl|15014",
+  "contigid": "NODE_351890_length_617_cov_56.952",
+  "start": "425",
+  "end": "483",
+  "genelen": "59",
+  "strand": "1",
+  "feature": "euk_5_8SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Actinobacteria;Corynebacteriales;Nocardiaceae"
+  },
+  {
+  "geneid": "metaerg.pl|15016",
+  "contigid": "NODE_352679_length_616_cov_6.54724",
+  "start": "27",
+  "end": "83",
+  "genelen": "57",
+  "strand": "-1",
+  "feature": "euk_5_8SrRNA",
+  "taxon": "Archaea;Euryarchaeota;Halobacteria;Halobacteriales;Halococcaceae;Halalkalicoccus"
+  },
+  {
+  "geneid": "metaerg.pl|15018",
+  "contigid": "NODE_352629_length_616_cov_10.9537",
+  "start": "1",
+  "end": "616",
+  "genelen": "616",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Kiritimatiellaeota;Kiritimatiellae"
+  },
+  {
+  "geneid": "metaerg.pl|15015",
+  "contigid": "NODE_352561_length_616_cov_74.1515",
+  "start": "1",
+  "end": "616",
+  "genelen": "616",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Alteromonadales;Idiomarinaceae"
+  },
+  {
+  "geneid": "metaerg.pl|15021",
+  "contigid": "NODE_353975_length_614_cov_158.007",
+  "start": "401",
+  "end": "459",
+  "genelen": "59",
+  "strand": "1",
+  "feature": "euk_5_8SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria;Nitriliruptorales;Nitriliruptoraceae"
+  },
+  {
+  "geneid": "metaerg.pl|15022",
+  "contigid": "NODE_354911_length_613_cov_3.31362",
+  "start": "1",
+  "end": "612",
+  "genelen": "612",
+  "strand": "-1",
+  "feature": "euk_18SrRNA",
+  "taxon": "Eukaryota;Excavata;Discoba;Discicristata;Heterolobosea"
+  },
+  {
+  "geneid": "metaerg.pl|15024",
+  "contigid": "NODE_355326_length_612_cov_186.654",
+  "start": "6",
+  "end": "612",
+  "genelen": "607",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria;Nitriliruptorales"
+  },
+  {
+  "geneid": "metaerg.pl|15026",
+  "contigid": "NODE_356134_length_611_cov_14.0665",
+  "start": "1",
+  "end": "611",
+  "genelen": "611",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Rhodothermia;Balneolales"
+  },
+  {
+  "geneid": "metaerg.pl|15027",
+  "contigid": "NODE_356769_length_610_cov_158.924",
+  "start": "2",
+  "end": "610",
+  "genelen": "609",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Cellvibrionales"
+  },
+  {
+  "geneid": "metaerg.pl|15028",
+  "contigid": "NODE_358889_length_607_cov_24.3551",
+  "start": "1",
+  "end": "607",
+  "genelen": "607",
+  "strand": "-1",
+  "feature": "euk_18SrRNA",
+  "taxon": "Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Chlorophyceae"
+  },
+  {
+  "geneid": "metaerg.pl|15031",
+  "contigid": "NODE_358864_length_607_cov_50.5906",
+  "start": "1",
+  "end": "606",
+  "genelen": "606",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Acidimicrobiia;Microtrichales"
+  },
+  {
+  "geneid": "metaerg.pl|15036",
+  "contigid": "NODE_359518_length_606_cov_121.691",
+  "start": "2",
+  "end": "605",
+  "genelen": "604",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales"
+  },
+  {
+  "geneid": "metaerg.pl|15037",
+  "contigid": "NODE_360936_length_604_cov_114.035",
+  "start": "1",
+  "end": "590",
+  "genelen": "590",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Gammaproteobacteria Incertae Sedis"
+  },
+  {
+  "geneid": "metaerg.pl|15038",
+  "contigid": "NODE_362327_length_602_cov_85.574",
+  "start": "1",
+  "end": "602",
+  "genelen": "602",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae"
+  },
+  {
+  "geneid": "metaerg.pl|15039",
+  "contigid": "NODE_363979_length_600_cov_4.04954",
+  "start": "4",
+  "end": "600",
+  "genelen": "597",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Rhodothermia;Rhodothermales"
+  },
+  {
+  "geneid": "metaerg.pl|15041",
+  "contigid": "NODE_364540_length_599_cov_71.7684",
+  "start": "189",
+  "end": "599",
+  "genelen": "411",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae;Natronohydrobacter"
+  },
+  {
+  "geneid": "metaerg.pl|15040",
+  "contigid": "NODE_364604_length_599_cov_13.0551",
+  "start": "1",
+  "end": "594",
+  "genelen": "594",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Verrucomicrobia;Verrucomicrobiae;Opitutales"
+  },
+  {
+  "geneid": "metaerg.pl|15042",
+  "contigid": "NODE_366890_length_596_cov_128.621",
+  "start": "197",
+  "end": "595",
+  "genelen": "399",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Alteromonadales;Idiomarinaceae;Aliidiomarina"
+  },
+  {
+  "geneid": "metaerg.pl|15045",
+  "contigid": "NODE_372224_length_589_cov_11.7097",
+  "start": "197",
+  "end": "589",
+  "genelen": "393",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Rhodothermia;Balneolales"
+  },
+  {
+  "geneid": "metaerg.pl|15046",
+  "contigid": "NODE_372965_length_588_cov_43.0901",
+  "start": "1",
+  "end": "588",
+  "genelen": "588",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Oceanospirillales"
+  },
+  {
+  "geneid": "metaerg.pl|15048",
+  "contigid": "NODE_376253_length_584_cov_4.27221",
+  "start": "6",
+  "end": "371",
+  "genelen": "366",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Rhodothermia;Rhodothermales;Rhodothermaceae"
+  },
+  {
+  "geneid": "metaerg.pl|15050",
+  "contigid": "NODE_378529_length_581_cov_17.0323",
+  "start": "1",
+  "end": "581",
+  "genelen": "581",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Deltaproteobacteria"
+  },
+  {
+  "geneid": "metaerg.pl|15052",
+  "contigid": "NODE_378591_length_581_cov_5.75095",
+  "start": "2",
+  "end": "456",
+  "genelen": "455",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Verrucomicrobia;Verrucomicrobiae;Opitutales"
+  },
+  {
+  "geneid": "metaerg.pl|15054",
+  "contigid": "NODE_379920_length_580_cov_2.14095",
+  "start": "25",
+  "end": "580",
+  "genelen": "556",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|15053",
+  "contigid": "NODE_379235_length_580_cov_147.173",
+  "start": "1",
+  "end": "580",
+  "genelen": "580",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Oceanospirillales;Halomonadaceae;Halomonas"
+  },
+  {
+  "geneid": "metaerg.pl|15055",
+  "contigid": "NODE_381562_length_578_cov_2.16252",
+  "start": "1",
+  "end": "498",
+  "genelen": "498",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Patescibacteria;Gracilibacteria;Candidatus Peregrinibacteria"
+  },
+  {
+  "geneid": "metaerg.pl|15056",
+  "contigid": "NODE_383423_length_575_cov_7.46538",
+  "start": "1",
+  "end": "574",
+  "genelen": "574",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia;Cytophagales"
+  },
+  {
+  "geneid": "metaerg.pl|15057",
+  "contigid": "NODE_383592_length_575_cov_3.40769",
+  "start": "116",
+  "end": "223",
+  "genelen": "108",
+  "strand": "-1",
+  "feature": "arc_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|15058",
+  "contigid": "NODE_384648_length_574_cov_2.57996",
+  "start": "3",
+  "end": "448",
+  "genelen": "446",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|15059",
+  "contigid": "NODE_386754_length_571_cov_6.73256",
+  "start": "1",
+  "end": "571",
+  "genelen": "571",
+  "strand": "1",
+  "feature": "arc_16SrRNA",
+  "taxon": "Archaea;Euryarchaeota;Halobacteria;Halobacteriales;Halococcaceae;Halalkalicoccus"
+  },
+  {
+  "geneid": "metaerg.pl|15064",
+  "contigid": "NODE_389295_length_568_cov_9.84211",
+  "start": "2",
+  "end": "568",
+  "genelen": "567",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia"
+  },
+  {
+  "geneid": "metaerg.pl|15063",
+  "contigid": "NODE_389591_length_568_cov_2.9883",
+  "start": "248",
+  "end": "537",
+  "genelen": "290",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|15062",
+  "contigid": "NODE_389431_length_568_cov_3.79337",
+  "start": "1",
+  "end": "567",
+  "genelen": "567",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia"
+  },
+  {
+  "geneid": "metaerg.pl|15065",
+  "contigid": "NODE_390126_length_567_cov_20.2129",
+  "start": "390",
+  "end": "491",
+  "genelen": "102",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|15066",
+  "contigid": "NODE_390457_length_567_cov_3.08398",
+  "start": "1",
+  "end": "565",
+  "genelen": "565",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Planctomycetes;Planctomycetacia"
+  },
+  {
+  "geneid": "metaerg.pl|15067",
+  "contigid": "NODE_392811_length_564_cov_4.11788",
+  "start": "4",
+  "end": "564",
+  "genelen": "561",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Rhodothermia"
+  },
+  {
+  "geneid": "metaerg.pl|15068",
+  "contigid": "NODE_394288_length_562_cov_150.487",
+  "start": "1",
+  "end": "562",
+  "genelen": "562",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Firmicutes;Bacilli;Bacillales;Sporolactobacillaceae;Salipaludibacillus"
+  },
+  {
+  "geneid": "metaerg.pl|15069",
+  "contigid": "NODE_396938_length_559_cov_59.5079",
+  "start": "146",
+  "end": "258",
+  "genelen": "113",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|15071",
+  "contigid": "NODE_398767_length_557_cov_7.5239",
+  "start": "1",
+  "end": "314",
+  "genelen": "314",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia;Cytophagales"
+  },
+  {
+  "geneid": "metaerg.pl|15072",
+  "contigid": "NODE_398767_length_557_cov_7.5239",
+  "start": "488",
+  "end": "557",
+  "genelen": "70",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|15073",
+  "contigid": "NODE_398676_length_557_cov_65.259",
+  "start": "98",
+  "end": "210",
+  "genelen": "113",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|15076",
+  "contigid": "NODE_398676_length_557_cov_65.259",
+  "start": "305",
+  "end": "556",
+  "genelen": "252",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae"
+  },
+  {
+  "geneid": "metaerg.pl|15079",
+  "contigid": "NODE_404785_length_550_cov_90.899",
+  "start": "3",
+  "end": "549",
+  "genelen": "547",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Gemmatimonadetes;Gemmatimonadetes;Gemmatimonadales"
+  },
+  {
+  "geneid": "metaerg.pl|15078",
+  "contigid": "NODE_404776_length_550_cov_165.115",
+  "start": "55",
+  "end": "549",
+  "genelen": "495",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Oceanospirillales;Halomonadaceae;Halomonas"
+  },
+  {
+  "geneid": "metaerg.pl|15080",
+  "contigid": "NODE_406586_length_548_cov_31.6653",
+  "start": "1",
+  "end": "548",
+  "genelen": "548",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Vibrionales;Vibrionaceae;Vibrio"
+  },
+  {
+  "geneid": "metaerg.pl|15081",
+  "contigid": "NODE_409228_length_545_cov_49.349",
+  "start": "1",
+  "end": "545",
+  "genelen": "545",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Firmicutes;Clostridia;Clostridiales"
+  },
+  {
+  "geneid": "metaerg.pl|15082",
+  "contigid": "NODE_410078_length_544_cov_102.276",
+  "start": "1",
+  "end": "544",
+  "genelen": "544",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Cyanobacteria;Oxyphotobacteria;Nostocales;Nostocaceae;Nodularia PCC-9350"
+  },
+  {
+  "geneid": "metaerg.pl|15084",
+  "contigid": "NODE_410953_length_543_cov_145.459",
+  "start": "1",
+  "end": "543",
+  "genelen": "543",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Cyanobacteria;Oxyphotobacteria;Phormidesmiales;Nodosilineaceae;Nodosilinea PCC-7104"
+  },
+  {
+  "geneid": "metaerg.pl|15085",
+  "contigid": "NODE_410955_length_543_cov_131.412",
+  "start": "230",
+  "end": "543",
+  "genelen": "314",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Alteromonadales;Idiomarinaceae"
+  },
+  {
+  "geneid": "metaerg.pl|15088",
+  "contigid": "NODE_413831_length_540_cov_25.5711",
+  "start": "54",
+  "end": "155",
+  "genelen": "102",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|15087",
+  "contigid": "NODE_413793_length_540_cov_92.266",
+  "start": "3",
+  "end": "540",
+  "genelen": "538",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Firmicutes;Bacilli;Bacillales"
+  },
+  {
+  "geneid": "metaerg.pl|15090",
+  "contigid": "NODE_416670_length_537_cov_19.4813",
+  "start": "5",
+  "end": "428",
+  "genelen": "424",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia;Cytophagales"
+  },
+  {
+  "geneid": "metaerg.pl|15091",
+  "contigid": "NODE_418658_length_535_cov_12.7604",
+  "start": "1",
+  "end": "535",
+  "genelen": "535",
+  "strand": "1",
+  "feature": "euk_28SrRNA",
+  "taxon": "Eukaryota;Opisthokonta;Nucletmycea;Fungi"
+  },
+  {
+  "geneid": "metaerg.pl|15092",
+  "contigid": "NODE_419491_length_534_cov_65.3382",
+  "start": "1",
+  "end": "534",
+  "genelen": "534",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Bacteroidia;Cytophagales;Cyclobacteriaceae;Indibacter"
+  },
+  {
+  "geneid": "metaerg.pl|15093",
+  "contigid": "NODE_421224_length_533_cov_2.07322",
+  "start": "116",
+  "end": "533",
+  "genelen": "418",
+  "strand": "1",
+  "feature": "euk_18SrRNA",
+  "taxon": "Eukaryota;SAR;Alveolata"
+  },
+  {
+  "geneid": "metaerg.pl|15094",
+  "contigid": "NODE_422235_length_532_cov_1.80294",
+  "start": "1",
+  "end": "532",
+  "genelen": "532",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Verrucomicrobia;Verrucomicrobiae;Opitutales"
+  },
+  {
+  "geneid": "metaerg.pl|15095",
+  "contigid": "NODE_421413_length_532_cov_40.9266",
+  "start": "2",
+  "end": "532",
+  "genelen": "531",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Rhodothermia;Balneolales;Balneolaceae;Rhodohalobacter"
+  },
+  {
+  "geneid": "metaerg.pl|15096",
+  "contigid": "NODE_424409_length_529_cov_13.6962",
+  "start": "273",
+  "end": "377",
+  "genelen": "105",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|15100",
+  "contigid": "NODE_426393_length_527_cov_13.9131",
+  "start": "428",
+  "end": "527",
+  "genelen": "100",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "Bacteria;Firmicutes;Clostridia"
+  },
+  {
+  "geneid": "metaerg.pl|15101",
+  "contigid": "NODE_426844_length_527_cov_2.58686",
+  "start": "131",
+  "end": "238",
+  "genelen": "108",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|15103",
+  "contigid": "NODE_428298_length_525_cov_17.8745",
+  "start": "229",
+  "end": "523",
+  "genelen": "295",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Actinobacteria;Nitriliruptoria;Nitriliruptorales"
+  },
+  {
+  "geneid": "metaerg.pl|15104",
+  "contigid": "NODE_429627_length_524_cov_3.52665",
+  "start": "1",
+  "end": "524",
+  "genelen": "524",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales;Acetobacteraceae"
+  },
+  {
+  "geneid": "metaerg.pl|15108",
+  "contigid": "NODE_431638_length_522_cov_3.33619",
+  "start": "1",
+  "end": "522",
+  "genelen": "522",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|15110",
+  "contigid": "NODE_432331_length_521_cov_103.3",
+  "start": "1",
+  "end": "521",
+  "genelen": "521",
+  "strand": "-1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Rhizobiaceae;Chelativorans"
+  },
+  {
+  "geneid": "metaerg.pl|15111",
+  "contigid": "NODE_433627_length_520_cov_3.75914",
+  "start": "2",
+  "end": "510",
+  "genelen": "509",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Cyanobacteria;Oxyphotobacteria;Chloroplast"
+  },
+  {
+  "geneid": "metaerg.pl|15112",
+  "contigid": "NODE_434470_length_519_cov_61.5172",
+  "start": "1",
+  "end": "308",
+  "genelen": "308",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae"
+  },
+  {
+  "geneid": "metaerg.pl|15113",
+  "contigid": "NODE_434470_length_519_cov_61.5172",
+  "start": "464",
+  "end": "519",
+  "genelen": "56",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|15114",
+  "contigid": "NODE_435937_length_518_cov_3.0216",
+  "start": "1",
+  "end": "70",
+  "genelen": "70",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|15115",
+  "contigid": "NODE_439107_length_515_cov_2.71739",
+  "start": "97",
+  "end": "515",
+  "genelen": "419",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Patescibacteria;Gracilibacteria"
+  },
+  {
+  "geneid": "metaerg.pl|15117",
+  "contigid": "NODE_439587_length_514_cov_52.4553",
+  "start": "347",
+  "end": "458",
+  "genelen": "112",
+  "strand": "1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|15118",
+  "contigid": "NODE_440613_length_513_cov_52",
+  "start": "1",
+  "end": "468",
+  "genelen": "468",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Chloroflexi;Chloroflexia;Thermomicrobiales;Thermomicrobiaceae"
+  },
+  {
+  "geneid": "metaerg.pl|15120",
+  "contigid": "NODE_441769_length_512_cov_19.3392",
+  "start": "203",
+  "end": "511",
+  "genelen": "309",
+  "strand": "1",
+  "feature": "bac_16SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Gammaproteobacteria;Alteromonadales;Marinobacteraceae"
+  },
+  {
+  "geneid": "metaerg.pl|15121",
+  "contigid": "NODE_442770_length_511_cov_101.276",
+  "start": "1",
+  "end": "510",
+  "genelen": "510",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales"
+  },
+  {
+  "geneid": "metaerg.pl|15122",
+  "contigid": "NODE_444082_length_510_cov_4.1033",
+  "start": "1",
+  "end": "510",
+  "genelen": "510",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Cyanobacteria;Oxyphotobacteria;Chloroplast"
+  },
+  {
+  "geneid": "metaerg.pl|15123",
+  "contigid": "NODE_446295_length_508_cov_3.65784",
+  "start": "3",
+  "end": "114",
+  "genelen": "112",
+  "strand": "-1",
+  "feature": "bac_5SrRNA",
+  "taxon": "unknown"
+  },
+  {
+  "geneid": "metaerg.pl|15124",
+  "contigid": "NODE_446295_length_508_cov_3.65784",
+  "start": "203",
+  "end": "508",
+  "genelen": "306",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Rhodothermia"
+  },
+  {
+  "geneid": "metaerg.pl|15125",
+  "contigid": "NODE_450456_length_504_cov_36.196",
+  "start": "2",
+  "end": "504",
+  "genelen": "503",
+  "strand": "1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Bacteroidetes;Rhodothermia;Balneolales"
+  },
+  {
+  "geneid": "metaerg.pl|15126",
+  "contigid": "NODE_451534_length_503_cov_87.9576",
+  "start": "1",
+  "end": "502",
+  "genelen": "502",
+  "strand": "-1",
+  "feature": "bac_23SrRNA",
+  "taxon": "Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales;Rhodobacteraceae"
+  }
+ ]

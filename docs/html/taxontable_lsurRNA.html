@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>LSU rRNA Gene Table</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../style.css">
+  <script type="text/javascript"  src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script type="text/javascript"  src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript"  src="../js/dataTables.fixedColumns.min.js"></script>
+  <script type="text/javascript" src="../data/taxon.lsu.profile.datatable.json"></script>
+  <script type="text/javascript" class="init">
+    $(document).ready(function() {
+    $('#genetable').DataTable( {
+    "iDisplayLength": 50,
+    "aLengthMenu": [[25, 50, 100,500,1000,-1], [25, 50,100,500,1000, "All"]],
+    scrollY:        "700px",
+    scrollX:        true,
+    scrollCollapse: true,
+    fixedColumns:   {leftColumns: 1},
+    "aaData": data,
+    "columns": tablecol
+    } );
+    } );
+    
+  </script>
+   
+</head>
+<body class="wide comments example">
+  <div id="outform">
+    
+    <div class="jumbotron text-center mb-0 mt-5">
+      <h1>Metagenome Annotation Pipeline</h1>
+    </div>
+    <nav class="site-header py-0 mb-5">
+      <div class="container d-flex justify-content-end">
+	<a class="pl-4 d-none d-md-inline-block" href="../index.html">Home</a>
+	
+	<a class="pl-4 d-none d-md-inline-block" href="../help.html">Help</a>
+      </div>
+    </nav>
+    <div class="content">
+      <h2 style="text-align:center;">LSU rRNA gene taxonomic profile</h2>
+      <table id="genetable" class="stripe row-border order-column cell-border" style="width: 100%; word-wrap:break-word;table-layout: fixed;">
+	<thead>
+	</thead>
+      </table>
+      
+    </div>
+    <footer>
+      <div class="col-xs-12 mt-5">
+	<!--Footer Bottom-->
+	<p class="text-center" >Problems? Questions? Suggestions? Please contact  <a href="mailto:xdong@ucalgary.ca">Xiaoli Dong</a> or <a href="mailto:mstrous@ucalgary.ca">Marc Strous</a></p>
+	<p class="text-center">
+	  <a href="http://www.ucalgary.ca/ebg/">Energy Bioengineering Group</a> in <a href="http://geoscience.ucalgary.ca/">Department of Geoscience</a> at <a href="http://www.ucalgary.ca">Univeristy of Calgary</a></p>
+																										     </div>
+    </footer>
+    
+  </div>
+</body>
+</html>

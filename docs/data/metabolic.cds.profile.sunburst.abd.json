@@ -1,0 +1,199 @@
+data = {
+ "text":"Foam",
+ "children": [
+ {
+  "text": "C1 compounds",
+  "children":[
+   {
+    "text": "Formate oxidation",
+    "children":[
+     {
+      "text": "formate dehydrogenase, gamma subunit",
+      "size": 217.06
+     },
+     {
+      "text": "formate dehydrogenase, alpha subunit",
+      "size": 217.69
+     }
+    ]
+   },
+   {
+    "text": "Formaldehyde oxidation",
+    "children":[
+     {
+      "text": "S-(hydroxymethyl)glutathione dehydrogenase",
+      "size": 89.75
+     },
+     {
+      "text": "S-formylglutathione hydrolase",
+      "size": 256.74
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Carbon monoxide",
+  "children":[
+   {
+    "text": "CO oxidation",
+    "children":[
+     {
+      "text": "coxL",
+      "size": 120.76
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Halogenated compounds",
+  "children":[
+   {
+    "text": "Halogenated compounds breakdown",
+    "children":[
+     {
+      "text": "Haloacid dehydrogenase",
+      "size": 13.34
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Urea",
+  "children":[
+   {
+    "text": "Urease",
+    "children":[
+     {
+      "text": "ureA",
+      "size": 195.59
+     },
+     {
+      "text": "ureB",
+      "size": 195.59
+     },
+     {
+      "text": "ureC",
+      "size": 195.59
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Nitrogen",
+  "children":[
+   {
+    "text": "N2 fixation",
+    "children":[
+     {
+      "text": "Mo-Fe type beta",
+      "size": 72.42
+     },
+     {
+      "text": "Mo-Fe type Alpha",
+      "size": 72.42
+     },
+     {
+      "text": "nifH",
+      "size": 72.17
+     }
+    ]
+   },
+   {
+    "text": "Nitrite reduction",
+    "children":[
+     {
+      "text": "NirD",
+      "size": 204.63
+     },
+     {
+      "text": "NirB",
+      "size": 204.63
+     },
+     {
+      "text": "cyt c552 small NrfH",
+      "size": 37.25
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Sulfur",
+  "children":[
+   {
+    "text": "thiosulfate oxidation",
+    "children":[
+     {
+      "text": "soxB",
+      "size": 209.74
+     },
+     {
+      "text": "soxC",
+      "size": 209.74
+     },
+     {
+      "text": "soxY",
+      "size": 209.74
+     }
+    ]
+   }
+  ]
+  },
+ {
+  "text": "Oxygen",
+  "children":[
+   {
+    "text": "Cytochrome c oxidase, cbb3-type",
+    "children":[
+     {
+      "text": "ccoN",
+      "size": 28.95
+     },
+     {
+      "text": "ccoO",
+      "size": 28.95
+     },
+     {
+      "text": "ccoP",
+      "size": 42.28
+     }
+    ]
+   },
+   {
+    "text": "Cytochrome (quinone) oxidase, bo type",
+    "children":[
+     {
+      "text": "CyoE",
+      "size": 314.12
+     }
+    ]
+   },
+   {
+    "text": "Cytochrome c oxidase, caa3-type",
+    "children":[
+     {
+      "text": "CoxA",
+      "size": 426.85
+     },
+     {
+      "text": "CoxB",
+      "size": 384.71
+     }
+    ]
+   },
+   {
+    "text": "Cytochrome (quinone) oxidase, bd type",
+    "children":[
+     {
+      "text": "CydB",
+      "size": 80.64
+     }
+    ]
+   }
+  ]
+  }
+]}

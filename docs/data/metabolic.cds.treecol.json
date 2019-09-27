@@ -1,0 +1,13 @@
+treecol = [
+{
+header: "Metabolic_genes"
+},
+{value: "Count", header: "Count"},
+{value: "Count_pct", header: "Count%"},
+{value: "Abund", header: "Abund"},
+{value: "Abund_pct", header: "Abund%"},
+{value: "Abund_pct_DLM2", header: "DLM2%"},
+{value: "Abund_pct_GEM2", header: "GEM2%"},
+{value: "Abund_pct_LCM1", header: "LCM1%"},
+{width: "100px", value: "Abund_pct_PLM2", header: "PLM2%"}
+];

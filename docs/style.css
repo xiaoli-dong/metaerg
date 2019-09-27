@@ -1,0 +1,168 @@
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    line-height: 150%;
+    background-color:dimgray;
+}
+
+#outform{
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    overflow:auto;
+    clear:both;
+    text-align: left;
+    //border: 5px solid red;
+}
+#container{
+//border: 5px solid red;
+width: 100%;
+margin: 0 auto;
+display:block;
+overflow:auto;
+clear:both;
+
+}
+.content{
+//border: 5px solid red;
+width: 95%;
+margin: 0 auto;
+display:block;
+overflow:auto;
+clear:both;
+text-align: left;
+
+}
+.jumbotron{
+    margin: auto;
+    padding: auto;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-image: url("images/banner.png");
+    background-color: #FFFFFF;
+    text-align: right;
+    color: #000000;
+    
+    
+}
+
+.site-header {
+    background-color: #ffae03;
+}
+
+.site-header a {
+    color: #333333;
+    padding: 15px;
+}
+.site-header a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.tablecap {
+    line-height: 120%;
+    caption-side:top;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.tooltip-inner  {
+    text-align: center;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    margin-bottom: 6px;
+    background-color: #505050;
+    // font-size: 14px;
+    min-width: initial;
+    max-width: 500px;
+}
+
+@media (max-width: 320px) {
+    .tooltip-inner {
+        min-width: initial;
+         width: 320px;
+    }
+}
+
+th {
+    background-color:#666666;
+    color: white;
+    text-valign: middle;
+    height: 20px;
+    padding-top: 40px;
+}
+
+#chart {
+  position: relative;
+  text-align: center;
+  background-color: #EBF3FD;
+  border: #fa9f42 1px solid;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+#chart path {
+  stroke: #fff;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: left;
+  width: auto;
+  height: auto;
+  padding: 8px;
+  font: 12px sans-serif;
+  background: #0a2538;
+  border: #0a2538 1px solid;
+  border-radius: 0px;
+  pointer-events: none;
+  color: white;
+}
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    border: none;
+    background: transparent;
+    word-wrap:normal;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    border: none;
+    background: transparent;
+    word-wrap:normal;
+    text-align: center;
+
+}
+ /* Ensure that the demo table scrolls */
+
+table.dataTable th, td{ 
+    //white-space: nowrap; 
+    text-align: left;
+}
+table.dataTable tr{ 
+    height: 40px;
+}
+div.dataTables_wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+#sep {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: url("images/blueline.gif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 7px;
+}

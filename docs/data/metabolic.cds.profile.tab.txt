@@ -1,0 +1,26 @@
+#Gene-Compound-Process	Count	Count_pct	Abund	Abund_pct	Abund_DLM2	Abund_pct_DLM2	Abund_GEM2	Abund_pct_GEM2	Abund_LCM1	Abund_pct_LCM1	Abund_PLM2	Abund_pct_PLM2
+Sulfur;thiosulfate oxidation;soxC;	1	0.01	209.74	0.01	0.01	0.00	0.50	0.00	208.87	0.02	0.36	0.00
+Oxygen;Cytochrome c oxidase, caa3-type;CoxA;	6	0.06	426.85	0.03	0.25	0.00	17.04	0.01	405.12	0.04	4.44	0.00
+Nitrogen;Nitrite reduction;NirD;	1	0.01	204.63	0.01	0.01	0.00	0.65	0.00	203.32	0.02	0.64	0.00
+Nitrogen;N2 fixation;Mo-Fe type Alpha;	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+Nitrogen;Nitrite reduction;NirB;	1	0.01	204.63	0.01	0.01	0.00	0.65	0.00	203.32	0.02	0.64	0.00
+Oxygen;Cytochrome c oxidase, cbb3-type;ccoN;	1	0.01	28.95	0.00	9.91	0.01	1.36	0.00	14.98	0.00	2.70	0.00
+Urea;Urease;ureA;	1	0.01	195.59	0.01	0.01	0.00	0.42	0.00	194.83	0.02	0.33	0.00
+Oxygen;Cytochrome (quinone) oxidase, bd type;CydB;	2	0.02	80.64	0.01	0.00	0.00	0.11	0.00	80.48	0.01	0.05	0.00
+Oxygen;Cytochrome c oxidase, cbb3-type;ccoP;	2	0.02	42.28	0.00	10.13	0.01	1.38	0.00	27.98	0.00	2.79	0.00
+Halogenated compounds;Halogenated compounds breakdown;Haloacid dehydrogenase;	1	0.01	13.34	0.00	0.21	0.00	0.03	0.00	13.00	0.00	0.10	0.00
+C1 compounds;Formaldehyde oxidation;S-(hydroxymethyl)glutathione dehydrogenase;	2	0.02	89.75	0.01	0.03	0.00	4.07	0.00	84.75	0.01	0.90	0.00
+C1 compounds;Formate oxidation;formate dehydrogenase, alpha subunit;	2	0.02	217.69	0.01	0.01	0.00	0.40	0.00	216.93	0.02	0.35	0.00
+C1 compounds;Formate oxidation;formate dehydrogenase, gamma subunit;	1	0.01	217.06	0.01	0.01	0.00	0.47	0.00	216.16	0.02	0.42	0.00
+Carbon monoxide;CO oxidation;coxL;	2	0.02	120.76	0.01	0.35	0.00	4.50	0.00	114.53	0.01	1.37	0.00
+Urea;Urease;ureC;	1	0.01	195.59	0.01	0.01	0.00	0.42	0.00	194.83	0.02	0.33	0.00
+Urea;Urease;ureB;	1	0.01	195.59	0.01	0.01	0.00	0.42	0.00	194.83	0.02	0.33	0.00
+Sulfur;thiosulfate oxidation;soxB;	1	0.01	209.74	0.01	0.01	0.00	0.50	0.00	208.87	0.02	0.36	0.00
+Oxygen;Cytochrome c oxidase, caa3-type;CoxB;	5	0.05	384.71	0.02	0.02	0.00	0.65	0.00	381.91	0.04	2.13	0.00
+Nitrogen;N2 fixation;nifH;	1	0.01	72.17	0.00	0.00	0.00	0.02	0.00	72.14	0.01	0.01	0.00
+Nitrogen;Nitrite reduction;cyt c552 small NrfH;	1	0.01	37.25	0.00	0.78	0.00	0.04	0.00	36.21	0.00	0.22	0.00
+C1 compounds;Formaldehyde oxidation;S-formylglutathione hydrolase;	2	0.02	256.74	0.02	0.01	0.00	0.57	0.00	255.82	0.03	0.34	0.00
+Oxygen;Cytochrome c oxidase, cbb3-type;ccoO;	1	0.01	28.95	0.00	9.91	0.01	1.36	0.00	14.98	0.00	2.70	0.00
+Sulfur;thiosulfate oxidation;soxY;	1	0.01	209.74	0.01	0.01	0.00	0.50	0.00	208.87	0.02	0.36	0.00
+Nitrogen;N2 fixation;Mo-Fe type beta;	1	0.01	72.42	0.00	0.01	0.00	0.04	0.00	72.35	0.01	0.02	0.00
+Oxygen;Cytochrome (quinone) oxidase, bo type;CyoE;	4	0.04	314.12	0.02	9.96	0.01	1.97	0.00	297.62	0.03	4.58	0.00

@@ -1,0 +1,2622 @@
+data = [
+  {
+  "geneid": "metaerg.pl|00001",
+  "contigid": "NODE_1_length_345883_cov_22.9161",
+  "start": "168",
+  "end": "240",
+  "genelen": "73",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Asp_gtc"
+  },
+  {
+  "geneid": "metaerg.pl|00002",
+  "contigid": "NODE_1_length_345883_cov_22.9161",
+  "start": "248",
+  "end": "318",
+  "genelen": "71",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Gly_tcc"
+  },
+  {
+  "geneid": "metaerg.pl|00003",
+  "contigid": "NODE_1_length_345883_cov_22.9161",
+  "start": "348",
+  "end": "421",
+  "genelen": "74",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|00004",
+  "contigid": "NODE_1_length_345883_cov_22.9161",
+  "start": "444",
+  "end": "534",
+  "genelen": "91",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ser_gct"
+  },
+  {
+  "geneid": "metaerg.pl|00005",
+  "contigid": "NODE_1_length_345883_cov_22.9161",
+  "start": "555",
+  "end": "626",
+  "genelen": "72",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Glu_ttc"
+  },
+  {
+  "geneid": "metaerg.pl|00006",
+  "contigid": "NODE_1_length_345883_cov_22.9161",
+  "start": "650",
+  "end": "739",
+  "genelen": "90",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ser_tga"
+  },
+  {
+  "geneid": "metaerg.pl|00007",
+  "contigid": "NODE_1_length_345883_cov_22.9161",
+  "start": "877",
+  "end": "949",
+  "genelen": "73",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Asp_gtc"
+  },
+  {
+  "geneid": "metaerg.pl|00008",
+  "contigid": "NODE_1_length_345883_cov_22.9161",
+  "start": "962",
+  "end": "1034",
+  "genelen": "73",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Phe_gaa"
+  },
+  {
+  "geneid": "metaerg.pl|00009",
+  "contigid": "NODE_1_length_345883_cov_22.9161",
+  "start": "1042",
+  "end": "1114",
+  "genelen": "73",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Gly_tcc"
+  },
+  {
+  "geneid": "metaerg.pl|00196",
+  "contigid": "NODE_1_length_345883_cov_22.9161",
+  "start": "154454",
+  "end": "154526",
+  "genelen": "73",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_ggc"
+  },
+  {
+  "geneid": "metaerg.pl|00324",
+  "contigid": "NODE_1_length_345883_cov_22.9161",
+  "start": "269853",
+  "end": "269926",
+  "genelen": "74",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Arg_tct"
+  },
+  {
+  "geneid": "metaerg.pl|00580",
+  "contigid": "NODE_2_length_224354_cov_20.305",
+  "start": "150898",
+  "end": "150971",
+  "genelen": "74",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_???_aa"
+  },
+  {
+  "geneid": "metaerg.pl|00581",
+  "contigid": "NODE_2_length_224354_cov_20.305",
+  "start": "152221",
+  "end": "152303",
+  "genelen": "83",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Tyr_gta"
+  },
+  {
+  "geneid": "metaerg.pl|00796",
+  "contigid": "NODE_3_length_206448_cov_46.9221",
+  "start": "81601",
+  "end": "81697",
+  "genelen": "97",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_seC_tca"
+  },
+  {
+  "geneid": "metaerg.pl|00926",
+  "contigid": "NODE_4_length_188394_cov_35.2671",
+  "start": "262",
+  "end": "338",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Val_gac"
+  },
+  {
+  "geneid": "metaerg.pl|00935",
+  "contigid": "NODE_4_length_188394_cov_35.2671",
+  "start": "8014",
+  "end": "8090",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Pro_ggg"
+  },
+  {
+  "geneid": "metaerg.pl|00969",
+  "contigid": "NODE_4_length_188394_cov_35.2671",
+  "start": "32106",
+  "end": "32182",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Asn_gtt"
+  },
+  {
+  "geneid": "metaerg.pl|01061",
+  "contigid": "NODE_4_length_188394_cov_35.2671",
+  "start": "108073",
+  "end": "108148",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Phe_gaa"
+  },
+  {
+  "geneid": "metaerg.pl|01614",
+  "contigid": "NODE_7_length_156761_cov_90.1325",
+  "start": "4229",
+  "end": "4304",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Lys_ttt"
+  },
+  {
+  "geneid": "metaerg.pl|01692",
+  "contigid": "NODE_7_length_156761_cov_90.1325",
+  "start": "61387",
+  "end": "61462",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Trp_cca"
+  },
+  {
+  "geneid": "metaerg.pl|01723",
+  "contigid": "NODE_7_length_156761_cov_90.1325",
+  "start": "84642",
+  "end": "84718",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_His_gtg"
+  },
+  {
+  "geneid": "metaerg.pl|01780",
+  "contigid": "NODE_7_length_156761_cov_90.1325",
+  "start": "133699",
+  "end": "133791",
+  "genelen": "93",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Arg_ccg"
+  },
+  {
+  "geneid": "metaerg.pl|01815",
+  "contigid": "NODE_8_length_148846_cov_51.2398",
+  "start": "91",
+  "end": "167",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Met_cat"
+  },
+  {
+  "geneid": "metaerg.pl|01816",
+  "contigid": "NODE_8_length_148846_cov_51.2398",
+  "start": "176",
+  "end": "268",
+  "genelen": "93",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ser_tga"
+  },
+  {
+  "geneid": "metaerg.pl|01904",
+  "contigid": "NODE_8_length_148846_cov_51.2398",
+  "start": "60454",
+  "end": "60528",
+  "genelen": "75",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Arg_tcg"
+  },
+  {
+  "geneid": "metaerg.pl|02333",
+  "contigid": "NODE_10_length_136080_cov_23.017",
+  "start": "116604",
+  "end": "116679",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Val_tac"
+  },
+  {
+  "geneid": "metaerg.pl|02875",
+  "contigid": "NODE_14_length_119204_cov_14.6201",
+  "start": "43831",
+  "end": "43904",
+  "genelen": "74",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Cys_gca"
+  },
+  {
+  "geneid": "metaerg.pl|03070",
+  "contigid": "NODE_15_length_118667_cov_7.54956",
+  "start": "73510",
+  "end": "73586",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Leu_gag"
+  },
+  {
+  "geneid": "metaerg.pl|03329",
+  "contigid": "NODE_17_length_116352_cov_46.5074",
+  "start": "23425",
+  "end": "23498",
+  "genelen": "74",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Trp_cca"
+  },
+  {
+  "geneid": "metaerg.pl|03408",
+  "contigid": "NODE_17_length_116352_cov_46.5074",
+  "start": "98990",
+  "end": "99064",
+  "genelen": "75",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Arg_tct"
+  },
+  {
+  "geneid": "metaerg.pl|03412",
+  "contigid": "NODE_17_length_116352_cov_46.5074",
+  "start": "101076",
+  "end": "101147",
+  "genelen": "72",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Thr_ggt"
+  },
+  {
+  "geneid": "metaerg.pl|03413",
+  "contigid": "NODE_17_length_116352_cov_46.5074",
+  "start": "101237",
+  "end": "101322",
+  "genelen": "86",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Tyr_gta"
+  },
+  {
+  "geneid": "metaerg.pl|03571",
+  "contigid": "NODE_18_length_116309_cov_15.0601",
+  "start": "110040",
+  "end": "110115",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Asn_gtt"
+  },
+  {
+  "geneid": "metaerg.pl|03676",
+  "contigid": "NODE_19_length_114209_cov_55.1989",
+  "start": "82681",
+  "end": "82755",
+  "genelen": "75",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Arg_tct"
+  },
+  {
+  "geneid": "metaerg.pl|04150",
+  "contigid": "NODE_23_length_110672_cov_25.9406",
+  "start": "26686",
+  "end": "26770",
+  "genelen": "85",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Leu_gag"
+  },
+  {
+  "geneid": "metaerg.pl|04189",
+  "contigid": "NODE_23_length_110672_cov_25.9406",
+  "start": "60430",
+  "end": "60505",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Glu_ttc"
+  },
+  {
+  "geneid": "metaerg.pl|04237",
+  "contigid": "NODE_23_length_110672_cov_25.9406",
+  "start": "92667",
+  "end": "92742",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Pro_ggg"
+  },
+  {
+  "geneid": "metaerg.pl|04734",
+  "contigid": "NODE_27_length_107866_cov_7.87431",
+  "start": "76994",
+  "end": "77084",
+  "genelen": "91",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_???_agtt"
+  },
+  {
+  "geneid": "metaerg.pl|04776",
+  "contigid": "NODE_27_length_107866_cov_7.87431",
+  "start": "107674",
+  "end": "107749",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Glu_ttc"
+  },
+  {
+  "geneid": "metaerg.pl|05003",
+  "contigid": "NODE_29_length_107521_cov_10.6151",
+  "start": "66569",
+  "end": "66643",
+  "genelen": "75",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Asn_gtt"
+  },
+  {
+  "geneid": "metaerg.pl|05008",
+  "contigid": "NODE_29_length_107521_cov_10.6151",
+  "start": "69005",
+  "end": "69081",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Thr_tgt"
+  },
+  {
+  "geneid": "metaerg.pl|05009",
+  "contigid": "NODE_29_length_107521_cov_10.6151",
+  "start": "69296",
+  "end": "69371",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_His_gtg"
+  },
+  {
+  "geneid": "metaerg.pl|05010",
+  "contigid": "NODE_29_length_107521_cov_10.6151",
+  "start": "69373",
+  "end": "69445",
+  "genelen": "73",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Gln_ctg"
+  },
+  {
+  "geneid": "metaerg.pl|05011",
+  "contigid": "NODE_29_length_107521_cov_10.6151",
+  "start": "69557",
+  "end": "69630",
+  "genelen": "74",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Trp_cca"
+  },
+  {
+  "geneid": "metaerg.pl|05012",
+  "contigid": "NODE_29_length_107521_cov_10.6151",
+  "start": "69668",
+  "end": "69753",
+  "genelen": "86",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ser_cag"
+  },
+  {
+  "geneid": "metaerg.pl|05013",
+  "contigid": "NODE_29_length_107521_cov_10.6151",
+  "start": "69778",
+  "end": "69853",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Pro_tgg"
+  },
+  {
+  "geneid": "metaerg.pl|05014",
+  "contigid": "NODE_29_length_107521_cov_10.6151",
+  "start": "69894",
+  "end": "69966",
+  "genelen": "73",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Gln_ttg"
+  },
+  {
+  "geneid": "metaerg.pl|05016",
+  "contigid": "NODE_29_length_107521_cov_10.6151",
+  "start": "70634",
+  "end": "70708",
+  "genelen": "75",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Lys_ctt"
+  },
+  {
+  "geneid": "metaerg.pl|05017",
+  "contigid": "NODE_29_length_107521_cov_10.6151",
+  "start": "70729",
+  "end": "70803",
+  "genelen": "75",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Arg_acg"
+  },
+  {
+  "geneid": "metaerg.pl|05050",
+  "contigid": "NODE_29_length_107521_cov_10.6151",
+  "start": "91844",
+  "end": "91938",
+  "genelen": "95",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Pro_cgg"
+  },
+  {
+  "geneid": "metaerg.pl|05267",
+  "contigid": "NODE_31_length_105199_cov_45.711",
+  "start": "65910",
+  "end": "65981",
+  "genelen": "72",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Gly_gcc"
+  },
+  {
+  "geneid": "metaerg.pl|05382",
+  "contigid": "NODE_32_length_103012_cov_9.13894",
+  "start": "37237",
+  "end": "37310",
+  "genelen": "74",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Cys_gca"
+  },
+  {
+  "geneid": "metaerg.pl|05443",
+  "contigid": "NODE_32_length_103012_cov_9.13894",
+  "start": "73540",
+  "end": "73614",
+  "genelen": "75",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_ggc"
+  },
+  {
+  "geneid": "metaerg.pl|05628",
+  "contigid": "NODE_34_length_102149_cov_15.6997",
+  "start": "5932",
+  "end": "6007",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|05642",
+  "contigid": "NODE_34_length_102149_cov_15.6997",
+  "start": "16295",
+  "end": "16370",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|05792",
+  "contigid": "NODE_35_length_102026_cov_37.2594",
+  "start": "27674",
+  "end": "27748",
+  "genelen": "75",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Lys_ttt"
+  },
+  {
+  "geneid": "metaerg.pl|06005",
+  "contigid": "NODE_36_length_101415_cov_28.1246",
+  "start": "85722",
+  "end": "85805",
+  "genelen": "84",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Leu_gag"
+  },
+  {
+  "geneid": "metaerg.pl|06232",
+  "contigid": "NODE_38_length_100134_cov_22.8811",
+  "start": "74056",
+  "end": "74129",
+  "genelen": "74",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Met_cat"
+  },
+  {
+  "geneid": "metaerg.pl|06493",
+  "contigid": "NODE_40_length_97460_cov_91.5115",
+  "start": "78228",
+  "end": "78304",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Arg_ccg"
+  },
+  {
+  "geneid": "metaerg.pl|06847",
+  "contigid": "NODE_43_length_94447_cov_93.3488",
+  "start": "89267",
+  "end": "89350",
+  "genelen": "84",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Tyr_gta"
+  },
+  {
+  "geneid": "metaerg.pl|06923",
+  "contigid": "NODE_44_length_94246_cov_47.8684",
+  "start": "50812",
+  "end": "50894",
+  "genelen": "83",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Leu_tag"
+  },
+  {
+  "geneid": "metaerg.pl|06961",
+  "contigid": "NODE_44_length_94246_cov_47.8684",
+  "start": "86308",
+  "end": "86380",
+  "genelen": "73",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Arg_ccg"
+  },
+  {
+  "geneid": "metaerg.pl|07283",
+  "contigid": "NODE_47_length_92677_cov_15.1313",
+  "start": "28524",
+  "end": "28598",
+  "genelen": "75",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Lys_ttt"
+  },
+  {
+  "geneid": "metaerg.pl|07288",
+  "contigid": "NODE_47_length_92677_cov_15.1313",
+  "start": "33276",
+  "end": "33362",
+  "genelen": "87",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ser_cag"
+  },
+  {
+  "geneid": "metaerg.pl|07323",
+  "contigid": "NODE_47_length_92677_cov_15.1313",
+  "start": "63212",
+  "end": "63288",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Arg_cct"
+  },
+  {
+  "geneid": "metaerg.pl|07325",
+  "contigid": "NODE_47_length_92677_cov_15.1313",
+  "start": "64816",
+  "end": "64890",
+  "genelen": "75",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Val_gac"
+  },
+  {
+  "geneid": "metaerg.pl|07638",
+  "contigid": "NODE_49_length_91885_cov_40.401",
+  "start": "91807",
+  "end": "91883",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Met_cat"
+  },
+  {
+  "geneid": "metaerg.pl|08045",
+  "contigid": "NODE_53_length_90425_cov_14.666",
+  "start": "64392",
+  "end": "64478",
+  "genelen": "87",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Leu_gag"
+  },
+  {
+  "geneid": "metaerg.pl|08271",
+  "contigid": "NODE_56_length_88412_cov_39.5772",
+  "start": "38355",
+  "end": "38439",
+  "genelen": "85",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Leu_gag"
+  },
+  {
+  "geneid": "metaerg.pl|08529",
+  "contigid": "NODE_58_length_88179_cov_12.7286",
+  "start": "57433",
+  "end": "57509",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Val_gac"
+  },
+  {
+  "geneid": "metaerg.pl|08530",
+  "contigid": "NODE_58_length_88179_cov_12.7286",
+  "start": "57535",
+  "end": "57611",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Val_gac"
+  },
+  {
+  "geneid": "metaerg.pl|08531",
+  "contigid": "NODE_58_length_88179_cov_12.7286",
+  "start": "57637",
+  "end": "57713",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Val_gac"
+  },
+  {
+  "geneid": "metaerg.pl|08699",
+  "contigid": "NODE_60_length_87605_cov_24.2252",
+  "start": "22389",
+  "end": "22474",
+  "genelen": "86",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ser_cag"
+  },
+  {
+  "geneid": "metaerg.pl|08768",
+  "contigid": "NODE_60_length_87605_cov_24.2252",
+  "start": "62090",
+  "end": "62165",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Thr_cgt"
+  },
+  {
+  "geneid": "metaerg.pl|09053",
+  "contigid": "NODE_63_length_86995_cov_36.995",
+  "start": "26",
+  "end": "117",
+  "genelen": "92",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ser_gga"
+  },
+  {
+  "geneid": "metaerg.pl|09054",
+  "contigid": "NODE_63_length_86995_cov_36.995",
+  "start": "194",
+  "end": "283",
+  "genelen": "90",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ser_tga"
+  },
+  {
+  "geneid": "metaerg.pl|09365",
+  "contigid": "NODE_65_length_85961_cov_12.8165",
+  "start": "78761",
+  "end": "78836",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Thr_tgt"
+  },
+  {
+  "geneid": "metaerg.pl|09377",
+  "contigid": "NODE_65_length_85961_cov_12.8165",
+  "start": "85885",
+  "end": "85961",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Arg_ccg"
+  },
+  {
+  "geneid": "metaerg.pl|09421",
+  "contigid": "NODE_66_length_84672_cov_43.9831",
+  "start": "43502",
+  "end": "43575",
+  "genelen": "74",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_His_gtg"
+  },
+  {
+  "geneid": "metaerg.pl|09591",
+  "contigid": "NODE_68_length_84545_cov_6.93688",
+  "start": "3552",
+  "end": "3625",
+  "genelen": "74",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Lys_ttt"
+  },
+  {
+  "geneid": "metaerg.pl|09663",
+  "contigid": "NODE_68_length_84545_cov_6.93688",
+  "start": "61474",
+  "end": "61563",
+  "genelen": "90",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_???_ct"
+  },
+  {
+  "geneid": "metaerg.pl|09722",
+  "contigid": "NODE_69_length_84455_cov_14.1722",
+  "start": "31489",
+  "end": "31578",
+  "genelen": "90",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ser_cga"
+  },
+  {
+  "geneid": "metaerg.pl|09779",
+  "contigid": "NODE_69_length_84455_cov_14.1722",
+  "start": "76895",
+  "end": "76981",
+  "genelen": "87",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ser_cag"
+  },
+  {
+  "geneid": "metaerg.pl|10101",
+  "contigid": "NODE_73_length_83636_cov_13.2916",
+  "start": "5527",
+  "end": "5603",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Asp_gtc"
+  },
+  {
+  "geneid": "metaerg.pl|10126",
+  "contigid": "NODE_73_length_83636_cov_13.2916",
+  "start": "24699",
+  "end": "24772",
+  "genelen": "74",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Gly_ccc"
+  },
+  {
+  "geneid": "metaerg.pl|10281",
+  "contigid": "NODE_74_length_83624_cov_13.7072",
+  "start": "70830",
+  "end": "70899",
+  "genelen": "70",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Thr_ggt"
+  },
+  {
+  "geneid": "metaerg.pl|10365",
+  "contigid": "NODE_75_length_83493_cov_35.1433",
+  "start": "48895",
+  "end": "48971",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Arg_ccg"
+  },
+  {
+  "geneid": "metaerg.pl|10698",
+  "contigid": "NODE_78_length_82627_cov_14.3837",
+  "start": "64389",
+  "end": "64464",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Val_tac"
+  },
+  {
+  "geneid": "metaerg.pl|10889",
+  "contigid": "NODE_80_length_81434_cov_17.4195",
+  "start": "51265",
+  "end": "51354",
+  "genelen": "90",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Pro_cgg"
+  },
+  {
+  "geneid": "metaerg.pl|10914",
+  "contigid": "NODE_80_length_81434_cov_17.4195",
+  "start": "74254",
+  "end": "74326",
+  "genelen": "73",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Arg_ccg"
+  },
+  {
+  "geneid": "metaerg.pl|10963",
+  "contigid": "NODE_81_length_81418_cov_23.9822",
+  "start": "30405",
+  "end": "30481",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Pro_ggg"
+  },
+  {
+  "geneid": "metaerg.pl|11033",
+  "contigid": "NODE_82_length_81402_cov_9.56609",
+  "start": "50",
+  "end": "124",
+  "genelen": "75",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Glu_ttc"
+  },
+  {
+  "geneid": "metaerg.pl|11119",
+  "contigid": "NODE_82_length_81402_cov_9.56609",
+  "start": "52900",
+  "end": "52972",
+  "genelen": "73",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Glu_ctc"
+  },
+  {
+  "geneid": "metaerg.pl|11316",
+  "contigid": "NODE_84_length_80068_cov_44.9262",
+  "start": "52747",
+  "end": "52818",
+  "genelen": "72",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Cys_gca"
+  },
+  {
+  "geneid": "metaerg.pl|11341",
+  "contigid": "NODE_85_length_79793_cov_35.7845",
+  "start": "1620",
+  "end": "1706",
+  "genelen": "87",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Leu_taa"
+  },
+  {
+  "geneid": "metaerg.pl|11342",
+  "contigid": "NODE_85_length_79793_cov_35.7845",
+  "start": "1787",
+  "end": "1860",
+  "genelen": "74",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Cys_gca"
+  },
+  {
+  "geneid": "metaerg.pl|11343",
+  "contigid": "NODE_85_length_79793_cov_35.7845",
+  "start": "1981",
+  "end": "2056",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Gly_gcc"
+  },
+  {
+  "geneid": "metaerg.pl|11373",
+  "contigid": "NODE_85_length_79793_cov_35.7845",
+  "start": "29313",
+  "end": "29389",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Gln_ttg"
+  },
+  {
+  "geneid": "metaerg.pl|11425",
+  "contigid": "NODE_85_length_79793_cov_35.7845",
+  "start": "73216",
+  "end": "73302",
+  "genelen": "87",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ser_cag"
+  },
+  {
+  "geneid": "metaerg.pl|11427",
+  "contigid": "NODE_85_length_79793_cov_35.7845",
+  "start": "74475",
+  "end": "74560",
+  "genelen": "86",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Leu_tag"
+  },
+  {
+  "geneid": "metaerg.pl|11489",
+  "contigid": "NODE_86_length_79778_cov_55.2095",
+  "start": "47787",
+  "end": "47871",
+  "genelen": "85",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Gln_ctg"
+  },
+  {
+  "geneid": "metaerg.pl|11494",
+  "contigid": "NODE_86_length_79778_cov_55.2095",
+  "start": "51995",
+  "end": "52070",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_ggc"
+  },
+  {
+  "geneid": "metaerg.pl|11940",
+  "contigid": "NODE_91_length_78468_cov_15.4801",
+  "start": "14820",
+  "end": "14906",
+  "genelen": "87",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_???_gg"
+  },
+  {
+  "geneid": "metaerg.pl|11953",
+  "contigid": "NODE_91_length_78468_cov_15.4801",
+  "start": "24226",
+  "end": "24301",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Glu_ctc"
+  },
+  {
+  "geneid": "metaerg.pl|11954",
+  "contigid": "NODE_91_length_78468_cov_15.4801",
+  "start": "24388",
+  "end": "24460",
+  "genelen": "73",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Gln_ctg"
+  },
+  {
+  "geneid": "metaerg.pl|12454",
+  "contigid": "NODE_96_length_77433_cov_24.9586",
+  "start": "58154",
+  "end": "58230",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Glu_ttc"
+  },
+  {
+  "geneid": "metaerg.pl|13235",
+  "contigid": "NODE_1894_length_24309_cov_76.6133",
+  "start": "2967",
+  "end": "3053",
+  "genelen": "87",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ser_gct"
+  },
+  {
+  "geneid": "metaerg.pl|13238",
+  "contigid": "NODE_1894_length_24309_cov_76.6133",
+  "start": "4469",
+  "end": "4542",
+  "genelen": "74",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Cys_gca"
+  },
+  {
+  "geneid": "metaerg.pl|13240",
+  "contigid": "NODE_1894_length_24309_cov_76.6133",
+  "start": "5049",
+  "end": "5129",
+  "genelen": "81",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Leu_tag"
+  },
+  {
+  "geneid": "metaerg.pl|13246",
+  "contigid": "NODE_1894_length_24309_cov_76.6133",
+  "start": "6182",
+  "end": "6252",
+  "genelen": "71",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Val_tac"
+  },
+  {
+  "geneid": "metaerg.pl|13247",
+  "contigid": "NODE_1894_length_24309_cov_76.6133",
+  "start": "6255",
+  "end": "6341",
+  "genelen": "87",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ser_tga"
+  },
+  {
+  "geneid": "metaerg.pl|13248",
+  "contigid": "NODE_1894_length_24309_cov_76.6133",
+  "start": "6607",
+  "end": "6680",
+  "genelen": "74",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Asn_gtt"
+  },
+  {
+  "geneid": "metaerg.pl|13250",
+  "contigid": "NODE_1894_length_24309_cov_76.6133",
+  "start": "8459",
+  "end": "8528",
+  "genelen": "70",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Met_cat"
+  },
+  {
+  "geneid": "metaerg.pl|13251",
+  "contigid": "NODE_1894_length_24309_cov_76.6133",
+  "start": "8738",
+  "end": "8810",
+  "genelen": "73",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|13252",
+  "contigid": "NODE_1894_length_24309_cov_76.6133",
+  "start": "8959",
+  "end": "9043",
+  "genelen": "85",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Tyr_gta"
+  },
+  {
+  "geneid": "metaerg.pl|13255",
+  "contigid": "NODE_1894_length_24309_cov_76.6133",
+  "start": "10625",
+  "end": "10707",
+  "genelen": "83",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Lys_ttt"
+  },
+  {
+  "geneid": "metaerg.pl|13256",
+  "contigid": "NODE_1894_length_24309_cov_76.6133",
+  "start": "10899",
+  "end": "10972",
+  "genelen": "74",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|13267",
+  "contigid": "NODE_1894_length_24309_cov_76.6133",
+  "start": "15748",
+  "end": "15821",
+  "genelen": "74",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Met_cat"
+  },
+  {
+  "geneid": "metaerg.pl|13337",
+  "contigid": "NODE_3181_length_18771_cov_26.3764",
+  "start": "12873",
+  "end": "12947",
+  "genelen": "75",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Val_gac"
+  },
+  {
+  "geneid": "metaerg.pl|13347",
+  "contigid": "NODE_3798_length_17023_cov_12.0159",
+  "start": "1089",
+  "end": "1165",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Pro_cgg"
+  },
+  {
+  "geneid": "metaerg.pl|13396",
+  "contigid": "NODE_4613_length_15247_cov_53.4285",
+  "start": "11418",
+  "end": "11504",
+  "genelen": "87",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ser_tga"
+  },
+  {
+  "geneid": "metaerg.pl|13415",
+  "contigid": "NODE_5065_length_14422_cov_37.977",
+  "start": "82",
+  "end": "154",
+  "genelen": "73",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Lys_ttt"
+  },
+  {
+  "geneid": "metaerg.pl|13416",
+  "contigid": "NODE_5065_length_14422_cov_37.977",
+  "start": "163",
+  "end": "237",
+  "genelen": "75",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Val_tac"
+  },
+  {
+  "geneid": "metaerg.pl|13443",
+  "contigid": "NODE_5401_length_13876_cov_89.7481",
+  "start": "3729",
+  "end": "3805",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|13444",
+  "contigid": "NODE_5401_length_13876_cov_89.7481",
+  "start": "3839",
+  "end": "3911",
+  "genelen": "73",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|13454",
+  "contigid": "NODE_5401_length_13876_cov_89.7481",
+  "start": "10621",
+  "end": "10693",
+  "genelen": "73",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Asn_gtt"
+  },
+  {
+  "geneid": "metaerg.pl|13456",
+  "contigid": "NODE_5401_length_13876_cov_89.7481",
+  "start": "11618",
+  "end": "11699",
+  "genelen": "82",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Tyr_gta"
+  },
+  {
+  "geneid": "metaerg.pl|13457",
+  "contigid": "NODE_5401_length_13876_cov_89.7481",
+  "start": "11941",
+  "end": "12013",
+  "genelen": "73",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Trp_cca"
+  },
+  {
+  "geneid": "metaerg.pl|13458",
+  "contigid": "NODE_5401_length_13876_cov_89.7481",
+  "start": "12449",
+  "end": "12522",
+  "genelen": "74",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Arg_acg"
+  },
+  {
+  "geneid": "metaerg.pl|13460",
+  "contigid": "NODE_5401_length_13876_cov_89.7481",
+  "start": "12911",
+  "end": "12985",
+  "genelen": "75",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Thr_tgt"
+  },
+  {
+  "geneid": "metaerg.pl|13461",
+  "contigid": "NODE_5401_length_13876_cov_89.7481",
+  "start": "13260",
+  "end": "13332",
+  "genelen": "73",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Cys_gca"
+  },
+  {
+  "geneid": "metaerg.pl|13655",
+  "contigid": "NODE_8695_length_10344_cov_74.9999",
+  "start": "8403",
+  "end": "8477",
+  "genelen": "75",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Asn_gtt"
+  },
+  {
+  "geneid": "metaerg.pl|13656",
+  "contigid": "NODE_8695_length_10344_cov_74.9999",
+  "start": "8481",
+  "end": "8556",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Thr_ggt"
+  },
+  {
+  "geneid": "metaerg.pl|13658",
+  "contigid": "NODE_8695_length_10344_cov_74.9999",
+  "start": "10174",
+  "end": "10248",
+  "genelen": "75",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Glu_ttc"
+  },
+  {
+  "geneid": "metaerg.pl|13686",
+  "contigid": "NODE_9055_length_10104_cov_62.8574",
+  "start": "8483",
+  "end": "8568",
+  "genelen": "86",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Leu_caa"
+  },
+  {
+  "geneid": "metaerg.pl|13687",
+  "contigid": "NODE_9055_length_10104_cov_62.8574",
+  "start": "8587",
+  "end": "8676",
+  "genelen": "90",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Leu_taa"
+  },
+  {
+  "geneid": "metaerg.pl|13688",
+  "contigid": "NODE_9055_length_10104_cov_62.8574",
+  "start": "8712",
+  "end": "8785",
+  "genelen": "74",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Cys_gca"
+  },
+  {
+  "geneid": "metaerg.pl|13689",
+  "contigid": "NODE_9055_length_10104_cov_62.8574",
+  "start": "8797",
+  "end": "8871",
+  "genelen": "75",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Gly_gcc"
+  },
+  {
+  "geneid": "metaerg.pl|13690",
+  "contigid": "NODE_9055_length_10104_cov_62.8574",
+  "start": "8877",
+  "end": "8951",
+  "genelen": "75",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Gln_ttg"
+  },
+  {
+  "geneid": "metaerg.pl|13691",
+  "contigid": "NODE_9055_length_10104_cov_62.8574",
+  "start": "8965",
+  "end": "9040",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_His_gtg"
+  },
+  {
+  "geneid": "metaerg.pl|13692",
+  "contigid": "NODE_9055_length_10104_cov_62.8574",
+  "start": "9058",
+  "end": "9142",
+  "genelen": "85",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Tyr_gta"
+  },
+  {
+  "geneid": "metaerg.pl|13693",
+  "contigid": "NODE_9055_length_10104_cov_62.8574",
+  "start": "9233",
+  "end": "9308",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Thr_tgt"
+  },
+  {
+  "geneid": "metaerg.pl|13694",
+  "contigid": "NODE_9055_length_10104_cov_62.8574",
+  "start": "9314",
+  "end": "9389",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Phe_gaa"
+  },
+  {
+  "geneid": "metaerg.pl|13695",
+  "contigid": "NODE_9055_length_10104_cov_62.8574",
+  "start": "9400",
+  "end": "9476",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Met_cat"
+  },
+  {
+  "geneid": "metaerg.pl|13696",
+  "contigid": "NODE_9055_length_10104_cov_62.8574",
+  "start": "9487",
+  "end": "9562",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Val_tac"
+  },
+  {
+  "geneid": "metaerg.pl|13697",
+  "contigid": "NODE_9055_length_10104_cov_62.8574",
+  "start": "9608",
+  "end": "9682",
+  "genelen": "75",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Glu_ttc"
+  },
+  {
+  "geneid": "metaerg.pl|13698",
+  "contigid": "NODE_9055_length_10104_cov_62.8574",
+  "start": "9687",
+  "end": "9779",
+  "genelen": "93",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ser_gga"
+  },
+  {
+  "geneid": "metaerg.pl|13699",
+  "contigid": "NODE_9055_length_10104_cov_62.8574",
+  "start": "9783",
+  "end": "9857",
+  "genelen": "75",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Asn_gtt"
+  },
+  {
+  "geneid": "metaerg.pl|13762",
+  "contigid": "NODE_9670_length_9671_cov_6.26726",
+  "start": "776",
+  "end": "851",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Cys_gca"
+  },
+  {
+  "geneid": "metaerg.pl|13766",
+  "contigid": "NODE_9670_length_9671_cov_6.26726",
+  "start": "3052",
+  "end": "3125",
+  "genelen": "74",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Lys_ctt"
+  },
+  {
+  "geneid": "metaerg.pl|13792",
+  "contigid": "NODE_9965_length_9506_cov_6.34631",
+  "start": "874",
+  "end": "951",
+  "genelen": "78",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Gln_ctg"
+  },
+  {
+  "geneid": "metaerg.pl|13831",
+  "contigid": "NODE_10457_length_9218_cov_21.9996",
+  "start": "4397",
+  "end": "4472",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Gly_gcc"
+  },
+  {
+  "geneid": "metaerg.pl|13977",
+  "contigid": "NODE_16271_length_6854_cov_5.64465",
+  "start": "6368",
+  "end": "6442",
+  "genelen": "75",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|13978",
+  "contigid": "NODE_16271_length_6854_cov_5.64465",
+  "start": "6481",
+  "end": "6555",
+  "genelen": "75",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|13981",
+  "contigid": "NODE_16738_length_6714_cov_14.3748",
+  "start": "109",
+  "end": "183",
+  "genelen": "75",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Asn_gtt"
+  },
+  {
+  "geneid": "metaerg.pl|13982",
+  "contigid": "NODE_16738_length_6714_cov_14.3748",
+  "start": "210",
+  "end": "282",
+  "genelen": "73",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Thr_ggt"
+  },
+  {
+  "geneid": "metaerg.pl|13993",
+  "contigid": "NODE_16738_length_6714_cov_14.3748",
+  "start": "6481",
+  "end": "6554",
+  "genelen": "74",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Glu_ttc"
+  },
+  {
+  "geneid": "metaerg.pl|14003",
+  "contigid": "NODE_17455_length_6523_cov_19.6105",
+  "start": "2492",
+  "end": "2567",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14004",
+  "contigid": "NODE_17455_length_6523_cov_19.6105",
+  "start": "2638",
+  "end": "2714",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14114",
+  "contigid": "NODE_24884_length_5120_cov_28.7031",
+  "start": "4896",
+  "end": "4971",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Arg_tct"
+  },
+  {
+  "geneid": "metaerg.pl|14115",
+  "contigid": "NODE_24884_length_5120_cov_28.7031",
+  "start": "4984",
+  "end": "5060",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Val_tac"
+  },
+  {
+  "geneid": "metaerg.pl|14204",
+  "contigid": "NODE_40251_length_3633_cov_62.6951",
+  "start": "1",
+  "end": "75",
+  "genelen": "75",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Met_cat"
+  },
+  {
+  "geneid": "metaerg.pl|14219",
+  "contigid": "NODE_42382_length_3495_cov_29.3927",
+  "start": "88",
+  "end": "161",
+  "genelen": "74",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Gly_tcc"
+  },
+  {
+  "geneid": "metaerg.pl|14220",
+  "contigid": "NODE_42382_length_3495_cov_29.3927",
+  "start": "204",
+  "end": "287",
+  "genelen": "84",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Tyr_gta"
+  },
+  {
+  "geneid": "metaerg.pl|14246",
+  "contigid": "NODE_46234_length_3274_cov_29.9254",
+  "start": "266",
+  "end": "340",
+  "genelen": "75",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14247",
+  "contigid": "NODE_46234_length_3274_cov_29.9254",
+  "start": "348",
+  "end": "422",
+  "genelen": "75",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14252",
+  "contigid": "NODE_46925_length_3236_cov_13.1254",
+  "start": "854",
+  "end": "929",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Thr_ggt"
+  },
+  {
+  "geneid": "metaerg.pl|14253",
+  "contigid": "NODE_46925_length_3236_cov_13.1254",
+  "start": "933",
+  "end": "1007",
+  "genelen": "75",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Asn_gtt"
+  },
+  {
+  "geneid": "metaerg.pl|14278",
+  "contigid": "NODE_49734_length_3098_cov_9.51068",
+  "start": "1615",
+  "end": "1690",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Pro_cgg"
+  },
+  {
+  "geneid": "metaerg.pl|14284",
+  "contigid": "NODE_52064_length_2996_cov_104.465",
+  "start": "1902",
+  "end": "1977",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14285",
+  "contigid": "NODE_52064_length_2996_cov_104.465",
+  "start": "2096",
+  "end": "2172",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14301",
+  "contigid": "NODE_57108_length_2795_cov_12.965",
+  "start": "204",
+  "end": "278",
+  "genelen": "75",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14302",
+  "contigid": "NODE_57108_length_2795_cov_12.965",
+  "start": "400",
+  "end": "474",
+  "genelen": "75",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14333",
+  "contigid": "NODE_63383_length_2582_cov_3.80174",
+  "start": "1163",
+  "end": "1236",
+  "genelen": "74",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Asn_gtt"
+  },
+  {
+  "geneid": "metaerg.pl|14334",
+  "contigid": "NODE_63383_length_2582_cov_3.80174",
+  "start": "1488",
+  "end": "1562",
+  "genelen": "75",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Arg_acg"
+  },
+  {
+  "geneid": "metaerg.pl|14359",
+  "contigid": "NODE_72586_length_2322_cov_10.9956",
+  "start": "87",
+  "end": "163",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14360",
+  "contigid": "NODE_72586_length_2322_cov_10.9956",
+  "start": "286",
+  "end": "362",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14364",
+  "contigid": "NODE_72782_length_2317_cov_82.286",
+  "start": "2114",
+  "end": "2188",
+  "genelen": "75",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14372",
+  "contigid": "NODE_73552_length_2298_cov_102.479",
+  "start": "1884",
+  "end": "1959",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14373",
+  "contigid": "NODE_73552_length_2298_cov_102.479",
+  "start": "1985",
+  "end": "2061",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14381",
+  "contigid": "NODE_74858_length_2267_cov_55.6343",
+  "start": "1016",
+  "end": "1092",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14382",
+  "contigid": "NODE_74858_length_2267_cov_55.6343",
+  "start": "1219",
+  "end": "1294",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14392",
+  "contigid": "NODE_76415_length_2231_cov_141.256",
+  "start": "61",
+  "end": "136",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14393",
+  "contigid": "NODE_76415_length_2231_cov_141.256",
+  "start": "163",
+  "end": "239",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14396",
+  "contigid": "NODE_76754_length_2223_cov_12.661",
+  "start": "1396",
+  "end": "1470",
+  "genelen": "75",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Gln_ttg"
+  },
+  {
+  "geneid": "metaerg.pl|14415",
+  "contigid": "NODE_81670_length_2118_cov_116.979",
+  "start": "2038",
+  "end": "2114",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Met_cat"
+  },
+  {
+  "geneid": "metaerg.pl|14423",
+  "contigid": "NODE_84116_length_2070_cov_66.3737",
+  "start": "779",
+  "end": "855",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Met_cat"
+  },
+  {
+  "geneid": "metaerg.pl|14431",
+  "contigid": "NODE_85819_length_2037_cov_50.3219",
+  "start": "3",
+  "end": "77",
+  "genelen": "75",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14432",
+  "contigid": "NODE_85819_length_2037_cov_50.3219",
+  "start": "142",
+  "end": "217",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14435",
+  "contigid": "NODE_86782_length_2019_cov_12.3915",
+  "start": "1038",
+  "end": "1106",
+  "genelen": "69",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Arg_gcg"
+  },
+  {
+  "geneid": "metaerg.pl|14436",
+  "contigid": "NODE_86782_length_2019_cov_12.3915",
+  "start": "1183",
+  "end": "1257",
+  "genelen": "75",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14437",
+  "contigid": "NODE_86782_length_2019_cov_12.3915",
+  "start": "1267",
+  "end": "1341",
+  "genelen": "75",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14462",
+  "contigid": "NODE_96694_length_1851_cov_5.56236",
+  "start": "115",
+  "end": "189",
+  "genelen": "75",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14463",
+  "contigid": "NODE_96694_length_1851_cov_5.56236",
+  "start": "268",
+  "end": "341",
+  "genelen": "74",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14482",
+  "contigid": "NODE_103063_length_1757_cov_37.3425",
+  "start": "1006",
+  "end": "1082",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14483",
+  "contigid": "NODE_103063_length_1757_cov_37.3425",
+  "start": "1262",
+  "end": "1337",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14484",
+  "contigid": "NODE_103063_length_1757_cov_37.3425",
+  "start": "1465",
+  "end": "1540",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_cgc"
+  },
+  {
+  "geneid": "metaerg.pl|14487",
+  "contigid": "NODE_104625_length_1736_cov_9.3599",
+  "start": "949",
+  "end": "1025",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14488",
+  "contigid": "NODE_104625_length_1736_cov_9.3599",
+  "start": "1149",
+  "end": "1224",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14492",
+  "contigid": "NODE_104868_length_1733_cov_49.1603",
+  "start": "1325",
+  "end": "1399",
+  "genelen": "75",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_His_gtg"
+  },
+  {
+  "geneid": "metaerg.pl|14493",
+  "contigid": "NODE_104868_length_1733_cov_49.1603",
+  "start": "1561",
+  "end": "1634",
+  "genelen": "74",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Arg_tct"
+  },
+  {
+  "geneid": "metaerg.pl|14494",
+  "contigid": "NODE_104868_length_1733_cov_49.1603",
+  "start": "1653",
+  "end": "1726",
+  "genelen": "74",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Pro_tgg"
+  },
+  {
+  "geneid": "metaerg.pl|14519",
+  "contigid": "NODE_113175_length_1629_cov_11.1887",
+  "start": "323",
+  "end": "399",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14520",
+  "contigid": "NODE_113175_length_1629_cov_11.1887",
+  "start": "681",
+  "end": "756",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14526",
+  "contigid": "NODE_113567_length_1624_cov_65.508",
+  "start": "617",
+  "end": "693",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Met_cat"
+  },
+  {
+  "geneid": "metaerg.pl|14535",
+  "contigid": "NODE_115795_length_1600_cov_4.00777",
+  "start": "893",
+  "end": "967",
+  "genelen": "75",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Arg_tct"
+  },
+  {
+  "geneid": "metaerg.pl|14536",
+  "contigid": "NODE_115795_length_1600_cov_4.00777",
+  "start": "1149",
+  "end": "1223",
+  "genelen": "75",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_His_gtg"
+  },
+  {
+  "geneid": "metaerg.pl|14538",
+  "contigid": "NODE_116278_length_1594_cov_27.848",
+  "start": "1157",
+  "end": "1232",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14539",
+  "contigid": "NODE_116278_length_1594_cov_27.848",
+  "start": "1366",
+  "end": "1442",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14543",
+  "contigid": "NODE_119462_length_1560_cov_41.3801",
+  "start": "1",
+  "end": "75",
+  "genelen": "75",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14544",
+  "contigid": "NODE_119462_length_1560_cov_41.3801",
+  "start": "102",
+  "end": "177",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14554",
+  "contigid": "NODE_124769_length_1503_cov_16.0559",
+  "start": "277",
+  "end": "351",
+  "genelen": "75",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14555",
+  "contigid": "NODE_124769_length_1503_cov_16.0559",
+  "start": "553",
+  "end": "627",
+  "genelen": "75",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14581",
+  "contigid": "NODE_137704_length_1382_cov_45.6609",
+  "start": "127",
+  "end": "203",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14582",
+  "contigid": "NODE_137704_length_1382_cov_45.6609",
+  "start": "222",
+  "end": "297",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14586",
+  "contigid": "NODE_138720_length_1374_cov_4.55876",
+  "start": "752",
+  "end": "823",
+  "genelen": "72",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Val_gac"
+  },
+  {
+  "geneid": "metaerg.pl|14591",
+  "contigid": "NODE_141210_length_1353_cov_74.5169",
+  "start": "870",
+  "end": "946",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14592",
+  "contigid": "NODE_141210_length_1353_cov_74.5169",
+  "start": "1063",
+  "end": "1138",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14604",
+  "contigid": "NODE_144205_length_1329_cov_35.471",
+  "start": "3",
+  "end": "79",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Met_cat"
+  },
+  {
+  "geneid": "metaerg.pl|14610",
+  "contigid": "NODE_145467_length_1319_cov_92.5111",
+  "start": "747",
+  "end": "819",
+  "genelen": "73",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Trp_cca"
+  },
+  {
+  "geneid": "metaerg.pl|14614",
+  "contigid": "NODE_146361_length_1312_cov_108.5",
+  "start": "229",
+  "end": "304",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14615",
+  "contigid": "NODE_146361_length_1312_cov_108.5",
+  "start": "449",
+  "end": "525",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14660",
+  "contigid": "NODE_162342_length_1198_cov_226.101",
+  "start": "1064",
+  "end": "1139",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14664",
+  "contigid": "NODE_165053_length_1181_cov_9.87034",
+  "start": "283",
+  "end": "358",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14665",
+  "contigid": "NODE_165053_length_1181_cov_9.87034",
+  "start": "428",
+  "end": "504",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14669",
+  "contigid": "NODE_165489_length_1178_cov_29.4203",
+  "start": "361",
+  "end": "437",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Met_cat"
+  },
+  {
+  "geneid": "metaerg.pl|14683",
+  "contigid": "NODE_172985_length_1134_cov_18.8981",
+  "start": "318",
+  "end": "394",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14684",
+  "contigid": "NODE_172985_length_1134_cov_18.8981",
+  "start": "435",
+  "end": "510",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14738",
+  "contigid": "NODE_196955_length_1013_cov_16.4447",
+  "start": "574",
+  "end": "649",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14739",
+  "contigid": "NODE_196955_length_1013_cov_16.4447",
+  "start": "717",
+  "end": "791",
+  "genelen": "75",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14741",
+  "contigid": "NODE_198278_length_1007_cov_163.507",
+  "start": "241",
+  "end": "317",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Met_cat"
+  },
+  {
+  "geneid": "metaerg.pl|14762",
+  "contigid": "NODE_204827_length_979_cov_71.3896",
+  "start": "544",
+  "end": "620",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14763",
+  "contigid": "NODE_204827_length_979_cov_71.3896",
+  "start": "671",
+  "end": "746",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14768",
+  "contigid": "NODE_211477_length_953_cov_5.0902",
+  "start": "233",
+  "end": "309",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14769",
+  "contigid": "NODE_211477_length_953_cov_5.0902",
+  "start": "319",
+  "end": "394",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14772",
+  "contigid": "NODE_212261_length_950_cov_9.84134",
+  "start": "698",
+  "end": "769",
+  "genelen": "72",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14777",
+  "contigid": "NODE_214363_length_942_cov_55.3033",
+  "start": "81",
+  "end": "156",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14790",
+  "contigid": "NODE_226622_length_898_cov_32.395",
+  "start": "323",
+  "end": "399",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14791",
+  "contigid": "NODE_226622_length_898_cov_32.395",
+  "start": "417",
+  "end": "492",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14808",
+  "contigid": "NODE_236238_length_866_cov_32.0173",
+  "start": "141",
+  "end": "216",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14815",
+  "contigid": "NODE_237455_length_862_cov_184.917",
+  "start": "11",
+  "end": "86",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14816",
+  "contigid": "NODE_237455_length_862_cov_184.917",
+  "start": "162",
+  "end": "238",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14831",
+  "contigid": "NODE_248315_length_830_cov_6.09419",
+  "start": "1",
+  "end": "76",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14840",
+  "contigid": "NODE_249933_length_825_cov_20.3753",
+  "start": "87",
+  "end": "162",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14862",
+  "contigid": "NODE_262214_length_792_cov_79.7639",
+  "start": "1",
+  "end": "76",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14863",
+  "contigid": "NODE_262214_length_792_cov_79.7639",
+  "start": "184",
+  "end": "260",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14887",
+  "contigid": "NODE_271383_length_769_cov_8.12885",
+  "start": "2",
+  "end": "77",
+  "genelen": "76",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14891",
+  "contigid": "NODE_271998_length_768_cov_2.82889",
+  "start": "655",
+  "end": "731",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14903",
+  "contigid": "NODE_278630_length_752_cov_72.3845",
+  "start": "284",
+  "end": "360",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14911",
+  "contigid": "NODE_280483_length_748_cov_3.76912",
+  "start": "397",
+  "end": "471",
+  "genelen": "75",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_His_gtg"
+  },
+  {
+  "geneid": "metaerg.pl|14949",
+  "contigid": "NODE_297387_length_711_cov_56.3628",
+  "start": "1",
+  "end": "73",
+  "genelen": "73",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14963",
+  "contigid": "NODE_307771_length_691_cov_3.33019",
+  "start": "331",
+  "end": "402",
+  "genelen": "72",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|14964",
+  "contigid": "NODE_307771_length_691_cov_3.33019",
+  "start": "511",
+  "end": "586",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14985",
+  "contigid": "NODE_326970_length_657_cov_2.37542",
+  "start": "367",
+  "end": "443",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  },
+  {
+  "geneid": "metaerg.pl|14987",
+  "contigid": "NODE_327091_length_656_cov_138.017",
+  "start": "483",
+  "end": "558",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|15017",
+  "contigid": "NODE_352679_length_616_cov_6.54724",
+  "start": "378",
+  "end": "449",
+  "genelen": "72",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|15070",
+  "contigid": "NODE_396938_length_559_cov_59.5079",
+  "start": "473",
+  "end": "549",
+  "genelen": "77",
+  "strand": "1",
+  "feature": "tRNA",
+  "name": "tRNA_Met_cat"
+  },
+  {
+  "geneid": "metaerg.pl|15097",
+  "contigid": "NODE_426393_length_527_cov_13.9131",
+  "start": "81",
+  "end": "156",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Met_cat"
+  },
+  {
+  "geneid": "metaerg.pl|15098",
+  "contigid": "NODE_426393_length_527_cov_13.9131",
+  "start": "248",
+  "end": "336",
+  "genelen": "89",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Leu_taa"
+  },
+  {
+  "geneid": "metaerg.pl|15099",
+  "contigid": "NODE_426393_length_527_cov_13.9131",
+  "start": "343",
+  "end": "417",
+  "genelen": "75",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Asn_gtt"
+  },
+  {
+  "geneid": "metaerg.pl|15106",
+  "contigid": "NODE_429379_length_524_cov_70.7804",
+  "start": "212",
+  "end": "287",
+  "genelen": "76",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ala_tgc"
+  },
+  {
+  "geneid": "metaerg.pl|15107",
+  "contigid": "NODE_429379_length_524_cov_70.7804",
+  "start": "295",
+  "end": "371",
+  "genelen": "77",
+  "strand": "-1",
+  "feature": "tRNA",
+  "name": "tRNA_Ile_gat"
+  }
+ ]
