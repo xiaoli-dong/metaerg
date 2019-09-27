@@ -1,2 +1,0 @@
-#taxon	count	count_pct	abundance	abundance_pct	depth_M1	depth_pct_M1	depth_M2	depth_pct_M2	depth_M3	depth_pct_M3	depth_M4	depth_pct_M4
-Bacteria;Cyanobacteria;Oxyphotobacteria	1	100.00	16538.10	100.00	4056.92	100.00	4045.12	100.00	4016.51	100.00	4419.55	100.00

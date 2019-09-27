@@ -1,2 +1,0 @@
-#taxon	count	count_pct	abundance	abundance_pct	depth_M1	depth_pct_M1	depth_M2	depth_pct_M2	depth_M3	depth_pct_M3	depth_M4	depth_pct_M4
-Bacteria;Cyanobacteria;Oxyphotobacteria;Nostocales;Geitlerinemaceae;Geitlerinema PCC-7105	1	100.00	16100.70	100.00	3962.98	100.00	4002.80	100.00	3877.32	100.00	4257.55	100.00

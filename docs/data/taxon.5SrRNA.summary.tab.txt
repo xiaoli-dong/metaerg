@@ -1,3 +1,0 @@
-#taxon	count	count_pct	abundance	abundance_pct	depth_M1	depth_pct_M1	depth_M2	depth_pct_M2	depth_M3	depth_pct_M3	depth_M4	depth_pct_M4
-unknown	1	50.00	1525.10	8.44	279.04	6.44	675.09	14.30	98.44	2.39	472.53	9.66
-unclassified	1	50.00	16538.10	91.56	4056.92	93.56	4045.12	85.70	4016.51	97.61	4419.55	90.34
