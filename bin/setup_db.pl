@@ -53,7 +53,7 @@ build_uniprot_sprot_db();
 build_pfam_db();
 build_tigrfam_db();
 build_go_db();
-build_foam_db();
+build_foam_hmmdb();
 build_genomedb();
 build_metabolic_hmmdb();
 build_casgene_hmmdb();
@@ -481,8 +481,8 @@ sub go_table{
     close(OUT);
 }
 
-sub build_foam_db{
-    my @files = ("FOAM-hmm_rel1a.hmm.gz", "", "FOAM-onto_rel1.uniq.tsv");
+sub build_foam_hmmdb{
+    
     if(! -e ("$protein_hmm_dir/FOAM-hmm_rel1a.hmm" || "$tmp_dir/FOAM-hmm_rel1a.hmm.gz")){
 	# build a File::Fetch object
 	my $ff = File::Fetch->new(uri => "http://ebg.ucalgary.ca/metaerg/FOAM-hmm_rel1a.hmm.gz");

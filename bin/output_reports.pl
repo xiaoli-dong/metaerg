@@ -1731,7 +1731,11 @@ sub output_tablecols{
 	
 	print $jsonFileHandler "{\n";
 	print $jsonFileHandler (' ' x 2), "\"title\": \"ID\",\n";
-	print $jsonFileHandler (' ' x 2), "\"data\": \"id\"\n";
+	print $jsonFileHandler (' ' x 2), "\"data\": \"id\",\n";
+	print $jsonFileHandler (' ' x 2), "\"render\": function(data,type,full,meta){\n";
+	print $jsonFileHandler (' ' x 4), "return \'<a href=\"https://pfam.xfam.org/family/' + data + \'\">\' + data + \'</a>\';\n";
+	print $jsonFileHandler (' ' x 2), "}\n";
+	
 	print $jsonFileHandler "},\n";
 	
 	print $jsonFileHandler "{\n";
@@ -1744,7 +1748,11 @@ sub output_tablecols{
     elsif($attr eq "tigrfam"){
 	print $jsonFileHandler "{\n";
 	print $jsonFileHandler (' ' x 2), "\"title\": \"Accession\",\n";
-	print $jsonFileHandler (' ' x 2), "\"data\": \"accession\"\n";
+	print $jsonFileHandler (' ' x 2), "\"data\": \"accession\",\n";
+	
+	print $jsonFileHandler (' ' x 2), "\"render\": function(data,type,full,meta){\n";
+	print $jsonFileHandler (' ' x 4), "return \'<a href=\"http://tigrfams.jcvi.org/cgi-bin/HmmReportPage.cgi?acc=' + data + \'\">\' + data + \'</a>\';\n";
+	print $jsonFileHandler (' ' x 2), "}\n";
 	print $jsonFileHandler "},\n";
 
 	print $jsonFileHandler "{\n";
@@ -1760,7 +1768,13 @@ sub output_tablecols{
     elsif($attr eq "ko"){
 	print $jsonFileHandler "{\n";
 	print $jsonFileHandler (' ' x 2), "\"title\": \"KO\",\n";
-	print $jsonFileHandler (' ' x 2), "\"data\": \"koid\"\n";
+	print $jsonFileHandler (' ' x 2), "\"data\": \"koid\",\n";
+
+	
+	print $jsonFileHandler (' ' x 2), "\"render\": function(data,type,full,meta){\n";
+	print $jsonFileHandler (' ' x 4), "return \'<a href=\"https://www.genome.jp/dbget-bin/www_bget?ko\:' + data + \'\">\' + data + \'</a>\';\n";
+	print $jsonFileHandler (' ' x 2), "}\n";
+
 	print $jsonFileHandler "},\n";
 
 	print $jsonFileHandler "{\n";
@@ -1776,7 +1790,12 @@ sub output_tablecols{
     elsif($attr eq "ec"){
 	print $jsonFileHandler "{\n";
 	print $jsonFileHandler (' ' x 2), "\"title\": \"EC\",\n";
-	print $jsonFileHandler (' ' x 2), "\"data\": \"ecid\"\n";
+	print $jsonFileHandler (' ' x 2), "\"data\": \"ecid\",\n";
+	
+	print $jsonFileHandler (' ' x 2), "\"render\": function(data,type,full,meta){\n";
+	print $jsonFileHandler (' ' x 4), "return \'<a href=\"https://enzyme.expasy.org/EC/' + data + \'\">\' + data + \'</a>\';\n";
+	print $jsonFileHandler (' ' x 2), "}\n";
+		
 	print $jsonFileHandler "},\n";
 
 	print $jsonFileHandler "{\n";
@@ -1787,7 +1806,12 @@ sub output_tablecols{
     elsif($attr eq "go"){
 	print $jsonFileHandler "{\n";
 	print $jsonFileHandler (' ' x 2), "\"title\": \"GO\",\n";
-	print $jsonFileHandler (' ' x 2), "\"data\": \"goid\"\n";
+	print $jsonFileHandler (' ' x 2), "\"data\": \"goid\",\n";
+
+	print $jsonFileHandler (' ' x 2), "\"render\": function(data,type,full,meta){\n";
+	print $jsonFileHandler (' ' x 4), "return \'<a href=\"http://amigo.geneontology.org/amigo/term/' + data + \'\">\' + data + \'</a>\';\n";
+	print $jsonFileHandler (' ' x 2), "}\n";
+		
 	print $jsonFileHandler "},\n";
 
 	print $jsonFileHandler "{\n";
@@ -1810,12 +1834,12 @@ sub output_tablecols{
 	print $jsonFileHandler "},\n";
 
 	print $jsonFileHandler "{\n";
-	print $jsonFileHandler (' ' x 2), "\"title\": \"A\",\n";
+	print $jsonFileHandler (' ' x 2), "\"title\": \"Abund\",\n";
 	print $jsonFileHandler (' ' x 2), "\"data\": \"abund\"\n";
 	print $jsonFileHandler "},\n";
 	
 	print $jsonFileHandler "{\n";
-	print $jsonFileHandler (' ' x 2), "\"title\": \"A%\",\n";
+	print $jsonFileHandler (' ' x 2), "\"title\": \"Abund%\",\n";
 	print $jsonFileHandler (' ' x 2), "\"data\": \"abundpct\"\n";
 	print $jsonFileHandler "},\n";
 	
@@ -1824,12 +1848,12 @@ sub output_tablecols{
 	for my $i (0 .. $#msamples){
 	    print $jsonFileHandler "{\n";
 	    
-	    print $jsonFileHandler (' ' x 2),"\"title\": \"A\_$msamples[$i]\",\n";
+	    print $jsonFileHandler (' ' x 2),"\"title\": \"Abund\_$msamples[$i]\",\n";
 	    print $jsonFileHandler (' ' x 2),"\"data\": \"abund\_$msamples[$i]\"\n";
 	    print $jsonFileHandler "},\n";
 	    
 	    print $jsonFileHandler "{\n";
-	    print $jsonFileHandler (' ' x 2),"\"title\": \"A\_$msamples[$i]%\",\n";
+	    print $jsonFileHandler (' ' x 2),"\"title\": \"Abund\_$msamples[$i]%\",\n";
 	    print $jsonFileHandler (' ' x 2),"\"data\": \"abundpct\_$msamples[$i]\"\n";
 
 	    if($i == $#msamples){

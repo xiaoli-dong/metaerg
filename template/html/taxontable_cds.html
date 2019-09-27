@@ -11,37 +11,23 @@
   <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script type="text/javascript"  src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript"  src="../js/dataTables.fixedColumns.min.js"></script>
   <script type="text/javascript" src="../data/taxon.cds.profile.datatable.json"></script>
   <script type="text/javascript" class="init">
-    
     $(document).ready(function() {
     $('#genetable').DataTable( {
-    "iDisplayLength": 100,
+    "iDisplayLength": 50,
     "aLengthMenu": [[25, 50, 100,500,1000,-1], [25, 50,100,500,1000, "All"]],
     scrollY:        "700px",
     scrollX:        true,
     scrollCollapse: true,
+    fixedColumns:   {leftColumns: 1},
     "aaData": data,
-    "columns": tablecol,
-    "columns": tablecol,
-    "columnDefs": [
-    { "width": "30%", "targets": 0 }
-    ],
-   fixedColumns:   {leftColumns: 1}
-    
+    "columns": tablecol
     } );
-    $('#genetable').on('draw.dt', function () {
-    $('[data-toggle="tooltip"]').tooltip(
-    {
-    container : 'body'
-    }
-    
-    );
-    });
     } );
-    
   </script>
-  
+ 
 </head>
 <body class="wide comments example">
   <div id="outform">
@@ -58,7 +44,7 @@
     </nav>
     <div class="content">
       <h2 style="text-align:center;">Protein coding gene taxonomic profile</h2>
-      <table id="genetable" class="stripe row-border order-column cell-border" style="width: 100%; word-wrap:break-word;table-layout: fixed;" >
+      <table id="genetable" class="stripe row-border order-column cell-border" style="width: 100%; word-wrap:break-word;" >
 	<thead>
 	</thead>
       </table>
