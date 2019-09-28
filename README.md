@@ -37,7 +37,7 @@ MetaErg requires external databases that need to be downloaded and unarchived
 ```
 # Retrieve the prebuilt database
 wget http://ebg.ucalgary.ca/metaerg/db.tar.gz -P $HOME
-tar -xvzf $HOME/db.ar.tz
+tar -xvzf $HOME/db.tar.gz
 ```
 or built using the supplied script (see running with docker and installation sections). 
 
@@ -82,7 +82,7 @@ The functionality provided by MetaErg can be accessed through the help menu:
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --help
 ```
-Running MetaErg with the default parameters will output the final and intermediate results into a directory named metaerg.pl_ddmmyyyy:
+Running MetaErg with the default parameters will output the final and intermediate results into a directory named metaerg.pl_ddmmyyyy. Without --dbdir option, MetaErg will look for the database directory "db" inside the metaerg directory
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --dbdir $home/db contig.fasta
 ```
