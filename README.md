@@ -94,7 +94,7 @@ With a user provided "depth file", MetaErg can quantify the taxonomic, functiona
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --dbdir $home/db --depth demo.depth.txt demo.fasta
 ```
-<--
+<!--
 With a user provided protein expression level profile, MetaErg can also quantify functional, pathway profiles based on actively expressed proteins. An example protein expression profile is also included in the "example" folder.
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --dbdir $home/db --plevel demo.proteomics.txt demo.fna
