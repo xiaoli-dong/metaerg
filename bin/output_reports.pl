@@ -854,8 +854,7 @@ sub predict_kegg_pathways{
 	}
     }
     close(GENE2PATHWAY);
-    open (PATHWAY, ">$prefix.kegg.profile.txt");
-    print PATHWAY join("\t", ("#kegg_pathway_id", "kegg_pathway_name", "total_family_in_pathway", "total_family_found_in_pathway", "ko", "ko_name", "gene_num")), "\n";
+    
     foreach my $pid (keys %pathways){
 	my $tn = exists $pathways{$pid}->{fam_all} ? $pathways{$pid}->{fam_all} : 0;
 	my $tfn = exists $pathways{$pid}->{fam_found} ? $pathways{$pid}->{fam_found} : 0;
@@ -865,11 +864,11 @@ sub predict_kegg_pathways{
 	foreach my $ko (@kos){
 	    my $hits = $pathways{$pid}->{$ko}->{hits};
 	    my $koname = $pathways{$pid}->{$ko}->{name};
-	    print PATHWAY join("\t", ($pid, $pname, $tn, $tfn, $ko, $koname, $hits)), "\n";
+	 
 	}
 	
     }
-    close(PATHWAY);
+    
     return \%pathways;
 }
 
@@ -960,8 +959,7 @@ sub predict_metacyc_pathways{
 	}
     }
     close(GENE2PATHWAY);
-    open (PATHWAY, ">$prefix.metacyc.profile.txt");
-    print PATHWAY join("\t", ("#metacyc_pathway_id","metacyc_pathway_type", "metacyc_pathway_name", "total_family_in_pathway", "total_family_found_in_pathway", "ec", "gene_num")), "\n";
+  
     foreach my $pid (keys %pathways){
 	my $tn = $pathways{$pid}->{fam_all};
 	my $tfn = $pathways{$pid}->{fam_found};
@@ -973,12 +971,11 @@ sub predict_metacyc_pathways{
 	my @ecs = grep !/fam_all|fam_found|ptype|pname/, sort keys %{$pathways{$pid}};
 	foreach my $ec (@ecs){
 	    my $hits = $pathways{$pid}->{$ec}->{hits};
-	    print PATHWAY join("\t", ($pid, $ptype, $pname, $tn, $tfn, $ec, $hits)), "\n";
+	    
 	}
 	
     }
-    close(PATHWAY);
-
+    
     return \%pathways;
     
 }
