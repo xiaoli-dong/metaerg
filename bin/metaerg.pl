@@ -520,7 +520,7 @@ sub mapping_metabolic{
 			if(exists $hmm2process{$metabolicfamName}){
 			    if(not exists $metabolicfams{$metabolicfamName} && exists $hmm2process{$metabolicfamName}){
 				my $cutoff_score = $hmm2process{$metabolicfamName}->{cutoff_score};
-				print STDERR "$metabolicfamName\t$score\tcutoff=$cutoff_score\n";
+				#print STDERR "$metabolicfamName\t$score\tcutoff=$cutoff_score\n";
 				if(($cutoff_score eq "-" || $cutoff_score <= $score)){
 				    $f->add_tag_value('metabolic_process',"compound:" . $hmm2process{$metabolicfamName}->{chemical} . ";process:" . $hmm2process{$metabolicfamName}->{process} . ";gene:". $hmm2process{$metabolicfamName}->{gene} . ";");
 				    #$f->add_tag_value('metabolic_process',"compound:" . $hmm2process{$metabolicfamName}->{chemical} . ";process:" . $hmm2process{$metabolicfamName}->{process} .  ";");
@@ -528,20 +528,20 @@ sub mapping_metabolic{
 				    $metabolicfams{$metabolicfamName}++;
 				}
 				else{
-				    print STDERR "************************remove $metabolicfamName\n";
+				    #print STDERR "************************remove $metabolicfamName\n";
 				    $f->remove_tag('metabolic_target') if $f->has_tag('metabolic_target');
 				}
 
 
 			    }
 			    else{
-				print STDERR "************************remove $metabolicfamName\n";
+				#print STDERR "************************remove $metabolicfamName\n";
 				$f->remove_tag('metabolic_target') if $f->has_tag('metabolic_target');
 			    }
 
 			}
 			else{
-			    print STDERR "************************remove $metabolicfamName\n";
+			    #print STDERR "************************remove $metabolicfamName\n";
 			    $f->remove_tag('metabolic_target') if $f->has_tag('metabolic_target');
 			}
 

@@ -23,7 +23,7 @@ use File::Path qw(make_path remove_tree);
 my ($gff,$fasta, $dbdir);
 my $outdir = ".";
 my $bin = "$FindBin::RealBin";
-my $dbdir = "$bin/../db";
+$dbdir = "$bin/../db";
 my $templatedir = "$bin/../template";
 my $EXE = $FindBin::RealScript;
 my $txtdir = "$bin/../txt";
@@ -1029,7 +1029,7 @@ sub output_profiles{
 	    my $oc = $f->has_tag("genomedb_OC") ? ($f->get_tag_values("genomedb_OC"))[0] : "unknow";
 	    my $taxon = $oc;
 	    
-	    my $mdepth_col_count = $f->get_tag_values("mdepth_cols");
+	    my $mdepth_col_count = $f->has_tag("mdepth_cols") ? $f->get_tag_values("mdepth_cols") : 0;
 	    my %sample2depth = ();
 	    
 	    for (my $i = 0; $i < $mdepth_col_count; $i++){
@@ -1304,10 +1304,11 @@ sub output_profile{
     my %stats = %$sref;
     my %data = %$dataref;
     my $total_count = $stats{$feature}->{totalCount};
-    my $total_depth = $stats{$feature}->{totalAvgDepth};
-    my @msamples = grep !/totalCount|totalAvgDepth/, sort keys %{$stats{$feature}};
+    my $total_depth = exists $stats{$feature}->{totalAvgDepth} ? $stats{$feature}->{totalAvgDepth} : 0;
     
-    my @header = ("Count", "Count_pct", "Abund", "Abund_pct");
+    my @msamples = grep !/totalCount|totalAvgDepth/, sort keys %{$stats{$feature}};
+    my @header = ("Count", "Count_pct");
+    push(@header, ("Abund", "Abund_pct")) if exists $stats{$feature}->{totalAvgDepth};
     unshift(@header, "#Taxon") if($attr =~ /taxon/);
     unshift(@header, "#Accession", "ID", "Description") if $attr =~ /pfam/;
     unshift(@header, "#Accession", "Name", "Function") if $attr =~ /tigrfam/;
@@ -1395,15 +1396,21 @@ sub output_profile{
 	
 	my $count = $data{$key}->{count};
 	my $count_pct = sprintf("%.2f",100* $count/$total_count);
-	my $totalAvgDepth = sprintf("%.2f",$data{$key}->{totalAvgDepth});
-	my $totalAvgDepth_pct = sprintf("%.2f",100* $totalAvgDepth/$total_depth);
-	push(@cols, ($count, $count_pct, $totalAvgDepth, $totalAvgDepth_pct));
-	
-	
+	push(@cols, ($count, $count_pct));
 	print $data_json (' ' x 3) . "\"count\": $count,\n";
 	print $data_json (' ' x 3) . "\"countpct\": $count_pct,\n";
-	print $data_json (' ' x 3) . "\"abund\": $totalAvgDepth,\n";
-	print $data_json (' ' x 3) . "\"abundpct\": $totalAvgDepth_pct,\n";
+	
+	
+	if(exists $data{$key}->{totalAvgDepth}){
+	    my $totalAvgDepth = sprintf("%.2f",$data{$key}->{totalAvgDepth});
+	    my $totalAvgDepth_pct = sprintf("%.2f",100* $totalAvgDepth/$total_depth);
+	    push(@cols, ($totalAvgDepth, $totalAvgDepth_pct));
+	    print $data_json (' ' x 3) . "\"abund\": $totalAvgDepth,\n";
+	    print $data_json (' ' x 3) . "\"abundpct\": $totalAvgDepth_pct,\n";
+	}
+		
+	
+	
 	
 	my $i = 0; 
 	for my $name (sort keys %{$data{$key}}){
@@ -1503,11 +1510,11 @@ sub output_pathway_profile{
     my %stats = %$sref;
     my %data = %$dataref;
     my $total_count = $stats{$feature}->{totalCount};
-    my $total_depth = $stats{$feature}->{totalAvgDepth};
-    
+    my $total_depth = exists $stats{$feature}->{totalAvgDepth} ? $stats{$feature}->{totalAvgDepth} : 0;
     my @msamples = grep !/totalCount|totalAvgDepth/, sort keys %{$stats{$feature}};
+    my @header = ("Count", "Count_pct");
+    push(@header, ("Abund", "Abund_pct")) if exists $stats{$feature}->{totalAvgDepth};
     
-    my @header = ("Count", "Count_pct", "Abund", "Abund_pct");
     unshift(@header, "#Pathway_id", "Name", "KOs", "total_family", "total_family_found") if($attr =~ /kegg/);
     unshift(@header, "#Pathway_id", "Type", "Name", "ECs", "total_family", "total_family_found") if($attr =~ /metacyc/);
 
@@ -1572,15 +1579,19 @@ sub output_pathway_profile{
 	
 	my $count = $data{$key}->{count};
 	my $count_pct = sprintf("%.2f",100* $count/$total_count);
-	my $totalAvgDepth = sprintf("%.2f",$data{$key}->{totalAvgDepth});
-	my $totalAvgDepth_pct = sprintf("%.2f",100* $totalAvgDepth/$total_depth);
-	push(@cols, ($count, $count_pct, $totalAvgDepth, $totalAvgDepth_pct));
 	
-	
+	push(@cols, ($count, $count_pct));
 	print $data_json (' ' x 3) . "\"count\": $count,\n";
 	print $data_json (' ' x 3) . "\"countpct\": $count_pct,\n";
-	print $data_json (' ' x 3) . "\"abund\": $totalAvgDepth,\n";
-	print $data_json (' ' x 3) . "\"abundpct\": $totalAvgDepth_pct,\n";
+	
+	
+	if(exists $data{$key}->{totalAvgDepth}){
+	    my $totalAvgDepth = sprintf("%.2f",$data{$key}->{totalAvgDepth});
+	    my $totalAvgDepth_pct = sprintf("%.2f",100* $totalAvgDepth/$total_depth);
+	    push(@cols, ($totalAvgDepth, $totalAvgDepth_pct));
+	    print $data_json (' ' x 3) . "\"abund\": $totalAvgDepth,\n";
+	    print $data_json (' ' x 3) . "\"abundpct\": $totalAvgDepth_pct,\n";
+	}
 	
 	my $i = 0; 
 	for my $name (sort keys %{$data{$key}}){
