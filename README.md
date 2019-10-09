@@ -101,18 +101,11 @@ With a user provided protein expression level profile, MetaErg can also quantify
 ```
 -->
 # Utility scripts
-MetaErg includes some utility perl scripts and they can be used to filter contigs by length, add bin identifiers to predicted coding sequences, and generate input for the VizBin program: 
+MetaErg includes some utility perl scripts and they can be used to filter contigs by length, add bin identifiers to predicted coding sequences: 
 ```
 #Filter out contig sequences shorter than 500bp
 >perl $HOME/metaerg/bin/filterContigByLength.pl contig.fasta 500
 ```
-Let's assume you have a folder named "mybindir" which contains the contigs of each bin as a separate nt fasta file. Let's assume these fasta files have filenames such as "Bin.binid.fa". In the file name, "binid" is the bin id number. The following command can generate input files for the VizBin program, to visualize the binning results.
-```
-#Create input files for vizbin
->perl $HOME/metaerg/bin/getVizBinInput.pl -d mybindir
-```
-The previous command writes two files into "mybindir": "binned_concat.fasta" and "binned_annotation.list". In the VizBin application, the "binned_concat.fasta" can be provided in the "File to Visualize" field and "binned_annotation.list" can be provided in the "Annotation file(optional)" field.
-
 Let's assume you have annotated all the contigs of your metagenome. MetaErg can extract the subset of annotation results and produce html summary pages for an individual bin as follows:
 ```
 #Extract annotation results for individual bins
