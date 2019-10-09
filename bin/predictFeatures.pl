@@ -96,7 +96,7 @@ for my $sid (@seqArray) {
     for my $f (@{$seqHash{$sid}{FEATURE}}) {
 	$f->attach_seq( $seqHash{$sid}{DNA} );
     }
-    
+
 }
 
 # . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
@@ -124,7 +124,7 @@ if($tm){
     $t1 = Benchmark->new;
     $td = timediff($t1, $t0);
     msg("predict_TM took:" . timestr($td) . " to run\n");
-    
+
 }
 
 output_gff(\%seqHash, \@seqArray, $prefix, $outdir);
@@ -132,22 +132,22 @@ output_gff(\%seqHash, \@seqArray, $prefix, $outdir);
 
 #----------------------------------------------------------------------
 sub predict_tRNA_aragorn{
-    
+
     my ($fasta, $seq, $outdir) = @_;
     my %mask = ();
     msg("Predicting tRNAs");
-    
+
     #default is metagenome mode
     my $cmd = "aragorn -l -t -gc11  $fasta -w -o $outdir/tRNA.temp";
-    
-    if(! -e "$outdir/tRNA.temp"){		  
+
+    if(! -e "$outdir/tRNA.temp"){
 	runcmd($cmd);
-    }				  
+    }
     open TRNA, "$outdir/tRNA.temp";
     my $num_trna=0;
-    
+
 #open TRNA, '-|', $cmd;
-    
+
     #>C1997739
     #0 genes found
     #>C1997905
@@ -164,7 +164,7 @@ sub predict_tRNA_aragorn{
 	last if /^>?ebd/;
 	if(my ($fastaName,$found) =  /^>?(\S+).*?\n(.*)/s){
 	    next if $found =~ /0 genes found/;
-	    
+
 	    my @hits = split(/\n/, $found);
 	    shift @hits;
 	    my $sid = $fastaName;
@@ -173,16 +173,16 @@ sub predict_tRNA_aragorn{
 		my @line = split(/\s+/, $tRNA);
 		my $tcount = $line[0];
 		$strand = -1 if $tRNA =~ /c\[/;
-		
+
 		my ($start, $end) = $line[2] =~ /\[(-?\d+?),(-?\d+)\]/;
 		# correct strange coordinates in -l mode
 		$start = max( $start, 1 );
 		$end = min( $end, $seq->{$sid}{DNA}->length );
-		
+
 		my $tRNAType = $line[1];
 		$tRNAType =~ s/-/_/g;
 		my ($antiCodon) = $line[4] =~ /\((\S+?)\)/;
-		
+
 		$num_trna++;
 		my $product = $tRNAType."_" . $antiCodon;
 		my $tool = "aragorn";
@@ -209,7 +209,7 @@ sub predict_tRNA_aragorn{
     close(TRNA);
     return \%mask;
     #return $seq;
-    
+
 }
 
 #----------------------------------------------------------------------
@@ -217,25 +217,25 @@ sub predict_rRNA{
 
     my ($fasta, $gtype, $seq, $cpus, $evalue, $outdir) = @_;
     my %mask = ();
-    
+
     #9764223 nhmmer_rRNA.pl  ssu_rRNA        1098    1150    1.5e-10 +       .       Name=euk_18SrRNA
     msg("Predicting Ribosomal RNAs");
     my $cmd = "$bin/rRNAFinder.pl --dbdir $DBDIR --threads $cpus --evalue $evalue --domain meta --outdir $outdir $fasta";
-    
+
     #my $cmd = "rRNAFinder.pl --threads $cpus --evalue $evalue --domain $gtype --outdir $outdir $fasta";
-    
+
     if(! -e "$outdir/rRNA.gff"){
 	runcmd($cmd);
     }
     #NODE_161294_length_1378_cov_32.6674_1	16SrRNA	Bacteria;Planctomycetes;vadinHA49	[rRNA_target=db:silva_SSURef_Nr99.fasta|EF632951.1.1540 1 685 evalue:0.0 qcov:98 identity:92.453]
     my $num_rrna=0;
-    
+
     if(! -e "$outdir/rRNA.tax.txt"){
 	msg("Found $num_rrna rRNAs");
 	return \%mask;
 
     }
-    
+
     open(TAX, "$outdir/rRNA.tax.txt") or die "Could not open $outdir/rRNA.tax.txt to read, !$\n";
     my %rna2taxon = ();
     while(<TAX>){
@@ -248,14 +248,14 @@ sub predict_rRNA{
 	$rna2taxon{$type}->{$l[0]}->{taxon} = $taxon;
 	$rna2taxon{$type}->{$l[0]}->{target} = $target;
 
-	   
+
     }
-    
+
     open my $NHMMER_RRNA, "$outdir/rRNA.gff";
-        
+
     my $gff = Bio::Tools::GFF->new(-fh => $NHMMER_RRNA, -gff_version => 3);
     while (my $f = $gff->next_feature) {
-	
+
 	my $primary_tag = $f->primary_tag;
 	my $feature_id = ($f->get_tag_values("ID"))[0];
 	#my ($tmp) = $primary_tag =~ /^\w+?_(\w+)/;
@@ -268,10 +268,10 @@ sub predict_rRNA{
 	my $sid = $f->seq_id;
 	my $start = $f->start;
 	my $end = $f->end;
-	
+
 	push @{$seq->{$sid}{FEATURE}}, $f;
 	$mask{$sid}->{"$start:$end"} = 1;
-	
+
 	$num_rrna++;
     }
     msg("Found $num_rrna rRNAs");
@@ -288,18 +288,18 @@ sub predict_CRISPRs{
 
     my($fasta, $seq, $outdir) = @_;
     my %mask = ();
-    
+
     msg("Searching for CRISPR repeats");
     my $num_crispr=0;
     my $cmd = "minced -gffFull $fasta $outdir/crisprs.temp";
-        
+
     if(! -e "$outdir/crisprs.temp"){
     	 runcmd($cmd);
     }
     open my $MINCED, "$outdir/crisprs.temp";
     #open my $MINCED, '-|', $cmd;
     my $gff = Bio::Tools::GFF->new(-fh => $MINCED, -gff_version => 3);
-    #Sequence tool CRISPR crispr.start crispr.end numRepeat_CRISPR 
+    #Sequence tool CRISPR crispr.start crispr.end numRepeat_CRISPR
     #NODE_883_length_34292_cov_11.1505	minced:0.3.2	repeat_region	33687	33944	4	.	.	ID=CRISPR3;bin=91;rpt_family=CRISPR;rpt_type=direct;rpt_unit_seq=GTCGCACTGGGCTTCTAAAGCCCATGAGGATTGAAAC
     #NODE_883_length_34292_cov_11.1505	minced:0.3.2	repeat_unit	33687	33723	1	.	.	ID=DR.CRISPR3.1;Parent=CRISPR3;bin=91
     while (my $f = $gff->next_feature) {
@@ -311,12 +311,12 @@ sub predict_CRISPRs{
 	$f->add_tag_value("note", "CRISPR with $spacer_count repeat units");
 	#$f->score(".");
 	my $id = TAG($f, "ID");
-	
+
 	$mask{$sid}->{"$start:$end"} = 1;
-		
+
 	push @{$seq->{$sid}{FEATURE}}, $f;
 	$num_crispr++;
-	
+
     }
     msg("Found $num_crispr CRISPRs");
     close($MINCED);
@@ -335,17 +335,17 @@ sub predict_CDs{
     if($gtype ne "meta"){
 	$proc = "single";
     }
-    
+
     my $cmd = "prodigal -g $gcode -p $proc -m -f gff -q -i $fasta -a $outdir/cds.faa.temp.1 -d $outdir/cds.ffn.temp.1 -o $outdir/cds.gff.temp.1";
-    
-    if(! -e "$outdir/cds.gff.temp.1" || ! -e "$outdir/cds.faa.temp.1" || ! -e "$outdir/cds.ffn.temp.1"){		  
+
+    if(! -e "$outdir/cds.gff.temp.1" || ! -e "$outdir/cds.faa.temp.1" || ! -e "$outdir/cds.ffn.temp.1"){
 	runcmd($cmd);
     }
-    open my $PRODIGAL, "$outdir/cds.gff.temp.1"; 
+    open my $PRODIGAL, "$outdir/cds.gff.temp.1";
     #open my $PRODIGAL, '-|', $cmd;
     my $gff = Bio::Tools::GFF->new(-fh => $PRODIGAL, -gff_version => 3);
     $num_cds = 0;
-    
+
     #scaffold7       Prodigal_v2.6.1 CDS     39      407     29.7    -       0       ID=2_1;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.415;conf=99.89;score=29.70;cscore=18.64;sscore=11.06;rscore=6.02;uscore=1.46;tscore=3.58;
     #scaffold7       Prodigal_v2.6.1 CDS     503     904     27.4    -       0       ID=2_2;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.463;conf=99.79;score=26.78;cscore=19.00;sscore=7.78;rscore=1.61;uscore=3.24;tscore=3.58;
     my $num_lt=0;
@@ -359,7 +359,7 @@ sub predict_CDs{
 	my $end = $f->end;
 	my $strand = $f->strand;
 	#$f->add_tag_value('Parent', $sid);
-	
+
 	if(abs($end - $start) < $minorflen){
 	    $excludes{TAG($f, "ID")} = 1;
 	    #msg("Excluding CDS too short $sid ". TAG($f, "ID"));
@@ -381,19 +381,19 @@ sub predict_CDs{
     #exclue the genes which are too short
     open AA_TEMP, "$outdir/cds.faa.temp.1"  or err("Can't open $outdir/cds.faa.temp.1");
     open NT_TEMP,  "$outdir/cds.ffn.temp.1" or err("Can't open $outdir/cds.ffn.1.temp");
-    
+
     #the outfiles have already excluded some sequences
-    open AA, ">$outdir/cds.faa"  or err("Can't open $outdir/cds.faa"); 
+    open AA, ">$outdir/cds.faa"  or err("Can't open $outdir/cds.faa");
     open NT,  ">$outdir/cds.ffn" or err("Can't open $outdir/cds.ffn");
-    
+
     $/ = "\n>";
-    
+
     while(<AA_TEMP>){
 	chomp;
 	if(my ($id, $header,$seq) =  /^>?(\S+?)\s+(\S.*?)\n(.*)/s){
 	    my @header_items = split(/\s+/, $header);
 	    my ($ID) = $header_items[7] =~ /^ID=(\S+?);/;
-	   
+
 	    $id =~ s/^(\S+)\_(\d+)/$1\_cds\_$2/;
 
 	    $seq =~ s/\*$//;
@@ -403,20 +403,20 @@ sub predict_CDs{
     while(<NT_TEMP>){
 	chomp;
 	if(my ($id, $header,$seq) =  /^>?(\S+?)\s+(\S.*?)\n(.*)/s){
-	    
+
 	    my @header_items = split(/\s+/, $header);
 	    my ($ID) = $header_items[7] =~ /^ID=(\S+?);/;
 	    $id =~ s/^(\S+)\_(\d+)/$1\_cds\_$2/;
-	    
+
 	    print NT ">$id $header\n$seq\n" if(not exists $excludes{$ID});
 	}
     }
     close(AA_TEMP);
     close(NT_TEMP);
-    
+
     close(AA);
     close(NT);
-    
+
     $/ = "\n";
     #delfile("$outdir/cds.faa.temp", "$outdir/cds.ffn.temp");
     return $num_cds;
@@ -426,29 +426,29 @@ sub predict_CDs{
 sub predict_signal_peptide_parallel{
     my ($fasta, $seqHash, $seqArray) = @_;
     msg("Looking for signal peptides at start of predicted proteins in meta mode");
-    
+
     #open my $cdsoutfh, '>', $fasta;
     #my $cdsout = Bio::SeqIO->new(-fh=>$cdsoutfh, -format=>'fasta');
     my %cds;
     my $signalp = "signalp";
     for my $sid (@$seqArray) {
 	for my $f (@{ $seqHash->{$sid}{FEATURE} }) {
-	    next unless $f->primary_tag eq "CDS"; 
+	    next unless $f->primary_tag eq "CDS";
 	    my ($id) = TAG($f, "ID");
 	    #print STDERR "------id=$id\n";
 	    $cds{$id} = $f;
 	}
     }
-    
+
     my @cmds = ();
-    
+
     if(! glob("$outdir/cds.faa.signalp.*.gff3")){
 	#version 5
-	my $cmd1 = "$signalp -verbose=false -org gram- -batch 50000 -format short -gff3 -tmp $outdir -prefix $fasta.signalp.gramn -fasta $fasta";
-	my $cmd2 = "$signalp -verbose=false -org gram+ -batch 50000 -format short -gff3 -tmp $outdir -prefix $fasta.signalp.gramp -fasta $fasta";
-	my $cmd3 = "$signalp -verbose=false -org euk -batch 50000 -format short -gff3 -tmp $outdir -prefix $fasta.signalp.euk -fasta $fasta";
-	my $cmd4 = "$signalp -verbose=false -org arch -batch 50000 -format short -gff3 -tmp $outdir -prefix $fasta.signalp.arch -fasta $fasta";
-        
+	my $cmd1 = "$signalp -verbose=false -org gram- -format short -gff3 -tmp $outdir -prefix $fasta.signalp.gramn -fasta $fasta";
+	my $cmd2 = "$signalp -verbose=false -org gram+ -format short -gff3 -tmp $outdir -prefix $fasta.signalp.gramp -fasta $fasta";
+	my $cmd3 = "$signalp -verbose=false -org euk  -format short -gff3 -tmp $outdir -prefix $fasta.signalp.euk -fasta $fasta";
+	my $cmd4 = "$signalp -verbose=false -org arch -format short -gff3 -tmp $outdir -prefix $fasta.signalp.arch -fasta $fasta";
+
 	my $thr1 = threads->new(\&runcmd, $cmd1);
 	my $thr2 = threads->new(\&runcmd, $cmd2);
 	my $thr3 = threads->new(\&runcmd, $cmd3);
@@ -457,14 +457,14 @@ sub predict_signal_peptide_parallel{
 	$thr2->join();
 	$thr3->join();
 	$thr4->join();
-	
+
 
     }
-    
+
     my $num_sigpep = 0;
     my $sp_count = 0;
     my %sps = ();
-    
+
     #merge the results from all four org prediction
     while (glob "$outdir/cds.faa.signalp.*.gff3"){
 	open my $gff, "$_";
@@ -481,7 +481,7 @@ sub predict_signal_peptide_parallel{
 	my $cd_f = $cds{$cid};
 	$signal_f->add_tag_value("ID", "$cid\_sp$sp_count");
 	$signal_f->add_tag_value("Parent", $signal_f->seq_id);
-	
+
 	my $signal_len = $signal_f->end - $signal_f->start + 1;
 	$signal_f->seq_id($cd_f->seq_id);
 	$signal_f->start($cd_f->start + ($signal_f->start-1)*3);
@@ -498,38 +498,38 @@ sub predict_signal_peptide_parallel{
 sub predict_signal_peptide{
     my ($fasta, $seqHash, $seqArray) = @_;
     msg("Looking for signal peptides at start of predicted proteins in meta mode");
-    
+
     #open my $cdsoutfh, '>', $fasta;
     #my $cdsout = Bio::SeqIO->new(-fh=>$cdsoutfh, -format=>'fasta');
     my %cds;
     my $signalp = "signalp";
     for my $sid (@$seqArray) {
 	for my $f (@{ $seqHash->{$sid}{FEATURE} }) {
-	    next unless $f->primary_tag eq "CDS"; 
+	    next unless $f->primary_tag eq "CDS";
 	    my ($id) = TAG($f, "ID");
 	    #print STDERR "------id=$id\n";
 	    $cds{$id} = $f;
 	}
     }
-    
+
     my @cmds = ();
-    
+
     if(! glob("$outdir/cds.faa.signalp.*.gff3")){
 	#version 5
-	push(@cmds, "$signalp -verbose=false -org gram- -batch 50000 -format short -gff3 -tmp $outdir -prefix $fasta.signalp.gramn -fasta $fasta");
-	push(@cmds, "$signalp -verbose=false -org gram+ -batch 50000 -format short -gff3 -tmp $outdir -prefix $fasta.signalp.gramp -fasta $fasta");
-	push(@cmds, "$signalp -verbose=false -org euk -batch 50000 -format short -gff3 -tmp $outdir -prefix $fasta.signalp.euk -fasta $fasta");
-	push(@cmds, "$signalp -verbose=false -org arch -batch 50000 -format short -gff3 -tmp $outdir -prefix $fasta.signalp.arch -fasta $fasta");
-        
+	push(@cmds, "$signalp -verbose=false -org gram- -batch 10000 -format short -gff3 -tmp $outdir -prefix $fasta.signalp.gramn -fasta $fasta");
+	push(@cmds, "$signalp -verbose=false -org gram+ -batch 10000 -format short -gff3 -tmp $outdir -prefix $fasta.signalp.gramp -fasta $fasta");
+	push(@cmds, "$signalp -verbose=false -org euk -batch 10000 -format short -gff3 -tmp $outdir -prefix $fasta.signalp.euk -fasta $fasta");
+	push(@cmds, "$signalp -verbose=false -org arch -batch 10000 -format short -gff3 -tmp $outdir -prefix $fasta.signalp.arch -fasta $fasta");
+
 	foreach my $cmd (@cmds){
 	    runcmd($cmd);
 	}
     }
-    
+
     my $num_sigpep = 0;
     my $sp_count = 0;
     my %sps = ();
-    
+
     #merge the results from all four org prediction
     while (glob "$outdir/cds.faa.signalp.*.gff3"){
 	open my $gff, "$_";
@@ -546,7 +546,7 @@ sub predict_signal_peptide{
 	my $cd_f = $cds{$cid};
 	$signal_f->add_tag_value("ID", "$cid\_sp$sp_count");
 	$signal_f->add_tag_value("Parent", $signal_f->seq_id);
-	
+
 	my $signal_len = $signal_f->end - $signal_f->start + 1;
 	$signal_f->seq_id($cd_f->seq_id);
 	$signal_f->start($cd_f->start + ($signal_f->start-1)*3);
@@ -566,33 +566,33 @@ sub predict_TM{
 
     msg("Looking for transmembrane helices in the predicted proteins");
     my %cds;
-        
+
     for my $sid (@$seqArray) {
-	
+
 	for my $f (@{$seqHash->{$sid}{FEATURE}}){
 	    next unless $f->primary_tag eq "CDS";
 	    my ($id) = TAG($f, "ID");
 	    $cds{$id} = $f;
 	    #$cds{++$count} = $f;
-	    
+
 	}
     }
-    
+
     my $cmd = "tmhmm --short 1  --workdir $outdir $fasta > $fasta.tmhmm.temp";
-    
+
     if(! -e "$fasta.tmhmm.temp"){
 	runcmd($cmd);
     }
     open my $TMHMM, "$fasta.tmhmm.temp";
-    
+
     my $tm_count = 0;
     #open my $TMHMM, '-|', $cmd;
     #METAANNOT_00004 len=509 ExpAA=0.02      First60=0.00    PredHel=0       Topology=o
     #METAANNOT_00005 len=344 ExpAA=213.46    First60=34.76   PredHel=10      Topology=i12-34o49-66i71-88o93-115i124-146o161-183i211-233o243-262i269-291o301-323i
     while (<$TMHMM>) {
 	chomp;
-	next if /PredHel=0/; 
-		
+	next if /PredHel=0/;
+
 	my @x = split m/\s+/;
 	my ($expaa) = $x[2] =~ /ExpAA=(\S+)/;
 	my ($first60) = $x[3] =~ /First60=(\S+)/;
@@ -609,11 +609,11 @@ sub predict_TM{
 	    print STDERR "************************************* parent not exits id=$cdsid, $_";
 	    next;
 	}
-	
+
 	my $start = $f->start;
 	my $end = $f->end;
 	my $strand = $f->strand;
-	
+
 	my $dna_topology = "";
 	#print STDERR "$_\n";
 	#print STDERR join(",", @chars), "\n";
@@ -644,7 +644,7 @@ sub predict_TM{
 	#$tmhelix->add_tag_value("First60",$first60);
 	#$tmhelix->add_tag_value("PredHel",$predHel);
 	$tmhelix->add_tag_value("Topology", $dna_topology);
-	push @{$seqHash->{$sid}{FEATURE}}, $tmhelix; 
+	push @{$seqHash->{$sid}{FEATURE}}, $tmhelix;
 	$f->add_tag_value("tm_num",$predHel);
 
     }
@@ -654,12 +654,12 @@ sub predict_TM{
 #----------------------------------------------------------------------
 # read in sequences
 sub init{
-    
+
     my ($contig,$fasta, $mincontiglen, $seqHash, $seqArray) = @_;
     my %seqids = ();
     use FileHandle;
     my $fh = FileHandle->new;
-        
+
     if($contig =~ /.gz$/){
 	$fh->open("zcat $contig |")
     }
@@ -667,7 +667,7 @@ sub init{
 	$fh->open($contig)
     }
     my $fout = Bio::SeqIO->new(-file=>">$fasta", -format=>'fasta');
-    
+
     msg( "Loading and checking input file: $contig");
     my $fin = Bio::SeqIO->new(-fh=>$fh, -format=>'fasta');
     my $ncontig = 0;
@@ -683,7 +683,7 @@ sub init{
 	$s =~ s/[^ACTG]/N/g;  # replace wacky IUPAC with N
 	$seq->seq($s);
 	$seq->desc(undef);
-	
+
 	if (exists $seqids{$seq->id}) {
 	    err("Uh oh! Sequence file '$contig' contains duplicate sequence ID:", $seq->id);
 	}
@@ -705,9 +705,9 @@ sub TAG {
       s/,/%2C/g;
   }
   my $value = join(",", @values);
-  
+
 #$value =~ s/^\s+(\S.*?)\s+$/$1/;
-  
+
   return $value;
 }
 
@@ -715,15 +715,15 @@ sub TAG {
 
 sub setOptions {
     use Getopt::Long;
-    
+
     @Options = (
 	'General:',
 	{OPT=>"help",    VAR=>\&usage,             DESC=>"This help"},
 	{OPT=>"dbdir=s",  VAR=>\$DBDIR, DEFAULT=>"./db", DESC=>"metaerg searching database directory"},
-	
+
 	'input:',
 	{OPT=>"mincontiglen=i",  VAR=>\$mincontiglen, DEFAULT=>200, DESC=>"Minimum contig size [NCBI needs 200]"},
-	
+
 	'gene prediction:',
 	{OPT=>"gcode=i",  VAR=>\$gcode, DEFAULT=>11, DESC=>"translation table to use for gene predication"},
 	{OPT=>"gtype=s",  VAR=>\$gtype, DEFAULT=>"single", DESC=>"single or metagenome: [single, meta]"},
@@ -731,20 +731,20 @@ sub setOptions {
 	{OPT=>"evalue=f",VAR=>\$evalue, DEFAULT=>1E-5, DESC=>"evalue cut-off for rRNA prediction"},
 	{OPT=>"sp!",  VAR=>\$sp, DEFAULT=>0, DESC=>"Disable signal peptide and cleavage site predication using signalp, it is slow when it is enabled"},
 	{OPT=>"tm!",  VAR=>\$tm, DEFAULT=>0, DESC=>"Disable transmembrane helics predication using tmhmm, it is slow when it is enabled"},
-	
+
 	'Outputs:',
 	{OPT=>"prefix=s",  VAR=>\$prefix, DEFAULT=>'', DESC=>"Filename output prefix"},
 	{OPT=>"outdir=s",  VAR=>\$outdir, DEFAULT=>'', DESC=>"Output folder [auto]"},
 	{OPT=>"force!",  VAR=>\$force, DEFAULT=>0, DESC=>"Force overwriting existing output folder"},
-	{OPT=>"locustag=s",  VAR=>\$locustag, DEFAULT=>$EXE, DESC=>"Locus tag prefix"},	
+	{OPT=>"locustag=s",  VAR=>\$locustag, DEFAULT=>$EXE, DESC=>"Locus tag prefix"},
 	'Computation:',
 	{OPT=>"cpus=i",  VAR=>\$cpus, DEFAULT=>1, DESC=>"Number of CPUs to use"}
 	);
-    
+
     (!@ARGV) && (usage());
-    
+
     &GetOptions(map {$_->{OPT}, $_->{VAR}} grep { ref } @Options) || usage();
-    
+
     # Now setup default values.
     foreach (@Options) {
 	if (ref $_ && defined($_->{DEFAULT}) && !defined(${$_->{VAR}})) {
@@ -780,21 +780,21 @@ sub usage {
 #----------------------------------------------------------------------
 
 sub output_gff{
-    
+
     my ($seqHash, $seqArray, $prefix, $outdir) = @_;
     my $gffver = 3;
-    
+
     msg("Writing all feature gff file to $outdir");
     #open my $gff_fh, '>', "$outdir/$prefix.feature.gff";
     open my $gff_fh, '>', "$outdir/features.gff";
     my $gff_factory = Bio::Tools::GFF->new(-gff_version=>$gffver);
-    
+
     print $gff_fh "##gff-version $gffver\n";
-    
+
     for my $id (@seqArray) {
 	print $gff_fh "##sequence-region $id 1 ", $seqHash{$id}{DNA}->length, "\n";
     }
-    
+
     for my $sid (@seqArray) {
 	#my $ctg = $seqHash{$sid}{DNA};
 	for my $f ( sort { $a->start <=> $b->start } @{ $seqHash{$sid}{FEATURE} }) {
@@ -802,7 +802,7 @@ sub output_gff{
 		my $p = TAG($f, "Parent");
 		$f->remove_tag("Parent");
 		$f->add_tag_value("Parent", $p);
-		
+
 	    }
 	    print $gff_fh $f->gff_string($gff_factory),"\n";
 	}
@@ -811,18 +811,18 @@ sub output_gff{
 }
 
 sub maskSeqs{
-    
+
     my ($fasta, $output, $locs) = @_;
-    
+
     open(FASTA, $fasta) or die "Could not open $fasta to read, $!\n";
     open(MASKED, ">$output") or die "Could not open $output to write, $!\n";
-    
+
     $/ = "\n>";
     while(<FASTA>){
 	chomp;
 	if(my ($seqid, $seq) =  /^>?(\S+).*?\n(.*)/s){
 	    $seq =~ s/\s+//g;
-	    
+
 	    if(exists $locs->{$seqid}){
 		foreach my $loc (keys %{$locs->{$seqid}}){
 		    my ($start, $end) = split(/:/, $loc);
@@ -832,7 +832,7 @@ sub maskSeqs{
 		    #my $front = substr($seq, 0, $start-1);
 		    #my $back = substr($seq, $start-1);
 		    #$seq = $front . "N"x$flen . $back;
-		    
+
 		}
 		print MASKED ">$seqid\n$seq\n";
 	    }

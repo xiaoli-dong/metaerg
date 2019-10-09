@@ -20,17 +20,19 @@ use Data::Dumper;
 use File::Path qw(make_path remove_tree);
 
 
-my ($gff,$fasta);
+my ($gff,$fasta, $dbdir);
 my $outdir = ".";
 my $bin = "$FindBin::RealBin";
+my $dbdir = "$bin/../db";
 my $templatedir = "$bin/../template";
-my $sqlite_dir = "$bin/../db/sqlite3";
 my $EXE = $FindBin::RealScript;
 my $txtdir = "$bin/../txt";
+
 &GetOptions(
     "g=s" =>\$gff,
     "f=s" =>\$fasta,
-    "o=s" =>\$outdir
+    "o=s" =>\$outdir,
+    "d=s" =>\$dbdir
     );
 
 ($gff && $fasta && $outdir) ||
@@ -42,8 +44,11 @@ my $txtdir = "$bin/../txt";
     "  perl $0 \n".
     "  -g <input gff file: all.gff file produced by metaerg>\n".
     "  -f <fasta format contig file, the features were assocaited with this input file>\n".
-    "  -o <output dir>\n";
-    
+    "options:\n".
+    "  -o <output dir, default will be the current directory>\n".
+    "  -d <database dir, default will be inside of the metaerg directory>\n";
+
+my $sqlite_dir = "$dbdir/sqlite3";   
 my $datadir = "$outdir/data";
 
 if (-d $datadir) {
