@@ -212,7 +212,7 @@ msg("Start outputing report files");
 
 
 
-$cmd = "$^X $bin/output_reports.pl --dbdir $DBDIR -g $datadir/all.gff -o $outdir -f $outdir/$prefix.fna";
+$cmd = "$^X $bin/output_reports.pl -d $DBDIR -g $datadir/all.gff -o $outdir -f $outdir/$prefix.fna";
 
 
 runcmd("$cmd");
