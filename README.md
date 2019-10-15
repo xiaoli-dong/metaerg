@@ -6,6 +6,8 @@ A MetaErg analysis output demo page can be found at: https://xiaoli-dong.github.
 
 A MetaErg Docker application can be found here: https://hub.docker.com/r/xiaolidong/docker-metaerg
 
+Please cite the following: Dong X and Strous M (2019) An Integrated Pipeline for Annotation and Visualization of Metagenomic Contigs. Front. Genet. 10:999. doi: 10.3389/fgene.2019.00999
+
 # Required perl modules
 If you do not use Docker, you will need to install perl modules. MetaErg requires Perl 5.6.0 or higher and runs on Linux platforms. Besides the perl core modules, it also requires the following perl modules to be installed:
 ```
