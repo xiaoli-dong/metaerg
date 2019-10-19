@@ -63,10 +63,10 @@ docker pull xiaolidong/docker-metaerg
 
 # Databases and Docker
 With Docker, you can either use the downloaded prebuilt database or build a database with the command below. Building the database process will take a while to run:
-docker run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v my_local_dir:/data/ docker-metaerg setup_db.pl -o /data -v 132
+docker run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v my_local_dir:/data/ xiaolidong/docker-metaerg setup_db.pl -o /data -v 132
 
 #Running MetaErg with default options
-docker run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v my_local_dir:/data/ docker-metaerg metaerg.pl --dbdir /data/db --outdir /data/my_metaerg_output /data/contig.fasta
+docker run --shm-size 2g --rm -u $(id -u):$(id -g) -it -v my_local_dir:/data/ xiaolidong/docker-metaerg metaerg.pl --dbdir /data/db --outdir /data/my_metaerg_output /data/contig.fasta
 ```
 
 # Installation
