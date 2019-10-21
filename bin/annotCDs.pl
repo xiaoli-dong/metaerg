@@ -57,7 +57,7 @@ while (my $f = $gffio->next_feature) {
     my $sid = $f->seq_id;
     push(@seqArray ,$sid) if not exists $seqHash{$sid};
     push (@{$seqHash{$sid}{FEATURE}}, $f);
-    
+
 }
 close($gff);
 
@@ -68,24 +68,24 @@ output_gff(\%seqHash, \@seqArray, $outdir);
 
 
 sub output_gff{
-    
+
     my ($seqHash, $seqArray, $outdir) = @_;
     my $gffver = 3;
-    
+
     msg("Writing all feature gff file to $outdir");
     #open my $gff_fh, '>', "$outdir/$prefix.feature.gff";
     open my $gff_fh, '>', "$outdir/features.annot.gff";
     my $gff_factory = Bio::Tools::GFF->new(-gff_version=>$gffver);
-    
+
     print $gff_fh "##gff-version $gffver\n";
-    
+
     for my $sid (@seqArray) {
 	for my $f ( sort { $a->start <=> $b->start } @{ $seqHash{$sid}{FEATURE} }) {
 	    print $gff_fh $f->gff_string($gff_factory),"\n";
 	}
     }
     close($gff_fh);
-} 
+}
 
 
 
@@ -95,7 +95,9 @@ sub cds_diamondSearch{
     my $db = "$DBDIR/diamond/$dbname";
     my $bls_prefix = "$outdir/$dbname";
     my $blstable = "$bls_prefix\.blasttable";
+
     my $cmd = "diamond blastp -k 1 --quiet --masking $mask -p $cpus -q $faa -d $db -e $evalue --tmpdir /dev/shm -f 6 qseqid sseqid qlen qstart qend sstart send qframe pident bitscore evalue qcovhsp > $blstable 2> /dev/null";
+
 
     #msg("Will use diamond blastp search against $dbname:$cmd");
     if(! -e "$blstable"){
@@ -117,12 +119,12 @@ sub cds_hmmerSearch_FOAM{
     push(@thrs, threads->new(\&cds_hmmerSearch, $faa, "FOAM3.hmm", $outdir, $cpus, $hmm_cutoff));
     push(@thrs, threads->new(\&cds_hmmerSearch, $faa, "FOAM4.hmm", $outdir, $cpus, $hmm_cutoff));
     push(@thrs, threads->new(\&cds_hmmerSearch, $faa, "FOAM5.hmm", $outdir, $cpus, $hmm_cutoff));
-        
+
     foreach my $thr ( @thrs ) {
 	$thr -> join();
     }
-    
-    
+
+
     my @db_subset = ("FOAM1", "FOAM2","FOAM3","FOAM4","FOAM5");
     #my @db_subset = ("FOAM1", "FOAM2","FOAM3","FOAM4","FOAM5", "FOAM6","FOAM7","FOAM8", "FOAM9");
     my $cmd = "cat ";
@@ -152,7 +154,7 @@ sub cds_hmmerSearch{
     else{
 	$cmd = "hmmsearch --notextw --acc -E $hmm_evalue_cutoff --domE $hmm_evalue_cutoff --incE  $hmm_evalue_cutoff  --incdomE $hmm_evalue_cutoff --cpu $cpus --tblout \Q$hmmout\E $db $faa > /dev/null 2>\&1";
     }
-    
+
     #msg("Will use hmmsearch against $dbname:$cmd");
 
     if(! -e $hmmout){
@@ -174,7 +176,7 @@ sub setOptions {
 	'General:',
 	{OPT=>"help",    VAR=>\&usage,             DESC=>"This help"},
 	{OPT=>"dbdir=s",  VAR=>\$DBDIR, DEFAULT=>"./db", DESC=>"metaerg searching database directory"},
-	
+
 	'Outputs:',
 	{OPT=>"outdir=s",  VAR=>\$outdir, DEFAULT=>'', DESC=>"Output folder [auto]"},
 
