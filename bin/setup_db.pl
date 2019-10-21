@@ -30,7 +30,7 @@ my $EXE = $FindBin::RealScript;
 my $bin = "$FindBin::RealBin";
 my $sqlfile = "$bin/../metaerg.sql";
 my $DBDIR = "$outdir/db";
-my $txt = "$bin/../txt";
+my $txt_dir = "$bin/../txt";
 my $tmp_dir = "$outdir/tmp";
 my $diamond_dir = "$DBDIR/diamond";
 my $protein_hmm_dir = "$DBDIR/hmm";
@@ -408,7 +408,7 @@ sub tigrfam_id2info_table{
 	    $mainrole = (exists $roleid2role{$roleid}->{"mainrole"}) ? $roleid2role{$roleid}->{"mainrole"} : "";
 	    $sub1role = (exists $roleid2role{$roleid}->{"sub1role"}) ? $roleid2role{$roleid}->{"sub1role"} : "";
 	    $mainrole =~ s/\"/\"\"/g;
-	    $subrole =~ s/\"/\"\"/g;
+	    $sub1role =~ s/\"/\"\"/g;
 	}
 	print OUT "$_\t";
 	print OUT $fams{$_}->{ID}, "\t";
