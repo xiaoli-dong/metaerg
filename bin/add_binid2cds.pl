@@ -4,8 +4,10 @@ use strict;
 use warnings;
 use Getopt::Long;
 use Bio::Tools::GFF;
+
+
 my ($bindir, $cds, $gff, $prefix);
-$prefix = "Bin";
+
 &GetOptions(
     "d=s" =>\$bindir,
     "c=s" =>\$cds,
@@ -14,6 +16,7 @@ $prefix = "Bin";
     );
 
 ($bindir && $cds && $gff) ||
+    
     die "Name:\n".
     "  $0 0.1 by Xiaoli Dong <xdong\@ucalgary.ca>\n".
     "Synopsis:\n".
@@ -23,7 +26,9 @@ $prefix = "Bin";
     "  -d <directory name containing all the metabat generated fasta format bin files in the format of \"Bin.*.fa\">\n".
     "  -c <protein coding genes generated from metaerg, which is located in data directory>\n".
     "  -g <master.gff file generated from metaerg, which is located in data directory>\n" .
-    "  -p <prefix of the bin file, the preifx will be Bin if your bin files are named as Bin.binid.fa>\n" .
+    "  -p <prefix of the bin file, the preifx will be Bin if your bin files are named as Bin.binid.fa>\n";
+
+$prefix ||= "Bin";
 
 my %contig2bin = ();
 
