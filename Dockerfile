@@ -36,7 +36,9 @@ RUN apt-get update && apt-get install -y \
     zlib1g-dev
 
 #install perl modules
-RUN cpanm Bio::Perl \
+#Ignore test results for XML::DOM::XPath
+RUN cpanm -f XML::DOM::XPath && \
+    cpanm Bio::Perl \
     DBI \
     Archive::Extract \
     DBD::SQLite \
@@ -65,7 +67,7 @@ RUN git clone https://github.com/EddyRivasLab/hmmer && \
     cd /NGStools
 
 #blast for classifying rRNA sequences
-RUN wget ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ncbi-blast-2.9.0+-x64-linux.tar.gz && \
+RUN wget ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.9.0/ncbi-blast-2.9.0+-x64-linux.tar.gz && \
     tar -xzf ncbi-blast-2.9.0+-x64-linux.tar.gz && \
     rm ncbi-blast-2.9.0+-x64-linux.tar.gz && \
     cd /NGStools
