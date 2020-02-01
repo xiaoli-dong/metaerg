@@ -77,7 +77,6 @@ while (my $f = $gffio->next_feature) {
     my $sid = $f->seq_id;
     push (@{$seqHash{$sid}{FEATURE}}, $f);
 }
-my %gene2pathways = ();
 my %cds_aa_seqs = map { $_->id => $_ } $gffio->get_seqs();
 close($gff_handle);
 msg("end to read $gff file");
@@ -141,14 +140,8 @@ sub output_master_annot_summary{
 	    next if $f->primary_tag eq "transmembrane_helix";
             next if $f->primary_tag eq "signal_peptide";
 	    my $geneid = ($f->get_tag_values("ID"))[0] if $f->has_tag("ID");
-	    my @kegg_pathways = ();
-	    my @metacyc_pathways = ();
-	    if(exists $gene2pathways{$geneid}->{KEGG}){
-		push (@kegg_pathways, keys %{$gene2pathways{$geneid}->{KEGG}});
-	    }
-	    if(exists $gene2pathways{$geneid}->{metacyc}){
-		push (@metacyc_pathways, keys %{$gene2pathways{$geneid}->{metacyc}});
-	    }
+	    my @kegg_pathways = $f->get_tag_values("kegg_pathway_id") if $f->has_tag("kegg_pathway_id");
+	    my @metacyc_pathways = $f->get_tag_values("metacyc_pathway_id") if $f->has_tag("metacyc_pathway_id");
 	    print $tbl_fh "$sid\t";
             print $tbl_fh ($f->get_tag_values("ID"))[0], "\t" if $f->has_tag("ID");
             print $tbl_fh $f->primary_tag, "\t";
