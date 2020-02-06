@@ -284,7 +284,7 @@ sub gff2fasta{
 			my ($start, $end, $strand, $id) = $loc =~ /(\d+)\:(\d+)\:(\S+)\:(\S+)/;
 			my $length = $end-$start+1;
 			if(($rnatype =~ /5S|5_8S/) || ($rnatype =~ m/(16S|18S|23S|28S)/ && $length >= $len)){
-			    print {$file_handles{$cat}} ">$id type=$rnatype len=$len start=$start end=$end strand=$strand\n";
+			    print {$file_handles{$cat}} ">$id type=$rnatype len=$length start=$start end=$end strand=$strand\n";
 			    print  {$file_handles{$cat}} substr($seq, $start-1, $length), "\n";
 			}
 

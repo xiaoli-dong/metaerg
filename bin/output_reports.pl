@@ -1024,7 +1024,7 @@ sub output_profiles{
 	    my $oc = $f->has_tag("genomedb_OC") ? ($f->get_tag_values("genomedb_OC"))[0] : "unknow";
 	    my $taxon = $oc;
 	    
-	    my $mdepth_col_count = $f->get_tag_values("mdepth_cols");
+	    my $mdepth_col_count = $f->has_tag("mdepth_cols") ? $f->get_tag_values("mdepth_cols") : -1;
 	    my %sample2depth = ();
 	    
 	    for (my $i = 0; $i < $mdepth_col_count; $i++){
@@ -1299,7 +1299,7 @@ sub output_profile{
     my %stats = %$sref;
     my %data = %$dataref;
     my $total_count = $stats{$feature}->{totalCount};
-    my $total_depth = $stats{$feature}->{totalAvgDepth};
+    my $total_depth = exists $stats{$feature}->{totalAvgDepth} ?  $stats{$feature}->{totalAvgDepth} : 0;
     my @msamples = grep !/totalCount|totalAvgDepth/, sort keys %{$stats{$feature}};
     
     my @header = ("Count", "Count_pct", "Abund", "Abund_pct");
@@ -1390,8 +1390,8 @@ sub output_profile{
 	
 	my $count = $data{$key}->{count};
 	my $count_pct = sprintf("%.2f",100* $count/$total_count);
-	my $totalAvgDepth = sprintf("%.2f",$data{$key}->{totalAvgDepth});
-	my $totalAvgDepth_pct = sprintf("%.2f",100* $totalAvgDepth/$total_depth);
+	my $totalAvgDepth = exists $data{$key}->{totalAvgDepth} ? sprintf("%.2f",$data{$key}->{totalAvgDepth}) : 0;
+	my $totalAvgDepth_pct = $total_depth != 0 ? sprintf("%.2f",100* $totalAvgDepth/$total_depth) : 0;
 	push(@cols, ($count, $count_pct, $totalAvgDepth, $totalAvgDepth_pct));
 	
 	
@@ -1499,7 +1499,7 @@ sub output_pathway_profile{
     my %stats = %$sref;
     my %data = %$dataref;
     my $total_count = $stats{$feature}->{totalCount};
-    my $total_depth = $stats{$feature}->{totalAvgDepth};
+    my $total_depth = exists $stats{$feature}->{totalAvgDepth} ? $stats{$feature}->{totalAvgDepth} : 0;
     
     my @msamples = grep !/totalCount|totalAvgDepth/, sort keys %{$stats{$feature}};
     
@@ -1568,8 +1568,8 @@ sub output_pathway_profile{
 	
 	my $count = $data{$key}->{count};
 	my $count_pct = sprintf("%.2f",100* $count/$total_count);
-	my $totalAvgDepth = sprintf("%.2f",$data{$key}->{totalAvgDepth});
-	my $totalAvgDepth_pct = sprintf("%.2f",100* $totalAvgDepth/$total_depth);
+	my $totalAvgDepth = exists $data{$key}->{totalAvgDepth} ? sprintf("%.2f",$data{$key}->{totalAvgDepth}) : 0;
+	my $totalAvgDepth_pct = $total_depth != 0 ? sprintf("%.2f",100* $totalAvgDepth/$total_depth) : 0;
 	push(@cols, ($count, $count_pct, $totalAvgDepth, $totalAvgDepth_pct));
 	
 	
