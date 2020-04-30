@@ -15,16 +15,16 @@ use Getopt::Long;
 use Time::Piece;
 use File::Basename;
 use Cwd 'abs_path';
-my ($outdir, $s_version);
-$s_version = "132";
+my ($outdir, $ssu_version, $lsu_version);
+$ssu_version = "138";
+$lsu_version = "132";
 &GetOptions(
-    "o=s" =>\$outdir,
-    "v=s" =>\$s_version
+    "o=s" =>\$outdir
     );
 
 ($outdir) ||
     die "usage: $0 OPTIONS
-where options are:\n -o  <data output direcoty><-v silva database release version, for example 132\n";
+where options are:\n -o  <data output direcoty>\n";
 
 my $EXE = $FindBin::RealScript;
 my $bin = "$FindBin::RealBin";
@@ -71,7 +71,8 @@ sub build_uniprot_sprot_db{
 	    my $ff = File::Fetch->new(uri => "ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/$file");
 
 	    #fetch the uri to local directory
-	    my $where = $ff->fetch(to => $tmp_dir) or die $ff->error;
+	    #my $where = $ff->fetch(to => $tmp_dir) or die $ff->error, "$!\n";";
+	    my $where = $ff->fetch(to => $tmp_dir) or die "Could not fetch ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/$file, $!\n";
 	}
     }
 
@@ -91,6 +92,7 @@ sub build_uniprot_sprot_db{
     #runcmd($cmd);
     msg("Start to parse $tmp_dir/uniprot_sprot.dat");
     if(! -e "$tmp_dir/sprot.sqldb.tsv"){
+	              
 	parse_uniprot_sport_dat("$tmp_dir/uniprot_sprot.dat", "$tmp_dir/sprot.sqldb.tsv");
     }
 }
@@ -251,12 +253,13 @@ sub build_pfam_db{
     if(! -e "$tmp_dir/Pfam-A.hmm.sql.db.tsv"){
 	open(PFAM, "$tmp_dir/Pfam-A.hmm.dat") or die "Could not open $tmp_dir/Pfam-A.hmm.dat to read, $!\n";
 	open(SQL, ">$tmp_dir/Pfam-A.hmm.sql.db.tsv")  or die "Could not open $tmp_dir/Pfam-A.hmm.sql.db.tsv to write, $!\n";
-	
-	
+
+
 	$/ = "\n# STOCKHOLM";
-	
+
 	while(<PFAM>){
-	    if(/ID\s+(\S+).*?AC\s+(\w+).*?\n.*DE\s+(\S.*?)\n.*?TP\s+(\S.*?)\n.*?ML\s+(\d+)/s){
+	    print STDERR "parse pfam\n";
+	    if(/GF\s+ID\s+(\S+).*?#=GF\s+AC\s+(\w+).*?#=GF\s+DE\s+(\S.*?)\n.*?#=GF\s+TP\s+(\S.*?)\n.*?#=GF\s+ML\s+(\d+)/s){
 		my $acc = $2;
 		my $id = $1;
 		my $de = $3;
@@ -264,18 +267,18 @@ sub build_pfam_db{
 		my $ml = $5;
 		$de =~ s/\"/\"\"/g;
 		$id =~ s/\"/\"\"/g;
-		
+		print STDERR join("\t", ($acc, $id, $de, $tp, $ml)), "\n";
 		print SQL join("\t", ($acc, $id, $de, $tp, $ml)), "\n";
-	
+
 	    }
-	    
+
 	}
 	close(SQL);
 	close(PFAM);
-	
+
 	$/ = "\n";
     }
-    
+
     if(! -e "$tmp_dir/pfam2go.sqldb.tsv"){
     open(SQL, ">$tmp_dir/pfam2go.sqldb.tsv")  or die "Could not open $tmp_dir/pfam2go.sqldb.tsv to write, $!\n";
     open(INPUT, "$tmp_dir/pfam2go") or die "Could not open $tmp_dir/pfam2go to read, $!\n";
@@ -482,7 +485,7 @@ sub go_table{
 }
 
 sub build_foam_hmmdb{
-    
+
     if(! -e ("$protein_hmm_dir/FOAM-hmm_rel1a.hmm" || "$tmp_dir/FOAM-hmm_rel1a.hmm.gz")){
 	# build a File::Fetch object
 	my $ff = File::Fetch->new(uri => "http://ebg.ucalgary.ca/metaerg/FOAM-hmm_rel1a.hmm.gz");
@@ -495,7 +498,7 @@ sub build_foam_hmmdb{
 	msg("Split FOAM database to multiple smaller database");
 	runcmd($cmd);
     }
-    
+
 }
 
 sub build_genomedb{
@@ -700,11 +703,11 @@ sub fasta2domain{
     while(<FASTA>){
 	chomp;
 	if(my ($seqid,$other, $align) =  /^>?(\S+?)(\/.*?)\n(.*)/s){
-	    
+
 	    sleep(1);
 	    #can get too many request problems. By default, the request from NCBI cannot be >3 times/second.
-	    #with the api_key, it can be increased to 10 times/second perl email. 
-	    
+	    #with the api_key, it can be increased to 10 times/second perl email.
+
 	    my $factory = Bio::DB::EUtilities->new(-eutil   => 'efetch',
 						   -db      => 'nucleotide',
 						   -rettype => 'gb',
@@ -712,7 +715,7 @@ sub fasta2domain{
 						   -api_key => 'f0f0c0d0dedaa42991657439b7c577b0ce08',
 						   -id      => $seqid);
 	    my $file = "$tmp_dir/myseqs.gb";
-	    
+
 	    # dump HTTP::Response content to a file (not retained in memory)
 	    $factory->get_Response(-file => $file);
 	    my $seqin = Bio::SeqIO->new(-file   => $file,
@@ -745,17 +748,19 @@ sub fasta2domain{
 
 sub build_rRNAFinder_txondb{
 
-    my $ssu = "SILVA\_$s_version\_SSURef_Nr99_tax_silva_trunc.fasta";
-    my $lsu = "SILVA\_$s_version\_LSURef_tax_silva_trunc.fasta";
-
-    my @files = ("$ssu.gz", "$lsu.gz", "README.txt");
+    my $ssu = "SILVA_138_SSURef_NR99_tax_silva_trunc.fasta";
+    my $lsu = "SILVA_132_LSURef_tax_silva_trunc.fasta";
+              
+    my @files = ($ssu, $lsu);
 
     foreach my $file (@files){
-	if(! -e "$tmp_dir/$file"){
 
+	msg("checking $tmp_dir/$file.gz");
+	if(! -e "$tmp_dir/$file.gz"){
+	    
             ### build a File::Fetch object ###
-	    my $ff = File::Fetch->new(uri => "https://www.arb-silva.de/fileadmin/silva_databases/current/Exports/$file");
-
+            #my $ff = File::Fetch->new(uri => "https://www.arb-silva.de/fileadmin/silva_databases/current/Exports/$file");
+       my $ff = File::Fetch->new(uri => "https://www.arb-silva.de/fileadmin/silva_databases/release_$ssu_version/Exports/$file.gz");
             ### fetch the uri to local directory###
 	    msg("Fetching $file");
 	    my $where = $ff->fetch(to => $tmp_dir) or die $ff->error;
@@ -773,53 +778,56 @@ sub build_rRNAFinder_txondb{
 	my $ae = Archive::Extract->new(archive =>"$tmp_dir/$lsu.gz");
 	$ae->extract(to => $tmp_dir);
     }
-
-    open(SSU,"$tmp_dir/$ssu") or die "Could not open $tmp_dir/$ssu to read, $!\n";
-    open(SSU_DNA, ">$blast_dir/silva_SSURef_Nr99.fasta") || die "Could not open $blast_dir/silva_SSURef_Nr99.fasta to write, $!\n";
-    msg("get ssu DNA file from $tmp_dir/$ssu to $blast_dir/silva_SSURef_Nr99.fasta for blast search database making");
-    while(<SSU>){
-	if (/^>(\S+?)\s+(\S+.*)$/){
-
-	    print SSU_DNA ">$1 [$2]\n";
+    if(! -e "$blast_dir/silva_SSURef_Nr99.fasta"){
+	open(SSU,"$tmp_dir/$ssu") or die "Could not open $tmp_dir/$ssu to read, $!\n";
+	open(SSU_DNA, ">$blast_dir/silva_SSURef_Nr99.fasta") || die "Could not open $blast_dir/silva_SSURef_Nr99.fasta to write, $!\n";
+	msg("get ssu DNA file from $tmp_dir/$ssu to $blast_dir/silva_SSURef_Nr99.fasta for blast search database making");
+	while(<SSU>){
+	    if (/^>(\S+?)\s+(\S+.*)$/){
+		
+		print SSU_DNA ">$1 [$2]\n";
+	    }
+	    else{
+		s/U/T/g;
+		print SSU_DNA $_;
+	    }
 	}
-	else{
-	    s/U/T/g;
-	    print SSU_DNA $_;
-	}
+	close(SSU);
+	close(SSU_DNA);
     }
-    close(SSU);
-    close(SSU_DNA);
-
-    open(LSU,"$tmp_dir/$lsu") or die "Could not open $tmp_dir/$lsu to read, $!\n";
-    open(LSU_DNA, ">$blast_dir/silva_LSURef.fasta")  || die "Could not open $blast_dir/silva_LSURef.fasta to write, $!\n";
-    msg("get lsu DNA file from $tmp_dir/$lsu to $blast_dir/silva_LSURef.fasta for blast search database making");
-    while(<LSU>){
-	if (/^>(\S+?)\s+(\S+.*)$/){
-
-	    print LSU_DNA ">$1 [$2]\n";
+    if(! -e "$blast_dir/silva_LSURef.fasta"){
+	open(LSU,"$tmp_dir/$lsu") or die "Could not open $tmp_dir/$lsu to read, $!\n";
+	open(LSU_DNA, ">$blast_dir/silva_LSURef.fasta")  || die "Could not open $blast_dir/silva_LSURef.fasta to write, $!\n";
+	msg("get lsu DNA file from $tmp_dir/$lsu to $blast_dir/silva_LSURef.fasta for blast search database making");
+	while(<LSU>){
+	    if (/^>(\S+?)\s+(\S+.*)$/){
+		
+		print LSU_DNA ">$1 [$2]\n";
+	    }
+	    
+	    else{
+		s/U/T/g;
+		print LSU_DNA $_;
+	    }
 	}
-
-	else{
-	    s/U/T/g;
-	    print LSU_DNA $_;
-	}
+	close(LSU);
+	close(LSU_DNA);
     }
-    close(LSU);
-    close(LSU_DNA);
-
-
-    my $cmd = "makeblastdb -input_type fasta -dbtype nucl  -in $blast_dir/silva_SSURef_Nr99.fasta;";
-    $cmd .= "makeblastdb -input_type fasta -dbtype nucl  -in $blast_dir/silva_LSURef.fasta";
-
-    msg("Start running:$cmd");
-    runcmd($cmd);
-
-
-
+   
+    if(! -e "$blast_dir/silva_SSURef_Nr99.fasta.nin"){
+	my $cmd = "makeblastdb -input_type fasta -dbtype nucl  -in $blast_dir/silva_SSURef_Nr99.fasta;";
+	msg("Start running:$cmd");
+	runcmd($cmd);
+    }
+    if(! -e "$blast_dir/silva_LSURef.fasta.nin"){
+	my $cmd = "makeblastdb -input_type fasta -dbtype nucl  -in $blast_dir/silva_LSURef.fasta";
+	msg("Start running:$cmd");
+	runcmd($cmd);
+    }
 }
 
 sub build_enzyme_table{
-    
+
     if(! -e "$tmp_dir/enzyme.dat"){
         # build a File::Fetch object
         my $ff = File::Fetch->new(uri => "ftp://ftp.expasy.org/databases/enzyme/enzyme.dat");
@@ -847,15 +855,15 @@ sub build_enzyme_table{
 	    $name =~ s/\"/\"\"/g;
 	    print OUT "$id\t$name\n";
 	}
-	
+
     }
     close(CLASS);
-    
+
     $/= "\n\/\/";
     open(ENZYME, "$tmp_dir/enzyme.dat") || die "Could not open $tmp_dir/enzyme.dat to read, $!\n";
-    
+
     while(<ENZYME>){
-	
+
 	if(/\nID\s+?(\S+?)\nDE\s+(\S.*?)\n/s){
 	    my $id = $1;
 	    my $name = $2;
@@ -864,7 +872,7 @@ sub build_enzyme_table{
 	    $name =~ s/\"/\"\"/g;
 	    print OUT "$id\t$name\n";
 	}
-	
+
     }
     close(ENZYME);
     close(OUT);
@@ -872,19 +880,19 @@ sub build_enzyme_table{
 }
 
 sub build_kegg_table{
-    
+
     open(KEGG, "$txt_dir/ko00001.keg") || die "Could not open $txt_dir/ko00001.keg to read, $!\n";
     open(OUT, ">$tmp_dir/ko.sqldb.tsv") || die "Could not open $tmp_dir/ko.sqldb.tsv to write, $!\n";
-    
+
     my %kos = ();
-    
+
     while(<KEGG>){
 	chomp;
 	if(/^D\s+(\S+?)\s+?(\S.*)$/){
 	    my $koid = $1;
 	    my $name = "unknown";
 	    my $de = "";
-	    
+
 	    my @items = split(";", $2);
 	    if(@items == 2){
 		$name = $items[0];
@@ -896,26 +904,26 @@ sub build_kegg_table{
 	    $name =~ s/^\s+//g;
 	    $name =~ s/\s+$//g;
 	    $name =~ s/\"/\"\"/g;
-	    $de =~ s/\s+$//g; 
+	    $de =~ s/\s+$//g;
 	    $de =~ s/^\s+//g;
 	    $de =~ s/\"/\"\"/g;
-	    
+
 	    if(not exists $kos{$koid}){
 		$kos{$koid}->{name} = $name;
 		$kos{$koid}->{de} = $de;
 	    }
-	    
+
 	}
-	
+
     }
     close(KEGG);
 
     foreach my $id (sort keys %kos){
 	print OUT "$id\t$kos{$id}->{name}\t$kos{$id}->{de}\n";
     }
-    
+
     close(OUT);
-    
+
 }
 
 

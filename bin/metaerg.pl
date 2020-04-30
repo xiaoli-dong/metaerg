@@ -115,7 +115,7 @@ my $gffio = Bio::Tools::GFF->new(-fh =>$gff, -gff_version => 3);
 
 while (my $f = $gffio->next_feature) {
     my $sid = $f->seq_id;
-    
+
     if(exists $contig2depth{$sid}){
 	my $depth_names = ();
 	my $depth_values = ();
@@ -212,7 +212,7 @@ msg("Start outputing report files");
 
 
 
-$cmd = "$^X $bin/output_reports.pl -d $DBDIR -g $datadir/all.gff -o $outdir -f $outdir/$prefix.fna";
+$cmd = "$^X $bin/output_reports.pl -g $datadir/all.gff -o $outdir -f $outdir/$prefix.fna";
 
 
 runcmd("$cmd");
@@ -225,7 +225,7 @@ msg("metaerg took:" . timestr($td) . " to run\n");
 sub get_all_kos{
 
     my ($seqHash) = @_;
-    
+
     for my $sid (keys %$seqHash) {
 
 	for my $f (@{$seqHash->{$sid}{FEATURE}}){
@@ -246,16 +246,16 @@ sub get_all_kos{
 		$f->add_tag_value("allko_ids",$ko);
 	    }
 	}
-	
+
     }
-    
-    
+
+
 }
 
 
 sub get_all_ecs{
     my ($seqHash) = @_;
-   
+
     for my $sid (keys %$seqHash) {
 	for my $f (@{$seqHash->{$sid}{FEATURE}}){
 	    my $featureid = ($f->get_tag_values("ID"))[0];
@@ -271,16 +271,16 @@ sub get_all_ecs{
 
             push(@all_ecs, split(",", $foam_ec)) if $foam_ec ne "";
 	    push(@all_ecs, split(";", $sprot_ec)) if $sprot_ec ne "";
-	    push(@all_ecs, split(";", $tigrfam_ec)) if $tigrfam_ec ne "";
+	    push(@all_ecs, split(/\s+/, $tigrfam_ec)) if $tigrfam_ec ne "";
             my @all_ecs_uniq = uniq(@all_ecs) if scalar @all_ecs > 0;
-	    
+
             foreach my $ec (@all_ecs_uniq){
                 $f->add_tag_value("allec_ids",$ec);
-	
+
 	    }
         }
     }
-   
+
 }
 
 
@@ -348,7 +348,7 @@ sub mapping_genomedb{
             if ($f->has_tag('genomedb_target')) {
 		#for my $target ($f->get_tag_values('eggNOG_target')){
 		my $target = ($f->get_tag_values('genomedb_target'))[0];
-		
+
 		if(my ($gid) = $target =~ /db:genomedb\|(\S+?)\|/){
 		    $f->add_tag_value('genomedb_acc', $gid);
 		    my $stmt = "select lineage from genome2taxon where gid=\"$gid\"";
@@ -363,7 +363,7 @@ sub mapping_genomedb{
 			my ($lineage) = @$row;
 			$lineage =~ s/s__$//;
 			$f->add_tag_value('genomedb_OC', $lineage);
-		
+
 		    }
 		    $sth->finish();
 
@@ -520,7 +520,7 @@ sub mapping_metabolic{
 			if(exists $hmm2process{$metabolicfamName}){
 			    if(not exists $metabolicfams{$metabolicfamName} && exists $hmm2process{$metabolicfamName}){
 				my $cutoff_score = $hmm2process{$metabolicfamName}->{cutoff_score};
-				#print STDERR "$metabolicfamName\t$score\tcutoff=$cutoff_score\n";
+            #print STDERR "$metabolicfamName\t$score\tcutoff=$cutoff_score\n";
 				if(($cutoff_score eq "-" || $cutoff_score <= $score)){
 				    $f->add_tag_value('metabolic_process',"compound:" . $hmm2process{$metabolicfamName}->{chemical} . ";process:" . $hmm2process{$metabolicfamName}->{process} . ";gene:". $hmm2process{$metabolicfamName}->{gene} . ";");
 				    #$f->add_tag_value('metabolic_process',"compound:" . $hmm2process{$metabolicfamName}->{chemical} . ";process:" . $hmm2process{$metabolicfamName}->{process} .  ";");
@@ -528,14 +528,14 @@ sub mapping_metabolic{
 				    $metabolicfams{$metabolicfamName}++;
 				}
 				else{
-				    #print STDERR "************************remove $metabolicfamName\n";
+               #print STDERR "************************remove $metabolicfamName\n";
 				    $f->remove_tag('metabolic_target') if $f->has_tag('metabolic_target');
 				}
 
 
 			    }
 			    else{
-				#print STDERR "************************remove $metabolicfamName\n";
+				i#print STDERR "************************remove $metabolicfamName\n";
 				$f->remove_tag('metabolic_target') if $f->has_tag('metabolic_target');
 			    }
 
@@ -598,18 +598,18 @@ sub get_casgene_acc{
 	for my $f (@{$seqHash->{$sid}{FEATURE}}){
 	    next unless $f->primary_tag eq "CDS";
 	    if($f->has_tag('casgene_target')){
-		
+
 		foreach my $target ($f->get_tag_values('casgene_target')){
 		    if(my ($acc, $full_score, $best_domain_score, $name) = $target =~ /db:casgenes.hmm\|(\S+?)\s.*?score:(\S+).*?best_domain_score:(\S+?)\s+name:(\S+)/){
-			
-			
+
+
 			#for the same gene, multiple domain hit, we only report casgene_acc once for one gene annotation
 			$f->add_tag_value("casgene_acc", $acc);
 			$f->add_tag_value("casgene_name", $name);
-			
+
 		    }
 		}
-		
+
 	    }
 	}
     }
@@ -625,21 +625,21 @@ sub output_gff{
 
    # msg("Writing master.gff.txt file to $outdir/data");
     #open my $master_gff_fh, '>', "$outdir/data/master.gff.txt";
-    
+
     my $all_gff_factory = Bio::Tools::GFF->new(-gff_version=>$gffver);
     #my $master_gff_factory = Bio::Tools::GFF->new(-gff_version=>$gffver);
     print $all_gff_fh "##gff-version $gffver\n";
     #print $master_gff_fh "##gff-version $gffver\n";
-    
+
     for my $sid (sort {$seqHash{$b}{DNA}->length <=> $seqHash{$a}{DNA}->length} keys %$seqHash) {
 	for my $f ( sort { $a->start <=> $b->start } @{ $seqHash->{$sid}{FEATURE} }) {
-	    
+
 	    if($f->primary_tag =~ m/signal_peptide|transmembrane_helix/){
 		$f->remove_tag("Parent");
 
 	    }
 	    print $all_gff_fh $f->gff_string($all_gff_factory),"\n";
-	    
+
 	    foreach my  $ftag ($f->all_tags()){
 		if($ftag =~ /foam_ecs|foam_kos|foam_target|sprot_kegg|sprot_kos|sprot_ec|sprot_go|pfam_go|tigrfam_ec|tigrfam_mainrole|tigrfam_sub1role|_target/){
 		    $f->remove_tag($ftag);
@@ -652,17 +652,17 @@ sub output_gff{
     my $fin = Bio::SeqIO->new(-file=>"$outdir/tmp/cds.faa", -format=>'fasta');
     while (my $seq = $fin->next_seq) {
 	print $all_gff_fh ">", $ids2newids->{$seq->id}, "\n", $seq->seq(), "\n";
-	
+
     }
     close($all_gff_fh);
     #close($master_gff_fh);
 }
 sub parse_depth_file{
-    
+
     my ($fdepth) = @_;
     my %contig2depth = ();
     my %headerIndex2SampleName = ();
-    
+
     open FDEPTH, $fdepth or die "could not open $fdepth to read, $!\n";
     #header: contigName	contigLen	totalAvgDepth	S1.bam	S1.bam-var	S2.bam	S2.bam-var	S3.bam	S3.bam-var
     while (<FDEPTH>) {
@@ -682,7 +682,7 @@ sub parse_depth_file{
 	    my @l = split(/\t/, $_);
 	    my ($contigName) = $l[0] =~ /^(\S+)/;
 	    my $totalAvgDepth = $l[2];
-	    
+
             #read in Depth
 	    $contig2depth{$contigName}->{totalAvgDepth} = $totalAvgDepth;
 	    for my $i (keys %headerIndex2SampleName){
@@ -691,7 +691,7 @@ sub parse_depth_file{
 	}
     }
     close(FDEPTH);
-    
+
     return \%contig2depth;
 }
 

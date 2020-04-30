@@ -109,7 +109,7 @@ my $cdsoutfn = "$outdir/signalp.faa";
 
 if($sp){
     $t0 = Benchmark->new;
-    predict_signal_peptide_parallel("$outdir/cds.faa", \%seqHash, \@seqArray);
+    predict_signal_peptide_parallel("$outdir/cds.faa", \%seqHash, \@seqArray, $gtype);
     $t1 = Benchmark->new;
     $td = timediff($t1, $t0);
     msg("predict_signal_peptide took:" . timestr($td) . " to run\n");
@@ -220,9 +220,7 @@ sub predict_rRNA{
 
     #9764223 nhmmer_rRNA.pl  ssu_rRNA        1098    1150    1.5e-10 +       .       Name=euk_18SrRNA
     msg("Predicting Ribosomal RNAs");
-    my $cmd = "$bin/rRNAFinder.pl --dbdir $DBDIR --threads $cpus --evalue $evalue --domain meta --outdir $outdir $fasta";
-
-    #my $cmd = "rRNAFinder.pl --threads $cpus --evalue $evalue --domain $gtype --outdir $outdir $fasta";
+    my $cmd = "$bin/rRNAFinder.pl --dbdir $DBDIR --threads $cpus --evalue $evalue --domain $gtype --outdir $outdir $fasta";
 
     if(! -e "$outdir/rRNA.gff"){
 	runcmd($cmd);
@@ -424,7 +422,7 @@ sub predict_CDs{
 
 #----------------------------------------------------------------------
 sub predict_signal_peptide_parallel{
-    my ($fasta, $seqHash, $seqArray) = @_;
+    my ($fasta, $seqHash, $seqArray, $gtype) = @_;
     msg("Looking for signal peptides at start of predicted proteins in meta mode");
 
     #open my $cdsoutfh, '>', $fasta;
@@ -443,21 +441,37 @@ sub predict_signal_peptide_parallel{
     my @cmds = ();
 
     if(! glob("$outdir/cds.faa.signalp.*.gff3")){
-	#version 5
-	my $cmd1 = "$signalp -verbose=false -org gram- -format short -gff3 -tmp $outdir -prefix $fasta.signalp.gramn -fasta $fasta";
-	my $cmd2 = "$signalp -verbose=false -org gram+ -format short -gff3 -tmp $outdir -prefix $fasta.signalp.gramp -fasta $fasta";
-	my $cmd3 = "$signalp -verbose=false -org euk  -format short -gff3 -tmp $outdir -prefix $fasta.signalp.euk -fasta $fasta";
-	my $cmd4 = "$signalp -verbose=false -org arch -format short -gff3 -tmp $outdir -prefix $fasta.signalp.arch -fasta $fasta";
-
-	my $thr1 = threads->new(\&runcmd, $cmd1);
-	my $thr2 = threads->new(\&runcmd, $cmd2);
-	my $thr3 = threads->new(\&runcmd, $cmd3);
-	my $thr4 = threads->new(\&runcmd, $cmd4);
-	$thr1->join();
-	$thr2->join();
-	$thr3->join();
-	$thr4->join();
-
+	
+	if($gtype eq "meta"){
+#version 5
+	    my $cmd1 = "$signalp -verbose=false -org gram- -format short -gff3 -tmp $outdir -prefix $fasta.signalp.gramn -fasta $fasta";
+	    my $cmd2 = "$signalp -verbose=false -org gram+ -format short -gff3 -tmp $outdir -prefix $fasta.signalp.gramp -fasta $fasta";
+	    my $cmd3 = "$signalp -verbose=false -org euk  -format short -gff3 -tmp $outdir -prefix $fasta.signalp.euk -fasta $fasta";
+	    my $cmd4 = "$signalp -verbose=false -org arch -format short -gff3 -tmp $outdir -prefix $fasta.signalp.arch -fasta $fasta";
+	    
+	    my $thr1 = threads->new(\&runcmd, $cmd1);
+	    my $thr2 = threads->new(\&runcmd, $cmd2);
+	    my $thr3 = threads->new(\&runcmd, $cmd3);
+	    my $thr4 = threads->new(\&runcmd, $cmd4);
+	    $thr1->join();
+	    $thr2->join();
+	    $thr3->join();
+	    $thr4->join();
+	}
+	elsif($gtype eq "bac"){
+	 my $cmd1 = "$signalp -verbose=false -org gram- -format short -gff3 -tmp $outdir -prefix $fasta.signalp.gramn -fasta $fasta";
+	 my $cmd2 = "$signalp -verbose=false -org gram+ -format short -gff3 -tmp $outdir -prefix $fasta.signalp.gramp -fasta $fasta";
+	 my $thr1 = threads->new(\&runcmd, $cmd1);
+	 my $thr2 = threads->new(\&runcmd, $cmd2);
+	}
+	elsif($gtype eq "arc"){
+	    my $cmd4 = "$signalp -verbose=false -org arch -format short -gff3 -tmp $outdir -prefix $fasta.signalp.arch -fasta $fasta";
+	    my $thr4 = threads->new(\&runcmd, $cmd4);
+	}
+	elsif($gtype eq "euk"){
+	    my $cmd3 = "$signalp -verbose=false -org euk  -format short -gff3 -tmp $outdir -prefix $fasta.signalp.euk -fasta $fasta";
+	    my $thr3 = threads->new(\&runcmd, $cmd3);
+	}
 
     }
 
@@ -696,20 +710,18 @@ sub init{
     %seqids = ();
 }
 
-
 sub TAG {
   my($f, $tag) = @_;
   return "" unless $f->has_tag($tag);
   my (@values) = ($f->has_tag($tag)) ? $f->get_tag_values($tag) : ("");
-  for (@values){
-      s/,/%2C/g;
-  }
+  
   my $value = join(",", @values);
 
 #$value =~ s/^\s+(\S.*?)\s+$/$1/;
 
   return $value;
 }
+
 
 # Option setting routines
 
@@ -726,7 +738,7 @@ sub setOptions {
 
 	'gene prediction:',
 	{OPT=>"gcode=i",  VAR=>\$gcode, DEFAULT=>11, DESC=>"translation table to use for gene predication"},
-	{OPT=>"gtype=s",  VAR=>\$gtype, DEFAULT=>"single", DESC=>"single or metagenome: [single, meta]"},
+	{OPT=>"gtype=s",  VAR=>\$gtype, DEFAULT=>"meta", DESC=>"single or metagenome: [arc|euk|bac|meta]"},
 	{OPT=>"minorflen=i",  VAR=>\$minorflen, DEFAULT=>180, DESC=>"Minimum orf length"},
 	{OPT=>"evalue=f",VAR=>\$evalue, DEFAULT=>1E-5, DESC=>"evalue cut-off for rRNA prediction"},
 	{OPT=>"sp!",  VAR=>\$sp, DEFAULT=>0, DESC=>"Disable signal peptide and cleavage site predication using signalp, it is slow when it is enabled"},

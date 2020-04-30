@@ -156,7 +156,7 @@ sub output_master_annot_summary{
             print $tbl_fh $f->end, "\t";
 	    print $tbl_fh $f->length, "\t";
             print $tbl_fh $f->strand, "\t";
-	    print $tbl_fh join(";", @kegg_pathways), "\t";
+	    print $tbl_fh join(";", map{"ko$_"} @kegg_pathways), "\t";
 	    print $tbl_fh join(";", @metacyc_pathways), "\t";
             foreach my $tag (@tags){
                 print $tbl_fh TAG($f, $tag), "\t";
@@ -239,7 +239,7 @@ sub TAG {
 
     my (@values) = ($f->has_tag($tag)) ? $f->get_tag_values($tag) : ("");
     for (@values){
-        s/,/%2C/g;
+        #s/,/%2C/g;
     }
     my $value = join(",", @values);
 
@@ -801,7 +801,7 @@ sub predict_kegg_pathways{
    #path 00010 fam0 56 fam-found 36 # Glycolysis / Gluconeogenesis
     #K00001 hits 22 # E1.1.1.1, adh
     
-    my %gene2pathways = ();
+    #my %gene2pathways = ();
     my %pathways = ();
     
     while (<INPUT>) {
@@ -820,7 +820,7 @@ sub predict_kegg_pathways{
 	    }
 	    elsif(my($ko, $geneCount, $koname) = $item =~ /^(\S+)\s+hits\s+(\d+?)\s+\#?\s+(\S.*)$/){
 		for my $geneid (keys %{$ko2genes->{$ko}}){
-		    $gene2pathways{$geneid}->{$pid}++;
+		    $gene2pathways{$geneid}->{KEGG}->{$pid}++;
 		    $pathways{$pid}->{$ko}->{hits}=$geneCount;
 		    $pathways{$pid}->{$ko}->{name}=$koname;
 		}
@@ -837,14 +837,14 @@ sub predict_kegg_pathways{
 	    
 	    next unless $f->primary_tag eq "CDS";
 	    my $oc = $f->has_tag("genomedb_OC") ? ($f->get_tag_values("genomedb_OC"))[0] : "unknow";
-	    if(exists $gene2pathways{$geneid}){
+	    if(exists $gene2pathways{$geneid}->{KEGG}){
 		
-		foreach my $pid (keys %{$gene2pathways{$geneid}}){
+		foreach my $pid (keys %{$gene2pathways{$geneid}->{KEGG}}){
 		    $f->add_tag_value("kegg_pathway_id", $pid);
 		    $f->add_tag_value("kegg_pathway_name", $pathways{$pid}->{pname});
 		    
 		    print GENE2PATHWAY "$geneid\t$pid\t\"$pathways{$pid}->{pname}\"\t\"$oc\"\n";
-		    if($gene2pathways{$geneid}->{$pid} > 1){
+		    if($gene2pathways{$geneid}->{KEGG}->{$pid} > 1){
 
 			#print "********$geneid $pid $gene2pathways{$geneid}->{$pid} times\n";
 		    }
@@ -909,7 +909,7 @@ sub predict_metacyc_pathways{
    #path 00010 fam0 56 fam-found 36 # Glycolysis / Gluconeogenesis
     #K00001 hits 22 # E1.1.1.1, adh
     
-    my %gene2pathways = ();
+    #my %gene2pathways = ();
     my %pathways = ();
     
     while (<INPUT>) {
@@ -927,7 +927,7 @@ sub predict_metacyc_pathways{
 	    }
 	    elsif(my($ec, $geneCount) = $item =~ /^(\S+)\s+hits\s+(\d+?)/){
 		for my $geneid (keys %{$ec2genes->{$ec}}){
-		    $gene2pathways{$geneid}->{$pid}++;
+		    $gene2pathways{$geneid}->{metacyc}->{$pid}++;
 		    $pathways{$pid}->{$ec}->{hits}=$geneCount;
 		}
 	    }
@@ -943,9 +943,9 @@ sub predict_metacyc_pathways{
 	    
 	    next unless $f->primary_tag eq "CDS";
 	    my $oc = $f->has_tag("genomedb_OC") ? ($f->get_tag_values("genomedb_OC"))[0] : "unknow";
-	    if(exists $gene2pathways{$geneid}){
+	    if(exists $gene2pathways{$geneid}->{metacyc}){
 		
-		foreach my $pid (keys %{$gene2pathways{$geneid}}){
+		foreach my $pid (keys %{$gene2pathways{$geneid}->{metacyc}}){
 		    #print "*****$pid***\t$pid2info{$pid}->{types}\t$pid2info{$pid}->{name}\n";
 		    $f->add_tag_value("metacyc_pathway_id", $pid);
 		    my $ptype = exists $pid2info{$pid}->{ptype} ? $pid2info{$pid}->{ptype} : "";
