@@ -1,15 +1,20 @@
 
 # MetaErg
-MetaErg is a stand-alone and fully automated metagenomic and metaproteomic data annotation pipeline. It bundles essential annotation tasks such as feature prediction, functional annotation with Hidden Markov Model (HMM) searches as well as blast and diamond searches. It estimates and visualizes quantitative taxonomic and pathway compositions of multiple metagenomic and proteomics samples using sequencing coverage and proteomics spectral counts, respectively. For visualization, MetaErg provides a HTML interface, bringing all annotation results together in sortable and searchable tables, collapsible trees, and other graphic representations, enabling intuitive navigation of complex data.
+MetaErg is a stand-alone and fully automated metagenomic and metaproteomic data annotation pipeline. It bundles essential annotation tasks such as feature prediction, functional annotation wit
+h Hidden Markov Model (HMM) searches as well as blast and diamond searches. It estimates and visualizes quantitative taxonomic and pathway compositions of multiple metagenomic and proteomics s
+amples using sequencing coverage and proteomics spectral counts, respectively. For visualization, MetaErg provides a HTML interface, bringing all annotation results together in sortable and se
+archable tables, collapsible trees, and other graphic representations, enabling intuitive navigation of complex data.
 
 A MetaErg analysis output demo page can be found at: https://xiaoli-dong.github.io/metaerg/
 
 A MetaErg Docker application can be found here: https://hub.docker.com/r/xiaolidong/docker-metaerg
 
-Please cite the following: [Dong X and Strous M (2019) An Integrated Pipeline for Annotation and Visualization of Metagenomic Contigs. Front. Genet. 10:999. doi: 10.3389/fgene.2019.00999](https://www.frontiersin.org/articles/10.3389/fgene.2019.00999/full)
+Please cite the following: [Dong X and Strous M (2019) An Integrated Pipeline for Annotation and Visualization of Metagenomic Contigs. Front. Genet. 10:999. doi: 10.3389/fgene.2019.00999](http
+s://www.frontiersin.org/articles/10.3389/fgene.2019.00999/full)
 
 # Required perl modules
-If you do not use Docker, you will need to install perl modules. MetaErg requires Perl 5.6.0 or higher and runs on Linux platforms. Besides the perl core modules, it also requires the following perl modules to be installed:
+If you do not use Docker, you will need to install perl modules. MetaErg requires Perl 5.6.0 or higher and runs on Linux platforms. Besides the perl core modules, it also requires the followin
+g perl modules to be installed:
 ```
 * Archive::Extract;
 * Bio::Perl;
@@ -25,13 +30,17 @@ If you do not use Docker, you will need to install perl modules. MetaErg require
 If you do not use Docker, you will need to install the following 3rd party dependencies and make sure they are on your system path:
 
 * [ARAGORN](http://mbio-serv2.mbioekol.lu.se/ARAGORN):  a program to detect tRNA genes and tmRNA genes in nucleotide sequences
-* [BLAST+ executables](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download): The Basic Local Alignment Search Tool (BLAST) finds regions of	local similarity between sequences.
+* [BLAST+ executables](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download): The Basic Local Alignment Search Tool (BLAST) finds regions of  local similarity between
+ sequences.
 * [DIAMOND](https://github.com/bbuchfink/diamond): a new high-throughput program for aligning DNA reads or protein sequences against a protein reference database
 * [Hmmer](http://hmmer.org): HMMER is used for searching sequence databases for sequence homologs, and for making sequence alignments.
-* [MinCED](https://github.com/ctSkennerton/minced): a program to find Clustered Regularly Interspaced Short Palindromic Repeats (CRISPRs) in full genomes or environmental datasets such as assembled contigs from metagenomes.
-* [MinPath](http://omics.informatics.indiana.edu/MinPath): a parsimony approach for biological pathway reconstructions using protein family predictions, achieving a more conservative, yet more faithful, estimation of the biological pathways for a query dataset.
+* [MinCED](https://github.com/ctSkennerton/minced): a program to find Clustered Regularly Interspaced Short Palindromic Repeats (CRISPRs) in full genomes or environmental datasets such as asse
+mbled contigs from metagenomes.
+* [MinPath](http://omics.informatics.indiana.edu/MinPath): a parsimony approach for biological pathway reconstructions using protein family predictions, achieving a more conservative, yet more
+ faithful, estimation of the biological pathways for a query dataset.
 * [Prodigal](https://github.com/hyattpd/Prodigal): Fast, reliable protein-coding gene prediction for prokaryotic genomes.
-* [SignalP](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp): The program predicts the presence of signal peptides and the location of their cleavage sites in proteins from Archaea, Gram-positive Bacteria, Gram-negative Bacteria and Eukarya.
+* [SignalP](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp): The program predicts the presence of signal peptides and the location of their cleavage sites in proteins from Archaea, Gram-
+positive Bacteria, Gram-negative Bacteria and Eukarya.
 * [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm): a method for predicting transmembrane helices based on a hidden Markov model
 
 # MetaErg reference DB
@@ -56,7 +65,8 @@ MetaErg databases were built based on the following publicly available databases
 * [RefSeq](https://www.ncbi.nlm.nih.gov/refseq/)
 
 # Running with docker
-The MetaErg docker image is hosted on the docker hub: https://hub.docker.com/r/xiaolidong/docker-metaerg. Due to licencing permissions, this image does not contain [SignalP](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp) and [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm). When running with docker image, "--sp --tm" options cannot be enabled.
+The MetaErg docker image is hosted on the docker hub: https://hub.docker.com/r/xiaolidong/docker-metaerg. Due to licencing permissions, this image does not contain [SignalP](http://www.cbs.dtu
+.dk/cgi-bin/nph-sw_request?signalp) and [TMHMM](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?tmhmm). When running with docker image, "--sp --tm" options cannot be enabled.
 ```
 # Get the Docker image
 docker pull xiaolidong/docker-metaerg
@@ -84,7 +94,8 @@ The functionality provided by MetaErg can be accessed through the help menu:
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --help
 ```
-Running MetaErg with the default parameters will output the final and intermediate results into a directory named metaerg.pl_ddmmyyyy. Without --dbdir option, MetaErg will look for the database directory "db" inside the metaerg directory
+Running MetaErg with the default parameters will output the final and intermediate results into a directory named metaerg.pl_ddmmyyyy. Without --dbdir option, MetaErg will look for the databas
+e directory "db" inside the metaerg directory
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --dbdir $home/db contig.fasta
 ```
@@ -92,12 +103,15 @@ Running MetaErg with user defined output directory and file names:
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --dbdir $home/db --outdir mydir --prefix mycontigs contig.fasta
 ```
-With a user provided "depth file", MetaErg can quantify the taxonomic, functional, and pathway compositions of multiple metagenomic samples. An example "depth file" is included in the "example" directory. The depth file was generated with the script "jgi_summarize_bam_contig_depths" from [MetaBat](https://bitbucket.org/berkeleylab/metabat) using BAM files. BAM files are created by aligning the reads of each metagenomic sample to the assembled contigs, using a program such as BBMap or bwa.
+With a user provided "depth file", MetaErg can quantify the taxonomic, functional, and pathway compositions of multiple metagenomic samples. An example "depth file" is included in the "example
+" directory. The depth file was generated with the script "jgi_summarize_bam_contig_depths" from [MetaBat](https://bitbucket.org/berkeleylab/metabat) using BAM files. BAM files are created by
+aligning the reads of each metagenomic sample to the assembled contigs, using a program such as BBMap or bwa.
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --dbdir $home/db --depth demo.depth.txt demo.fasta
 ```
 <!--
-With a user provided protein expression level profile, MetaErg can also quantify functional, pathway profiles based on actively expressed proteins. An example protein expression profile is also included in the "example" folder.
+With a user provided protein expression level profile, MetaErg can also quantify functional, pathway profiles based on actively expressed proteins. An example protein expression profile is als
+o included in the "example" folder.
 ```
 >perl $HOME/metaerg/bin/metaerg.pl --dbdir $home/db --plevel demo.proteomics.txt demo.fna
 ```
@@ -132,13 +146,16 @@ MetaErg writes the output files into a user defined or MetaErg autogenerated out
 | Output        | Description|
 |:--- |:--- |
 | \*.fna | Reformated and filtered fasta format input contig sequences |
-| data | A directory containing all the MetaErg generated annotation summary files in different formats. Although the files have different suffixes, they are all text files and can be opened in any text editor |
+| data | A directory containing all the MetaErg generated annotation summary files in different formats. Although the files have different suffixes, they are all text files and can be opened i
+n any text editor |
 | html | A directory containing all the HTML pages for various type of  HTML reports and visualizations |
 | images | A directory containing all the image files for the html reports such as logo, banner|
 | index.html | An interactive HTML summary report page, which links all the MetaErg annotations and visualizations together |
 | js | A directory containing all the required Javascript libraries for the interactive html reports |
 | style.css | A HTML style sheet, which controls the look of the html reports |
-| tmp | A dirctory containing all the MetaErg intermediate outputs. It is useful when MetaErg fails in the middle of the run. With this directory in place, when you restart metaerg using the exact same parameters, MetaErg will start from the place it failed.  After a MetaErg job finishes successfully, this directory can be deleted before you transfer the results to your local computers|
+| tmp | A dirctory containing all the MetaErg intermediate outputs. It is useful when MetaErg fails in the middle of the run. With this directory in place, when you restart metaerg using the e
+xact same parameters, MetaErg will start from the place it failed.  After a MetaErg job finishes successfully, this directory can be deleted before you transfer the results to your local compu
+ters|
 
 # MetaErg data directory file descriptions
 
