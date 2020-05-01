@@ -217,6 +217,12 @@ $cmd = "$^X $bin/output_reports.pl -g $datadir/all.gff -o $outdir -f $outdir/$pr
 
 runcmd("$cmd");
 msg("******Finish outputing report files\n\n");
+
+msg("Start creating result package");
+$cmd = "tar -cvzf $outdir.tar.gz $outdir --exclude=\'$outdir/tmp\'";
+runcmd("$cmd");
+msg("******Finish creating the result package\n\n");
+
 my $t1 = Benchmark->new;
 my $td = timediff($t1, $t0);
 
