@@ -19,12 +19,15 @@ my $URL = 'https://sourceforge.net/projects/rrnafinder/';
 
 
 
-my $bin = "$FindBin::RealBin";
+
 # . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 # command line options
 my(@Options, $quiet,$threads, $outdir, $evalue, $domain, $len, $identities, $coverage, $DBDIR);
 setOptions();
-my $rna_hmmdir = "$bin/../hmmrna";
+my $bin = "$FindBin::RealBin";
+$DBDIR ||= "$FindBin::RealBin/../db";
+
+my $rna_hmmdir = "$bin/../db/hmm/rna";
 if (! -e $outdir) {
     msg("Creating new output folder: $outdir");
     my $cmd = "mkdir -p \Q$outdir\E";
@@ -332,7 +335,7 @@ sub setOptions {
       {OPT=>"help",    VAR=>\&usage,             DESC=>"This help"},
       {OPT=>"version", VAR=>\&version,           DESC=>"Print version and exit"},
       {OPT=>"quiet!",  VAR=>\$quiet, DEFAULT=>0, DESC=>"No screen output"},
-      {OPT=>"dbdir=s",  VAR=>\$DBDIR, DEFAULT=>"./db", DESC=>"metaerg searching database directory"},
+      {OPT=>"dbdir=s",  VAR=>\$DBDIR, DEFAULT=>"", DESC=>"metaerg searching database directory"},
       
       {OPT=>"outdir=s",  VAR=>\$outdir, DEFAULT=>'.', DESC=>"Output folder [.]"},
       {OPT=>"threads=i",  VAR=>\$threads, DEFAULT=>8,  DESC=>"Number of threads/cores/CPUs to use"},
