@@ -463,14 +463,18 @@ sub predict_signal_peptide_parallel{
 	 my $cmd2 = "$signalp -verbose=false -org gram+ -format short -gff3 -tmp $outdir -prefix $fasta.signalp.gramp -fasta $fasta";
 	 my $thr1 = threads->new(\&runcmd, $cmd1);
 	 my $thr2 = threads->new(\&runcmd, $cmd2);
+	 $thr1->join();
+	 $thr2->join();
 	}
 	elsif($gtype eq "arc"){
 	    my $cmd4 = "$signalp -verbose=false -org arch -format short -gff3 -tmp $outdir -prefix $fasta.signalp.arch -fasta $fasta";
 	    my $thr4 = threads->new(\&runcmd, $cmd4);
+	    $thr4->join();
 	}
 	elsif($gtype eq "euk"){
 	    my $cmd3 = "$signalp -verbose=false -org euk  -format short -gff3 -tmp $outdir -prefix $fasta.signalp.euk -fasta $fasta";
 	    my $thr3 = threads->new(\&runcmd, $cmd3);
+	    $thr3->join();
 	}
 
     }
