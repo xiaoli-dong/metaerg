@@ -219,7 +219,7 @@ runcmd("$cmd");
 msg("******Finish outputing report files\n\n");
 
 msg("Start creating result package");
-$cmd = "tar -cvzf $outdir.tar.gz $outdir --exclude=\'$outdir/tmp\'";
+$cmd = "tar --exclude=\'$outdir/tmp\' -cvzf $outdir.tar.gz $outdir";
 runcmd("$cmd");
 msg("******Finish creating the result package\n\n");
 
