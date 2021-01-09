@@ -98,32 +98,12 @@ for my $sid (@seqArray) {
     }
 
 }
-
-# . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-# predicts the presence and location of signal peptide cleavage sites in amino acid sequences from different organisms:
-#Gram-positive prokaryotes, Gram-negative prokaryotes, and eukaryotes.
-#The method incorporates a prediction of cleavage sites and a signal peptide/non-signal peptide prediction
-#based on a combination of several artificial neural networks.
-
-my $cdsoutfn = "$outdir/signalp.faa";
-
-if($sp){
+if($sp || $tm){
     $t0 = Benchmark->new;
-    predict_signal_peptide_parallel("$outdir/cds.faa", \%seqHash, \@seqArray, $gtype);
+    predict_SP_and_TM("$outdir/cds.faa", \%seqHash, \@seqArray, $gtype);
     $t1 = Benchmark->new;
     $td = timediff($t1, $t0);
     msg("predict_signal_peptide took:" . timestr($td) . " to run\n");
-}
-
-# . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-# predict transmembrane helices based on a hidden Markov model on predicted CDs
-$cdsoutfn = "$outdir/tmhmm.faa";
-if($tm){
-    $t0 = Benchmark->new;
-    predict_TM("$outdir/cds.faa", \%seqHash, \@seqArray);
-    $t1 = Benchmark->new;
-    $td = timediff($t1, $t0);
-    msg("predict_TM took:" . timestr($td) . " to run\n");
 
 }
 
@@ -667,6 +647,124 @@ sub predict_TM{
 
     }
     close($TMHMM);
+}
+#----------------------------------------------------------------------
+## predict transmerbrane helices
+sub predict_SP_and_TM{
+
+    my ($fasta, $seqHash, $seqArray) = @_;
+
+    msg("Looking for signal peptide and transmembrane helices in the predicted proteins");
+    my %cds;
+
+    for my $sid (@$seqArray) {
+
+	for my $f (@{$seqHash->{$sid}{FEATURE}}){
+	    next unless $f->primary_tag eq "CDS";
+	    my ($id) = TAG($f, "ID");
+	    $cds{$id} = $f;
+	    #$cds{++$count} = $f;
+
+	}
+    }
+    
+    #my $cmd = "phobius.pl -short $fasta > $fasta.phobius;";
+    #my $cmd = "tmhmm --short 1  --workdir $outdir $fasta > $fasta.tmhmm.temp";
+    my $cmd = "$^X $bin/run_phobius.pl -c $cpus -d $outdir -f $fasta;";
+
+    if(! -e "$fasta.phobius"){
+	runcmd($cmd);
+    }
+    
+    open(PHOBIUS,"$fasta.phobius" ) or die "Could not open $fasta.phobius, $!\n";
+    #SEQENCE ID                     TM SP PREDICTION
+    #NODE_1_length_345883_cov_22.9161_cds_1  5  0 i9-27o33-51i63-96o108-126i133-157o
+    #NODE_1_length_345883_cov_22.9161_cds_2  0  0 o
+
+    my $tm_count = 0;
+    
+    while (<PHOBIUS>) {
+	chomp;
+	next if /^SEQENCE/;
+       	my @l = split(/\s+/, $_);
+	my $cdid = $l[0];
+	my $tm_num = $l[1];
+	my $is_sp = $l[2];
+	my $str=$l[3];
+	my ($sp_aa_topology, $tm_aa_topology) = $str =~ /(n\d+-\d+c\d+\/\d+)?(\S+)/; 
+	my $sp_nt_topology = "";
+	my $tm_nt_topology = "";
+	
+	my $f = $cds{ $cdid};
+	if(not defined $f){
+	    print STDERR "************************************* parent not exits id=$cdid, $_\n";
+	    next;
+	}
+	my $start = $f->start;
+	my $end = $f->end;
+	my $strand = $f->strand;
+	my $sid = $f->seq_id;
+	
+	if($is_sp eq "Y"){
+	    my($hs_aa, $he_aa, $cs_aa, $ce_aa) = $sp_aa_topology =~ /n(\d+)-(\d+)c(\d+)\/(\d+)/;
+	    my $hs_nt = $hs_aa*3-2;
+	    my $he_nt = $he_aa*3-2;
+	    my $cs_nt = $cs_aa*3-2;
+	    my $ce_nt = $ce_aa*3-2;
+	    $sp_nt_topology = "n" .$hs_nt ."-" .$he_nt ."c" . $cs_nt ."/" . $ce_nt;
+	    
+	    my $spfeature = Bio::SeqFeature::Generic->new(
+		-seq_id     => $sid,
+		-source_tag => "phobius",
+		-primary    => 'signal_peptide',
+		-start      => $start,
+		-end        => $end,
+		-score      => '.',
+		-strand     => $strand,
+		-frame      => '.'
+		);
+	    $spfeature->add_tag_value("ID","$cdid\_sp");
+	    $spfeature->add_tag_value("Parent",$cdid);
+	    $spfeature->add_tag_value("sp_topology", $sp_nt_topology);
+	    $f->add_tag_value("sp","YES");
+	    push @{$seqHash->{$sid}{FEATURE}}, $spfeature;
+	    $spfeature->add_tag_value("sp","YES");
+	}
+	if($tm_num > 0){
+	    my @nums = $tm_aa_topology =~ /(\d+)/g;
+	    my @chars = $tm_aa_topology =~ /(i|o+)/g;
+	    
+	    my $nc = 0;
+	    my $i = 0;
+	    while($i < @chars && $nc < @nums){
+		my $spos = $start + $nums[$nc++]*3-2-1;
+		my $epos = $start + $nums[$nc++]*3-1;
+		$tm_nt_topology .= $chars[$i++] . $spos . "-" . $epos;
+	    }
+	    $tm_nt_topology .= "$chars[$#chars]";
+	    
+	    
+	    my $tmhelix = Bio::SeqFeature::Generic->new(
+		-seq_id     => $sid,
+		-source_tag => "phobius",
+		-primary    => 'transmembrane_helix',
+		-start      => $start,
+		-end        => $end,
+		-score      => '.',
+		-strand     => $strand,
+		-frame      => '.'
+		
+		);
+	    $tmhelix->add_tag_value("ID","$cdid\_tm");
+	    $tmhelix->add_tag_value("Parent",$cdid);
+	    
+	    $tmhelix->add_tag_value("tm_topology", $tm_nt_topology);
+	    push @{$seqHash->{$sid}{FEATURE}}, $tmhelix;
+	    $f->add_tag_value("tm_num",$tm_num);
+	}
+
+    }
+    close(PHOBIUS);
 }
 
 #----------------------------------------------------------------------

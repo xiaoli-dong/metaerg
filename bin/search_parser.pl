@@ -96,7 +96,7 @@ sub parse_tblout_hmmsearch{
 	$qacc = "" unless defined $qacc;
 	next unless defined $qname;
 	
-	$qacc = $qacc ne ""   ? $qacc : $qname;
+	$qacc = $qacc =~ /\w+/   ? $qacc : $qname;
 	
 	for my $f (@{$seqHash->{$sid}{FEATURE}}){
 	    if(($f->get_tag_values("ID"))[0] eq $cid){

@@ -520,13 +520,15 @@ sub mapping_metabolic{
 	    next unless $f->primary_tag eq "CDS";
 	    if ($f->has_tag('metabolic_target')) {
 		my %metabolicfams = ();
+		#print STDERR "xiaoli********************************************\n";
 		for my $target ($f->get_tag_values('metabolic_target')){
 		    #print STDERR $target, "\n";
 		    if(my ($metabolicfamName, $score) = $target =~ /^db:\S+?\|(\S+?)\s+.*?score:(\S+)/){
+			#print STDERR "xiaoli if metabolicfamName=$metabolicfamName, score=$score********************************************\n";
 			if(exists $hmm2process{$metabolicfamName}){
 			    if(not exists $metabolicfams{$metabolicfamName} && exists $hmm2process{$metabolicfamName}){
 				my $cutoff_score = $hmm2process{$metabolicfamName}->{cutoff_score};
-            #print STDERR "$metabolicfamName\t$score\tcutoff=$cutoff_score\n";
+				print STDERR "$metabolicfamName\t$score\tcutoff=$cutoff_score\n";
 				if(($cutoff_score eq "-" || $cutoff_score <= $score)){
 				    $f->add_tag_value('metabolic_process',"compound:" . $hmm2process{$metabolicfamName}->{chemical} . ";process:" . $hmm2process{$metabolicfamName}->{process} . ";gene:". $hmm2process{$metabolicfamName}->{gene} . ";");
 				    #$f->add_tag_value('metabolic_process',"compound:" . $hmm2process{$metabolicfamName}->{chemical} . ";process:" . $hmm2process{$metabolicfamName}->{process} .  ";");
@@ -534,20 +536,20 @@ sub mapping_metabolic{
 				    $metabolicfams{$metabolicfamName}++;
 				}
 				else{
-               #print STDERR "************************remove $metabolicfamName\n";
+				    #print STDERR "************************1 remove $metabolicfamName\n";
 				    $f->remove_tag('metabolic_target') if $f->has_tag('metabolic_target');
 				}
 
 
 			    }
 			    else{
-				i#print STDERR "************************remove $metabolicfamName\n";
+				#print STDERR "************************2remove $metabolicfamName\n";
 				$f->remove_tag('metabolic_target') if $f->has_tag('metabolic_target');
 			    }
 
 			}
 			else{
-			    #print STDERR "************************remove $metabolicfamName\n";
+			    #print STDERR "************************3remove $metabolicfamName\n";
 			    $f->remove_tag('metabolic_target') if $f->has_tag('metabolic_target');
 			}
 

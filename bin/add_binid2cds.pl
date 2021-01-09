@@ -16,7 +16,7 @@ my ($bindir, $cds, $gff, $prefix);
     );
 
 ($bindir && $cds && $gff) ||
-    
+
     die "Name:\n".
     "  $0 0.1 by Xiaoli Dong <xdong\@ucalgary.ca>\n".
     "Synopsis:\n".
@@ -33,9 +33,9 @@ $prefix ||= "Bin";
 my %contig2bin = ();
 
 opendir(BINDIR, "$bindir") || die "Cannot opendir $bindir: $!\n";
-my @dirdata=grep {/$prefix\.\d+\.fa/} readdir(BINDIR);
+my @dirdata=grep {/$prefix\.\d+\.(fa|fasta)/} readdir(BINDIR);
 foreach my $fasta (@dirdata) {
-    my ($binid) = $fasta =~ /$prefix\.(\d+)\.fa/;
+    my ($binid) = $fasta =~ /$prefix\.(\d+)\.(fa|fasta)/;
     print STDERR "found binning file: $fasta\n";
     open (FASTA, "$bindir/$fasta")  || die "Could not open $bindir/$fasta file to read, $!\n";
     $/ = "\n>";
@@ -72,21 +72,21 @@ while(<CDS>){
 	my $fun = $2;
 	my $other = $3;
 	my $seq = $4;
-	
+
 	$fun =~ s/(^\s+|\s+$)//g;
 	$fun =~ s/\s+/_/g;
-	
+
 	my $contigid = $fid2contig{$fid};
 	my $binid = "unbinned";
 	$binid = $contig2bin{$contigid} if exists $contig2bin{$contigid};
-	
+
 	if($binid eq "unbinned"){
 	    print ">$binid\_$fid $fun $other\n";
 	}
 	else{
 	    print ">bin$binid\_$fid $fun $other\n";
 	}
-	
+
 	print "$seq\n";
     }
 }
