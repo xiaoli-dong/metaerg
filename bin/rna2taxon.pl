@@ -62,7 +62,7 @@ while(<BLAST_OUT>){
     my @hits = ();
     my $seq2taxon = "";
     foreach my $line (@lines){
-	next if $line =~ /^#|^\s+\d\.\d\.\d\+$/;
+   next if $line =~ /^#|^\s+\d+?\.\d+?\.\d+?\+$/;
 	push(@hits, $line);
     }
     if (@hits == 0){
@@ -76,7 +76,7 @@ while(<BLAST_OUT>){
     my $qlen = $best[1];
     my $cov = $best[8];
     my $iden = $best[9];
-    
+
     if( ($rnatype !~ /5S|5_8S/) && ($qlen < $length || $cov < $coverage || $iden < $level_cutoff{phylum})){
 	$seq2taxon = "$qid\t$rnatype\tunknown\t[RNA_target=db:$db|novalid]";
 	$taxon_ass{$qid} = $seq2taxon;
