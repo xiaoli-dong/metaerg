@@ -47,7 +47,7 @@ positive Bacteria, Gram-negative Bacteria and Eukarya.
 # MetaErg reference DB
 MetaErg requires external databases that need to be downloaded and unarchived
 ```
-# Retrieve the prebuilt database
+# Retrieve the prebuilt database (The current database were generated on Jan. 8, 2021)
 wget http://ebg.ucalgary.ca/metaerg/db.tar.gz -P $HOME
 tar -xvzf $HOME/db.tar.gz
 ```
