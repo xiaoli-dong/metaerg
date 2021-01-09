@@ -22,6 +22,7 @@ g perl modules to be installed:
 * DBD::SQLite
 * DBI;
 * File::Copy::Recursive
+* HTML::Entities
 * LWP::Protocol::https
 * SWISS::Entry;
 * SWISS::KW;
