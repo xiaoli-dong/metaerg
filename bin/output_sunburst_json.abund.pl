@@ -134,7 +134,12 @@ sub getKids{
     
     
     my $current_count = $terms->{$current}->{count};
-    my $current_count_pct = sprintf("%.2f", $current_count*100/$root_count);
+    
+    # Proposed change. Does this mess with the underlying logic?
+    my $current_count_pct = $root_count != 0 ? sprintf("%.2f", $current_count*100/$root_count) : 0;
+
+    # Original code. Throws IllegalDivisionByZero.
+    #my $current_count_pct = sprintf("%.2f", $current_count*100/$root_count);
 
     #my @kids = split (/\t/, $parent_kid->{$current});
     my @kids = keys %{$parent_kid->{$current}};
