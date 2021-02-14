@@ -20,18 +20,19 @@ use Data::Dumper;
 use File::Path qw(make_path remove_tree);
 
 
-my ($gff,$fasta);
+my ($gff,$fasta,$DBDIR);
 my $outdir = ".";
 my $bin = "$FindBin::RealBin";
 my $templatedir = "$bin/../template";
-my $sqlite_dir = "$bin/../db/sqlite3";
 my $EXE = $FindBin::RealScript;
 my $txtdir = "$bin/../txt";
 &GetOptions(
     "g=s" =>\$gff,
     "f=s" =>\$fasta,
-    "o=s" =>\$outdir
+    "o=s" =>\$outdir,
+	"db=s" => \$DBDIR
     );
+my $sqlite3_dir = "$DBDIR/sqlite3";
 
 ($gff && $fasta && $outdir) ||
     die "Name:\n".
@@ -56,7 +57,7 @@ else {
 }
 use DBI;
 my $dbh = DBI->connect(
-    "dbi:SQLite:dbname=$sqlite_dir/metaerg.db",
+    "dbi:SQLite:dbname=$sqlite3_dir/metaerg.db",
     "",
     "",
     { RaiseError => 1 },

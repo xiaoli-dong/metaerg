@@ -27,7 +27,7 @@ setOptions();
 my $bin = "$FindBin::RealBin";
 $DBDIR ||= "$FindBin::RealBin/../db";
 
-my $rna_hmmdir = "$bin/../db/hmm/rna";
+my $rna_hmmdir = "$DBDIR/hmm/rna";
 if (! -e $outdir) {
     msg("Creating new output folder: $outdir");
     my $cmd = "mkdir -p \Q$outdir\E";
